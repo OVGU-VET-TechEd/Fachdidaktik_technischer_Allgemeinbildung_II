@@ -18,7 +18,8 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 
 <!-- didaktik: Gesamt-Advance-Organizer · E-02, E-05, E-12 · Meta-Version: Planung/02_Advance_Organizer_Gesamt.md -->
 
-> **Leitfrage des Moduls:** Wie plane ich technischen Unterricht so, dass Lernende handelnd lernen – und wie begründe ich jede Entscheidung?
+> [!IMPORTANT] 🧭 Leitfrage des Moduls
+> Wie plane ich technischen Unterricht so, dass Lernende handelnd lernen – und wie begründe ich jede Entscheidung?
 
 Dieses Modul richtet sich an Studierende im Master of Education – Lehramt an berufsbildenden Schulen (gewerblich-technische Fachrichtungen) und Lehramt an Gymnasien (Technik).
 
@@ -63,17 +64,17 @@ Ordnen Sie die Sitzungsthemen den Entscheidungsfeldern zu. (Sie können das jetz
 | Sitzung | Thema | Leitfrage |
 | ------- | ----- | --------- |
 | [S01](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S01_Orientierung.md) | Orientierung: Technik · Methodenbegriff · Ordnungsrahmen | Was ist das Besondere an Technik – und wie ordne ich Unterricht? |
-| S02 | Unterrichtsmethoden unter dem logischen Aspekt | Wie organisiere ich den Erkenntnisweg? |
-| S03 | Handlungsorientierung | Warum sollen Lernende handeln? |
-| S04 | Tradierte Konzepte & Projektmethode | Wie lernen Lernende in Projekten? |
-| S05 | Kontrolle & Bewertung in Projekten · Fallstudie · Rollenspiel | Wie entscheiden und bewerten Lernende? |
-| S06 | Leittextmethode & technisches Experiment | Wie lernen Lernende selbstständig – und experimentell? |
-| S07 | Methodische Großformen | Wie hängen Großformen und logische Methoden zusammen? |
-| S08 | Didaktische Reduktion | Wie vereinfache ich – ohne falsch zu werden? |
-| S09 | Sozialformen & Aktionsformen | Wer arbeitet mit wem – und wer tut was? |
-| S10 | Medien & Unterrichtsentwurf (Berliner Modell) | Womit lernen sie – und wie plane ich eine Stunde? |
-| S11 | Lernerfolgskontrolle | Wie prüfe ich gerecht und aussagekräftig? |
-| S12 | PAL-Prüfungen & Synthese | Wie wird bundesweit geprüft – und was nehme ich mit? |
+| [S02](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S02_Logische_Methoden.md) | Unterrichtsmethoden unter dem logischen Aspekt | Wie organisiere ich den Erkenntnisweg? |
+| [S03](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S03_Handlungsorientierung.md) | Handlungsorientierung | Warum sollen Lernende handeln? |
+| [S04](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S04_Projektmethode.md) | Tradierte Konzepte & Projektmethode | Wie lernen Lernende in Projekten? |
+| [S05](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S05_Bewertung_Fallstudie_Rollenspiel.md) | Kontrolle & Bewertung in Projekten · Fallstudie · Rollenspiel | Wie entscheiden und bewerten Lernende? |
+| [S06](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S06_Leittext_Experiment.md) | Leittextmethode & technisches Experiment | Wie lernen Lernende selbstständig – und experimentell? |
+| [S07](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S07_Grossformen.md) | Methodische Großformen | Wie hängen Großformen und logische Methoden zusammen? |
+| [S08](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S08_Didaktische_Reduktion.md) | Didaktische Reduktion | Wie vereinfache ich – ohne falsch zu werden? |
+| [S09](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S09_Sozialformen_Aktionsformen.md) | Sozialformen & Aktionsformen | Wer arbeitet mit wem – und wer tut was? |
+| [S10](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S10_Medien_Berliner_Modell.md) | Medien & Unterrichtsentwurf (Berliner Modell) | Womit lernen sie – und wie plane ich eine Stunde? |
+| [S11](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S11_Lernerfolgskontrolle.md) | Lernerfolgskontrolle | Wie prüfe ich gerecht und aussagekräftig? |
+| [S12](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S12_PAL_Synthese.md) | PAL-Prüfungen & Synthese | Wie wird bundesweit geprüft – und was nehme ich mit? |
 
 ## Lernziele des Moduls
 

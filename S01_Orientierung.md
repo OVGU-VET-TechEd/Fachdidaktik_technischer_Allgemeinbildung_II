@@ -23,7 +23,8 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 
 <small>Quelle: Folie R001</small>
 
-> **Leitfrage des Moduls:** Wie plane ich technischen Unterricht so, dass Lernende handelnd lernen – und wie begründe ich jede Entscheidung?
+> [!IMPORTANT] 🧭 Leitfrage des Moduls
+> Wie plane ich technischen Unterricht so, dass Lernende handelnd lernen – und wie begründe ich jede Entscheidung?
 
 **Heute in drei Stationen**
 
@@ -45,7 +46,8 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 4. für einen Gegenstand Ihrer Fachrichtung die Zweck-Mittel-Relation **beschreiben**,
 5. Unterrichtsbegriffe den Kategorien **zuordnen** und die heutige Sitzung damit beschreiben.
 
-> **Vor der Sitzung (optional, 10 min):** Wählen Sie einen technischen Gegenstand aus Ihrer Fachrichtung (z. B. Dachstuhl, Elektromotor, Pumpe, Netzwerk-Switch) und notieren Sie, *wozu* er da ist und *womit* dieser Zweck erreicht wird. Sie brauchen das Beispiel in der Murmelgruppe.
+> [!TIP] 📚 Vor der Sitzung (optional, 10 min)
+> Wählen Sie einen technischen Gegenstand aus Ihrer Fachrichtung (z. B. Dachstuhl, Elektromotor, Pumpe, Netzwerk-Switch) und notieren Sie, *wozu* er da ist und *womit* dieser Zweck erreicht wird. Sie brauchen das Beispiel in der Murmelgruppe.
 
 📝 **Beuteblatt:** Gehen Sie heute auf Beutezug – halten Sie auf dem Beuteblatt fest, was Sie für Prüfung und eigenen Unterrichtsentwurf mitnehmen. Wir halten mehrmals an.
 
@@ -137,7 +139,8 @@ Das ganze Modul lässt sich als Folge von **Planungsentscheidungen** lesen. Die 
 
 <small>Quelle: Folien R003–R006 „1.1 Vergleich der Gegenstandsbereiche der Natur-, Technik- und Wirtschaftswissenschaften“ (auf dem Original über vier Folien schrittweise aufgebaut)</small>
 
-> **Denkanstoß:** Gehen Sie zurück zu Ihrer Murmelgruppe. Welche Ihrer drei Fragen zielt auf *Wahrheit*, welche auf *Richtigkeit und Zweckmäßigkeit*, welche auf *Wirtschaftlichkeit*?
+> [!TIP] 💭 Denkanstoß
+> Gehen Sie zurück zu Ihrer Murmelgruppe. Welche Ihrer drei Fragen zielt auf *Wahrheit*, welche auf *Richtigkeit und Zweckmäßigkeit*, welche auf *Wirtschaftlichkeit*?
 
 ### Wer lernt Technik? Ausbildungsberufe in Zahlen
 
@@ -168,7 +171,8 @@ Referenzjahr 2002 (Bertram & Bärbel 2002)
 
 <small>Quelle: Folie R007 „1.2 Quantitäten einiger ausgewählter Ausbildungsberufe“ – Werte wie im Original (dort mit Tausenderpunkt, z. B. 22.980). Was genau gezählt wurde, ist auf der Folie nicht angegeben.</small>
 
-> **Bedingungsfeld „anthropogene Voraussetzungen":** Fünf der elf Berufe sind gewerblich-technisch. Für welche dieser Berufe bilden *Sie* künftig aus – und was bringen diese Lernenden mit?
+> [!NOTE] 🧩 Bedingungsfeld „anthropogene Voraussetzungen"
+> Fünf der elf Berufe sind gewerblich-technisch. Für welche dieser Berufe bilden *Sie* künftig aus – und was bringen diese Lernenden mit?
 
 ### Aktivierung: Vergleichstabelle sichern
 
