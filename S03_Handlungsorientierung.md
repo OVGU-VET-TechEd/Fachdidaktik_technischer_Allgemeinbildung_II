@@ -17,7 +17,8 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 # S03 – Handlungsorientierung
 
 <!-- src: R040 -->
-<!-- didaktik: Planungsraster S03 · E-03, E-04, E-12, E-17, E-19, E-24 -->
+
+<!-- didaktik="Planungsraster S03 · E-03, E-04, E-12, E-17, E-19, E-24" -->
 
 **Das Konzept der Handlungsorientierung**
 
@@ -42,7 +43,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 
 ## Einstieg: Ist diese Vorlesung handlungsorientiert?
 
-<!-- didaktik: Lehrschritt provozieren · 0–5 min · Ergebnis der Vorbereitungsumfrage („Wer entscheidet?") zeigen -->
+<!-- didaktik="Lehrschritt provozieren · 0–5 min · Ergebnis der Vorbereitungsumfrage („Wer entscheidet?”) zeigen" -->
 
 > „Alle methodische Kunst liegt darin beschlossen, tote Sachverhalte in lebendige Handlungen rückzuverwandeln, aus denen sie entsprungen sind …" (Roth, 1976, S. 123)
 
@@ -56,7 +57,7 @@ Sie sitzen gerade in einer Vorlesung. Ist sie handlungsorientiert?
 
 ### Murmelgruppe: Ihre berufliche Tätigkeit
 
-<!-- didaktik: Lehrschritt Vorwissen aktivieren lassen · 5–10 min · Partnerarbeit -->
+<!-- didaktik="Lehrschritt Vorwissen aktivieren lassen · 5–10 min · Partnerarbeit" -->
 
 **Zu zweit (3 min):** Vergleichen Sie Ihre Schrittfolgen aus der Vorbereitung. Welche Schritte **planen**, welche **führen aus**, welche **prüfen**? Wo hatten Sie selbst etwas zu **entscheiden**?
 
@@ -64,7 +65,7 @@ Sie sitzen gerade in einer Vorlesung. Ist sie handlungsorientiert?
 
 ## Kurskarte: drei Begründungsebenen
 
-<!-- didaktik: Lehrschritt Ziele bekannt geben mit Advance Organizer · 10–15 min -->
+<!-- didaktik="Lehrschritt Ziele bekannt geben mit Advance Organizer · 10–15 min" -->
 
 ``` ascii
 +-----------------------------+     +-----------------------------+     +-----------------------------+
@@ -82,7 +83,8 @@ Sie sitzen gerade in einer Vorlesung. Ist sie handlungsorientiert?
 ## Station 1: Warum lernt man durch Handeln?
 
 <!-- src: R041-R042 -->
-<!-- didaktik: Lehrschritt informieren · 15–25 min -->
+
+<!-- didaktik="Lehrschritt informieren · 15–25 min" -->
 
 **Begründung der Handlungsorientierung**
 
@@ -105,7 +107,7 @@ Sie sitzen gerade in einer Vorlesung. Ist sie handlungsorientiert?
 
 ### Aktivierung: Wer sagt was?
 
-<!-- didaktik: Lehrschritt unterstützen · 25–30 min · Einzelarbeit -->
+<!-- didaktik="Lehrschritt unterstützen · 25–30 min · Einzelarbeit" -->
 
 Ordnen Sie die Kernaussagen den Autoren zu.
 
@@ -116,7 +118,8 @@ Ordnen Sie die Kernaussagen den Autoren zu.
 ### Psychologische Grundlagen
 
 <!-- src: R043 -->
-<!-- didaktik: Lehrschritt informieren · 30–42 min -->
+
+<!-- didaktik="Lehrschritt informieren · 30–42 min" -->
 
 **Handlung** = eine Aktivität mit den Merkmalen der **Zielgerichtetheit** und der **Bewusstheit**
 
@@ -212,7 +215,7 @@ Ordnen Sie die Kernaussagen den Autoren zu.
 
 ### Aktivierung: Handlungen zerlegen
 
-<!-- didaktik: Lehrschritt unterstützen/üben · 42–52 min · Partnerarbeit · Doppeldecker: eigene Tätigkeit analysieren -->
+<!-- didaktik="Lehrschritt unterstützen/üben · 42–52 min · Partnerarbeit · Doppeldecker: eigene Tätigkeit analysieren" -->
 
 **1. Gliedern (zu zweit):** Ordnen Sie das Übungsbeispiel *Elektroinstallation einer Küche* den Ebenen zu.
 
@@ -245,7 +248,8 @@ Bei einer fertigen Anleitung sind Ziel und Teilziele gesetzt (Richten), der Hand
 ### Was moderne Produktionsstrukturen verlangen
 
 <!-- src: R049 -->
-<!-- didaktik: Lehrschritt informieren · 52–62 min -->
+
+<!-- didaktik="Lehrschritt informieren · 52–62 min" -->
 
 **Bildungsrelevante Charakteristika moderner Produktionsstrukturen**
 
@@ -318,7 +322,7 @@ Hortsch, Hanno: Didaktik der Berufsbildung – Merkblätter zur Vorlesung, Dresd
 
 ### [NEU] Handlungsorientierung in aktuellen Didaktiken
 
-<!-- neu: Zinn 2026, S. 32 -->
+<!-- neu="Zinn 2026, S. 32" -->
 
 > [!NOTE] 🆕 [NEU]
 > Zinn (2026, S. 32) stellt die kritisch-konstruktive und die konstruktivistische Didaktik gegenüber. **Handlungsorientierung** erscheint in **beiden** – zusammen mit Schülerorientierung und Methodenoffenheit; die konstruktivistische Didaktik ergänzt die **kognitive Aktivierung**. Die Rolle der Lehrperson wird unterschiedlich beschrieben: als *Moderator:in kritischer Reflexion* (kritisch-konstruktiv) bzw. als *Strukturierer:in von Lernprozessen* mit unterstützender und kognitiv aktivierender Haltung (konstruktivistisch).
@@ -327,7 +331,7 @@ Hortsch, Hanno: Didaktik der Berufsbildung – Merkblätter zur Vorlesung, Dresd
 
 ### Aktivierung: Thesen-Check
 
-<!-- didaktik: Lehrschritt unterstützen · 62–67 min · Einzelarbeit -->
+<!-- didaktik="Lehrschritt unterstützen · 62–67 min · Einzelarbeit" -->
 
 Welche Aussagen treffen nach den Thesen und Merkmalen zu?
 
@@ -343,7 +347,7 @@ Falsch sind: „eine Methode" (HoU ist keine Methode, sondern ein Konzept – Th
 
 ## Wo stehen wir? Die Vorlesung auf dem Prüfstand
 
-<!-- didaktik: Lehrschritt üben lassen (Bewerten) · 67–77 min · Dreiergruppe · kritischer Doppeldecker -->
+<!-- didaktik="Lehrschritt üben lassen (Bewerten) · 67–77 min · Dreiergruppe · kritischer Doppeldecker" -->
 
 **Zu dritt (7 min):** Beurteilen Sie die heutige Vorlesung mit den fünf Merkmalen nach Bünning. Wo war sie handlungsorientiert, wo nicht?
 
@@ -363,7 +367,7 @@ Was müsste sich ändern – und wäre das in einer Vorlesung überhaupt möglic
 
 ### Baustein 3 für Ihren Unterrichtsentwurf (optional)
 
-<!-- didaktik: Lehrschritt üben lassen (Transfer) · 77–85 min · Think-pair -->
+<!-- didaktik="Lehrschritt üben lassen (Transfer) · 77–85 min · Think-pair" -->
 
 **Think-pair (8 min):** Entwerfen Sie für Ihr Entwurfsthema eine **Lernhandlung** nach der Grundstruktur menschlichen Handelns (These 9):
 
@@ -377,7 +381,7 @@ Welche **Selbständigkeitsstufe** (1–5) streben Sie an – und warum?
 
 ## Zum Mitnehmen
 
-<!-- didaktik: Lehrschritt festigen / Abschluss · 85–90 min -->
+<!-- didaktik="Lehrschritt festigen / Abschluss · 85–90 min" -->
 
 **Noch einmal:** Ist diese Vorlesung handlungsorientiert?
 
@@ -396,7 +400,7 @@ Welche **Selbständigkeitsstufe** (1–5) streben Sie an – und warum?
 
 ### Prüfungsfragen zum Üben
 
-<!-- didaktik: E-12 mündliche Prüfung -->
+<!-- didaktik="E-12 mündliche Prüfung" -->
 
 <small>Die Prüfungsfragen sind experimentell: Sie dienen der Vorbereitung, es ist nicht garantiert, dass Fragen in dieser Form gestellt werden.</small>
 

@@ -1,0 +1,25 @@
+id: fdtech2s08193c08aa
+createdBy: ovgu-vet-teched
+dateCreated: 1791747976681
+name: 'FD Technik II · S08 – Didaktische Reduktion'
+meta:
+  description: >-
+    Fachdidaktik technischer Allgemeinbildung II (OVGU) – Live-Classroom zur
+    Sitzung S08. Die LiaScript-Folien laufen im Classroom-Modus: Quiz- und
+    Umfrageantworten aller Teilnehmenden werden gemeinsam ausgewertet.
+  selfAssign: false
+  defaultNumberOfRooms: 0
+members:
+  teacher: []
+  student: []
+modules:
+  - url: https://edrys-labs.github.io/module-liascript/
+    config:
+      classroom: true
+      course: https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S08_Didaktische_Reduktion.md
+    studentConfig: ''
+    teacherConfig: ''
+    stationConfig: ''
+    showInCustom: lobby
+    width: full
+    height: huge

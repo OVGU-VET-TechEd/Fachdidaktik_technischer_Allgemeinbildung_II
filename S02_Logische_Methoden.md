@@ -16,7 +16,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 
 # S02 – Unterrichtsmethoden unter dem logischen Aspekt
 
-<!-- didaktik: Planungsraster S02 · E-03, E-04, E-12, E-17, E-19, E-22 -->
+<!-- didaktik="Planungsraster S02 · E-03, E-04, E-12, E-17, E-19, E-22" -->
 
 > [!IMPORTANT] 🧭 Leitfrage
 > Wie organisiere ich den **Erkenntnisweg**? – In S01 haben Sie gesehen: Unterrichtsmethoden im engeren Sinn lassen sich unter dem *logischen Aspekt* ordnen (Folie R012). Heute lernen Sie diese Methoden kennen – und erleben einige davon selbst.
@@ -37,7 +37,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 
 ## Einstieg: Regel zuerst?
 
-<!-- didaktik: Lehrschritt provozieren · 0–5 min · Ergebnis der Vorbereitungsumfrage zeigen -->
+<!-- didaktik="Lehrschritt provozieren · 0–5 min · Ergebnis der Vorbereitungsumfrage zeigen" -->
 
 > **„Regel zuerst ist effizienter – Selbst-Entdecken kostet im Unterricht nur Zeit."**
 
@@ -50,7 +50,7 @@ Stimmen Sie zu?
 
 ### Murmelgruppe: Ihre eigene Lernerfahrung
 
-<!-- didaktik: Lehrschritt Vorwissen aktivieren lassen · 5–10 min · Partnerarbeit -->
+<!-- didaktik="Lehrschritt Vorwissen aktivieren lassen · 5–10 min · Partnerarbeit" -->
 
 **Zu zweit (3 min):** Erinnern Sie sich an eine Stunde aus Schule oder Ausbildung: Wurde Ihnen eine Regel *vorgegeben* – oder haben Sie sie *selbst gefunden*? Was ist davon hängen geblieben?
 
@@ -59,7 +59,8 @@ Stimmen Sie zu?
 ## Kurskarte: sieben Wege zur Erkenntnis
 
 <!-- src: R013 -->
-<!-- didaktik: Lehrschritt Ziele bekannt geben mit Advance Organizer · 10–15 min -->
+
+<!-- didaktik="Lehrschritt Ziele bekannt geben mit Advance Organizer · 10–15 min" -->
 
 **Klassifikation von Methoden unter dem logischen Aspekt** (vgl. Diesterweg)
 
@@ -92,7 +93,8 @@ Stimmen Sie zu?
 ### Analytische Methode
 
 <!-- src: R014 -->
-<!-- didaktik: Lehrschritt informieren · 15–25 min -->
+
+<!-- didaktik="Lehrschritt informieren · 15–25 min" -->
 
 - Analysieren (anhand eines Ordnungsprinzips) der Gesamterscheinung
 - Erkennen des Wesens aus dem Ganzen durch heraus gelöste Teile
@@ -157,7 +159,7 @@ Untersuchen, wie Wind-, Schnee- und Eigenlast durch Dachkonstruktion aufgenommen
 
 ### Aktivierung: Dächer zusammensetzen
 
-<!-- didaktik: Lehrschritt unterstützen · 25–30 min · Partnerarbeit · Doppeldecker: synthetisch -->
+<!-- didaktik="Lehrschritt unterstützen · 25–30 min · Partnerarbeit · Doppeldecker: synthetisch" -->
 
 **Zu zweit (5 min):** Setzen Sie aus den Merkmalen die beiden Dachkonstruktionen zusammen.
 
@@ -177,7 +179,8 @@ Synthese = Zusammenfügen einer Anzahl von Teilen zu einem Ganzen (R017). Die An
 ### Selbst entdecken: der Zugversuch
 
 <!-- src: R025 -->
-<!-- didaktik: Lehrschritt unterstützen/üben · 30–40 min · Partnerarbeit · Doppeldecker: induktiv – Regel NICHT vorher nennen -->
+
+<!-- didaktik="Lehrschritt unterstützen/üben · 30–40 min · Partnerarbeit · Doppeldecker: induktiv – Regel NICHT vorher nennen" -->
 
 **Beispiel:** HOOKE'sches Gesetz für das elastische Verhalten von Stahl
 
@@ -232,7 +235,8 @@ Genau so arbeitet die induktive Methode: vom einzelnen Fall (Messwerte) über di
 ### Induktive Methode
 
 <!-- src: R024 -->
-<!-- didaktik: Lehrschritt informieren · 40–50 min · Rückbezug auf die eben gefundene Regel -->
+
+<!-- didaktik="Lehrschritt informieren · 40–50 min · Rückbezug auf die eben gefundene Regel" -->
 
 - Vom Besonderen zum Allgemeinen
 - Vom Konkreten zum Abstrakten
@@ -263,7 +267,8 @@ So geht das Beispiel weiter (Schritt 1 haben Sie eben selbst gemacht):
 ### Deduktive Methode
 
 <!-- src: R020 -->
-<!-- didaktik: Doppeldecker – dieser Abschnitt ist selbst deduktiv aufgebaut: erst Regel, dann Interpretation, dann Anwendung -->
+
+<!-- didaktik="Doppeldecker – dieser Abschnitt ist selbst deduktiv aufgebaut: erst Regel, dann Interpretation, dann Anwendung" -->
 
 **Die Regel zuerst:**
 
@@ -327,7 +332,7 @@ $$\ce{Ca(OH)2 + H2CO3 -> CaCO3 + 2 H2O}$$
 
 ### [NEU] Wie sicher ist ein Schluss?
 
-<!-- neu: Dilling 2024, S. 38–39, 43–44 -->
+<!-- neu="Dilling 2024, S. 38–39, 43–44" -->
 
 > [!NOTE] 🆕 [NEU]
 > Dilling (2024) unterscheidet die beiden Schlussweisen nach ihrer **Sicherheit**:
@@ -348,7 +353,7 @@ Schritt 4 prüft die induktiv gewonnene Regel an weiteren Fällen. Genau hier se
 
 ### Aktivierung: die Schlusskette ordnen
 
-<!-- didaktik: Lehrschritt üben · 50–55 min · Einzelarbeit · Beuteblatt-Stopp -->
+<!-- didaktik="Lehrschritt üben · 50–55 min · Einzelarbeit · Beuteblatt-Stopp" -->
 
 Bringen Sie die Schritte der deduktiven Kette in die richtige Reihenfolge:
 
@@ -361,7 +366,8 @@ Bringen Sie die Schritte der deduktiven Kette in die richtige Reihenfolge:
 ### Genetische Methode
 
 <!-- src: R028-R029 -->
-<!-- didaktik: Lehrschritt informieren · 55–62 min -->
+
+<!-- didaktik="Lehrschritt informieren · 55–62 min" -->
 
 - Wesen in Entwicklung von Lernobjekten zu bestimmten Themen
 - Vom Einfachen zum Komplizierten auf Basis eines Leitgedanken
@@ -403,7 +409,7 @@ Bringen Sie die Schritte der deduktiven Kette in die richtige Reihenfolge:
 
 ### Aktivierung: gleicher Gegenstand, zwei Methoden
 
-<!-- didaktik: Lehrschritt unterstützen · 62–65 min -->
+<!-- didaktik="Lehrschritt unterstützen · 62–65 min" -->
 
 [[genetisch] [historisch]]
 [    (X)          ( )    ] Spannbeton wird über seine Fertigung erklärt – vom Aufbringen der Vorspannung her.
@@ -418,7 +424,7 @@ Beide Methoden folgen einer Entwicklung. Die **genetische** Methode folgt dem We
 
 ### Ein Fall zum Einstieg
 
-<!-- didaktik: Lehrschritt provozieren (Mikro-Zyklus) · 65–68 min · Murmelgruppe zu dritt -->
+<!-- didaktik="Lehrschritt provozieren (Mikro-Zyklus) · 65–68 min · Murmelgruppe zu dritt" -->
 
 > **Das Radio hört auf zu spielen.**
 
@@ -429,7 +435,8 @@ Beide Methoden folgen einer Entwicklung. Die **genetische** Methode folgt dem We
 ### Reduktive Methode
 
 <!-- src: R032-R033 -->
-<!-- didaktik: Lehrschritt informieren · 68–73 min -->
+
+<!-- didaktik="Lehrschritt informieren · 68–73 min" -->
 
 - Nicht wahrheitserblich
 - Es soll auf vorhandene oder zu schaffende Struktur geschlossen werden
@@ -460,7 +467,7 @@ Aus der Hypothese („Wohnungssicherung durchgebrannt") wird eine prüfbare Auss
 
 ## Wo stehen wir? Beispiel und Methode
 
-<!-- didaktik: Lehrschritt üben lassen / integrierendes Verbinden · 75–85 min · Doppeldecker -->
+<!-- didaktik="Lehrschritt üben lassen / integrierendes Verbinden · 75–85 min · Doppeldecker" -->
 
 **Allein (4 min):** Welche Methode steckt in welchem Beispiel der Folien?
 
@@ -490,7 +497,7 @@ Dach – analytisch (R014) · Beton – deduktiv (R021–R022) · HOOKE – indu
 
 ## Zum Mitnehmen
 
-<!-- didaktik: Lehrschritt festigen / Abschluss · 85–90 min -->
+<!-- didaktik="Lehrschritt festigen / Abschluss · 85–90 min" -->
 
 **Noch einmal:** „Regel zuerst ist effizienter – Selbst-Entdecken kostet im Unterricht nur Zeit." – Stimmen Sie jetzt zu?
 
@@ -507,7 +514,7 @@ Dach – analytisch (R014) · Beton – deduktiv (R021–R022) · HOOKE – indu
 
 ### Prüfungsfragen zum Üben
 
-<!-- didaktik: E-12 mündliche Prüfung -->
+<!-- didaktik="E-12 mündliche Prüfung" -->
 
 <small>Die Prüfungsfragen sind experimentell: Sie dienen der Vorbereitung, es ist nicht garantiert, dass Fragen in dieser Form gestellt werden.</small>
 

@@ -16,7 +16,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 
 # Kursüberblick
 
-<!-- didaktik: Gesamt-Advance-Organizer · E-02, E-05, E-12 · Meta-Version: Planung/02_Advance_Organizer_Gesamt.md -->
+<!-- didaktik="Gesamt-Advance-Organizer · E-02, E-05, E-12 · Meta-Version: Planung/02_Advance_Organizer_Gesamt.md" -->
 
 > [!IMPORTANT] 🧭 Leitfrage des Moduls
 > Wie plane ich technischen Unterricht so, dass Lernende handelnd lernen – und wie begründe ich jede Entscheidung?

@@ -15,7 +15,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 
 # S09 – Sozialformen & Aktionsformen (Selbstlerneinheit)
 
-<!-- didaktik: Selbstlerneinheit S09 · ca. 55 min · nur Quellen aus S09 -->
+<!-- didaktik="Selbstlerneinheit S09 · ca. 55 min · nur Quellen aus S09" -->
 
 > [!IMPORTANT] 🧭 Leitfrage
 > Wie wähle ich Sozial- und Aktionsformen so, dass nicht nur die Oberfläche abwechslungsreich ist, sondern die Lernenden wirklich denken?
@@ -61,7 +61,7 @@ Ich kann begründen, warum eine Sozialform allein noch nichts über die Qualitä
 
 ## 1 · Gruppenarbeit planen
 
-<!-- didaktik: ca. 12 min -->
+<!-- didaktik="ca. 12 min" -->
 
 | | Gruppen haben **gleiche** Aufgaben | Gruppen haben **verschiedene** Aufgaben |
 | --- | --- | --- |
@@ -87,7 +87,7 @@ Ich kann begründen, warum eine Sozialform allein noch nichts über die Qualitä
 
 ## 2 · Aktionsformen und selbstständige Schülerarbeit
 
-<!-- didaktik: ca. 10 min -->
+<!-- didaktik="ca. 10 min" -->
 
 | darbietend | selbstständig | erarbeitend |
 | --- | --- | --- |
@@ -106,7 +106,7 @@ Allein zu arbeiten reicht nicht. Es braucht eine Aufgabe, die Lösungswege offen
 
 ## 3 · Oberfläche und Tiefe: eine Stunde analysieren
 
-<!-- didaktik: ca. 15 min -->
+<!-- didaktik="ca. 15 min" -->
 
 > **Stunde A:** Gruppenarbeit, Stationenlernen, drei Medien, Abschlusspräsentation. Die Aufgaben sind reine Abschreibaufträge aus dem Lehrbuch; zwei Gruppen sind nach zehn Minuten fertig und unterhalten sich. Bei Fragen sagt die Lehrkraft: „Steht doch im Buch.“
 >
@@ -135,7 +135,7 @@ Stunde A sieht an der Oberfläche abwechslungsreich aus, ist aber in allen drei 
 
 ## 4 · Vom Vormachen zum Selbermachen planen
 
-<!-- didaktik: ca. 10 min -->
+<!-- didaktik="ca. 10 min" -->
 
 **Cognitive Apprenticeship** (Zinn 2026, S. 271): Modeling → Coaching → Scaffolding → Fading → Articulation → Reflection → Exploration.
 

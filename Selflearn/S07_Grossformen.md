@@ -15,7 +15,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 
 # S07 – Methodische Großformen (Selbstlerneinheit)
 
-<!-- didaktik: Selbstlerneinheit S07 · ca. 55 min · nur Quellen aus S07 -->
+<!-- didaktik="Selbstlerneinheit S07 · ca. 55 min · nur Quellen aus S07" -->
 
 > [!IMPORTANT] 🧭 Leitfrage
 > Welche Großform passt zu welcher beruflichen Situation – und wie gestalte ich sie aus?
@@ -60,7 +60,7 @@ Ich kann für eine Aufgabe aus meinem Beruf eine passende Großform ausgestalten
 
 ## 1 · Großformen erkennen
 
-<!-- didaktik: ca. 12 min -->
+<!-- didaktik="ca. 12 min" -->
 
 | Akzent | Großformen (nach Pahl, S07) |
 | --- | --- |
@@ -86,7 +86,7 @@ Diagnose: Zustand identifizieren, Signale verfolgen, Fehler eingrenzen. Fertigun
 
 ## 2 · Analyse oder Aufgabe? Ein Gegenstand, zwei Großformen
 
-<!-- didaktik: ca. 12 min -->
+<!-- didaktik="ca. 12 min" -->
 
 Instandsetzung und Konstruktion kommen in S07 doppelt vor – einmal **analytisch** (etwas bereits Durchgeführtes untersuchen), einmal **synthetisch** (selbst durchführen).
 
@@ -107,7 +107,7 @@ Analyseformen: „nachvollziehendes Analysieren einer durchgeführten Konstrukti
 
 ## 3 · Eine Großform ausgestalten
 
-<!-- didaktik: ca. 20 min -->
+<!-- didaktik="ca. 20 min" -->
 
 **Beispiel: Diagnoseaufgabe „Licht im Flur geht nicht“** (Elektrotechnik, 1. Ausbildungsjahr)
 

@@ -1,0 +1,25 @@
+id: fdtech2s027537a8f5
+createdBy: ovgu-vet-teched
+dateCreated: 1791747976680
+name: 'FD Technik II · S02 – Unterrichtsmethoden unter dem logischen Aspekt'
+meta:
+  description: >-
+    Fachdidaktik technischer Allgemeinbildung II (OVGU) – Live-Classroom zur
+    Sitzung S02. Die LiaScript-Folien laufen im Classroom-Modus: Quiz- und
+    Umfrageantworten aller Teilnehmenden werden gemeinsam ausgewertet.
+  selfAssign: false
+  defaultNumberOfRooms: 0
+members:
+  teacher: []
+  student: []
+modules:
+  - url: https://edrys-labs.github.io/module-liascript/
+    config:
+      classroom: true
+      course: https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S02_Logische_Methoden.md
+    studentConfig: ''
+    teacherConfig: ''
+    stationConfig: ''
+    showInCustom: lobby
+    width: full
+    height: huge

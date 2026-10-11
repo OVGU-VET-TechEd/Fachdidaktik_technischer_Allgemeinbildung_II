@@ -16,7 +16,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 
 # S11 – Lernerfolgskontrolle & Testgütekriterien
 
-<!-- didaktik: Planungsraster S11 · E-03, E-04, E-09, E-12, E-17, E-19, E-23, E-27, E-33, E-35 -->
+<!-- didaktik="Planungsraster S11 · E-03, E-04, E-09, E-12, E-17, E-19, E-23, E-27, E-33, E-35" -->
 
 > [!IMPORTANT] 🧭 Leitfrage
 > Haben sie es gelernt – und woher wissen wir das? – Heute prüfen wir das Prüfen. Auch Ihre eigene Modulprüfung.
@@ -37,7 +37,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 
 ## Einstieg: Ist eine mündliche Prüfung objektiv?
 
-<!-- didaktik: Lehrschritt provozieren · 0–5 min · Ergebnis der Vorbereitungsumfrage zeigen; Bezug: mündliche Modulprüfung BBS -->
+<!-- didaktik="Lehrschritt provozieren · 0–5 min · Ergebnis der Vorbereitungsumfrage zeigen; Bezug: mündliche Modulprüfung BBS" -->
 
 Sie haben in der Vorbereitung abgestimmt. Sie alle werden dieses Modul **mündlich** abschließen. Noch einmal, jetzt mit diesem Wissen:
 
@@ -50,7 +50,7 @@ Ist eine mündliche Prüfung objektiv?
 
 ### Bewertungsexperiment: Sie sind die Prüfenden
 
-<!-- didaktik: Lehrschritt Vorwissen aktivieren lassen (Erleben) · 5–10 min · Einzelarbeit · NICHT auflösen – Auflösung nach Station 2 (52–55 min). Zuteilung: Geburtsmonat ungerade = A, gerade = B. Im Hörsaal nur die jeweilige Version zeigen bzw. bitten, nur die eigene zu lesen. Persona-Review P3: Bei 10–15 Personen kann der Unterschied klein ausfallen oder fehlen – dann trotzdem mit R180 diskutieren (Studien zeigen den Effekt über viele Bewertungen, nicht in jeder Kleingruppe). -->
+<!-- didaktik="Lehrschritt Vorwissen aktivieren lassen (Erleben) · 5–10 min · Einzelarbeit · NICHT auflösen – Auflösung nach Station 2 (52–55 min). Zuteilung: Geburtsmonat ungerade = A, gerade = B. Im Hörsaal nur die jeweilige Version zeigen bzw. bitten, nur die eigene zu lesen. Persona-Review P3: Bei 10–15 Personen kann der Unterschied klein ausfallen oder fehlen – dann trotzdem mit R180 diskutieren (Studien zeigen den Effekt über viele Bewertungen, nicht in jeder Kleingruppe)." -->
 
 **Aufgabe aus S10:** „Nennen Sie die drei Funktionen von Medien und geben Sie je ein Beispiel."
 **Erwartungshorizont:** je Funktion 1 Punkt, je passendes Beispiel 1 Punkt – höchstens 6 Punkte.
@@ -89,7 +89,7 @@ Ihre Punkte für Antwort B:
 
 ## Kurskarte: Ziel und Kontrolle gehören zusammen
 
-<!-- didaktik: Lehrschritt Ziele bekannt geben mit Advance Organizer · 10–15 min -->
+<!-- didaktik="Lehrschritt Ziele bekannt geben mit Advance Organizer · 10–15 min" -->
 
 --{{0}}--
 Jede Sitzung beginnt mit Lernzielen (vgl. S01). Heute fragen wir: Woher wissen wir, ob sie erreicht wurden? Wir gehen in vier Stationen vor – Lernziel und Lernkontrolle, Test und Gütekriterien, Kontrollfehler und schließlich die passenden Aufforderungen für jeden Lernzielbereich.
@@ -112,7 +112,8 @@ Jede Sitzung beginnt mit Lernzielen (vgl. S01). Heute fragen wir: Woher wissen w
 ## Station 1: Lernziel und Lernkontrolle
 
 <!-- src: R169 -->
-<!-- didaktik: Lehrschritt informieren · 15–25 min -->
+
+<!-- didaktik="Lehrschritt informieren · 15–25 min" -->
 
 --{{0}}--
 Die erste Station beginnt mit einem Grundsatz, der banal klingt und doch oft verletzt wird.
@@ -177,7 +178,7 @@ Konventionelle Prüfungen sind mündlich oder schriftlich, und beide können han
 
 ### Aktivierung: Darf das geprüft werden?
 
-<!-- didaktik: Lehrschritt unterstützen · 25–30 min · Einzelarbeit, dann Zuruf zur mitgebrachten Aufgabe -->
+<!-- didaktik="Lehrschritt unterstützen · 25–30 min · Einzelarbeit, dann Zuruf zur mitgebrachten Aufgabe" -->
 
 Im Unterricht wurde das Ohm'sche Gesetz **genannt und an einem Beispiel vorgerechnet** (Stufe Wissen). In der Klassenarbeit sollen die Lernenden einen **Fehler in einer unbekannten Schaltung finden** (Problemlösen). Ist das nach R170 zulässig?
 
@@ -194,7 +195,7 @@ Nach R170 dürfen Inhalte, die auf der Stufe des Wissens vermittelt wurden, auch
 
 ## Station 2: Test und Gütekriterien
 
-<!-- didaktik: Lehrschritt informieren · 30–42 min -->
+<!-- didaktik="Lehrschritt informieren · 30–42 min" -->
 
 --{{0}}--
 Was unterscheidet einen Test von einer gewöhnlichen Klassenarbeit? Er ist nach testtheoretischen Kriterien abgesichert – den drei Gütekriterien.
@@ -294,7 +295,7 @@ Objektiv ist ein Test, wenn sein Ergebnis unabhängig von der Person ist, die ih
 
 ### [NEU] Norm oder Kriterium? Bezugsnormen
 
-<!-- neu: Zinn 2026, S. 217 -->
+<!-- neu="Zinn 2026, S. 217" -->
 
 --{{0}}--
 Was heißt normorientiert und kriteriumsorientiert? Zinn hilft mit den Bezugsnormen, als NEU markiert. Bei der sozialen Bezugsnorm wird mit der Klasse verglichen, bei der individuellen mit dem eigenen früheren Stand, bei der kriterialen mit einem vorher festgelegten Standard. Dazu gibt Zinn praktische Hinweise, wie man die Gütekriterien im Schulalltag sichert – etwa mit einem Erwartungshorizont, den die Lernenden vorab kennen.
@@ -310,7 +311,7 @@ Was heißt normorientiert und kriteriumsorientiert? Zinn hilft mit den Bezugsnor
 >
 > <small>Die Zuordnung „≈“ zu R178 ist eine Lesehilfe.</small>
 
-<!-- neu: Zinn 2026, S. 217–219 -->
+<!-- neu="Zinn 2026, S. 217–219" -->
 
 > [!NOTE] 🆕 [NEU] Gütekriterien in der Schulpraxis (Zinn 2026, S. 218–219, nach Moosbrugger & Kelava 2020)
 >
@@ -321,7 +322,7 @@ Was heißt normorientiert und kriteriumsorientiert? Zinn hilft mit den Bezugsnor
 
 ### Aktivierung: Welches Gütekriterium ist verletzt?
 
-<!-- didaktik: Lehrschritt üben (Bewerten) · 42–52 min · Matrix allein 4 min, dann Paar mit der mitgebrachten Aufgabe 6 min -->
+<!-- didaktik="Lehrschritt üben (Bewerten) · 42–52 min · Matrix allein 4 min, dann Paar mit der mitgebrachten Aufgabe 6 min" -->
 
 [[Validität] [Reliabilität] [Objektivität]]
 [    (X)          ( )            ( )     ] Eine Aufgabe zum Fachwissen Statik ist so lang formuliert, dass vor allem gute Leser sie lösen.
@@ -339,7 +340,7 @@ Validität: misst der Test, was er messen soll – und spiegelt er die Schwerpun
 
 ### Auflösung des Experiments
 
-<!-- didaktik: Lehrschritt problematisieren · 52–55 min · Umfrageergebnisse A und B nebeneinander zeigen -->
+<!-- didaktik="Lehrschritt problematisieren · 52–55 min · Umfrageergebnisse A und B nebeneinander zeigen" -->
 
 Antwort A und Antwort B hatten **denselben Inhalt** – alle drei Funktionen und drei passende Beispiele, also nach Erwartungshorizont je 6 Punkte. B war nur unsauber geschrieben.
 
@@ -349,7 +350,7 @@ Antwort A und Antwort B hatten **denselben Inhalt** – alle drei Funktionen und
 
 ## Station 3: Kontrollfehler
 
-<!-- didaktik: Lehrschritt informieren · 55–65 min -->
+<!-- didaktik="Lehrschritt informieren · 55–65 min" -->
 
 --{{0}}--
 Auch wer die Gütekriterien kennt, bewertet nicht fehlerfrei. Die dritte Station beschreibt drei typische Kontrollfehler – und einen davon haben Sie zu Beginn der Sitzung erlebt.
@@ -370,7 +371,7 @@ Beim Korrigieren vieler Arbeiten neigt man dazu, die ersten strenger zu bewerten
 
 <small>Quelle: Folie R179 „10.7 Kontrollfehler“ – „der Gewöhnung aus“ zu „der Gewöhnung ein“ korrigiert; die genannte Untersuchung ist auf der Folie nicht belegt, und was „8 von 10“ bedeutet, bleibt offen (Z-22).</small>
 
-<!-- didaktik: „8 von 10“ nicht deuten oder erklären – Quelle ungeklärt (Z-22); im Vortrag als offene Frage benennen -->
+<!-- didaktik="„8 von 10“ nicht deuten oder erklären – Quelle ungeklärt (Z-22); im Vortrag als offene Frage benennen" -->
 
 ### Hof-Effekt
 
@@ -405,7 +406,7 @@ Beim Erwartungs-Effekt bringt die prüfende Person aufgrund von Vorinformationen
 
 ### Aktivierung: Welcher Kontrollfehler?
 
-<!-- didaktik: Lehrschritt üben · 65–68 min · Einzelarbeit -->
+<!-- didaktik="Lehrschritt üben · 65–68 min · Einzelarbeit" -->
 
 [[Reihenfolge-Effekt] [Hof-Effekt] [Erwartungs-Effekt]]
 [        (X)              ( )             ( )          ] Die ersten fünf Arbeiten des Stapels werden strenger bewertet als die letzten.
@@ -418,7 +419,7 @@ Reihenfolge-Effekt: Gewöhnung beim Korrigieren (R179). Hof-Effekt: das Umfeld d
 
 ## Station 4: Didaktische Aufforderungen nach Lernzielbereichen
 
-<!-- didaktik: Lehrschritt informieren · 68–76 min -->
+<!-- didaktik="Lehrschritt informieren · 68–76 min" -->
 
 <!-- src: R182 -->
 
@@ -458,7 +459,7 @@ Zum Schluss: Wie formuliere ich Aufgaben so, dass sie zum Lernziel passen? Die F
 
 ### [NEU] Operatoren und Anforderungsbereiche
 
-<!-- neu: Zinn 2026, S. 70–73 -->
+<!-- neu="Zinn 2026, S. 70–73" -->
 
 --{{0}}--
 Zinn ergänzt das, als NEU markiert: Solche handlungsleitenden Verben heißen Operatoren; sie machen die Verhaltenskomponente eines Lernziels beobachtbar. Für die Prüfung im Fach Technik werden drei Anforderungsbereiche unterschieden: Reproduktion, Reorganisation und Transfer sowie Bewertung und Problemlösung – am Beispiel des Spannungs-Dehnungs-Diagramms, das Sie aus S02 kennen.
@@ -480,13 +481,13 @@ Zinn ergänzt das, als NEU markiert: Solche handlungsleitenden Verben heißen Op
 
 ### Aktivierung: Welcher Lernzielbereich?
 
-<!-- didaktik: Lehrschritt üben · 76–79 min · Einzelarbeit -->
+<!-- didaktik="Lehrschritt üben · 76–79 min · Einzelarbeit" -->
 
 @dragdropsort(@uid,kognitiv;Nennen Sie;Berechnen Sie;Klassifizieren Sie;Entwickeln Sie;Prüfen Sie|affektiv;Berücksichtigen Sie;Beteiligen Sie sich an;Setzen Sie sich für ... ein;Finden Sie Beurteilungsmaßstäbe für|psychomotorisch;Messen Sie;Zeichnen Sie)
 
 ## Wo stehen wir? Baustein 11: Ihre Kontrollaufgabe (optional)
 
-<!-- didaktik: Lehrschritt üben lassen (Transfer) · 79–85 min · Think-pair · Doppeldecker: Partner prüft auf Validität -->
+<!-- didaktik="Lehrschritt üben lassen (Transfer) · 79–85 min · Think-pair · Doppeldecker: Partner prüft auf Validität" -->
 
 ### Baustein 11 für Ihren Unterrichtsentwurf (optional)
 
@@ -509,7 +510,7 @@ Zinn ergänzt das, als NEU markiert: Solche handlungsleitenden Verben heißen Op
 
 ## Zum Mitnehmen
 
-<!-- didaktik: Lehrschritt festigen / Abschluss · 85–90 min -->
+<!-- didaktik="Lehrschritt festigen / Abschluss · 85–90 min" -->
 
 **Muddiest point:** Was ist Ihnen heute am unklarsten geblieben?
 
@@ -522,7 +523,7 @@ Zinn ergänzt das, als NEU markiert: Solche handlungsleitenden Verben heißen Op
 
 ### Prüfungsfragen zum Üben
 
-<!-- didaktik: E-12 mündliche Prüfung -->
+<!-- didaktik="E-12 mündliche Prüfung" -->
 
 <small>Die Prüfungsfragen sind experimentell: Sie dienen der Vorbereitung, es ist nicht garantiert, dass Fragen in dieser Form gestellt werden.</small>
 

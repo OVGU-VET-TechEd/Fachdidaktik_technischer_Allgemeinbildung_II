@@ -17,7 +17,8 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 # S01 – Orientierung
 
 <!-- src: R001 -->
-<!-- didaktik: Planungsraster S01 · E-02, E-03, E-04, E-12, E-13 -->
+
+<!-- didaktik="Planungsraster S01 · E-02, E-03, E-04, E-12, E-13" -->
 
 **Fachdidaktik technischer Allgemeinbildung II / Fachdidaktik gewerblich-technischer Fachrichtungen**
 
@@ -47,13 +48,13 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 5. Unterrichtsbegriffe den Kategorien **zuordnen** und die heutige Sitzung damit beschreiben.
 
 > [!TIP] 📚 Vor der Sitzung (optional, 10 min)
-> Wählen Sie einen technischen Gegenstand aus Ihrer Fachrichtung (z. B. Dachstuhl, Elektromotor, Pumpe, Netzwerk-Switch) und notieren Sie, *wozu* er da ist und *womit* dieser Zweck erreicht wird. Sie brauchen das Beispiel in der Murmelgruppe.
+> Wählen Sie einen technischen Gegenstand aus Ihrer Fachrichtung (z. B. Dachstuhl, Elektromotor, Pumpe, Netzwerk-Switch) und notieren Sie, *wozu* er da ist und *womit* dieser Zweck erreicht wird. Sie brauchen das Beispiel gleich zu Beginn der Sitzung.
 
 📝 **Beuteblatt:** Gehen Sie heute auf Beutezug – halten Sie auf dem Beuteblatt fest, was Sie für die Prüfung mitnehmen. Wir halten mehrmals an.
 
 ## Einstieg: Eine steile These
 
-<!-- didaktik: Lehrschritt provozieren · 0–5 min · Einzelarbeit -->
+<!-- didaktik="Lehrschritt provozieren · 0–5 min · Einzelarbeit" -->
 
 > **„Technikunterricht ist im Grunde angewandte Physik."**
 
@@ -66,11 +67,11 @@ Stimmen Sie zu?
 
 *Das Ergebnis bleibt stehen – am Ende der Sitzung stimmen wir noch einmal ab.*
 
-### Murmelgruppe: Drei Blicke auf denselben Gegenstand
+### Drei Blicke auf denselben Gegenstand
 
-<!-- didaktik: Lehrschritt Vorwissen aktivieren lassen · 5–10 min · Partnerarbeit -->
+<!-- didaktik="Lehrschritt Vorwissen aktivieren lassen · 5–10 min · Einzelarbeit · Auswertung über Classroom" -->
 
-**Aufgabe (zu zweit, 3 min):** Wählen Sie einen Gegenstand aus Ihrer Fachrichtung (z. B. Dachstuhl, Elektromotor, Pumpe, Netzwerk-Switch).
+**Aufgabe (allein, 3 min):** Wählen Sie einen Gegenstand aus Ihrer Fachrichtung (z. B. Dachstuhl, Elektromotor, Pumpe, Netzwerk-Switch).
 
 - Was will eine **Physikerin** darüber wissen?
 - Was will ein **Techniker** darüber wissen?
@@ -82,7 +83,7 @@ Notieren Sie je eine Frage:
 
 ## Kurskarte: Wo stehen wir?
 
-<!-- didaktik: Lehrschritt Ziele bekannt geben mit Advance Organizer · 10–15 min · E-02 -->
+<!-- didaktik="Lehrschritt Ziele bekannt geben mit Advance Organizer · 10–15 min · E-02" -->
 
 Das ganze Modul lässt sich als Folge von **Planungsentscheidungen** lesen. Die Kurskarte ordnet die Sitzungen nach Planungsfragen – Ausgangslage, Ziele, Inhalte, Methoden, Medien – und verbindet sie mit vier Leitfragen, die Sie heute in Station 3 kennenlernen.
 
@@ -116,7 +117,8 @@ Das ganze Modul lässt sich als Folge von **Planungsentscheidungen** lesen. Die 
 ## Station 1: Besonderheiten von Technik
 
 <!-- src: R002 -->
-<!-- didaktik: Lehrschritt informieren · 15–30 min -->
+
+<!-- didaktik="Lehrschritt informieren · 15–30 min" -->
 
 > **Wodurch unterscheidet sich Technik von den Naturwissenschaften und Wirtschaftswissenschaften?**
 
@@ -139,7 +141,7 @@ Das ganze Modul lässt sich als Folge von **Planungsentscheidungen** lesen. Die 
 <small>Quelle: Folien R003–R006 „1.1 Vergleich der Gegenstandsbereiche der Natur-, Technik- und Wirtschaftswissenschaften“ (auf dem Original über vier Folien schrittweise aufgebaut)</small>
 
 > [!TIP] 💭 Denkanstoß
-> Gehen Sie zurück zu Ihrer Murmelgruppe. Welche Ihrer drei Fragen zielt auf *Wahrheit*, welche auf *Richtigkeit und Zweckmäßigkeit*, welche auf *Wirtschaftlichkeit*?
+> Sehen Sie sich Ihre drei Fragen vom Einstieg an. Welche zielt auf *Wahrheit*, welche auf *Richtigkeit und Zweckmäßigkeit*, welche auf *Wirtschaftlichkeit*?
 
 ### Wer lernt Technik? Ausbildungsberufe in Zahlen
 
@@ -170,12 +172,62 @@ Referenzjahr 2002 (Bertram & Bärbel 2002)
 
 <small>Quelle: Folie R007 „1.2 Quantitäten einiger ausgewählter Ausbildungsberufe“ – Werte wie im Original (dort mit Tausenderpunkt, z. B. 22.980). Was genau gezählt wurde, ist auf der Folie nicht angegeben.</small>
 
+### Und heute? Neuabschlüsse 2025 **[NEU]**
+
+<!-- neu="BIBB-Erhebung zum 30.09.2025, Tabelle 67 (Datenstand 05.12.2025); Pressemitteilung 09/2026 vom 03.03.2026" -->
+
+<!--
+data-type="BarChart"
+data-title="Neu abgeschlossene Ausbildungsverträge 2025 – dieselben Berufe (heutige Bezeichnung)"
+data-xlabel="Ausbildungsberuf"
+data-ylabel="Neuabschlüsse 2025"
+data-show
+-->
+| Ausbildungsberuf 2025      | Neuabschlüsse |
+| -------------------------- | ------------: |
+| Kfz-Mechatroniker/-in      |         24531 |
+| Fachinformatiker/-in       |         15072 |
+| Kaufmann/-frau Einzelhandel |        14658 |
+| Elektroniker/-in           |         14550 |
+| Anlagenmechaniker/-in SHK  |         14523 |
+| Groß-/Außenhandelsmanagement |        9294 |
+| Koch/Köchin                |          7464 |
+| Tischler/-in               |          7062 |
+| Maler/-in und Lackierer/-in |         6567 |
+| Metallbauer/-in            |          3651 |
+| Maurer/-in                 |          2721 |
+
+<small>Quelle: Bundesinstitut für Berufsbildung (BIBB), Erhebung „Neu abgeschlossene Ausbildungsverträge zum 30. September 2025“, Tabelle 67 „Rangliste 2025 der Ausbildungsberufe nach Neuabschlüssen“ (Stand der Daten: 05.12.2025). Werte vom BIBB auf ein Vielfaches von 3 gerundet. Zuordnung zu den Berufen von 2002 ergänzt (Nachfolgeberufe nach Neuordnung): Kraftfahrzeugmechaniker → Kfz-Mechatroniker/-in, Elektroinstallateur → Elektroniker/-in, Gas- und Wasserinstallateur → Anlagenmechaniker/-in für Sanitär-, Heizungs- und Klimatechnik, Kaufmann im Groß- und Außenhandel → Kaufmann/-frau für Groß- und Außenhandelsmanagement. Insgesamt 475.950 Neuabschlüsse, 2,1 % weniger als 2024; 63,5 % männliche Auszubildende (BIBB-Pressemitteilung 09/2026).</small>
+
+> [!NOTE] ⚠️ Vorsicht beim Vergleich
+> Auf Folie R007 ist nicht angegeben, was 2002 gezählt wurde (Neuabschlüsse oder alle Auszubildenden). Ein direkter Vergleich der Zahlen ist deshalb nicht belegt – vergleichen Sie die **Reihenfolge**, nicht die absoluten Werte.
+
+**Allein (1 min):** Welcher dieser Berufe lag 2025 bundesweit auf **Platz 1** aller dualen Ausbildungsberufe?
+
+[( )] Kaufmann/-frau für Büromanagement
+[(X)] Kfz-Mechatroniker/-in
+[( )] Elektroniker/-in
+[( )] Fachinformatiker/-in
+***
+Kfz-Mechatroniker/-in mit 24.531 Neuabschlüssen – wie schon 2002 (als Kfz-Mechaniker) an der Spitze dieser Auswahl. Dahinter folgen 2025 Kaufmann/-frau für Büromanagement (21.732) und Verkäufer/-in (21.585); Fachinformatiker/-in steht auf Platz 6, Elektroniker/-in auf Platz 8 (BIBB, Tabelle 67).
+***
+
+**Allein (1 min):** Welcher Beruf ist in dieser Auswahl seit 2002 in der Reihenfolge am deutlichsten **aufgestiegen**?
+
+[( )] Maler/-in und Lackierer/-in
+[( )] Tischler/-in
+[(X)] Fachinformatiker/-in
+[( )] Maurer/-in
+***
+Fachinformatiker/-in: 2002 Platz 10 dieser Auswahl, 2025 Platz 2. Maler/-in und Lackierer/-in (2002 Platz 2 → 2025 Platz 9) und Tischler/-in sind abgestiegen, Maurer/-in steht in beiden Jahren unten.
+***
+
 > [!NOTE] 🧩 Bedingungsfeld „anthropogene Voraussetzungen"
-> Fünf der elf Berufe sind gewerblich-technisch. Für welche dieser Berufe bilden *Sie* künftig aus – und was bringen diese Lernenden mit?
+> Die meisten der elf Berufe sind gewerblich-technisch; in dieser Auswahl sind neben Fachinformatiker/-in auch Anlagenmechaniker/-in SHK deutlich aufgestiegen (2002 Platz 11, 2025 Platz 5). Für welche dieser Berufe bilden *Sie* künftig aus – und was bringen diese Lernenden mit? Rund 94 % der neuen Kfz-Mechatroniker-Auszubildenden sind männlich, bei Elektroniker/-in und Anlagenmechaniker/-in SHK über 95 % (BIBB, Tabelle 67).
 
 ### Aktivierung: Vergleichstabelle sichern
 
-<!-- didaktik: Lehrschritt unterstützen · 30–40 min · Einzelarbeit, dann Partnerarbeit · Beuteblatt-Stopp -->
+<!-- didaktik="Lehrschritt unterstützen · 30–40 min · Einzelarbeit · Auswertung über Classroom · Beuteblatt-Stopp" -->
 
 **Lückentext (allein, 5 min):**
 
@@ -194,7 +246,9 @@ Naturwissenschaften: Kriterium der **Wahrheit**. Technikwissenschaften: Kriteriu
 Naturwissenschaften: eigenständig, abbildungsorientiert, Ursache-Wirkungs-Relation · Technikwissenschaften: integrierend, anwendungsorientiert, Zweck-Mittel-Relation · Wirtschaftswissenschaften: integrierend, anwendungsorientiert, Aufwand-Nutzen-Relation (Folie R006; in Anlehnung an Bernhard, Ebert & Schröder 1995, S. 19).
 ***
 
-**Zu zweit (3 min):** Vergleichen Sie. Prüfen Sie dann Ihr Beispiel aus der Murmelgruppe: *Welcher Zweck – welches Mittel?*
+**Allein (3 min):** Prüfen Sie Ihr Beispiel vom Einstieg: *Welcher Zweck – welches Mittel?*
+
+    [[___ ___]]
 
 📝 **Beuteblatt-Stopp:** Ergänzen Sie Abschnitt 1 (Tabelle + Ihr Beispiel).
 
@@ -209,11 +263,12 @@ Naturwissenschaften: eigenständig, abbildungsorientiert, Ursache-Wirkungs-Relat
 ### Beispiel: Krümel und Lulatsch
 
 <!-- src: R010 -->
-<!-- didaktik: zweiter Zyklus provozieren / Vorwissen aktivieren · 40–50 min · Murmelgruppe zu dritt -->
+
+<!-- didaktik="zweiter Zyklus provozieren / Vorwissen aktivieren · 40–50 min · Einzelarbeit · Auswertung über Classroom" -->
 
 !?[Krümel und Lulatsch erklären „Hier und Da" (Sesamstraße)](https://www.youtube.com/watch?v=Z-MRqTJMapY)
 
-**Murmelgruppe (zu dritt, 4 min):**
+**Allein (4 min):**
 
 1. Welches Problem haben Krümel und Lulatsch konkret?
 2. Welches Problem liegt „abstrakt" vor?
@@ -226,7 +281,8 @@ Naturwissenschaften: eigenständig, abbildungsorientiert, Ursache-Wirkungs-Relat
 ### Definition Unterrichtsmethoden
 
 <!-- src: R009 -->
-<!-- didaktik: Lehrschritt informieren · 50–60 min -->
+
+<!-- didaktik="Lehrschritt informieren · 50–60 min" -->
 
 > „Unterrichtsmethoden sind Formen und Verfahren, in und mit denen sich Lehrer und Schüler die sie umgebene natürliche und gesellschaftliche Wirklichkeit unter institutionellen Rahmenbedingungen aneignen"
 > (Meyer & Hilbert 1994, S. 45)
@@ -301,9 +357,10 @@ Methode = Gesamtverfahren des Unterrichts oder Methode im weiteren Sinne; Lehrfo
 ### Strukturlegetechnik: Gestaltung von Unterricht
 
 <!-- src: R035 -->
-<!-- didaktik: Lehrschritt unterstützen/üben · 60–70 min · Partnerarbeit · Doppeldecker E-04 -->
 
-Auf der Originalfolie stehen diese Begriffe **bunt durcheinander**. Sortieren Sie zu zweit (7 min). Markieren Sie Begriffe, bei denen Sie unsicher sind.
+<!-- didaktik="Lehrschritt unterstützen/üben · 60–70 min · Einzelarbeit · Doppeldecker E-04" -->
+
+Auf der Originalfolie stehen diese Begriffe **bunt durcheinander**. Sortieren Sie allein (7 min). Markieren Sie Begriffe, bei denen Sie unsicher sind.
 
 @dragdropsort(@uid,Unterrichtsmethoden;deduktiv I;deduktiv II;analytisch;genetisch;induktiv|Aktionsformen;Lehrervortrag;Schülervortrag;Unterrichtsgespräch;Diskussion;Demonstration|Sozialformen;Frontalunterricht;Einzelarbeit;Partnerarbeit;Gruppenarbeit;Lernen in Abteilungen|Organisationsformen;Unterrichtsstunde;Hausaufgaben;Exkursion;Prüfung|didaktische Funktionen;orientieren;Erarbeiten;festigen;kontrollieren)
 
@@ -311,10 +368,26 @@ Auf der Originalfolie stehen diese Begriffe **bunt durcheinander**. Sortieren Si
 
 <small>Quelle: Folie R035 „Gestaltung von Unterricht“ – Kategorien auf der Folie: didaktische Funktionen, Aktionsformen, Sozialformen, Organisationsformen, Unterrichtsmethoden; Begriffe: Lernen in Abteilungen, deduktiv I, deduktiv II, Prüfung, analytisch, Diskussion, Hausaufgaben, Erarbeiten, Schülervortrag, kontrollieren, festigen, Frontalunterricht, genetisch, Einzelarbeit, Gruppenarbeit, orientieren, Exkursion, indukiv [sic], Lehrervortrag, Unterrichtsgespräch, Partnerarbeit, Demonstration, Unterrichtsstunde. Die Originalfolie enthält keine Auflösung; die Zuordnungen zu Unterrichtsmethoden, Aktions-, Sozial- und Organisationsformen folgen den Folien R036–R039, die Auflösung der didaktischen Funktionen ist ergänzt.</small>
 
+**Kontrolle (allein, 2 min):** Ordnen Sie zu – dieses Ergebnis sehen wir gemeinsam über die Classroom-Funktion an.
+
+[[Unterrichtsmethode] [Aktionsform] [Sozialform] [Organisationsform]]
+[        (X)               ( )            ( )            ( )        ] induktiv
+[        ( )               (X)            ( )            ( )        ] Lehrervortrag
+[        ( )               ( )            (X)            ( )        ] Partnerarbeit
+[        ( )               ( )            ( )            (X)        ] Exkursion
+[        (X)               ( )            ( )            ( )        ] analytisch
+[        ( )               (X)            ( )            ( )        ] Demonstration
+[        ( )               ( )            (X)            ( )        ] Frontalunterricht
+[        ( )               ( )            ( )            (X)        ] Hausaufgaben
+***
+Zuordnung nach den Folien R036–R039: Unterrichtsmethoden im engeren Sinn (induktiv, analytisch) · Aktionsformen (Lehrervortrag, Demonstration) · Sozialformen (Partnerarbeit, Frontalunterricht) · Organisationsformen des Unterrichts (Exkursion, Hausaufgaben).
+***
+
 ### Auflösung: Vier Leitfragen
 
 <!-- src: R036-R039 -->
-<!-- didaktik: Lehrschritt informieren · 70–75 min -->
+
+<!-- didaktik="Lehrschritt informieren · 70–75 min" -->
 
 <section>
 
@@ -376,18 +449,18 @@ Auf der Originalfolie stehen diese Begriffe **bunt durcheinander**. Sortieren Si
 
 ## Wo stehen wir? Die heutige Sitzung einordnen
 
-<!-- didaktik: Lehrschritt üben lassen / integrierendes Verbinden · 75–85 min · Doppeldecker E-04 -->
+<!-- didaktik="Lehrschritt üben lassen / integrierendes Verbinden · 75–85 min · Doppeldecker E-04" -->
 
-**Allein (4 min):** Welche Sozialform hatte jede Phase der heutigen Sitzung?
+**Allein (4 min):** Welche Sozialform hatte die Phase – und welche *hätte* sie gehabt?
 
 [[Einzelarbeit] [Partnerarbeit] [Gruppenarbeit] [Frontalunterricht]]
 [    (X)            ( )             ( )              ( )         ] Blitzumfrage zur These
-[    ( )            (X)             ( )              ( )         ] Murmelgruppe „Drei Blicke"
 [    ( )            ( )             ( )              (X)         ] Vortrag Station 1
-[    ( )            ( )             (X)              ( )         ] Murmelgruppe zu dritt (Krümel und Lulatsch)
-[    ( )            (X)             ( )              ( )         ] Strukturlegetechnik
+[    (X)            ( )             ( )              ( )         ] Strukturlegetechnik, so wie Sie sie heute gemacht haben
+[    ( )            (X)             ( )              ( )         ] Strukturlegetechnik, wenn Sie zu zweit sortiert hätten
+[    ( )            ( )             (X)              ( )         ] Krümel und Lulatsch, wenn Sie das Video zu dritt besprochen hätten
 ***
-Blitzumfrage = Einzelarbeit · Murmelgruppe zu zweit = Partnerarbeit · Vortrag = Frontalunterricht (Aktionsform: Lehrervortrag) · Murmelgruppe zu dritt = Gruppenarbeit · Strukturlegetechnik zu zweit = Partnerarbeit.
+Blitzumfrage und Strukturlegetechnik allein = Einzelarbeit · Vortrag = Frontalunterricht (Aktionsform: Lehrervortrag) · zu zweit = Partnerarbeit · zu dritt = Gruppenarbeit. In dieser Vorlesung arbeiten Sie bewusst allein, damit jede Antwort über die Classroom-Funktion ausgewertet werden kann – eine Entscheidung zur Sozialform, die Sie begründen können.
 ***
 
 **Und welche didaktische Funktion hatten die Phasen?**
@@ -401,7 +474,7 @@ Blitzumfrage = Einzelarbeit · Murmelgruppe zu zweit = Partnerarbeit · Vortrag 
 Lernziele und Kurskarte = orientieren · Vortrag = erarbeiten (Neues aneignen) · Lückentext = festigen · Kurzcheck = kontrollieren.
 ***
 
-**Think-pair (4 min):** Welche *Aktionsformen* haben Sie heute erlebt? Und welche Unterrichtsmethode im engeren Sinn – eher induktiv oder deduktiv – hatte Station 3 (erst sortieren, dann auflösen)?
+**Allein (3 min):** Welche *Aktionsformen* haben Sie heute erlebt? Und welche Unterrichtsmethode im engeren Sinn – eher induktiv oder deduktiv – hatte Station 3 (erst sortieren, dann auflösen)?
 
     [[___ ___ ___]]
 
@@ -416,7 +489,7 @@ Wählen Sie ein Thema für Ihren eigenen Unterrichtsentwurf, das Sie durch das S
 
 ## Zum Mitnehmen
 
-<!-- didaktik: Lehrschritt festigen / Abschluss · 85–90 min -->
+<!-- didaktik="Lehrschritt festigen / Abschluss · 85–90 min" -->
 
 **Noch einmal:** „Technikunterricht ist im Grunde angewandte Physik." – Stimmen Sie jetzt zu?
 
@@ -433,7 +506,7 @@ Wählen Sie ein Thema für Ihren eigenen Unterrichtsentwurf, das Sie durch das S
 
 ### Prüfungsfragen zum Üben
 
-<!-- didaktik: E-12 mündliche Prüfung -->
+<!-- didaktik="E-12 mündliche Prüfung" -->
 
 <small>Die Prüfungsfragen sind experimentell: Sie dienen der Vorbereitung, es ist nicht garantiert, dass Fragen in dieser Form gestellt werden.</small>
 
@@ -463,6 +536,11 @@ Begründen Sie Ihre Wahl in zwei Sätzen:
 - Bernhard, Ebert & Schröder (1995), S. 19 – Folie R006 („In Anlehnung an"); vollständige Angabe auf der Originalfolie nicht vorhanden. ᴼ
 - Bertram & Bärbel (2002) – Folie R007; vollständige Angabe auf der Originalfolie nicht vorhanden. ᴼ
 - Meyer & Hilbert (1994), S. 45 – Folie R009; vollständige Angabe auf der Originalfolie nicht vorhanden.
+
+**Ergänzt [NEU]**
+
+- Bundesinstitut für Berufsbildung (BIBB). (2025). *Rangliste 2025 der Ausbildungsberufe nach Neuabschlüssen* (Tabelle 67, Erhebung zum 30. September 2025, Stand der Daten 05.12.2025). https://www.bibb.de/dokumente/xls/naa309/naa309_2025_tab067_0bund.xlsx
+- Bundesinstitut für Berufsbildung (BIBB). (2026, 3. März). *Rangliste der Neuabschlüsse bei Ausbildungsberufen: Wenig Neues an der Spitze, Bewegung im Mittelfeld* (Pressemitteilung 09/2026). https://www.bibb.de/dokumente/pdf/pmranglistederneuabschluessebeiausbildungsberufenwenigneuesanderspitzebewegungimmittelfeld2026.pdf
 
 <small>ᴼ Namensschreibweise unverändert von der Originalfolie übernommen.</small>
 

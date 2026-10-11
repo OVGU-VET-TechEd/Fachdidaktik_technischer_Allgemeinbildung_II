@@ -15,7 +15,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 
 # S11 – Lernerfolgskontrolle (Selbstlerneinheit)
 
-<!-- didaktik: Selbstlerneinheit S11 · ca. 60 min · nur Quellen aus S10 und S11 -->
+<!-- didaktik="Selbstlerneinheit S11 · ca. 60 min · nur Quellen aus S10 und S11" -->
 
 > [!IMPORTANT] 🧭 Leitfrage
 > Wie baue ich eine Prüfungsaufgabe, die misst, was sie messen soll – auch wenn Lernende einen KI-Chatbot in der Tasche haben?
@@ -61,7 +61,7 @@ Ich kann einen Erwartungshorizont schreiben, mit dem zwei Lehrkräfte zum selben
 
 ## 1 · Passt die Aufgabe zum Lernziel?
 
-<!-- didaktik: ca. 8 min -->
+<!-- didaktik="ca. 8 min" -->
 
 > Es darf nur geprüft werden, was auch gelehrt worden ist. Werden Inhalte auf der Stufe des Wissens vermittelt, dürfen sie auch nur auf dieser Stufe geprüft werden (S11, Folie R170).
 
@@ -78,7 +78,7 @@ Entwickeln (Synthese) und Bewerten liegen über dem, was unterrichtet wurde. Wer
 
 ## 2 · Gütekriterien: Aufgaben reparieren
 
-<!-- didaktik: ca. 15 min -->
+<!-- didaktik="ca. 15 min" -->
 
 **Welches Gütekriterium ist vor allem verletzt?**
 
@@ -111,7 +111,7 @@ Validität: Die Textaufgabe prüft auch Lesekompetenz (R174; Zinn 2026, S. 218�
 
 ## 3 · Eine Aufgabe mit Operator und Erwartungshorizont
 
-<!-- didaktik: ca. 15 min -->
+<!-- didaktik="ca. 15 min" -->
 
 **Anforderungsbereiche** (Zinn 2026, S. 72–73): **AFB I** Reproduktion (nennen, erfassen) · **AFB II** Reorganisation und Transfer (berechnen, beschreiben) · **AFB III** Bewertung und Problemlösung (analysieren, bewerten).
 
@@ -135,7 +135,7 @@ Validität: Die Textaufgabe prüft auch Lesekompetenz (R174; Zinn 2026, S. 218�
 
 ## 4 · Prüfen in Zeiten von KI
 
-<!-- didaktik: ca. 12 min · Querverweis aus S10 -->
+<!-- didaktik="ca. 12 min · Querverweis aus S10" -->
 
 In S10 haben Sie gesehen: Frei nutzbare KI kann die Übungsleistung steigern und die Leistung ohne KI trotzdem senken (Bastani et al., 2025). Die Bildungsministerkonferenz fordert, die **Prüfungskultur** weiterzuentwickeln (KMK, 2024). Für Ihre Aufgaben heißt das: Die Gütekriterien gelten weiter – aber die Validität einer Hausaufgabe oder schriftlichen Ausarbeitung ist fraglich, wenn unklar ist, wer sie gelöst hat.
 

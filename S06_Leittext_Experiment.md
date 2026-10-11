@@ -16,7 +16,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 
 # S06 – Leittextmethode & technisches Experiment
 
-<!-- didaktik: Planungsraster S06 · E-03, E-04, E-12, E-17, E-19, E-27, E-28 -->
+<!-- didaktik="Planungsraster S06 · E-03, E-04, E-12, E-17, E-19, E-27, E-28" -->
 
 > [!IMPORTANT] 🧭 Leitfrage
 > Wie lernen Lernende **selbstständig** – und **experimentell**? – Auf der Kurskarte: **Methodik → Erkenntnisweg**.
@@ -37,7 +37,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 
 ## Einstieg: Macht eine gute Anleitung selbstständig?
 
-<!-- didaktik: Lehrschritt provozieren · 0–5 min · Ergebnis der Vorbereitungsumfrage zeigen -->
+<!-- didaktik="Lehrschritt provozieren · 0–5 min · Ergebnis der Vorbereitungsumfrage zeigen" -->
 
 > **„Eine gute Anleitung macht Lernende selbstständig."**
 
@@ -50,7 +50,7 @@ Stimmen Sie zu?
 
 ### Murmelgruppe: Ihre Anleitungen
 
-<!-- didaktik: Lehrschritt Vorwissen aktivieren lassen · 5–10 min · Partnerarbeit -->
+<!-- didaktik="Lehrschritt Vorwissen aktivieren lassen · 5–10 min · Partnerarbeit" -->
 
 **Zu zweit (3 min):** Vergleichen Sie Ihre mitgebrachten Anleitungen. Welche Fragen **beantwortet** die Anleitung – welche müssten Lernende sich **selbst stellen**? Welche Schritte der vollständigen Handlung (S03: Orientieren – Richten – Entwerfen – Entscheiden – Kontrollieren) nimmt sie vorweg?
 
@@ -58,7 +58,7 @@ Stimmen Sie zu?
 
 ## Kurskarte: selbstständig und experimentell lernen
 
-<!-- didaktik: Lehrschritt Ziele bekannt geben mit Advance Organizer · 10–15 min -->
+<!-- didaktik="Lehrschritt Ziele bekannt geben mit Advance Organizer · 10–15 min" -->
 
 ``` ascii
 +-----------------------------+     +-----------------------------+     +-----------------------------+
@@ -76,7 +76,7 @@ Stimmen Sie zu?
 
 ## Station 1: Leittext
 
-<!-- didaktik: Lehrschritt informieren · 15–27 min -->
+<!-- didaktik="Lehrschritt informieren · 15–27 min" -->
 
 ### Funktionen der Leittexte
 
@@ -158,7 +158,7 @@ Stimmen Sie zu?
 
 ### [NEU] Offene Aufgabe – strukturierter Unterricht
 
-<!-- neu: Stettler 2025, S. 76, 85–86 -->
+<!-- neu="Stettler 2025, S. 76, 85–86" -->
 
 > [!NOTE] 🆕 [NEU]
 > Stettler (2025) unterscheidet im Technischen Gestalten den **Offenheitsgrad der Aufgabenstellung** und die **Strukturiertheit des Unterrichts**. Den Offenheitsgrad kann man u. a. im Prozess anpassen: Ein Prozess kann kleinschrittig vorgegeben werden – oder einzelne Schritte werden bewusst nicht vorgegeben (S. 76).
@@ -169,7 +169,7 @@ Stimmen Sie zu?
 
 ### Aktivierung: Aus der Anleitung wird ein Leittext
 
-<!-- didaktik: Lehrschritt unterstützen/üben · 27–37 min · Partnerarbeit · Doppeldecker 1 -->
+<!-- didaktik="Lehrschritt unterstützen/üben · 27–37 min · Partnerarbeit · Doppeldecker 1" -->
 
 **1. Ordnen:** Bringen Sie die Schritte der Leittextmethode in die richtige Reihenfolge.
 
@@ -197,7 +197,7 @@ Leitfragen „leiten dazu an, sich aus dem Informationsgrundlagen die Kenntnisse
 
 ## Station 2: Experiment
 
-<!-- didaktik: Lehrschritt informieren · 37–49 min -->
+<!-- didaktik="Lehrschritt informieren · 37–49 min" -->
 
 ### Definition Experiment
 
@@ -264,14 +264,14 @@ Bader, R.: Entwicklung beruflicher Handlungskompetenz in der Berufsschule / Zum 
 
 <small>Quelle: Folie R096 „Methodische Phasen von Experimenten nach BADER“ (Nummerierung ergänzt; Wortlaut unverändert)</small>
 
-<!-- neu: Verweis auf Dilling 2024, S. 43–44 (S02) -->
+<!-- neu="Verweis auf Dilling 2024, S. 43–44 (S02)" -->
 
 > [!TIP] 🧵 Roter Faden HOOKE
 > In S02 haben Sie aus den Messwerten des Zugversuchs *selbst* eine Regel gefunden. Bader beginnt früher – mit dem **Beobachten** und dem **Planen** des Zug-Versuchs (Abmessungen der Probe!) – und endet später – mit **Einordnen in eine Theorie** und **Reflexion**. Phase 5 „Stützen, Falsifizieren" entspricht der *Wissenssicherung*, Phase 6 „Einordnen in eine umfassende Theorie" der *Wissenserklärung* aus dem [NEU]-Kasten in S02 (Dilling 2024).
 
 ### Aktivierung: Experimente einordnen
 
-<!-- didaktik: Lehrschritt unterstützen · 49–55 min · Einzelarbeit -->
+<!-- didaktik="Lehrschritt unterstützen · 49–55 min · Einzelarbeit" -->
 
 **Welche Sozial- und Organisationsform, welcher Wirklichkeitsbezug?**
 
@@ -301,7 +301,8 @@ Beide Modelle enthalten Hypothese, Durchführung und Auswertung. Nur Bader begin
 ### Hinweise zur Vorbereitung von technischen Experimenten
 
 <!-- src: R097-R098 -->
-<!-- didaktik: Lehrschritt informieren · 55–62 min -->
+
+<!-- didaktik="Lehrschritt informieren · 55–62 min" -->
 
 <details>
 <summary><b>Abriss der fachlichen Grundlagen</b></summary>
@@ -376,7 +377,7 @@ Beide Modelle enthalten Hypothese, Durchführung und Auswertung. Nur Bader begin
 
 ## Baustein 6: Ihr Experiment planen (optional)
 
-<!-- didaktik: Lehrschritt üben lassen (Transfer) · 62–75 min · Think-pair · Doppeldecker 2 -->
+<!-- didaktik="Lehrschritt üben lassen (Transfer) · 62–75 min · Think-pair · Doppeldecker 2" -->
 
 **Allein (8 min), dann zu zweit (5 min):** Planen Sie mit den Vorbereitungsfragen ein technisches Experiment für Ihr Entwurfsthema.
 
@@ -395,7 +396,8 @@ Beide Modelle enthalten Hypothese, Durchführung und Auswertung. Nur Bader begin
 ## Wo stehen wir? Methoden nach Effizienzkriterien wählen
 
 <!-- src: R100 -->
-<!-- didaktik: integrierendes Verbinden / Bewerten · 75–85 min · Synthese S04–S06 -->
+
+<!-- didaktik="integrierendes Verbinden / Bewerten · 75–85 min · Synthese S04–S06" -->
 
 **Effizienzkriterien verschiedener Methoden**
 
@@ -435,7 +437,7 @@ Nach der Abbildung: Role Playing – Communicating · Incident Method – Select
 
 ## Zum Mitnehmen
 
-<!-- didaktik: Lehrschritt festigen / Abschluss · 85–90 min -->
+<!-- didaktik="Lehrschritt festigen / Abschluss · 85–90 min" -->
 
 **Noch einmal:** „Eine gute Anleitung macht Lernende selbstständig."
 
@@ -455,7 +457,7 @@ Nach der Abbildung: Role Playing – Communicating · Incident Method – Select
 
 ### Prüfungsfragen zum Üben
 
-<!-- didaktik: E-12 mündliche Prüfung -->
+<!-- didaktik="E-12 mündliche Prüfung" -->
 
 <small>Die Prüfungsfragen sind experimentell: Sie dienen der Vorbereitung, es ist nicht garantiert, dass Fragen in dieser Form gestellt werden.</small>
 

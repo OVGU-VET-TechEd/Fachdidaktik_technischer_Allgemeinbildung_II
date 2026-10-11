@@ -15,7 +15,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 
 # S12 – PAL-Prüfungen & Synthese (Selbstlerneinheit)
 
-<!-- didaktik: Selbstlerneinheit S12 · ca. 60 min · Vorbereitung auf die mündliche Prüfung · nur Quellen aus S11 und S12 -->
+<!-- didaktik="Selbstlerneinheit S12 · ca. 60 min · Vorbereitung auf die mündliche Prüfung · nur Quellen aus S11 und S12" -->
 
 > [!IMPORTANT] 🧭 Leitfrage
 > Wie prüft man berufliche Handlungskompetenz – und wie bereite ich mich selbst auf meine mündliche Prüfung vor?
@@ -61,7 +61,7 @@ Ich fühle mich auf die mündliche Prüfung vorbereitet.
 
 ## 1 · PAL kurz wiederholt
 
-<!-- didaktik: ca. 8 min -->
+<!-- didaktik="ca. 8 min" -->
 
 **Richtig oder falsch – nach den Folien R185–R192?**
 
@@ -80,7 +80,7 @@ Fachausschüsse: je gleich viele Beauftragte der Arbeitgeber, Arbeitnehmer und L
 
 ## 2 · Eine programmierte Aufgabe analysieren und weiterentwickeln
 
-<!-- didaktik: ca. 17 min -->
+<!-- didaktik="ca. 17 min" -->
 
 **Beispiel einer programmierten Aufgabe** (Übungsbeispiel im Stil einer schriftlichen Abschlussprüfung, keine echte PAL-Aufgabe):
 
@@ -111,7 +111,7 @@ Programmierte Aufgaben sind objektiv und ökonomisch auszuwerten – genau das w
 
 ## 3 · Das Modul verknüpfen
 
-<!-- didaktik: ca. 12 min -->
+<!-- didaktik="ca. 12 min" -->
 
 Mündliche Prüfungen belohnen Verbindungen zwischen Sitzungen. **Welche Sitzungen verbindet der Begriff?** (mehrere Antworten je Zeile)
 
@@ -129,7 +129,7 @@ Mehrere Sitzungen pro Zeile sind richtig. Induktiv: S02 (HOOKE aus Messwerten), 
 
 ## 4 · Die mündliche Prüfung vorbereiten
 
-<!-- didaktik: ca. 15 min -->
+<!-- didaktik="ca. 15 min" -->
 
 > [!NOTE] ℹ️ Zur Prüfung
 > Die Prüfungsleistung des Moduls ist ausschließlich eine **mündliche Prüfung**. Die *Prüfungsfragen zum Üben* sind experimentell – es ist nicht garantiert, dass Fragen in dieser Form gestellt werden. Üben Sie deshalb das **Argumentieren**, nicht das Auswendiglernen von Antworten.

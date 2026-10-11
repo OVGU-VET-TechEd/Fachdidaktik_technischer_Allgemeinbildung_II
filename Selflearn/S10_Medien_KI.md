@@ -15,7 +15,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 
 # S10 – Medien & KI im Unterricht (Selbstlerneinheit)
 
-<!-- didaktik: Selbstlerneinheit S10 · ca. 75 min · baut auf Station 3 und 4 der Präsenzsitzung auf · ganze Einheit ist [NEU] -->
+<!-- didaktik="Selbstlerneinheit S10 · ca. 75 min · baut auf Station 3 und 4 der Präsenzsitzung auf · ganze Einheit ist [NEU]" -->
 
 > [!IMPORTANT] 🧭 Leitfrage
 > Wie nutze ich KI, um als Lehrkraft besser an Medien zu kommen, aus Vorhandenem passendes Material zu machen und auf einzelne Lernende einzugehen – ohne die Verantwortung abzugeben?
@@ -40,7 +40,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 
 ## 0 · Wo stehen Sie?
 
-<!-- neu: Miao & Cukurova 2024 -->
+<!-- neu="Miao & Cukurova 2024" -->
 
 Der UNESCO-Kompetenzrahmen für Lehrkräfte hat fünf Dimensionen: menschenzentrierte Haltung, Ethik der KI, Grundlagen und Anwendungen, KI-Pädagogik und **KI für die berufliche Entwicklung**. Jede Dimension hat drei Stufen (Miao & Cukurova, 2024). Diese Einheit gehört zur fünften Dimension:
 
@@ -75,7 +75,7 @@ Ich kann einen KI-Tutor so einrichten, dass er Lernen unterstützt statt ersetzt
 
 ## 1 · Medien finden und prüfen
 
-<!-- didaktik: ca. 20 min -->
+<!-- didaktik="ca. 20 min" -->
 
 ### Wo suchen?
 
@@ -125,7 +125,7 @@ CC BY erlaubt Bearbeitung und Weitergabe mit Namensnennung. ND („No Derivative
 
 ## 2 · Aus Vorhandenem Neues machen
 
-<!-- didaktik: ca. 20 min -->
+<!-- didaktik="ca. 20 min" -->
 
 KI ist stark darin, **vorhandenes Material umzuformen**: kürzen, vereinfachen, in Aufgaben verwandeln, in andere Formate bringen. Das spart Zeit – aber nur, wenn Sie den Ablauf im Griff behalten.
 
@@ -160,7 +160,7 @@ Nehmen Sie das Material aus Übung 1 (oder einen eigenen Text) und lassen Sie mi
 
 ## 3 · Individuelle Lernbedürfnisse: Prompt – Harness – Agent
 
-<!-- didaktik: ca. 25 min -->
+<!-- didaktik="ca. 25 min" -->
 
 Lernende unterscheiden sich in Vorwissen, Tempo, Sprache und Förderbedarf. KI kann helfen, darauf einzugehen – auf drei Ebenen, die aufeinander aufbauen.
 

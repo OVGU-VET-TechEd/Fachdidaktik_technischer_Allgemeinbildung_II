@@ -15,7 +15,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 
 # S01 – Orientierung (Selbstlerneinheit)
 
-<!-- didaktik: Selbstlerneinheit S01 · ca. 60 min · festigt und überträgt die Präsenzsitzung; nur Quellen aus S01 -->
+<!-- didaktik="Selbstlerneinheit S01 · ca. 60 min · festigt und überträgt die Präsenzsitzung; nur Quellen aus S01" -->
 
 > [!IMPORTANT] 🧭 Leitfrage
 > Was ist das Besondere an Technik – und mit welchen Begriffen beschreibe ich, wie Unterricht organisiert ist?
@@ -60,7 +60,7 @@ Ich kann Sozialform, Aktionsform, Organisationsform und Unterrichtsmethode siche
 
 ## 1 · Technik ist mehr als angewandte Physik
 
-<!-- didaktik: ca. 15 min -->
+<!-- didaktik="ca. 15 min" -->
 
 ### Kurz wiederholt
 
@@ -98,7 +98,7 @@ Beschreiben Sie drei Gegenstände Ihrer Fachrichtung auf dieselbe Weise. Überle
 
 ## 2 · Der Begriff Unterrichtsmethode
 
-<!-- didaktik: ca. 12 min -->
+<!-- didaktik="ca. 12 min" -->
 
 > „Unterrichtsmethode ist der prinzipielle Weg, den Lehrer und Schüler beschreiten, um die Ziele des Unterrichts zu erreichen.“ (Meyer & Hilbert 1994)
 
@@ -125,7 +125,7 @@ Die Reihe als Ganzes ist das Gesamtverfahren (Methode im weiteren Sinne). Das Ab
 
 ## 3 · Vier Leitfragen: Unterricht beschreiben
 
-<!-- didaktik: ca. 20 min -->
+<!-- didaktik="ca. 20 min" -->
 
 | Leitfrage „Wie organisiere ich …“ | Begriff | Beispiele |
 | --- | --- | --- |

@@ -15,7 +15,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 
 # S08 – Didaktische Reduktion (Selbstlerneinheit)
 
-<!-- didaktik: Selbstlerneinheit S08 · ca. 55 min · nur Quellen aus S08 -->
+<!-- didaktik="Selbstlerneinheit S08 · ca. 55 min · nur Quellen aus S08" -->
 
 > [!IMPORTANT] 🧭 Leitfrage
 > Ist meine Vereinfachung noch richtig – und wie reduziere ich eine Fachaussage Schritt für Schritt?
@@ -59,7 +59,7 @@ Ich kann eine Fachaussage aus meiner Fachrichtung begründet reduzieren.
 
 ## 1 · Die Prüffrage: noch korrekt?
 
-<!-- didaktik: ca. 12 min -->
+<!-- didaktik="ca. 12 min" -->
 
 > Die abgeleitete Aussage muss **unter Nennung der Einschränkungen immer korrekt** bleiben (Grüner, S08, Folie R129).
 
@@ -82,7 +82,7 @@ Ich kann eine Fachaussage aus meiner Fachrichtung begründet reduzieren.
 
 ## 2 · Vertikal, horizontal – und welche Art?
 
-<!-- didaktik: ca. 12 min -->
+<!-- didaktik="ca. 12 min" -->
 
 | | vertikal | horizontal |
 | --- | --- | --- |
@@ -113,7 +113,7 @@ Die Arten folgen Zinn (2026), wie in S08 zusammengefasst. Bei jeder Reduktion bl
 
 ## 3 · Mit Arnold eine Fachaussage reduzieren
 
-<!-- didaktik: ca. 20 min -->
+<!-- didaktik="ca. 20 min" -->
 
 **Beispiel – Ausgangsaussage:** *Der Wärmedurchgangskoeffizient (U-Wert) eines Bauteils gibt an, welcher Wärmestrom pro Quadratmeter Fläche und pro Kelvin Temperaturdifferenz durch das Bauteil fließt; er hängt von den Schichten, ihren Dicken und Wärmeleitfähigkeiten sowie von den Wärmeübergangswiderständen ab.*
 

@@ -16,7 +16,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 
 # S08 – Didaktische Reduktion
 
-<!-- didaktik: Planungsraster S08 · E-03, E-04, E-12, E-17, E-19, E-27, E-30 -->
+<!-- didaktik="Planungsraster S08 · E-03, E-04, E-12, E-17, E-19, E-27, E-30" -->
 
 > [!IMPORTANT] 🧭 Leitfrage
 > Wie vereinfache ich – **ohne falsch zu werden**? – Auf der Kurskarte: **Thematik: Was – und wie vereinfacht?**
@@ -37,7 +37,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 
 ## Einstieg: Darf man Falsches sagen?
 
-<!-- didaktik: Lehrschritt provozieren · 0–5 min · Ergebnis der Vorbereitungsumfrage zeigen -->
+<!-- didaktik="Lehrschritt provozieren · 0–5 min · Ergebnis der Vorbereitungsumfrage zeigen" -->
 
 > **„Im Unterricht darf man auch mal etwas Falsches sagen – Hauptsache, es wird verstanden."**
 
@@ -50,7 +50,7 @@ Stimmen Sie zu?
 
 ### Murmelgruppe: Ihre schwierige Fachaussage
 
-<!-- didaktik: Lehrschritt Vorwissen aktivieren lassen · 5–10 min · Partnerarbeit -->
+<!-- didaktik="Lehrschritt Vorwissen aktivieren lassen · 5–10 min · Partnerarbeit" -->
 
 **Zu zweit (3 min):** Erklären Sie Ihrem Nachbarn Ihre mitgebrachte Fachaussage so, wie Sie es im Unterricht tun würden. **Was haben Sie weggelassen – und stimmt es dann noch?**
 
@@ -58,7 +58,7 @@ Stimmen Sie zu?
 
 ## Kurskarte: Es kommt auf den Gültigkeitsumfang an
 
-<!-- didaktik: Lehrschritt Ziele bekannt geben mit Advance Organizer · 10–15 min -->
+<!-- didaktik="Lehrschritt Ziele bekannt geben mit Advance Organizer · 10–15 min" -->
 
 ``` ascii
 +-------------------------+    +-------------------------+    +-------------------------+    +-------------------------+
@@ -79,7 +79,8 @@ Stimmen Sie zu?
 ## Station 1: Was ist didaktische Reduktion?
 
 <!-- src: R128 -->
-<!-- didaktik: Lehrschritt informieren · 15–27 min -->
+
+<!-- didaktik="Lehrschritt informieren · 15–27 min" -->
 
 **Didaktische Reduktion nach Grüner**
 
@@ -148,7 +149,7 @@ Stimmen Sie zu?
 
 ### Aktivierung: Vertikal oder horizontal?
 
-<!-- didaktik: Lehrschritt unterstützen · 27–32 min · Einzelarbeit -->
+<!-- didaktik="Lehrschritt unterstützen · 27–32 min · Einzelarbeit" -->
 
 [[vertikal] [horizontal]]
 [   (X)        ( )     ] Man betrachtet nur Gleichstrom in einem homogenen Leiter.
@@ -162,7 +163,7 @@ Stimmen Sie zu?
 
 ## Station 2: Beispiele aus Elektro- und Bautechnik
 
-<!-- didaktik: Lehrschritt informieren · 32–44 min · „Treppe der Einschränkungen" -->
+<!-- didaktik="Lehrschritt informieren · 32–44 min · „Treppe der Einschränkungen”" -->
 
 ### 6.4 Vertikal, Elektrotechnik: von Maxwell zu Ohm
 
@@ -261,7 +262,7 @@ Elektrostatisches Feld zwischen zwei Kugeln gleicher Ladung unterschiedlicher Vo
 
 ### Aktivierung: Einschränkungen und Darstellungen
 
-<!-- didaktik: Lehrschritt unterstützen/üben · 44–50 min · Einzelarbeit · Beuteblatt-Stopp -->
+<!-- didaktik="Lehrschritt unterstützen/üben · 44–50 min · Einzelarbeit · Beuteblatt-Stopp" -->
 
 **Welche Annahme gehört zu welchem Schritt der Maxwell-Treppe?**
 
@@ -283,7 +284,8 @@ Elektrostatisches Feld zwischen zwei Kugeln gleicher Ladung unterschiedlicher Vo
 ## Station 3: Wie entscheide ich? Das didaktische Reduktionsfeld
 
 <!-- src: R139-R140 -->
-<!-- didaktik: Lehrschritt informieren · 50–56 min -->
+
+<!-- didaktik="Lehrschritt informieren · 50–56 min" -->
 
 **Entscheidungsschritte zur didaktische Reduktion nach Arnold**
 
@@ -303,13 +305,13 @@ Elektrostatisches Feld zwischen zwei Kugeln gleicher Ladung unterschiedlicher Vo
 
 **Ordnen Sie die sechs Entscheidungsschritte:**
 
-<!-- didaktik: Lehrschritt üben · 56–58 min -->
+<!-- didaktik="Lehrschritt üben · 56–58 min" -->
 
 @dragdroporder(@uid,Sachanalyse|Didaktische Strukturierung|Restriktionsanalyse|Horizontale didaktische Reduktion|Vertikale didaktische Reduktion I|Vertikale didaktische Reduktion II)
 
 ## Station 4: Vereinfachen nach Hering
 
-<!-- didaktik: Lehrschritt informieren · 58–68 min -->
+<!-- didaktik="Lehrschritt informieren · 58–68 min" -->
 
 ### Hauptsatz der didaktischen Vereinfachung
 
@@ -354,7 +356,7 @@ $$\ce{6 CO2 + 6 H2O ->[\text{Lichtenergie, Chlorophyll}][\text{2827 kJ}] C6H12O6
 
 ### [NEU] Weitere Arten der Reduktion und die Elementarisierung
 
-<!-- neu: Zinn 2026, S. 302–306 -->
+<!-- neu="Zinn 2026, S. 302–306" -->
 
 > [!NOTE] 🆕 [NEU]
 > Zinn (2026) ordnet die didaktische Reduktion (Hering 1959; Grüner 1967) neben die **Elementarisierung** (Kircher 2009) und bestätigt die Unterscheidung der Folien: horizontal bleibt der „wissenschaftliche Gültigkeitsumfang … vollständig erhalten", vertikal wird er „bewusst eingeschränkt" (S. 302–303). Er nennt weitere Arten mit technischen Beispielen (S. 303–305):
@@ -374,7 +376,7 @@ $$\ce{6 CO2 + 6 H2O ->[\text{Lichtenergie, Chlorophyll}][\text{2827 kJ}] C6H12O6
 
 ### Aktivierung: Welches Verfahren?
 
-<!-- didaktik: Lehrschritt üben (Analysieren) · 68–72 min · Einzelarbeit -->
+<!-- didaktik="Lehrschritt üben (Analysieren) · 68–72 min · Einzelarbeit" -->
 
 [[Tilgung untergeordneter Aussagen] [Indizierte Tilgung nebengeordneter Aussagen] [Indizierte Verallgemeinerung]]
 [              (X)                                    ( )                                       ( )               ] „Schrauben, Nieten und Bolzen" → „lösbare und unlösbare Verbindungselemente"
@@ -386,7 +388,7 @@ Oberbegriff bilden = Tilgung untergeordneter Aussagen (R143) · eine Teilaussage
 
 ## Wo stehen wir? Baustein 8: Ihre Fachaussage reduzieren (optional)
 
-<!-- didaktik: Lehrschritt üben lassen (Transfer) / Bewerten · 72–85 min · Think-pair · Doppeldecker -->
+<!-- didaktik="Lehrschritt üben lassen (Transfer) / Bewerten · 72–85 min · Think-pair · Doppeldecker" -->
 
 **Allein (6 min):** Gehen Sie mit Ihrer mitgebrachten Fachaussage Arnolds Schritte durch.
 
@@ -410,7 +412,7 @@ Oberbegriff bilden = Tilgung untergeordneter Aussagen (R143) · eine Teilaussage
 
 ## Zum Mitnehmen
 
-<!-- didaktik: Lehrschritt festigen / Abschluss · 85–90 min -->
+<!-- didaktik="Lehrschritt festigen / Abschluss · 85–90 min" -->
 
 **Noch einmal:** „Im Unterricht darf man auch mal etwas Falsches sagen – Hauptsache, es wird verstanden."
 
@@ -430,7 +432,7 @@ Oberbegriff bilden = Tilgung untergeordneter Aussagen (R143) · eine Teilaussage
 
 ### Prüfungsfragen zum Üben
 
-<!-- didaktik: E-12 mündliche Prüfung -->
+<!-- didaktik="E-12 mündliche Prüfung" -->
 
 <small>Die Prüfungsfragen sind experimentell: Sie dienen der Vorbereitung, es ist nicht garantiert, dass Fragen in dieser Form gestellt werden.</small>
 

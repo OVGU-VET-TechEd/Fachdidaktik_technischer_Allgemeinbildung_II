@@ -11,7 +11,7 @@ comment:   Gesamtliteratur des Moduls: Quellen der Originalfolien und [NEU] erg�
 
 # Literatur
 
-<!-- didaktik: E-08, E-09 · wird je Sitzung ergänzt (fd2-citation-audit) · Lücken: Planung/Zitations_Pruefung.md -->
+<!-- didaktik="E-08, E-09 · wird je Sitzung ergänzt (fd2-citation-audit) · Lücken: Planung/Zitations_Pruefung.md" -->
 
 Angaben so vollständig, wie sie auf den Originalfolien stehen. Wo Jahr, Titel oder Verlag fehlen, ist das vermerkt – es wird nichts ergänzt, was nicht belegt ist.
 

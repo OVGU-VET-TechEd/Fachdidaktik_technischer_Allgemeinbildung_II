@@ -16,7 +16,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 
 # S10 – Medien und KI im Unterricht
 
-<!-- didaktik: Planungsraster S10 (überarbeitet 2026-10-11: Berliner Modell R166–R168 entfernt, Station 3 Simulation & KI neu) · E-03, E-04, E-09, E-11, E-12, E-17, E-19, E-20, E-27, E-33, E-34 -->
+<!-- didaktik="Planungsraster S10 (überarbeitet 2026-10-11: Berliner Modell R166–R168 entfernt, Station 3 Simulation & KI neu) · E-03, E-04, E-09, E-11, E-12, E-17, E-19, E-20, E-27, E-33, E-34" -->
 
 > [!IMPORTANT] 🧭 Leitfrage
 > Womit lernen sie – und was verändert sich, wenn das Medium antworten kann? – Heute füllen wir das Feld **Medien** der Kurskarte: vom Arbeitsblatt bis zum KI-Chatbot.
@@ -38,7 +38,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 
 ## Einstieg: Macht Abstraktion lustlos?
 
-<!-- didaktik: Lehrschritt provozieren · 0–5 min · zuerst Ergebnis der OHP-Umfrage aus der Vorbereitung zeigen -->
+<!-- didaktik="Lehrschritt provozieren · 0–5 min · zuerst Ergebnis der OHP-Umfrage aus der Vorbereitung zeigen" -->
 
 Eine These von den Folien dieser Sitzung (Sie finden sie gleich in Station 1):
 
@@ -53,7 +53,7 @@ Stimmen Sie zu?
 
 ### Murmelgruppe: Ihr Medium
 
-<!-- didaktik: Lehrschritt Vorwissen aktivieren lassen · 5–8 min · Partnerarbeit -->
+<!-- didaktik="Lehrschritt Vorwissen aktivieren lassen · 5–8 min · Partnerarbeit" -->
 
 **Zu zweit (3 min):** (Noch keins gewählt? Dann entscheiden Sie sich jetzt.) Welches Medium haben Sie für eine Stunde in Ihrer Fachrichtung gewählt – und was soll es leisten: etwas **zeigen**, **damit arbeiten** lassen oder **motivieren**?
 
@@ -61,7 +61,7 @@ Stimmen Sie zu?
 
 ## Kurskarte: das Feld Medien
 
-<!-- didaktik: Lehrschritt Ziele bekannt geben mit Advance Organizer · 8–10 min -->
+<!-- didaktik="Lehrschritt Ziele bekannt geben mit Advance Organizer · 8–10 min" -->
 
 ``` ascii
   ZIELE                       INHALTE                        MEDIEN
@@ -83,7 +83,7 @@ Zum Nachlesen: der Recap mit Grundbegriffen aus FD I direkt vor Station 1. Heute
 
 ## Recap: Grundbegriffe aus Fachdidaktik I
 
-<!-- didaktik: zum Selbststudium aufklappbar; im Vortrag nur 1 min Hinweis · Inhalte aus dem FD-I-Material, Belege dort übernommen und nicht erneut geprüft -->
+<!-- didaktik="zum Selbststudium aufklappbar; im Vortrag nur 1 min Hinweis · Inhalte aus dem FD-I-Material, Belege dort übernommen und nicht erneut geprüft" -->
 
 Zur Wiederholung – wer FD I besucht hat, kennt diese Begriffe. Alle anderen lesen sie vor oder nach der Sitzung nach.
 
@@ -134,7 +134,8 @@ Im Unterricht sind Medien **Vermittlungshilfen oder Mittler im Lernprozess** (R1
 ## Station 1: Medien
 
 <!-- src: R158 -->
-<!-- didaktik: Lehrschritt informieren · 10–20 min -->
+
+<!-- didaktik="Lehrschritt informieren · 10–20 min" -->
 
 **9 · Medien**
 
@@ -178,7 +179,7 @@ Im Unterricht sind Medien **Vermittlungshilfen oder Mittler im Lernprozess** (R1
 
 <small>Quelle: Folie R161 „9. Medien“ – Tippfehler „unterstütz“ zu „unterstützt“ korrigiert.</small>
 
-<!-- neu: Zinn 2026, S. 26–27 -->
+<!-- neu="Zinn 2026, S. 26–27" -->
 
 > [!NOTE] 🆕 [NEU] Theorie: Wo stehen Medien in der Planung? Das Berliner Modell
 > Der Merksatz hat einen theoretischen Hintergrund. Das **Berliner Modell** (lerntheoretische Didaktik nach Heimann et al.) beschreibt Strukturelemente, die allen Lehr- und Lernarrangements zugrunde liegen (Zinn 2026, S. 26–27). **Medien** sind darin eines von vier Entscheidungsfeldern – und hängen mit den anderen wechselseitig zusammen:
@@ -216,7 +217,8 @@ Im Unterricht sind Medien **Vermittlungshilfen oder Mittler im Lernprozess** (R1
 ### Grad der Wirklichkeitserfahrung
 
 <!-- src: R162 -->
-<!-- didaktik: Originalfolie ist ein Buchscan („C.5. System Unterricht“) ohne Quellenangabe (Z-03) – nicht einbetten (E-20), nur die Transkription zeigen. Die Darstellung entspricht dem „Erfahrungskegel“ nach Dale; Herkunft des Scans ist offen – mündlich nicht als belegt darstellen. -->
+
+<!-- didaktik="Originalfolie ist ein Buchscan („C.5. System Unterricht“) ohne Quellenangabe (Z-03) – nicht einbetten (E-20), nur die Transkription zeigen. Die Darstellung entspricht dem „Erfahrungskegel“ nach Dale; Herkunft des Scans ist offen – mündlich nicht als belegt darstellen." -->
 
 Die Originalfolie zeigt eine Pyramide mit elf Stufen. Von unten nach oben **nimmt die Wirklichkeitserfahrung ab**.
 
@@ -239,7 +241,7 @@ Die Originalfolie zeigt eine Pyramide mit elf Stufen. Von unten nach oben **nimm
 > [!TIP] 🔗 Verbinden Sie
 > Rollenspiel (Stufe 2) haben Sie in **S05** gespielt, Experimente (Stufe 3) in **S06** geplant, Vorführen und Demonstration in **S09** als darbietende Aktionsform kennengelernt. Die **Simulation** steht schon auf der Originalfolie auf Stufe 2 – in Station 3 sehen wir, was digitale Simulationen heute können.
 
-<!-- neu: Masters 2013 -->
+<!-- neu="Masters 2013" -->
 
 > [!NOTE] 🆕 [NEU] Vorsicht mit der Pyramide
 > Die Darstellung geht auf den „Erfahrungskegel“ von Edgar Dale zurück. Dale ordnete Medien nach ihrem **Abstraktionsgrad** – eine Rangfolge des Lernerfolgs hat er damit nicht belegt. Im Umlauf sind Versionen mit Behaltensquoten („10 % durch Lesen … 90 % durch Tun“); eine Literaturübersicht fand keine belastbare Quelle für diese Zahlen und rät davon ab, sie zu zitieren (Masters, 2013).
@@ -248,7 +250,7 @@ Die Originalfolie zeigt eine Pyramide mit elf Stufen. Von unten nach oben **nimm
 
 ### Aktivierung: Medien einordnen
 
-<!-- didaktik: Lehrschritt unterstützen · 20–25 min · Einzelarbeit, dann Vergleich zu zweit -->
+<!-- didaktik="Lehrschritt unterstützen · 20–25 min · Einzelarbeit, dann Vergleich zu zweit" -->
 
 **Welcher Erfahrungsbereich?** (R162)
 
@@ -271,7 +273,7 @@ Demonstrationsmittel sollen Anschauung herbeiführen; Arbeitsmittel sind gedruck
 
 ## Station 2: Tafel & Projektor – und gute Folien heute
 
-<!-- didaktik: Lehrschritt informieren · 25–42 min -->
+<!-- didaktik="Lehrschritt informieren · 25–42 min" -->
 
 ### Tafel
 
@@ -324,7 +326,7 @@ Demonstrationsmittel sollen Anschauung herbeiführen; Arbeitsmittel sind gedruck
 
 ### [NEU] Gute Folien heute: Gestaltungsprinzipien
 
-<!-- neu: Zinn 2026, S. 238–240 -->
+<!-- neu="Zinn 2026, S. 238–240" -->
 
 > [!NOTE] 🆕 [NEU] Vier Begriffe (Zinn 2026, S. 238, Tab. 9.3)
 > **Multimedialität** (über welche Medien Informationen aufgenommen werden, z. B. Tafel, Bücher, Computer), **Multicodalität** (wie die Information codiert ist: Text, Bild, Animation, Simulation), **Multimodalität** (mit welchen Sinnen sie wahrgenommen wird), **Interaktivität** (wie stark Lernende eingreifen und steuern können).
@@ -346,7 +348,7 @@ Demonstrationsmittel sollen Anschauung herbeiführen; Arbeitsmittel sind gedruck
 
 ### Doppeldecker: Die Originalfolie R162 auf dem Prüfstand
 
-<!-- didaktik: Lehrschritt üben (Analysieren) · 37–42 min · allein 2 min, zu zweit 3 min · PNG der Originalfolie nur im Hörsaal zeigen (Bildrechte, E-20) -->
+<!-- didaktik="Lehrschritt üben (Analysieren) · 37–42 min · allein 2 min, zu zweit 3 min · PNG der Originalfolie nur im Hörsaal zeigen (Bildrechte, E-20)" -->
 
 Die Originalfolie R162 ist ein gelblicher Buchscan: Die Pyramide ist gut lesbar, daneben scheint der Text der Buchrückseite durch, Überschrift „C.5. System Unterricht“, keine Quelle.
 
@@ -366,15 +368,16 @@ Durchscheinender Rückseitentext, Gelbstich und die fremde Kapitelüberschrift s
 
 ## Station 3: [NEU] Simulationen und KI im Unterricht
 
-<!-- didaktik: Lehrschritt informieren und üben · 42–74 min · ganze Station ist [NEU], keine Originalfolie -->
+<!-- didaktik="Lehrschritt informieren und üben · 42–74 min · ganze Station ist [NEU], keine Originalfolie" -->
 
 > [!NOTE] 🆕 [NEU] Warum diese Station?
 > Die Originalfolien enden beim Overhead-Projektor. Heute stehen in Schule und Ausbildung Simulationen und KI-Chatbots zur Verfügung – Medien, die nicht nur zeigen, sondern **reagieren**. Wir prüfen sie mit denselben Fragen wie die Tafel: Welche Funktion haben sie? Wie wirklichkeitsnah sind sie? Und dient der Einsatz dem Ziel?
 
 ### Simulationen: Experimentieren ohne Risiko?
 
-<!-- neu: Flegr, Kuhn & Scheiter 2023 -->
-<!-- didaktik: 42–48 min -->
+<!-- neu="Flegr, Kuhn & Scheiter 2023" -->
+
+<!-- didaktik="42–48 min" -->
 
 In technischen Fachrichtungen sind Simulationen längst Arbeitsmittel: Schaltungen simulieren, SPS-Programme an einer virtuellen Anlage testen, CNC-Programme am Bildschirm einfahren, Fluidtechnik oder Statik am Modell durchrechnen.
 
@@ -393,8 +396,9 @@ In technischen Fachrichtungen sind Simulationen längst Arbeitsmittel: Schaltung
 
 ### KI-Chatbots: das Medium, das antwortet
 
-<!-- neu: SWK 2024; Bastani et al. 2025 -->
-<!-- didaktik: 48–58 min -->
+<!-- neu="SWK 2024; Bastani et al. 2025" -->
+
+<!-- didaktik="48–58 min" -->
 
 Generative KI (z. B. ChatGPT, HAWKI an der OVGU) erzeugt Texte, Erklärungen, Aufgaben, Code und Bilder auf Zuruf. Ordnen wir sie in die Funktionen von R159 ein:
 
@@ -414,7 +418,7 @@ Generative KI (z. B. ChatGPT, HAWKI an der OVGU) erzeugt Texte, Erklärungen, Au
 
 ### Aktivierung: Chance oder Risiko?
 
-<!-- didaktik: Lehrschritt üben (Analysieren) · 58–62 min · Einzelarbeit, dann Plenum -->
+<!-- didaktik="Lehrschritt üben (Analysieren) · 58–62 min · Einzelarbeit, dann Plenum" -->
 
 **Ordnen Sie zu.** Manche Aussagen sind je nach Einsatz beides – entscheiden Sie, was überwiegt, und begründen Sie im Plenum.
 
@@ -431,7 +435,7 @@ Beim Üben halfen beide KI-Varianten. In der Prüfung ohne KI schnitt die Gruppe
 
 ### Doppeldecker: KI-Einsatz planen – mit Leitplanken
 
-<!-- didaktik: Lehrschritt üben lassen (Transfer / Entwickeln) · 62–74 min · Einzelarbeit 6 min, Peer-Feedback zu zweit 4 min, Plenum 2 min -->
+<!-- didaktik="Lehrschritt üben lassen (Transfer / Entwickeln) · 62–74 min · Einzelarbeit 6 min, Peer-Feedback zu zweit 4 min, Plenum 2 min" -->
 
 **Allein (6 min):** Wählen Sie eine Lernsituation aus Ihrer Fachrichtung. Planen Sie **einen** Einsatz von KI oder einer Simulation.
 
@@ -454,8 +458,9 @@ Beim Üben halfen beide KI-Varianten. In der Prüfung ohne KI schnitt die Gruppe
 
 ## Station 4: [NEU] KI für Sie als Lehrkraft
 
-<!-- neu: Miao & Cukurova 2024 -->
-<!-- didaktik: Lehrschritt informieren und anwenden · 74–84 min · Ausblick auf die Selbstlerneinheit; nur ein Durchgang der Mini-Übung -->
+<!-- neu="Miao & Cukurova 2024" -->
+
+<!-- didaktik="Lehrschritt informieren und anwenden · 74–84 min · Ausblick auf die Selbstlerneinheit; nur ein Durchgang der Mini-Übung" -->
 
 > [!NOTE] 🆕 [NEU] Dimension 5 des UNESCO-Kompetenzrahmens: KI für die berufliche Entwicklung
 > Der Rahmen beschreibt jede Dimension auf drei Stufen (Miao & Cukurova, 2024):
@@ -492,7 +497,7 @@ Für Ihren Unterrichtsalltag heißt das konkret drei Fertigkeiten:
 
 ## Zum Mitnehmen
 
-<!-- didaktik: Lehrschritt festigen / Abschluss · 84–90 min -->
+<!-- didaktik="Lehrschritt festigen / Abschluss · 84–90 min" -->
 
 **Noch einmal:** „Je abstrakter ein Medium ist, desto geringer ist seine Motivation."
 
@@ -512,7 +517,7 @@ Für Ihren Unterrichtsalltag heißt das konkret drei Fertigkeiten:
 
 ### Prüfungsfragen zum Üben
 
-<!-- didaktik: E-12 mündliche Prüfung -->
+<!-- didaktik="E-12 mündliche Prüfung" -->
 
 <small>Die Prüfungsfragen sind experimentell: Sie dienen der Vorbereitung, es ist nicht garantiert, dass Fragen in dieser Form gestellt werden.</small>
 

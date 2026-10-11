@@ -16,7 +16,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 
 # S09 – Sozialformen & Aktionsformen
 
-<!-- didaktik: Planungsraster S09 · E-03, E-04, E-12, E-17, E-19, E-27, E-32, E-33 -->
+<!-- didaktik="Planungsraster S09 · E-03, E-04, E-12, E-17, E-19, E-27, E-32, E-33" -->
 
 > [!IMPORTANT] 🧭 Leitfrage
 > Wer arbeitet mit wem – und wer tut was? – Auf der Kurskarte schließen wir heute die zwei noch offenen Leitfragen aus S01.
@@ -37,7 +37,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 
 ## Einstieg: Wie viel ist frontal?
 
-<!-- didaktik: Lehrschritt provozieren · 0–5 min · Schätzungen der Vorbereitung zeigen, dann Meyers Zahl -->
+<!-- didaktik="Lehrschritt provozieren · 0–5 min · Schätzungen der Vorbereitung zeigen, dann Meyers Zahl" -->
 
 Ihre Schätzungen aus der Vorbereitung liegen vor. Die Zahl von den Folien sehen Sie gleich in Station 1. Vorher eine These:
 
@@ -52,7 +52,7 @@ Stimmen Sie zu?
 
 ### Murmelgruppe: Was haben Sie beobachtet?
 
-<!-- didaktik: Lehrschritt Vorwissen aktivieren lassen · 5–10 min · Partnerarbeit -->
+<!-- didaktik="Lehrschritt Vorwissen aktivieren lassen · 5–10 min · Partnerarbeit" -->
 
 **Zu zweit (3 min):** Welche Sozialformen haben Sie diese Woche in einer Lehrveranstaltung beobachtet – und wie lange? Warum hat die Lehrperson wohl so entschieden?
 
@@ -60,7 +60,7 @@ Stimmen Sie zu?
 
 ## Kurskarte: die zwei offenen Leitfragen aus S01
 
-<!-- didaktik: Lehrschritt Ziele bekannt geben mit Advance Organizer · 10–15 min -->
+<!-- didaktik="Lehrschritt Ziele bekannt geben mit Advance Organizer · 10–15 min" -->
 
 ``` ascii
           METHODIK: "Wie organisiere ich ...?"   (S01, Folien R036–R039)
@@ -82,7 +82,8 @@ Stimmen Sie zu?
 ## Station 1: Sozialformen
 
 <!-- src: R146 -->
-<!-- didaktik: Lehrschritt informieren · 15–27 min -->
+
+<!-- didaktik="Lehrschritt informieren · 15–27 min" -->
 
 **Sozialformen**
 
@@ -109,7 +110,7 @@ data-show
 | Partnerarbeit | 2.88 |
 | Einzelarbeit | 10.24 |
 
-<!-- didaktik: Persona-Review P3 – „Klassenkooperation“ ist auf der Folie nicht definiert: mündlich erläutern bzw. Quelle (Meyer) nachreichen -->
+<!-- didaktik="Persona-Review P3 – „Klassenkooperation“ ist auf der Folie nicht definiert: mündlich erläutern bzw. Quelle (Meyer) nachreichen" -->
 
 <small>Quelle: Folie R147 „7. Sozialformen“ – Werte wie im Original (dort mit Komma: 7,4 %, 2,6 %, 76,86 %, 2,88 %, 10,24 %); Jahr der Erhebung auf der Folie nicht angegeben.</small>
 
@@ -171,7 +172,7 @@ data-show
 
 ### Aktivierung: Welche Variante der Gruppenarbeit?
 
-<!-- didaktik: Lehrschritt unterstützen · 27–35 min · Einzelarbeit, dann Partnerarbeit · Beuteblatt-Stopp -->
+<!-- didaktik="Lehrschritt unterstützen · 27–35 min · Einzelarbeit, dann Partnerarbeit · Beuteblatt-Stopp" -->
 
 [[aufgabengleich + arbeitsgleich] [aufgabengleich + arbeitsteilig] [aufgabenverschieden + arbeitsgleich] [aufgabenverschieden + arbeitsteilig]]
 [              (X)                              ( )                              ( )                                   ( )                 ] Alle Gruppen dimensionieren dieselbe Leitung; in jeder Gruppe rechnen alle alles.
@@ -187,7 +188,8 @@ aufgabengleich/-verschieden: Bekommen die **Gruppen** dieselbe Aufgabe (A1, B1) 
 ## Station 2: Aktionsformen
 
 <!-- src: R152 -->
-<!-- didaktik: Lehrschritt informieren · 35–47 min -->
+
+<!-- didaktik="Lehrschritt informieren · 35–47 min" -->
 
 **Aktionsformen**
 
@@ -271,7 +273,7 @@ Bietet rationelle Stoffvermittlung, hat erziehende Wirkung durch den Lehrervortr
 
 ### Aktivierung: Verfahren und Gespräche zuordnen
 
-<!-- didaktik: Lehrschritt üben · 47–55 min · Einzelarbeit -->
+<!-- didaktik="Lehrschritt üben · 47–55 min · Einzelarbeit" -->
 
 **Welche Aktionsform?**
 
@@ -288,13 +290,14 @@ Nach Jessipow braucht selbstständige Schülerarbeit (1) eine Aufgabenstellung d
 
 ## Station 3: [NEU] Was macht Unterricht wirksam?
 
-<!-- neu: Zinn 2026, S. 270–273 -->
-<!-- didaktik: Lehrschritt informieren · 55–65 min · Persona-Review P6: mit einem Werkstattbeispiel einleiten (gleiche Sozialform, unterschiedliche Qualität) -->
+<!-- neu="Zinn 2026, S. 270–273" -->
+
+<!-- didaktik="Lehrschritt informieren · 55–65 min · Persona-Review P6: mit einem Werkstattbeispiel einleiten (gleiche Sozialform, unterschiedliche Qualität)" -->
 
 > [!NOTE] 🆕 [NEU] Sozialformen und Handlungsformen
 > Zinn (2026, S. 270) nennt als typische Sozialformen Plenumsunterricht, Gruppenunterricht, Tandemarbeit, Einzelarbeit und den hybriden Sozialformenmix (vgl. Meyer & Junghans 2021). Die Wahl soll „insbesondere in Abhängigkeit der intendierten Lernziele, dem Vorwissen, dem Lerninhalt, den personalen und sozialen Kompetenzen" erfolgen. Als **Handlungsformen** bezeichnet er die kleinsten Interaktionseinheiten – z. B. eine Frage stellen, Loben und Tadeln, Hinweisen, Vorführen (S. 270–271).
 
-<!-- neu: Zinn 2026, S. 272–273 -->
+<!-- neu="Zinn 2026, S. 272–273" -->
 
 > [!NOTE] 🆕 [NEU] Oberflächen- und Tiefenstrukturen
 > Zinn (2026, S. 272) unterscheidet die **Oberflächenstrukturen** (Sichtstrukturen) – leicht beobachtbare Merkmale wie Unterrichtsformen, Sozialformen und Organisationsformen – von den **Tiefenstrukturen**, der Qualität der Interaktion mit dem Lernstoff und zwischen Lehrenden und Lernenden. „Innerhalb einer gleichen Oberflächenstruktur (z. B. Projektarbeit mit Gruppenarbeit) können unterschiedliche Lehr-Lern-Prozesse erfolgen."
@@ -305,7 +308,7 @@ Nach Jessipow braucht selbstständige Schülerarbeit (1) eine Aufgabenstellung d
 > | **Potenzial zur kognitiven Aktivierung** | Setzen sich die Lernenden aktiv und vertieft mit dem Lernstoff auseinander? |
 > | **Konstruktive Unterstützung** | Wie hilft die Lehrkraft bei Verständnisproblemen – wertschätzend und respektvoll? |
 
-<!-- neu: Zinn 2026, S. 271 -->
+<!-- neu="Zinn 2026, S. 271" -->
 
 > [!NOTE] 🆕 [NEU] Cognitive Apprenticeship (Zinn 2026, S. 271, Tab. 11.3)
 > ein strukturierter Übergang von angeleitetem zu selbstständigem Lernen: 1 Modellhaftes Vorführen (Modeling) → 2 Begleitetes Nachmachen (Coaching) → 3 Unterstützen (Scaffolding) → 4 Zurückziehen (Fading) → 5 Verbalisieren (Articulation) → 6 Reflektieren (Reflection) → 7 Erkunden (Exploration).
@@ -325,7 +328,7 @@ Oberflächenstrukturen sind leicht beobachtbar (Sozialform, Organisationsform). 
 
 ## Wo stehen wir? Die heutige Sitzung analysieren
 
-<!-- didaktik: Lehrschritt üben lassen (Analysieren / Bewerten) · 65–78 min · Dreiergruppe · Doppeldecker -->
+<!-- didaktik="Lehrschritt üben lassen (Analysieren / Bewerten) · 65–78 min · Dreiergruppe · Doppeldecker" -->
 
 **Zu dritt (10 min):** Bestimmen Sie für jede Phase der heutigen Sitzung Sozialform und Aktionsform – und schätzen Sie die kognitive Aktivierung ein.
 
@@ -352,7 +355,7 @@ Blitzumfrage und Zuordnungen = Einzelarbeit · Murmelgruppe = Partnerarbeit · V
 
 ### Baustein 9 für Ihren Unterrichtsentwurf (optional)
 
-<!-- didaktik: Lehrschritt üben lassen (Transfer) · 78–85 min · Think-pair -->
+<!-- didaktik="Lehrschritt üben lassen (Transfer) · 78–85 min · Think-pair" -->
 
 **Think-pair (7 min):** Planen Sie für Ihr Entwurfsthema die Abfolge der Sozial- und Aktionsformen (z. B. für Ihre Großform aus Baustein 7). Begründen Sie jede Entscheidung mit dem **Lernziel** – nicht mit Abwechslung.
 
@@ -364,7 +367,7 @@ Blitzumfrage und Zuordnungen = Einzelarbeit · Murmelgruppe = Partnerarbeit · V
 
 ## Zum Mitnehmen
 
-<!-- didaktik: Lehrschritt festigen / Abschluss · 85–90 min -->
+<!-- didaktik="Lehrschritt festigen / Abschluss · 85–90 min" -->
 
 **Muddiest point:** Was ist Ihnen heute am unklarsten geblieben?
 
@@ -377,7 +380,7 @@ Blitzumfrage und Zuordnungen = Einzelarbeit · Murmelgruppe = Partnerarbeit · V
 
 ### Prüfungsfragen zum Üben
 
-<!-- didaktik: E-12 mündliche Prüfung -->
+<!-- didaktik="E-12 mündliche Prüfung" -->
 
 <small>Die Prüfungsfragen sind experimentell: Sie dienen der Vorbereitung, es ist nicht garantiert, dass Fragen in dieser Form gestellt werden.</small>
 

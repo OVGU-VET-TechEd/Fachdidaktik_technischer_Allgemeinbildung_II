@@ -16,7 +16,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 
 # S12 – PAL-Prüfungen & Modulsynthese
 
-<!-- didaktik: Planungsraster S12 · E-03, E-04, E-07, E-09, E-12, E-17, E-19, E-23, E-27, E-33, E-36 -->
+<!-- didaktik="Planungsraster S12 · E-03, E-04, E-07, E-09, E-12, E-17, E-19, E-23, E-27, E-33, E-36" -->
 
 > [!IMPORTANT] 🧭 Leitfrage
 > Wer prüft am Ende – und was nehmen Sie mit? – Heute schauen wir auf die Prüfung von außen und setzen die Kurskarte ein letztes Mal zusammen.
@@ -37,7 +37,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 
 ## Einstieg: Programmiert prüfen – handlungskompetent?
 
-<!-- didaktik: Lehrschritt provozieren · 0–5 min · zuerst Ergebnis der Vorbereitungsumfrage „zentral oder Schule?“ zeigen -->
+<!-- didaktik="Lehrschritt provozieren · 0–5 min · zuerst Ergebnis der Vorbereitungsumfrage „zentral oder Schule?“ zeigen" -->
 
 Eine Aussage von der letzten Inhaltsfolie dieser Vorlesung (R194):
 
@@ -54,7 +54,7 @@ Zu Recht?
 
 ### Murmelgruppe: Ihre Abschlussprüfung
 
-<!-- didaktik: Lehrschritt Vorwissen aktivieren lassen · 5–10 min · Partnerarbeit -->
+<!-- didaktik="Lehrschritt Vorwissen aktivieren lassen · 5–10 min · Partnerarbeit" -->
 
 **Zu zweit (3 min):** Wer hat Ihre Abschlussprüfung erstellt – Ihre Schule, die Kammer, eine zentrale Stelle? Welches Gütekriterium aus S11 war erfüllt, welches verletzt?
 
@@ -62,7 +62,7 @@ Zu Recht?
 
 ## Kurskarte: das ganze Modul
 
-<!-- didaktik: Lehrschritt Ziele bekannt geben mit Advance Organizer · 10–15 min -->
+<!-- didaktik="Lehrschritt Ziele bekannt geben mit Advance Organizer · 10–15 min" -->
 
 ``` ascii
                  AUSGANGSLAGE  (S01: Besonderheiten der Technik, Ausbildungsberufe)
@@ -86,7 +86,8 @@ Zu Recht?
 ## Station 1: Die PAL – Entstehung und Prüfungen
 
 <!-- src: R184 -->
-<!-- didaktik: Lehrschritt informieren · 15–26 min · Zahlen als Stand der Originalfolie kennzeichnen (Z-23) -->
+
+<!-- didaktik="Lehrschritt informieren · 15–26 min · Zahlen als Stand der Originalfolie kennzeichnen (Z-23)" -->
 
 **11 · PAL-Prüfungen**
 
@@ -152,7 +153,7 @@ Zu Recht?
 
 ### Aktivierung: Welches Gütekriterium sichert das?
 
-<!-- didaktik: Lehrschritt unterstützen · 26–31 min · Einzelarbeit, dann zu zweit -->
+<!-- didaktik="Lehrschritt unterstützen · 26–31 min · Einzelarbeit, dann zu zweit" -->
 
 [[Objektivität] [Reliabilität] [Validität]]
 [    (X)            ( )           ( )     ] Bundeseinheitliche Aufgabensätze: alle Prüflinge bekommen die gleichen Anforderungen.
@@ -165,7 +166,7 @@ Gleiche Aufgaben und eine einheitliche Form sichern vor allem die Durchführungs
 
 ## Station 2: Wie eine PAL-Aufgabe entsteht
 
-<!-- didaktik: Lehrschritt informieren · 31–41 min -->
+<!-- didaktik="Lehrschritt informieren · 31–41 min" -->
 
 ### Hauptaufgaben der PAL-Fachausschüsse
 
@@ -220,7 +221,7 @@ Gleiche Aufgaben und eine einheitliche Form sichern vor allem die Durchführungs
 
 ### [NEU] Und im allgemeinbildenden Unterricht?
 
-<!-- neu: Zinn 2026, S. 48, 53, 72 -->
+<!-- neu="Zinn 2026, S. 48, 53, 72" -->
 
 > [!NOTE] 🆕 [NEU] PISA
 > ist ein zyklisches Bildungsmonitoring der OECD: Alle drei Jahre werden alltags- und berufsrelevante Kenntnisse und Fähigkeiten 15-Jähriger international verglichen (Zinn 2026, S. 48, nach OECD 2019). Das erklärt den PISA-Bezug auf R186 und R193: Es geht um **Vergleichbarkeit**.
@@ -231,7 +232,7 @@ Gleiche Aufgaben und eine einheitliche Form sichern vor allem die Durchführungs
 
 ### Aktivierung: Der Weg einer PAL-Aufgabe
 
-<!-- didaktik: Lehrschritt üben · 41–45 min · Einzelarbeit -->
+<!-- didaktik="Lehrschritt üben · 41–45 min · Einzelarbeit" -->
 
 Bringen Sie die Schritte in die richtige Reihenfolge (R190):
 
@@ -239,7 +240,7 @@ Bringen Sie die Schritte in die richtige Reihenfolge (R190):
 
 ## Station 3: Pro und Contra – eine Mini-Disputation
 
-<!-- didaktik: Lehrschritt üben lassen (Bewerten) · 45–60 min · Dreiergruppen: Betrieb – PAL – Jury; Vorbereitung 4, Disputation 6, Urteil 2, Plenum 3 · Doppeldecker zu S05 (Rollenspiel) -->
+<!-- didaktik="Lehrschritt üben lassen (Bewerten) · 45–60 min · Dreiergruppen: Betrieb – PAL – Jury; Vorbereitung 4, Disputation 6, Urteil 2, Plenum 3 · Doppeldecker zu S05 (Rollenspiel)" -->
 
 <!-- src: R193 -->
 
@@ -291,7 +292,7 @@ Vorbereitung 4 min · Disputation 6 min (je 2 min Plädoyer, 2 min Erwiderung) �
 
 ## Wo stehen wir? Das ganze Modul
 
-<!-- didaktik: Lehrschritt integrierendes Verbinden · 62–70 min · Zuordnung aus dem Kursüberblick wiederholen („am Semesterende noch einmal prüfen“) -->
+<!-- didaktik="Lehrschritt integrierendes Verbinden · 62–70 min · Zuordnung aus dem Kursüberblick wiederholen („am Semesterende noch einmal prüfen“)" -->
 
 ### Ihre Kurskarte – jetzt ohne Raten
 
@@ -303,7 +304,7 @@ Zu Semesterbeginn haben Sie diese Zuordnung im Kursüberblick geraten. Jetzt noc
 
 ### Selbsteinschätzung: die vier Modulziele
 
-<!-- didaktik: Teil von 70–82 min (zusammen mit Baustein 12) · Einzelarbeit · Ergebnisse anonym, für Lehrende als Rückmeldung -->
+<!-- didaktik="Teil von 70–82 min (zusammen mit Baustein 12) · Einzelarbeit · Ergebnisse anonym, für Lehrende als Rückmeldung" -->
 
 Wie sicher fühlen Sie sich? (1 = gar nicht, 4 = sehr sicher)
 
@@ -337,7 +338,7 @@ Wie sicher fühlen Sie sich? (1 = gar nicht, 4 = sehr sicher)
 
 ### Baustein 12: Ihr Entwurf – vollständig? (optional)
 
-<!-- didaktik: Lehrschritt üben lassen (Transfer / Entwickeln) · 70–82 min · Einzelarbeit 8 min, dann Partner 4 min -->
+<!-- didaktik="Lehrschritt üben lassen (Transfer / Entwickeln) · 70–82 min · Einzelarbeit 8 min, dann Partner 4 min" -->
 
 | Baustein | Inhalt | aus | ✔ |
 | --- | --- | --- | --- |
@@ -360,7 +361,7 @@ Wie sicher fühlen Sie sich? (1 = gar nicht, 4 = sehr sicher)
 
 ## Zum Mitnehmen
 
-<!-- didaktik: Lehrschritt festigen / Abschluss · 82–90 min -->
+<!-- didaktik="Lehrschritt festigen / Abschluss · 82–90 min" -->
 
 **Muddiest point des Moduls:** Was ist Ihnen im ganzen Modul am unklarsten geblieben? (Wir greifen es vor der Prüfung noch einmal auf.)
 
@@ -377,7 +378,7 @@ Wie sicher fühlen Sie sich? (1 = gar nicht, 4 = sehr sicher)
 
 ### Prüfungsfragen zum Üben
 
-<!-- didaktik: E-12 mündliche Prüfung -->
+<!-- didaktik="E-12 mündliche Prüfung" -->
 
 <small>Die Prüfungsfragen sind experimentell: Sie dienen der Vorbereitung, es ist nicht garantiert, dass Fragen in dieser Form gestellt werden.</small>
 

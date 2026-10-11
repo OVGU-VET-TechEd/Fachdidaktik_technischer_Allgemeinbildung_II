@@ -15,7 +15,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 
 # S02 – Logische Methoden (Selbstlerneinheit)
 
-<!-- didaktik: Selbstlerneinheit S02 · Selbstlerntermin 19.10.2026 (Dozent nicht vor Ort) · ca. 50 min nach der LiaScript-Sitzung · nur Quellen aus S02 -->
+<!-- didaktik="Selbstlerneinheit S02 · Selbstlerntermin 19.10.2026 (Dozent nicht vor Ort) · ca. 50 min nach der LiaScript-Sitzung · nur Quellen aus S02" -->
 
 > [!IMPORTANT] 🧭 Leitfrage
 > Wie organisiere ich den Erkenntnisweg – und woran entscheide ich, welche logische Methode zu meinem Thema passt?
@@ -61,7 +61,7 @@ Ich kann begründen, wann ich welche logische Methode wähle.
 
 ## 1 · Sieben Methoden auf einen Blick
 
-<!-- didaktik: ca. 7 min -->
+<!-- didaktik="ca. 7 min" -->
 
 | Denkrichtung | Methode | Kern | Beispiel aus S02 |
 | --- | --- | --- | --- |
@@ -81,7 +81,7 @@ Ich kann begründen, wann ich welche logische Methode wähle.
 
 ## 2 · Induktiv und deduktiv an neuen Beispielen
 
-<!-- didaktik: ca. 15 min -->
+<!-- didaktik="ca. 15 min" -->
 
 ### Übung 2a: Selbst induzieren
 
@@ -120,7 +120,7 @@ Ausgangsregel: *Der Widerstand eines Leiters wächst mit seiner Länge.* Bringen
 
 ## 3 · Reduktiv: Fehlersuche als Methode
 
-<!-- didaktik: ca. 10 min -->
+<!-- didaktik="ca. 10 min" -->
 
 Fehlersuche ist in technischen Berufen Alltag – und ein Paradebeispiel für die reduktive Methode.
 
@@ -149,7 +149,7 @@ Regressiv: vom Sachverhalt zurück auf mögliche Ursachen. Progressiv: aus einer
 
 ## 4 · Die passende Methode wählen
 
-<!-- didaktik: ca. 10 min -->
+<!-- didaktik="ca. 10 min" -->
 
 **Welche Methode liegt jeweils am nächsten?**
 

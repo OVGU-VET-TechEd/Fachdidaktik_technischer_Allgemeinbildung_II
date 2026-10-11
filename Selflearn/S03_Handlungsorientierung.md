@@ -15,7 +15,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 
 # S03 – Handlungsorientierung (Selbstlerneinheit)
 
-<!-- didaktik: Selbstlerneinheit S03 · ca. 55 min · nur Quellen aus S03 -->
+<!-- didaktik="Selbstlerneinheit S03 · ca. 55 min · nur Quellen aus S03" -->
 
 > [!IMPORTANT] 🧭 Leitfrage
 > Woran erkenne ich handlungsorientierten Unterricht – und wie mache ich aus einer Arbeitsanweisung eine vollständige Lernhandlung?
@@ -60,7 +60,7 @@ Ich kann eine Aufgabe so gestalten, dass Lernende selbst planen und entscheiden.
 
 ## 1 · Drei Begründungen unterscheiden
 
-<!-- didaktik: ca. 10 min -->
+<!-- didaktik="ca. 10 min" -->
 
 | Begründung | Kern | Vertreter auf den Folien |
 | --- | --- | --- |
@@ -84,7 +84,7 @@ Lernpsychologisch: Leontjew/Galperin (R041), Roth (R042). Handlungstheoretisch: 
 
 ## 2 · Handlungen analysieren
 
-<!-- didaktik: ca. 15 min -->
+<!-- didaktik="ca. 15 min" -->
 
 ### Übung 2a: Tätigkeit – Handlung – Operation (Kfz-Technik)
 
@@ -109,7 +109,7 @@ Die Stufen nach R045: nachvollziehen → anpassen → auswählen → kombinieren
 
 ## 3 · Eine Aufgabe handlungsorientiert umgestalten
 
-<!-- didaktik: ca. 20 min -->
+<!-- didaktik="ca. 20 min" -->
 
 **Ausgangsaufgabe (angeleitet):**
 

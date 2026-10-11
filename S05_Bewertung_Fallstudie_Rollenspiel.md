@@ -16,7 +16,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 
 # S05 – Kontrolle & Bewertung · Fallstudie · Rollenspiel
 
-<!-- didaktik: Planungsraster S05 · E-03, E-04, E-12, E-16, E-17, E-19, E-26 -->
+<!-- didaktik="Planungsraster S05 · E-03, E-04, E-12, E-16, E-17, E-19, E-26" -->
 
 > [!IMPORTANT] 🧭 Leitfrage
 > Wie vergleiche ich, was erreicht werden **sollte**, mit dem, was erreicht **wurde**? – Auf der Kurskarte: **Intentionalität / Kontrolle** und **Methodik → Erkenntnisweg**.
@@ -37,7 +37,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 
 ## Einstieg: Gerecht benoten?
 
-<!-- didaktik: Lehrschritt provozieren · 0–5 min · Ergebnis der Vorbereitungsumfrage zeigen -->
+<!-- didaktik="Lehrschritt provozieren · 0–5 min · Ergebnis der Vorbereitungsumfrage zeigen" -->
 
 > **„Gruppenarbeit kann man nicht gerecht benoten."**
 
@@ -50,7 +50,7 @@ Stimmen Sie zu?
 
 ### Murmelgruppe: Ihre Noten-Erfahrung
 
-<!-- didaktik: Lehrschritt Vorwissen aktivieren lassen · 5–10 min · Partnerarbeit -->
+<!-- didaktik="Lehrschritt Vorwissen aktivieren lassen · 5–10 min · Partnerarbeit" -->
 
 **Zu zweit (3 min):** Erzählen Sie sich Ihre Erfahrung aus der Vorbereitung. Was war gerecht, was nicht – und **woran** wurde gemessen?
 
@@ -58,7 +58,7 @@ Stimmen Sie zu?
 
 ## Kurskarte: der Soll-Ist-Vergleich als roter Faden
 
-<!-- didaktik: Lehrschritt Ziele bekannt geben mit Advance Organizer · 10–13 min -->
+<!-- didaktik="Lehrschritt Ziele bekannt geben mit Advance Organizer · 10–13 min" -->
 
 --{{0}}--
 Ein Begriff zieht sich heute durch alle drei Stationen: der Soll-Ist-Vergleich. Beim Bewerten vergleichen wir einen Maßstab mit der Leistung. In der Fallstudie vergleichen wir die eigene Lösung mit der Entscheidung in der Wirklichkeit. Und im Rollenspiel vergleichen Sie das Meinungsbild vorher und nachher.
@@ -78,7 +78,7 @@ Ein Begriff zieht sich heute durch alle drei Stationen: der Soll-Ist-Vergleich. 
 
 ## Station 1: Bewerten
 
-<!-- didaktik: Lehrschritt informieren · 13–25 min -->
+<!-- didaktik="Lehrschritt informieren · 13–25 min" -->
 
 --{{0}}--
 Wir beginnen mit der Bewertung – erst allgemein im Unterricht, dann mit den besonderen Problemen bei Projekten aus der letzten Sitzung.
@@ -187,7 +187,7 @@ Was folgt daraus? Eine ausschließliche Fremdbewertung durch die Lehrkraft ist n
 
 ### Aktivierung: Welcher Widerspruch?
 
-<!-- didaktik: Lehrschritt unterstützen · 25–30 min · Einzelarbeit -->
+<!-- didaktik="Lehrschritt unterstützen · 25–30 min · Einzelarbeit" -->
 
 Ordnen Sie jede Situation dem Widerspruch nach Kersten (R072) zu.
 
@@ -201,7 +201,7 @@ Situation 1: Die Lernenden organisieren sich selbst, der Lehrer setzt die Ziele 
 
 ## Station 2: Fallstudie
 
-<!-- didaktik: Lehrschritt informieren · 30–40 min -->
+<!-- didaktik="Lehrschritt informieren · 30–40 min" -->
 
 --{{0}}--
 In der zweiten Station lernen Sie die Fallstudie kennen – eine Methode, in der der Vergleich mit der Wirklichkeit fest eingebaut ist.
@@ -312,7 +312,7 @@ In S03 hieß es: Die Handlung „basiert auf zyklischen Einheiten (TOTE- / VVR-)
 
 ### Aktivierung: Varianten und Phasen
 
-<!-- didaktik: Lehrschritt unterstützen/üben · 40–45 min · Einzelarbeit -->
+<!-- didaktik="Lehrschritt unterstützen/üben · 40–45 min · Einzelarbeit" -->
 
 **Wo liegt der Schwerpunkt?**
 
@@ -331,7 +331,7 @@ Case-Study: verborgene Probleme analysieren · Case-Problem: Lösungsvarianten e
 
 ## Station 3: Rollenspiel
 
-<!-- didaktik: Lehrschritt informieren / Einführungsphase · 45–50 min -->
+<!-- didaktik="Lehrschritt informieren / Einführungsphase · 45–50 min" -->
 
 --{{0}}--
 In der dritten Station spielen wir. Das Rollenspiel ist zugleich Inhalt und Methode dieser Sitzung.
@@ -403,7 +403,7 @@ Unser Fall: Die fiktive Firma FloraTec hat eine gentechnisch veränderte Kartoff
 
 ### Die Rollenkarten
 
-<!-- didaktik: Erarbeitungsphase · 50–56 min · Paare/Dreier je Rolle; nicht besetzte Rollen: Beobachter:innen -->
+<!-- didaktik="Erarbeitungsphase · 50–56 min · Paare/Dreier je Rolle; nicht besetzte Rollen: Beobachter:innen" -->
 
 **Erarbeitungsphase (6 min, Paare/Dreier):** Lesen Sie Ihre Rollenkarte. Formulieren Sie ein Statement von höchstens **einer Minute**: Was ist Ihre Position, was fordern Sie?
 
@@ -495,14 +495,14 @@ Ihr Statement (für Ihre Rolle):
 
 ### Spielen: Pressekonferenz und Runder Tisch
 
-<!-- didaktik: Diskussionsphase · 56–66 min -->
+<!-- didaktik="Diskussionsphase · 56–66 min" -->
 
 1. **Pressekonferenz (6 min):** Jede Rolle verliest ihr Statement (max. 1 min).
 2. **Runder Tisch (4 min):** Finden Sie einen Konsens. Wer keine Rolle spielt, beobachtet als *teilnehmende:r Beobachter:in*: Wer überzeugt womit?
 
 ### Reflexion und Evaluation
 
-<!-- didaktik: Reflexions- und Evaluationsphase · 66–70 min -->
+<!-- didaktik="Reflexions- und Evaluationsphase · 66–70 min" -->
 
 **Reflexion:** Warum hat X so gehandelt?
 
@@ -519,7 +519,7 @@ Ihr Statement (für Ihre Rolle):
 
 ## Wo stehen wir? Das Rollenspiel bewerten
 
-<!-- didaktik: Lehrschritt üben lassen (Bewerten) · 70–78 min · Doppeldecker zu R072/R073 -->
+<!-- didaktik="Lehrschritt üben lassen (Bewerten) · 70–78 min · Doppeldecker zu R072/R073" -->
 
 Bewerten Sie das Rollenspiel so, wie es R073 für Projekte fordert.
 
@@ -547,7 +547,7 @@ Worauf haben Sie Ihre Selbsteinschätzung vor allem gestützt?
 
 ### Baustein 5 für Ihren Unterrichtsentwurf (optional)
 
-<!-- didaktik: Lehrschritt üben lassen (Transfer) · 78–85 min · Think-pair -->
+<!-- didaktik="Lehrschritt üben lassen (Transfer) · 78–85 min · Think-pair" -->
 
 **Think-pair (7 min):** Entwerfen Sie für Ihr Projektvorhaben aus Baustein 4 ein Konzept für Kontrolle und Bewertung:
 
@@ -559,7 +559,7 @@ Worauf haben Sie Ihre Selbsteinschätzung vor allem gestützt?
 
 ## Zum Mitnehmen
 
-<!-- didaktik: Lehrschritt festigen / Abschluss · 85–90 min -->
+<!-- didaktik="Lehrschritt festigen / Abschluss · 85–90 min" -->
 
 **Noch einmal:** „Gruppenarbeit kann man nicht gerecht benoten."
 
@@ -579,7 +579,7 @@ Worauf haben Sie Ihre Selbsteinschätzung vor allem gestützt?
 
 ### Prüfungsfragen zum Üben
 
-<!-- didaktik: E-12 mündliche Prüfung -->
+<!-- didaktik="E-12 mündliche Prüfung" -->
 
 <small>Die Prüfungsfragen sind experimentell: Sie dienen der Vorbereitung, es ist nicht garantiert, dass Fragen in dieser Form gestellt werden.</small>
 

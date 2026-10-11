@@ -15,7 +15,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 
 # S06 – Leittext & Experiment (Selbstlerneinheit)
 
-<!-- didaktik: Selbstlerneinheit S06 · Selbstlerntermin 16.11.2026 (Dozent nicht vor Ort) · ca. 55 min nach der LiaScript-Sitzung · nur Quellen aus S06 -->
+<!-- didaktik="Selbstlerneinheit S06 · Selbstlerntermin 16.11.2026 (Dozent nicht vor Ort) · ca. 55 min nach der LiaScript-Sitzung · nur Quellen aus S06" -->
 
 > [!IMPORTANT] 🧭 Leitfrage
 > Wie mache ich aus einer Anleitung einen Leittext – und wie plane ich ein technisches Experiment, bei dem Lernende selbst zu Erkenntnissen kommen?
@@ -61,7 +61,7 @@ Ich kann ein technisches Experiment für meinen Unterricht planen.
 
 ## 1 · Leitfragen formulieren und prüfen
 
-<!-- didaktik: ca. 15 min -->
+<!-- didaktik="ca. 15 min" -->
 
 **Die Kette** (S06, Folie R091): Tätigkeiten → erforderliche Kenntnisse → Informationen (Tabellenbuch, Betriebsanleitung, Schaltplan …) → **Leitfragen**. Leitfragen leiten dazu an, sich aus den Informationsgrundlagen die Kenntnisse zu erarbeiten, die nötig sind, um die Aufgabe fachgerecht zu lösen.
 
@@ -88,7 +88,7 @@ Gute Leitfragen verweisen auf ein Medium, verlangen eine eigene Erarbeitung oder
 
 ## 2 · Experimente klassifizieren
 
-<!-- didaktik: ca. 7 min -->
+<!-- didaktik="ca. 7 min" -->
 
 | klassifiziert nach … | Arten |
 | --- | --- |
@@ -112,7 +112,7 @@ Erkenntnisziel: technisch (Auswahl eines zweckmäßigen Dämmstoffs) – mit nat
 
 ## 3 · Ein Experiment nach Bader planen
 
-<!-- didaktik: ca. 18 min -->
+<!-- didaktik="ca. 18 min" -->
 
 **Phasen nach Bader (1990):** 1 Phänomen beobachten → 2 Frage oder Hypothese formulieren → 3 Experiment planen (Variablen, Konstanten, Randbedingungen) → 4 durchführen → 5 Aussage formulieren, Hypothese stützen oder falsifizieren → 6 in eine Theorie einordnen → 7 über Konsequenzen und Anwendungen reflektieren.
 
@@ -145,7 +145,7 @@ Planen Sie das Experiment für eine Berufsschulklasse:
 
 ## 4 · Methoden nach Effizienzkriterien wählen
 
-<!-- didaktik: ca. 7 min -->
+<!-- didaktik="ca. 7 min" -->
 
 Nach der Abbildung auf R100 (Papaloizos/Stiefel 1971, S. 180) hat jede Methode ihren stärksten Ausschlag bei einem Kriterium: Field Studies – Beobachten · Incident Method – relevante Daten auswählen · Case Method – Probleme diagnostizieren, Lösungen formulieren · Decision Simulations – Entscheiden · Role Playing – Kommunizieren · Group Projects – Motivieren.
 

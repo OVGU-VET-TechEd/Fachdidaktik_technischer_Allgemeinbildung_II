@@ -1,0 +1,25 @@
+id: fdtech2s11a761c326
+createdBy: ovgu-vet-teched
+dateCreated: 1791747976681
+name: 'FD Technik II · S11 – Lernerfolgskontrolle & Testgütekriterien'
+meta:
+  description: >-
+    Fachdidaktik technischer Allgemeinbildung II (OVGU) – Live-Classroom zur
+    Sitzung S11. Die LiaScript-Folien laufen im Classroom-Modus: Quiz- und
+    Umfrageantworten aller Teilnehmenden werden gemeinsam ausgewertet.
+  selfAssign: false
+  defaultNumberOfRooms: 0
+members:
+  teacher: []
+  student: []
+modules:
+  - url: https://edrys-labs.github.io/module-liascript/
+    config:
+      classroom: true
+      course: https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S11_Lernerfolgskontrolle.md
+    studentConfig: ''
+    teacherConfig: ''
+    stationConfig: ''
+    showInCustom: lobby
+    width: full
+    height: huge

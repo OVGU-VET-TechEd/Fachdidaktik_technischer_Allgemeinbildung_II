@@ -15,7 +15,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 
 # S05 – Bewertung · Fallstudie · Rollenspiel (Selbstlerneinheit)
 
-<!-- didaktik: Selbstlerneinheit S05 · ca. 60 min · nur Quellen aus S05 -->
+<!-- didaktik="Selbstlerneinheit S05 · ca. 60 min · nur Quellen aus S05" -->
 
 > [!IMPORTANT] 🧭 Leitfrage
 > Wie bewerte ich Projektarbeit fair – und wie baue ich Fallstudie und Rollenspiel so auf, dass der Vergleich mit der Wirklichkeit gelingt?
@@ -61,7 +61,7 @@ Ich kann eine Fallstudie für meine Fachrichtung planen.
 
 ## 1 · Bewerten: ein Konzept für Projektarbeit
 
-<!-- didaktik: ca. 15 min -->
+<!-- didaktik="ca. 15 min" -->
 
 **Kurz wiederholt** (nach S05, Folien R069–R073)
 
@@ -95,7 +95,7 @@ R073: Eine ausschließliche Fremdbewertung ist nicht möglich; Ausgangspunkt ist
 
 ## 2 · Regelkreise erkennen: TOTE an einer Tätigkeit
 
-<!-- didaktik: ca. 8 min -->
+<!-- didaktik="ca. 8 min" -->
 
 Die TOTE-Einheit (Test – Operation – Test – Exit): Soll → Bearbeitung → Test → identisch? → nein: zurück zur Bearbeitung · ja: fertig.
 
@@ -109,7 +109,7 @@ Die TOTE-Einheit (Test – Operation – Test – Exit): Soll → Bearbeitung �
 
 ## 3 · Eine technische Fallstudie aufbauen
 
-<!-- didaktik: ca. 17 min -->
+<!-- didaktik="ca. 17 min" -->
 
 **Fall (Kurzfassung):** Ein mittelständischer Betrieb muss eine veraltete Druckluftanlage ersetzen. Zur Wahl stehen ein Kompressor mit Wärmerückgewinnung (teurer) und ein günstigerer Standardkompressor. Der Betrieb hat sich in der Wirklichkeit für eine der Varianten entschieden.
 
@@ -149,7 +149,7 @@ Die Varianten unterscheiden sich im Schwerpunkt (R075): Problemerkennung (Case-S
 
 ## 4 · Ein Rollenspiel für die eigene Fachrichtung
 
-<!-- didaktik: ca. 10 min -->
+<!-- didaktik="ca. 10 min" -->
 
 **Phasen:** Einführung → Erarbeitung → Diskussion → Reflexion → Evaluation (S05, Folie R081). Das Beispiel „Transgene Kartoffel“ stammt aus der Biotechnologie – technische Konflikte gibt es in jeder Fachrichtung.
 

@@ -6,6 +6,8 @@ Otto-von-Guericke-Universität Magdeburg · Professur für Ingenieurpädagogik u
 
 **Kurswebseite: <https://ovgu-vet-teched.github.io/Fachdidaktik_technischer_Allgemeinbildung_II/>** · Montag, 07:00–09:00 Uhr · 12.10.2026 – 25.01.2027
 
+**Live-Auswertung in der Vorlesung:** Edrys-Classrooms für alle Sitzungen → [`edrys/README.md`](edrys/README.md)
+
 | Material | Öffnen |
 | --- | --- |
 | Organisatorischer Überblick / Kursüberblick | [LiaScript](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/00_Kursueberblick.md) |

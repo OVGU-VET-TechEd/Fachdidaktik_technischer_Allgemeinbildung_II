@@ -16,7 +16,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 
 # S07 – Methodische Großformen
 
-<!-- didaktik: Planungsraster S07 · E-03, E-04, E-12, E-17, E-19, E-27, E-29 -->
+<!-- didaktik="Planungsraster S07 · E-03, E-04, E-12, E-17, E-19, E-27, E-29" -->
 
 > [!IMPORTANT] 🧭 Leitfrage
 > Wie hängen **Großformen** und **logische Methoden** zusammen? – Auf der Kurskarte: **Methodik → Erkenntnisweg**.
@@ -37,7 +37,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 
 ## Einstieg: Eindeutig zuzuordnen?
 
-<!-- didaktik: Lehrschritt provozieren · 0–5 min · Ergebnis der Vorbereitungsumfrage zeigen -->
+<!-- didaktik="Lehrschritt provozieren · 0–5 min · Ergebnis der Vorbereitungsumfrage zeigen" -->
 
 > **„Jede Großform lässt sich eindeutig einer logischen Methode zuordnen."**
 
@@ -50,7 +50,7 @@ Stimmen Sie zu?
 
 ### Murmelgruppe: Ihre Aufgabenarten
 
-<!-- didaktik: Lehrschritt Vorwissen aktivieren lassen · 5–10 min · Partnerarbeit -->
+<!-- didaktik="Lehrschritt Vorwissen aktivieren lassen · 5–10 min · Partnerarbeit" -->
 
 **Zu zweit (3 min):** Nehmen Sie zwei Aufgabenarten aus Ihrer Vorbereitung. Welche logische Methode aus S02 steckt jeweils darin – analytisch, synthetisch, deduktiv, induktiv, genetisch, historisch, reduktiv?
 
@@ -59,7 +59,8 @@ Stimmen Sie zu?
 ## Kurskarte: Akzent und Gerüst
 
 <!-- src: R101-R102 -->
-<!-- didaktik: Lehrschritt Ziele bekannt geben mit Advance Organizer · 10–15 min -->
+
+<!-- didaktik="Lehrschritt Ziele bekannt geben mit Advance Organizer · 10–15 min" -->
 
 --{{0}}--
 Heute lernen Sie die methodischen Großformen nach Pahl kennen. Die Folien betrachten sie vorrangig nach ihrer analytischen oder synthetischen Akzentuierung – und warnen zugleich: Eine Methode im engeren Sinne nur einer Großform zuzuordnen, ist mit Vorsicht zu genießen. Als Lesehilfe für heute: Jede Großform hat einen Akzent, eine logische Methode aus S02, und ein Gerüst, die vollständige Handlung aus S03.
@@ -94,7 +95,7 @@ Heute lernen Sie die methodischen Großformen nach Pahl kennen. Die Folien betra
 
 ## Station 1: analytisch akzentuiert
 
-<!-- didaktik: Lehrschritt informieren · 15–27 min -->
+<!-- didaktik="Lehrschritt informieren · 15–27 min" -->
 
 --{{0}}--
 Die erste Gruppe von Großformen ist analytisch akzentuiert. Achten Sie darauf, was alle vier gemeinsam haben.
@@ -214,7 +215,7 @@ Die Konstruktionsanalyse vollzieht eine fertige Konstruktion nach, um die Konstr
 
 ### Aktivierung: Welches Beispiel – welche Großform?
 
-<!-- didaktik: Lehrschritt unterstützen · 27–30 min · Einzelarbeit -->
+<!-- didaktik="Lehrschritt unterstützen · 27–30 min · Einzelarbeit" -->
 
 @dragdropsort(@uid,Diagnoseaufgabe;Fehlverhalten einer Titrations- und Neutralisationsanlage|Fallstudie;Wasser in den Wänden|Instandsetzungsanalyse;Instandsetzung von Stahlbeton im Iran|Konstruktionsanalyse;Leitungskanal analysieren)
 
@@ -222,7 +223,7 @@ Die Konstruktionsanalyse vollzieht eine fertige Konstruktion nach, um die Konstr
 
 ## Station 2: synthetisch akzentuiert – Expertenphase
 
-<!-- didaktik: Lehrschritt unterstützen (Erarbeiten durch Lernende) · 30–38 min Expertenphase, 38–45 min Pitches -->
+<!-- didaktik="Lehrschritt unterstützen (Erarbeiten durch Lernende) · 30–38 min Expertenphase, 38–45 min Pitches" -->
 
 **Expertenphase (8 min, Paare/Dreier):** Jede Gruppe übernimmt **eine** Großform. Bereiten Sie einen **Pitch von einer Minute** vor:
 
@@ -385,7 +386,7 @@ Danach stellt jede Gruppe ihre Großform vor (38–45 min); die Lehrkraft ergän
 
 **Pitch-Check (3 min):** Untersucht die Großform etwas Vorhandenes – oder stellt sie etwas Neues her?
 
-<!-- didaktik: Lehrschritt unterstützen · 45–48 min · Einzelarbeit -->
+<!-- didaktik="Lehrschritt unterstützen · 45–48 min · Einzelarbeit" -->
 
 [[untersucht Vorhandenes (analytisch)] [stellt Neues her (synthetisch)]]
 [              (X)                                 ( )               ] Instandsetzungsanalyse
@@ -399,7 +400,7 @@ Instandsetzungsanalyse: „Bereits durchgeführte Instandsetzungen analysiert" (
 
 ## Station 3: induktiv · deduktiv · historisch · reduktiv akzentuiert
 
-<!-- didaktik: Lehrschritt informieren · 48–57 min -->
+<!-- didaktik="Lehrschritt informieren · 48–57 min" -->
 
 --{{0}}--
 In der dritten Station folgen die Großformen mit den übrigen Akzenten. Sie werden sehen: Mehrere davon kennen Sie schon unter anderem Namen.
@@ -501,7 +502,7 @@ Die Naturstudie löst technische Probleme mit Hilfe von Lösungen aus der Natur:
 
 ### Aktivierung: Großform und Akzent
 
-<!-- didaktik: Lehrschritt üben · 57–60 min · Einzelarbeit -->
+<!-- didaktik="Lehrschritt üben · 57–60 min · Einzelarbeit" -->
 
 @dragdropsort(@uid,analytisch akzentuiert;Diagnoseaufgabe;Instandsetzungsanalyse;Konstruktionsanalyse|synthetisch akzentuiert;Fertigungsaufgabe;Inspektionsaufgabe;Szenariomethode;Instandsetzungsaufgabe|induktiv akzentuiert;Technisches Experiment|historisch akzentuiert;Historisch-genetisches Verfahren|reduktiv akzentuiert;Naturstudie)
 
@@ -509,7 +510,7 @@ Die Naturstudie löst technische Probleme mit Hilfe von Lösungen aus der Natur:
 
 ## Wo stehen wir? Das gemeinsame Gerüst
 
-<!-- didaktik: Lehrschritt üben (Analysieren) / integrierendes Verbinden · 60–70 min · Partnerarbeit -->
+<!-- didaktik="Lehrschritt üben (Analysieren) / integrierendes Verbinden · 60–70 min · Partnerarbeit" -->
 
 **Zu zweit (6 min):** Legen Sie die Schritte von *Fertigungsaufgabe*, *Instandsetzungsaufgabe* und *Naturstudie* neben Hackers vollständige Handlung (S03).
 
@@ -539,7 +540,7 @@ Die **intuitive Phase** (z. B. „Intuitive Lösungsansätze", „Intuitive Prob
 
 ### Zurück zur These: „mit Vorsicht zu genießen"
 
-<!-- didaktik: Lehrschritt bewerten · 70–75 min -->
+<!-- didaktik="Lehrschritt bewerten · 70–75 min" -->
 
 Welche Belege von den Folien sprechen gegen eine eindeutige Zuordnung?
 
@@ -560,7 +561,7 @@ R101: „Zuordnung einer Methode im engeren Sinne nur zu einer methodischen Gro�
 
 ### Baustein 7 für Ihren Unterrichtsentwurf (optional)
 
-<!-- didaktik: Lehrschritt üben lassen (Transfer) · 75–85 min · Think-pair -->
+<!-- didaktik="Lehrschritt üben lassen (Transfer) · 75–85 min · Think-pair" -->
 
 **Think-pair (10 min):** Welche Großform passt zu Ihrem Entwurfsthema? Skizzieren Sie den Unterrichtsgang mit ihren typischen Schritten. Wo liegt die **intuitive Phase**, wo die **Kontrolle**?
 
@@ -568,7 +569,7 @@ R101: „Zuordnung einer Methode im engeren Sinne nur zu einer methodischen Gro�
 
 ## Zum Mitnehmen
 
-<!-- didaktik: Lehrschritt festigen / Abschluss · 85–90 min -->
+<!-- didaktik="Lehrschritt festigen / Abschluss · 85–90 min" -->
 
 **Muddiest point:** Was ist Ihnen heute am unklarsten geblieben?
 
@@ -581,7 +582,7 @@ R101: „Zuordnung einer Methode im engeren Sinne nur zu einer methodischen Gro�
 
 ### Prüfungsfragen zum Üben
 
-<!-- didaktik: E-12 mündliche Prüfung -->
+<!-- didaktik="E-12 mündliche Prüfung" -->
 
 <small>Die Prüfungsfragen sind experimentell: Sie dienen der Vorbereitung, es ist nicht garantiert, dass Fragen in dieser Form gestellt werden.</small>
 

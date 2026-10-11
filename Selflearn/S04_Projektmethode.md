@@ -15,7 +15,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 
 # S04 – Projektmethode (Selbstlerneinheit)
 
-<!-- didaktik: Selbstlerneinheit S04 · ca. 55 min · nur Quellen aus S04 -->
+<!-- didaktik="Selbstlerneinheit S04 · ca. 55 min · nur Quellen aus S04" -->
 
 > [!IMPORTANT] 🧭 Leitfrage
 > Wann ist ein Vorhaben ein Projekt im didaktischen Sinn – und wie plane ich es so, dass die Lernenden es tragen?
@@ -60,7 +60,7 @@ Ich kann ein Projekt nach dem Grundmuster von Frey planen.
 
 ## 1 · Projekt oder nicht? Drei Vorhaben prüfen
 
-<!-- didaktik: ca. 15 min -->
+<!-- didaktik="ca. 15 min" -->
 
 **Merkmale der Arbeit an Projekten** (vgl. Hortsch 1999, S04, Folie R060 – Kurzfassung): 1 Projekt vorhanden · 2 Problemlösungsstrukturen · 3 mindestens zwei Lösungen · 4 Erfahrungen und Interessen der Lernenden · 5 vollständige Lernhandlungen · 6 Gruppen oder einzeln · 7 fach- und berufsfeldübergreifend · 8 Wissen, Können und Wollen · 9 polyinstrumental und methodenpluralistisch · 10 Selbstorganisation und -verantwortung · 11 Gebrauchswert.
 
@@ -106,7 +106,7 @@ Ein technisches Projekt enthält typischerweise alle vier Problemarten. Gestaltu
 
 ## 2 · Das Grundmuster nach Frey anwenden
 
-<!-- didaktik: ca. 15 min -->
+<!-- didaktik="ca. 15 min" -->
 
 **Komponenten:** ① Projektinitiative → ② Auseinandersetzung, Ergebnis Projektskizze → ③ Entwicklung des Betätigungsgebiets, Ergebnis Projektplan → ④ Projektdurchführung → ⑤ Beendigung (bewusster Abschluss, Rückkopplung oder Auslaufenlassen) · eingeschoben: ⑥ Fixpunkte und ⑦ Metainteraktionen.
 
@@ -129,7 +129,7 @@ Ein technisches Projekt enthält typischerweise alle vier Problemarten. Gestaltu
 
 ## 3 · Die Rolle der Lehrkraft planen
 
-<!-- didaktik: ca. 15 min -->
+<!-- didaktik="ca. 15 min" -->
 
 Die Handlungsstruktur der Lehrkraft (vgl. Hortsch 2001, S04, Folie R062) hat zwölf Schritte – grob drei Phasen:
 
