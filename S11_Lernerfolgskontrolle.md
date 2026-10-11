@@ -39,7 +39,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 
 <!-- didaktik: Lehrschritt provozieren · 0–5 min · Ergebnis der Vorbereitungsumfrage zeigen; Bezug: mündliche Modulprüfung BBS -->
 
-Sie haben in der Vorbereitung abgestimmt. Ein Teil von Ihnen wird dieses Modul **mündlich** abschließen. Noch einmal, jetzt mit diesem Wissen:
+Sie haben in der Vorbereitung abgestimmt. Sie alle werden dieses Modul **mündlich** abschließen. Noch einmal, jetzt mit diesem Wissen:
 
 Ist eine mündliche Prüfung objektiv?
 
