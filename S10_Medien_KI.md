@@ -209,8 +209,6 @@ Im Unterricht sind Medien **Vermittlungshilfen oder Mittler im Lernprozess** (R1
 > | Thema | Welcher Inhalt – und wie weit reduziert (S08)? |
 > | Methoden | In welchem Unterrichtsgang wird es eingesetzt (S02–S07, S09)? |
 > | Medien | Welche Form trägt das am besten – und passt sie zu den anderen drei Feldern? |
->
-> <small>Das Berliner Modell ist hier **Theorie** – eine mögliche Denkfigur für die Planung von Material. Es ist nicht die Gliederung dieses Kurses.</small>
 
 > [!TIP] 🔗 Verbinden Sie
 > *Ihr Medium aus der Vorbereitung:* Haben Sie mit dem Medium angefangen – oder mit dem Ziel? Der Merksatz gilt auch für die neuen Medien in Station 3: Erst das Ziel, dann die Entscheidung, ob eine Simulation oder ein KI-Chatbot dafür taugt.
