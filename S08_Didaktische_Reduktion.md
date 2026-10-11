@@ -31,7 +31,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 3. eine eigene Fachaussage vertikal und horizontal **reduzieren**,
 4. Vereinfachungen den Arten und Verfahren **zuordnen**,
 5. **beurteilen**, ob eine vereinfachte Aussage noch korrekt ist,
-6. für Ihr Entwurfsthema eine Reduktionsentscheidung **planen**.
+6. für Ihr Entwurfsthema eine Reduktionsentscheidung **planen** *(optional)*.
 
 📝 **Beuteblatt S08**
 
@@ -384,7 +384,7 @@ $$\ce{6 CO2 + 6 H2O ->[\text{Lichtenergie, Chlorophyll}][\text{2827 kJ}] C6H12O6
 Oberbegriff bilden = Tilgung untergeordneter Aussagen (R143) · eine Teilaussage auswählen und auf weitere hinweisen = indizierte Tilgung nebengeordneter Aussagen (R144) · allgemeinere Aussage mit Hinweis auf den Gültigkeitsumfang („meist") = indizierte Verallgemeinerung (R145). *Übungsbeispiele, nicht von den Originalfolien.*
 ***
 
-## Wo stehen wir? Baustein 8: Ihre Fachaussage reduzieren
+## Wo stehen wir? Baustein 8: Ihre Fachaussage reduzieren (optional)
 
 <!-- didaktik: Lehrschritt üben lassen (Transfer) / Bewerten · 72–85 min · Think-pair · Doppeldecker -->
 
@@ -430,7 +430,9 @@ Oberbegriff bilden = Tilgung untergeordneter Aussagen (R143) · eine Teilaussage
 
 ### Prüfungsfragen zum Üben
 
-<!-- didaktik: E-12 mündliche Prüfung (BBS) -->
+<!-- didaktik: E-12 mündliche Prüfung -->
+
+<small>Die Prüfungsfragen sind experimentell: Sie dienen der Vorbereitung, es ist nicht garantiert, dass Fragen in dieser Form gestellt werden.</small>
 
 1. Definieren Sie didaktische Reduktion. Welche Bedingung muss jede vereinfachte Aussage erfüllen?
 2. Unterscheiden Sie vertikale und horizontale Reduktion an einem Beispiel aus Ihrer Fachrichtung.

@@ -25,22 +25,21 @@ Dieses Modul richtet sich an Studierende im Master of Education – Lehramt an b
 
 ## Die Kurskarte
 
-Jede Sitzung beantwortet eine Planungsfrage. Zusammen ergeben sie die Entscheidungsfelder des **Berliner Modells** – und am Ende Ihren eigenen Unterrichtsentwurf.
+Jede Sitzung beantwortet eine Planungsfrage – von der Ausgangslage über Ziele, Inhalte und Methoden bis zu Medien und Kontrolle.
 
 ``` ascii
-                    BEDINGUNGEN  (S01: Besonderheiten der Technik, Ausbildungsberufe)
-           anthropogen ------------------------------------------ soziokulturell
+                    AUSGANGSLAGE  (S01: Besonderheiten der Technik, Ausbildungsberufe)
                                           |
      +------------------------------------+-------------------------------------+
      v                                    v                                     v
- INTENTIONALITÄT: Wozu?           THEMATIK: Was – wie vereinfacht?        MEDIEN: Womit?
- S03 Handlungsorientierung        S08 Didaktische Reduktion               S10 Medien
+ ZIELE: Wozu?                     INHALTE: Was – wie vereinfacht?         MEDIEN: Womit?
+ S03 Handlungsorientierung        S08 Didaktische Reduktion               S10 Medien & KI
  S11 Lernerfolgskontrolle
  S12 PAL-Prüfungen
      |                                    |                                     |
      +------------------------------------+-------------------------------------+
                                           v
-                        METHODIK: "Wie organisiere ich …?"
+                        METHODEN: "Wie organisiere ich …?"
  +--------------------------+------------------------+------------------------+-------------------+
  | … den Erkenntnisweg?     | … Lehrende <-> Lernende| … Lernende <-> Gegen-  | … den Bildungs-   |
  | Unterrichtsmethoden      | Aktionsformen          | stand: Sozialformen    | prozess? Organi-  |
@@ -50,14 +49,14 @@ Jede Sitzung beantwortet eine Planungsfrage. Zusammen ergeben sie die Entscheidu
  | Experiment  S07 Großform |                        |                        |                   |
  +--------------------------+------------------------+------------------------+-------------------+
                                           v
-                 SYNTHESE: Ihr Unterrichtsentwurf nach dem Berliner Modell (S10, S12)
+                          SYNTHESE: Was nehme ich mit? (S12)
 ```
 
 ### Selbst ausprobieren: Wohin gehört welches Thema?
 
 Ordnen Sie die Sitzungsthemen den Entscheidungsfeldern zu. (Sie können das jetzt raten – und am Semesterende noch einmal prüfen.)
 
-@dragdropsort(@uid,Methodik – Erkenntnisweg;Logische Methoden;Projektmethode;Fallstudie und Rollenspiel;Leittext und Experiment;Methodische Großformen|Methodik – Sozial- und Aktionsformen;Sozialformen und Aktionsformen|Thematik;Didaktische Reduktion|Medien;Medien und Wirklichkeitserfahrung|Intentionalität und Kontrolle;Handlungsorientierung;Lernerfolgskontrolle;PAL-Prüfungen)
+@dragdropsort(@uid,Methoden – Erkenntnisweg;Logische Methoden;Projektmethode;Fallstudie und Rollenspiel;Leittext und Experiment;Methodische Großformen|Methoden – Sozial- und Aktionsformen;Sozialformen und Aktionsformen|Inhalte;Didaktische Reduktion|Medien;Medien und Wirklichkeitserfahrung;Simulation und KI|Ziele und Kontrolle;Handlungsorientierung;Lernerfolgskontrolle;PAL-Prüfungen)
 
 ## Sitzungsplan
 
@@ -72,12 +71,12 @@ Ordnen Sie die Sitzungsthemen den Entscheidungsfeldern zu. (Sie können das jetz
 | [S07](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S07_Grossformen.md) | 23.11.2026 | Methodische Großformen | Wie hängen Großformen und logische Methoden zusammen? |
 | [S08](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S08_Didaktische_Reduktion.md) | 30.11.2026 | Didaktische Reduktion | Wie vereinfache ich – ohne falsch zu werden? |
 | [S09](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S09_Sozialformen_Aktionsformen.md) | 07.12.2026 | Sozialformen & Aktionsformen | Wer arbeitet mit wem – und wer tut was? |
-| [S10](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S10_Medien_Berliner_Modell.md) | 14.12.2026 | Medien & Unterrichtsentwurf (Berliner Modell) | Womit lernen sie – und wie plane ich eine Stunde? |
+| [S10](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S10_Medien_KI.md) | 14.12.2026 | Medien & KI im Unterricht | Womit lernen sie – und was verändert KI? |
 | – | 21.12.2026 – 01.01.2027 | Weihnachtspause (Universität geschlossen 28.–30.12.2026) | |
 | [S11](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S11_Lernerfolgskontrolle.md) | 04.01.2027 | Lernerfolgskontrolle | Wie prüfe ich gerecht und aussagekräftig? |
-| – | 11.01.2027 🔵 | Selbstlernsitzung: Arbeit am eigenen Unterrichtsentwurf | Wie führe ich die Bausteine aus S01–S11 zusammen? |
+| – | 11.01.2027 🔵 | Selbstlernsitzung: Arbeit am eigenen Unterrichtsentwurf (Berliner Modell) | Wie führe ich die Bausteine aus S01–S11 zusammen? |
 | [S12](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S12_PAL_Synthese.md) | 18.01.2027 | PAL-Prüfungen & Synthese | Wie wird bundesweit geprüft – und was nehme ich mit? |
-| – | 25.01.2027 | Prüfungsvorbereitung & Feedback zum Unterrichtsentwurf | Was kann in der mündlichen Prüfung gefragt werden? |
+| – | 25.01.2027 | Prüfungsvorbereitung: Prüfungsfragen, offene Fragen | Was kann in der mündlichen Prüfung gefragt werden? |
 
 <small>Montags, 07:00–09:00 Uhr · Terminplan vorläufig · 🔵 Selbstlernsitzung (Dozent nicht vor Ort) · keine Lehrveranstaltungen am 06.01.2027.</small>
 
@@ -87,16 +86,24 @@ Nach dem Modul können Sie …
 
 - handlungsorientierte Methoden für die kompetenzfördernde Gestaltung von Lernsituationen in Ihrer Fachrichtung bzw. im Technikunterricht **auswählen und begründen**,
 - komplexe fachwissenschaftliche Inhalte adressatengerecht **didaktisch reduzieren**,
-- Unterricht nach dem Berliner Modell **planen** und Ihre Entscheidungen fachdidaktisch **begründen**,
+- Unterricht **planen** und Ihre methodischen Entscheidungen fachdidaktisch **begründen**,
 - Lernerfolgskontrollen nach Gütekriterien **beurteilen**.
 
 <small>Modulziele angelehnt an die Modulbeschreibungen M.Ed. Lehramt BBS (PM 1) und Gymnasium (FD II), Stand 2022.</small>
 
+## Prüfungsleistung
+
+Die Prüfungsleistung in diesem Modul ist **ausschließlich eine mündliche Prüfung**.
+
+> [!NOTE]
+> Weitere Prüfungsformate (z. B. die Präsentation eines Unterrichtsentwurfs) gehören zum **Ingenieurpädagogischen Labor** – einem eigenständigen Seminar.
+
+Die **Prüfungsfragen** am Ende jeder Sitzung sind ein **experimentelles** Angebot zur Vorbereitung: Sie zeigen typische Themen und Denkrichtungen, garantieren aber nicht, dass Fragen in dieser Form gestellt werden.
+
 ## So arbeiten Sie mit diesem Kurs
 
 - **In der Sitzung:** Umfragen und Aufgaben beantworten Sie live – der Kurs läuft im Classroom-Modus.
-- **Beuteblatt:** In jeder Sitzung halten Sie Ihre „Beute" fest – Grundlage für Prüfung und Entwurf.
-- **Roter Faden „Mein Unterrichtsentwurf":** Jede Sitzung liefert einen Baustein.
-- **Prüfungsfragen** am Ende jeder Sitzung zeigen, was in der mündlichen Prüfung gefragt werden kann.
+- **Beuteblatt:** In jeder Sitzung halten Sie Ihre „Beute" fest – Grundlage für die Prüfungsvorbereitung.
+- **Prüfungsfragen** am Ende jeder Sitzung dienen der Vorbereitung auf die mündliche Prüfung. Sie sind experimentell – es ist nicht garantiert, dass Fragen in dieser Form gestellt werden.
 - Inhalte mit **[NEU]** ergänzen die ursprünglichen Vorlesungsfolien um aktuelle Literatur.
 - Unter jedem Abschnitt steht, aus welcher Originalfolie (R001–R195) der Inhalt stammt.

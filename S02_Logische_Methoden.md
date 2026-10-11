@@ -31,7 +31,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 3. aus Messwerten selbst induktiv eine Regel **aufstellen** und eine deduktive Schlusskette **ordnen**,
 4. Unterrichtsbeispiele einer Methode **zuordnen** und genetische von historischer Methode **unterscheiden**,
 5. Vor- und Nachteile deduktiven und induktiven Vorgehens **abwägen**,
-6. für Ihr Entwurfsthema eine logische Methode **auswählen** und einen Unterrichtsgang **skizzieren**.
+6. für Ihr Entwurfsthema eine logische Methode **auswählen** und einen Unterrichtsgang **skizzieren** *(optional)*.
 
 📝 **Beuteblatt S02:** Füllen Sie die Überblickstabelle im Lauf der Sitzung.
 
@@ -482,7 +482,7 @@ Dach – analytisch (R014) · Beton – deduktiv (R021–R022) · HOOKE – indu
 [   ( )        (X)         ( )     ] Deduktive Methode – erst Regel, dann Beton-Beispiel
 [   ( )        ( )         (X)     ] Dächer aus Merkmalen zusammensetzen
 
-### Baustein 2 für Ihren Unterrichtsentwurf
+### Baustein 2 für Ihren Unterrichtsentwurf (optional)
 
 **Think-pair (6 min):** Wählen Sie für Ihr Entwurfsthema aus S01 eine logische Methode. Skizzieren Sie den Unterrichtsgang in drei Schritten (z. B. *Fall → Lösung → Regel* oder *allgemeine Aussage → Interpretation → Anwendung*) und begründen Sie Ihre Wahl Ihrem Nachbarn.
 
@@ -507,7 +507,9 @@ Dach – analytisch (R014) · Beton – deduktiv (R021–R022) · HOOKE – indu
 
 ### Prüfungsfragen zum Üben
 
-<!-- didaktik: E-12 mündliche Prüfung (BBS) -->
+<!-- didaktik: E-12 mündliche Prüfung -->
+
+<small>Die Prüfungsfragen sind experimentell: Sie dienen der Vorbereitung, es ist nicht garantiert, dass Fragen in dieser Form gestellt werden.</small>
 
 1. Nennen Sie die Methoden unter dem logischen Aspekt und erläutern Sie zwei davon an einem technischen Beispiel.
 2. Vergleichen Sie deduktives und induktives Vorgehen: Schrittfolge, Vor- und Nachteile – und wann würden Sie welches wählen?

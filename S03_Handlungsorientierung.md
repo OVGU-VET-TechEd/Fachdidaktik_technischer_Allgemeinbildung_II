@@ -36,7 +36,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 3. eine eigene berufliche Tätigkeit nach der vollständigen Handlung **beschreiben**,
 4. eine Tätigkeit in Handlungen und Operationen **gliedern** und Aussagen zum handlungsorientierten Unterricht **prüfen**,
 5. eine Unterrichtssituation anhand der Merkmale handlungsorientierter Unterrichtsgestaltung **beurteilen**,
-6. für Ihr Entwurfsthema eine Lernhandlung **entwerfen**.
+6. für Ihr Entwurfsthema eine Lernhandlung **entwerfen** *(optional)*.
 
 📝 **Beuteblatt S03:** drei Abschnitte – einer pro Station.
 
@@ -361,7 +361,7 @@ Was müsste sich ändern – und wäre das in einer Vorlesung überhaupt möglic
 > [!TIP] 🔗 Verbinden Sie mit S01
 > Welche *Organisationsform* (Unterrichtsstunde, Exkursion, Praktika …) ließe mehr Handlungsorientierung zu? Und welche *logische Methode* aus S02 passt am besten zum Orientieren in einer vollständigen Handlung?
 
-### Baustein 3 für Ihren Unterrichtsentwurf
+### Baustein 3 für Ihren Unterrichtsentwurf (optional)
 
 <!-- didaktik: Lehrschritt üben lassen (Transfer) · 77–85 min · Think-pair -->
 
@@ -396,7 +396,9 @@ Welche **Selbständigkeitsstufe** (1–5) streben Sie an – und warum?
 
 ### Prüfungsfragen zum Üben
 
-<!-- didaktik: E-12 mündliche Prüfung (BBS) -->
+<!-- didaktik: E-12 mündliche Prüfung -->
+
+<small>Die Prüfungsfragen sind experimentell: Sie dienen der Vorbereitung, es ist nicht garantiert, dass Fragen in dieser Form gestellt werden.</small>
 
 1. Begründen Sie Handlungsorientierung lernpsychologisch – mit mindestens zwei Positionen von den Folien.
 2. Erläutern Sie den Zusammenhang von Tätigkeit, Handlung und Operation sowie von Motiv, Ziel und Teilziel.

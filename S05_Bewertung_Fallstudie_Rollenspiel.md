@@ -545,7 +545,7 @@ Worauf haben Sie Ihre Selbsteinschätzung vor allem gestützt?
 > [!TIP] 🔗 Verbinden Sie
 > Welcher Widerspruch aus R072 ist Ihnen beim Bewerten begegnet? Und welche Merkmale einer Bewertungssituation (R071) waren erfüllt – gab es z. B. einen verbindlichen Maßstab?
 
-### Baustein 5 für Ihren Unterrichtsentwurf
+### Baustein 5 für Ihren Unterrichtsentwurf (optional)
 
 <!-- didaktik: Lehrschritt üben lassen (Transfer) · 78–85 min · Think-pair -->
 
@@ -579,7 +579,9 @@ Worauf haben Sie Ihre Selbsteinschätzung vor allem gestützt?
 
 ### Prüfungsfragen zum Üben
 
-<!-- didaktik: E-12 mündliche Prüfung (BBS) -->
+<!-- didaktik: E-12 mündliche Prüfung -->
+
+<small>Die Prüfungsfragen sind experimentell: Sie dienen der Vorbereitung, es ist nicht garantiert, dass Fragen in dieser Form gestellt werden.</small>
 
 1. Welche Funktionen haben Kontrolle und Bewertung im Unterricht? Erläutern Sie den pädagogischen Soll-Ist-Vergleich.
 2. Welche Widersprüche treten bei der Bewertung von Projektarbeit auf – und wie sollte man ihnen begegnen?

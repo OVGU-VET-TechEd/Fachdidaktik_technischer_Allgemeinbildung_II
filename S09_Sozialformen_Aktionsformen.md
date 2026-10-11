@@ -31,7 +31,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 3. für eine Situation die passende Gruppenarbeitsvariante und Gesprächsform **bestimmen**,
 4. eine Unterrichtsstunde nach Sozial- und Aktionsform **analysieren** und Oberflächen- von Tiefenstrukturen **unterscheiden**,
 5. die These zum Frontalunterricht begründet **beurteilen**,
-6. eine Abfolge von Sozial- und Aktionsformen für Ihren Entwurf **planen**.
+6. eine Abfolge von Sozial- und Aktionsformen für Ihren Entwurf **planen** *(optional)*.
 
 📝 **Beuteblatt S09**
 
@@ -350,7 +350,7 @@ Blitzumfrage und Zuordnungen = Einzelarbeit · Murmelgruppe = Partnerarbeit · V
 - [(eher nein)] Eher nein
 - [(nein)] Nein
 
-### Baustein 9 für Ihren Unterrichtsentwurf
+### Baustein 9 für Ihren Unterrichtsentwurf (optional)
 
 <!-- didaktik: Lehrschritt üben lassen (Transfer) · 78–85 min · Think-pair -->
 
@@ -377,7 +377,9 @@ Blitzumfrage und Zuordnungen = Einzelarbeit · Murmelgruppe = Partnerarbeit · V
 
 ### Prüfungsfragen zum Üben
 
-<!-- didaktik: E-12 mündliche Prüfung (BBS) -->
+<!-- didaktik: E-12 mündliche Prüfung -->
+
+<small>Die Prüfungsfragen sind experimentell: Sie dienen der Vorbereitung, es ist nicht garantiert, dass Fragen in dieser Form gestellt werden.</small>
 
 1. Was sind Sozialformen? Nennen Sie Vor- und Nachteile des Frontalunterrichts.
 2. Erläutern Sie die vier Varianten der Gruppenarbeit an einem Beispiel aus Ihrer Fachrichtung.
@@ -387,9 +389,9 @@ Blitzumfrage und Zuordnungen = Einzelarbeit · Murmelgruppe = Partnerarbeit · V
 
 ### Vorbereitung auf S10 (vor der Sitzung, ca. 15 min)
 
-In S10 geht es um **Medien** und den **Unterrichtsentwurf nach dem Berliner Modell** – die Synthese Ihrer Bausteine.
+In S10 geht es um **Medien** – von der Tafel bis zu Simulationen und KI-Chatbots.
 
-**Aufgabe:** Notieren Sie ein Medium, das Sie in Ihrem Entwurf einsetzen wollen (Tafel, Modell, Video, Simulation, Realgegenstand …), und wozu.
+**Aufgabe:** Notieren Sie ein Medium, das Sie in einer Stunde Ihrer Fachrichtung einsetzen wollen (Tafel, Modell, Video, Simulation, KI-Chatbot, Realgegenstand …), und wozu.
 
     [[___ ___]]
 

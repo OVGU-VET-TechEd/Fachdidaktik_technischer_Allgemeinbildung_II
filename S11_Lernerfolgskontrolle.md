@@ -31,7 +31,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 3. didaktische Aufforderungen einem Lernzielbereich **zuordnen**,
 4. in einem Bewertungsexperiment den Hof-Effekt **identifizieren**,
 5. eine Prüfungsaufgabe anhand der Gütekriterien **beurteilen**,
-6. eine Kontrollaufgabe mit Operator und Erwartungshorizont für Ihren Entwurf **entwickeln**.
+6. eine Kontrollaufgabe mit Operator und Erwartungshorizont für Ihren Entwurf **entwickeln** *(optional)*.
 
 📝 **Beuteblatt S11**
 
@@ -92,13 +92,13 @@ Ihre Punkte für Antwort B:
 <!-- didaktik: Lehrschritt Ziele bekannt geben mit Advance Organizer · 10–15 min -->
 
 --{{0}}--
-In S10 haben Sie Feinlernziele formuliert. Heute fragen wir: Woher wissen wir, ob sie erreicht wurden? Wir gehen in vier Stationen vor – Lernziel und Lernkontrolle, Test und Gütekriterien, Kontrollfehler und schließlich die passenden Aufforderungen für jeden Lernzielbereich.
+Jede Sitzung beginnt mit Lernzielen (vgl. S01). Heute fragen wir: Woher wissen wir, ob sie erreicht wurden? Wir gehen in vier Stationen vor – Lernziel und Lernkontrolle, Test und Gütekriterien, Kontrollfehler und schließlich die passenden Aufforderungen für jeden Lernzielbereich.
 
 ``` ascii
-  INTENTIONALITÄT: Feinlernziel (S10)  ----------------------->  KONTROLLE: Wurde es erreicht? (heute)
+  ZIELE: Lernziel (S01, S03)  -------------------------------->  KONTROLLE: Wurde es erreicht? (heute)
         |                                                                ^
         v                                                                |
-  THEMATIK / METHODIK / MEDIEN (S01-S10)  ---- Unterricht ---------------+
+  INHALTE / METHODEN / MEDIEN (S01-S10)  ----- Unterricht ---------------+
                                                                          |
   S05: Kontrolle und Bewertung in Projekten (Soll-Ist-Vergleich)  -------+
   S12: zentrale Abschlussprüfungen (PAL)
@@ -107,7 +107,7 @@ In S10 haben Sie Feinlernziele formuliert. Heute fragen wir: Woher wissen wir, o
   -> Station 3: Kontrollfehler -> Station 4: Aufforderungen nach Lernzielbereichen
 ```
 
-<small>Die Kurskarte ist eine Lesehilfe (vgl. S01, S05, S10).</small>
+<small>Die Kurskarte ist eine Lesehilfe (vgl. S01, S05).</small>
 
 ## Station 1: Lernziel und Lernkontrolle
 
@@ -484,15 +484,15 @@ Zinn ergänzt das, als NEU markiert: Solche handlungsleitenden Verben heißen Op
 
 @dragdropsort(@uid,kognitiv;Nennen Sie;Berechnen Sie;Klassifizieren Sie;Entwickeln Sie;Prüfen Sie|affektiv;Berücksichtigen Sie;Beteiligen Sie sich an;Setzen Sie sich für ... ein;Finden Sie Beurteilungsmaßstäbe für|psychomotorisch;Messen Sie;Zeichnen Sie)
 
-## Wo stehen wir? Baustein 11: Ihre Kontrollaufgabe
+## Wo stehen wir? Baustein 11: Ihre Kontrollaufgabe (optional)
 
 <!-- didaktik: Lehrschritt üben lassen (Transfer) · 79–85 min · Think-pair · Doppeldecker: Partner prüft auf Validität -->
 
-### Baustein 11 für Ihren Unterrichtsentwurf
+### Baustein 11 für Ihren Unterrichtsentwurf (optional)
 
-**Allein (3 min), dann zu zweit (3 min):** Wählen Sie ein Feinlernziel aus Baustein 10.
+**Allein (3 min), dann zu zweit (3 min):** Wählen Sie ein Lernziel einer Stunde aus Ihrer Fachrichtung (oder aus Ihrem optionalen Entwurf).
 
-| Feinlernziel | Aufgabe (mit Operator) | Erwartungshorizont (Punkte) | Gütekriterien-Check |
+| Lernziel | Aufgabe (mit Operator) | Erwartungshorizont (Punkte) | Gütekriterien-Check |
 | --- | --- | --- | --- |
 | … | … | … | Wurde auf dieser Stufe gelehrt (R170)? Prüft sie nur das Ziel (Validität)? Lösungsschlüssel (Objektivität)? |
 
@@ -518,11 +518,13 @@ Zinn ergänzt das, als NEU markiert: Solche handlungsleitenden Verben heißen Op
 📝 **Beuteblatt-Stopp:** Ergänzen Sie die Abschnitte 3 und 4, Baustein 11 und Ihre wichtigste Beute.
 
 > [!NOTE] 🔗 Querverweise
-> Lernziele mit Operatoren, Constructive Alignment → **S01** · Kontrolle und Bewertung in Projekten, Soll-Ist-Vergleich → **S05** · Feinlernziele, Berliner Modell → **S10** · zentrale Abschlussprüfungen (PAL) → **S12**
+> Lernziele mit Operatoren, Constructive Alignment → **S01** · Kontrolle und Bewertung in Projekten, Soll-Ist-Vergleich → **S05** · Medien, KI und Prüfen → **S10** · zentrale Abschlussprüfungen (PAL) → **S12**
 
 ### Prüfungsfragen zum Üben
 
-<!-- didaktik: E-12 mündliche Prüfung (BBS) -->
+<!-- didaktik: E-12 mündliche Prüfung -->
+
+<small>Die Prüfungsfragen sind experimentell: Sie dienen der Vorbereitung, es ist nicht garantiert, dass Fragen in dieser Form gestellt werden.</small>
 
 1. Erläutern Sie den Zusammenhang zwischen Lernziel und Lernkontrolle.
 2. Nennen und erläutern Sie die drei Testgütekriterien an je einem Beispiel aus Ihrer Fachrichtung.

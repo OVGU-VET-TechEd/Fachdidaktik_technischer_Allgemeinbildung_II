@@ -69,7 +69,14 @@ Angaben so vollständig, wie sie auf den Originalfolien stehen. Wo Jahr, Titel o
 - Stettler, A. (2025). Offenheit der Aufgabenstellung und Strukturiertheit des Unterrichtes im Technischen Gestalten. In A. Steinmann, M. Seidler-Proffe & K. Lange-Schubert (Hrsg.), *Mitwelt im Wandel wahrnehmen, verstehen und gestalten* (S. 73 ff.). Bad Heilbrunn: Klinkhardt. https://doi.org/10.35468/6199-07 – S06
 - Zinn, B. (2026), Abschn. 12.3.10 Didaktische Reduktion und Elementarisierung, S. 302–306 – S08
 - Zinn, B. (2026), Abschn. 11.5–11.7 Sozialformen, Handlungsformen, wirksamer Unterricht, S. 270–273 – S09
-- Zinn, B. (2026), Abschn. 2.3.1–2.3.2 Didaktische Analyse (Klafki), Berliner Modell (Heimann et al.), S. 26–27; 5.1.1 Lernzielebenen, S. 68–69; 9.5 multimediales Lernen, S. 238–240; 12.3 Gliederung Unterrichtsentwurf, S. 293–294 – S10
+- Zinn, B. (2026), Abschn. 2.3.2 Berliner Modell (Heimann et al.), S. 26–27 (als Theorie zur Materialplanung); 9.5 multimediales Lernen, S. 238–240 – S10
+- Recap aus FD I (Angaben aus dem FD-I-Material übernommen): Kron (1994), Issing (1987), Schelten (1994), Thüring (2003), Plewa (2010) – S10
+- Bastani, H., Bastani, O., Sungu, A., Ge, H., Kabakcı, Ö. & Mariman, R. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. *PNAS, 122*(26), e2422633122. https://doi.org/10.1073/pnas.2422633122 – S10
+- Flegr, S., Kuhn, J. & Scheiter, K. (2023). When the whole is greater than the sum of its parts: Combining real and virtual experiments in science education. *Computers & Education, 197*, 104745. https://doi.org/10.1016/j.compedu.2023.104745 – S10
+- KMK – Bildungsministerkonferenz (2024). *Handlungsempfehlung für die Bildungsverwaltung zum Umgang mit Künstlicher Intelligenz in schulischen Bildungsprozessen* (Beschluss vom 10.10.2024) – S10
+- Masters, K. (2013). Edgar Dale's Pyramid of Learning in medical education: A literature review. *Medical Teacher, 35*(11), e1584–e1593. https://doi.org/10.3109/0142159X.2013.800636 – S10
+- Miao, F. & Cukurova, M. (2024). *AI competency framework for teachers.* Paris: UNESCO. https://doi.org/10.54675/ZJTE2084 – S10
+- SWK (2024). *Large Language Models und ihre Potenziale im Bildungssystem. Impulspapier.* Bonn: Ständige Wissenschaftliche Kommission der KMK – S10
 - Zinn, B. (2026), Abschn. 5.1.2–5.1.4 Lernzielbereiche, Operatoren, Anforderungsbereiche, S. 70–73; 8.2 Leistungsmessung, Bezugsnormen, Gütekriterien, S. 217–219 – S11
 - Moosbrugger, H. & Kelava, A. (2020) – zitiert nach Zinn (2026, S. 218) – S11
 - Zinn, B. (2026), Abschn. 4.1.1 PISA, S. 48; 4.2 Bildungsstandards, S. 53; 5.1.4 EPA Technik, S. 72 – S12

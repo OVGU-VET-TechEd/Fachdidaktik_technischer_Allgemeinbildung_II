@@ -31,7 +31,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 3. eine Aufgabenart aus Ihrem Beruf als Großform **formulieren**,
 4. die gemeinsame Schrittstruktur **herausarbeiten** und Großformen den logischen Methoden **zuordnen**,
 5. **beurteilen**, warum eine eindeutige Zuordnung „mit Vorsicht zu genießen" ist,
-6. für Ihr Entwurfsthema eine Großform **auswählen** und den Unterrichtsgang **skizzieren**.
+6. für Ihr Entwurfsthema eine Großform **auswählen** und den Unterrichtsgang **skizzieren** *(optional)*.
 
 📝 **Beuteblatt S07**
 
@@ -558,7 +558,7 @@ R101: „Zuordnung einer Methode im engeren Sinne nur zu einer methodischen Gro�
 - [(eher nein)] Eher nein
 - [(nein)] Nein
 
-### Baustein 7 für Ihren Unterrichtsentwurf
+### Baustein 7 für Ihren Unterrichtsentwurf (optional)
 
 <!-- didaktik: Lehrschritt üben lassen (Transfer) · 75–85 min · Think-pair -->
 
@@ -581,7 +581,9 @@ R101: „Zuordnung einer Methode im engeren Sinne nur zu einer methodischen Gro�
 
 ### Prüfungsfragen zum Üben
 
-<!-- didaktik: E-12 mündliche Prüfung (BBS) -->
+<!-- didaktik: E-12 mündliche Prüfung -->
+
+<small>Die Prüfungsfragen sind experimentell: Sie dienen der Vorbereitung, es ist nicht garantiert, dass Fragen in dieser Form gestellt werden.</small>
 
 1. Was ist eine methodische Großform? Erläutern Sie den Zusammenhang mit den logischen Methoden.
 2. Vergleichen Sie Instandsetzungsanalyse und Instandsetzungsaufgabe.

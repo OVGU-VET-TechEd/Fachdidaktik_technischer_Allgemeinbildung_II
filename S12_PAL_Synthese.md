@@ -8,8 +8,8 @@ mode:      Textbook
 classroom: enable
 
 title:     S12 – PAL-Prüfungen & Modulsynthese
-comment:   Fachdidaktik technischer Allgemeinbildung II / Fachdidaktik gewerblich-technischer Fachrichtungen – Sitzung 12. Wer prüft am Ende – und was nehmen Sie mit? PAL-Prüfungen, Pro und Contra, Gesamtkarte und Ihr Unterrichtsentwurf.
-tags:      Fachdidaktik, Technikdidaktik, Berufsbildung, PAL, Abschlussprüfung, IHK, Gütekriterien, Berliner Modell, Synthese
+comment:   Fachdidaktik technischer Allgemeinbildung II / Fachdidaktik gewerblich-technischer Fachrichtungen – Sitzung 12. Wer prüft am Ende – und was nehmen Sie mit? PAL-Prüfungen, Pro und Contra und die Gesamtkarte des Moduls.
+tags:      Fachdidaktik, Technikdidaktik, Berufsbildung, PAL, Abschlussprüfung, IHK, Gütekriterien, Synthese
 
 import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragAndDrop_Template/refs/heads/main/README.md
 -->
@@ -29,9 +29,9 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 1. Entstehung, Zielsetzung und Aufgaben der PAL sowie die Teile der gesetzlich vorgesehenen Prüfungen **nennen**,
 2. den Weg einer PAL-Aufgabe vom Auftrag bis zur Verabschiedung **beschreiben**,
 3. die Gütekriterien aus S11 auf die PAL-Prüfung **anwenden**,
-4. die Themen aller Sitzungen den Feldern des Berliner Modells **zuordnen**,
+4. die Themen aller Sitzungen den Planungsfragen der Kurskarte **zuordnen**,
 5. betrieblichen Auftrag und PAL-Prüfung begründet **gegeneinander abwägen**,
-6. Ihre Bausteine zu einem vollständigen Entwurf **zusammenführen**.
+6. die Prüfungsfragen des Moduls für Ihre mündliche Prüfung **nutzen** *(optional: Ihre Bausteine prüfen)*.
 
 📝 **Beuteblatt S12**
 
@@ -65,21 +65,20 @@ Zu Recht?
 <!-- didaktik: Lehrschritt Ziele bekannt geben mit Advance Organizer · 10–15 min -->
 
 ``` ascii
-                 BEDINGUNGEN  (S01: Besonderheiten der Technik, Ausbildungsberufe)
+                 AUSGANGSLAGE  (S01: Besonderheiten der Technik, Ausbildungsberufe)
                                           |
      +------------------------------------+-------------------------------------+
      v                                    v                                     v
- INTENTIONALITÄT: Wozu?           THEMATIK: Was – wie vereinfacht?        MEDIEN: Womit?
- S03 Handlungsorientierung        S08 Didaktische Reduktion               S10 Medien
+ ZIELE: Wozu?                     INHALTE: Was – wie vereinfacht?         MEDIEN: Womit?
+ S03 Handlungsorientierung        S08 Didaktische Reduktion               S10 Medien & KI
  S11 Lernerfolgskontrolle
  >>> heute: S12 Prüfung von außen (PAL)
      |                                    |                                     |
      +------------------------------------+-------------------------------------+
                                           v
-             METHODIK: S02, S04-S07 Methoden · S09 Aktions- und Sozialformen
+             METHODEN: S02, S04-S07 Methoden · S09 Aktions- und Sozialformen
                                           v
-            SYNTHESE: Ihr Unterrichtsentwurf nach dem Berliner Modell (S10)
-                       >>> heute: alle Bausteine zusammen
+                 SYNTHESE: Was nehme ich mit?  >>> heute
 ```
 
 <small>Die Kurskarte ist eine Lesehilfe (vgl. Kursüberblick).</small>
@@ -129,7 +128,7 @@ Zu Recht?
 <small>Quelle: Folie R187 „11.2 Gesetzlich vorgesehene Prüfungen“ – „Jeder Auszubildender“ zu „Jeder Auszubildende“ korrigiert.</small>
 
 > [!NOTE] 🔎 Lesehilfe (ergänzt, nicht von der Folie)
-> *Ausbildungsrahmenplan* = Plan für den betrieblichen Teil der Ausbildung; *Rahmenplan der KMK* = Rahmenlehrplan für die Berufsschule (vgl. Lernfelder, S10). Die Prüfung stützt sich also auf beide Lernorte.
+> *Ausbildungsrahmenplan* = Plan für den betrieblichen Teil der Ausbildung; *Rahmenplan der KMK* = Rahmenlehrplan für die Berufsschule, gegliedert in Lernfelder, die mit Lernsituationen umgesetzt werden. Die Prüfung stützt sich also auf beide Lernorte.
 
 ### Entwicklung der Aufgaben durch die PAL
 
@@ -298,7 +297,7 @@ Vorbereitung 4 min · Disputation 6 min (je 2 min Plädoyer, 2 min Erwiderung) �
 
 Zu Semesterbeginn haben Sie diese Zuordnung im Kursüberblick geraten. Jetzt noch einmal:
 
-@dragdropsort(@uid,Methodik – Erkenntnisweg;Logische Methoden;Projektmethode;Fallstudie und Rollenspiel;Leittext und Experiment;Methodische Großformen|Methodik – Sozial- und Aktionsformen;Sozialformen und Aktionsformen|Thematik;Didaktische Reduktion|Medien;Medien und Wirklichkeitserfahrung|Intentionalität und Kontrolle;Handlungsorientierung;Lernerfolgskontrolle;PAL-Prüfungen)
+@dragdropsort(@uid,Methoden – Erkenntnisweg;Logische Methoden;Projektmethode;Fallstudie und Rollenspiel;Leittext und Experiment;Methodische Großformen|Methoden – Sozial- und Aktionsformen;Sozialformen und Aktionsformen|Inhalte;Didaktische Reduktion|Medien;Medien und Wirklichkeitserfahrung;Simulation und KI|Ziele und Kontrolle;Handlungsorientierung;Lernerfolgskontrolle;PAL-Prüfungen)
 
 > **Und was hat sich geändert?** Wo hätten Sie zu Beginn anders zugeordnet?
 
@@ -322,7 +321,7 @@ Wie sicher fühlen Sie sich? (1 = gar nicht, 4 = sehr sicher)
 - [(3)] 3
 - [(4)] 4
 
-**Unterricht nach dem Berliner Modell planen und begründen**
+**Unterricht planen und methodische Entscheidungen begründen**
 
 - [(1)] 1
 - [(2)] 2
@@ -336,7 +335,7 @@ Wie sicher fühlen Sie sich? (1 = gar nicht, 4 = sehr sicher)
 - [(3)] 3
 - [(4)] 4
 
-### Baustein 12: Ihr Entwurf – vollständig?
+### Baustein 12: Ihr Entwurf – vollständig? (optional)
 
 <!-- didaktik: Lehrschritt üben lassen (Transfer / Entwickeln) · 70–82 min · Einzelarbeit 8 min, dann Partner 4 min -->
 
@@ -351,7 +350,7 @@ Wie sicher fühlen Sie sich? (1 = gar nicht, 4 = sehr sicher)
 | 7 | Großform | S07 | |
 | 8 | reduzierte Fachaussage | S08 | |
 | 9 | Sozial- und Aktionsformen | S09 | |
-| 10 | Medium und Raster nach dem Berliner Modell | S10 | |
+| 10 | Medium (ggf. Simulation oder KI-Einsatz mit Leitplanken) | S10 | |
 | 11 | Kontrollaufgabe mit Operator und Erwartungshorizont | S11 | |
 
 **Allein (8 min):** Welcher Baustein fehlt Ihnen noch oder ist schwach? Notieren Sie ihn mit einem nächsten Schritt.
@@ -374,22 +373,23 @@ Wie sicher fühlen Sie sich? (1 = gar nicht, 4 = sehr sicher)
 📝 **Beuteblatt-Stopp:** Ergänzen Sie Ihre Beute aus dem ganzen Modul.
 
 > [!NOTE] 🔗 Querverweise
-> Gütekriterien, programmierte Prüfung, Operatoren → **S11** · Rollenspiel, Bewertung in Projekten → **S05** · Handlungskompetenz → **S03** · Rahmenlehrplan, Lernfelder → **S10** · Kurskarte → **Kursüberblick**
+> Gütekriterien, programmierte Prüfung, Operatoren → **S11** · Rollenspiel, Bewertung in Projekten → **S05** · Handlungskompetenz → **S03** · Medien und KI → **S10** · Kurskarte → **Kursüberblick**
 
 ### Prüfungsfragen zum Üben
 
-<!-- didaktik: E-12 mündliche Prüfung (BBS) -->
+<!-- didaktik: E-12 mündliche Prüfung -->
+
+<small>Die Prüfungsfragen sind experimentell: Sie dienen der Vorbereitung, es ist nicht garantiert, dass Fragen in dieser Form gestellt werden.</small>
 
 1. Warum wurde die PAL gegründet, und welche Ziele verfolgt sie?
 2. Beschreiben Sie den Weg einer PAL-Aufgabe vom Auftrag bis zur Verabschiedung.
 3. Wägen Sie betrieblichen Auftrag und PAL-Prüfung anhand der Gütekriterien gegeneinander ab.
 4. „Der programmierte Teil der PAL-Prüfung passt nicht zur Handlungskompetenz.“ – Nehmen Sie Stellung (vgl. S03).
-5. Ordnen Sie die Themen des Moduls den Feldern des Berliner Modells zu und begründen Sie eine Zuordnung.
+5. Ordnen Sie die Themen des Moduls den Planungsfragen der Kurskarte (Ziele, Inhalte, Methoden, Medien) zu und begründen Sie eine Zuordnung.
 
 ### Vorbereitung auf die Modulprüfung
 
-- **BBS (mündliche Prüfung):** Arbeiten Sie die *Prüfungsfragen zum Üben* aller zwölf Sitzungen durch – am besten laut und zu zweit.
-- **Gymnasium (Hausarbeit):** Führen Sie Ihre Bausteine 1–11 zum Entwurf zusammen; die Gliederung aus S10 (Zinn 2026, Abb. 12.1) hilft beim Schreiben.
+Die Prüfungsleistung ist ausschließlich eine **mündliche Prüfung**. Arbeiten Sie die *Prüfungsfragen zum Üben* aller zwölf Sitzungen durch – am besten laut und zu zweit. Die Fragen sind experimentell: Es ist nicht garantiert, dass Fragen in dieser Form gestellt werden.
 
 <!-- src: R195 -->
 

@@ -49,7 +49,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 > [!TIP] 📚 Vor der Sitzung (optional, 10 min)
 > Wählen Sie einen technischen Gegenstand aus Ihrer Fachrichtung (z. B. Dachstuhl, Elektromotor, Pumpe, Netzwerk-Switch) und notieren Sie, *wozu* er da ist und *womit* dieser Zweck erreicht wird. Sie brauchen das Beispiel in der Murmelgruppe.
 
-📝 **Beuteblatt:** Gehen Sie heute auf Beutezug – halten Sie auf dem Beuteblatt fest, was Sie für Prüfung und eigenen Unterrichtsentwurf mitnehmen. Wir halten mehrmals an.
+📝 **Beuteblatt:** Gehen Sie heute auf Beutezug – halten Sie auf dem Beuteblatt fest, was Sie für die Prüfung mitnehmen. Wir halten mehrmals an.
 
 ## Einstieg: Eine steile These
 
@@ -84,22 +84,21 @@ Notieren Sie je eine Frage:
 
 <!-- didaktik: Lehrschritt Ziele bekannt geben mit Advance Organizer · 10–15 min · E-02 -->
 
-Das ganze Modul lässt sich als Folge von **Planungsentscheidungen** lesen. Die Kurskarte verbindet die Entscheidungsfelder des *Berliner Modells* (Thema in S10) mit vier Leitfragen, die Sie heute in Station 3 kennenlernen.
+Das ganze Modul lässt sich als Folge von **Planungsentscheidungen** lesen. Die Kurskarte ordnet die Sitzungen nach Planungsfragen – Ausgangslage, Ziele, Inhalte, Methoden, Medien – und verbindet sie mit vier Leitfragen, die Sie heute in Station 3 kennenlernen.
 
 ``` ascii
-                    BEDINGUNGEN  (S01: Besonderheiten der Technik, Ausbildungsberufe)
-           anthropogen ------------------------------------------ soziokulturell
+                    AUSGANGSLAGE  (S01: Besonderheiten der Technik, Ausbildungsberufe)
                                           |
      +------------------------------------+-------------------------------------+
      v                                    v                                     v
- INTENTIONALITÄT: Wozu?           THEMATIK: Was – wie vereinfacht?        MEDIEN: Womit?
- S03 Handlungsorientierung        S08 Didaktische Reduktion               S10 Medien
+ ZIELE: Wozu?                     INHALTE: Was – wie vereinfacht?         MEDIEN: Womit?
+ S03 Handlungsorientierung        S08 Didaktische Reduktion               S10 Medien & KI
  S11 Lernerfolgskontrolle
  S12 PAL-Prüfungen
      |                                    |                                     |
      +------------------------------------+-------------------------------------+
                                           v
-                        METHODIK: "Wie organisiere ich …?"
+                        METHODEN: "Wie organisiere ich …?"
  +--------------------------+------------------------+------------------------+-------------------+
  | … den Erkenntnisweg?     | … Lehrende <-> Lernende| … Lernende <-> Gegen-  | … den Bildungs-   |
  | Unterrichtsmethoden      | Aktionsformen          | stand: Sozialformen    | prozess? Organi-  |
@@ -109,10 +108,10 @@ Das ganze Modul lässt sich als Folge von **Planungsentscheidungen** lesen. Die 
  | Experiment  S07 Großform |                        |                        |                   |
  +--------------------------+------------------------+------------------------+-------------------+
                                           v
-                 SYNTHESE: Ihr Unterrichtsentwurf nach dem Berliner Modell (S10, S12)
+                          SYNTHESE: Was nehme ich mit? (S12)
 ```
 
-**Roter Faden „Mein Unterrichtsentwurf":** Jede Sitzung liefert einen Baustein für einen eigenen Unterrichtsentwurf. Für die Hausarbeit (Gymnasium) ist er die Grundlage, für die mündliche Prüfung (BBS) Ihr Beispiel zum Argumentieren.
+**Optional: „Mein Unterrichtsentwurf"** – Viele Sitzungen enden mit einem *Baustein* für einen eigenen Unterrichtsentwurf. Die Bausteine sind freiwillig und bereiten die Selbstlernsitzung am 11.01.2027 vor. Prüfungsleistung des Moduls ist ausschließlich die mündliche Prüfung; ein eigenes Beispiel hilft Ihnen dort beim Argumentieren.
 
 ## Station 1: Besonderheiten von Technik
 
@@ -406,7 +405,7 @@ Lernziele und Kurskarte = orientieren · Vortrag = erarbeiten (Neues aneignen) �
 
     [[___ ___ ___]]
 
-### Baustein 1 für Ihren Unterrichtsentwurf
+### Baustein 1 für Ihren Unterrichtsentwurf (optional)
 
 Wählen Sie ein Thema für Ihren eigenen Unterrichtsentwurf, das Sie durch das Semester begleitet:
 
@@ -434,7 +433,9 @@ Wählen Sie ein Thema für Ihren eigenen Unterrichtsentwurf, das Sie durch das S
 
 ### Prüfungsfragen zum Üben
 
-<!-- didaktik: E-12 mündliche Prüfung (BBS) -->
+<!-- didaktik: E-12 mündliche Prüfung -->
+
+<small>Die Prüfungsfragen sind experimentell: Sie dienen der Vorbereitung, es ist nicht garantiert, dass Fragen in dieser Form gestellt werden.</small>
 
 1. Worin unterscheiden sich Technikwissenschaften von Natur- und Wirtschaftswissenschaften? Leiten Sie daraus eine Konsequenz für technischen Unterricht ab.
 2. Was ist eine Unterrichtsmethode? Grenzen Sie Methode im weiteren Sinne und Methoden im engeren Sinne ab.

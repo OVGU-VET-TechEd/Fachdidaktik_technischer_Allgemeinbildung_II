@@ -390,7 +390,7 @@ Was fehlt im Beispiel im Vergleich zum Grundmuster – und wer hat die **Projekt
 
     [[___ ___]]
 
-## Baustein 4: Ihr eigenes Grundmuster
+## Baustein 4: Ihr eigenes Grundmuster (optional)
 
 <!-- didaktik: Lehrschritt üben lassen (Transfer) · 67–82 min · Think-pair-share · Doppeldecker -->
 
@@ -436,7 +436,9 @@ Welche der zwölf Schritte der Lehrer-Handlungsstruktur hat die Lehrkraft heute 
 
 ### Prüfungsfragen zum Üben
 
-<!-- didaktik: E-12 mündliche Prüfung (BBS) -->
+<!-- didaktik: E-12 mündliche Prüfung -->
+
+<small>Die Prüfungsfragen sind experimentell: Sie dienen der Vorbereitung, es ist nicht garantiert, dass Fragen in dieser Form gestellt werden.</small>
 
 1. Welche Kerngedanken verbinden Arbeitsschule, Reformpädagogik und den Projektunterricht der 60er/70er Jahre?
 2. Erläutern Sie das Grundmuster der Projektmethode nach Frey. Welche Rolle spielen Fixpunkte und Metainteraktionen?

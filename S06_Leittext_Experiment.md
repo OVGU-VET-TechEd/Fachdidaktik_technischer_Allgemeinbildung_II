@@ -31,7 +31,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 3. für eine Arbeitsaufgabe Ihrer Fachrichtung **Leitfragen formulieren**,
 4. Experimentbeispiele **klassifizieren**,
 5. begründet **auswählen**, welche Methode zu einem Lernziel passt,
-6. ein technisches Experiment für Ihr Entwurfsthema **planen**.
+6. ein technisches Experiment für Ihr Entwurfsthema **planen** *(optional)*.
 
 📝 **Beuteblatt S06**
 
@@ -374,7 +374,7 @@ Beide Modelle enthalten Hypothese, Durchführung und Auswertung. Nur Bader begin
 
 <small>Quelle: Folie R099 „Handreichungen zur Versuchsdurchführung“ (Gliederung in zwei Spalten nach dem Folienaufbau)</small>
 
-## Baustein 6: Ihr Experiment planen
+## Baustein 6: Ihr Experiment planen (optional)
 
 <!-- didaktik: Lehrschritt üben lassen (Transfer) · 62–75 min · Think-pair · Doppeldecker 2 -->
 
@@ -455,7 +455,9 @@ Nach der Abbildung: Role Playing – Communicating · Incident Method – Select
 
 ### Prüfungsfragen zum Üben
 
-<!-- didaktik: E-12 mündliche Prüfung (BBS) -->
+<!-- didaktik: E-12 mündliche Prüfung -->
+
+<small>Die Prüfungsfragen sind experimentell: Sie dienen der Vorbereitung, es ist nicht garantiert, dass Fragen in dieser Form gestellt werden.</small>
 
 1. Welche Funktionen haben Leittexte, und wie unterscheidet sich ein Leittext von einer Arbeitsanleitung?
 2. Wie erstellt man Leitfragen? Erläutern Sie die Kette an einem Beispiel aus Ihrer Fachrichtung.
