@@ -334,7 +334,7 @@ Was heißt normorientiert und kriteriumsorientiert? Zinn hilft mit den Bezugsnor
 Validität: misst der Test, was er messen soll – und spiegelt er die Schwerpunkte des Unterrichts (R174)? Reliabilität: misst er genau, kommt er bei Wiederholung zum gleichen Ergebnis (R175)? Objektivität: Durchführung (gleiche Bedingungen, R176–R177), Auswertung (Lösungsschlüssel, R177), Interpretation (gleicher Notenschlüssel, R178).
 ***
 
-**Zu zweit (6 min):** Welches Gütekriterium ist bei Ihrer mitgebrachten Aufgabe am stärksten gefährdet – und wie ließe es sich sichern?
+**Allein (6 min):** Welches Gütekriterium ist bei Ihrer mitgebrachten Aufgabe am stärksten gefährdet – und wie ließe es sich sichern?
 
     [[___ ___ ___]]
 
@@ -487,11 +487,11 @@ Zinn ergänzt das, als NEU markiert: Solche handlungsleitenden Verben heißen Op
 
 ## Wo stehen wir? Baustein 11: Ihre Kontrollaufgabe (optional)
 
-<!-- didaktik="Lehrschritt üben lassen (Transfer) · 79–85 min · Think-pair · Doppeldecker: Partner prüft auf Validität" -->
+<!-- didaktik="Lehrschritt üben lassen (Transfer) · 79–85 min · Einzelarbeit · Classroom-Auswertung · Doppeldecker: Selbstprüfung auf Validität" -->
 
 ### Baustein 11 für Ihren Unterrichtsentwurf (optional)
 
-**Allein (3 min), dann zu zweit (3 min):** Wählen Sie ein Lernziel einer Stunde aus Ihrer Fachrichtung (oder aus Ihrem optionalen Entwurf).
+**Allein (5 min):** Wählen Sie ein Lernziel einer Stunde aus Ihrer Fachrichtung (oder aus Ihrem optionalen Entwurf).
 
 | Lernziel | Aufgabe (mit Operator) | Erwartungshorizont (Punkte) | Gütekriterien-Check |
 | --- | --- | --- | --- |
@@ -499,7 +499,11 @@ Zinn ergänzt das, als NEU markiert: Solche handlungsleitenden Verben heißen Op
 
     [[___ ___ ___ ___]]
 
-**Ihr Partner prüft:** Ist die Aufgabe **valide** – prüft sie das Feinziel und nicht nebenbei etwas anderes?
+**Prüfen Sie selbst:** Ist die Aufgabe **valide** – prüft sie das Feinziel und nicht nebenbei etwas anderes?
+
+- [(valide)] Ja, sie prüft nur das Feinziel.
+- [(teilweise)] Teilweise – sie prüft nebenbei etwas anderes mit.
+- [(unsicher)] Ich bin unsicher.
 
 **Noch einmal:** Ist eine mündliche Prüfung objektiv?
 

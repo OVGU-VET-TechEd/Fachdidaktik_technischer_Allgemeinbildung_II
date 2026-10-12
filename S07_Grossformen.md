@@ -48,11 +48,11 @@ Stimmen Sie zu?
 - [(eher nein)] Eher nein
 - [(nein)] Nein
 
-### Murmelgruppe: Ihre Aufgabenarten
+### Ihre Aufgabenarten
 
-<!-- didaktik="Lehrschritt Vorwissen aktivieren lassen · 5–10 min · Partnerarbeit" -->
+<!-- didaktik="Lehrschritt Vorwissen aktivieren lassen · 5–10 min · Einzelarbeit · Classroom-Auswertung" -->
 
-**Zu zweit (3 min):** Nehmen Sie zwei Aufgabenarten aus Ihrer Vorbereitung. Welche logische Methode aus S02 steckt jeweils darin – analytisch, synthetisch, deduktiv, induktiv, genetisch, historisch, reduktiv?
+**Allein (3 min):** Nehmen Sie zwei Aufgabenarten aus Ihrer Vorbereitung. Welche logische Methode aus S02 steckt jeweils darin – analytisch, synthetisch, deduktiv, induktiv, genetisch, historisch, reduktiv?
 
     [[___ ___ ___]]
 
@@ -223,16 +223,24 @@ Die Konstruktionsanalyse vollzieht eine fertige Konstruktion nach, um die Konstr
 
 ## Station 2: synthetisch akzentuiert – Expertenphase
 
-<!-- didaktik="Lehrschritt unterstützen (Erarbeiten durch Lernende) · 30–38 min Expertenphase, 38–45 min Pitches" -->
+<!-- didaktik="Lehrschritt unterstützen (Erarbeiten durch Lernende) · 30–38 min Expertenphase in Einzelarbeit, 38–45 min Pitches im Plenum (je Großform eine freiwillige Person) · Kartenwahl über Classroom anzeigen" -->
 
-**Expertenphase (8 min, Paare/Dreier):** Jede Gruppe übernimmt **eine** Großform. Bereiten Sie einen **Pitch von einer Minute** vor:
+**Welche Expertenkarte übernehmen Sie?** Verteilen Sie sich möglichst gleichmäßig – die Verteilung sehen wir über die Classroom-Funktion.
+
+- [(Fertigungsaufgabe)] Expertenkarte 1: Fertigungsaufgabe
+- [(Inspektionsaufgabe)] Expertenkarte 2: Inspektionsaufgabe
+- [(Szenariomethode)] Expertenkarte 3: Szenariomethode
+- [(Konstruktionsaufgabe)] Expertenkarte 4: Konstruktionsaufgabe
+- [(Instandsetzungsaufgabe)] Expertenkarte 5: Instandsetzungsaufgabe
+
+**Expertenphase (allein, 8 min):** Bereiten Sie zu Ihrer Großform einen **Pitch von einer Minute** vor:
 
 1. Merkmale (in eigenen Worten)
 2. typische Schritte (die drei wichtigsten)
 3. Beispiel von der Folie
 4. ein Beispiel aus **Ihrer** Fachrichtung
 
-Danach stellt jede Gruppe ihre Großform vor (38–45 min); die Lehrkraft ergänzt.
+Danach stellt für jede Großform eine freiwillige Person ihren Pitch vor (38–45 min); die Lehrkraft ergänzt.
 
 <details>
 <summary><b>Expertenkarte 1: Fertigungsaufgabe</b> (R111–R112)</summary>
@@ -510,9 +518,9 @@ Die Naturstudie löst technische Probleme mit Hilfe von Lösungen aus der Natur:
 
 ## Wo stehen wir? Das gemeinsame Gerüst
 
-<!-- didaktik="Lehrschritt üben (Analysieren) / integrierendes Verbinden · 60–70 min · Partnerarbeit" -->
+<!-- didaktik="Lehrschritt üben (Analysieren) / integrierendes Verbinden · 60–70 min · Einzelarbeit · Classroom-Auswertung" -->
 
-**Zu zweit (6 min):** Legen Sie die Schritte von *Fertigungsaufgabe*, *Instandsetzungsaufgabe* und *Naturstudie* neben Hackers vollständige Handlung (S03).
+**Allein (6 min):** Legen Sie die Schritte von *Fertigungsaufgabe*, *Instandsetzungsaufgabe* und *Naturstudie* neben Hackers vollständige Handlung (S03).
 
 [[Orientieren] [Richten/Entwerfen] [Entscheiden] [Ausführen] [Kontrollieren]]
 [     (X)            ( )                ( )           ( )           ( )      ] Analyse des Fertigungsauftrages/Klärung der Aufgabenstellung
@@ -530,13 +538,13 @@ Die typischen Schritte der Großformen folgen dem Gerüst der vollständigen Han
 [(X)] Intuitive Phase / intuitive Lösungsansätze
 [( )] Planung
 ***
-Die **intuitive Phase** (z. B. „Intuitive Lösungsansätze", „Intuitive Problemlösungsvorschläge", „Intuitive Phase") steht in sieben der dreizehn Großformen: Instandsetzungsanalyse, Fertigungs-, Inspektions-, Konstruktions- und Instandsetzungsaufgabe, historisch-genetisches Verfahren und Naturstudie. Hackers vollständige Handlung (R048) beginnt dagegen mit dem Orientieren. *Murmelfrage:* Warum lassen die Großformen die Lernenden zuerst intuitiv lösen?
+Die **intuitive Phase** (z. B. „Intuitive Lösungsansätze", „Intuitive Problemlösungsvorschläge", „Intuitive Phase") steht in sieben der dreizehn Großformen: Instandsetzungsanalyse, Fertigungs-, Inspektions-, Konstruktions- und Instandsetzungsaufgabe, historisch-genetisches Verfahren und Naturstudie. Hackers vollständige Handlung (R048) beginnt dagegen mit dem Orientieren. *Frage an Sie:* Warum lassen die Großformen die Lernenden zuerst intuitiv lösen?
 ***
 
     [[___ ___]]
 
 > [!NOTE] 🪞 Methodenspiegel
-> Die heutige Sitzung hatte selbst dieses Gerüst – *Aufgabe* (Vorbereitung: Ihre Aufgabenarten) → *intuitive Phase* (Murmelgruppe: welche logische Methode steckt darin?) → *Information* (Stationen 1–3, Expertenphase) → *Kontrolle* (Zuordnungen, Pitch-Check) → *Transfer* (gleich: Baustein 7).
+> Die heutige Sitzung hatte selbst dieses Gerüst – *Aufgabe* (Vorbereitung: Ihre Aufgabenarten) → *intuitive Phase* (Einstieg: welche logische Methode steckt darin?) → *Information* (Stationen 1–3, Expertenphase) → *Kontrolle* (Zuordnungen, Pitch-Check) → *Transfer* (gleich: Baustein 7).
 
 ### Zurück zur These: „mit Vorsicht zu genießen"
 
@@ -561,9 +569,9 @@ R101: „Zuordnung einer Methode im engeren Sinne nur zu einer methodischen Gro�
 
 ### Baustein 7 für Ihren Unterrichtsentwurf (optional)
 
-<!-- didaktik="Lehrschritt üben lassen (Transfer) · 75–85 min · Think-pair" -->
+<!-- didaktik="Lehrschritt üben lassen (Transfer) · 75–85 min · Einzelarbeit · Classroom-Auswertung" -->
 
-**Think-pair (10 min):** Welche Großform passt zu Ihrem Entwurfsthema? Skizzieren Sie den Unterrichtsgang mit ihren typischen Schritten. Wo liegt die **intuitive Phase**, wo die **Kontrolle**?
+**Allein (10 min):** Welche Großform passt zu Ihrem Entwurfsthema? Skizzieren Sie den Unterrichtsgang mit ihren typischen Schritten. Wo liegt die **intuitive Phase**, wo die **Kontrolle**?
 
     [[___ ___ ___ ___]]
 

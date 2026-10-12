@@ -50,11 +50,11 @@ Stimmen Sie zu?
 - [(eher nein)] Eher nein
 - [(nein)] Nein
 
-### Murmelgruppe: Was haben Sie beobachtet?
+### Was haben Sie beobachtet?
 
-<!-- didaktik="Lehrschritt Vorwissen aktivieren lassen · 5–10 min · Partnerarbeit" -->
+<!-- didaktik="Lehrschritt Vorwissen aktivieren lassen · 5–10 min · Einzelarbeit · Classroom-Auswertung" -->
 
-**Zu zweit (3 min):** Welche Sozialformen haben Sie diese Woche in einer Lehrveranstaltung beobachtet – und wie lange? Warum hat die Lehrperson wohl so entschieden?
+**Allein (3 min):** Welche Sozialformen haben Sie diese Woche in einer Lehrveranstaltung beobachtet – und wie lange? Warum hat die Lehrperson wohl so entschieden?
 
     [[___ ___ ___]]
 
@@ -172,7 +172,7 @@ data-show
 
 ### Aktivierung: Welche Variante der Gruppenarbeit?
 
-<!-- didaktik="Lehrschritt unterstützen · 27–35 min · Einzelarbeit, dann Partnerarbeit · Beuteblatt-Stopp" -->
+<!-- didaktik="Lehrschritt unterstützen · 27–35 min · Einzelarbeit · Classroom-Auswertung · Beuteblatt-Stopp" -->
 
 [[aufgabengleich + arbeitsgleich] [aufgabengleich + arbeitsteilig] [aufgabenverschieden + arbeitsgleich] [aufgabenverschieden + arbeitsteilig]]
 [              (X)                              ( )                              ( )                                   ( )                 ] Alle Gruppen dimensionieren dieselbe Leitung; in jeder Gruppe rechnen alle alles.
@@ -328,21 +328,28 @@ Oberflächenstrukturen sind leicht beobachtbar (Sozialform, Organisationsform). 
 
 ## Wo stehen wir? Die heutige Sitzung analysieren
 
-<!-- didaktik="Lehrschritt üben lassen (Analysieren / Bewerten) · 65–78 min · Dreiergruppe · Doppeldecker" -->
+<!-- didaktik="Lehrschritt üben lassen (Analysieren / Bewerten) · 65–78 min · Einzelarbeit · Classroom-Auswertung · Doppeldecker" -->
 
-**Zu dritt (10 min):** Bestimmen Sie für jede Phase der heutigen Sitzung Sozialform und Aktionsform – und schätzen Sie die kognitive Aktivierung ein.
+**Allein (6 min):** Bestimmen Sie für jede Phase der heutigen Sitzung die Sozialform – und für zwei Phasen, welche Sozialform sie *gehabt hätten*, wenn wir sie anders organisiert hätten.
 
 [[Frontalunterricht] [Einzelarbeit] [Partnerarbeit] [Gruppenarbeit]]
 [       ( )               (X)            ( )             ( )        ] Blitzumfrage zur These
-[       ( )               ( )            (X)             ( )        ] Murmelgruppe zu den Beobachtungen
+[       ( )               (X)            ( )             ( )        ] Einstieg: Ihre Beobachtungen notieren
 [       (X)               ( )            ( )             ( )        ] Vortrag Station 1 und 2
 [       ( )               (X)            ( )             ( )        ] Zuordnungsaufgaben
-[       ( )               ( )            ( )             (X)        ] diese Analyse zu dritt
+[       ( )               ( )            (X)             ( )        ] Einstieg, wenn Sie Ihre Beobachtungen mit der Nachbarin besprochen hätten
+[       ( )               ( )            ( )             (X)        ] diese Analyse, wenn Sie sie zu dritt gemacht hätten
 ***
-Blitzumfrage und Zuordnungen = Einzelarbeit · Murmelgruppe = Partnerarbeit · Vortrag = Frontalunterricht (Aktionsform: darbietend – Vortragen) · Analyse zu dritt = Gruppenarbeit (aufgabengleich, arbeitsgleich).
+Blitzumfrage, Einstieg und Zuordnungen = Einzelarbeit · Vortrag = Frontalunterricht (Aktionsform: darbietend – Vortragen) · zu zweit = Partnerarbeit · zu dritt = Gruppenarbeit (aufgabengleich, arbeitsgleich). Diese Vorlesung wechselt bewusst nur zwischen Frontalunterricht und Einzelarbeit, damit jede Antwort über die Classroom-Funktion ausgewertet werden kann. An der Oberfläche ist das wenig abwechslungsreich – entscheidend ist die Tiefenstruktur.
 ***
 
 **Und die Tiefenstruktur?** Wo war die kognitive Aktivierung heute hoch, wo niedrig – *unabhängig* von der Sozialform? War der Vortrag kognitiv aktivierend?
+
+- [(hoch)] Die kognitive Aktivierung war heute insgesamt hoch.
+- [(mittel)] mittel
+- [(niedrig)] niedrig
+
+Begründen Sie in zwei Sätzen:
 
     [[___ ___ ___]]
 
@@ -355,9 +362,9 @@ Blitzumfrage und Zuordnungen = Einzelarbeit · Murmelgruppe = Partnerarbeit · V
 
 ### Baustein 9 für Ihren Unterrichtsentwurf (optional)
 
-<!-- didaktik="Lehrschritt üben lassen (Transfer) · 78–85 min · Think-pair" -->
+<!-- didaktik="Lehrschritt üben lassen (Transfer) · 78–85 min · Einzelarbeit · Classroom-Auswertung" -->
 
-**Think-pair (7 min):** Planen Sie für Ihr Entwurfsthema die Abfolge der Sozial- und Aktionsformen (z. B. für Ihre Großform aus Baustein 7). Begründen Sie jede Entscheidung mit dem **Lernziel** – nicht mit Abwechslung.
+**Allein (7 min):** Planen Sie für Ihr Entwurfsthema die Abfolge der Sozial- und Aktionsformen (z. B. für Ihre Großform aus Baustein 7). Begründen Sie jede Entscheidung mit dem **Lernziel** – nicht mit Abwechslung.
 
 | Phase | Sozialform | Aktionsform | Begründung (Lernziel) |
 | --- | --- | --- | --- |

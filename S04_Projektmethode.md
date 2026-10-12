@@ -54,11 +54,11 @@ Stimmen Sie zu?
 - [(eher nein)] Eher nein
 - [(nein)] Nein
 
-### Murmelgruppe: Ihre Projekte
+### Ihre Projekte
 
-<!-- didaktik="Lehrschritt Vorwissen aktivieren lassen · 5–10 min · Partnerarbeit" -->
+<!-- didaktik="Lehrschritt Vorwissen aktivieren lassen · 5–10 min · Einzelarbeit · Classroom-Auswertung" -->
 
-**Zu zweit (3 min):** Vergleichen Sie Ihre Projekte aus der Vorbereitung. Wer hatte die Idee, wer plante, was kam heraus? Was davon würden Sie ein „echtes" Projekt nennen?
+**Allein (3 min):** Sehen Sie sich Ihr Projekt aus der Vorbereitung an. Wer hatte die Idee, wer plante, was kam heraus? Was davon würden Sie ein „echtes" Projekt nennen?
 
     [[___ ___ ___]]
 
@@ -265,9 +265,9 @@ Frey, Karl: Die Projektmethode, 1991
 
 ### Aktivierung: Ist mein Projekt ein Projekt? (Fixpunkt)
 
-<!-- didaktik="Lehrschritt unterstützen/üben · 42–50 min · Partnerarbeit · Fixpunkt ⑥" -->
+<!-- didaktik="Lehrschritt unterstützen/üben · 42–50 min · Einzelarbeit · Classroom-Auswertung · Fixpunkt ⑥" -->
 
-**Zu zweit (6 min):** Prüfen Sie Ihr Projekt aus der Vorbereitung. Welche Merkmale sind erfüllt?
+**Allein (6 min):** Prüfen Sie Ihr Projekt aus der Vorbereitung. Welche Merkmale sind erfüllt?
 
 - [ ] 1 Es ist ein Projekt vorhanden
 - [ ] 2 Problemlösungsstrukturen
@@ -381,9 +381,9 @@ Vgl. Hortsch, Hanno: Didaktik der Berufsbildung. Dresden 2001
 
 ### Aktivierung: Das Beispiel am Grundmuster prüfen
 
-<!-- didaktik="Lehrschritt üben (Analysieren) · 60–67 min · Dreiergruppe" -->
+<!-- didaktik="Lehrschritt üben (Analysieren) · 60–67 min · Einzelarbeit · Classroom-Auswertung" -->
 
-**Zu dritt (5 min):** Ordnen Sie die Bestandteile des Beispiels den Komponenten des Grundmusters nach Frey zu.
+**Allein (5 min):** Ordnen Sie die Bestandteile des Beispiels den Komponenten des Grundmusters nach Frey zu.
 
 @dragdropsort(@uid,Projektskizze ②;Produkt Präsentation;Fragestellungen;Arbeitsmethoden|Projektplan ③;Fünf Arbeitsgruppen;Zeitplan Tag 1 bis 4|Projektdurchführung ④;Befragungen und Untersuchungen;Auswertung der Ergebnisse|Beendigung ⑤;Präsentation in einer Schautafel)
 
@@ -393,9 +393,9 @@ Was fehlt im Beispiel im Vergleich zum Grundmuster – und wer hat die **Projekt
 
 ## Baustein 4: Ihr eigenes Grundmuster (optional)
 
-<!-- didaktik="Lehrschritt üben lassen (Transfer) · 67–82 min · Think-pair-share · Doppeldecker" -->
+<!-- didaktik="Lehrschritt üben lassen (Transfer) · 67–82 min · Einzelarbeit · Classroom-Auswertung · Doppeldecker" -->
 
-**Allein (6 min) – zu zweit (6 min) – Plenum (3 min):** Durchlaufen Sie für Ihr Entwurfsthema die ersten Komponenten des Grundmusters.
+**Allein (10 min):** Durchlaufen Sie für Ihr Entwurfsthema die ersten Komponenten des Grundmusters.
 
 - **① Projektinitiative:** Welches Problem, welcher Anlass – aus dem Lebensraum der Lernenden?
 - **② Projektskizze:** Produkt · Fragestellungen · Arbeitsmethoden
@@ -403,7 +403,7 @@ Was fehlt im Beispiel im Vergleich zum Grundmuster – und wer hat die **Projekt
 
     [[___ ___ ___ ___ ___]]
 
-Prüfen Sie zu zweit: Welche Merkmale nach Hortsch erfüllt Ihr Vorhaben? Und welche Schritte der Lehrer-Handlungsstruktur (R062) übernehmen *Sie* vorab?
+Prüfen Sie selbst: Welche Merkmale nach Hortsch erfüllt Ihr Vorhaben? Und welche Schritte der Lehrer-Handlungsstruktur (R062) übernehmen *Sie* vorab?
 
 ## Wo stehen wir? Metainteraktion: Was haben wir heute getan?
 

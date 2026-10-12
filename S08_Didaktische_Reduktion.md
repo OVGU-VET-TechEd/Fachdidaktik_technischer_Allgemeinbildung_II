@@ -48,11 +48,11 @@ Stimmen Sie zu?
 - [(eher nein)] Eher nein
 - [(nein)] Nein
 
-### Murmelgruppe: Ihre schwierige Fachaussage
+### Ihre schwierige Fachaussage
 
-<!-- didaktik="Lehrschritt Vorwissen aktivieren lassen · 5–10 min · Partnerarbeit" -->
+<!-- didaktik="Lehrschritt Vorwissen aktivieren lassen · 5–10 min · Einzelarbeit · Classroom-Auswertung" -->
 
-**Zu zweit (3 min):** Erklären Sie Ihrem Nachbarn Ihre mitgebrachte Fachaussage so, wie Sie es im Unterricht tun würden. **Was haben Sie weggelassen – und stimmt es dann noch?**
+**Allein (3 min):** Schreiben Sie Ihre mitgebrachte Fachaussage so auf, wie Sie sie im Unterricht erklären würden. **Was haben Sie weggelassen – und stimmt es dann noch?**
 
     [[___ ___ ___]]
 
@@ -388,7 +388,7 @@ Oberbegriff bilden = Tilgung untergeordneter Aussagen (R143) · eine Teilaussage
 
 ## Wo stehen wir? Baustein 8: Ihre Fachaussage reduzieren (optional)
 
-<!-- didaktik="Lehrschritt üben lassen (Transfer) / Bewerten · 72–85 min · Think-pair · Doppeldecker" -->
+<!-- didaktik="Lehrschritt üben lassen (Transfer) / Bewerten · 72–85 min · Einzelarbeit · Classroom-Auswertung · Doppeldecker" -->
 
 **Allein (6 min):** Gehen Sie mit Ihrer mitgebrachten Fachaussage Arnolds Schritte durch.
 
@@ -401,7 +401,7 @@ Oberbegriff bilden = Tilgung untergeordneter Aussagen (R143) · eine Teilaussage
 
     [[___ ___ ___ ___ ___]]
 
-**Zu zweit (7 min):** Ihr Nachbar prüft Ihre reduzierte Aussage:
+**Allein (4 min):** Prüfen Sie Ihre reduzierte Aussage selbst:
 
 - [ ] Ist sie unter Nennung der Einschränkungen noch korrekt?
 - [ ] Ist klar, ob vertikal oder horizontal reduziert wurde?

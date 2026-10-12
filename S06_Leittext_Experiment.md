@@ -48,11 +48,11 @@ Stimmen Sie zu?
 - [(eher nein)] Eher nein
 - [(nein)] Nein
 
-### Murmelgruppe: Ihre Anleitungen
+### Ihre Anleitungen
 
-<!-- didaktik="Lehrschritt Vorwissen aktivieren lassen · 5–10 min · Partnerarbeit" -->
+<!-- didaktik="Lehrschritt Vorwissen aktivieren lassen · 5–10 min · Einzelarbeit · Classroom-Auswertung" -->
 
-**Zu zweit (3 min):** Vergleichen Sie Ihre mitgebrachten Anleitungen. Welche Fragen **beantwortet** die Anleitung – welche müssten Lernende sich **selbst stellen**? Welche Schritte der vollständigen Handlung (S03: Orientieren – Richten – Entwerfen – Entscheiden – Kontrollieren) nimmt sie vorweg?
+**Allein (3 min):** Sehen Sie sich Ihre mitgebrachte Anleitung an. Welche Fragen **beantwortet** die Anleitung – welche müssten Lernende sich **selbst stellen**? Welche Schritte der vollständigen Handlung (S03: Orientieren – Richten – Entwerfen – Entscheiden – Kontrollieren) nimmt sie vorweg?
 
     [[___ ___ ___]]
 
@@ -169,13 +169,13 @@ Stimmen Sie zu?
 
 ### Aktivierung: Aus der Anleitung wird ein Leittext
 
-<!-- didaktik="Lehrschritt unterstützen/üben · 27–37 min · Partnerarbeit · Doppeldecker 1" -->
+<!-- didaktik="Lehrschritt unterstützen/üben · 27–37 min · Einzelarbeit · Classroom-Auswertung · Doppeldecker 1" -->
 
 **1. Ordnen:** Bringen Sie die Schritte der Leittextmethode in die richtige Reihenfolge.
 
 @dragdroporder(@uid,Informieren|Planen|Entscheiden|Ausführen|Kontrollieren|Bewerten)
 
-**2. Zu zweit (8 min):** Wählen Sie eine Arbeitsaufgabe aus Ihrer Anleitung. Gehen Sie die Kette durch und formulieren Sie **drei Leitfragen**, die Lernende selbst zum Planen bringen.
+**2. Allein (8 min):** Wählen Sie eine Arbeitsaufgabe aus Ihrer Anleitung. Gehen Sie die Kette durch und formulieren Sie **drei Leitfragen**, die Lernende selbst zum Planen bringen.
 
 | Tätigkeit | erforderliche Kenntnis | Information (Medium) | Leitfrage |
 | --- | --- | --- | --- |
@@ -377,9 +377,9 @@ Beide Modelle enthalten Hypothese, Durchführung und Auswertung. Nur Bader begin
 
 ## Baustein 6: Ihr Experiment planen (optional)
 
-<!-- didaktik="Lehrschritt üben lassen (Transfer) · 62–75 min · Think-pair · Doppeldecker 2" -->
+<!-- didaktik="Lehrschritt üben lassen (Transfer) · 62–75 min · Einzelarbeit · Classroom-Auswertung · Doppeldecker 2" -->
 
-**Allein (8 min), dann zu zweit (5 min):** Planen Sie mit den Vorbereitungsfragen ein technisches Experiment für Ihr Entwurfsthema.
+**Allein (10 min):** Planen Sie mit den Vorbereitungsfragen ein technisches Experiment für Ihr Entwurfsthema.
 
 - [ ] Didaktische Funktion (Einstieg, Erarbeitung, Übung/Festigung, Leistungskontrolle)?
 - [ ] Organisationsform (Lehrer- oder Schülerexperiment)?
@@ -391,7 +391,11 @@ Beide Modelle enthalten Hypothese, Durchführung und Auswertung. Nur Bader begin
 
     [[___ ___ ___ ___ ___]]
 
-**Zu zweit prüfen:** Ist es ein Experiment mit *induktivem* Erkenntnisweg (R093) – oder eher eine Vorführung, deren Ergebnis die Lernenden schon kennen?
+**Prüfen Sie selbst:** Ist es ein Experiment mit *induktivem* Erkenntnisweg (R093) – oder eher eine Vorführung, deren Ergebnis die Lernenden schon kennen?
+
+- [(Experiment)] Experiment mit induktivem Erkenntnisweg
+- [(Vorführung)] eher eine Vorführung
+- [(unsicher)] Ich bin unsicher.
 
 ## Wo stehen wir? Methoden nach Effizienzkriterien wählen
 
@@ -431,7 +435,7 @@ Senkrecht stehen sieben Kriterien (*Observing, Selecting Pertinent Data, Diagnos
 Nach der Abbildung: Role Playing – Communicating · Incident Method – Selecting Pertinent Data (bei Kaiser: der Fall wird lückenhaft dargestellt, Schwerpunkt Informationsgewinnung) · Group Projects – Motivating · Decision Simulations – Deciding.
 ***
 
-**Murmelgruppe (zu zweit, 4 min):** Und das technische Experiment, der Leittext? Wo würden Sie sie einzeichnen?
+**Allein (4 min):** Und das technische Experiment, der Leittext? Wo würden Sie sie einzeichnen?
 
     [[___ ___]]
 

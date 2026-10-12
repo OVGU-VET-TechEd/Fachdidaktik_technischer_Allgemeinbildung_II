@@ -55,11 +55,11 @@ Sie sitzen gerade in einer Vorlesung. Ist sie handlungsorientiert?
 
 *Das Ergebnis bleibt stehen – am Ende beurteilen Sie die Sitzung mit Kriterien.*
 
-### Murmelgruppe: Ihre berufliche Tätigkeit
+### Ihre berufliche Tätigkeit
 
-<!-- didaktik="Lehrschritt Vorwissen aktivieren lassen · 5–10 min · Partnerarbeit" -->
+<!-- didaktik="Lehrschritt Vorwissen aktivieren lassen · 5–10 min · Einzelarbeit · Classroom-Auswertung" -->
 
-**Zu zweit (3 min):** Vergleichen Sie Ihre Schrittfolgen aus der Vorbereitung. Welche Schritte **planen**, welche **führen aus**, welche **prüfen**? Wo hatten Sie selbst etwas zu **entscheiden**?
+**Allein (3 min):** Sehen Sie sich Ihre Schrittfolge aus der Vorbereitung an. Welche Schritte **planen**, welche **führen aus**, welche **prüfen**? Wo hatten Sie selbst etwas zu **entscheiden**?
 
     [[___ ___ ___]]
 
@@ -215,9 +215,9 @@ Ordnen Sie die Kernaussagen den Autoren zu.
 
 ### Aktivierung: Handlungen zerlegen
 
-<!-- didaktik="Lehrschritt unterstützen/üben · 42–52 min · Partnerarbeit · Doppeldecker: eigene Tätigkeit analysieren" -->
+<!-- didaktik="Lehrschritt unterstützen/üben · 42–52 min · Einzelarbeit · Classroom-Auswertung · Doppeldecker: eigene Tätigkeit analysieren" -->
 
-**1. Gliedern (zu zweit):** Ordnen Sie das Übungsbeispiel *Elektroinstallation einer Küche* den Ebenen zu.
+**1. Gliedern (allein):** Ordnen Sie das Übungsbeispiel *Elektroinstallation einer Küche* den Ebenen zu.
 
 @dragdropsort(@uid,Tätigkeit;Elektroinstallation einer Küche|Handlung;Steckdosenstromkreis verlegen;Herdanschluss herstellen|Operation;Leitung abisolieren;Klemme anziehen;Spannungsfreiheit messen)
 
@@ -347,9 +347,9 @@ Falsch sind: „eine Methode" (HoU ist keine Methode, sondern ein Konzept – Th
 
 ## Wo stehen wir? Die Vorlesung auf dem Prüfstand
 
-<!-- didaktik="Lehrschritt üben lassen (Bewerten) · 67–77 min · Dreiergruppe · kritischer Doppeldecker" -->
+<!-- didaktik="Lehrschritt üben lassen (Bewerten) · 67–77 min · Einzelarbeit · Classroom-Auswertung · kritischer Doppeldecker" -->
 
-**Zu dritt (7 min):** Beurteilen Sie die heutige Vorlesung mit den fünf Merkmalen nach Bünning. Wo war sie handlungsorientiert, wo nicht?
+**Allein (7 min):** Beurteilen Sie die heutige Vorlesung mit den fünf Merkmalen nach Bünning. Wo war sie handlungsorientiert, wo nicht?
 
 [[erfüllt] [teilweise] [nicht erfüllt]]
 [  ( )        ( )          ( )       ] 1 Lernende als handelnde Personen im Mittelpunkt
@@ -367,9 +367,9 @@ Was müsste sich ändern – und wäre das in einer Vorlesung überhaupt möglic
 
 ### Baustein 3 für Ihren Unterrichtsentwurf (optional)
 
-<!-- didaktik="Lehrschritt üben lassen (Transfer) · 77–85 min · Think-pair" -->
+<!-- didaktik="Lehrschritt üben lassen (Transfer) · 77–85 min · Einzelarbeit · Classroom-Auswertung" -->
 
-**Think-pair (8 min):** Entwerfen Sie für Ihr Entwurfsthema eine **Lernhandlung** nach der Grundstruktur menschlichen Handelns (These 9):
+**Allein (8 min):** Entwerfen Sie für Ihr Entwurfsthema eine **Lernhandlung** nach der Grundstruktur menschlichen Handelns (These 9):
 
 - **Orientierung:** Problemanalyse, Zielbestimmung, Informationsbeschaffung, Planung, Entscheidung
 - **Ausführung:**

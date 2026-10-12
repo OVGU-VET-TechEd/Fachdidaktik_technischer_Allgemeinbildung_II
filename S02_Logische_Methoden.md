@@ -48,11 +48,17 @@ Stimmen Sie zu?
 - [(eher nein)] Eher nein
 - [(nein)] Nein
 
-### Murmelgruppe: Ihre eigene Lernerfahrung
+### Ihre eigene Lernerfahrung
 
-<!-- didaktik="Lehrschritt Vorwissen aktivieren lassen · 5–10 min · Partnerarbeit" -->
+<!-- didaktik="Lehrschritt Vorwissen aktivieren lassen · 5–10 min · Einzelarbeit · Classroom-Auswertung" -->
 
-**Zu zweit (3 min):** Erinnern Sie sich an eine Stunde aus Schule oder Ausbildung: Wurde Ihnen eine Regel *vorgegeben* – oder haben Sie sie *selbst gefunden*? Was ist davon hängen geblieben?
+**Allein (3 min):** Erinnern Sie sich an eine Stunde aus Schule oder Ausbildung: Wurde Ihnen eine Regel *vorgegeben* – oder haben Sie sie *selbst gefunden*?
+
+- [(vorgegeben)] Die Regel wurde vorgegeben.
+- [(selbst gefunden)] Ich habe die Regel selbst gefunden.
+- [(weiß nicht)] Weiß ich nicht mehr.
+
+Was ist davon hängen geblieben?
 
     [[___ ___ ___]]
 
@@ -159,9 +165,9 @@ Untersuchen, wie Wind-, Schnee- und Eigenlast durch Dachkonstruktion aufgenommen
 
 ### Aktivierung: Dächer zusammensetzen
 
-<!-- didaktik="Lehrschritt unterstützen · 25–30 min · Partnerarbeit · Doppeldecker: synthetisch" -->
+<!-- didaktik="Lehrschritt unterstützen · 25–30 min · Einzelarbeit · Classroom-Auswertung · Doppeldecker: synthetisch" -->
 
-**Zu zweit (5 min):** Setzen Sie aus den Merkmalen die beiden Dachkonstruktionen zusammen.
+**Allein (5 min):** Setzen Sie aus den Merkmalen die beiden Dachkonstruktionen zusammen.
 
 @dragdropsort(@uid,Sparren- und Kehlbalkendach;Sparren als tragende Glieder;steiler als 45 Grad;Windrispen im Längsverband;Querverband aus Sparrenpaar und Decke;Lasten nur über Sparren abgeleitet|Pfettendach;Stuhl als tragende Glieder;flacher als 45 Grad;Pfettenstränge im Längsverband;Querverband aus Pfosten und Sparren und Decke;Lasten über Pfetten und Pfosten und Streben abgeleitet)
 
@@ -180,7 +186,7 @@ Synthese = Zusammenfügen einer Anzahl von Teilen zu einem Ganzen (R017). Die An
 
 <!-- src: R025 -->
 
-<!-- didaktik="Lehrschritt unterstützen/üben · 30–40 min · Partnerarbeit · Doppeldecker: induktiv – Regel NICHT vorher nennen" -->
+<!-- didaktik="Lehrschritt unterstützen/üben · 30–40 min · Einzelarbeit · Classroom-Auswertung · Doppeldecker: induktiv – Regel NICHT vorher nennen" -->
 
 **Beispiel:** HOOKE'sches Gesetz für das elastische Verhalten von Stahl
 
@@ -215,7 +221,7 @@ data-show
 | 19.3 |       |  0.11 |
 | 21.5 |       |  0.13 |
 
-**Zu zweit (5 min):** Was bleibt in jeder Messreihe ungefähr gleich? Formulieren Sie eine Regel in einem Satz.
+**Allein (5 min):** Was bleibt in jeder Messreihe ungefähr gleich? Formulieren Sie eine Regel in einem Satz.
 
     [[___ ___]]
 
@@ -424,11 +430,11 @@ Beide Methoden folgen einer Entwicklung. Die **genetische** Methode folgt dem We
 
 ### Ein Fall zum Einstieg
 
-<!-- didaktik="Lehrschritt provozieren (Mikro-Zyklus) · 65–68 min · Murmelgruppe zu dritt" -->
+<!-- didaktik="Lehrschritt provozieren (Mikro-Zyklus) · 65–68 min · Einzelarbeit · Classroom-Auswertung" -->
 
 > **Das Radio hört auf zu spielen.**
 
-**Zu dritt (3 min):** Was könnte die Ursache sein – und wie würden Sie Ihre Vermutung prüfen?
+**Allein (3 min):** Was könnte die Ursache sein – und wie würden Sie Ihre Vermutung prüfen?
 
     [[___ ___]]
 
@@ -491,7 +497,7 @@ Dach – analytisch (R014) · Beton – deduktiv (R021–R022) · HOOKE – indu
 
 ### Baustein 2 für Ihren Unterrichtsentwurf (optional)
 
-**Think-pair (6 min):** Wählen Sie für Ihr Entwurfsthema aus S01 eine logische Methode. Skizzieren Sie den Unterrichtsgang in drei Schritten (z. B. *Fall → Lösung → Regel* oder *allgemeine Aussage → Interpretation → Anwendung*) und begründen Sie Ihre Wahl Ihrem Nachbarn.
+**Allein (6 min):** Wählen Sie für Ihr Entwurfsthema aus S01 eine logische Methode. Skizzieren Sie den Unterrichtsgang in drei Schritten (z. B. *Fall → Lösung → Regel* oder *allgemeine Aussage → Interpretation → Anwendung*) und begründen Sie Ihre Wahl in einem Satz.
 
     [[___ ___ ___]]
 

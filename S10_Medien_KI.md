@@ -51,11 +51,11 @@ Stimmen Sie zu?
 - [(eher nein)] Eher nein
 - [(nein)] Nein
 
-### Murmelgruppe: Ihr Medium
+### Ihr Medium
 
-<!-- didaktik="Lehrschritt Vorwissen aktivieren lassen · 5–8 min · Partnerarbeit" -->
+<!-- didaktik="Lehrschritt Vorwissen aktivieren lassen · 5–8 min · Einzelarbeit · Classroom-Auswertung" -->
 
-**Zu zweit (3 min):** (Noch keins gewählt? Dann entscheiden Sie sich jetzt.) Welches Medium haben Sie für eine Stunde in Ihrer Fachrichtung gewählt – und was soll es leisten: etwas **zeigen**, **damit arbeiten** lassen oder **motivieren**?
+**Allein (3 min):** (Noch keins gewählt? Dann entscheiden Sie sich jetzt.) Welches Medium haben Sie für eine Stunde in Ihrer Fachrichtung gewählt – und was soll es leisten: etwas **zeigen**, **damit arbeiten** lassen oder **motivieren**?
 
     [[___ ___ ___]]
 
@@ -250,7 +250,7 @@ Die Originalfolie zeigt eine Pyramide mit elf Stufen. Von unten nach oben **nimm
 
 ### Aktivierung: Medien einordnen
 
-<!-- didaktik="Lehrschritt unterstützen · 20–25 min · Einzelarbeit, dann Vergleich zu zweit" -->
+<!-- didaktik="Lehrschritt unterstützen · 20–25 min · Einzelarbeit · Classroom-Auswertung" -->
 
 **Welcher Erfahrungsbereich?** (R162)
 
@@ -348,7 +348,7 @@ Demonstrationsmittel sollen Anschauung herbeiführen; Arbeitsmittel sind gedruck
 
 ### Doppeldecker: Die Originalfolie R162 auf dem Prüfstand
 
-<!-- didaktik="Lehrschritt üben (Analysieren) · 37–42 min · allein 2 min, zu zweit 3 min · PNG der Originalfolie nur im Hörsaal zeigen (Bildrechte, E-20)" -->
+<!-- didaktik="Lehrschritt üben (Analysieren) · 37–42 min · Einzelarbeit · Classroom-Auswertung · PNG der Originalfolie nur im Hörsaal zeigen (Bildrechte, E-20)" -->
 
 Die Originalfolie R162 ist ein gelblicher Buchscan: Die Pyramide ist gut lesbar, daneben scheint der Text der Buchrückseite durch, Überschrift „C.5. System Unterricht“, keine Quelle.
 
@@ -362,7 +362,7 @@ Die Originalfolie R162 ist ein gelblicher Buchscan: Die Pyramide ist gut lesbar,
 Durchscheinender Rückseitentext, Gelbstich und die fremde Kapitelüberschrift sind überflüssige Informationen – sie erhöhen die extrinsische Belastung (Kohärenzprinzip, Zinn 2026, S. 240). Ob das Redundanzprinzip verletzt wird, hängt davon ab, wie im Vortrag gesprochen wird.
 ***
 
-**Zu zweit (3 min):** Wie würden Sie R162 verbessern? Denken Sie auch an R165: Wie ließe sich die Pyramide *schrittweise* aufbauen?
+**Allein (3 min):** Wie würden Sie R162 verbessern? Denken Sie auch an R165: Wie ließe sich die Pyramide *schrittweise* aufbauen?
 
     [[___ ___ ___]]
 
@@ -435,7 +435,7 @@ Beim Üben halfen beide KI-Varianten. In der Prüfung ohne KI schnitt die Gruppe
 
 ### Doppeldecker: KI-Einsatz planen – mit Leitplanken
 
-<!-- didaktik="Lehrschritt üben lassen (Transfer / Entwickeln) · 62–74 min · Einzelarbeit 6 min, Peer-Feedback zu zweit 4 min, Plenum 2 min" -->
+<!-- didaktik="Lehrschritt üben lassen (Transfer / Entwickeln) · 62–74 min · Einzelarbeit 6 min, Selbstcheck 2 min (Classroom-Auswertung), Plenum 4 min" -->
 
 **Allein (6 min):** Wählen Sie eine Lernsituation aus Ihrer Fachrichtung. Planen Sie **einen** Einsatz von KI oder einer Simulation.
 
@@ -449,7 +449,13 @@ Beim Üben halfen beide KI-Varianten. In der Prüfung ohne KI schnitt die Gruppe
 
     [[___ ___ ___ ___ ___]]
 
-**Peer-Feedback zu zweit (4 min):** Prüfen Sie die Planung Ihres Gegenübers mit einer Frage: **Dient das Medium dem Ziel – oder wurde es gewählt, weil es neu ist?**
+**Selbstcheck (allein, 2 min):** Prüfen Sie Ihre Planung mit einer Frage: **Dient das Medium dem Ziel – oder wurde es gewählt, weil es neu ist?**
+
+- [(Ziel)] Das Medium dient dem Ziel.
+- [(neu)] Ehrlich gesagt: eher, weil es neu ist.
+- [(unsicher)] Ich bin unsicher.
+
+Woran machen Sie das fest?
 
     [[___ ___]]
 
@@ -488,7 +494,7 @@ Für Ihren Unterrichtsalltag heißt das konkret drei Fertigkeiten:
 
 </details>
 
-**Mini-Übung (zu zweit, 5 min):** Schreiben Sie einen Prompt, der aus einem vorhandenen Text Ihrer Fachrichtung **zwei Fassungen** erzeugt – eine für Lernende mit wenig Vorwissen oder Deutsch als Zweitsprache, eine für Fortgeschrittene. Was müssen Sie danach selbst prüfen?
+**Mini-Übung (allein, 5 min):** Schreiben Sie einen Prompt, der aus einem vorhandenen Text Ihrer Fachrichtung **zwei Fassungen** erzeugt – eine für Lernende mit wenig Vorwissen oder Deutsch als Zweitsprache, eine für Fortgeschrittene. Was müssen Sie danach selbst prüfen?
 
     [[___ ___ ___]]
 

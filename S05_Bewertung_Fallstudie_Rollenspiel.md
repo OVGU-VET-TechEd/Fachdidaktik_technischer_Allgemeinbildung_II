@@ -48,11 +48,11 @@ Stimmen Sie zu?
 - [(eher nein)] Eher nein
 - [(nein)] Nein
 
-### Murmelgruppe: Ihre Noten-Erfahrung
+### Ihre Noten-Erfahrung
 
-<!-- didaktik="Lehrschritt Vorwissen aktivieren lassen · 5–10 min · Partnerarbeit" -->
+<!-- didaktik="Lehrschritt Vorwissen aktivieren lassen · 5–10 min · Einzelarbeit · Classroom-Auswertung" -->
 
-**Zu zweit (3 min):** Erzählen Sie sich Ihre Erfahrung aus der Vorbereitung. Was war gerecht, was nicht – und **woran** wurde gemessen?
+**Allein (3 min):** Notieren Sie Ihre Erfahrung aus der Vorbereitung. Was war gerecht, was nicht – und **woran** wurde gemessen?
 
     [[___ ___ ___]]
 
@@ -403,9 +403,18 @@ Unser Fall: Die fiktive Firma FloraTec hat eine gentechnisch veränderte Kartoff
 
 ### Die Rollenkarten
 
-<!-- didaktik="Erarbeitungsphase · 50–56 min · Paare/Dreier je Rolle; nicht besetzte Rollen: Beobachter:innen" -->
+<!-- didaktik="Erarbeitungsphase · 50–56 min · Einzelarbeit · jede Person wählt eine Rolle; Verteilung über Classroom anzeigen und bei Bedarf Rollen nachsteuern" -->
 
-**Erarbeitungsphase (6 min, Paare/Dreier):** Lesen Sie Ihre Rollenkarte. Formulieren Sie ein Statement von höchstens **einer Minute**: Was ist Ihre Position, was fordern Sie?
+Welche Rolle übernehmen Sie?
+
+- [(Ökohof)] Ökologischer Landwirt „Ökohof Morgenrot"
+- [(FloraTec)] Züchtungsbetrieb „FloraTec GmbH"
+- [(VDAgrar)] Bauernverband „VDAgrar"
+- [(Minister)] Politiker „Minister Erdapfel"
+- [(Prof. Frosch)] Wissenschaftler „Prof. Frosch"
+- [(Familie Normalo)] Verbraucher „Familie Normalo"
+
+**Erarbeitungsphase (allein, 6 min):** Lesen Sie Ihre Rollenkarte. Formulieren Sie ein Statement von höchstens **einer Minute**: Was ist Ihre Position, was fordern Sie?
 
 <details>
 <summary><b>Ökologischer Landwirt „Ökohof Morgenrot"</b> (R083)</summary>
@@ -495,10 +504,19 @@ Ihr Statement (für Ihre Rolle):
 
 ### Spielen: Pressekonferenz und Runder Tisch
 
-<!-- didaktik="Diskussionsphase · 56–66 min" -->
+<!-- didaktik="Diskussionsphase · 56–66 min · Plenum · je Rolle liest eine freiwillige Person ihr Statement; alle anderen beobachten und stimmen allein ab" -->
 
-1. **Pressekonferenz (6 min):** Jede Rolle verliest ihr Statement (max. 1 min).
-2. **Runder Tisch (4 min):** Finden Sie einen Konsens. Wer keine Rolle spielt, beobachtet als *teilnehmende:r Beobachter:in*: Wer überzeugt womit?
+1. **Pressekonferenz (6 min):** Für jede Rolle verliest eine freiwillige Person ihr Statement (max. 1 min). Alle anderen beobachten als *teilnehmende Beobachter:innen*.
+2. **Runder Tisch (4 min):** Die sechs Sprecher:innen suchen unter Moderation der Lehrperson einen Konsens. Alle anderen notieren: Wer überzeugt womit?
+
+**Allein (1 min):** Welche Rolle hat Sie am meisten überzeugt?
+
+- [(Ökohof)] Ökologischer Landwirt „Ökohof Morgenrot"
+- [(FloraTec)] Züchtungsbetrieb „FloraTec GmbH"
+- [(VDAgrar)] Bauernverband „VDAgrar"
+- [(Minister)] Politiker „Minister Erdapfel"
+- [(Prof. Frosch)] Wissenschaftler „Prof. Frosch"
+- [(Familie Normalo)] Verbraucher „Familie Normalo"
 
 ### Reflexion und Evaluation
 
@@ -530,7 +548,14 @@ Bewerten Sie das Rollenspiel so, wie es R073 für Projekte fordert.
 - [(3)] befriedigend
 - [(4)] ausreichend
 
-**2. Gegenseitige Einschätzung (3 min, im Rollenpaar):** Was haben die anderen gesehen? Notieren Sie eine Stärke und einen Tipp.
+**2. Gegenseitige Einschätzung (allein, 3 min):** Wie gut haben die Sprecher:innen ihre Rollen insgesamt vertreten? Das Ergebnis aller sehen wir über die Classroom-Funktion.
+
+- [(1)] sehr gut
+- [(2)] gut
+- [(3)] befriedigend
+- [(4)] ausreichend
+
+Notieren Sie eine Stärke und einen Tipp für die Sprecher:innen:
 
     [[___ ___]]
 
@@ -547,9 +572,9 @@ Worauf haben Sie Ihre Selbsteinschätzung vor allem gestützt?
 
 ### Baustein 5 für Ihren Unterrichtsentwurf (optional)
 
-<!-- didaktik="Lehrschritt üben lassen (Transfer) · 78–85 min · Think-pair" -->
+<!-- didaktik="Lehrschritt üben lassen (Transfer) · 78–85 min · Einzelarbeit · Classroom-Auswertung" -->
 
-**Think-pair (7 min):** Entwerfen Sie für Ihr Projektvorhaben aus Baustein 4 ein Konzept für Kontrolle und Bewertung:
+**Allein (7 min):** Entwerfen Sie für Ihr Projektvorhaben aus Baustein 4 ein Konzept für Kontrolle und Bewertung:
 
 - Wer bewertet was – Selbst, Gruppe, Lehrkraft (Reihenfolge nach R073)?
 - Welche **Prozess**-Kriterien nutzen Sie?

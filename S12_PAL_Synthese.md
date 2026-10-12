@@ -52,11 +52,11 @@ Zu Recht?
 
 <small>„Programmiert“ meint die schriftliche Prüfungsform mit vorgegebenen Antworten, die Sie in S11 im Baum der konventionellen Prüfung gesehen haben (R172).</small>
 
-### Murmelgruppe: Ihre Abschlussprüfung
+### Ihre Abschlussprüfung
 
-<!-- didaktik="Lehrschritt Vorwissen aktivieren lassen · 5–10 min · Partnerarbeit" -->
+<!-- didaktik="Lehrschritt Vorwissen aktivieren lassen · 5–10 min · Einzelarbeit · Classroom-Auswertung" -->
 
-**Zu zweit (3 min):** Wer hat Ihre Abschlussprüfung erstellt – Ihre Schule, die Kammer, eine zentrale Stelle? Welches Gütekriterium aus S11 war erfüllt, welches verletzt?
+**Allein (3 min):** Wer hat Ihre Abschlussprüfung erstellt – Ihre Schule, die Kammer, eine zentrale Stelle? Welches Gütekriterium aus S11 war erfüllt, welches verletzt?
 
     [[___ ___ ___]]
 
@@ -153,7 +153,7 @@ Zu Recht?
 
 ### Aktivierung: Welches Gütekriterium sichert das?
 
-<!-- didaktik="Lehrschritt unterstützen · 26–31 min · Einzelarbeit, dann zu zweit" -->
+<!-- didaktik="Lehrschritt unterstützen · 26–31 min · Einzelarbeit · Classroom-Auswertung" -->
 
 [[Objektivität] [Reliabilität] [Validität]]
 [    (X)            ( )           ( )     ] Bundeseinheitliche Aufgabensätze: alle Prüflinge bekommen die gleichen Anforderungen.
@@ -240,7 +240,7 @@ Bringen Sie die Schritte in die richtige Reihenfolge (R190):
 
 ## Station 3: Pro und Contra – eine Mini-Disputation
 
-<!-- didaktik="Lehrschritt üben lassen (Bewerten) · 45–60 min · Dreiergruppen: Betrieb – PAL – Jury; Vorbereitung 4, Disputation 6, Urteil 2, Plenum 3 · Doppeldecker zu S05 (Rollenspiel)" -->
+<!-- didaktik="Lehrschritt üben lassen (Bewerten) · 45–60 min · Einzelarbeit, Plädoyers im Plenum: Vorbereitung allein 5, Plädoyers zweier Freiwilliger 4 (Betrieb, PAL), Urteil allein 2, Auswertung über Classroom 4 · Doppeldecker zu S05 (Rollenspiel)" -->
 
 <!-- src: R193 -->
 
@@ -266,22 +266,35 @@ Bringen Sie die Schritte in die richtige Reihenfolge (R190):
 > [!NOTE] 🔎 Lesehilfe (ergänzt)
 > *Betrieblicher Auftrag* = eine Prüfungsform, bei der eine reale Aufgabe aus dem Ausbildungsbetrieb geprüft wird – im Gegensatz zum bundeseinheitlichen PAL-Prüfungsstück. *„Trainingslager“* meint gezieltes Üben auf eine bekannte Prüfungsform.
 
-**Zu dritt (15 min):**
+**1. Vorbereitung (allein, 5 min):** Notieren Sie für **jede** Seite das stärkste Argument – und je ein Argument, mit dem Sie es entkräften würden.
 
-| Rolle | Auftrag |
-| --- | --- |
-| **Betrieb** | Vertritt den betrieblichen Auftrag mit den Argumenten der linken Spalte – und entkräftet zwei Argumente der PAL. |
-| **PAL** | Vertritt die PAL-Prüfung mit den Argumenten der rechten Spalte – und entkräftet zwei Argumente des Betriebs. |
-| **Jury** | Hört zu und entscheidet mit **einem Gütekriterium aus S11** als Maßstab. Welche Seite überzeugt mehr? |
+| Seite | stärkstes Argument | Entkräftung |
+| --- | --- | --- |
+| **Betrieb** (linke Spalte) | … | … |
+| **PAL** (rechte Spalte) | … | … |
 
-Vorbereitung 4 min · Disputation 6 min (je 2 min Plädoyer, 2 min Erwiderung) · Urteil der Jury 2 min.
+    [[___ ___ ___ ___]]
 
-**Urteil Ihrer Jury** (Gütekriterium + Begründung):
+**2. Plädoyers (4 min):** Zwei Freiwillige vertreten je eine Seite (je 2 min). Alle anderen sind die **Jury**.
+
+**3. Urteil (allein, 2 min):** Welches Gütekriterium aus S11 legen Sie als Maßstab an?
+
+- [(Objektivität)] Objektivität
+- [(Reliabilität)] Reliabilität
+- [(Validität)] Validität
+
+Welche Seite überzeugt Sie mit diesem Maßstab mehr?
+
+- [(Betrieb)] Betrieblicher Auftrag
+- [(PAL)] PAL-Prüfung
+- [(unentschieden)] Unentschieden
+
+Begründen Sie Ihr Urteil in zwei Sätzen:
 
     [[___ ___ ___]]
 
 > [!NOTE] 🪞 Methodenspiegel
-> Sie haben gerade eine Disputation mit Rollen geführt – wie das Rollenspiel in **S05**, nur mit Jury und Bewertungsmaßstab.
+> Sie haben gerade eine Disputation mit Rollen erlebt – wie das Rollenspiel in **S05**, nur mit Jury und Bewertungsmaßstab.
 
 **Noch einmal:** Ist die Kritik am programmierten Teil der PAL-Prüfungen berechtigt?
 
@@ -338,7 +351,7 @@ Wie sicher fühlen Sie sich? (1 = gar nicht, 4 = sehr sicher)
 
 ### Baustein 12: Ihr Entwurf – vollständig? (optional)
 
-<!-- didaktik="Lehrschritt üben lassen (Transfer / Entwickeln) · 70–82 min · Einzelarbeit 8 min, dann Partner 4 min" -->
+<!-- didaktik="Lehrschritt üben lassen (Transfer / Entwickeln) · 70–82 min · Einzelarbeit 8 min, Classroom-Auswertung der häufigsten Lücken 4 min" -->
 
 | Baustein | Inhalt | aus | ✔ |
 | --- | --- | --- | --- |
@@ -354,8 +367,15 @@ Wie sicher fühlen Sie sich? (1 = gar nicht, 4 = sehr sicher)
 | 10 | Medium (ggf. Simulation oder KI-Einsatz mit Leitplanken) | S10 | |
 | 11 | Kontrollaufgabe mit Operator und Erwartungshorizont | S11 | |
 
-**Allein (8 min):** Welcher Baustein fehlt Ihnen noch oder ist schwach? Notieren Sie ihn mit einem nächsten Schritt.
-**Zu zweit (4 min):** Tauschen Sie Ihre Lücken – wer kann wem helfen?
+**Allein (8 min):** Welcher Baustein fehlt Ihnen noch oder ist am schwächsten? Die häufigsten Lücken besprechen wir anschließend gemeinsam.
+
+- [(1–3)] Baustein 1–3 (Thema, logische Methode, Lernhandlung)
+- [(4–6)] Baustein 4–6 (Projekt, Kontrolle und Bewertung, Experiment)
+- [(7–9)] Baustein 7–9 (Großform, Reduktion, Sozial- und Aktionsformen)
+- [(10–11)] Baustein 10–11 (Medium, Kontrollaufgabe)
+- [(keiner)] Mein Entwurf ist vollständig.
+
+Notieren Sie den Baustein mit einem nächsten Schritt:
 
     [[___ ___ ___]]
 
