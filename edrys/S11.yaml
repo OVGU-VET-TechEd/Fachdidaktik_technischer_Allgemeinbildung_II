@@ -1,7 +1,7 @@
-id: fdtech2s11a761c326
+id: fdtech2s12668eff02
 createdBy: ovgu-vet-teched
 dateCreated: 1791747976681
-name: 'FD Technik II · S11 – Lernerfolgskontrolle & Testgütekriterien'
+name: 'FD Technik II · S11 – PAL-Prüfungen & Modulsynthese'
 meta:
   description: >-
     Fachdidaktik technischer Allgemeinbildung II (OVGU) – Live-Classroom zur
@@ -16,7 +16,7 @@ modules:
   - url: https://edrys-labs.github.io/module-liascript/
     config:
       classroom: true
-      course: https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S11_Lernerfolgskontrolle.md
+      course: https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S11_PAL_Synthese.md
     studentConfig: ''
     teacherConfig: ''
     stationConfig: ''

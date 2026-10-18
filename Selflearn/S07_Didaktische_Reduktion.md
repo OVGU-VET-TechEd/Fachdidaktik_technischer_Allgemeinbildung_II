@@ -6,16 +6,16 @@ language:  de
 narrator:  Deutsch Female
 mode:      Textbook
 
-title:     S08 – Didaktische Reduktion (Selbstlerneinheit)
-comment:   Fachdidaktik technischer Allgemeinbildung II – Selbstlerneinheit zu Sitzung S08. Vereinfachungen auf Korrektheit prüfen, vertikal und horizontal reduzieren, die Entscheidungsschritte nach Arnold und die Verfahren nach Hering an neuen Fachaussagen anwenden.
+title:     S07 – Didaktische Reduktion (Selbstlerneinheit)
+comment:   Fachdidaktik technischer Allgemeinbildung II – Selbstlerneinheit zu Sitzung S07. Vereinfachungen auf Korrektheit prüfen, vertikal und horizontal reduzieren, die Entscheidungsschritte nach Arnold und die Verfahren nach Hering an neuen Fachaussagen anwenden.
 tags:      Fachdidaktik, Technikdidaktik, Berufsbildung, didaktische Reduktion, Grüner, Hering, Arnold, Elementarisierung, Selbstlernen
 
 import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragAndDrop_Template/refs/heads/main/README.md
 -->
 
-# S08 – Didaktische Reduktion (Selbstlerneinheit)
+# S07 – Didaktische Reduktion (Selbstlerneinheit)
 
-<!-- didaktik="Selbstlerneinheit S08 · ca. 55 min · nur Quellen aus S08" -->
+<!-- didaktik="Selbstlerneinheit S07 · ca. 55 min · nur Quellen aus S07" -->
 
 > [!IMPORTANT] 🧭 Leitfrage
 > Ist meine Vereinfachung noch richtig – und wie reduziere ich eine Fachaussage Schritt für Schritt?
@@ -37,7 +37,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 3. eine Fachaussage mit den Entscheidungsschritten nach Arnold **reduzieren**.
 
 > [!TIP] 📖 Grundlage
-> Die Präsenzsitzung [S08 – Didaktische Reduktion](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S08_Didaktische_Reduktion.md).
+> Die Präsenzsitzung [S07 – Didaktische Reduktion](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S07_Didaktische_Reduktion.md).
 
 ## 0 · Wo stehen Sie?
 
@@ -61,7 +61,7 @@ Ich kann eine Fachaussage aus meiner Fachrichtung begründet reduzieren.
 
 <!-- didaktik="ca. 12 min" -->
 
-> Die abgeleitete Aussage muss **unter Nennung der Einschränkungen immer korrekt** bleiben (Grüner, S08, Folie R129).
+> Die abgeleitete Aussage muss **unter Nennung der Einschränkungen immer korrekt** bleiben (Grüner, S07, Folie R129).
 
 **Didaktische Reduktion oder Fehler?**
 
@@ -96,7 +96,7 @@ Ich kann eine Fachaussage aus meiner Fachrichtung begründet reduzieren.
 [   (X)        ( )     ] Reibung im Drehpunkt wird vernachlässigt.
 [   ( )        (X)     ] Merkregel: „Kraft mal Kraftarm gleich Last mal Lastarm“ – gemeinsam mit der Formel und ihren Bedingungen.
 ***
-Vertikal: Der Sonderfall (zwei senkrechte Kräfte, masseloser Hebel, keine Reibung) schränkt den Gültigkeitsumfang ein – korrekt, solange die Einschränkungen genannt werden. Horizontal: Wippe und Merkregel stellen dieselbe Aussage konkreter dar. Achtung: Die Merkregel ist nur horizontal zum *Sonderfall* – wie in S08 bei den Lasten kann ein Beispiel beide Arten enthalten.
+Vertikal: Der Sonderfall (zwei senkrechte Kräfte, masseloser Hebel, keine Reibung) schränkt den Gültigkeitsumfang ein – korrekt, solange die Einschränkungen genannt werden. Horizontal: Wippe und Merkregel stellen dieselbe Aussage konkreter dar. Achtung: Die Merkregel ist nur horizontal zum *Sonderfall* – wie in S07 bei den Lasten kann ein Beispiel beide Arten enthalten.
 ***
 
 **Welche Reduktionsart nach Zinn (2026) liegt vor?**
@@ -108,7 +108,7 @@ Vertikal: Der Sonderfall (zwei senkrechte Kräfte, masseloser Hebel, keine Reibu
 [       ( )             ( )           ( )                      (X)                                ( )         ] Zunächst wird nur zwischen Leitern und Nichtleitern unterschieden.
 [       ( )             ( )           ( )                      ( )                                (X)         ] Drehmoment wird zunächst nur als Ursache für das Lösen einer Schraube behandelt.
 ***
-Die Arten folgen Zinn (2026), wie in S08 zusammengefasst. Bei jeder Reduktion bleibt die Prüffrage: Nenne ich die Einschränkung – oder lerne ich den Lernenden etwas, das sie später verlernen müssen?
+Die Arten folgen Zinn (2026), wie in S07 zusammengefasst. Bei jeder Reduktion bleibt die Prüffrage: Nenne ich die Einschränkung – oder lerne ich den Lernenden etwas, das sie später verlernen müssen?
 ***
 
 ## 3 · Mit Arnold eine Fachaussage reduzieren
@@ -126,9 +126,9 @@ Die Arten folgen Zinn (2026), wie in S08 zusammengefasst. Bei jeder Reduktion bl
 | 5 Vertikale Reduktion I | Auf die Herleitung über Kehrwertsummen verzichten – Tabellenwerte nutzen; die Gültigkeit bleibt unberührt. |
 | 6 Vertikale Reduktion II | Wärmeübergangswiderstände und Wärmebrücken zunächst vernachlässigen – und das ausdrücklich sagen. |
 
-<small>Übungsbeispiel für diese Einheit, nicht von den Originalfolien. Schrittfolge nach Arnold (S08, Folien R139–R140).</small>
+<small>Übungsbeispiel für diese Einheit, nicht von den Originalfolien. Schrittfolge nach Arnold (S07, Folien R139–R140).</small>
 
-**Ihre Fachaussage:** Reduzieren Sie die Fachaussage, die Sie zu S08 mitgebracht haben (oder eine neue), mit den sechs Schritten. Achten Sie auf die Reihenfolge: erst horizontal, dann vertikal ohne, zuletzt vertikal *mit* Einschränkung des Gültigkeitsumfangs.
+**Ihre Fachaussage:** Reduzieren Sie die Fachaussage, die Sie zu S07 mitgebracht haben (oder eine neue), mit den sechs Schritten. Achten Sie auf die Reihenfolge: erst horizontal, dann vertikal ohne, zuletzt vertikal *mit* Einschränkung des Gültigkeitsumfangs.
 
 | Schritt | Ihre Entscheidung |
 | --- | --- |
@@ -174,7 +174,7 @@ Ich kann eine Fachaussage aus meiner Fachrichtung begründet reduzieren.
 
 ## Literatur
 
-- Arnold (1990) – zitiert nach S08, Folien R136–R140; vollständige Angabe auf der Originalfolie nicht vorhanden.
+- Arnold (1990) – zitiert nach S07, Folien R136–R140; vollständige Angabe auf der Originalfolie nicht vorhanden.
 - Grüner, G. (1967). Die didaktische Reduktion als Kernstück der Didaktik. *Die Deutsche Schule (DDS), 7/8*, 414–430 – Angabe laut Zinn (2026), auf den Folien R128, R132 ohne Jahr.
-- Hering: Zur Faßlichkeit naturwissenschaftlicher und technischer Aussagen. – Berlin, 1959, S. 92 – zitiert nach S08, Folie R141.
+- Hering: Zur Faßlichkeit naturwissenschaftlicher und technischer Aussagen. – Berlin, 1959, S. 92 – zitiert nach S07, Folie R141.
 - Zinn, B. (2026). *Didaktik des naturwissenschaftlichen, informatischen und technikwissenschaftlichen Unterrichts.* Springer Spektrum, Abschn. 12.3.10, S. 302–306. https://doi.org/10.1007/978-3-662-72499-6

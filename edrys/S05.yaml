@@ -1,7 +1,7 @@
-id: fdtech2s05dc485149
+id: fdtech2s063ba0f3b6
 createdBy: ovgu-vet-teched
 dateCreated: 1791747976680
-name: 'FD Technik II · S05 – Kontrolle & Bewertung in Projekten · Fallstudie · Rollenspiel'
+name: 'FD Technik II · S05 – Leittextmethode & technisches Experiment'
 meta:
   description: >-
     Fachdidaktik technischer Allgemeinbildung II (OVGU) – Live-Classroom zur
@@ -16,7 +16,7 @@ modules:
   - url: https://edrys-labs.github.io/module-liascript/
     config:
       classroom: true
-      course: https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S05_Bewertung_Fallstudie_Rollenspiel.md
+      course: https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S05_Leittext_Experiment.md
     studentConfig: ''
     teacherConfig: ''
     stationConfig: ''

@@ -7,16 +7,16 @@ narrator:  Deutsch Female
 mode:      Textbook
 classroom: enable
 
-title:     S06 – Leittextmethode & technisches Experiment
+title:     S05 – Leittextmethode & technisches Experiment
 comment:   Fachdidaktik technischer Allgemeinbildung II / Fachdidaktik gewerblich-technischer Fachrichtungen – Sitzung 6. Selbstständig lernen mit Leittexten, experimentell lernen mit dem technischen Experiment, Methoden nach Effizienzkriterien vergleichen.
 tags:      Fachdidaktik, Technikdidaktik, Berufsbildung, Leittextmethode, Leitfragen, technisches Experiment, Zugversuch
 
 import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragAndDrop_Template/refs/heads/main/README.md
 -->
 
-# S06 – Leittextmethode & technisches Experiment
+# S05 – Leittextmethode & technisches Experiment
 
-<!-- didaktik="Planungsraster S06 · E-03, E-04, E-12, E-17, E-19, E-27, E-28" -->
+<!-- didaktik="Planungsraster S05 · E-03, E-04, E-12, E-17, E-19, E-27, E-28" -->
 
 > [!IMPORTANT] 🧭 Leitfrage
 > Wie lernen Lernende **selbstständig** – und **experimentell**? – Auf der Kurskarte: **Methodik → Erkenntnisweg**.
@@ -33,7 +33,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 5. begründet **auswählen**, welche Methode zu einem Lernziel passt,
 6. ein technisches Experiment für Ihr Entwurfsthema **planen** *(optional)*.
 
-📝 **Beuteblatt S06**
+📝 **Beuteblatt S05**
 
 ## Einstieg: Macht eine gute Anleitung selbstständig?
 
@@ -52,7 +52,7 @@ Stimmen Sie zu?
 
 <!-- didaktik="Lehrschritt Vorwissen aktivieren lassen · 5–10 min · Einzelarbeit · Classroom-Auswertung" -->
 
-**Allein (3 min):** Sehen Sie sich Ihre mitgebrachte Anleitung an. Welche Fragen **beantwortet** die Anleitung – welche müssten Lernende sich **selbst stellen**? Welche Schritte der vollständigen Handlung (S03: Orientieren – Richten – Entwerfen – Entscheiden – Kontrollieren) nimmt sie vorweg?
+**Allein (3 min):** Sehen Sie sich Ihre mitgebrachte Anleitung an. Welche Fragen **beantwortet** die Anleitung – welche müssten Lernende sich **selbst stellen**? Welche Schritte der vollständigen Handlung (S02: Orientieren – Richten – Entwerfen – Entscheiden – Kontrollieren) nimmt sie vorweg?
 
     [[___ ___ ___]]
 
@@ -69,7 +69,7 @@ Stimmen Sie zu?
 |                             |     |                             |     |  Projekt ...)               |
 +-----------------------------+     +-----------------------------+     +-----------------------------+
 
- Roter Faden HOOKE:   S02 induktive Methode  -->  heute: Phasen des Experiments nach Bernard und Bader
+ Roter Faden HOOKE:   S01b induktive Methode  -->  heute: Phasen des Experiments nach Bernard und Bader
 ```
 
 <small>Die Gliederung in drei Stationen ist eine Lesehilfe für diese Sitzung, nicht Teil der Originalfolien.</small>
@@ -153,7 +153,7 @@ Stimmen Sie zu?
 
 <small>Quelle: Folie R092 „Ablauf“ – gescannte Abbildung nachgezeichnet; auf der Originalfolie ist keine Quelle der Abbildung angegeben (siehe Zitations-Prüfung).</small>
 
-> [!TIP] 🔗 Verbinden Sie mit S03
+> [!TIP] 🔗 Verbinden Sie mit S02
 > Vergleichen Sie die sechs Schritte mit der vollständigen Handlung nach Hacker (Orientieren – Richten – Entwerfen – Entscheiden – Kontrollieren). Wo stehen die beiden **Fachgespräche mit dem Ausbilder** – und warum gerade dort?
 
 ### [NEU] Offene Aufgabe – strukturierter Unterricht
@@ -205,7 +205,7 @@ Leitfragen „leiten dazu an, sich aus dem Informationsgrundlagen die Kenntnisse
 
 > Ein Experiment ist eine Unterrichtskonzeption mit **induktivem Erkenntnisweg**. Ausgangspunkt ist ein technisches oder naturwissenschaftlich Phänomen, welches unter kontrollierten/eingeschränkten Bedingungen nachgestellt/simuliert und analysiert wird.
 
-<small>Quelle: Folie R093 „Definition Experiment“ – *induktiv*: siehe S02 (Fall → Lösung → Regel)</small>
+<small>Quelle: Folie R093 „Definition Experiment“ – *induktiv*: siehe S01b (Fall → Lösung → Regel)</small>
 
 ### Arten von Experimenten klassifiziert …
 
@@ -264,10 +264,10 @@ Bader, R.: Entwicklung beruflicher Handlungskompetenz in der Berufsschule / Zum 
 
 <small>Quelle: Folie R096 „Methodische Phasen von Experimenten nach BADER“ (Nummerierung ergänzt; Wortlaut unverändert)</small>
 
-<!-- neu="Verweis auf Dilling 2024, S. 43–44 (S02)" -->
+<!-- neu="Verweis auf Dilling 2024, S. 43–44 (S01b)" -->
 
 > [!TIP] 🧵 Roter Faden HOOKE
-> In S02 haben Sie aus den Messwerten des Zugversuchs *selbst* eine Regel gefunden. Bader beginnt früher – mit dem **Beobachten** und dem **Planen** des Zug-Versuchs (Abmessungen der Probe!) – und endet später – mit **Einordnen in eine Theorie** und **Reflexion**. Phase 5 „Stützen, Falsifizieren" entspricht der *Wissenssicherung*, Phase 6 „Einordnen in eine umfassende Theorie" der *Wissenserklärung* aus dem [NEU]-Kasten in S02 (Dilling 2024).
+> In S01b haben Sie aus den Messwerten des Zugversuchs *selbst* eine Regel gefunden. Bader beginnt früher – mit dem **Beobachten** und dem **Planen** des Zug-Versuchs (Abmessungen der Probe!) – und endet später – mit **Einordnen in eine Theorie** und **Reflexion**. Phase 5 „Stützen, Falsifizieren" entspricht der *Wissenssicherung*, Phase 6 „Einordnen in eine umfassende Theorie" der *Wissenserklärung* aus dem [NEU]-Kasten in S01b (Dilling 2024).
 
 ### Aktivierung: Experimente einordnen
 
@@ -361,7 +361,7 @@ Beide Modelle enthalten Hypothese, Durchführung und Auswertung. Nur Bader begin
 
 </details>
 
-<small>Quelle: Folien R097 „Hinweise zur Vorbereitung von technischen Experimenten“ und R098 „Hinweise zur Vorbereitung von (bau-)technischen Experimenten“ – „In welchem Umfang muss der fachwissenschaftliche Kontext vereinfacht werden?“ → Didaktische Reduktion in **S08**.</small>
+<small>Quelle: Folien R097 „Hinweise zur Vorbereitung von technischen Experimenten“ und R098 „Hinweise zur Vorbereitung von (bau-)technischen Experimenten“ – „In welchem Umfang muss der fachwissenschaftliche Kontext vereinfacht werden?“ → Didaktische Reduktion in **S07**.</small>
 
 ### Handreichungen zur Versuchsdurchführung
 
@@ -401,7 +401,7 @@ Beide Modelle enthalten Hypothese, Durchführung und Auswertung. Nur Bader begin
 
 <!-- src: R100 -->
 
-<!-- didaktik="integrierendes Verbinden / Bewerten · 75–85 min · Synthese S04–S06" -->
+<!-- didaktik="integrierendes Verbinden / Bewerten · 75–85 min · Synthese S03–S05" -->
 
 **Effizienzkriterien verschiedener Methoden**
 
@@ -422,7 +422,7 @@ Senkrecht stehen sieben Kriterien (*Observing, Selecting Pertinent Data, Diagnos
 
 <small>Quelle: Folie R100 „Effizienzkriterien verschiedener Methoden“ – Tabelle aus der Abbildung abgelesen (Kurvenverlauf qualitativ, keine Messwerte); Silbentrennung „Papa-loizos“ des Originals aufgehoben. Die Abbildung selbst ist ein Buchscan und wird wegen der Bildrechte nicht eingebettet.</small>
 
-**Verbinden Sie S04–S06:** *Incident Method* und *Case Method* kennen Sie als Case-Incident- und Case-Study-Method nach Kaiser (S05), *Role Playing* als Rollenspiel (S05), *Group Projects* als Arbeit an Projekten (S04).
+**Verbinden Sie S03–S05:** *Incident Method* und *Case Method* kennen Sie als Case-Incident- und Case-Study-Method nach Kaiser (S04), *Role Playing* als Rollenspiel (S04), *Group Projects* als Arbeit an Projekten (S03).
 
 **Allein (3 min):** Welche Methode wählen Sie für welches Lernziel – nach der Abbildung?
 
@@ -457,7 +457,7 @@ Nach der Abbildung: Role Playing – Communicating · Incident Method – Select
 📝 **Beuteblatt-Stopp:** Ergänzen Sie die Abschnitte 2 und 3, Baustein 6 und Ihre wichtigste Beute.
 
 > [!NOTE] 🔗 Querverweise
-> induktiver Erkenntnisweg, HOOKE → **S02** · vollständige Handlung, Selbständigkeit → **S03** · Fallstudie, Rollenspiel → **S05** · Projekt → **S04** · fachlichen Kontext vereinfachen → **S08** · Experiment, Exkursion → Wirklichkeitserfahrung **S10**
+> induktiver Erkenntnisweg, HOOKE → **S01b** · vollständige Handlung, Selbständigkeit → **S02** · Fallstudie, Rollenspiel → **S04** · Projekt → **S03** · fachlichen Kontext vereinfachen → **S07** · Experiment, Exkursion → Wirklichkeitserfahrung **S09**
 
 ### Prüfungsfragen zum Üben
 
@@ -471,9 +471,9 @@ Nach der Abbildung: Role Playing – Communicating · Incident Method – Select
 4. Vergleichen Sie die Phasen des Experiments nach Bernard und nach Bader am Beispiel Zugversuch.
 5. Begründen Sie mit den Effizienzkriterien, welche Methode Sie für ein bestimmtes Lernziel wählen würden.
 
-### Vorbereitung auf S07 (vor der Sitzung, ca. 15 min)
+### Vorbereitung auf S06 (vor der Sitzung, ca. 15 min)
 
-In S07 geht es um **methodische Großformen** – Aufgabenarten wie Diagnose-, Fertigungs-, Konstruktions- oder Instandsetzungsaufgabe.
+In S06 geht es um **methodische Großformen** – Aufgabenarten wie Diagnose-, Fertigungs-, Konstruktions- oder Instandsetzungsaufgabe.
 
 **Aufgabe:** Sammeln Sie typische Aufgabenarten aus Ihrem Beruf bzw. Ihrem Technikunterricht (z. B. Fehler suchen, etwas fertigen, etwas konstruieren, etwas instand setzen, etwas prüfen).
 
@@ -498,4 +498,4 @@ Welche Aufgabenart kommt in Ihrer Fachrichtung am häufigsten vor?
 **[NEU] Ergänzende Literatur**
 
 - Stettler, A. (2025). Offenheit der Aufgabenstellung und Strukturiertheit des Unterrichtes im Technischen Gestalten. In A. Steinmann, M. Seidler-Proffe & K. Lange-Schubert (Hrsg.), *Mitwelt im Wandel wahrnehmen, verstehen und gestalten. Bildungspotentiale des technischen Gestaltens in Lehrer:innenbildung, Forschung und Schulpraxis* (S. 73 ff.). Bad Heilbrunn: Klinkhardt. https://doi.org/10.35468/6199-07
-- Dilling, F. (2024) – siehe S02 (Wissenssicherung, Wissenserklärung).
+- Dilling, F. (2024) – siehe S01b (Wissenssicherung, Wissenserklärung).

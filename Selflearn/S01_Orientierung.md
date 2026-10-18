@@ -104,7 +104,7 @@ Beschreiben Sie drei Gegenstände Ihrer Fachrichtung auf dieselbe Weise. Überle
 
 - **Methode im weiteren Sinne** = Gesamtverfahren des Unterrichts; sie richtet sich nach der Natur der Lernenden (Entwicklungsstufe) und der Natur der Lehrenden.
 - **Methoden im engeren Sinne** = Lehrformen, z. B. analytisch, synthetisch, induktiv, deduktiv.
-- Klassifikation nach dem **Aspekt der äußeren Gestaltung** (mitteilend oder entwickelnd, jeweils vortragend oder fragend) und nach dem **logischen Aspekt** (Thema von S02).
+- Klassifikation nach dem **Aspekt der äußeren Gestaltung** (mitteilend oder entwickelnd, jeweils vortragend oder fragend) und nach dem **logischen Aspekt** (Thema von S01b).
 
 <small>Verdichtet nach S01, Folien R009, R011, R012.</small>
 

@@ -6,22 +6,19 @@ language:  de
 narrator:  Deutsch Female
 mode:      Textbook
 
-title:     S06 – Leittextmethode & technisches Experiment (Selbstlerneinheit)
-comment:   Fachdidaktik technischer Allgemeinbildung II – Selbstlerneinheit zu Sitzung S06 (Selbstlerntermin 16.11.2026). Leitfragen formulieren und prüfen, Experimente klassifizieren, ein technisches Experiment nach Bader planen und Methoden nach Effizienzkriterien wählen.
+title:     S05 – Leittextmethode & technisches Experiment (Selbstlerneinheit)
+comment:   Fachdidaktik technischer Allgemeinbildung II – Selbstlerneinheit zu Sitzung S05. Leitfragen formulieren und prüfen, Experimente klassifizieren, ein technisches Experiment nach Bader planen und Methoden nach Effizienzkriterien wählen.
 tags:      Fachdidaktik, Technikdidaktik, Berufsbildung, Leittext, Leitfragen, Experiment, Bader, Bernard, Selbstlernen
 
 import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragAndDrop_Template/refs/heads/main/README.md
 -->
 
-# S06 – Leittext & Experiment (Selbstlerneinheit)
+# S05 – Leittext & Experiment (Selbstlerneinheit)
 
-<!-- didaktik="Selbstlerneinheit S06 · Selbstlerntermin 16.11.2026 (Dozent nicht vor Ort) · ca. 55 min nach der LiaScript-Sitzung · nur Quellen aus S06" -->
+<!-- didaktik="Selbstlerneinheit S05 · ca. 55 min · nur Quellen aus S05" -->
 
 > [!IMPORTANT] 🧭 Leitfrage
 > Wie mache ich aus einer Anleitung einen Leittext – und wie plane ich ein technisches Experiment, bei dem Lernende selbst zu Erkenntnissen kommen?
-
-> [!WARNING] 📅 Selbstlerntermin am 16.11.2026
-> An diesem Termin gibt es keine Präsenzveranstaltung. Bearbeiten Sie **zuerst** die [LiaScript-Sitzung S06](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S06_Leittext_Experiment.md) (ca. 60 min, Partnerphasen allein bearbeiten) und **danach** diese Einheit. Halten Sie Ihre mitgebrachte Anleitung bereit. Fragen notieren Sie auf dem Beuteblatt – wir greifen sie in S07 auf.
 
 **Ablauf (ca. 55 min)**
 
@@ -63,7 +60,7 @@ Ich kann ein technisches Experiment für meinen Unterricht planen.
 
 <!-- didaktik="ca. 15 min" -->
 
-**Die Kette** (S06, Folie R091): Tätigkeiten → erforderliche Kenntnisse → Informationen (Tabellenbuch, Betriebsanleitung, Schaltplan …) → **Leitfragen**. Leitfragen leiten dazu an, sich aus den Informationsgrundlagen die Kenntnisse zu erarbeiten, die nötig sind, um die Aufgabe fachgerecht zu lösen.
+**Die Kette** (S05, Folie R091): Tätigkeiten → erforderliche Kenntnisse → Informationen (Tabellenbuch, Betriebsanleitung, Schaltplan …) → **Leitfragen**. Leitfragen leiten dazu an, sich aus den Informationsgrundlagen die Kenntnisse zu erarbeiten, die nötig sind, um die Aufgabe fachgerecht zu lösen.
 
 **Aufgabe aus der Elektrotechnik:** *„Installieren Sie eine Außenleuchte mit Bewegungsmelder am Hauseingang.“*
 
@@ -97,7 +94,7 @@ Gute Leitfragen verweisen auf ein Medium, verlangen eine eigene Erarbeitung oder
 | Sozial- und Organisationsform | Lehrerexperiment (Demonstration) · Schülerexperiment einzeln, zu zweit, in Gruppen |
 | Wirklichkeitsbezug | Modell · Realgegenstand · Gedankenexperiment |
 
-<small>Nach S06, Folie R094.</small>
+<small>Nach S05, Folie R094.</small>
 
 **Experiment:** *Auszubildende prüfen zu zweit an echten Dämmplatten, welches Material bei gleicher Dicke die Wärme am schlechtesten leitet – als Einstieg in das Lernfeld.* Klassifizieren Sie nach allen vier Gesichtspunkten.
 
@@ -135,7 +132,7 @@ Planen Sie das Experiment für eine Berufsschulklasse:
 <details>
 <summary>**Lösungsvorschlag** (aufklappen)</summary>
 
-1 Startprobleme im Winter. 2 „Je kälter die Batterie, desto geringer der Strom, den sie unter Last liefert.“ 3 Batterietemperatur variieren (Raum, Kühlschrank, ggf. Kühlkammer); konstant: Ladezustand, Last, Messdauer. 4 Klemmenspannung und Strom unter definierter Last messen, Temperatur protokollieren. 5 Hypothese gestützt oder nicht – unter Berücksichtigung der Messgenauigkeit. 6 Einordnen: chemische Reaktionen laufen bei niedriger Temperatur langsamer ab, der Innenwiderstand steigt. 7 Konsequenzen: Batterieprüfung vor dem Winter, Kälteprüfstrom als Kennwert verstehen. **Arbeitsschutz** (Vorbereitungshinweise S06): Säure, Kurzschlussgefahr, Gasbildung beim Laden.
+1 Startprobleme im Winter. 2 „Je kälter die Batterie, desto geringer der Strom, den sie unter Last liefert.“ 3 Batterietemperatur variieren (Raum, Kühlschrank, ggf. Kühlkammer); konstant: Ladezustand, Last, Messdauer. 4 Klemmenspannung und Strom unter definierter Last messen, Temperatur protokollieren. 5 Hypothese gestützt oder nicht – unter Berücksichtigung der Messgenauigkeit. 6 Einordnen: chemische Reaktionen laufen bei niedriger Temperatur langsamer ab, der Innenwiderstand steigt. 7 Konsequenzen: Batterieprüfung vor dem Winter, Kälteprüfstrom als Kennwert verstehen. **Arbeitsschutz** (Vorbereitungshinweise S05): Säure, Kurzschlussgefahr, Gasbildung beim Laden.
 
 </details>
 
@@ -189,7 +186,7 @@ Ich kann ein technisches Experiment für meinen Unterricht planen.
 
 ## Literatur
 
-- Bader, R.: Entwicklung beruflicher Handlungskompetenz in der Berufsschule / Zum Begriff der „beruflichen Handlungskompetenz“ und zur didaktischen Strukturierung handlungsorientierten Unterrichts. Hochschuldidaktisches Zentrum Universität Dortmund. Dortmund 1990 – zitiert nach S06, Folie R096.
-- Bernard, F.; Ebert, D.; Schröder, B.: Unterricht Metalltechnik – Fachdidaktische Handlungsanleitung. Handwerk und Technik. Hamburg 1995 – zitiert nach S06, Folie R095.
-- Papaloizos/Stiefel 1971, S. 180 – zitiert nach S06, Folie R100; Herkunftswerk auf der Folie nicht angegeben.
+- Bader, R.: Entwicklung beruflicher Handlungskompetenz in der Berufsschule / Zum Begriff der „beruflichen Handlungskompetenz“ und zur didaktischen Strukturierung handlungsorientierten Unterrichts. Hochschuldidaktisches Zentrum Universität Dortmund. Dortmund 1990 – zitiert nach S05, Folie R096.
+- Bernard, F.; Ebert, D.; Schröder, B.: Unterricht Metalltechnik – Fachdidaktische Handlungsanleitung. Handwerk und Technik. Hamburg 1995 – zitiert nach S05, Folie R095.
+- Papaloizos/Stiefel 1971, S. 180 – zitiert nach S05, Folie R100; Herkunftswerk auf der Folie nicht angegeben.
 - Stettler, A. (2025). Offenheit der Aufgabenstellung und Strukturiertheit des Unterrichtes im Technischen Gestalten. In A. Steinmann, M. Seidler-Proffe & K. Lange-Schubert (Hrsg.), *Mitwelt im Wandel wahrnehmen, verstehen und gestalten* (S. 73 ff.). Bad Heilbrunn: Klinkhardt. https://doi.org/10.35468/6199-07

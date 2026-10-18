@@ -1,7 +1,7 @@
-id: fdtech2s092b6f50d9
+id: fdtech2s102a8b3a34
 createdBy: ovgu-vet-teched
 dateCreated: 1791747976681
-name: 'FD Technik II · S09 – Sozialformen & Aktionsformen'
+name: 'FD Technik II · S09 – Medien und KI im Unterricht'
 meta:
   description: >-
     Fachdidaktik technischer Allgemeinbildung II (OVGU) – Live-Classroom zur
@@ -16,7 +16,7 @@ modules:
   - url: https://edrys-labs.github.io/module-liascript/
     config:
       classroom: true
-      course: https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S09_Sozialformen_Aktionsformen.md
+      course: https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S09_Medien_KI.md
     studentConfig: ''
     teacherConfig: ''
     stationConfig: ''

@@ -1,7 +1,7 @@
-id: fdtech2s03c3e6f084
+id: fdtech2s04e2cf5c81
 createdBy: ovgu-vet-teched
 dateCreated: 1791747976680
-name: 'FD Technik II · S03 – Handlungsorientierung'
+name: 'FD Technik II · S03 – Tradierte methodische Konzepte & Projektmethode'
 meta:
   description: >-
     Fachdidaktik technischer Allgemeinbildung II (OVGU) – Live-Classroom zur
@@ -16,7 +16,7 @@ modules:
   - url: https://edrys-labs.github.io/module-liascript/
     config:
       classroom: true
-      course: https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S03_Handlungsorientierung.md
+      course: https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S03_Projektmethode.md
     studentConfig: ''
     teacherConfig: ''
     stationConfig: ''

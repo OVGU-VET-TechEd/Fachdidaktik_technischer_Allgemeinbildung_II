@@ -7,16 +7,16 @@ narrator:  Deutsch Female
 mode:      Textbook
 classroom: enable
 
-title:     S05 – Kontrolle & Bewertung in Projekten · Fallstudie · Rollenspiel
+title:     S04 – Kontrolle & Bewertung in Projekten · Fallstudie · Rollenspiel
 comment:   Fachdidaktik technischer Allgemeinbildung II / Fachdidaktik gewerblich-technischer Fachrichtungen – Sitzung 5. Bewerten als Soll-Ist-Vergleich, Fallstudie nach Kaiser, TOTE/VVR, Rollenspiel „Transgene Kartoffel".
 tags:      Fachdidaktik, Technikdidaktik, Berufsbildung, Leistungsbewertung, Fallstudie, Rollenspiel, TOTE, VVR
 
 import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragAndDrop_Template/refs/heads/main/README.md
 -->
 
-# S05 – Kontrolle & Bewertung · Fallstudie · Rollenspiel
+# S04 – Kontrolle & Bewertung · Fallstudie · Rollenspiel
 
-<!-- didaktik="Planungsraster S05 · E-03, E-04, E-12, E-16, E-17, E-19, E-26" -->
+<!-- didaktik="Planungsraster S04 · E-03, E-04, E-12, E-16, E-17, E-19, E-26" -->
 
 > [!IMPORTANT] 🧭 Leitfrage
 > Wie vergleiche ich, was erreicht werden **sollte**, mit dem, was erreicht **wurde**? – Auf der Kurskarte: **Intentionalität / Kontrolle** und **Methodik → Erkenntnisweg**.
@@ -33,7 +33,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 5. Ihre eigene Leistung im Rollenspiel **beurteilen** – in der Reihenfolge Selbst → gegenseitig → Lehrende,
 6. für Ihr Projektvorhaben ein Bewertungskonzept **entwerfen**.
 
-📝 **Beuteblatt S05**
+📝 **Beuteblatt S04**
 
 ## Einstieg: Gerecht benoten?
 
@@ -270,9 +270,9 @@ Kaisers Phasenmodell hat sechs Schritte: Konfrontation, Information, Exploration
 <!-- src: R077-R078 -->
 
 --{{0}}--
-In S03 haben Sie gehört, dass Handlungen auf zyklischen Einheiten beruhen. Hier sind sie. Die VVR-Einheit – Vergleich, Veränderung, Rückkopplung – zeigt eine Folge aus Soll, Bearbeitung und Test. Die TOTE-Einheit, Test-Operation-Test-Exit, zeigt den Kreis: Ein Soll wird bearbeitet, getestet, und solange Soll und Ist nicht identisch sind, geht es zurück in die Bearbeitung. Erst dann ist man fertig. Auch das ist ein Soll-Ist-Vergleich, diesmal im Kopf jedes Handelnden.
+In S02 haben Sie gehört, dass Handlungen auf zyklischen Einheiten beruhen. Hier sind sie. Die VVR-Einheit – Vergleich, Veränderung, Rückkopplung – zeigt eine Folge aus Soll, Bearbeitung und Test. Die TOTE-Einheit, Test-Operation-Test-Exit, zeigt den Kreis: Ein Soll wird bearbeitet, getestet, und solange Soll und Ist nicht identisch sind, geht es zurück in die Bearbeitung. Erst dann ist man fertig. Auch das ist ein Soll-Ist-Vergleich, diesmal im Kopf jedes Handelnden.
 
-In S03 hieß es: Die Handlung „basiert auf zyklischen Einheiten (TOTE- / VVR-)" (R044). So sehen sie aus:
+In S02 hieß es: Die Handlung „basiert auf zyklischen Einheiten (TOTE- / VVR-)" (R044). So sehen sie aus:
 
 **Vergleichs-Veränderungs-Rückkoppelungs-Einheit (VVR-Einheit)**
 
@@ -600,7 +600,7 @@ Worauf haben Sie Ihre Selbsteinschätzung vor allem gestützt?
 📝 **Beuteblatt-Stopp:** Ergänzen Sie alle Abschnitte und Ihre wichtigste Beute.
 
 > [!NOTE] 🔗 Querverweise
-> TOTE/VVR → Handlungsregulation **S03** (R044) · Bewertung und Gütekriterien → **S11** · Problemlösung, mehrere Lösungen → Projektmerkmale **S04** · Kollation (Vergleich mit der Wirklichkeit) → Wahrheit vs. Zweckmäßigkeit **S01/S04**
+> TOTE/VVR → Handlungsregulation **S02** (R044) · Bewertung und Gütekriterien → **S10** · Problemlösung, mehrere Lösungen → Projektmerkmale **S03** · Kollation (Vergleich mit der Wirklichkeit) → Wahrheit vs. Zweckmäßigkeit **S01/S03**
 
 ### Prüfungsfragen zum Üben
 
@@ -614,9 +614,9 @@ Worauf haben Sie Ihre Selbsteinschätzung vor allem gestützt?
 4. Erklären Sie die TOTE-Einheit an einer Tätigkeit aus Ihrer Fachrichtung.
 5. Beschreiben Sie Ablauf und Phasen eines Rollenspiels – und wie Sie es im technischen Unterricht einsetzen würden.
 
-### Vorbereitung auf S06 (vor der Sitzung, ca. 15 min)
+### Vorbereitung auf S05 (vor der Sitzung, ca. 15 min)
 
-In S06 geht es um die **Leittextmethode** und das **technische Experiment**.
+In S05 geht es um die **Leittextmethode** und das **technische Experiment**.
 
 **Aufgabe:** Suchen Sie eine Arbeits- oder Bedienungsanleitung aus Ihrer Fachrichtung. Welche Fragen beantwortet sie – und welche müssten Lernende sich selbst stellen, um die Aufgabe *selbstständig* zu planen?
 

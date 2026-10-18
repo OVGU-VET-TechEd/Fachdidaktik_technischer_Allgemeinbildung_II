@@ -6,16 +6,16 @@ language:  de
 narrator:  Deutsch Female
 mode:      Textbook
 
-title:     S11 – Lernerfolgskontrolle (Selbstlerneinheit)
-comment:   Fachdidaktik technischer Allgemeinbildung II – Selbstlerneinheit zu Sitzung S11. Aufgaben auf Passung zum Lernziel und auf Gütekriterien prüfen, Kontrollfehler vermeiden, Aufgaben mit Operatoren und Erwartungshorizont entwickeln – und Prüfen in Zeiten von KI.
+title:     S10 – Lernerfolgskontrolle (Selbstlerneinheit)
+comment:   Fachdidaktik technischer Allgemeinbildung II – Selbstlerneinheit zu Sitzung S10. Aufgaben auf Passung zum Lernziel und auf Gütekriterien prüfen, Kontrollfehler vermeiden, Aufgaben mit Operatoren und Erwartungshorizont entwickeln – und Prüfen in Zeiten von KI.
 tags:      Fachdidaktik, Technikdidaktik, Berufsbildung, Lernerfolgskontrolle, Gütekriterien, Operatoren, Erwartungshorizont, KI, Selbstlernen
 
 import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragAndDrop_Template/refs/heads/main/README.md
 -->
 
-# S11 – Lernerfolgskontrolle (Selbstlerneinheit)
+# S10 – Lernerfolgskontrolle (Selbstlerneinheit)
 
-<!-- didaktik="Selbstlerneinheit S11 · ca. 60 min · nur Quellen aus S10 und S11" -->
+<!-- didaktik="Selbstlerneinheit S10 · ca. 60 min · nur Quellen aus S09 und S10" -->
 
 > [!IMPORTANT] 🧭 Leitfrage
 > Wie baue ich eine Prüfungsaufgabe, die misst, was sie messen soll – auch wenn Lernende einen KI-Chatbot in der Tasche haben?
@@ -39,7 +39,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 4. **beurteilen**, welche Aufgabenformate ein KI-Chatbot leicht lösen kann, und Alternativen **begründen**.
 
 > [!TIP] 📖 Grundlage
-> Die Präsenzsitzung [S11 – Lernerfolgskontrolle](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S11_Lernerfolgskontrolle.md).
+> Die Präsenzsitzung [S10 – Lernerfolgskontrolle](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S10_Lernerfolgskontrolle.md).
 
 ## 0 · Wo stehen Sie?
 
@@ -63,7 +63,7 @@ Ich kann einen Erwartungshorizont schreiben, mit dem zwei Lehrkräfte zum selben
 
 <!-- didaktik="ca. 8 min" -->
 
-> Es darf nur geprüft werden, was auch gelehrt worden ist. Werden Inhalte auf der Stufe des Wissens vermittelt, dürfen sie auch nur auf dieser Stufe geprüft werden (S11, Folie R170).
+> Es darf nur geprüft werden, was auch gelehrt worden ist. Werden Inhalte auf der Stufe des Wissens vermittelt, dürfen sie auch nur auf dieser Stufe geprüft werden (S10, Folie R170).
 
 **Unterricht:** Die Lernenden haben die Bauteile eines Pneumatikzylinders benannt und an einem Schnittmodell erklärt bekommen (Wissen, Verstehen). Welche Prüfungsaufgabe ist zulässig?
 
@@ -107,7 +107,7 @@ Validität: Die Textaufgabe prüft auch Lesekompetenz (R174; Zinn 2026, S. 218�
 
 @dragdropsort(@uid,Reihenfolge-Effekt;Arbeiten zweimal lesen;beim ersten Lesen nur vorsortieren|Hof-Effekt;Ziffern statt Namen;Form und Inhalt getrennt bewerten|Erwartungs-Effekt;sich den Effekt bewusst machen;Vorinformationen erst nach der Bewertung ansehen)
 
-<small>Gegenmaßnahmen nach S11, Folien R179–R181; „Form und Inhalt getrennt bewerten“ und „Vorinformationen erst nach der Bewertung ansehen“ sind ergänzte Übertragungen.</small>
+<small>Gegenmaßnahmen nach S10, Folien R179–R181; „Form und Inhalt getrennt bewerten“ und „Vorinformationen erst nach der Bewertung ansehen“ sind ergänzte Übertragungen.</small>
 
 ## 3 · Eine Aufgabe mit Operator und Erwartungshorizont
 
@@ -135,9 +135,9 @@ Validität: Die Textaufgabe prüft auch Lesekompetenz (R174; Zinn 2026, S. 218�
 
 ## 4 · Prüfen in Zeiten von KI
 
-<!-- didaktik="ca. 12 min · Querverweis aus S10" -->
+<!-- didaktik="ca. 12 min · Querverweis aus S09" -->
 
-In S10 haben Sie gesehen: Frei nutzbare KI kann die Übungsleistung steigern und die Leistung ohne KI trotzdem senken (Bastani et al., 2025). Die Bildungsministerkonferenz fordert, die **Prüfungskultur** weiterzuentwickeln (KMK, 2024). Für Ihre Aufgaben heißt das: Die Gütekriterien gelten weiter – aber die Validität einer Hausaufgabe oder schriftlichen Ausarbeitung ist fraglich, wenn unklar ist, wer sie gelöst hat.
+In S09 haben Sie gesehen: Frei nutzbare KI kann die Übungsleistung steigern und die Leistung ohne KI trotzdem senken (Bastani et al., 2025). Die Bildungsministerkonferenz fordert, die **Prüfungskultur** weiterzuentwickeln (KMK, 2024). Für Ihre Aufgaben heißt das: Die Gütekriterien gelten weiter – aber die Validität einer Hausaufgabe oder schriftlichen Ausarbeitung ist fraglich, wenn unklar ist, wer sie gelöst hat.
 
 **Wie leicht könnte ein KI-Chatbot die Aufgabe lösen?** (Einschätzung, keine feste Regel)
 
@@ -147,7 +147,7 @@ In S10 haben Sie gesehen: Frei nutzbare KI kann die Übungsleistung steigern und
 [     (X)          ( )     ] Eine Standard-Rechenaufgabe zur Leistung, zu Hause gelöst
 [     ( )          (X)     ] Ein Fachgespräch, in dem die Lernenden ihre Fehlersuche an der Anlage begründen
 ***
-Aufgaben, deren Lösung als Text allgemein verfügbar ist, kann ein Chatbot meist gut bearbeiten. Schwerer wird es, wenn die Leistung an Handlung, Gegenstand und Situation gebunden ist – Messen, Fertigen, Fehlersuche, mündliche Begründung. Das passt zur Handlungsorientierung (S03) und zu den psychomotorischen Aufforderungen auf R183 („Messen Sie …“).
+Aufgaben, deren Lösung als Text allgemein verfügbar ist, kann ein Chatbot meist gut bearbeiten. Schwerer wird es, wenn die Leistung an Handlung, Gegenstand und Situation gebunden ist – Messen, Fertigen, Fehlersuche, mündliche Begründung. Das passt zur Handlungsorientierung (S02) und zu den psychomotorischen Aufforderungen auf R183 („Messen Sie …“).
 ***
 
 **Ihre Aufgabe aus Schritt 3:** Wie müssten Sie sie verändern, damit sie auch dann valide ist, wenn die Lernenden KI nutzen dürfen – oder wie würden Sie den KI-Einsatz gezielt einbauen (z. B. KI-Antwort prüfen und korrigieren lassen)?
@@ -186,4 +186,4 @@ Ich kann einen Erwartungshorizont schreiben, mit dem zwei Lehrkräfte zum selben
 - Bastani, H., Bastani, O., Sungu, A., Ge, H., Kabakcı, Ö. & Mariman, R. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. *Proceedings of the National Academy of Sciences, 122*(26), e2422633122. https://doi.org/10.1073/pnas.2422633122
 - KMK – Bildungsministerkonferenz (2024). *Handlungsempfehlung für die Bildungsverwaltung zum Umgang mit Künstlicher Intelligenz in schulischen Bildungsprozessen* (Beschluss vom 10.10.2024). Berlin: KMK.
 - Zinn, B. (2026). *Didaktik des naturwissenschaftlichen, informatischen und technikwissenschaftlichen Unterrichts.* Springer Spektrum, Abschn. 5.1.2–5.1.4, S. 70–73; 8.2, S. 217–219. https://doi.org/10.1007/978-3-662-72499-6
-- Zitate zu Validität, Reliabilität und Objektivität – zitiert nach S11, Folien R174–R176; Quelle auf der Originalfolie nicht angegeben.
+- Zitate zu Validität, Reliabilität und Objektivität – zitiert nach S10, Folien R174–R176; Quelle auf der Originalfolie nicht angegeben.

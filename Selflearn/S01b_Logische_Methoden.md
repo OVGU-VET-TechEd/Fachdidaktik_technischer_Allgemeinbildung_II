@@ -6,22 +6,19 @@ language:  de
 narrator:  Deutsch Female
 mode:      Textbook
 
-title:     S02 – Unterrichtsmethoden unter dem logischen Aspekt (Selbstlerneinheit)
-comment:   Fachdidaktik technischer Allgemeinbildung II – Selbstlerneinheit zu Sitzung S02 (Selbstlerntermin 19.10.2026). Sieben Methoden unter dem logischen Aspekt an neuen technischen Beispielen anwenden und für den eigenen Unterricht auswählen.
+title:     S01b – Unterrichtsmethoden unter dem logischen Aspekt (Selbstlerneinheit)
+comment:   Fachdidaktik technischer Allgemeinbildung II – Selbstlerneinheit zu Sitzung S01b (gemeinsam mit S01 am 12.10.2026 behandelt). Sieben Methoden unter dem logischen Aspekt an neuen technischen Beispielen anwenden und für den eigenen Unterricht auswählen.
 tags:      Fachdidaktik, Technikdidaktik, Berufsbildung, induktiv, deduktiv, analytisch, synthetisch, genetisch, historisch, reduktiv, Selbstlernen
 
 import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragAndDrop_Template/refs/heads/main/README.md
 -->
 
-# S02 – Logische Methoden (Selbstlerneinheit)
+# S01b – Logische Methoden (Selbstlerneinheit)
 
-<!-- didaktik="Selbstlerneinheit S02 · Selbstlerntermin 19.10.2026 (Dozent nicht vor Ort) · ca. 50 min nach der LiaScript-Sitzung · nur Quellen aus S02" -->
+<!-- didaktik="Selbstlerneinheit S01b · in der Sitzung am 12.10.2026 mit S01 behandelt · ca. 50 min Nachbereitung · nur Quellen aus S01b" -->
 
 > [!IMPORTANT] 🧭 Leitfrage
 > Wie organisiere ich den Erkenntnisweg – und woran entscheide ich, welche logische Methode zu meinem Thema passt?
-
-> [!WARNING] 📅 Selbstlerntermin am 19.10.2026
-> An diesem Termin gibt es keine Präsenzveranstaltung. Bearbeiten Sie **zuerst** die [LiaScript-Sitzung S02](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S02_Logische_Methoden.md) (ca. 60 min, alle Aktivierungen allein statt zu zweit) und **danach** diese Einheit. Fragen sammeln Sie auf dem Beuteblatt – wir greifen sie in S03 auf.
 
 **Ablauf (ca. 50 min)**
 
@@ -63,7 +60,7 @@ Ich kann begründen, wann ich welche logische Methode wähle.
 
 <!-- didaktik="ca. 7 min" -->
 
-| Denkrichtung | Methode | Kern | Beispiel aus S02 |
+| Denkrichtung | Methode | Kern | Beispiel aus S01b |
 | --- | --- | --- | --- |
 | Teil ↔ Ganzes | analytisch | Ganzes nach einem Ordnungsprinzip in Teile zerlegen | Merkmale von Dachkonstruktionen |
 | | synthetisch | Teile zu einem Ganzen zusammenfügen (Analyse ist Voraussetzung) | Dächer aus Merkmalen zusammensetzen |
@@ -73,7 +70,7 @@ Ich kann begründen, wann ich welche logische Methode wähle.
 | | historisch | Entwicklung aus der gesellschaftlichen Entwicklung erklären | Spannbeton aus dem Bedarf des 19. Jahrhunderts |
 | Rückschluss | reduktiv | auf vorhandene oder zu schaffende Struktur schließen; nicht wahrheitserblich | Das Radio hört auf zu spielen |
 
-<small>Verdichtet nach S02, Folien R013–R033. Die vier Denkrichtungen sind eine Lesehilfe aus S02, nicht Teil der Originalfolien.</small>
+<small>Verdichtet nach S01b, Folien R013–R033. Die vier Denkrichtungen sind eine Lesehilfe aus S01b, nicht Teil der Originalfolien.</small>
 
 **Ordnen Sie die Kernaussagen zu:**
 
@@ -130,7 +127,7 @@ Fehlersuche ist in technischen Berufen Alltag – und ein Paradebeispiel für di
 | --- | --- |
 | Vom bekannten Sachverhalt auf mögliche Voraussetzungen, Bedingungen und Ursachen schließen | Aus einer Hypothese prüfbare Aussagen ableiten – sind sie wahr, gilt die Hypothese als bestätigt |
 
-<small>Nach S02, Folien R032–R033.</small>
+<small>Nach S01b, Folien R032–R033.</small>
 
 **Ordnen Sie zu:**
 
@@ -161,7 +158,7 @@ Regressiv: vom Sachverhalt zurück auf mögliche Ursachen. Progressiv: aus einer
 [    ( )          ( )        ( )        ( )         (X)          ( )    ] Warum setzte sich die Glühlampe durch – und warum wurde sie abgelöst?
 [    ( )          ( )        ( )        ( )         ( )          (X)    ] Eine Anlage zeigt eine Störung; die Ursache ist unbekannt.
 ***
-Kriterien aus S02: Vorwissen und Abstraktionsfähigkeit (deduktiv setzt mehr voraus, R020), Anschaulichkeit und Motivation (induktiv näher am natürlichen Lernprozess, R027), Struktur des Gegenstands (Teil–Ganzes, Entwicklung) und Problemlage (unbekannte Ursache → reduktiv). Oft sind mehrere Antworten vertretbar – entscheidend ist die Begründung.
+Kriterien aus S01b: Vorwissen und Abstraktionsfähigkeit (deduktiv setzt mehr voraus, R020), Anschaulichkeit und Motivation (induktiv näher am natürlichen Lernprozess, R027), Struktur des Gegenstands (Teil–Ganzes, Entwicklung) und Problemlage (unbekannte Ursache → reduktiv). Oft sind mehrere Antworten vertretbar – entscheidend ist die Begründung.
 ***
 
 **Ihr Thema:** Welche Methode wählen Sie für ein Thema Ihrer Fachrichtung? Skizzieren Sie den Unterrichtsgang in drei Schritten und nennen Sie ein Kriterium für Ihre Wahl.
@@ -180,7 +177,7 @@ Ich kann begründen, wann ich welche logische Methode wähle.
 - [(4)] 4
 
 > [!TIP] 🤖 Üben mit KI
-> *„Gib mir ein kurzes Unterrichtsbeispiel aus der Elektro- oder Metalltechnik. Ich bestimme die logische Methode (analytisch, synthetisch, induktiv, deduktiv, genetisch, historisch, reduktiv) und begründe. Prüfe meine Antwort.“* – Maßstab bleiben die Folien aus S02.
+> *„Gib mir ein kurzes Unterrichtsbeispiel aus der Elektro- oder Metalltechnik. Ich bestimme die logische Methode (analytisch, synthetisch, induktiv, deduktiv, genetisch, historisch, reduktiv) und begründe. Prüfe meine Antwort.“* – Maßstab bleiben die Folien aus S01b.
 
 > [!TIP] 🧩 Optional für die Selbstlernsitzung am 11.01.2027
 > Ihr Unterrichtsgang aus Schritt 4 ist Baustein 2.
@@ -196,5 +193,5 @@ Ich kann begründen, wann ich welche logische Methode wähle.
 
 ## Literatur
 
-- Diesterweg – zitiert nach S02, Folie R013 („vgl. Diesterweg“); vollständige Angabe auf der Originalfolie nicht vorhanden.
+- Diesterweg – zitiert nach S01b, Folie R013 („vgl. Diesterweg“); vollständige Angabe auf der Originalfolie nicht vorhanden.
 - Dilling, F. (2024). Naturwissenschaftliche Erkenntniswege – Was können wir aus diesen über Begründungen im Mathematikunterricht lernen? In F. Dilling et al. (Hrsg.), *Interdisziplinäres Forschen und Lehren in den MINT-Didaktiken* (MINTUS – Beiträge zur mathematisch-naturwissenschaftlichen Bildung, S. 35–54). Wiesbaden: Springer Fachmedien. https://doi.org/10.1007/978-3-658-43873-9_3

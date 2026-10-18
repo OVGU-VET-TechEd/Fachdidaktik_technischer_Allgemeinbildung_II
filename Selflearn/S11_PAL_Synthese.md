@@ -6,16 +6,16 @@ language:  de
 narrator:  Deutsch Female
 mode:      Textbook
 
-title:     S12 – PAL-Prüfungen & Synthese (Selbstlerneinheit)
-comment:   Fachdidaktik technischer Allgemeinbildung II – Selbstlerneinheit zu Sitzung S12. PAL-Prüfungen kritisch einordnen, eine programmierte Aufgabe analysieren und handlungsorientiert weiterentwickeln, das Modul verknüpfen und die mündliche Prüfung vorbereiten.
+title:     S11 – PAL-Prüfungen & Synthese (Selbstlerneinheit)
+comment:   Fachdidaktik technischer Allgemeinbildung II – Selbstlerneinheit zu Sitzung S11. PAL-Prüfungen kritisch einordnen, eine programmierte Aufgabe analysieren und handlungsorientiert weiterentwickeln, das Modul verknüpfen und die mündliche Prüfung vorbereiten.
 tags:      Fachdidaktik, Technikdidaktik, Berufsbildung, PAL, Abschlussprüfung, Prüfungsvorbereitung, Synthese, Selbstlernen
 
 import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragAndDrop_Template/refs/heads/main/README.md
 -->
 
-# S12 – PAL-Prüfungen & Synthese (Selbstlerneinheit)
+# S11 – PAL-Prüfungen & Synthese (Selbstlerneinheit)
 
-<!-- didaktik="Selbstlerneinheit S12 · ca. 60 min · Vorbereitung auf die mündliche Prüfung · nur Quellen aus S11 und S12" -->
+<!-- didaktik="Selbstlerneinheit S11 · ca. 60 min · Vorbereitung auf die mündliche Prüfung · nur Quellen aus S10 und S11" -->
 
 > [!IMPORTANT] 🧭 Leitfrage
 > Wie prüft man berufliche Handlungskompetenz – und wie bereite ich mich selbst auf meine mündliche Prüfung vor?
@@ -39,7 +39,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 4. Antworten auf Prüfungsfragen nach einem klaren Muster **strukturieren**.
 
 > [!TIP] 📖 Grundlage
-> Die Präsenzsitzung [S12 – PAL-Prüfungen & Synthese](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S12_PAL_Synthese.md) und die *Prüfungsfragen zum Üben* aller Sitzungen.
+> Die Präsenzsitzung [S11 – PAL-Prüfungen & Synthese](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S11_PAL_Synthese.md) und die *Prüfungsfragen zum Üben* aller Sitzungen.
 
 ## 0 · Wo stehen Sie?
 
@@ -98,7 +98,7 @@ Fachausschüsse: je gleich viele Beauftragte der Arbeitgeber, Arbeitnehmer und L
 Programmierte Aufgaben sind objektiv und ökonomisch auszuwerten – genau das war das Ziel der PAL (Objektivierung, Vergleichbarkeit). Sie prüfen aber nur einen Ausschnitt beruflicher Handlungskompetenz. Das ist der Kern der Kritik auf R194: „Der programmierte Teil der PAL-Prüfungen wird vor dem Hintergrund der Zielstellung ‚Entwicklung einer beruflichen Handlungskompetenz‘ häufig heftig kritisiert.“
 ***
 
-**Weiterentwickeln:** Formulieren Sie zum selben Inhalt eine handlungsorientierte Aufgabe (vgl. S03, S07 Diagnoseaufgabe, S11 AFB III) – mit Erwartungshorizont. Welches Gütekriterium wird dadurch schwerer zu sichern, und wie sichern Sie es trotzdem?
+**Weiterentwickeln:** Formulieren Sie zum selben Inhalt eine handlungsorientierte Aufgabe (vgl. S02, S06 Diagnoseaufgabe, S10 AFB III) – mit Erwartungshorizont. Welches Gütekriterium wird dadurch schwerer zu sichern, und wie sichern Sie es trotzdem?
 
     [[___ ___ ___ ___]]
 
@@ -115,12 +115,12 @@ Programmierte Aufgaben sind objektiv und ökonomisch auszuwerten – genau das w
 
 Mündliche Prüfungen belohnen Verbindungen zwischen Sitzungen. **Welche Sitzungen verbindet der Begriff?** (mehrere Antworten je Zeile)
 
-[[S01] [S02] [S03] [S04] [S05] [S06] [S07] [S08] [S09] [S10] [S11] [S12]]
+[[S01] [S01b] [S02] [S03] [S04] [S05] [S06] [S07] [S08] [S09] [S10] [S11]]
 [ [ ]   [X]   [ ]   [ ]   [ ]   [X]   [ ]   [ ]   [ ]   [ ]   [ ]   [ ] ] induktiver Erkenntnisweg und Zugversuch
 [ [ ]   [ ]   [X]   [X]   [ ]   [X]   [X]   [ ]   [ ]   [ ]   [ ]   [ ] ] vollständige Handlung
 [ [ ]   [ ]   [ ]   [ ]   [X]   [ ]   [ ]   [ ]   [ ]   [ ]   [X]   [X] ] Bewertung und Gütekriterien
 ***
-Mehrere Sitzungen pro Zeile sind richtig. Induktiv: S02 (HOOKE aus Messwerten), S06 (Experiment als induktiver Erkenntnisweg). Vollständige Handlung: S03 (Hacker), S04 (Projekte), S06 (Leittextmethode), S07 (Gerüst der Großformen). Bewertung: S05 (Soll-Ist-Vergleich), S11 (Gütekriterien), S12 (PAL).
+Mehrere Sitzungen pro Zeile sind richtig. Induktiv: S01b (HOOKE aus Messwerten), S05 (Experiment als induktiver Erkenntnisweg). Vollständige Handlung: S02 (Hacker), S03 (Projekte), S05 (Leittextmethode), S06 (Gerüst der Großformen). Bewertung: S04 (Soll-Ist-Vergleich), S10 (Gütekriterien), S11 (PAL).
 ***
 
 **Ihre eigene Verbindung:** Wählen Sie einen Begriff (z. B. *Selbstständigkeit*, *Richtigkeit und Zweckmäßigkeit*, *Soll-Ist-Vergleich*, *Medien*) und erklären Sie in fünf Sätzen, wie er in mindestens drei Sitzungen vorkommt.
@@ -175,11 +175,11 @@ Ich fühle mich auf die mündliche Prüfung vorbereitet.
 1. Warum wurde die PAL gegründet, und welche Ziele verfolgt sie?
 2. Beschreiben Sie den Weg einer PAL-Aufgabe vom Auftrag bis zur Verabschiedung.
 3. Wägen Sie betrieblichen Auftrag und PAL-Prüfung anhand der Gütekriterien gegeneinander ab.
-4. „Der programmierte Teil der PAL-Prüfung passt nicht zur Handlungskompetenz.“ – Nehmen Sie Stellung (vgl. S03).
+4. „Der programmierte Teil der PAL-Prüfung passt nicht zur Handlungskompetenz.“ – Nehmen Sie Stellung (vgl. S02).
 5. Ordnen Sie die Themen des Moduls den Planungsfragen der Kurskarte (Ziele, Inhalte, Methoden, Medien) zu und begründen Sie eine Zuordnung.
 
 ## Literatur
 
-- Angaben zur PAL (Zahlen, Gremien) – zitiert nach S12, Folien R185–R192; auf den Originalfolien ohne Quelle und Stand.
-- Berufsbildungsgesetz (BBiG) 1969 – zitiert nach S12, Folie R185.
+- Angaben zur PAL (Zahlen, Gremien) – zitiert nach S11, Folien R185–R192; auf den Originalfolien ohne Quelle und Stand.
+- Berufsbildungsgesetz (BBiG) 1969 – zitiert nach S11, Folie R185.
 - Zinn, B. (2026). *Didaktik des naturwissenschaftlichen, informatischen und technikwissenschaftlichen Unterrichts.* Springer Spektrum, Abschn. 5.1.4, S. 72–73; 8.2, S. 217–219. https://doi.org/10.1007/978-3-662-72499-6

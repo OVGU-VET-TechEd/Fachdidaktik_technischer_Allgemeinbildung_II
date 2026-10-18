@@ -6,16 +6,16 @@ language:  de
 narrator:  Deutsch Female
 mode:      Textbook
 
-title:     S05 – Kontrolle & Bewertung · Fallstudie · Rollenspiel (Selbstlerneinheit)
-comment:   Fachdidaktik technischer Allgemeinbildung II – Selbstlerneinheit zu Sitzung S05. Bewertung als Soll-Ist-Vergleich, Bewertungskonzept für Projekte, eine technische Fallstudie nach Kaiser und ein Rollenspiel für die eigene Fachrichtung planen.
+title:     S04 – Kontrolle & Bewertung · Fallstudie · Rollenspiel (Selbstlerneinheit)
+comment:   Fachdidaktik technischer Allgemeinbildung II – Selbstlerneinheit zu Sitzung S04. Bewertung als Soll-Ist-Vergleich, Bewertungskonzept für Projekte, eine technische Fallstudie nach Kaiser und ein Rollenspiel für die eigene Fachrichtung planen.
 tags:      Fachdidaktik, Technikdidaktik, Berufsbildung, Bewertung, Fallstudie, Kaiser, Rollenspiel, TOTE, Selbstlernen
 
 import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragAndDrop_Template/refs/heads/main/README.md
 -->
 
-# S05 – Bewertung · Fallstudie · Rollenspiel (Selbstlerneinheit)
+# S04 – Bewertung · Fallstudie · Rollenspiel (Selbstlerneinheit)
 
-<!-- didaktik="Selbstlerneinheit S05 · ca. 60 min · nur Quellen aus S05" -->
+<!-- didaktik="Selbstlerneinheit S04 · ca. 60 min · nur Quellen aus S04" -->
 
 > [!IMPORTANT] 🧭 Leitfrage
 > Wie bewerte ich Projektarbeit fair – und wie baue ich Fallstudie und Rollenspiel so auf, dass der Vergleich mit der Wirklichkeit gelingt?
@@ -39,7 +39,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 4. ein Rollenspiel zu einem technischen Konflikt **skizzieren**.
 
 > [!TIP] 📖 Grundlage
-> Die Präsenzsitzung [S05 – Kontrolle & Bewertung · Fallstudie · Rollenspiel](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S05_Bewertung_Fallstudie_Rollenspiel.md).
+> Die Präsenzsitzung [S04 – Kontrolle & Bewertung · Fallstudie · Rollenspiel](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S04_Bewertung_Fallstudie_Rollenspiel.md).
 
 ## 0 · Wo stehen Sie?
 
@@ -63,13 +63,13 @@ Ich kann eine Fallstudie für meine Fachrichtung planen.
 
 <!-- didaktik="ca. 15 min" -->
 
-**Kurz wiederholt** (nach S05, Folien R069–R073)
+**Kurz wiederholt** (nach S04, Folien R069–R073)
 
 - Bewertung ist ein **pädagogischer Soll-Ist-Vergleich**: festgestellte Leistung ↔ Maßstab aus allgemeinen und fachspezifischen Kriterien → Urteil, Worturteil, Zensur.
 - Drei **Widersprüche** in Projekten (vgl. Kersten 1997): Selbstorganisation ↔ Fremdkontrolle · kooperative Lernorganisation ↔ individuelle Bewertung · pädagogischer Zweck ↔ Bewertung des Produkts.
 - **Konsequenz:** Selbstkontrolle und -bewertung → gegenseitige Einschätzung → Lehrende legen ihre Einschätzung begründet dar; Schwerpunkt auf dem **Prozess** der Problemlösung, nicht nur auf dem Produkt.
 
-**Fall:** Die Bewässerungsanlage einer Projektgruppe (vgl. Selbstlerneinheit S04) funktioniert nur teilweise. Die Gruppe hat aber sauber dokumentiert, zwei Lösungen verglichen und einen Fehler selbst gefunden.
+**Fall:** Die Bewässerungsanlage einer Projektgruppe (vgl. Selbstlerneinheit S03) funktioniert nur teilweise. Die Gruppe hat aber sauber dokumentiert, zwei Lösungen verglichen und einen Fehler selbst gefunden.
 
 **Welches Vorgehen entspricht R073 am besten?**
 
@@ -151,7 +151,7 @@ Die Varianten unterscheiden sich im Schwerpunkt (R075): Problemerkennung (Case-S
 
 <!-- didaktik="ca. 10 min" -->
 
-**Phasen:** Einführung → Erarbeitung → Diskussion → Reflexion → Evaluation (S05, Folie R081). Das Beispiel „Transgene Kartoffel“ stammt aus der Biotechnologie – technische Konflikte gibt es in jeder Fachrichtung.
+**Phasen:** Einführung → Erarbeitung → Diskussion → Reflexion → Evaluation (S04, Folie R081). Das Beispiel „Transgene Kartoffel“ stammt aus der Biotechnologie – technische Konflikte gibt es in jeder Fachrichtung.
 
 **Skizzieren Sie ein Rollenspiel:** Wählen Sie einen Konflikt (z. B. Windrad am Ortsrand, Umstellung einer Werkstatt auf E-Mobilität, Videoüberwachung im Betrieb). Nennen Sie das Ausgangsszenario in zwei Sätzen und vier Rollen mit je einem Interesse.
 
@@ -190,6 +190,6 @@ Ich kann erklären, wie ich Gruppenarbeit in einem Projekt bewerte.
 
 ## Literatur
 
-- Heckhausen (1974) – zitiert nach S05, Folie R071; vollständige Angabe auf der Originalfolie nicht vorhanden.
-- Kaiser, F.-J.: Entscheidungstraining – Methoden der Entscheidungsfindung (2. Auflage). Bad Heilbrunn 1976 – zitiert nach S05, Folien R075–R076.
-- Kersten (1997) – zitiert nach S05, Folie R072; vollständige Angabe auf der Originalfolie nicht vorhanden.
+- Heckhausen (1974) – zitiert nach S04, Folie R071; vollständige Angabe auf der Originalfolie nicht vorhanden.
+- Kaiser, F.-J.: Entscheidungstraining – Methoden der Entscheidungsfindung (2. Auflage). Bad Heilbrunn 1976 – zitiert nach S04, Folien R075–R076.
+- Kersten (1997) – zitiert nach S04, Folie R072; vollständige Angabe auf der Originalfolie nicht vorhanden.

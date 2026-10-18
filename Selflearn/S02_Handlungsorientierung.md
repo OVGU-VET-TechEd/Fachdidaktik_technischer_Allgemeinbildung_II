@@ -6,22 +6,29 @@ language:  de
 narrator:  Deutsch Female
 mode:      Textbook
 
-title:     S03 – Handlungsorientierung (Selbstlerneinheit)
-comment:   Fachdidaktik technischer Allgemeinbildung II – Selbstlerneinheit zu Sitzung S03. Begründungen der Handlungsorientierung, Tätigkeit – Handlung – Operation, vollständige Handlung und Stufen der Selbständigkeit an neuen Beispielen anwenden; eine Aufgabe handlungsorientiert umgestalten.
+title:     S02 – Handlungsorientierung (Selbstlerneinheit)
+comment:   Fachdidaktik technischer Allgemeinbildung II – Selbstlerneinheit zu Sitzung S02 (Selbstlerntermin 19.10.2026). Begründungen der Handlungsorientierung, Tätigkeit – Handlung – Operation, vollständige Handlung und Stufen der Selbständigkeit an neuen Beispielen anwenden; eine Aufgabe handlungsorientiert umgestalten.
 tags:      Fachdidaktik, Technikdidaktik, Berufsbildung, Handlungsorientierung, vollständige Handlung, Selbständigkeit, Selbstlernen
 
 import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragAndDrop_Template/refs/heads/main/README.md
 -->
 
-# S03 – Handlungsorientierung (Selbstlerneinheit)
+# S02 – Handlungsorientierung (Selbstlerneinheit)
 
-<!-- didaktik="Selbstlerneinheit S03 · ca. 55 min · nur Quellen aus S03" -->
+<!-- didaktik="Selbstlerneinheit S02 · Selbstlerntermin 19.10.2026 (Dozent nicht vor Ort) · ca. 55 min nach der LiaScript-Sitzung · nur Quellen aus S02" -->
 
 > [!IMPORTANT] 🧭 Leitfrage
 > Woran erkenne ich handlungsorientierten Unterricht – und wie mache ich aus einer Arbeitsanweisung eine vollständige Lernhandlung?
 
+> [!WARNING] 📅 Selbstlerntermin am 19.10.2026
+> An diesem Termin gibt es keine Präsenzveranstaltung. Bearbeiten Sie **zuerst** die [LiaScript-Sitzung S02](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S02_Handlungsorientierung.md) (ca. 60 min, Partnerphasen allein bearbeiten) und **danach** diese Einheit. Fragen notieren Sie auf dem Beuteblatt – wir greifen sie in S03 auf.
+
+> [!TIP] ✍️ Übung in Moodle
+> Bearbeiten Sie diese Einheit als Übung im Moodle-Kurs – dort wird Ihr Bearbeitungsstand gespeichert: [Übung in Moodle öffnen](https://elearning.ovgu.de/mod/scorm/view.php?id=702165)
+
 **Ablauf (ca. 55 min)**
 
+<!-- data-type="none" -->
 | Schritt | Inhalt | Zeit |
 | --- | --- | --- |
 | 0 | Wo stehen Sie? | 3 min |
@@ -38,7 +45,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 4. eine angeleitete Aufgabe so **umgestalten**, dass Lernende die Schritte der vollständigen Handlung selbst durchlaufen.
 
 > [!TIP] 📖 Grundlage
-> Die Präsenzsitzung [S03 – Handlungsorientierung](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S03_Handlungsorientierung.md).
+> Die LiaScript-Sitzung [S02 – Handlungsorientierung](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S02_Handlungsorientierung.md).
 
 ## 0 · Wo stehen Sie?
 
@@ -68,7 +75,7 @@ Ich kann eine Aufgabe so gestalten, dass Lernende selbst planen und entscheiden.
 | **handlungstheoretisch** | Handlung = zielgerichtete, bewusste Aktivität; Regulation in Tätigkeit – Handlung – Operation | Leontjew, Hacker, Volpert |
 | **von der Arbeitswelt her** | moderne Produktionsstrukturen verlangen vollständige Tätigkeiten, Selbststeuerung, Teamarbeit | Frieling |
 
-<small>Verdichtet nach S03, Folien R041–R049.</small>
+<small>Verdichtet nach S02, Folien R041–R049.</small>
 
 **Welche Begründung steckt in der Aussage?**
 
@@ -175,7 +182,7 @@ Ich kann eine Aufgabe so gestalten, dass Lernende selbst planen und entscheiden.
 
 ## Literatur
 
-Alle Angaben zitiert nach S03; vollständige Angaben, soweit vorhanden, dort und in der Gesamtliteratur.
+Alle Angaben zitiert nach S02; vollständige Angaben, soweit vorhanden, dort und in der Gesamtliteratur.
 
 - Aebli (1987), S. 30 f. · Hering (1969), S. 7 · Leontjew/Galperin (1966), S. 55 · Leontjew (1979), S. 103 · Piaget (1983), S. 25 · Roth (1976), S. 123 · Hacker (1978, 1998) · Volpert (1980) · „verkürzt Bünning“ – Folien R041–R053.
 - Frieling, E.: Personalentwicklung und Qualifizierung – Neue Ansätze und Probleme – In: Das lernende Unternehmen. – Hochheim, 1993 – Folie R049.

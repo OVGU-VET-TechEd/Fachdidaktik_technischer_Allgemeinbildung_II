@@ -93,9 +93,9 @@ Das ganze Modul lässt sich als Folge von **Planungsentscheidungen** lesen. Die 
      +------------------------------------+-------------------------------------+
      v                                    v                                     v
  ZIELE: Wozu?                     INHALTE: Was – wie vereinfacht?         MEDIEN: Womit?
- S03 Handlungsorientierung        S08 Didaktische Reduktion               S10 Medien & KI
- S11 Lernerfolgskontrolle
- S12 PAL-Prüfungen
+ S02 Handlungsorientierung        S07 Didaktische Reduktion               S09 Medien & KI
+ S10 Lernerfolgskontrolle
+ S11 PAL-Prüfungen
      |                                    |                                     |
      +------------------------------------+-------------------------------------+
                                           v
@@ -103,13 +103,13 @@ Das ganze Modul lässt sich als Folge von **Planungsentscheidungen** lesen. Die 
  +--------------------------+------------------------+------------------------+-------------------+
  | … den Erkenntnisweg?     | … Lehrende <-> Lernende| … Lernende <-> Gegen-  | … den Bildungs-   |
  | Unterrichtsmethoden      | Aktionsformen          | stand: Sozialformen    | prozess? Organi-  |
- | S02 logische Methoden    | S09                    | S09                    | sationsformen S01 |
- | S04 Projekt  S05 Fall-   |                        |                        |                   |
- | studie  S06 Leittext,    |                        |                        |                   |
- | Experiment  S07 Großform |                        |                        |                   |
+ | S01b logische Methoden   | S08                    | S08                    | sationsformen S01 |
+ | S03 Projekt  S04 Fall-   |                        |                        |                   |
+ | studie  S05 Leittext,    |                        |                        |                   |
+ | Experiment  S06 Großform |                        |                        |                   |
  +--------------------------+------------------------+------------------------+-------------------+
                                           v
-                          SYNTHESE: Was nehme ich mit? (S12)
+                          SYNTHESE: Was nehme ich mit? (S11)
 ```
 
 **Optional: „Mein Unterrichtsentwurf"** – Viele Sitzungen enden mit einem *Baustein* für einen eigenen Unterrichtsentwurf. Die Bausteine sind freiwillig und bereiten die Selbstlernsitzung am 11.01.2027 vor. Prüfungsleistung des Moduls ist ausschließlich die mündliche Prüfung; ein eigenes Beispiel hilft Ihnen dort beim Argumentieren.
@@ -332,7 +332,7 @@ Naturwissenschaften: eigenständig, abbildungsorientiert, Ursache-Wirkungs-Relat
 | &nbsp;&nbsp;a. vortragend          |                                       |
 | &nbsp;&nbsp;b. fragend             |                                       |
 
-<small>Quelle: Folie R012 „4.1 Definition Unterrichtsmethoden“ · Der logische Aspekt ist das Thema von S02.</small>
+<small>Quelle: Folie R012 „4.1 Definition Unterrichtsmethoden“ · Der logische Aspekt ist das Thema von S01b.</small>
 
 **Kurzcheck:**
 
@@ -514,9 +514,9 @@ Wählen Sie ein Thema für Ihren eigenen Unterrichtsentwurf, das Sie durch das S
 2. Was ist eine Unterrichtsmethode? Grenzen Sie Methode im weiteren Sinne und Methoden im engeren Sinne ab.
 3. Ordnen Sie *Frontalunterricht*, *Lehrervortrag*, *Exkursion* und *induktives Vorgehen* den vier Leitfragen der Unterrichtsorganisation zu und begründen Sie.
 
-### Vorbereitung auf S02 (vor der Sitzung, ca. 15 min)
+### Vorbereitung auf S01b (vor der Sitzung, ca. 15 min)
 
-In Folie R012 tauchte der **logische Aspekt** auf: analytisch, synthetisch, induktiv, deduktiv … – in S02 lernen Sie diese Methoden an Beispielen aus Bau- und Werkstofftechnik kennen (Dachkonstruktionen, Beton, HOOKE'sches Gesetz, Spannbeton).
+In Folie R012 tauchte der **logische Aspekt** auf: analytisch, synthetisch, induktiv, deduktiv … – in S01b lernen Sie diese Methoden an Beispielen aus Bau- und Werkstofftechnik kennen (Dachkonstruktionen, Beton, HOOKE'sches Gesetz, Spannbeton).
 
 **Aufgabe:** Sie sollen Auszubildenden das HOOKE'sche Gesetz (elastisches Verhalten von Stahl) vermitteln. Womit würden Sie beginnen?
 

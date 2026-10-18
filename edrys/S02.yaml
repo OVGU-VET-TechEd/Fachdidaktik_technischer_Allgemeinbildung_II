@@ -1,7 +1,7 @@
-id: fdtech2s027537a8f5
+id: fdtech2s03c3e6f084
 createdBy: ovgu-vet-teched
 dateCreated: 1791747976680
-name: 'FD Technik II · S02 – Unterrichtsmethoden unter dem logischen Aspekt'
+name: 'FD Technik II · S02 – Handlungsorientierung'
 meta:
   description: >-
     Fachdidaktik technischer Allgemeinbildung II (OVGU) – Live-Classroom zur
@@ -16,7 +16,7 @@ modules:
   - url: https://edrys-labs.github.io/module-liascript/
     config:
       classroom: true
-      course: https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S02_Logische_Methoden.md
+      course: https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S02_Handlungsorientierung.md
     studentConfig: ''
     teacherConfig: ''
     stationConfig: ''

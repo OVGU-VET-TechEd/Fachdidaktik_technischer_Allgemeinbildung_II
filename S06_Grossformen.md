@@ -7,16 +7,16 @@ narrator:  Deutsch Female
 mode:      Textbook
 classroom: enable
 
-title:     S07 – Methodische Großformen
+title:     S06 – Methodische Großformen
 comment:   Fachdidaktik technischer Allgemeinbildung II / Fachdidaktik gewerblich-technischer Fachrichtungen – Sitzung 7. Methodische Großformen nach Pahl – analytisch, synthetisch, induktiv, deduktiv, historisch und reduktiv akzentuiert.
 tags:      Fachdidaktik, Technikdidaktik, Berufsbildung, Großformen, Diagnoseaufgabe, Fertigungsaufgabe, Konstruktionsaufgabe, Instandsetzung
 
 import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragAndDrop_Template/refs/heads/main/README.md
 -->
 
-# S07 – Methodische Großformen
+# S06 – Methodische Großformen
 
-<!-- didaktik="Planungsraster S07 · E-03, E-04, E-12, E-17, E-19, E-27, E-29" -->
+<!-- didaktik="Planungsraster S06 · E-03, E-04, E-12, E-17, E-19, E-27, E-29" -->
 
 > [!IMPORTANT] 🧭 Leitfrage
 > Wie hängen **Großformen** und **logische Methoden** zusammen? – Auf der Kurskarte: **Methodik → Erkenntnisweg**.
@@ -33,7 +33,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 5. **beurteilen**, warum eine eindeutige Zuordnung „mit Vorsicht zu genießen" ist,
 6. für Ihr Entwurfsthema eine Großform **auswählen** und den Unterrichtsgang **skizzieren** *(optional)*.
 
-📝 **Beuteblatt S07**
+📝 **Beuteblatt S06**
 
 ## Einstieg: Eindeutig zuzuordnen?
 
@@ -52,7 +52,7 @@ Stimmen Sie zu?
 
 <!-- didaktik="Lehrschritt Vorwissen aktivieren lassen · 5–10 min · Einzelarbeit · Classroom-Auswertung" -->
 
-**Allein (3 min):** Nehmen Sie zwei Aufgabenarten aus Ihrer Vorbereitung. Welche logische Methode aus S02 steckt jeweils darin – analytisch, synthetisch, deduktiv, induktiv, genetisch, historisch, reduktiv?
+**Allein (3 min):** Nehmen Sie zwei Aufgabenarten aus Ihrer Vorbereitung. Welche logische Methode aus S01b steckt jeweils darin – analytisch, synthetisch, deduktiv, induktiv, genetisch, historisch, reduktiv?
 
     [[___ ___ ___]]
 
@@ -63,7 +63,7 @@ Stimmen Sie zu?
 <!-- didaktik="Lehrschritt Ziele bekannt geben mit Advance Organizer · 10–15 min" -->
 
 --{{0}}--
-Heute lernen Sie die methodischen Großformen nach Pahl kennen. Die Folien betrachten sie vorrangig nach ihrer analytischen oder synthetischen Akzentuierung – und warnen zugleich: Eine Methode im engeren Sinne nur einer Großform zuzuordnen, ist mit Vorsicht zu genießen. Als Lesehilfe für heute: Jede Großform hat einen Akzent, eine logische Methode aus S02, und ein Gerüst, die vollständige Handlung aus S03.
+Heute lernen Sie die methodischen Großformen nach Pahl kennen. Die Folien betrachten sie vorrangig nach ihrer analytischen oder synthetischen Akzentuierung – und warnen zugleich: Eine Methode im engeren Sinne nur einer Großform zuzuordnen, ist mit Vorsicht zu genießen. Als Lesehilfe für heute: Jede Großform hat einen Akzent, eine logische Methode aus S01b, und ein Gerüst, die vollständige Handlung aus S02.
 
 **Methodische Großform**
 
@@ -81,7 +81,7 @@ Heute lernen Sie die methodischen Großformen nach Pahl kennen. Die Folien betra
 **Lesehilfe – Großform = Akzent + Gerüst:**
 
 ``` ascii
-  logische Methode (S02)           vollständige Handlung (S03)
+  logische Methode (S01b)           vollständige Handlung (S02)
   = AKZENT                          = GERÜST
   analytisch, synthetisch,          Aufgabe -> (intuitive Phase) -> Planung/Information
   induktiv, deduktiv,     ---+---   -> Durchführung -> Kontrolle/Bewertung -> Transfer
@@ -135,7 +135,7 @@ Die Diagnoseaufgabe befähigt zur Diagnose von Geräten, Maschinen und Anlagen. 
 <!-- src: R105-R106 -->
 
 --{{0}}--
-Die Fallstudie kennen Sie aus S05. Als Großform ist sie ein Entscheidungstraining, und ihre Schritte entsprechen Kaisers Phasen von der Konfrontation bis zur Kollation. Das Beispiel heißt: Wasser in den Wänden.
+Die Fallstudie kennen Sie aus S04. Als Großform ist sie ein Entscheidungstraining, und ihre Schritte entsprechen Kaisers Phasen von der Konfrontation bis zur Kollation. Das Beispiel heißt: Wasser in den Wänden.
 
 **Merkmale:**
 
@@ -154,7 +154,7 @@ Die Fallstudie kennen Sie aus S05. Als Großform ist sie ein Entscheidungstraini
 
 **Beispiel:** Wasser in den Wänden
 
-<small>Quelle: Folien R105–R106 „5.1 analytische akzentuiert – Fallstudie“ – Phasen wie bei Kaiser (S05, R076); die Fallstudienarten finden Sie in S05 (R075).</small>
+<small>Quelle: Folien R105–R106 „5.1 analytische akzentuiert – Fallstudie“ – Phasen wie bei Kaiser (S04, R076); die Fallstudienarten finden Sie in S04 (R075).</small>
 
 ### Instandsetzungsanalyse
 
@@ -219,7 +219,7 @@ Die Konstruktionsanalyse vollzieht eine fertige Konstruktion nach, um die Konstr
 
 @dragdropsort(@uid,Diagnoseaufgabe;Fehlverhalten einer Titrations- und Neutralisationsanlage|Fallstudie;Wasser in den Wänden|Instandsetzungsanalyse;Instandsetzung von Stahlbeton im Iran|Konstruktionsanalyse;Leitungskanal analysieren)
 
-> **Gemeinsam ist allen vier:** Etwas *Vorhandenes* wird zerlegt und untersucht – ein Fehlverhalten, ein Fall, eine durchgeführte Instandsetzung, eine fertige Konstruktion. Vergleichen Sie mit der analytischen Methode in S02: „Erkennen des Wesens aus dem Ganzen durch heraus gelöste Teile" (R014).
+> **Gemeinsam ist allen vier:** Etwas *Vorhandenes* wird zerlegt und untersucht – ein Fehlverhalten, ein Fall, eine durchgeführte Instandsetzung, eine fertige Konstruktion. Vergleichen Sie mit der analytischen Methode in S01b: „Erkennen des Wesens aus dem Ganzen durch heraus gelöste Teile" (R014).
 
 ## Station 2: synthetisch akzentuiert – Expertenphase
 
@@ -390,7 +390,7 @@ Danach stellt für jede Großform eine freiwillige Person ihren Pitch vor (38–
 
     [[___ ___ ___ ___ ___]]
 
-> **Gemeinsam ist allen fünf:** Etwas *Neues* entsteht oder wird (wieder)hergestellt – ein Produkt, eine Dokumentation mit Maßnahmeempfehlungen, ein Szenario, eine Konstruktion, ein instand gesetztes Objekt. Vergleichen Sie mit der synthetischen Methode in S02: „Zusammenfügen einer Anzahl von Teilen zu einem Ganzen" (R017). **Instandsetzungsanalyse vs. Instandsetzungsaufgabe:** gleicher Gegenstand – einmal analytisch (eine *durchgeführte* Instandsetzung untersuchen), einmal synthetisch (selbst instand setzen).
+> **Gemeinsam ist allen fünf:** Etwas *Neues* entsteht oder wird (wieder)hergestellt – ein Produkt, eine Dokumentation mit Maßnahmeempfehlungen, ein Szenario, eine Konstruktion, ein instand gesetztes Objekt. Vergleichen Sie mit der synthetischen Methode in S01b: „Zusammenfügen einer Anzahl von Teilen zu einem Ganzen" (R017). **Instandsetzungsanalyse vs. Instandsetzungsaufgabe:** gleicher Gegenstand – einmal analytisch (eine *durchgeführte* Instandsetzung untersuchen), einmal synthetisch (selbst instand setzen).
 
 **Pitch-Check (3 min):** Untersucht die Großform etwas Vorhandenes – oder stellt sie etwas Neues her?
 
@@ -418,7 +418,7 @@ In der dritten Station folgen die Großformen mit den übrigen Akzenten. Sie wer
 <!-- src: R121-R122 -->
 
 --{{0}}--
-Das technische Experiment ist induktiv akzentuiert – wie in S06. Es verbindet die Erarbeitung technologischer Sachverhalte mit den Verfahren der Erkenntnisgewinnung und kann Theorie und Praxis zusammenführen. Die Schritte reichen vom Erfassen und Präzisieren des Problems über Planung, Durchführung und Auswertung bis zum Transfer. Beispiel: Entwurf und Bau einer stabilen Brücke im Modell.
+Das technische Experiment ist induktiv akzentuiert – wie in S05. Es verbindet die Erarbeitung technologischer Sachverhalte mit den Verfahren der Erkenntnisgewinnung und kann Theorie und Praxis zusammenführen. Die Schritte reichen vom Erfassen und Präzisieren des Problems über Planung, Durchführung und Auswertung bis zum Transfer. Beispiel: Entwurf und Bau einer stabilen Brücke im Modell.
 
 **Merkmale:**
 
@@ -437,7 +437,7 @@ Das technische Experiment ist induktiv akzentuiert – wie in S06. Es verbindet 
 
 **Beispiel:** Entwurf und Bau einer stabilen Brücke im Modell
 
-<small>Quelle: Folien R121–R122 „5.3 induktiv akzentuiert – Technisches Experiment“ – vgl. S06 (Phasen nach Bernard und Bader)</small>
+<small>Quelle: Folien R121–R122 „5.3 induktiv akzentuiert – Technisches Experiment“ – vgl. S05 (Phasen nach Bernard und Bader)</small>
 
 ### Konstruktionsaufgabe (deduktiv akzentuiert)
 
@@ -477,7 +477,7 @@ Das historisch-genetische Verfahren nutzt, dass die Technik vergangener Zeiten e
 
 **Beispiel:** Überprüfung der Funktionsweise einer Dampflok
 
-<small>Quelle: Folien R124–R125 „5.5 historisch akzentuiert – historisch-genetisches Ausbildungs- und Unterrichtsverfahren“ – vgl. genetische und historische Methode in S02 (Spannbeton)</small>
+<small>Quelle: Folien R124–R125 „5.5 historisch akzentuiert – historisch-genetisches Ausbildungs- und Unterrichtsverfahren“ – vgl. genetische und historische Methode in S01b (Spannbeton)</small>
 
 ### Naturstudie (reduktiv akzentuiert)
 
@@ -506,7 +506,7 @@ Die Naturstudie löst technische Probleme mit Hilfe von Lösungen aus der Natur:
 
 **Beispiel:** Verschmutzungs- und Abnutzungsgrad von Lacken und Farben
 
-<small>Quelle: Folien R126–R127 „5.6 reduktiv akzentuiert – Naturstudie“ – vgl. reduktive Methode in S02: „Zurückgreifen auf bereits bekannte Vorgänge (beispielsweise aus der Natur)“ (R032)</small>
+<small>Quelle: Folien R126–R127 „5.6 reduktiv akzentuiert – Naturstudie“ – vgl. reduktive Methode in S01b: „Zurückgreifen auf bereits bekannte Vorgänge (beispielsweise aus der Natur)“ (R032)</small>
 
 ### Aktivierung: Großform und Akzent
 
@@ -520,7 +520,7 @@ Die Naturstudie löst technische Probleme mit Hilfe von Lösungen aus der Natur:
 
 <!-- didaktik="Lehrschritt üben (Analysieren) / integrierendes Verbinden · 60–70 min · Einzelarbeit · Classroom-Auswertung" -->
 
-**Allein (6 min):** Legen Sie die Schritte von *Fertigungsaufgabe*, *Instandsetzungsaufgabe* und *Naturstudie* neben Hackers vollständige Handlung (S03).
+**Allein (6 min):** Legen Sie die Schritte von *Fertigungsaufgabe*, *Instandsetzungsaufgabe* und *Naturstudie* neben Hackers vollständige Handlung (S02).
 
 [[Orientieren] [Richten/Entwerfen] [Entscheiden] [Ausführen] [Kontrollieren]]
 [     (X)            ( )                ( )           ( )           ( )      ] Analyse des Fertigungsauftrages/Klärung der Aufgabenstellung
@@ -553,7 +553,7 @@ Die **intuitive Phase** (z. B. „Intuitive Lösungsansätze", „Intuitive Prob
 Welche Belege von den Folien sprechen gegen eine eindeutige Zuordnung?
 
 [[X]] Die Konstruktionsaufgabe erscheint synthetisch akzentuiert (R117–R118) **und** deduktiv akzentuiert (R123).
-[[X]] Die Fallstudie ist analytisch akzentuierte Großform (R105–R106) und zugleich eine eigene Methode mit vier Varianten (S05, R074–R076).
+[[X]] Die Fallstudie ist analytisch akzentuierte Großform (R105–R106) und zugleich eine eigene Methode mit vier Varianten (S04, R074–R076).
 [[X]] Instandsetzung kommt analytisch (Instandsetzungsanalyse) und synthetisch (Instandsetzungsaufgabe) vor.
 [[ ]] Jede Großform hat genau einen Schritt.
 ***
@@ -586,7 +586,7 @@ R101: „Zuordnung einer Methode im engeren Sinne nur zu einer methodischen Gro�
 📝 **Beuteblatt-Stopp:** Ergänzen Sie die Tabelle, Ihre Expertenform und Ihre wichtigste Beute.
 
 > [!NOTE] 🔗 Querverweise
-> logische Methoden → **S02** · vollständige Handlung → **S03** · Fallstudie → **S05** · technisches Experiment → **S06** · „Konstruktionsaufgabe, Fertigungsaufgabe, Werkaufgabe" als Methoden des Technikunterrichts → Modulbeschreibung Gymnasium
+> logische Methoden → **S01b** · vollständige Handlung → **S02** · Fallstudie → **S04** · technisches Experiment → **S05** · „Konstruktionsaufgabe, Fertigungsaufgabe, Werkaufgabe" als Methoden des Technikunterrichts → Modulbeschreibung Gymnasium
 
 ### Prüfungsfragen zum Üben
 
@@ -600,9 +600,9 @@ R101: „Zuordnung einer Methode im engeren Sinne nur zu einer methodischen Gro�
 4. Warum ist die Zuordnung einer Methode zu nur einer Großform „mit Vorsicht zu genießen"?
 5. Welche Rolle spielt die intuitive Phase in den Großformen?
 
-### Vorbereitung auf S08 (vor der Sitzung, ca. 15 min)
+### Vorbereitung auf S07 (vor der Sitzung, ca. 15 min)
 
-In S08 geht es um **didaktische Reduktion** – wie man fachliche Aussagen vereinfacht, ohne sie falsch zu machen.
+In S07 geht es um **didaktische Reduktion** – wie man fachliche Aussagen vereinfacht, ohne sie falsch zu machen.
 
 **Aufgabe:** Bringen Sie eine Fachaussage aus Ihrer Fachrichtung mit, die für Auszubildende bzw. Schüler:innen „zu schwer" ist (z. B. eine Formel, eine Norm, ein Gesetz). Notieren Sie, wie Sie sie bisher erklären würden.
 

@@ -7,16 +7,16 @@ narrator:  Deutsch Female
 mode:      Textbook
 classroom: enable
 
-title:     S08 – Didaktische Reduktion
+title:     S07 – Didaktische Reduktion
 comment:   Fachdidaktik technischer Allgemeinbildung II / Fachdidaktik gewerblich-technischer Fachrichtungen – Sitzung 8. Vereinfachen ohne falsch zu werden: didaktische Reduktion nach Grüner, Arnold und Hering mit Beispielen aus Elektro- und Bautechnik.
 tags:      Fachdidaktik, Technikdidaktik, Berufsbildung, didaktische Reduktion, Elementarisierung, Grüner, Hering, Arnold
 
 import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragAndDrop_Template/refs/heads/main/README.md
 -->
 
-# S08 – Didaktische Reduktion
+# S07 – Didaktische Reduktion
 
-<!-- didaktik="Planungsraster S08 · E-03, E-04, E-12, E-17, E-19, E-27, E-30" -->
+<!-- didaktik="Planungsraster S07 · E-03, E-04, E-12, E-17, E-19, E-27, E-30" -->
 
 > [!IMPORTANT] 🧭 Leitfrage
 > Wie vereinfache ich – **ohne falsch zu werden**? – Auf der Kurskarte: **Thematik: Was – und wie vereinfacht?**
@@ -33,7 +33,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 5. **beurteilen**, ob eine vereinfachte Aussage noch korrekt ist,
 6. für Ihr Entwurfsthema eine Reduktionsentscheidung **planen** *(optional)*.
 
-📝 **Beuteblatt S08**
+📝 **Beuteblatt S07**
 
 ## Einstieg: Darf man Falsches sagen?
 
@@ -72,7 +72,7 @@ Stimmen Sie zu?
 ```
 
 > [!TIP] 🔗 Erinnern Sie sich
-> Technikwissenschaften bewerten nach **Richtigkeit** und Zweckmäßigkeit (S01, R005). Und in S06 stand in der Vorbereitung eines Experiments die Frage: „In welchem Umfang muss der fachwissenschaftliche Kontext vereinfacht werden?" (R097). Heute die Antwort.
+> Technikwissenschaften bewerten nach **Richtigkeit** und Zweckmäßigkeit (S01, R005). Und in S05 stand in der Vorbereitung eines Experiments die Frage: „In welchem Umfang muss der fachwissenschaftliche Kontext vereinfacht werden?" (R097). Heute die Antwort.
 
 <small>Die Gliederung in vier Stationen ist eine Lesehilfe für diese Sitzung, nicht Teil der Originalfolien.</small>
 
@@ -372,7 +372,7 @@ $$\ce{6 CO2 + 6 H2O ->[\text{Lichtenergie, Chlorophyll}][\text{2827 kJ}] C6H12O6
 >
 > Für die **Elementarisierung** empfiehlt er u. a. das EIS-Prinzip nach Bruner (handelnd – ikonisch – symbolisch) und Analogien, deren Grenzen mit den Lernenden zu reflektieren sind; Leitlinie: **fachgerecht – schülergerecht – zielgerecht** (S. 305–306).
 >
-> **Verbinden Sie:** „Reduktion durch Generalisierung" ist der *induktive* Schluss aus S02 – und das Wasser-Beispiel zeigt, warum er nicht sicher ist (Dilling 2024).
+> **Verbinden Sie:** „Reduktion durch Generalisierung" ist der *induktive* Schluss aus S01b – und das Wasser-Beispiel zeigt, warum er nicht sicher ist (Dilling 2024).
 
 ### Aktivierung: Welches Verfahren?
 
@@ -407,7 +407,7 @@ Oberbegriff bilden = Tilgung untergeordneter Aussagen (R143) · eine Teilaussage
 - [ ] Ist klar, ob vertikal oder horizontal reduziert wurde?
 - [ ] Lässt sie sich später erweitern (fachgerecht im Sinne von Zinn)?
 
-> [!TIP] 🔗 Verbinden Sie mit S07
+> [!TIP] 🔗 Verbinden Sie mit S06
 > Bei welcher Großform Ihres Entwurfs (Baustein 7) braucht es diese Reduktion – in der intuitiven Phase, bei der Information oder bei der Kontrolle?
 
 ## Zum Mitnehmen
@@ -428,7 +428,7 @@ Oberbegriff bilden = Tilgung untergeordneter Aussagen (R143) · eine Teilaussage
 📝 **Beuteblatt-Stopp:** Ergänzen Sie die Abschnitte 3 und 4, Baustein 8 und Ihre wichtigste Beute.
 
 > [!NOTE] 🔗 Querverweise
-> Richtigkeit und Zweckmäßigkeit → **S01** · induktiver Schluss, Generalisierung → **S02** · Vereinfachung im Experiment → **S06** (R097) · Medien als Veranschaulichung → **S10**
+> Richtigkeit und Zweckmäßigkeit → **S01** · induktiver Schluss, Generalisierung → **S01b** · Vereinfachung im Experiment → **S05** (R097) · Medien als Veranschaulichung → **S09**
 
 ### Prüfungsfragen zum Üben
 
@@ -442,9 +442,9 @@ Oberbegriff bilden = Tilgung untergeordneter Aussagen (R143) · eine Teilaussage
 4. Beschreiben Sie die Entscheidungsschritte nach Arnold.
 5. Vergleichen Sie die drei Verfahren der didaktischen Vereinfachung nach Hering.
 
-### Vorbereitung auf S09 (vor der Sitzung, ca. 15 min)
+### Vorbereitung auf S08 (vor der Sitzung, ca. 15 min)
 
-In S09 geht es um **Sozialformen und Aktionsformen** – wer arbeitet mit wem, und wer tut was?
+In S08 geht es um **Sozialformen und Aktionsformen** – wer arbeitet mit wem, und wer tut was?
 
 **Schätzen Sie:** Wie viel Prozent der Unterrichtszeit an Schulen ist Frontalunterricht?
 
@@ -470,4 +470,4 @@ In S09 geht es um **Sozialformen und Aktionsformen** – wer arbeitet mit wem, u
 **[NEU] Ergänzende Literatur**
 
 - Zinn, B. (2026). *Didaktik des naturwissenschaftlichen, informatischen und technikwissenschaftlichen Unterrichts. Grundlagen und Denk- und Arbeitsweisen in interdisziplinären Fächern in Schule und Hochschule.* Springer Spektrum, Abschn. 12.3.10, S. 302–306. https://doi.org/10.1007/978-3-662-72499-6
-- Dilling, F. (2024) – siehe S02.
+- Dilling, F. (2024) – siehe S01b.

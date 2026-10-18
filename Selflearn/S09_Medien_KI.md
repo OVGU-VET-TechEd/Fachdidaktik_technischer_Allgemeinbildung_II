@@ -6,16 +6,16 @@ language:  de
 narrator:  Deutsch Female
 mode:      Textbook
 
-title:     S10 – Medien & KI im Unterricht (Selbstlerneinheit)
-comment:   Fachdidaktik technischer Allgemeinbildung II – Selbstlerneinheit zu Sitzung S10. KI für die eigene Professionalisierung (UNESCO-Kompetenzrahmen, Dimension 5): Medien finden, aus Vorhandenem neues Material erzeugen, individuelle Lernbedürfnisse mit Prompts, Harness und Agenten adressieren.
+title:     S09 – Medien & KI im Unterricht (Selbstlerneinheit)
+comment:   Fachdidaktik technischer Allgemeinbildung II – Selbstlerneinheit zu Sitzung S09. KI für die eigene Professionalisierung (UNESCO-Kompetenzrahmen, Dimension 5): Medien finden, aus Vorhandenem neues Material erzeugen, individuelle Lernbedürfnisse mit Prompts, Harness und Agenten adressieren.
 tags:      Fachdidaktik, Technikdidaktik, Berufsbildung, Medien, KI, OER, Prompt, Agent, Professionalisierung, UNESCO
 
 import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragAndDrop_Template/refs/heads/main/README.md
 -->
 
-# S10 – Medien & KI im Unterricht (Selbstlerneinheit)
+# S09 – Medien & KI im Unterricht (Selbstlerneinheit)
 
-<!-- didaktik="Selbstlerneinheit S10 · ca. 75 min · baut auf Station 3 und 4 der Präsenzsitzung auf · ganze Einheit ist [NEU]" -->
+<!-- didaktik="Selbstlerneinheit S09 · ca. 75 min · baut auf Station 3 und 4 der Präsenzsitzung auf · ganze Einheit ist [NEU]" -->
 
 > [!IMPORTANT] 🧭 Leitfrage
 > Wie nutze ich KI, um als Lehrkraft besser an Medien zu kommen, aus Vorhandenem passendes Material zu machen und auf einzelne Lernende einzugehen – ohne die Verantwortung abzugeben?
@@ -104,8 +104,8 @@ Bevor Sie etwas neu erzeugen: Vieles gibt es schon – oft als **offene Bildungs
 
 - [[ ]] Das Ziel meiner Stunde steht fest – das Material dient diesem Ziel (Merksatz R161).
 - [[ ]] Fachlich richtig und aktuell (Normen, Vorschriften, Bezeichnungen).
-- [[ ]] Passend reduziert für meine Lerngruppe (vgl. S08: richtig *und* zweckmäßig).
-- [[ ]] Gestaltung nach den Prinzipien aus S10: kohärent, Signale, räumliche Nähe.
+- [[ ]] Passend reduziert für meine Lerngruppe (vgl. S07: richtig *und* zweckmäßig).
+- [[ ]] Gestaltung nach den Prinzipien aus S09: kohärent, Signale, räumliche Nähe.
 - [[ ]] Lizenz geklärt und Namensnennung vorbereitet.
 
 ### Übung 1
@@ -140,15 +140,15 @@ KI ist stark darin, **vorhandenes Material umzuformen**: kürzen, vereinfachen, 
 
 | Aus … | wird … |
 | --- | --- |
-| Datenblatt, Betriebsanleitung | Arbeitsblatt mit Leitfragen und gestuften Hilfen (vgl. Leittext, S06) |
+| Datenblatt, Betriebsanleitung | Arbeitsblatt mit Leitfragen und gestuften Hilfen (vgl. Leittext, S05) |
 | Fachtext | Fassung in einfacher Sprache und Glossar für Deutsch als Zweitsprache |
 | eigener Tafelanschrieb | Lückentext, Zuordnungsaufgabe oder Quiz für die Ergebnissicherung |
-| Fehlerbild einer Anlage | Fallbeschreibung für eine Fallstudie (S05) |
+| Fehlerbild einer Anlage | Fallbeschreibung für eine Fallstudie (S04) |
 | Folien einer Vorlesung | interaktive LiaScript-Lerneinheit – so ist auch dieser Kurs entstanden |
 
 > [!WARNING] ⚠️ Was Sie immer selbst prüfen
 > - **Fakten:** Werte, Formeln, Normen, Sicherheitshinweise. Sprachmodelle formulieren auch Fehler überzeugend.
-> - **Reduktion:** Ist die Vereinfachung noch richtig (S08)?
+> - **Reduktion:** Ist die Vereinfachung noch richtig (S07)?
 > - **Rechte:** Nur Material hochladen, das Sie bearbeiten dürfen – und keine personenbezogenen Daten von Lernenden.
 > - **Transparenz:** Geben Sie an, welches KI-Werkzeug Sie genutzt haben. Das ist gute Praxis und Vorbild für Ihre Lernenden.
 
@@ -231,7 +231,7 @@ Ein **Agent** führt mehrere Schritte selbstständig aus und nutzt dabei Werkzeu
 | Je selbstständiger der Agent … | … desto wichtiger |
 | --- | --- |
 | wählt Aufgaben selbst aus | dass die Aufgaben aus *Ihrem* geprüften Pool stammen |
-| bewertet Lösungen | dass Sie Bewertungen stichprobenartig kontrollieren (Gütekriterien, S11) |
+| bewertet Lösungen | dass Sie Bewertungen stichprobenartig kontrollieren (Gütekriterien, S10) |
 | speichert Lernstände | dass Datenschutz und Einwilligung geklärt sind |
 
 > [!WARNING] ⚠️ Rahmen beachten

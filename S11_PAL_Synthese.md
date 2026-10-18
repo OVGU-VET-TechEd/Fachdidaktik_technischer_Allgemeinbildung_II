@@ -7,16 +7,16 @@ narrator:  Deutsch Female
 mode:      Textbook
 classroom: enable
 
-title:     S12 – PAL-Prüfungen & Modulsynthese
+title:     S11 – PAL-Prüfungen & Modulsynthese
 comment:   Fachdidaktik technischer Allgemeinbildung II / Fachdidaktik gewerblich-technischer Fachrichtungen – Sitzung 12. Wer prüft am Ende – und was nehmen Sie mit? PAL-Prüfungen, Pro und Contra und die Gesamtkarte des Moduls.
 tags:      Fachdidaktik, Technikdidaktik, Berufsbildung, PAL, Abschlussprüfung, IHK, Gütekriterien, Synthese
 
 import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragAndDrop_Template/refs/heads/main/README.md
 -->
 
-# S12 – PAL-Prüfungen & Modulsynthese
+# S11 – PAL-Prüfungen & Modulsynthese
 
-<!-- didaktik="Planungsraster S12 · E-03, E-04, E-07, E-09, E-12, E-17, E-19, E-23, E-27, E-33, E-36" -->
+<!-- didaktik="Planungsraster S11 · E-03, E-04, E-07, E-09, E-12, E-17, E-19, E-23, E-27, E-33, E-36" -->
 
 > [!IMPORTANT] 🧭 Leitfrage
 > Wer prüft am Ende – und was nehmen Sie mit? – Heute schauen wir auf die Prüfung von außen und setzen die Kurskarte ein letztes Mal zusammen.
@@ -28,12 +28,12 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 
 1. Entstehung, Zielsetzung und Aufgaben der PAL sowie die Teile der gesetzlich vorgesehenen Prüfungen **nennen**,
 2. den Weg einer PAL-Aufgabe vom Auftrag bis zur Verabschiedung **beschreiben**,
-3. die Gütekriterien aus S11 auf die PAL-Prüfung **anwenden**,
+3. die Gütekriterien aus S10 auf die PAL-Prüfung **anwenden**,
 4. die Themen aller Sitzungen den Planungsfragen der Kurskarte **zuordnen**,
 5. betrieblichen Auftrag und PAL-Prüfung begründet **gegeneinander abwägen**,
 6. die Prüfungsfragen des Moduls für Ihre mündliche Prüfung **nutzen** *(optional: Ihre Bausteine prüfen)*.
 
-📝 **Beuteblatt S12**
+📝 **Beuteblatt S11**
 
 ## Einstieg: Programmiert prüfen – handlungskompetent?
 
@@ -50,13 +50,13 @@ Zu Recht?
 - [(eher nein)] Eher nein
 - [(nein)] Nein, die Kritik ist unberechtigt
 
-<small>„Programmiert“ meint die schriftliche Prüfungsform mit vorgegebenen Antworten, die Sie in S11 im Baum der konventionellen Prüfung gesehen haben (R172).</small>
+<small>„Programmiert“ meint die schriftliche Prüfungsform mit vorgegebenen Antworten, die Sie in S10 im Baum der konventionellen Prüfung gesehen haben (R172).</small>
 
 ### Ihre Abschlussprüfung
 
 <!-- didaktik="Lehrschritt Vorwissen aktivieren lassen · 5–10 min · Einzelarbeit · Classroom-Auswertung" -->
 
-**Allein (3 min):** Wer hat Ihre Abschlussprüfung erstellt – Ihre Schule, die Kammer, eine zentrale Stelle? Welches Gütekriterium aus S11 war erfüllt, welches verletzt?
+**Allein (3 min):** Wer hat Ihre Abschlussprüfung erstellt – Ihre Schule, die Kammer, eine zentrale Stelle? Welches Gütekriterium aus S10 war erfüllt, welches verletzt?
 
     [[___ ___ ___]]
 
@@ -70,13 +70,13 @@ Zu Recht?
      +------------------------------------+-------------------------------------+
      v                                    v                                     v
  ZIELE: Wozu?                     INHALTE: Was – wie vereinfacht?         MEDIEN: Womit?
- S03 Handlungsorientierung        S08 Didaktische Reduktion               S10 Medien & KI
- S11 Lernerfolgskontrolle
- >>> heute: S12 Prüfung von außen (PAL)
+ S02 Handlungsorientierung        S07 Didaktische Reduktion               S09 Medien & KI
+ S10 Lernerfolgskontrolle
+ >>> heute: S11 Prüfung von außen (PAL)
      |                                    |                                     |
      +------------------------------------+-------------------------------------+
                                           v
-             METHODEN: S02, S04-S07 Methoden · S09 Aktions- und Sozialformen
+             METHODEN: S01b, S03-S06 Methoden · S08 Aktions- und Sozialformen
                                           v
                  SYNTHESE: Was nehme ich mit?  >>> heute
 ```
@@ -112,7 +112,7 @@ Zu Recht?
 
 <small>Quelle: Folie R186 „11.1 Entstehung und Zielsetzung der PAL“ – „derzeit“ = Stand der Originalfolie; R191 nennt 147 Berufe/Fachrichtungen (vermutlich anderer Stand oder andere Zählweise, Z-23); Quelle zur PISA-Aussage auf der Folie nicht angegeben.</small>
 
-> [!TIP] 🔗 Verbinden Sie mit S11
+> [!TIP] 🔗 Verbinden Sie mit S10
 > „Objektivierung“, „Transparenz, Objektivität und Vergleichbarkeit“ – die PAL ist die Antwort einer ganzen Branche auf die Gütekriterien.
 
 ### Gesetzlich vorgesehene Prüfungen
@@ -228,7 +228,7 @@ Gleiche Aufgaben und eine einheitliche Form sichern vor allem die Durchführungs
 >
 > **[NEU] Bildungsstandards** legen fest, welche Kompetenzen Schülerinnen und Schüler einer Jahrgangsstufe erwerben sollen – sie beschreiben nicht die Inhalte (Input), sondern die zu erwerbenden Kompetenzen (**Output-Orientierung**); ein Hauptziel ist die Sicherung der Ergebnisse durch Bildungsmonitoring (Zinn 2026, S. 53).
 >
-> **Für das Gymnasium:** Was für die Ausbildung die bundeseinheitliche PAL-Prüfung ist, leisten für das Abitur im Fach Technik die **Einheitlichen Prüfungsanforderungen (EPA Technik, KMK)** mit ihren Anforderungsbereichen – vgl. S11 und Zinn (2026, S. 72).
+> **Für das Gymnasium:** Was für die Ausbildung die bundeseinheitliche PAL-Prüfung ist, leisten für das Abitur im Fach Technik die **Einheitlichen Prüfungsanforderungen (EPA Technik, KMK)** mit ihren Anforderungsbereichen – vgl. S10 und Zinn (2026, S. 72).
 
 ### Aktivierung: Der Weg einer PAL-Aufgabe
 
@@ -240,7 +240,7 @@ Bringen Sie die Schritte in die richtige Reihenfolge (R190):
 
 ## Station 3: Pro und Contra – eine Mini-Disputation
 
-<!-- didaktik="Lehrschritt üben lassen (Bewerten) · 45–60 min · Einzelarbeit, Plädoyers im Plenum: Vorbereitung allein 5, Plädoyers zweier Freiwilliger 4 (Betrieb, PAL), Urteil allein 2, Auswertung über Classroom 4 · Doppeldecker zu S05 (Rollenspiel)" -->
+<!-- didaktik="Lehrschritt üben lassen (Bewerten) · 45–60 min · Einzelarbeit, Plädoyers im Plenum: Vorbereitung allein 5, Plädoyers zweier Freiwilliger 4 (Betrieb, PAL), Urteil allein 2, Auswertung über Classroom 4 · Doppeldecker zu S04 (Rollenspiel)" -->
 
 <!-- src: R193 -->
 
@@ -277,7 +277,7 @@ Bringen Sie die Schritte in die richtige Reihenfolge (R190):
 
 **2. Plädoyers (4 min):** Zwei Freiwillige vertreten je eine Seite (je 2 min). Alle anderen sind die **Jury**.
 
-**3. Urteil (allein, 2 min):** Welches Gütekriterium aus S11 legen Sie als Maßstab an?
+**3. Urteil (allein, 2 min):** Welches Gütekriterium aus S10 legen Sie als Maßstab an?
 
 - [(Objektivität)] Objektivität
 - [(Reliabilität)] Reliabilität
@@ -294,7 +294,7 @@ Begründen Sie Ihr Urteil in zwei Sätzen:
     [[___ ___ ___]]
 
 > [!NOTE] 🪞 Methodenspiegel
-> Sie haben gerade eine Disputation mit Rollen erlebt – wie das Rollenspiel in **S05**, nur mit Jury und Bewertungsmaßstab.
+> Sie haben gerade eine Disputation mit Rollen erlebt – wie das Rollenspiel in **S04**, nur mit Jury und Bewertungsmaßstab.
 
 **Noch einmal:** Ist die Kritik am programmierten Teil der PAL-Prüfungen berechtigt?
 
@@ -356,16 +356,16 @@ Wie sicher fühlen Sie sich? (1 = gar nicht, 4 = sehr sicher)
 | Baustein | Inhalt | aus | ✔ |
 | --- | --- | --- | --- |
 | 1 | Thema, Lerngruppe, Schulform | S01 | |
-| 2 | logische Methode | S02 | |
-| 3 | Lernhandlung (vollständige Handlung) | S03 | |
-| 4 | Projekt-Grundmuster | S04 | |
-| 5 | Kontrolle und Bewertung | S05 | |
-| 6 | Experiment | S06 | |
-| 7 | Großform | S07 | |
-| 8 | reduzierte Fachaussage | S08 | |
-| 9 | Sozial- und Aktionsformen | S09 | |
-| 10 | Medium (ggf. Simulation oder KI-Einsatz mit Leitplanken) | S10 | |
-| 11 | Kontrollaufgabe mit Operator und Erwartungshorizont | S11 | |
+| 2 | logische Methode | S01b | |
+| 3 | Lernhandlung (vollständige Handlung) | S02 | |
+| 4 | Projekt-Grundmuster | S03 | |
+| 5 | Kontrolle und Bewertung | S04 | |
+| 6 | Experiment | S05 | |
+| 7 | Großform | S06 | |
+| 8 | reduzierte Fachaussage | S07 | |
+| 9 | Sozial- und Aktionsformen | S08 | |
+| 10 | Medium (ggf. Simulation oder KI-Einsatz mit Leitplanken) | S09 | |
+| 11 | Kontrollaufgabe mit Operator und Erwartungshorizont | S10 | |
 
 **Allein (8 min):** Welcher Baustein fehlt Ihnen noch oder ist am schwächsten? Die häufigsten Lücken besprechen wir anschließend gemeinsam.
 
@@ -394,7 +394,7 @@ Notieren Sie den Baustein mit einem nächsten Schritt:
 📝 **Beuteblatt-Stopp:** Ergänzen Sie Ihre Beute aus dem ganzen Modul.
 
 > [!NOTE] 🔗 Querverweise
-> Gütekriterien, programmierte Prüfung, Operatoren → **S11** · Rollenspiel, Bewertung in Projekten → **S05** · Handlungskompetenz → **S03** · Medien und KI → **S10** · Kurskarte → **Kursüberblick**
+> Gütekriterien, programmierte Prüfung, Operatoren → **S10** · Rollenspiel, Bewertung in Projekten → **S04** · Handlungskompetenz → **S02** · Medien und KI → **S09** · Kurskarte → **Kursüberblick**
 
 ### Prüfungsfragen zum Üben
 
@@ -405,7 +405,7 @@ Notieren Sie den Baustein mit einem nächsten Schritt:
 1. Warum wurde die PAL gegründet, und welche Ziele verfolgt sie?
 2. Beschreiben Sie den Weg einer PAL-Aufgabe vom Auftrag bis zur Verabschiedung.
 3. Wägen Sie betrieblichen Auftrag und PAL-Prüfung anhand der Gütekriterien gegeneinander ab.
-4. „Der programmierte Teil der PAL-Prüfung passt nicht zur Handlungskompetenz.“ – Nehmen Sie Stellung (vgl. S03).
+4. „Der programmierte Teil der PAL-Prüfung passt nicht zur Handlungskompetenz.“ – Nehmen Sie Stellung (vgl. S02).
 5. Ordnen Sie die Themen des Moduls den Planungsfragen der Kurskarte (Ziele, Inhalte, Methoden, Medien) zu und begründen Sie eine Zuordnung.
 
 ### Vorbereitung auf die Modulprüfung

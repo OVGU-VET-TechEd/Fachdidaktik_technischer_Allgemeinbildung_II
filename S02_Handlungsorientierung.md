@@ -7,18 +7,18 @@ narrator:  Deutsch Female
 mode:      Textbook
 classroom: enable
 
-title:     S03 – Handlungsorientierung
+title:     S02 – Handlungsorientierung
 comment:   Fachdidaktik technischer Allgemeinbildung II / Fachdidaktik gewerblich-technischer Fachrichtungen – Sitzung 3. Warum lernt man durch Handeln? Was ist eine Handlung? Wie sieht handlungsorientierter Unterricht aus?
 tags:      Fachdidaktik, Technikdidaktik, Berufsbildung, Handlungsorientierung, vollständige Handlung, Handlungsregulation
 
 import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragAndDrop_Template/refs/heads/main/README.md
 -->
 
-# S03 – Handlungsorientierung
+# S02 – Handlungsorientierung
 
 <!-- src: R040 -->
 
-<!-- didaktik="Planungsraster S03 · E-03, E-04, E-12, E-17, E-19, E-24" -->
+<!-- didaktik="Planungsraster S02 · E-03, E-04, E-12, E-17, E-19, E-24" -->
 
 **Das Konzept der Handlungsorientierung**
 
@@ -39,7 +39,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 5. eine Unterrichtssituation anhand der Merkmale handlungsorientierter Unterrichtsgestaltung **beurteilen**,
 6. für Ihr Entwurfsthema eine Lernhandlung **entwerfen** *(optional)*.
 
-📝 **Beuteblatt S03:** drei Abschnitte – einer pro Station.
+📝 **Beuteblatt S02:** drei Abschnitte – einer pro Station.
 
 ## Einstieg: Ist diese Vorlesung handlungsorientiert?
 
@@ -146,7 +146,7 @@ Ordnen Sie die Kernaussagen den Autoren zu.
 
 - nicht Bewegungselemente (Taylor, Gilbreth)
 - kleinste abgrenzbare zielbewusste Verhaltenseinheit
-- basiert auf zyklischen Einheiten (TOTE- / VVR-) → genauer in **S05**
+- basiert auf zyklischen Einheiten (TOTE- / VVR-) → genauer in **S04**
 
 <small>Quelle: Folie R044 „Hierarchisch-sequentielles Modell der Handlungsregulation (Hacker 1978, 1998; Volpert 1980)“</small>
 
@@ -211,7 +211,7 @@ Ordnen Sie die Kernaussagen den Autoren zu.
 <small>Quelle: Folien R047 „Eine vollständige Handlung besteht aus:“ und R048 „Vollständige Handlung nach Hacker:“</small>
 
 > [!NOTE] 🔗 Querverweis
-> Die Phasen der vollständigen Handlung begegnen Ihnen wieder in der **Projektmethode (S04)**, der **Leittextmethode** und dem **technischen Experiment (S06)**.
+> Die Phasen der vollständigen Handlung begegnen Ihnen wieder in der **Projektmethode (S03)**, der **Leittextmethode** und dem **technischen Experiment (S05)**.
 
 ### Aktivierung: Handlungen zerlegen
 
@@ -363,7 +363,7 @@ Was müsste sich ändern – und wäre das in einer Vorlesung überhaupt möglic
     [[___ ___ ___]]
 
 > [!TIP] 🔗 Verbinden Sie mit S01
-> Welche *Organisationsform* (Unterrichtsstunde, Exkursion, Praktika …) ließe mehr Handlungsorientierung zu? Und welche *logische Methode* aus S02 passt am besten zum Orientieren in einer vollständigen Handlung?
+> Welche *Organisationsform* (Unterrichtsstunde, Exkursion, Praktika …) ließe mehr Handlungsorientierung zu? Und welche *logische Methode* aus S01b passt am besten zum Orientieren in einer vollständigen Handlung?
 
 ### Baustein 3 für Ihren Unterrichtsentwurf (optional)
 
@@ -396,7 +396,7 @@ Welche **Selbständigkeitsstufe** (1–5) streben Sie an – und warum?
 📝 **Beuteblatt-Stopp:** Ergänzen Sie Abschnitt 3 und Ihre wichtigste Beute.
 
 > [!NOTE] 🔗 Querverweise
-> TOTE- und VVR-Einheiten (R044) → **S05** · vollständige Handlung → **S04** Projektmethode, **S06** Leittext und Experiment · Kontrolle und Bewertung → **S05**, **S11**
+> TOTE- und VVR-Einheiten (R044) → **S04** · vollständige Handlung → **S03** Projektmethode, **S05** Leittext und Experiment · Kontrolle und Bewertung → **S04**, **S10**
 
 ### Prüfungsfragen zum Üben
 
@@ -410,9 +410,9 @@ Welche **Selbständigkeitsstufe** (1–5) streben Sie an – und warum?
 4. „Handlungsorientierter Unterricht ist eine Methode." – Nehmen Sie Stellung.
 5. Welche Veränderungen in der Arbeitswelt begründen handlungsorientierten Unterricht (Frieling)?
 
-### Vorbereitung auf S04 (vor der Sitzung, ca. 15 min)
+### Vorbereitung auf S03 (vor der Sitzung, ca. 15 min)
 
-In S04 geht es um **tradierte methodische Konzepte und die Projektmethode**.
+In S03 geht es um **tradierte methodische Konzepte und die Projektmethode**.
 
 **Aufgabe:** Erinnern Sie sich an ein „Projekt" aus Schule, Ausbildung oder Studium. Wer hatte die Idee? Wer hat geplant? Was kam am Ende heraus?
 

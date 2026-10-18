@@ -7,16 +7,16 @@ narrator:  Deutsch Female
 mode:      Textbook
 classroom: enable
 
-title:     S09 – Sozialformen & Aktionsformen
+title:     S08 – Sozialformen & Aktionsformen
 comment:   Fachdidaktik technischer Allgemeinbildung II / Fachdidaktik gewerblich-technischer Fachrichtungen – Sitzung 9. Wer arbeitet mit wem – und wer tut was? Sozialformen, Aktionsformen und die Frage, was Unterricht wirksam macht.
 tags:      Fachdidaktik, Technikdidaktik, Berufsbildung, Sozialformen, Aktionsformen, Frontalunterricht, Gruppenarbeit, Tiefenstrukturen
 
 import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragAndDrop_Template/refs/heads/main/README.md
 -->
 
-# S09 – Sozialformen & Aktionsformen
+# S08 – Sozialformen & Aktionsformen
 
-<!-- didaktik="Planungsraster S09 · E-03, E-04, E-12, E-17, E-19, E-27, E-32, E-33" -->
+<!-- didaktik="Planungsraster S08 · E-03, E-04, E-12, E-17, E-19, E-27, E-32, E-33" -->
 
 > [!IMPORTANT] 🧭 Leitfrage
 > Wer arbeitet mit wem – und wer tut was? – Auf der Kurskarte schließen wir heute die zwei noch offenen Leitfragen aus S01.
@@ -33,7 +33,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 5. die These zum Frontalunterricht begründet **beurteilen**,
 6. eine Abfolge von Sozial- und Aktionsformen für Ihren Entwurf **planen** *(optional)*.
 
-📝 **Beuteblatt S09**
+📝 **Beuteblatt S08**
 
 ## Einstieg: Wie viel ist frontal?
 
@@ -68,7 +68,7 @@ Stimmen Sie zu?
  | ... den Erkenntnis-  | ... die Beziehung      | ... die Beziehung      | ... den Bildungs- |
  | weg?                 | Lehrende <-> Lernende? | Lernende <-> Gegen-    | prozess?          |
  | Unterrichtsmethoden  | AKTIONSFORMEN          | stand? SOZIALFORMEN    | Organisations-    |
- | S02, S04-S07  (ok)   | >>> heute: Station 2   | >>> heute: Station 1   | formen S01  (ok)  |
+ | S01b, S03-S06 (ok)   | >>> heute: Station 2   | >>> heute: Station 1   | formen S01  (ok)  |
  +----------------------+------------------------+------------------------+-------------------+
                                           |
                            Station 3 [NEU, Zinn 2026]: Was macht Unterricht wirksam?
@@ -253,7 +253,7 @@ Bietet rationelle Stoffvermittlung, hat erziehende Wirkung durch den Lehrervortr
 
 <small>Quelle: Folien R155–R156 „8.2 Selbstständig“ (im Original: JESSIPOW; Wortlaut unverändert; Lesehilfe ergänzt)</small>
 
-> [!TIP] 🔗 Verbinden Sie mit S03
+> [!TIP] 🔗 Verbinden Sie mit S02
 > Die Selbständigkeitsstufen (R045: nachvollziehen → anpassen → auswählen → kombinieren → entwerfen) beschreiben, *wie* selbstständig – Jessipows Merkmale, *wann* eine Arbeit überhaupt als selbstständige Schülerarbeit gilt.
 
 ### Erarbeitend
@@ -285,7 +285,7 @@ Bietet rationelle Stoffvermittlung, hat erziehende Wirkung durch den Lehrervortr
 [(X)] Nein – es fehlt die Notwendigkeit, unter Anspannung der Kräfte die besten Lösungswege selbst zu suchen.
 [( )] Ja – solange genug Zeit gegeben wird.
 ***
-Nach Jessipow braucht selbstständige Schülerarbeit (1) eine Aufgabenstellung durch den Lehrer und angemessene Zeit **und** (2) die Notwendigkeit, unter Anspannung der Kräfte die besten Lösungswege zu suchen und zu beschreiten. „Nicht jede selbstständige Arbeit des Schülers [kann] als selbstständige Schülerarbeit angesehen werden" (R155). Vgl. S06: Eine Anleitung nimmt Planen und Entscheiden vorweg.
+Nach Jessipow braucht selbstständige Schülerarbeit (1) eine Aufgabenstellung durch den Lehrer und angemessene Zeit **und** (2) die Notwendigkeit, unter Anspannung der Kräfte die besten Lösungswege zu suchen und zu beschreiten. „Nicht jede selbstständige Arbeit des Schülers [kann] als selbstständige Schülerarbeit angesehen werden" (R155). Vgl. S05: Eine Anleitung nimmt Planen und Entscheiden vorweg.
 ***
 
 ## Station 3: [NEU] Was macht Unterricht wirksam?
@@ -383,7 +383,7 @@ Begründen Sie in zwei Sätzen:
 📝 **Beuteblatt-Stopp:** Ergänzen Sie die Abschnitte 2 und 3, die Analyse und Ihre wichtigste Beute.
 
 > [!NOTE] 🔗 Querverweise
-> vier Leitfragen und Strukturlegetechnik → **S01** · Selbständigkeitsstufen → **S03** · Lehrer- und Schülerexperiment → **S06** · Gruppenbewertung → **S05** · Vorführen, Exkursion, Experiment als Medien der Wirklichkeitserfahrung → **S10**
+> vier Leitfragen und Strukturlegetechnik → **S01** · Selbständigkeitsstufen → **S02** · Lehrer- und Schülerexperiment → **S05** · Gruppenbewertung → **S04** · Vorführen, Exkursion, Experiment als Medien der Wirklichkeitserfahrung → **S09**
 
 ### Prüfungsfragen zum Üben
 
@@ -397,9 +397,9 @@ Begründen Sie in zwei Sätzen:
 4. Wann ist Schülerarbeit nach Jessipow „selbstständig"?
 5. „Frontalunterricht ist schlechter Unterricht." – Nehmen Sie Stellung.
 
-### Vorbereitung auf S10 (vor der Sitzung, ca. 15 min)
+### Vorbereitung auf S09 (vor der Sitzung, ca. 15 min)
 
-In S10 geht es um **Medien** – von der Tafel bis zu Simulationen und KI-Chatbots.
+In S09 geht es um **Medien** – von der Tafel bis zu Simulationen und KI-Chatbots.
 
 **Aufgabe:** Notieren Sie ein Medium, das Sie in einer Stunde Ihrer Fachrichtung einsetzen wollen (Tafel, Modell, Video, Simulation, KI-Chatbot, Realgegenstand …), und wozu.
 

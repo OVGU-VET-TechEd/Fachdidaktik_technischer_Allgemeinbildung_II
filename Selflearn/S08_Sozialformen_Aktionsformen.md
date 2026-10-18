@@ -6,16 +6,16 @@ language:  de
 narrator:  Deutsch Female
 mode:      Textbook
 
-title:     S09 – Sozialformen & Aktionsformen (Selbstlerneinheit)
-comment:   Fachdidaktik technischer Allgemeinbildung II – Selbstlerneinheit zu Sitzung S09. Gruppenarbeit planen, Aktionsformen und selbstständige Schülerarbeit unterscheiden, Oberflächen- und Tiefenstruktur an einer Stundenbeschreibung analysieren und eine Abfolge mit Cognitive Apprenticeship planen.
+title:     S08 – Sozialformen & Aktionsformen (Selbstlerneinheit)
+comment:   Fachdidaktik technischer Allgemeinbildung II – Selbstlerneinheit zu Sitzung S08. Gruppenarbeit planen, Aktionsformen und selbstständige Schülerarbeit unterscheiden, Oberflächen- und Tiefenstruktur an einer Stundenbeschreibung analysieren und eine Abfolge mit Cognitive Apprenticeship planen.
 tags:      Fachdidaktik, Technikdidaktik, Berufsbildung, Sozialformen, Aktionsformen, Gruppenarbeit, Tiefenstrukturen, Cognitive Apprenticeship, Selbstlernen
 
 import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragAndDrop_Template/refs/heads/main/README.md
 -->
 
-# S09 – Sozialformen & Aktionsformen (Selbstlerneinheit)
+# S08 – Sozialformen & Aktionsformen (Selbstlerneinheit)
 
-<!-- didaktik="Selbstlerneinheit S09 · ca. 55 min · nur Quellen aus S09" -->
+<!-- didaktik="Selbstlerneinheit S08 · ca. 55 min · nur Quellen aus S08" -->
 
 > [!IMPORTANT] 🧭 Leitfrage
 > Wie wähle ich Sozial- und Aktionsformen so, dass nicht nur die Oberfläche abwechslungsreich ist, sondern die Lernenden wirklich denken?
@@ -39,7 +39,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 4. eine Abfolge von Sozial- und Aktionsformen nach Cognitive Apprenticeship **planen**.
 
 > [!TIP] 📖 Grundlage
-> Die Präsenzsitzung [S09 – Sozialformen & Aktionsformen](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S09_Sozialformen_Aktionsformen.md).
+> Die Präsenzsitzung [S08 – Sozialformen & Aktionsformen](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S08_Sozialformen_Aktionsformen.md).
 
 ## 0 · Wo stehen Sie?
 
@@ -68,7 +68,7 @@ Ich kann begründen, warum eine Sozialform allein noch nichts über die Qualitä
 | Mitglieder arbeiten **gleich** | aufgabengleich + arbeitsgleich | aufgabenverschieden + arbeitsgleich |
 | Mitglieder arbeiten **geteilt** | aufgabengleich + arbeitsteilig | aufgabenverschieden + arbeitsteilig |
 
-<small>Nach S09, Folie R151.</small>
+<small>Nach S08, Folie R151.</small>
 
 **Welche Variante passt zum Ziel?**
 
@@ -129,7 +129,7 @@ Stunde A sieht an der Oberfläche abwechslungsreich aus, ist aber in allen drei 
 
 </details>
 
-**Zurück zur These aus S09:** „Wer zu 77 % frontal unterrichtet, unterrichtet schlecht.“ Wie würden Sie jetzt antworten – in drei Sätzen?
+**Zurück zur These aus S08:** „Wer zu 77 % frontal unterrichtet, unterrichtet schlecht.“ Wie würden Sie jetzt antworten – in drei Sätzen?
 
     [[___ ___ ___]]
 
@@ -180,6 +180,6 @@ Ich kann begründen, warum eine Sozialform allein noch nichts über die Qualitä
 
 ## Literatur
 
-- Jessipow – zitiert nach S09, Folie R155; Jahr und vollständige Angabe auf der Originalfolie nicht vorhanden.
-- Meyer – zitiert nach S09, Folie R147; Jahr und vollständige Angabe auf der Originalfolie nicht vorhanden.
+- Jessipow – zitiert nach S08, Folie R155; Jahr und vollständige Angabe auf der Originalfolie nicht vorhanden.
+- Meyer – zitiert nach S08, Folie R147; Jahr und vollständige Angabe auf der Originalfolie nicht vorhanden.
 - Zinn, B. (2026). *Didaktik des naturwissenschaftlichen, informatischen und technikwissenschaftlichen Unterrichts.* Springer Spektrum, Abschn. 11.5–11.7, S. 270–273. https://doi.org/10.1007/978-3-662-72499-6

@@ -7,16 +7,16 @@ narrator:  Deutsch Female
 mode:      Textbook
 classroom: enable
 
-title:     S11 – Lernerfolgskontrolle & Testgütekriterien
+title:     S10 – Lernerfolgskontrolle & Testgütekriterien
 comment:   Fachdidaktik technischer Allgemeinbildung II / Fachdidaktik gewerblich-technischer Fachrichtungen – Sitzung 11. Haben sie es gelernt – und woher wissen wir das? Lernkontrolle und Lernziel, Gütekriterien, Kontrollfehler und didaktische Aufforderungen.
 tags:      Fachdidaktik, Technikdidaktik, Berufsbildung, Lernerfolgskontrolle, Prüfung, Test, Validität, Reliabilität, Objektivität, Hof-Effekt, Operatoren
 
 import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragAndDrop_Template/refs/heads/main/README.md
 -->
 
-# S11 – Lernerfolgskontrolle & Testgütekriterien
+# S10 – Lernerfolgskontrolle & Testgütekriterien
 
-<!-- didaktik="Planungsraster S11 · E-03, E-04, E-09, E-12, E-17, E-19, E-23, E-27, E-33, E-35" -->
+<!-- didaktik="Planungsraster S10 · E-03, E-04, E-09, E-12, E-17, E-19, E-23, E-27, E-33, E-35" -->
 
 > [!IMPORTANT] 🧭 Leitfrage
 > Haben sie es gelernt – und woher wissen wir das? – Heute prüfen wir das Prüfen. Auch Ihre eigene Modulprüfung.
@@ -33,7 +33,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 5. eine Prüfungsaufgabe anhand der Gütekriterien **beurteilen**,
 6. eine Kontrollaufgabe mit Operator und Erwartungshorizont für Ihren Entwurf **entwickeln** *(optional)*.
 
-📝 **Beuteblatt S11**
+📝 **Beuteblatt S10**
 
 ## Einstieg: Ist eine mündliche Prüfung objektiv?
 
@@ -52,7 +52,7 @@ Ist eine mündliche Prüfung objektiv?
 
 <!-- didaktik="Lehrschritt Vorwissen aktivieren lassen (Erleben) · 5–10 min · Einzelarbeit · NICHT auflösen – Auflösung nach Station 2 (52–55 min). Zuteilung: Geburtsmonat ungerade = A, gerade = B. Im Hörsaal nur die jeweilige Version zeigen bzw. bitten, nur die eigene zu lesen. Persona-Review P3: Bei 10–15 Personen kann der Unterschied klein ausfallen oder fehlen – dann trotzdem mit R180 diskutieren (Studien zeigen den Effekt über viele Bewertungen, nicht in jeder Kleingruppe)." -->
 
-**Aufgabe aus S10:** „Nennen Sie die drei Funktionen von Medien und geben Sie je ein Beispiel."
+**Aufgabe aus S09:** „Nennen Sie die drei Funktionen von Medien und geben Sie je ein Beispiel."
 **Erwartungshorizont:** je Funktion 1 Punkt, je passendes Beispiel 1 Punkt – höchstens 6 Punkte.
 
 Geburtsmonat **ungerade** → bewerten Sie nur **Antwort A**. Geburtsmonat **gerade** → nur **Antwort B**.
@@ -95,19 +95,19 @@ Ihre Punkte für Antwort B:
 Jede Sitzung beginnt mit Lernzielen (vgl. S01). Heute fragen wir: Woher wissen wir, ob sie erreicht wurden? Wir gehen in vier Stationen vor – Lernziel und Lernkontrolle, Test und Gütekriterien, Kontrollfehler und schließlich die passenden Aufforderungen für jeden Lernzielbereich.
 
 ``` ascii
-  ZIELE: Lernziel (S01, S03)  -------------------------------->  KONTROLLE: Wurde es erreicht? (heute)
+  ZIELE: Lernziel (S01, S02)  -------------------------------->  KONTROLLE: Wurde es erreicht? (heute)
         |                                                                ^
         v                                                                |
-  INHALTE / METHODEN / MEDIEN (S01-S10)  ----- Unterricht ---------------+
+  INHALTE / METHODEN / MEDIEN (S01-S09)  ----- Unterricht ---------------+
                                                                          |
-  S05: Kontrolle und Bewertung in Projekten (Soll-Ist-Vergleich)  -------+
-  S12: zentrale Abschlussprüfungen (PAL)
+  S04: Kontrolle und Bewertung in Projekten (Soll-Ist-Vergleich)  -------+
+  S11: zentrale Abschlussprüfungen (PAL)
 
   Station 1: Lernziel und Lernkontrolle -> Station 2: Test und Gütekriterien
   -> Station 3: Kontrollfehler -> Station 4: Aufforderungen nach Lernzielbereichen
 ```
 
-<small>Die Kurskarte ist eine Lesehilfe (vgl. S01, S05).</small>
+<small>Die Kurskarte ist eine Lesehilfe (vgl. S01, S04).</small>
 
 ## Station 1: Lernziel und Lernkontrolle
 
@@ -462,7 +462,7 @@ Zum Schluss: Wie formuliere ich Aufgaben so, dass sie zum Lernziel passen? Die F
 <!-- neu="Zinn 2026, S. 70–73" -->
 
 --{{0}}--
-Zinn ergänzt das, als NEU markiert: Solche handlungsleitenden Verben heißen Operatoren; sie machen die Verhaltenskomponente eines Lernziels beobachtbar. Für die Prüfung im Fach Technik werden drei Anforderungsbereiche unterschieden: Reproduktion, Reorganisation und Transfer sowie Bewertung und Problemlösung – am Beispiel des Spannungs-Dehnungs-Diagramms, das Sie aus S02 kennen.
+Zinn ergänzt das, als NEU markiert: Solche handlungsleitenden Verben heißen Operatoren; sie machen die Verhaltenskomponente eines Lernziels beobachtbar. Für die Prüfung im Fach Technik werden drei Anforderungsbereiche unterschieden: Reproduktion, Reorganisation und Transfer sowie Bewertung und Problemlösung – am Beispiel des Spannungs-Dehnungs-Diagramms, das Sie aus S01b kennen.
 
 > [!NOTE] 🆕 [NEU] Lernzielbereiche (Zinn 2026, S. 70, Tab. 5.2)
 > *kognitiv* (Denken, Wissen, Problemlösen), *affektiv* (Interessen, Bereitschaft, Werthaltungen), *psychomotorisch* (manipulative und motorische Fähigkeiten) – mit Beispielen aus der Technik: „Die Schülerinnen und Schüler stellen ein Gewinde fachgerecht her“ (psychomotorisch).
@@ -523,7 +523,7 @@ Zinn ergänzt das, als NEU markiert: Solche handlungsleitenden Verben heißen Op
 📝 **Beuteblatt-Stopp:** Ergänzen Sie die Abschnitte 3 und 4, Baustein 11 und Ihre wichtigste Beute.
 
 > [!NOTE] 🔗 Querverweise
-> Lernziele mit Operatoren, Constructive Alignment → **S01** · Kontrolle und Bewertung in Projekten, Soll-Ist-Vergleich → **S05** · Medien, KI und Prüfen → **S10** · zentrale Abschlussprüfungen (PAL) → **S12**
+> Lernziele mit Operatoren, Constructive Alignment → **S01** · Kontrolle und Bewertung in Projekten, Soll-Ist-Vergleich → **S04** · Medien, KI und Prüfen → **S09** · zentrale Abschlussprüfungen (PAL) → **S11**
 
 ### Prüfungsfragen zum Üben
 
@@ -537,9 +537,9 @@ Zinn ergänzt das, als NEU markiert: Solche handlungsleitenden Verben heißen Op
 4. Beschreiben Sie zwei Kontrollfehler und wie man ihnen begegnen kann.
 5. „Eine mündliche Prüfung kann nicht objektiv sein." – Nehmen Sie Stellung.
 
-### Vorbereitung auf S12 (vor der Sitzung, ca. 15 min)
+### Vorbereitung auf S11 (vor der Sitzung, ca. 15 min)
 
-In S12 geht es um **zentrale Abschlussprüfungen (PAL)** und den Rückblick auf das ganze Modul.
+In S11 geht es um **zentrale Abschlussprüfungen (PAL)** und den Rückblick auf das ganze Modul.
 
 **Aufgabe:** Erinnern Sie sich an eine Zwischen- oder Abschlussprüfung (Ausbildung, Abitur). Wer hat sie erstellt – Ihre Schule oder eine zentrale Stelle? Was war daran fair, was nicht?
 
@@ -547,7 +547,7 @@ In S12 geht es um **zentrale Abschlussprüfungen (PAL)** und den Rückblick auf 
 
 Sollte die Abschlussprüfung zentral erstellt werden?
 
-- [(zentral)] Ja, zentral (z. B. von der PAL – der Prüfungsaufgaben- und Lehrmittel-Entwicklungsstelle, vgl. S12)
+- [(zentral)] Ja, zentral (z. B. von der PAL – der Prüfungsaufgaben- und Lehrmittel-Entwicklungsstelle, vgl. S11)
 - [(Schule)] Nein, von der Schule bzw. den Lehrkräften
 - [(gemischt)] Gemischt
 - [(weiß nicht)] Weiß nicht

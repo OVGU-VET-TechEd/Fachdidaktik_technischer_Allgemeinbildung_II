@@ -1,11 +1,11 @@
-id: fdtech2s12668eff02
+id: fdtech2s027537a8f5
 createdBy: ovgu-vet-teched
-dateCreated: 1791747976681
-name: 'FD Technik II · S12 – PAL-Prüfungen & Modulsynthese'
+dateCreated: 1791747976680
+name: 'FD Technik II · S01b – Unterrichtsmethoden unter dem logischen Aspekt'
 meta:
   description: >-
     Fachdidaktik technischer Allgemeinbildung II (OVGU) – Live-Classroom zur
-    Sitzung S12. Die LiaScript-Folien laufen im Classroom-Modus: Quiz- und
+    Sitzung S01b. Die LiaScript-Folien laufen im Classroom-Modus: Quiz- und
     Umfrageantworten aller Teilnehmenden werden gemeinsam ausgewertet.
   selfAssign: false
   defaultNumberOfRooms: 0
@@ -16,7 +16,7 @@ modules:
   - url: https://edrys-labs.github.io/module-liascript/
     config:
       classroom: true
-      course: https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S12_PAL_Synthese.md
+      course: https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S01b_Logische_Methoden.md
     studentConfig: ''
     teacherConfig: ''
     stationConfig: ''

@@ -7,16 +7,16 @@ narrator:  Deutsch Female
 mode:      Textbook
 classroom: enable
 
-title:     S02 – Unterrichtsmethoden unter dem logischen Aspekt
+title:     S01b – Unterrichtsmethoden unter dem logischen Aspekt
 comment:   Fachdidaktik technischer Allgemeinbildung II / Fachdidaktik gewerblich-technischer Fachrichtungen – Sitzung 2. Analytisch, synthetisch, deduktiv, induktiv, genetisch, historisch, reduktiv – an Beispielen aus Bau- und Werkstofftechnik.
 tags:      Fachdidaktik, Technikdidaktik, Berufsbildung, Unterrichtsmethoden, induktiv, deduktiv, analytisch, synthetisch
 
 import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragAndDrop_Template/refs/heads/main/README.md
 -->
 
-# S02 – Unterrichtsmethoden unter dem logischen Aspekt
+# S01b – Unterrichtsmethoden unter dem logischen Aspekt
 
-<!-- didaktik="Planungsraster S02 · E-03, E-04, E-12, E-17, E-19, E-22" -->
+<!-- didaktik="Planungsraster S01b · E-03, E-04, E-12, E-17, E-19, E-22" -->
 
 > [!IMPORTANT] 🧭 Leitfrage
 > Wie organisiere ich den **Erkenntnisweg**? – In S01 haben Sie gesehen: Unterrichtsmethoden im engeren Sinn lassen sich unter dem *logischen Aspekt* ordnen (Folie R012). Heute lernen Sie diese Methoden kennen – und erleben einige davon selbst.
@@ -33,7 +33,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 5. Vor- und Nachteile deduktiven und induktiven Vorgehens **abwägen**,
 6. für Ihr Entwurfsthema eine logische Methode **auswählen** und einen Unterrichtsgang **skizzieren** *(optional)*.
 
-📝 **Beuteblatt S02:** Füllen Sie die Überblickstabelle im Lauf der Sitzung.
+📝 **Beuteblatt S01b:** Füllen Sie die Überblickstabelle im Lauf der Sitzung.
 
 ## Einstieg: Regel zuerst?
 
@@ -529,9 +529,9 @@ Dach – analytisch (R014) · Beton – deduktiv (R021–R022) · HOOKE – indu
 3. Worin unterscheiden sich genetische und historische Methode? Erläutern Sie am Beispiel Spannbeton.
 4. Erklären Sie regressive und progressive Reaktion der reduktiven Methode an einem Fehlerfall aus Ihrer Fachrichtung.
 
-### Vorbereitung auf S03 (vor der Sitzung, ca. 15 min)
+### Vorbereitung auf S02 (vor der Sitzung, ca. 15 min)
 
-In S03 geht es um **Handlungsorientierung** – warum Lernende im technischen Unterricht handeln sollen.
+In S02 geht es um **Handlungsorientierung** – warum Lernende im technischen Unterricht handeln sollen.
 
 **Aufgabe:** Beschreiben Sie eine typische berufliche Tätigkeit Ihrer Fachrichtung (z. B. eine Steckdose installieren, eine Welle drehen, einen Dachstuhl abbinden) in Schritten: Was passiert *vor*, *während* und *nach* der Ausführung?
 

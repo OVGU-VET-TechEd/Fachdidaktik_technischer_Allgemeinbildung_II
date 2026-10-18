@@ -6,22 +6,29 @@ language:  de
 narrator:  Deutsch Female
 mode:      Textbook
 
-title:     S07 – Methodische Großformen (Selbstlerneinheit)
-comment:   Fachdidaktik technischer Allgemeinbildung II – Selbstlerneinheit zu Sitzung S07. Großformen nach Pahl an neuen Situationen erkennen, Analyse- und Aufgabenform unterscheiden und eine Großform für die eigene Fachrichtung ausgestalten.
+title:     S06 – Methodische Großformen (Selbstlerneinheit)
+comment:   Fachdidaktik technischer Allgemeinbildung II – Selbstlerneinheit zu Sitzung S06 (Selbstlerntermin 16.11.2026). Großformen nach Pahl an neuen Situationen erkennen, Analyse- und Aufgabenform unterscheiden und eine Großform für die eigene Fachrichtung ausgestalten.
 tags:      Fachdidaktik, Technikdidaktik, Berufsbildung, Großformen, Pahl, Diagnoseaufgabe, Instandsetzung, Konstruktion, Selbstlernen
 
 import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragAndDrop_Template/refs/heads/main/README.md
 -->
 
-# S07 – Methodische Großformen (Selbstlerneinheit)
+# S06 – Methodische Großformen (Selbstlerneinheit)
 
-<!-- didaktik="Selbstlerneinheit S07 · ca. 55 min · nur Quellen aus S07" -->
+<!-- didaktik="Selbstlerneinheit S06 · Selbstlerntermin 16.11.2026 (Dozent nicht vor Ort) · ca. 55 min nach der LiaScript-Sitzung · nur Quellen aus S06" -->
 
 > [!IMPORTANT] 🧭 Leitfrage
 > Welche Großform passt zu welcher beruflichen Situation – und wie gestalte ich sie aus?
 
+> [!WARNING] 📅 Selbstlerntermin am 16.11.2026
+> An diesem Termin gibt es keine Präsenzveranstaltung. Bearbeiten Sie **zuerst** die [LiaScript-Sitzung S06](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S06_Grossformen.md) (ca. 60 min, Partnerphasen allein bearbeiten) und **danach** diese Einheit. Fragen notieren Sie auf dem Beuteblatt – wir greifen sie in S07 auf.
+
+> [!TIP] ✍️ Übung in Moodle
+> Führen Sie im Anschluss an diese Einheit die Übung in Moodle durch: [Übung in Moodle öffnen](https://elearning.ovgu.de/course/view.php?id=22041)
+
 **Ablauf (ca. 55 min)**
 
+<!-- data-type="none" -->
 | Schritt | Inhalt | Zeit |
 | --- | --- | --- |
 | 0 | Wo stehen Sie? | 3 min |
@@ -38,7 +45,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 4. die Rolle der intuitiven Phase **begründen**.
 
 > [!TIP] 📖 Grundlage
-> Die Präsenzsitzung [S07 – Methodische Großformen](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S07_Grossformen.md).
+> Die LiaScript-Sitzung [S06 – Methodische Großformen](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S06_Grossformen.md).
 
 ## 0 · Wo stehen Sie?
 
@@ -62,7 +69,7 @@ Ich kann für eine Aufgabe aus meinem Beruf eine passende Großform ausgestalten
 
 <!-- didaktik="ca. 12 min" -->
 
-| Akzent | Großformen (nach Pahl, S07) |
+| Akzent | Großformen (nach Pahl, S06) |
 | --- | --- |
 | analytisch – *Vorhandenes untersuchen* | Diagnoseaufgabe · Fallstudie · Instandsetzungsanalyse · Konstruktionsanalyse |
 | synthetisch – *Neues herstellen* | Fertigungsaufgabe · Inspektionsaufgabe · Szenariomethode · Konstruktionsaufgabe · Instandsetzungsaufgabe |
@@ -88,7 +95,7 @@ Diagnose: Zustand identifizieren, Signale verfolgen, Fehler eingrenzen. Fertigun
 
 <!-- didaktik="ca. 12 min" -->
 
-Instandsetzung und Konstruktion kommen in S07 doppelt vor – einmal **analytisch** (etwas bereits Durchgeführtes untersuchen), einmal **synthetisch** (selbst durchführen).
+Instandsetzung und Konstruktion kommen in S06 doppelt vor – einmal **analytisch** (etwas bereits Durchgeführtes untersuchen), einmal **synthetisch** (selbst durchführen).
 
 **Gegenstand: ein Treppengeländer aus Stahl**
 
@@ -101,7 +108,7 @@ Instandsetzung und Konstruktion kommen in S07 doppelt vor – einmal **analytisc
 Analyseformen: „nachvollziehendes Analysieren einer durchgeführten Konstruktion“ bzw. „bereits durchgeführte Instandsetzungen analysiert“ – motorische Aktivitäten treten zurück. Aufgabenformen: Die Lernenden konstruieren bzw. setzen selbst instand, bis zur Kontrolle, Funktionsprüfung und Abnahme.
 ***
 
-**Zum Nachdenken:** Wann würden Sie die **Analyse** vor die **Aufgabe** setzen? Denken Sie an S02: Die Analyse ist Voraussetzung der Synthese.
+**Zum Nachdenken:** Wann würden Sie die **Analyse** vor die **Aufgabe** setzen? Denken Sie an S01b: Die Analyse ist Voraussetzung der Synthese.
 
     [[___ ___]]
 
@@ -111,7 +118,7 @@ Analyseformen: „nachvollziehendes Analysieren einer durchgeführten Konstrukti
 
 **Beispiel: Diagnoseaufgabe „Licht im Flur geht nicht“** (Elektrotechnik, 1. Ausbildungsjahr)
 
-| Typischer Schritt (S07) | Ausgestaltung |
+| Typischer Schritt (S06) | Ausgestaltung |
 | --- | --- |
 | 1 Aufgaben- und Problemstellung | Kundenanruf: Licht im Flur bleibt dunkel, alle anderen Räume funktionieren. |
 | *intuitive Phase (ergänzt – bei der Diagnoseaufgabe nicht auf der Folie)* | Erste Vermutungen sammeln – ohne Bewertung. |
@@ -120,7 +127,7 @@ Analyseformen: „nachvollziehendes Analysieren einer durchgeführten Konstrukti
 | 4 Kontrolle der Durchführung | Funktion nach der Fehlerbehebung prüfen. |
 | 5 Auswertung, Bewertung, Reflexion, Transfer | War die Reihenfolge sinnvoll? Was gilt für andere Stromkreise? |
 
-**Ihre Großform:** Wählen Sie eine Großform aus S07 und gestalten Sie sie für Ihre Fachrichtung aus – mit allen typischen Schritten von der Folie. Markieren Sie die intuitive Phase (falls die Großform eine hat) und den Schritt, in dem kontrolliert wird.
+**Ihre Großform:** Wählen Sie eine Großform aus S06 und gestalten Sie sie für Ihre Fachrichtung aus – mit allen typischen Schritten von der Folie. Markieren Sie die intuitive Phase (falls die Großform eine hat) und den Schritt, in dem kontrolliert wird.
 
     [[___ ___ ___ ___ ___ ___]]
 
@@ -131,7 +138,7 @@ Analyseformen: „nachvollziehendes Analysieren einer durchgeführten Konstrukti
 <details>
 <summary>**Denkanstöße** (aufklappen)</summary>
 
-Die intuitive Phase aktiviert Vorwissen und macht Fehlvorstellungen sichtbar, bevor systematisch geplant wird. Sie erhöht die Beteiligung, weil zunächst jede Idee zählt. Und sie liefert einen Vergleichspunkt für die Reflexion am Ende: Lag meine erste Vermutung richtig – und warum (nicht)? Vergleichen Sie mit der Hypothesenbildung beim Experiment (S06).
+Die intuitive Phase aktiviert Vorwissen und macht Fehlvorstellungen sichtbar, bevor systematisch geplant wird. Sie erhöht die Beteiligung, weil zunächst jede Idee zählt. Und sie liefert einen Vergleichspunkt für die Reflexion am Ende: Lag meine erste Vermutung richtig – und warum (nicht)? Vergleichen Sie mit der Hypothesenbildung beim Experiment (S05).
 
 </details>
 
@@ -147,7 +154,7 @@ Ich kann für eine Aufgabe aus meinem Beruf eine passende Großform ausgestalten
 - [(4)] 4
 
 > [!TIP] 🤖 Üben mit KI
-> *„Nenne mir sechs berufliche Situationen aus der Bau-, Elektro- oder Metalltechnik. Ich ordne jeder eine methodische Großform nach Pahl zu (Diagnoseaufgabe, Fertigungsaufgabe, Instandsetzungsanalyse …) und begründe.“* – Prüfen Sie strittige Fälle mit den Merkmalen aus S07.
+> *„Nenne mir sechs berufliche Situationen aus der Bau-, Elektro- oder Metalltechnik. Ich ordne jeder eine methodische Großform nach Pahl zu (Diagnoseaufgabe, Fertigungsaufgabe, Instandsetzungsanalyse …) und begründe.“* – Prüfen Sie strittige Fälle mit den Merkmalen aus S06.
 
 > [!TIP] 🧩 Optional für die Selbstlernsitzung am 11.01.2027
 > Ihre ausgestaltete Großform aus Schritt 3 ist Baustein 7.
@@ -164,4 +171,4 @@ Ich kann für eine Aufgabe aus meinem Beruf eine passende Großform ausgestalten
 
 ## Literatur
 
-- Pahl, Jörg-Peter: Ausbildungs- und Unterrichtsverfahren. Ein Kompendium für den Lernbereich Arbeit und Technik. Berufsbildung, Arbeit und Innovation – Studientexte, Bd. 6. wbv – zitiert nach S07, Folie R102; Erscheinungsjahr auf der Folie nicht angegeben.
+- Pahl, Jörg-Peter: Ausbildungs- und Unterrichtsverfahren. Ein Kompendium für den Lernbereich Arbeit und Technik. Berufsbildung, Arbeit und Innovation – Studientexte, Bd. 6. wbv – zitiert nach S06, Folie R102; Erscheinungsjahr auf der Folie nicht angegeben.

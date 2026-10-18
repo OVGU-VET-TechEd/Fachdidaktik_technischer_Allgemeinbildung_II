@@ -7,16 +7,16 @@ narrator:  Deutsch Female
 mode:      Textbook
 classroom: enable
 
-title:     S10 – Medien und KI im Unterricht
+title:     S09 – Medien und KI im Unterricht
 comment:   Fachdidaktik technischer Allgemeinbildung II / Fachdidaktik gewerblich-technischer Fachrichtungen – Sitzung 10. Womit lernen sie? Funktionen von Medien, Grad der Wirklichkeitserfahrung, Tafel und Projektor, Gestaltungsprinzipien – und was Simulationen und KI-Chatbots für den Lernprozess leisten können.
 tags:      Fachdidaktik, Technikdidaktik, Berufsbildung, Medien, Wirklichkeitserfahrung, Tafel, Overheadprojektor, Gestaltungsprinzipien, Simulation, Künstliche Intelligenz, Chatbot
 
 import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragAndDrop_Template/refs/heads/main/README.md
 -->
 
-# S10 – Medien und KI im Unterricht
+# S09 – Medien und KI im Unterricht
 
-<!-- didaktik="Planungsraster S10 (überarbeitet 2026-10-11: Berliner Modell R166–R168 entfernt, Station 3 Simulation & KI neu) · E-03, E-04, E-09, E-11, E-12, E-17, E-19, E-20, E-27, E-33, E-34" -->
+<!-- didaktik="Planungsraster S09 (überarbeitet 2026-10-11: Berliner Modell R166–R168 entfernt, Station 3 Simulation & KI neu) · E-03, E-04, E-09, E-11, E-12, E-17, E-19, E-20, E-27, E-33, E-34" -->
 
 > [!IMPORTANT] 🧭 Leitfrage
 > Womit lernen sie – und was verändert sich, wenn das Medium antworten kann? – Heute füllen wir das Feld **Medien** der Kurskarte: vom Arbeitsblatt bis zum KI-Chatbot.
@@ -34,7 +34,7 @@ import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_Dr
 6. die These zur Abstraktheit von Medien begründet **beurteilen**,
 7. KI für die eigene Professionalisierung **nutzen** – Material finden, umgestalten und an Lernbedürfnisse anpassen (Einstieg; Vertiefung in der Selbstlerneinheit).
 
-📝 **Beuteblatt S10**
+📝 **Beuteblatt S09**
 
 ## Einstieg: Macht Abstraktion lustlos?
 
@@ -66,12 +66,12 @@ Stimmen Sie zu?
 ``` ascii
   ZIELE                       INHALTE                        MEDIEN
   Wozu?                       Was - und wie vereinfacht?     Womit?
-  S03, (S11, S12)             S01, S08                       >>> heute
+  S02, (S10, S11)             S01, S07                       >>> heute
         |                           |                              |
         +---------------------------+------------------------------+
                                     v
             METHODEN - "Wie organisiere ich ...?"  (S01, Folien R036-R039)
-            Methoden S02, S04-S07 (ok) · Aktions- und Sozialformen S09 (ok)
+            Methoden S01b, S03-S06 (ok) · Aktions- und Sozialformen S08 (ok)
 ```
 
 <small>Die Kurskarte ist eine Lesehilfe (vgl. S01 und den Kursüberblick).</small>
@@ -207,8 +207,8 @@ Im Unterricht sind Medien **Vermittlungshilfen oder Mittler im Lernprozess** (R1
 > | --- | --- |
 > | Voraussetzungen | Für wen ist es – mit welchem Vorwissen, welcher Sprache, welcher Ausstattung? |
 > | Intention | Was sollen die Lernenden danach können? |
-> | Thema | Welcher Inhalt – und wie weit reduziert (S08)? |
-> | Methoden | In welchem Unterrichtsgang wird es eingesetzt (S02–S07, S09)? |
+> | Thema | Welcher Inhalt – und wie weit reduziert (S07)? |
+> | Methoden | In welchem Unterrichtsgang wird es eingesetzt (S01b–S06, S08)? |
 > | Medien | Welche Form trägt das am besten – und passt sie zu den anderen drei Feldern? |
 
 > [!TIP] 🔗 Verbinden Sie
@@ -239,7 +239,7 @@ Die Originalfolie zeigt eine Pyramide mit elf Stufen. Von unten nach oben **nimm
 <small>Quelle: Folie R162 „9. Medien - Grad der Wirklichkeitserfahrung“ – Abbildung „C.5. System Unterricht“ (Buchscan), Achse „Abnehmende Wirklichkeitserfahrung“; Quelle auf Originalfolie nicht angegeben (vgl. Literatur).</small>
 
 > [!TIP] 🔗 Verbinden Sie
-> Rollenspiel (Stufe 2) haben Sie in **S05** gespielt, Experimente (Stufe 3) in **S06** geplant, Vorführen und Demonstration in **S09** als darbietende Aktionsform kennengelernt. Die **Simulation** steht schon auf der Originalfolie auf Stufe 2 – in Station 3 sehen wir, was digitale Simulationen heute können.
+> Rollenspiel (Stufe 2) haben Sie in **S04** gespielt, Experimente (Stufe 3) in **S05** geplant, Vorführen und Demonstration in **S08** als darbietende Aktionsform kennengelernt. Die **Simulation** steht schon auf der Originalfolie auf Stufe 2 – in Station 3 sehen wir, was digitale Simulationen heute können.
 
 <!-- neu="Masters 2013" -->
 
@@ -388,7 +388,7 @@ In technischen Fachrichtungen sind Simulationen längst Arbeitsmittel: Schaltung
 | Fehler kosten nichts – Lernen am Fehler wird möglich | Das Modell hinter der Simulation bleibt oft eine Blackbox |
 
 > [!NOTE] 🆕 [NEU] Real **und** virtuell
-> In einer Studie mit 202 Schülerinnen und Schülern der Sekundarstufe I lernten Gruppen, die reale und virtuelle Experimente **kombinierten**, mehr als Gruppen, die nur real experimentierten (Flegr, Kuhn & Scheiter, 2023). Die Simulation ersetzt also nicht das Experiment aus **S06** – sie ergänzt es.
+> In einer Studie mit 202 Schülerinnen und Schülern der Sekundarstufe I lernten Gruppen, die reale und virtuelle Experimente **kombinierten**, mehr als Gruppen, die nur real experimentierten (Flegr, Kuhn & Scheiter, 2023). Die Simulation ersetzt also nicht das Experiment aus **S05** – sie ergänzt es.
 
 **Kurz überlegen:** Auf welcher Stufe von R162 steht eine digitale Simulation – und rückt sie näher an die direkte Erfahrung als ein Film?
 
@@ -406,7 +406,7 @@ Generative KI (z. B. ChatGPT, HAWKI an der OVGU) erzeugt Texte, Erklärungen, Au
 | --- | --- | --- |
 | **Demonstrationsmittel** | Erklärer, der einen Sachverhalt auf verschiedenen Niveaus darstellt | „Erkläre den Unterschied zwischen Reihen- und Parallelschaltung – einmal für das 1. Ausbildungsjahr, einmal für die Meisterschule.“ |
 | **Arbeitsmittel** | Tutor, Feedbackgeber, Übungspartner | Fehlersuche in einem SPS-Programm; Rückmeldung zu einem Arbeitsplan |
-| **Motivationsmittel** | Gesprächspartner, Rollenspiel-Gegenüber | Kundengespräch simulieren (vgl. Rollenspiel **S05**) |
+| **Motivationsmittel** | Gesprächspartner, Rollenspiel-Gegenüber | Kundengespräch simulieren (vgl. Rollenspiel **S04**) |
 
 > [!NOTE] 🆕 [NEU] Was die Forschung sagt – ein Beispiel
 > In einem Feldexperiment mit fast 1.000 Schülerinnen und Schülern (Mathematik, Sekundarstufe) verbesserte der Zugang zu GPT‑4 die Leistung **beim Üben** deutlich. In der anschließenden Prüfung **ohne** KI schnitten Lernende, die eine frei nutzbare ChatGPT-Oberfläche hatten, aber **schlechter** ab als die Kontrollgruppe ohne KI. Eine Variante mit Schutzvorkehrungen – sie gab Hinweise statt fertiger Lösungen – hob diesen Nachteil weitgehend auf (Bastani et al., 2025).
@@ -445,7 +445,7 @@ Beim Üben halfen beide KI-Varianten. In der Prüfung ohne KI schnitt die Gruppe
 | **Funktion:** Demonstrations-, Arbeits- oder Motivationsmittel? | … |
 | **Leitplanke:** Wie verhindern Sie, dass die KI die Denkarbeit übernimmt? (z. B. Hinweise statt Lösungen, eigene Lösung zuerst, Begründung verlangen) | … |
 | **Prüfen:** Wie lernen die Lernenden, die Ausgabe fachlich zu kontrollieren? | … |
-| **Ohne KI:** Woran merken Sie, dass gelernt wurde – auch ohne das Werkzeug? (vgl. **S11**) | … |
+| **Ohne KI:** Woran merken Sie, dass gelernt wurde – auch ohne das Werkzeug? (vgl. **S10**) | … |
 
     [[___ ___ ___ ___ ___]]
 
@@ -482,7 +482,7 @@ Für Ihren Unterrichtsalltag heißt das konkret drei Fertigkeiten:
 | Fertigkeit | Beispiel aus der Technik | Worauf Sie achten |
 | --- | --- | --- |
 | **1 · Medien finden** | offene Bildungsmaterialien (OER) zur Pneumatik suchen und prüfen | Lizenz (z. B. CC BY), fachliche Richtigkeit, Passung zum Ziel (R161) |
-| **2 · Aus Vorhandenem Neues machen** | aus einem Datenblatt ein Arbeitsblatt mit gestuften Hilfen erzeugen lassen | Urheberrecht der Vorlage, Fakten prüfen, didaktische Reduktion bleibt Ihre Entscheidung (**S08**) |
+| **2 · Aus Vorhandenem Neues machen** | aus einem Datenblatt ein Arbeitsblatt mit gestuften Hilfen erzeugen lassen | Urheberrecht der Vorlage, Fakten prüfen, didaktische Reduktion bleibt Ihre Entscheidung (**S07**) |
 | **3 · Individuelle Lernbedürfnisse adressieren** | einen Tutor-Chatbot mit Systemprompt, eigenem Material und Regeln einrichten | Leitplanken (Station 3), Datenschutz, Sie bleiben verantwortlich |
 
 <details>
@@ -499,7 +499,7 @@ Für Ihren Unterrichtsalltag heißt das konkret drei Fertigkeiten:
     [[___ ___ ___]]
 
 > [!TIP] 🧭 Weiter in der Selbstlerneinheit
-> Alle drei Fertigkeiten üben Sie Schritt für Schritt in der [Selbstlerneinheit S10](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/Selflearn/S10_Medien_KI.md) – mit Checklisten und einer Selbsteinschätzung nach den UNESCO-Stufen.
+> Alle drei Fertigkeiten üben Sie Schritt für Schritt in der [Selbstlerneinheit S09](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/Selflearn/S09_Medien_KI.md) – mit Checklisten und einer Selbsteinschätzung nach den UNESCO-Stufen.
 
 ## Zum Mitnehmen
 
@@ -519,7 +519,7 @@ Für Ihren Unterrichtsalltag heißt das konkret drei Fertigkeiten:
 📝 **Beuteblatt-Stopp:** Ergänzen Sie die Abschnitte 2 und 3 und Ihre wichtigste Beute.
 
 > [!NOTE] 🔗 Querverweise
-> vier Leitfragen, Kurskarte → **S01** · Rollenspiel → **S05** · Experiment, Leittext → **S06** · Großformen → **S07** · didaktische Reduktion → **S08** · Sozial- und Aktionsformen, Vorführen → **S09** · Lernkontrolle (auch: Prüfen in Zeiten von KI) → **S11** · Medien, Simulation und KI → **Fachdidaktik I**
+> vier Leitfragen, Kurskarte → **S01** · Rollenspiel → **S04** · Experiment, Leittext → **S05** · Großformen → **S06** · didaktische Reduktion → **S07** · Sozial- und Aktionsformen, Vorführen → **S08** · Lernkontrolle (auch: Prüfen in Zeiten von KI) → **S10** · Medien, Simulation und KI → **Fachdidaktik I**
 
 ### Prüfungsfragen zum Üben
 
@@ -536,9 +536,9 @@ Für Ihren Unterrichtsalltag heißt das konkret drei Fertigkeiten:
 7. Welche Stellung haben Medien im Berliner Modell, und wie hilft das Modell beim Erstellen von Unterrichtsmaterial?
 8. Wie können Lehrkräfte KI nutzen, um Unterrichtsmaterial zu finden, umzugestalten und an individuelle Lernbedürfnisse anzupassen? Was bleibt dabei in ihrer Verantwortung?
 
-### Vorbereitung auf S11 (vor der Sitzung, ca. 15 min)
+### Vorbereitung auf S10 (vor der Sitzung, ca. 15 min)
 
-In S11 geht es um **Lernerfolgskontrolle** – wie man prüft, ob Lernziele erreicht wurden.
+In S10 geht es um **Lernerfolgskontrolle** – wie man prüft, ob Lernziele erreicht wurden.
 
 **Aufgabe:** Bringen Sie eine Prüfungs- oder Testaufgabe mit, an die Sie sich erinnern (Schule, Ausbildung, Praktikum), und notieren Sie: Was sollte sie prüfen? Könnte ein KI-Chatbot sie lösen?
 

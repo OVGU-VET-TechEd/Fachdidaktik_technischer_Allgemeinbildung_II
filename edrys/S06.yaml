@@ -1,7 +1,7 @@
-id: fdtech2s063ba0f3b6
+id: fdtech2s07478aa7a1
 createdBy: ovgu-vet-teched
 dateCreated: 1791747976680
-name: 'FD Technik II · S06 – Leittextmethode & technisches Experiment'
+name: 'FD Technik II · S06 – Methodische Großformen'
 meta:
   description: >-
     Fachdidaktik technischer Allgemeinbildung II (OVGU) – Live-Classroom zur
@@ -16,7 +16,7 @@ modules:
   - url: https://edrys-labs.github.io/module-liascript/
     config:
       classroom: true
-      course: https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S06_Leittext_Experiment.md
+      course: https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S06_Grossformen.md
     studentConfig: ''
     teacherConfig: ''
     stationConfig: ''

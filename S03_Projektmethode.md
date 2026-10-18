@@ -7,25 +7,25 @@ narrator:  Deutsch Female
 mode:      Textbook
 classroom: enable
 
-title:     S04 – Tradierte methodische Konzepte & Projektmethode
+title:     S03 – Tradierte methodische Konzepte & Projektmethode
 comment:   Fachdidaktik technischer Allgemeinbildung II / Fachdidaktik gewerblich-technischer Fachrichtungen – Sitzung 4. Von der Arbeitsschule zur Projektmethode: Merkmale, Grundmuster nach Frey, Rolle der Lehrkraft, Beispielprojekt.
 tags:      Fachdidaktik, Technikdidaktik, Berufsbildung, Projektmethode, Projektunterricht, Arbeitsschule, Reformpädagogik
 
 import:    https://raw.githubusercontent.com/Ifi-DiAgnostiK-Project/LiaScript_DragAndDrop_Template/refs/heads/main/README.md
 -->
 
-# S04 – Tradierte methodische Konzepte & Projektmethode
+# S03 – Tradierte methodische Konzepte & Projektmethode
 
 <!-- src: R054 -->
 
-<!-- didaktik="Planungsraster S04 · E-03, E-04, E-12, E-17, E-19, E-25" -->
+<!-- didaktik="Planungsraster S03 · E-03, E-04, E-12, E-17, E-19, E-25" -->
 
 **Tradierte Methodische Konzepte**
 
 <small>Quelle: Folie R054 „Tradierte Methodische Konzepte“ (Teil-Deck 03: „03_Tradierte Methodische Konzepte“)</small>
 
 > [!IMPORTANT] 🧭 Leitfrage
-> Wie lernen Lernende in **Projekten** – und was tut die **Lehrkraft** dabei? – Auf der Kurskarte: **Methodik → Erkenntnisweg**. Aus S03 kennen Sie die vollständige Handlung – heute sehen Sie, wie Projekte sie umsetzen.
+> Wie lernen Lernende in **Projekten** – und was tut die **Lehrkraft** dabei? – Auf der Kurskarte: **Methodik → Erkenntnisweg**. Aus S02 kennen Sie die vollständige Handlung – heute sehen Sie, wie Projekte sie umsetzen.
 
 > [!TIP] 📚 Vor der Sitzung
 > Haben Sie sich an ein „Projekt" aus Schule, Ausbildung oder Studium erinnert (Idee – Planung – Ergebnis)? Sie prüfen es heute.
@@ -148,7 +148,7 @@ vgl. Frey, Karl: Die Projektmethode. Weinheim, Basel 1991
 @dragdroporder(@uid,Beginn durch Problem aus dem Lebensraum|Lokalisierung und Präzisierung|Lösungsansatz|Simulation der Lösungsmöglichkeiten|Experimentelle Prüfung)
 
 > [!TIP] 🧵 Roter Faden
-> „Kopf- und Handarbeit" taucht in Russland (Annäherung) und in den 60er/70er Jahren (wieder vereinigen) auf – vergleichen Sie mit der *Einheit kognitiver, emotionaler und psychomotorischer Lernprozesse* aus S03 (R053).
+> „Kopf- und Handarbeit" taucht in Russland (Annäherung) und in den 60er/70er Jahren (wieder vereinigen) auf – vergleichen Sie mit der *Einheit kognitiver, emotionaler und psychomotorischer Lernprozesse* aus S02 (R053).
 
 ## Station 2: Was macht ein Projekt aus?
 
@@ -433,7 +433,7 @@ Welche der zwölf Schritte der Lehrer-Handlungsstruktur hat die Lehrkraft heute 
 📝 **Beuteblatt-Stopp:** Ergänzen Sie Abschnitt 3, Baustein 4 und Ihre wichtigste Beute.
 
 > [!NOTE] 🔗 Querverweise
-> vollständige Lernhandlungen (Merkmal 5) → **S03** · Kontrolle und Bewertung in Projekten → **S05** · Problem und Hypothese → reduktive Methode **S02** · Experimentelle Prüfung → technisches Experiment **S06**
+> vollständige Lernhandlungen (Merkmal 5) → **S02** · Kontrolle und Bewertung in Projekten → **S04** · Problem und Hypothese → reduktive Methode **S01b** · Experimentelle Prüfung → technisches Experiment **S05**
 
 ### Prüfungsfragen zum Üben
 
@@ -447,9 +447,9 @@ Welche der zwölf Schritte der Lehrer-Handlungsstruktur hat die Lehrkraft heute 
 4. Beschreiben Sie die Rolle der Lehrkraft bei der Arbeit an Projekten.
 5. Ordnen Sie Problemarten ihrem Prüfkriterium zu und erläutern Sie den Bezug zur Besonderheit der Technikwissenschaften (S01).
 
-### Vorbereitung auf S05 (vor der Sitzung, ca. 15 min)
+### Vorbereitung auf S04 (vor der Sitzung, ca. 15 min)
 
-In S05 geht es um **Kontrolle und Bewertung in Projekten**, die **Fallstudie** und das **Rollenspiel**.
+In S04 geht es um **Kontrolle und Bewertung in Projekten**, die **Fallstudie** und das **Rollenspiel**.
 
 **Aufgabe:** Erinnern Sie sich an eine Note für eine Gruppenarbeit oder ein Projekt. Wie kam sie zustande – und fanden Sie sie gerecht?
 

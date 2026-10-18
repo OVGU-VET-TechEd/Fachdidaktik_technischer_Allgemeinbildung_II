@@ -1,7 +1,7 @@
-id: fdtech2s04e2cf5c81
+id: fdtech2s05dc485149
 createdBy: ovgu-vet-teched
 dateCreated: 1791747976680
-name: 'FD Technik II · S04 – Tradierte methodische Konzepte & Projektmethode'
+name: 'FD Technik II · S04 – Kontrolle & Bewertung in Projekten · Fallstudie · Rollenspiel'
 meta:
   description: >-
     Fachdidaktik technischer Allgemeinbildung II (OVGU) – Live-Classroom zur
@@ -16,7 +16,7 @@ modules:
   - url: https://edrys-labs.github.io/module-liascript/
     config:
       classroom: true
-      course: https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S04_Projektmethode.md
+      course: https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S04_Bewertung_Fallstudie_Rollenspiel.md
     studentConfig: ''
     teacherConfig: ''
     stationConfig: ''

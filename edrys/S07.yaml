@@ -1,7 +1,7 @@
-id: fdtech2s07478aa7a1
+id: fdtech2s08193c08aa
 createdBy: ovgu-vet-teched
-dateCreated: 1791747976680
-name: 'FD Technik II · S07 – Methodische Großformen'
+dateCreated: 1791747976681
+name: 'FD Technik II · S07 – Didaktische Reduktion'
 meta:
   description: >-
     Fachdidaktik technischer Allgemeinbildung II (OVGU) – Live-Classroom zur
@@ -16,7 +16,7 @@ modules:
   - url: https://edrys-labs.github.io/module-liascript/
     config:
       classroom: true
-      course: https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S07_Grossformen.md
+      course: https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S07_Didaktische_Reduktion.md
     studentConfig: ''
     teacherConfig: ''
     stationConfig: ''
