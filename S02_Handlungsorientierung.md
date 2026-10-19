@@ -115,6 +115,8 @@ Ordnen Sie die Kernaussagen den Autoren zu.
 
 ## Station 2: Was ist eine Handlung?
 
+Station 1 hat gezeigt, *dass* Lernen an Handeln gebunden ist. Station 2 klärt, *was* eine Handlung ist: ihre Merkmale (Zielgerichtetheit, Bewusstheit), die Ebenen **Tätigkeit – Handlung – Operation**, die **Stufen der Selbständigkeit** und die **vollständige Handlung**. Am Ende zerlegen Sie selbst eine Tätigkeit.
+
 ### Psychologische Grundlagen
 
 <!-- src: R043 -->
@@ -244,6 +246,8 @@ Bei einer fertigen Anleitung sind Ziel und Teilziele gesetzt (Richten), der Hand
 📝 **Beuteblatt-Stopp:** Ergänzen Sie Abschnitt 2.
 
 ## Station 3: Wie sieht handlungsorientierter Unterricht aus?
+
+Station 3 verbindet die Begründungen mit dem Unterricht: Was verlangt die **Arbeitswelt** (Frieling)? Wie beschreiben die **Thesen nach Hortsch** und die **Merkmale nach Bünning** handlungsorientierten Unterricht? Am Ende prüfen Sie Aussagen und beurteilen diese Vorlesung.
 
 ### Was moderne Produktionsstrukturen verlangen
 
