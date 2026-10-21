@@ -118,6 +118,8 @@ Jede Sitzung beginnt mit Lernzielen (vgl. S01). Heute fragen wir: Woher wissen w
 --{{0}}--
 Die erste Station beginnt mit einem Grundsatz, der banal klingt und doch oft verletzt wird.
 
+**In dieser Station:** Der Grundsatz lautet: Es darf nur geprüft werden, was gelehrt worden ist. Ein Lernziel besteht aus Inhalt und Verhalten, und das Verhalten hat Stufen – im kognitiven Bereich Wissen, Verstehen, Anwenden und Problemlösen (R169–R170). Geprüft wird auf der Stufe, auf der gelehrt wurde. Lernkontrollen sind entweder konventionelle Prüfungen oder Tests; die konventionellen Prüfungen ordnen die Folien nach mündlich und schriftlich (R171–R172).
+
 **10 · Lernerfolgskontrollen**
 
 <small>Quelle: Folie R169 „Lernerfolgskontrollen“ (Kapitel 10)</small>
@@ -199,6 +201,8 @@ Nach R170 dürfen Inhalte, die auf der Stufe des Wissens vermittelt wurden, auch
 
 --{{0}}--
 Was unterscheidet einen Test von einer gewöhnlichen Klassenarbeit? Er ist nach testtheoretischen Kriterien abgesichert – den drei Gütekriterien.
+
+**In dieser Station:** Ein Test ist eine Lernkontrolle, die nach testtheoretischen Kriterien abgesichert ist (R173). Die drei Gütekriterien werden einzeln mit Beispielen erklärt: **Validität** – misst der Test, was er messen soll? (R174), **Reliabilität** – misst er genau? (R175) und **Objektivität** in Durchführung, Auswertung und Interpretation (R176–R178). Eine Ergänzung aus Zinn **[NEU]** erklärt die Bezugsnormen hinter norm- und kriteriumsorientierten Tests. Am Ende wird das Bewertungsexperiment vom Sitzungsbeginn aufgelöst.
 
 ### Was ist ein Test?
 
@@ -355,6 +359,8 @@ Antwort A und Antwort B hatten **denselben Inhalt** – alle drei Funktionen und
 --{{0}}--
 Auch wer die Gütekriterien kennt, bewertet nicht fehlerfrei. Die dritte Station beschreibt drei typische Kontrollfehler – und einen davon haben Sie zu Beginn der Sitzung erlebt.
 
+**In dieser Station:** Drei typische Fehler beim Bewerten, jeweils mit Gegenmitteln: der **Reihenfolge-Effekt** – die ersten Arbeiten werden strenger bewertet (R179), der **Hof-Effekt** – das Umfeld einer Leistung färbt auf die Bewertung ab (R180), und der **Erwartungs-Effekt** – Vorinformationen erzeugen Erwartungen, die sich selbst erfüllen (R181). Den Hof-Effekt haben Sie im Experiment zu Beginn der Sitzung selbst erlebt.
+
 ### Reihenfolge-Effekt
 
 <!-- src: R179 -->
@@ -489,7 +495,8 @@ Zinn ergänzt das, als NEU markiert: Solche handlungsleitenden Verben heißen Op
 
 <!-- didaktik="Lehrschritt üben lassen (Transfer) · 79–85 min · Einzelarbeit · Classroom-Auswertung · Doppeldecker: Selbstprüfung auf Validität" -->
 
-### Baustein 11 für Ihren Unterrichtsentwurf (optional)
+Hier wenden Sie die Sitzung auf eine eigene Aufgabe an: Sie formulieren zu einem Lernziel eine Kontrollaufgabe mit Operator und Erwartungshorizont und prüfen sie mit dem Grundsatz aus Station 1 und den Gütekriterien aus Station 2.
+**Baustein 11 für Ihren Unterrichtsentwurf (optional)**
 
 **Allein (5 min):** Wählen Sie ein Lernziel einer Stunde aus Ihrer Fachrichtung (oder aus Ihrem optionalen Entwurf).
 

@@ -66,6 +66,9 @@ Stimmen Sie zu?
 
 <!-- didaktik="Lehrschritt Ziele bekannt geben mit Advance Organizer · 10–15 min" -->
 
+--{{0}}--
+Heute stellen wir drei Fragen an die Projektmethode: Woher kommt die Idee? Was macht ein Projekt aus? Und was tut die Lehrkraft dabei? Gleichzeitig durchlaufen Sie selbst die ersten Schritte eines Projekts für Ihr Entwurfsthema.
+
 ``` ascii
 +------------------------------+     +------------------------------+     +------------------------------+
 | Station 1                    |     | Station 2                    |     | Station 3                    |
@@ -82,9 +85,17 @@ Stimmen Sie zu?
 
 <!-- didaktik="Lehrschritt informieren · 15–25 min" -->
 
+--{{0}}--
+Die Projektmethode ist keine Erfindung der letzten Jahre. Wir gehen vier Stationen ihrer Geschichte durch und achten darauf, welche Gedanken immer wiederkehren.
+
+**In dieser Station:** Vier Stationen der Geschichte: die Arbeitsschulkonzepte in Russland (R055), die Forderungen der Reformpädagogen zu Beginn des 20. Jahrhunderts (R056), die Kerngedanken zum Projektunterricht der 60er und 70er Jahre (R057) und der Ablauf des Projektunterrichts nach Kilpatrick und Dewey in fünf Schritten (R058). Drei Gedanken kehren immer wieder: produktive, selbsttätige Arbeit, die Annäherung von Kopf- und Handarbeit und die Mitbestimmung der Lernenden.
+
 ### Charakteristische Merkmale der Arbeitsschulkonzepte in Russland
 
 <!-- src: R055 -->
+
+--{{0}}--
+Die Arbeitsschulkonzepte in Russland betonen drei Dinge: produktive Betätigung als bildendes Element, Bildung an den Realitäten der Gegenwart und Versuche, Kopf- und Handarbeit einander anzunähern.
 
 - produktive Betätigung als bildendes Element
 - Bildung an Realitäten der Gegenwart
@@ -95,6 +106,9 @@ Stimmen Sie zu?
 ### Forderungen der Reformpädagogen zu Beginn des 20. Jh.
 
 <!-- src: R056 -->
+
+--{{0}}--
+Die Reformpädagogen fordern zu Beginn des zwanzigsten Jahrhunderts Selbsttätigkeit, konstruktive Betätigung, die Teilnahme der Schüler an der Unterrichtsplanung und produktorientierte Arbeit. Achten Sie auf die Teilnahme an der Planung – sie wird für die Frage wichtig, wer ein Projekt initiiert.
 
 - Selbsttätigkeit des Schülers
 - Konstruktive Betätigung
@@ -108,6 +122,9 @@ Stimmen Sie zu?
 
 <!-- src: R057 -->
 
+--{{0}}--
+In den sechziger und siebziger Jahren geht es darum, das Alltagsleben stärker in die Bildung zu integrieren, Kopf- und Handarbeit wieder zu vereinigen, die Lernenden mitbestimmen und mitgestalten zu lassen und kollektiv zu lernen.
+
 - Das Alltagsleben wieder stärker in die Bildung zu integrieren
 - Kopf- und Handarbeit wieder zu vereinigen
 - Mitbestimmung und –gestaltung des Bildungsprozesses durch die Lernenden
@@ -118,6 +135,9 @@ Stimmen Sie zu?
 ### Projektunterricht nach Kilpatrick / Dewey
 
 <!-- src: R058 -->
+
+--{{0}}--
+Kilpatrick und Dewey beschreiben den Ablauf in fünf Schritten: Am Anfang steht ein offensichtliches Problem aus dem Lebensraum der Teilnehmer, etwa: Woher kommt Typhus? Es folgen Lokalisierung und Präzisierung, ein Lösungsansatz als Plan, die gedankliche Simulation der Lösungsmöglichkeiten und schließlich die experimentelle Prüfung – die praktische Ausführung und Nutzung der Ergebnisse.
 
 1. **Beginn durch gestelltes offensichtliches Problem aus dem Lebensraum der Teilnehmer** (z.B. Woher kommt Typhus?)
 2. **Lokalisierung, Präzisierung**
@@ -154,9 +174,17 @@ vgl. Frey, Karl: Die Projektmethode. Weinheim, Basel 1991
 
 <!-- didaktik="Lehrschritt informieren · 30–42 min" -->
 
+--{{0}}--
+Nicht alles, was Projekt heißt, ist eines im didaktischen Sinn. In dieser Station sammeln wir Prüfkriterien und ein Ablaufmodell.
+
+**In dieser Station:** Hortsch nennt elf Merkmale, an denen sich Projektarbeit aus didaktischer Sicht erkennen lässt – etwa Problemlösungsstrukturen, mindestens zwei mögliche Lösungen und die Orientierung an den Interessen der Lernenden (R059–R060). Frey beschreibt das **Grundmuster der Projektmethode** in sieben Komponenten, von der Projektinitiative bis zu Fixpunkten und Metainteraktionen (R061). Der Kreislauf der Innovation (R063) und die Problemarten mit ihren Prüfkriterien (R064) zeigen, wie eine Projektlösung geprüft wird. Mit den Merkmalen prüfen Sie Ihr eigenes Projekt.
+
 ### Merkmale der Arbeit an Projekten aus didaktischer Sicht
 
 <!-- src: R059-R060 -->
+
+--{{0}}--
+Hortsch nennt elf Merkmale. Drei sind besonders trennscharf: Die Arbeit weist Problemlösungsstrukturen auf, das Problem lässt mindestens zwei Lösungen zu, und die Arbeit orientiert sich an den Erfahrungen und Interessen der Lernenden. Dazu kommen vollständige Lernhandlungen, Selbstorganisation und Selbstverantwortung und ein objektiver oder subjektiver Gebrauchswert des Produkts. Mit dieser Liste prüfen Sie gleich Ihr eigenes Projekt.
 
 1. **Es ist ein Projekt vorhanden**
    - Existenzbedingung
@@ -182,6 +210,9 @@ Vgl. Hortsch, Hanno: Didaktik der Berufsbildung – Merkblätter zur Vorlesung D
 ### „Grundmuster der Projektmethode"
 
 <!-- src: R061 -->
+
+--{{0}}--
+Frey beschreibt das Grundmuster der Projektmethode in sieben Komponenten. Aus einer Projektinitiative entsteht in einem vereinbarten Rahmen eine Projektskizze, daraus gemeinsam der Projektplan, dann folgt die Durchführung. Beendet wird das Projekt durch bewussten Abschluss, Rückkopplung zur Initiative oder Auslaufenlassen. Quer dazu liegen Fixpunkte und Metainteraktionen – Haltepunkte, an denen die Gruppe sich abstimmt und über ihr Vorgehen nachdenkt.
 
 ``` ascii
  +----------------------+
@@ -228,6 +259,9 @@ Frey, Karl: Die Projektmethode, 1991
 
 <!-- src: R063 -->
 
+--{{0}}--
+Der Kreislauf der Innovation zeigt, dass eine Problemlösung nie ganz abgeschlossen ist: Aus einem Bedürfnis wird ein Problem, daraus eine Idee, eine bewertete Lösung, eine Entscheidung und schließlich eine Neuerung. Die Innovation ist nur das vorläufige Ende – in Schule, Haushalt, Unternehmen oder Staat beginnt der Kreislauf immer wieder.
+
 > Die Innovation ist nur das vorläufige Ende der erfolgreichen Problemlösung. In unserem fortlaufenden Bemühen um die Verbesserung der Gesamtsituation durchlaufen wir immer wieder einen Kreislauf.
 
 ``` ascii
@@ -250,6 +284,9 @@ Frey, Karl: Die Projektmethode, 1991
 ### Problemarten und Bezug der Prüfung der Lösung
 
 <!-- src: R064 -->
+
+--{{0}}--
+Projekte enthalten unterschiedliche Probleme, und jede Problemart hat ihr eigenes Prüfkriterium: Ein Erkenntnisproblem wird auf Wahrheit geprüft, ein Gestaltungsproblem auf Tauglichkeit, ein Wertungsproblem auf Zweckmäßigkeit und ein Ausdrucksproblem auf Verständlichkeit. Erinnern Sie sich an S01 – dort bewerteten die Technikwissenschaften nach Richtigkeit und Zweckmäßigkeit.
 
 | Problemart | Lösung des Problems wird geprüft hinsichtlich: |
 | --- | --- |
@@ -302,9 +339,17 @@ Erkenntnisproblem – Wahrheit · Gestaltungsproblem – Tauglichkeit · Wertung
 
 <!-- didaktik="Lehrschritt informieren · 50–60 min" -->
 
+--{{0}}--
+Wenn die Lernenden selbst planen, was bleibt dann für die Lehrkraft? Mehr als man denkt – das zeigt diese Station.
+
+**In dieser Station:** Hortsch beschreibt eine mögliche Handlungsstruktur der Lehrkraft in zwölf Schritten (R062). Vieles davon geschieht, bevor die Lernenden beginnen: Projekte bestimmen, Realisierbarkeit prüfen, Lösungen selbst durchdenken. Danach moderiert die Lehrkraft Planung und Durchführung und schafft die Bedingungen dafür. Das Beispiel „Abriss eines alten Hauses“ aus der Bautechnik mit Projektskizze und Projektplan (R065–R068) prüfen Sie anschließend am Grundmuster nach Frey.
+
 ### Mögliche Handlungsstruktur des Lehrers beim Arbeiten mit Projekten
 
 <!-- src: R062 -->
+
+--{{0}}--
+Hortsch beschreibt zwölf Schritte für die Lehrkraft. Vieles geschieht vor dem Projekt: geeignete Projekte bestimmen, prüfen, ob sie realisierbar sind, Lösungsmöglichkeiten selbst durchdenken und Varianten vergleichen. Erst dann lässt die Lehrkraft die Lernenden planen, moderiert den Plan und die Realisierung, schafft die Bedingungen dafür und entscheidet am Ende über eine mögliche Fortführung.
 
 | Schritte | Hinweis |
 | --- | --- |
@@ -320,6 +365,9 @@ Vgl. Hortsch, Hanno: Didaktik der Berufsbildung. Dresden 2001
 ### Beispiel: Projekt „Abriss eines alten Hauses"
 
 <!-- src: R065 -->
+
+--{{0}}--
+Ein Beispiel aus der Bautechnik. Hauptziel: Die Auszubildenden lernen am Abriss eines nicht sanierungswürdigen Hauses, wie alte Baustoffe wiederverwendet werden können. Die Projektskizze nennt als Produkt eine Präsentation, dazu Fragestellungen und Arbeitsmethoden wie Literaturstudium und Befragungen. Der Projektplan verteilt die Arbeit auf fünf Gruppen und vier Tage. Prüfen Sie gleich: Wo finden sich hier die Komponenten nach Frey – und wer hatte die Initiative?
 
 **Ziele des Projektes „Abriss eines alten Hauses"**
 

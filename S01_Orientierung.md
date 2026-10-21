@@ -85,6 +85,9 @@ Notieren Sie je eine Frage:
 
 <!-- didaktik="Lehrschritt Ziele bekannt geben mit Advance Organizer · 10–15 min · E-02" -->
 
+--{{0}}--
+Bevor wir einsteigen, ein Blick auf die Landkarte des ganzen Moduls. Jede Sitzung beantwortet eine Planungsfrage: unter welchen Bedingungen ich unterrichte, wozu, was und womit – und vor allem, wie ich den Unterricht organisiere. Diese Karte begegnet Ihnen in jeder Sitzung wieder; heute legen wir die Grundlage für den Bereich Methodik. Am Ende des Semesters steht Ihr eigener Unterrichtsentwurf, für den jede Sitzung einen Baustein liefert.
+
 Das ganze Modul lässt sich als Folge von **Planungsentscheidungen** lesen. Die Kurskarte ordnet die Sitzungen nach Planungsfragen – Ausgangslage, Ziele, Inhalte, Methoden, Medien – und verbindet sie mit vier Leitfragen, die Sie heute in Station 3 kennenlernen.
 
 ``` ascii
@@ -120,6 +123,11 @@ Das ganze Modul lässt sich als Folge von **Planungsentscheidungen** lesen. Die 
 
 <!-- didaktik="Lehrschritt informieren · 15–30 min" -->
 
+--{{0}}--
+Unsere erste Station stellt eine scheinbar einfache Frage: Wodurch unterscheidet sich Technik von den Naturwissenschaften und von den Wirtschaftswissenschaften? Die Antwort ist für Sie als künftige Techniklehrkraft zentral, denn sie entscheidet darüber, ob Technikunterricht ein eigenes Fach ist oder nur angewandte Physik – genau die These, über die Sie eben abgestimmt haben.
+
+**In dieser Station:** Eine Vergleichstabelle stellt Natur-, Technik- und Wirtschaftswissenschaften nebeneinander – nach Gegenstand, Erkenntnismethode und Bewertung der Aussagen (Folien R003–R006). Entscheidend sind zwei Zeilen: Naturwissenschaften fragen nach **Wahrheit** (Ursache–Wirkung), Technikwissenschaften nach **Richtigkeit und Zweckmäßigkeit** (Zweck–Mittel), Wirtschaftswissenschaften nach **Wirtschaftlichkeit** (Aufwand–Nutzen). Danach geht es um die Frage, wen Sie unterrichten werden: ausgewählte Ausbildungsberufe in Zahlen (R007), ergänzt um aktuelle Neuabschlüsse **[NEU]**.
+
 > **Wodurch unterscheidet sich Technik von den Naturwissenschaften und Wirtschaftswissenschaften?**
 
 <small>Quelle: Folie R002</small>
@@ -127,6 +135,9 @@ Das ganze Modul lässt sich als Folge von **Planungsentscheidungen** lesen. Die 
 ### Vergleich der Gegenstandsbereiche
 
 <!-- src: R003-R006 -->
+
+--{{0}}--
+Die Tabelle vergleicht die drei Wissenschaftsbereiche Zeile für Zeile. Achten Sie besonders auf zwei Zeilen. Erstens die Bewertung der Aussagen: Die Naturwissenschaften fragen nach Wahrheit, die Technikwissenschaften nach Richtigkeit, also ob das Ziel realisierbar ist, und nach der Zweckmäßigkeit des Weges, die Wirtschaftswissenschaften nach Wirtschaftlichkeit. Zweitens die Erkenntnismethode: Ursache-Wirkung, Zweck-Mittel, Aufwand-Nutzen. Prüfen Sie gleich Ihre Fragen aus der Murmelgruppe gegen diese Zeilen.
 
 |                             | Naturwissenschaften                                                                                                                                       | Technikwissenschaften                                                                                                                                                                                   | Wirtschaftswissenschaften                                                                                                                                                   |
 | --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -146,6 +157,9 @@ Das ganze Modul lässt sich als Folge von **Planungsentscheidungen** lesen. Die 
 ### Wer lernt Technik? Ausbildungsberufe in Zahlen
 
 <!-- src: R007 -->
+
+--{{0}}--
+Wen werden Sie später unterrichten? Die Grafik zeigt einige ausgewählte Ausbildungsberufe für das Referenzjahr 2002. Ganz vorn stehen gewerblich-technische Berufe wie Kraftfahrzeugmechaniker, Maler und Lackierer oder Elektroinstallateur. Lesen Sie die Zahlen als Hinweis auf das Bedingungsfeld: Wer sitzt vor Ihnen, und was bringen diese Lernenden mit?
 
 <!--
 data-type="BarChart"
@@ -256,6 +270,11 @@ Naturwissenschaften: eigenständig, abbildungsorientiert, Ursache-Wirkungs-Relat
 
 <!-- src: R008 -->
 
+--{{0}}--
+Station zwei wechselt die Perspektive: von der Technik als Gegenstand zur Methode, mit der wir sie unterrichten. Wir klären, was eine Unterrichtsmethode überhaupt ist, und unterscheiden die Methode im weiteren Sinne von den Methoden im engeren Sinne.
+
+**In dieser Station:** Ein kurzer Filmausschnitt (Krümel und Lulatsch) zeigt, was passiert, wenn Erklären nicht gelingt. Danach klären zwei Definitionen nach Meyer und Hilbert, was eine Unterrichtsmethode ist: der prinzipielle Weg, den Lehrende **und** Lernende gemeinsam gehen, um die Ziele des Unterrichts zu erreichen (R009). Ein Schema unterscheidet die **Methode im weiteren Sinne** (das Gesamtverfahren) von den **Methoden im engeren Sinne** (den Lehrformen, R011). Zum Schluss lernen Sie die zwei Aspekte kennen, nach denen sich Methoden ordnen lassen – äußere Gestaltung und logischer Aspekt (R012). Der logische Aspekt ist Thema von S01b.
+
 **Methodenkonzeption**
 
 <small>Quelle: Folie R008</small>
@@ -284,6 +303,9 @@ Naturwissenschaften: eigenständig, abbildungsorientiert, Ursache-Wirkungs-Relat
 
 <!-- didaktik="Lehrschritt informieren · 50–60 min" -->
 
+--{{0}}--
+Hier sehen Sie zwei Definitionen von Meyer und Hilbert. Die erste betont das Aneignen der Wirklichkeit unter institutionellen Rahmenbedingungen – Unterricht findet immer in Schule oder Betrieb statt. Die zweite ist knapper: Methode ist der prinzipielle Weg, den Lehrer und Schüler gehen, um die Ziele des Unterrichts zu erreichen. Beachten Sie: In beiden Definitionen handeln Lehrende und Lernende gemeinsam.
+
 > „Unterrichtsmethoden sind Formen und Verfahren, in und mit denen sich Lehrer und Schüler die sie umgebene natürliche und gesellschaftliche Wirklichkeit unter institutionellen Rahmenbedingungen aneignen"
 > (Meyer & Hilbert 1994, S. 45)
 
@@ -295,6 +317,9 @@ Naturwissenschaften: eigenständig, abbildungsorientiert, Ursache-Wirkungs-Relat
 ### Methode im weiteren und im engeren Sinne
 
 <!-- src: R011 -->
+
+--{{0}}--
+Das Schema ordnet die Begriffe. Die Methode richtet sich nach der Natur des Schülers, gemäß seiner Entwicklungsstufe, und nach der Natur des Lehrers. Daraus ergibt sich die Methode im weiteren Sinne, also das Gesamtverfahren des Unterrichts. Die Lehrformen darunter sind die Methoden im engeren Sinne.
 
 ``` ascii
    +-------------------------------+         +-------------------------------+
@@ -323,6 +348,9 @@ Naturwissenschaften: eigenständig, abbildungsorientiert, Ursache-Wirkungs-Relat
 
 <!-- src: R012 -->
 
+--{{0}}--
+Methoden lassen sich unter zwei Aspekten ordnen. Nach der äußeren Gestaltung unterscheiden wir mitteilende und entwickelnde, heuristische Methoden, jeweils vortragend oder fragend. Nach dem logischen Aspekt unterscheiden wir analytisch und synthetisch sowie induktiv und deduktiv. Dem logischen Aspekt widmen wir die gesamte nächste Sitzung.
+
 | Aspekt der äußeren Gestaltung      | Logischer Aspekt                      |
 | ---------------------------------- | ------------------------------------- |
 | 1) Mitteilende                     | 1) Analytische und synthetische Methode |
@@ -349,6 +377,11 @@ Methode = Gesamtverfahren des Unterrichts oder Methode im weiteren Sinne; Lehrfo
 ## Station 3: Wie ordne ich Unterricht?
 
 <!-- src: R034 -->
+
+--{{0}}--
+In der dritten Station ordnen wir die vielen Begriffe, die beim Planen von Unterricht durcheinandergehen: Methoden, Sozialformen, Aktionsformen, Organisationsformen. Sie sortieren zunächst selbst – erst danach löse ich auf.
+
+**In dieser Station:** Methoden, Sozialformen, Aktionsformen, Organisationsformen und didaktische Funktionen werden im Alltag oft vermischt. Sie sortieren die Begriffe der Originalfolie R035 zuerst selbst (Strukturlegetechnik). Die Auflösung folgt vier Leitfragen, die alle mit „Wie organisiere ich …?“ beginnen (R036–R039): den Erkenntnisweg, die Beziehung zwischen Lehrenden und Lernenden, die Beziehung zwischen Lernenden und Gegenstand und den Bildungsprozess. Diese vier Fragen sind die Kurskarte für das ganze Semester.
 
 **Methoden versus Sozialformen und Aktionsformen**
 
@@ -388,6 +421,9 @@ Zuordnung nach den Folien R036–R039: Unterrichtsmethoden im engeren Sinn (indu
 <!-- src: R036-R039 -->
 
 <!-- didaktik="Lehrschritt informieren · 70–75 min" -->
+
+--{{0}}--
+Die Auflösung folgt vier Leitfragen, alle beginnen mit: Wie organisiere ich …? Die Beziehung zwischen Lehrenden, Lernenden und Gegenstand organisieren die Sozialformen. Den Bildungsprozess organisieren die Organisationsformen des Unterrichts. Die Beziehung zwischen Lehrendem und Lernenden organisieren die Aktionsformen. Und den Erkenntnisweg organisieren die Unterrichtsmethoden im engeren Sinn. Vergleichen Sie mit Ihrer Sortierung: Wo lagen Sie richtig, wo nicht?
 
 <section>
 

@@ -100,6 +100,8 @@ Heute lernen Sie die methodischen Großformen nach Pahl kennen. Die Folien betra
 --{{0}}--
 Die erste Gruppe von Großformen ist analytisch akzentuiert. Achten Sie darauf, was alle vier gemeinsam haben.
 
+**In dieser Station:** Vier Großformen mit analytischem Akzent: die **Diagnoseaufgabe** (R103–R104), die **Fallstudie** (R105–R106), die **Instandsetzungsanalyse** (R107–R108) und die **Konstruktionsanalyse** (R109–R110). Zu jeder nennen die Folien Zielsetzung, typische Schritte und ein Beispiel. Allen gemeinsam ist, dass etwas Vorhandenes zerlegt und untersucht wird – ein Fehlverhalten, ein Fall, eine durchgeführte Instandsetzung, eine fertige Konstruktion. Das ist die analytische Methode aus S01b, ausgebaut zu einem ganzen Unterrichtsverfahren.
+
 ### Diagnoseaufgabe
 
 <!-- src: R103-R104 -->
@@ -412,6 +414,8 @@ Instandsetzungsanalyse: „Bereits durchgeführte Instandsetzungen analysiert" (
 
 --{{0}}--
 In der dritten Station folgen die Großformen mit den übrigen Akzenten. Sie werden sehen: Mehrere davon kennen Sie schon unter anderem Namen.
+
+**In dieser Station:** Vier Großformen mit den übrigen Akzenten aus S01b: das **technische Experiment** (induktiv, R121–R122), die **Konstruktionsaufgabe** (deduktiv, R123), das **historisch-genetische Ausbildungs- und Unterrichtsverfahren** (historisch, R124–R125) und die **Naturstudie** (reduktiv, R126–R127). Die Konstruktionsaufgabe kennen Sie bereits aus Station 2 als synthetisch akzentuiert. Das ist einer der Belege, warum die Folien eine eindeutige Zuordnung „mit Vorsicht zu genießen“ nennen.
 
 ### Technisches Experiment (induktiv akzentuiert)
 

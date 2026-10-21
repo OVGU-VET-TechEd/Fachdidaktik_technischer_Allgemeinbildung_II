@@ -68,6 +68,9 @@ Was ist davon hängen geblieben?
 
 <!-- didaktik="Lehrschritt Ziele bekannt geben mit Advance Organizer · 10–15 min" -->
 
+--{{0}}--
+In der letzten Sitzung haben wir Methoden unter zwei Aspekten geordnet. Heute nehmen wir den logischen Aspekt genau unter die Lupe: sieben Methoden, in Anlehnung an Diesterweg. Damit Sie den Überblick behalten, fassen wir sie in vier Denkrichtungen zusammen: Teil und Ganzes, Allgemeines und Besonderes, Entwicklung und Rückschluss. Zu jeder Richtung gibt es ein technisches Beispiel von den Folien.
+
 **Klassifikation von Methoden unter dem logischen Aspekt** (vgl. Diesterweg)
 
 - Analytisch
@@ -96,11 +99,19 @@ Was ist davon hängen geblieben?
 
 ## Station 1: Teil und Ganzes
 
+--{{0}}--
+Die erste Denkrichtung fragt nach dem Verhältnis von Teil und Ganzem. Die analytische Methode zerlegt, die synthetische fügt zusammen. Unser durchgehendes Beispiel sind zwei Dachkonstruktionen.
+
+**In dieser Station:** Zwei Methoden, die zusammengehören. Die **analytische Methode** zerlegt eine Gesamterscheinung nach einem Ordnungsprinzip, um aus den Teilen das Wesen des Ganzen zu erkennen (R014–R016). Die **synthetische Methode** fügt Teile zu einem Ganzen zusammen – und setzt dafür die Analyse voraus (R017–R019). Beide werden am selben Beispiel gezeigt: dem Sparren- und Kehlbalkendach und dem Pfettendach, geordnet nach tragenden Gliedern, Dachneigung, Fußpunkt, First, Verbänden und Lastabtragung.
+
 ### Analytische Methode
 
 <!-- src: R014 -->
 
 <!-- didaktik="Lehrschritt informieren · 15–25 min" -->
+
+--{{0}}--
+Analytisch vorgehen heißt: Ich nehme eine Gesamterscheinung und zerlege sie nach einem Ordnungsprinzip, um aus den herausgelösten Teilen das Wesen des Ganzen zu erkennen. Typische Anwendung ist der Aufbau und die Wirkungsweise von Maschinen. Die Tabelle zeigt das am Sparren- und Kehlbalkendach und am Pfettendach: geordnet nach tragenden Gliedern, Dachneigung, Fußpunkt, First und Verbänden.
 
 - Analysieren (anhand eines Ordnungsprinzips) der Gesamterscheinung
 - Erkennen des Wesens aus dem Ganzen durch heraus gelöste Teile
@@ -128,6 +139,9 @@ Was ist davon hängen geblieben?
 ### Synthetische Methode
 
 <!-- src: R017 -->
+
+--{{0}}--
+Die Synthese ist die Gegenbewegung: Teile werden zu einem Ganzen zusammengefügt. Die Folie betont, dass die Analyse dafür Voraussetzung ist – ohne Zerlegung keine Zusammensetzung. Im Beispiel entnehmen die Schüler der Zusammenstellung Merkmale und untersuchen dann, wie Wind-, Schnee- und Eigenlast durch die Konstruktion abgeleitet werden. Deshalb werden beide Methoden oft zusammen diskutiert.
 
 | Grundoperation 1: Analyse (ist Voraussetzung)                                              | Grundoperation: Synthese                     |
 | ------------------------------------------------------------------------------------------ | -------------------------------------------- |
@@ -182,11 +196,19 @@ Synthese = Zusammenfügen einer Anzahl von Teilen zu einem Ganzen (R017). Die An
 
 ## Station 2: Allgemeines und Besonderes
 
+--{{0}}--
+Die zweite Denkrichtung ist die bekannteste: Gehe ich vom Allgemeinen zum Besonderen oder umgekehrt? Sie erleben zuerst selbst das induktive Vorgehen, danach sehen Sie das deduktive.
+
+**In dieser Station:** Zuerst arbeiten Sie selbst mit Messwerten aus dem Zugversuch zweier Stähle (R025) und formulieren eine Regel. Danach wird benannt, was Sie getan haben: **induktiv** vorgehen – vom Fall über die Lösung zur Regel, hier bis zum HOOKE'schen Gesetz (R024, R026–R027). Die **deduktive Methode** geht umgekehrt: allgemeine Aussage – Interpretation – Anwendung, am Beispiel des pH-Werts von Beton und des Korrosionsschutzes der Bewehrung (R020–R023). Für beide nennen die Folien Vor- und Nachteile; eine Ergänzung nach Dilling **[NEU]** fragt, wie sicher die beiden Schlussweisen sind.
+
 ### Selbst entdecken: der Zugversuch
 
 <!-- src: R025 -->
 
 <!-- didaktik="Lehrschritt unterstützen/üben · 30–40 min · Einzelarbeit · Classroom-Auswertung · Doppeldecker: induktiv – Regel NICHT vorher nennen" -->
+
+--{{0}}--
+Hier sehen Sie Messwerte aus dem Zugversuch zweier Stähle, C 45W und C 60W: die Kraft und die zugehörige Längenänderung. Bevor ich etwas erkläre, sind Sie dran. Schauen Sie auf Tabelle und Diagramm: Was bleibt in jeder Messreihe ungefähr gleich? Formulieren Sie daraus eine Regel in einem Satz.
 
 **Beispiel:** HOOKE'sches Gesetz für das elastische Verhalten von Stahl
 
@@ -244,6 +266,9 @@ Genau so arbeitet die induktive Methode: vom einzelnen Fall (Messwerte) über di
 
 <!-- didaktik="Lehrschritt informieren · 40–50 min · Rückbezug auf die eben gefundene Regel" -->
 
+--{{0}}--
+Was Sie eben gemacht haben, ist induktives Vorgehen: vom Besonderen zum Allgemeinen, vom einzelnen Fall über die Lösung zur Regel. Im Beispiel folgen auf die Analyse der Messwerte die Berechnung von Spannung und Dehnung, die Hypothese der Proportionalität, das HOOKE'sche Gesetz durch Induktionsschluss und die Überprüfung an weiteren Stahlarten. Die Folie nennt Vorteile, etwa die Nähe zum natürlichen Lernprozess, aber auch einen Nachteil: die Unterstellung, ein bearbeiteter Fall reiche aus, um das Allgemeine zu erkennen.
+
 - Vom Besonderen zum Allgemeinen
 - Vom Konkreten zum Abstrakten
 - Von einzelnen Tatsächlichen zum übergreifenden Gültigen
@@ -275,6 +300,9 @@ So geht das Beispiel weiter (Schritt 1 haben Sie eben selbst gemacht):
 <!-- src: R020 -->
 
 <!-- didaktik="Doppeldecker – dieser Abschnitt ist selbst deduktiv aufgebaut: erst Regel, dann Interpretation, dann Anwendung" -->
+
+--{{0}}--
+Die deduktive Methode stellt die Regel an den Anfang: allgemeine Aussage, Interpretation, Anwendung. Das Beispiel Beton zeigt eine Schlusskette: Frischer Beton ist durch Kalziumhydroxid stark basisch, Kohlensäure aus der Luft wandelt es in Kalziumcarbonat um, der pH-Wert sinkt, und unterhalb von 9 ist der Korrosionsschutz nicht mehr gewährleistet – die Bewehrung kann rosten. Deduktion schult klares, logisches Denken, ist aber abstrakt, wenig anschaulich und wenig motivierend.
 
 **Die Regel zuerst:**
 
@@ -340,6 +368,9 @@ $$\ce{Ca(OH)2 + H2CO3 -> CaCO3 + 2 H2O}$$
 
 <!-- neu="Dilling 2024, S. 38–39, 43–44" -->
 
+--{{0}}--
+Eine Ergänzung aus der Forschungsliteratur, deshalb als NEU markiert. Dilling unterscheidet die beiden Schlussweisen nach ihrer Sicherheit: Der deduktive Schluss führt sicher zum Resultat, der induktive nicht. Für das Entdecken und Begründen nennt er drei Phasen – Exploration, Wissenserklärung und Wissenssicherung. Prüfen Sie, welcher Schritt im HOOKE-Beispiel der Wissenssicherung entspricht.
+
 > [!NOTE] 🆕 [NEU]
 > Dilling (2024) unterscheidet die beiden Schlussweisen nach ihrer **Sicherheit**:
 >
@@ -369,11 +400,19 @@ Bringen Sie die Schritte der deduktiven Kette in die richtige Reihenfolge:
 
 ## Station 3: Entwicklung
 
+--{{0}}--
+Die dritte Denkrichtung erklärt einen Gegenstand aus seiner Entwicklung. Wir unterscheiden zwei Methoden, beide am Beispiel Spannbeton.
+
+**In dieser Station:** Beide Methoden erklären einen Gegenstand aus einer Entwicklung, beide am Beispiel Spannbeton. Die **genetische Methode** folgt dem Werden des Gegenstandes selbst – vom Einfachen zum Komplizierten, etwa über die Fertigung (R028–R029). Bei der **historischen Methode** bestimmt die gesellschaftliche Entwicklung den Gang: Erscheinungsformen analysieren, Einflussgrößen aufdecken, Entwicklungsstände vergleichen und bewerten, Erkenntnisse zusammenfassen (R030–R031). Achten Sie auf diesen Unterschied – Sie brauchen ihn in S06 bei den Großformen wieder.
+
 ### Genetische Methode
 
 <!-- src: R028-R029 -->
 
 <!-- didaktik="Lehrschritt informieren · 55–62 min" -->
+
+--{{0}}--
+Die genetische Methode erklärt das Wesen eines Gegenstandes aus seinem Werden – vom Einfachen zum Komplizierten, entlang eines Leitgedankens. Statt den fertigen Spannbeton zu zeigen, bei dem der Betonkörper erhärtet und die Vorspannung schon aufgebracht ist, erklärt sie ihn über die Fertigung. Die Folie nennt das: das Sein vor dem Hintergrund des Werdens erfassen.
 
 - Wesen in Entwicklung von Lernobjekten zu bestimmten Themen
 - Vom Einfachen zum Komplizierten auf Basis eines Leitgedanken
@@ -394,6 +433,9 @@ Bringen Sie die Schritte der deduktiven Kette in die richtige Reihenfolge:
 ### Historische Methode
 
 <!-- src: R030-R031 -->
+
+--{{0}}--
+Bei der historischen Methode bestimmt die gesellschaftliche Entwicklung den Gang. Die Folie gibt vier Schritte vor: historische Erscheinungsformen analysieren, Einflussgrößen aufdecken, Entwicklungsstände vergleichen und bewerten, Erkenntnisse zusammenfassen. Beim Spannbeton heißt das: Die Erfindung ist fast so alt wie der Stahlbeton, realisiert wurde sie aber erst, als Stahl- und Betonqualität ausreichten und große Spannweiten für Industrie- und Verkehrsbauten gefragt waren.
 
 - Entwicklungsgedanke wird durch gesellschaftliche Entwicklung bestimmt
 - Methodische Folge:
@@ -428,6 +470,11 @@ Beide Methoden folgen einer Entwicklung. Die **genetische** Methode folgt dem We
 
 ## Station 4: Rückschluss
 
+--{{0}}--
+Die vierte Denkrichtung ist der Rückschluss. Sie kennen ihn aus jeder Fehlersuche: Etwas funktioniert nicht – und Sie schließen auf die Ursache zurück.
+
+**In dieser Station:** Ein Alltagsfall – „Das Radio hört auf zu spielen“ – führt zur **reduktiven Methode** (R032–R033). Sie schließt von einem Sachverhalt auf eine Ursache oder Struktur zurück und ist nicht „wahrheitserblich“: Der Rückschluss kann falsch sein. Die Folien unterscheiden die **regressive** Reaktion, die bekannte Sachverhalte erklärt, und die **progressive**, die eine Hypothese aufstellt und daraus prüfbare Aussagen ableitet. Das ist die Logik jeder Fehlersuche.
+
 ### Ein Fall zum Einstieg
 
 <!-- didaktik="Lehrschritt provozieren (Mikro-Zyklus) · 65–68 min · Einzelarbeit · Classroom-Auswertung" -->
@@ -443,6 +490,9 @@ Beide Methoden folgen einer Entwicklung. Die **genetische** Methode folgt dem We
 <!-- src: R032-R033 -->
 
 <!-- didaktik="Lehrschritt informieren · 68–73 min" -->
+
+--{{0}}--
+Die reduktive Methode ist nicht wahrheitserblich: Wir schließen auf eine vorhandene oder zu schaffende Struktur zurück. Die Folie unterscheidet zwei Reaktionen. Die regressive geht von bekannten Sachverhalten aus und erklärt sie, etwa: Das Radio spielt nicht, weil es defekt ist oder die Wohnungssicherung durchgebrannt ist. Die progressive stellt eine Hypothese auf und leitet daraus prüfbare Aussagen ab: Wenn die Sicherung durchgebrannt ist, brennt auch die Stehlampe nicht. Je mehr solcher Aussagen sich bestätigen, desto besser ist die Hypothese gestützt.
 
 - Nicht wahrheitserblich
 - Es soll auf vorhandene oder zu schaffende Struktur geschlossen werden

@@ -62,6 +62,9 @@ Stimmen Sie zu?
 
 <!-- didaktik="Lehrschritt Ziele bekannt geben mit Advance Organizer · 10–15 min" -->
 
+--{{0}}--
+Erinnern Sie sich an die vier Leitfragen aus S01. Den Erkenntnisweg haben wir mit den Unterrichtsmethoden in S01b und S03 bis S06 bearbeitet, die Organisationsformen in S01. Heute schließen wir die beiden offenen: Wie organisiere ich die Beziehung zwischen Lernenden und Gegenstand – die Sozialformen? Und wie die Beziehung zwischen Lehrenden und Lernenden – die Aktionsformen? Zum Schluss fragen wir mit Zinn, was Unterricht eigentlich wirksam macht.
+
 ``` ascii
           METHODIK: "Wie organisiere ich ...?"   (S01, Folien R036–R039)
  +----------------------+------------------------+------------------------+-------------------+
@@ -85,6 +88,11 @@ Stimmen Sie zu?
 
 <!-- didaktik="Lehrschritt informieren · 15–27 min" -->
 
+--{{0}}--
+Wir beginnen mit den Sozialformen – und mit Ihrer Schätzung aus der Vorbereitung.
+
+**In dieser Station:** Sozialformen sind Organisationsformen, die durch die Möglichkeiten der Lehrer-Schüler-Interaktion bestimmt sind; eine Erhebung nach Meyer zeigt, wie oft sie vorkommen (R147). Danach werden drei Sozialformen mit ihren Merkmalen, Stärken und Grenzen beschrieben: **Frontalunterricht** (R148), **Einzelarbeit** (R149) und **Gruppenarbeit** (R150). Für die Gruppenarbeit unterscheiden die Folien vier Varianten – aufgabengleich oder aufgabenverschieden, arbeitsgleich oder arbeitsteilig (R151).
+
 **Sozialformen**
 
 <small>Quelle: Folie R146 „Sozialformen“</small>
@@ -92,6 +100,9 @@ Stimmen Sie zu?
 ### Was Sozialformen sind – und wie oft sie vorkommen
 
 <!-- src: R147 -->
+
+--{{0}}--
+Sozialformen sind Organisationsformen, die durch die Möglichkeiten der Lehrer-Schüler-Interaktion definiert sind. Wie häufig kommen sie vor? Nach Meyer entfallen knapp 77 Prozent der Unterrichtszeit auf Frontalunterricht, etwa 10 Prozent auf Einzelarbeit, rund 7 Prozent auf Gruppenunterricht und jeweils unter 3 Prozent auf Partnerarbeit und Klassenkooperation. Vergleichen Sie mit Ihrer Schätzung.
 
 - Sind Organisationsformen, durch unterschiedliche Möglichkeiten der Lehrer-Schüler-Interaktion definiert
 - Bestimmen die organisatorische Seite der Interaktionsmöglichkeiten im Unterricht
@@ -121,6 +132,9 @@ data-show
 
 <!-- src: R148 -->
 
+--{{0}}--
+Im Frontalunterricht geht die Klasse gemeinsam unter unmittelbarer Führung des Lehrers vor: Er richtet seine Impulse an alle und vereinigt alle Reaktionen wieder auf sich. Typisch sind Lehrervortrag, Demonstration und Unterrichtsgespräch. Die Folie nennt ihn rationell, aber nicht immer am rationellsten, weil die Selbstständigkeit der Schüler missachtet wird – und betont, dass die Lernergebnisse überprüft werden müssen, besonders bei schwächeren Schülern.
+
 - Gemeinsames Vorgehen unter unmittelbarer Führung des Lehrers
 - Lehrer richtet seine Impulse an die gesamte Klasse und vereinigt alle Reaktionen der Schüler wieder auf sich
 - Typisch dafür sind: Lehrervortrag, Demonstration, Unterrichtsgespräch
@@ -136,6 +150,9 @@ data-show
 
 <!-- src: R149 -->
 
+--{{0}}--
+In der Einzelarbeit löst jede Schülerin, jeder Schüler die gestellte Aufgabe selbstständig, ohne Austausch mit anderen; der Lehrer führt nur mittelbar. Einzelarbeit verlangt Selbstständigkeit und Beharrlichkeit, stärkt das Selbstvertrauen, und die tatsächliche Leistung lässt sich besser einschätzen.
+
 - Selbstständiges individuelles Lösen von Aufgaben ohne Informationsaustausch zwischen Schülern
 - Während des Arbeitsaktes mittelbare Führung durch den Lehrer
 - Jeder Schüler muss die vom Lehrer gestellte Aufgabe lösen
@@ -150,6 +167,9 @@ data-show
 ### Gruppenarbeit
 
 <!-- src: R150 -->
+
+--{{0}}--
+In der Gruppenarbeit wechseln kooperatives und individuelles Lernen, und die Schüler tauschen Informationen aus. Die unmittelbare Führung des Lehrers tritt nach der Aufgabenstellung zurück, bis das Ergebnis kontrolliert wird. Die Tabelle zeigt vier Varianten aus zwei Unterscheidungen: Bekommen die Gruppen dieselbe Aufgabe oder verschiedene? Und arbeiten die Mitglieder einer Gruppe alle am Gleichen oder arbeitsteilig?
 
 - Selbstständiges Arbeiten in der Gruppe
 - Arbeitsphasen durch Zusammenspiel von kooperativem und individuellen Lernen gekennzeichnet
@@ -191,6 +211,11 @@ aufgabengleich/-verschieden: Bekommen die **Gruppen** dieselbe Aufgabe (A1, B1) 
 
 <!-- didaktik="Lehrschritt informieren · 35–47 min" -->
 
+--{{0}}--
+In der zweiten Station wechseln wir von der Frage, wer mit wem arbeitet, zur Frage, wer was tut – Lehrkraft oder Lernende.
+
+**In dieser Station:** Die Folien unterscheiden drei Aktionsformen danach, bei wem die Aktivität liegt und wie die Lehrkraft führt: **darbietend**, **selbstständig** und **erarbeitend** (R153). Die darbietende Form kennt vier Verfahren – Vormachen, Vorzeigen, Vorführen, Vortragen (R154). Für die selbstständige Schülerarbeit nennt Jessipow zwei Merkmale, die beide erfüllt sein müssen (R155–R156). Die erarbeitende Form hat das Unterrichtsgespräch als Grundform, geordnet nach didaktischer Aufgabe und Art der Führung (R157).
+
 **Aktionsformen**
 
 <small>Quelle: Folie R152 „Aktionsformen“</small>
@@ -198,6 +223,9 @@ aufgabengleich/-verschieden: Bekommen die **Gruppen** dieselbe Aufgabe (A1, B1) 
 ### Drei Aktionsformen im Überblick
 
 <!-- src: R153 -->
+
+--{{0}}--
+Die Folie unterscheidet drei Aktionsformen. Darbietend: Der Akzent liegt beim Lehrer, er zeigt, demonstriert, erzählt; es überwiegt rezeptives Lernen, und er führt unmittelbar. Selbstständig: Der Lehrer tritt in den Hintergrund, die Schüler lösen eine gestellte Aufgabe, es überwiegt produktives Lernen, und er führt nur mittelbar. Erarbeitend: meist als Unterrichtsgespräch, mit rezeptiven, reproduktiven und produktiven Anteilen.
 
 | Darbietend | Selbstständig | Erarbeitend |
 | --- | --- | --- |
@@ -216,6 +244,9 @@ aufgabengleich/-verschieden: Bekommen die **Gruppen** dieselbe Aufgabe (A1, B1) 
 
 <!-- src: R154 -->
 
+--{{0}}--
+Die darbietende Aktionsform ermöglicht eine rationelle Stoffvermittlung. Sie kennt vier Verfahren: Vormachen, Vorzeigen an statischen Lernmitteln, Vorführen von Prozessen – etwa bei Exkursion oder Experiment – und Vortragen, bei dem die Sprache das vorherrschende Mittel ist.
+
 Bietet rationelle Stoffvermittlung, hat erziehende Wirkung durch den Lehrervortrag, bietet Möglichkeit zur Ausbildung der Fähigkeit zur rationellen Aneignung von Wissen
 
 **Verfahren:**
@@ -230,6 +261,9 @@ Bietet rationelle Stoffvermittlung, hat erziehende Wirkung durch den Lehrervortr
 ### Selbstständig
 
 <!-- src: R155-R156 -->
+
+--{{0}}--
+Selbstständige Schülerarbeit ist nicht ganz ohne Hilfe des Lehrers möglich – und nicht jede Arbeit allein ist schon selbstständige Schülerarbeit. Jessipow nennt zwei Merkmale: eine Aufgabenstellung durch den Lehrer mit angemessener Zeit und die Notwendigkeit, unter Anspannung der Kräfte die besten Lösungswege zu suchen. Richtig gesteuert führt sie zu tieferer Aneignung, einer positiven Lerneinstellung und mehr Fähigkeit zum selbstständigen Denken und Arbeiten.
 
 - Nicht ganz ohne Hilfe des Lehrers durchführbar
 - Andererseits kann nicht jede selbstständige Arbeit des Schülers als selbstständige Schülerarbeit angesehen werden
@@ -259,6 +293,9 @@ Bietet rationelle Stoffvermittlung, hat erziehende Wirkung durch den Lehrervortr
 ### Erarbeitend
 
 <!-- src: R157 -->
+
+--{{0}}--
+Die Grundform der erarbeitenden Aktionsform ist das Unterrichtsgespräch. Die Folie ordnet Gespräche auf zwei Weisen: nach der didaktischen Aufgabe – Erarbeitung, Wiederholung, Prüfung – und nach dem Charakter der Führung, vom stark gelenkten Lehrergespräch über das locker gehaltene Gespräch bis zu Diskussion und Debatte als Vorformen des wissenschaftlichen Gesprächs.
 
 - Grundform ist das Unterrichtsgespräch
 - Ist erfolgreich, wenn eine neue Erkenntnis erworben werden soll
@@ -293,6 +330,9 @@ Nach Jessipow braucht selbstständige Schülerarbeit (1) eine Aufgabenstellung d
 <!-- neu="Zinn 2026, S. 270–273" -->
 
 <!-- didaktik="Lehrschritt informieren · 55–65 min · Persona-Review P6: mit einem Werkstattbeispiel einleiten (gleiche Sozialform, unterschiedliche Qualität)" -->
+
+--{{0}}--
+Die letzte Station ist eine Ergänzung aus Zinn 2026, deshalb als NEU markiert. Zinn unterscheidet Oberflächenstrukturen – leicht beobachtbare Merkmale wie Sozialform und Organisationsform – von Tiefenstrukturen, also der Qualität der Lehr-Lern-Prozesse: Klassenführung, Potenzial zur kognitiven Aktivierung und konstruktive Unterstützung. Die Pointe: Hinter derselben Sozialform kann sehr unterschiedlicher Unterricht stecken. Dazu kommt das Modell der Cognitive Apprenticeship als strukturierter Weg vom Vorführen zum selbstständigen Erkunden.
 
 > [!NOTE] 🆕 [NEU] Sozialformen und Handlungsformen
 > Zinn (2026, S. 270) nennt als typische Sozialformen Plenumsunterricht, Gruppenunterricht, Tandemarbeit, Einzelarbeit und den hybriden Sozialformenmix (vgl. Meyer & Junghans 2021). Die Wahl soll „insbesondere in Abhängigkeit der intendierten Lernziele, dem Vorwissen, dem Lerninhalt, den personalen und sozialen Kompetenzen" erfolgen. Als **Handlungsformen** bezeichnet er die kleinsten Interaktionseinheiten – z. B. eine Frage stellen, Loben und Tadeln, Hinweisen, Vorführen (S. 270–271).

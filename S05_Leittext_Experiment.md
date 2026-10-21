@@ -60,6 +60,9 @@ Stimmen Sie zu?
 
 <!-- didaktik="Lehrschritt Ziele bekannt geben mit Advance Organizer · 10–15 min" -->
 
+--{{0}}--
+Heute geht es um zwei Methoden, mit denen Lernende selbstständig und experimentell lernen: den Leittext und das technische Experiment. Zum Schluss vergleichen wir die Methoden der letzten Sitzungen miteinander. Und ein roter Faden kehrt zurück: das HOOKE'sche Gesetz aus S01b.
+
 ``` ascii
 +-----------------------------+     +-----------------------------+     +-----------------------------+
 | Station 1: Leittext         |     | Station 2: Experiment       |     | Station 3: Methoden         |
@@ -78,9 +81,17 @@ Stimmen Sie zu?
 
 <!-- didaktik="Lehrschritt informieren · 15–27 min" -->
 
+--{{0}}--
+Die Leittextmethode stammt aus der betrieblichen Ausbildung. Sie soll Lernende dazu bringen, eine Aufgabe selbstständig zu planen und auszuführen – ohne dass die Ausbilderin jeden Schritt vorgibt.
+
+**In dieser Station:** Die Folien nennen sechs Funktionen von Leittexten (R089) und die Merkmale leittextgestützten Lernens, vor allem die Selbstständigkeit beim Erarbeiten, Planen und Auswerten (R090). Wie gute **Leitfragen** entstehen, zeigt eine Kette von der Tätigkeit über die nötigen Kenntnisse und die Informationsquellen bis zur Frage (R091). Der Ablauf der Leittextmethode in sechs Schritten (R092) entspricht der vollständigen Handlung aus S02. Eine Ergänzung nach Stettler **[NEU]** erklärt, warum ein Leittext eine offene Aufgabe strukturieren kann.
+
 ### Funktionen der Leittexte
 
 <!-- src: R089 -->
+
+--{{0}}--
+Leittexte erfüllen sechs Funktionen. Sie führen in den Ausbildungsabschnitt ein, erklären die Spielregeln und stellen die praktische Aufgabe vor. Vor allem aber leiten sie mit Leitfragen und Impulsen den Kenntniserwerb und die Arbeitsplanung an, verweisen auf Medien und geben Anleitung zur Selbst- und Fremdeinschätzung.
 
 - Sie führen in den Ausbildungsabschnitt ein.
 - Sie erläutern die „Spielregeln“ für den folgenden Lern- und Arbeitsprozess.
@@ -95,6 +106,9 @@ Stimmen Sie zu?
 
 <!-- src: R090 -->
 
+--{{0}}--
+Kennzeichnend ist die Selbstständigkeit: Die Lernenden bearbeiten komplexe Aufgaben selbst, erarbeiten sich die Kenntnisse aus bereitstehenden Medien, planen die Durchführung, üben an Übungshilfen und entscheiden dabei selbst über den Umfang. Nach jeder Teilaufgabe werten sie zuerst selbst aus und besprechen die Auswertung dann mit dem Ausbilder.
+
 - Die Lernenden bearbeiten komplexe Aufgabenstellungen selbstständig.
 - Die für die Aufgabenbewältigung erforderlichen Kenntnisse erarbeiten sich die Lernenden selbstständig aus bereitstehenden Medien, angeleitet durch Leitfragen.
 - Die Lernenden planen selbst, teilweise gestützt aus Planungsraster oder andere Hilfsmittel, die Durchführung der Arbeiten.
@@ -106,6 +120,9 @@ Stimmen Sie zu?
 ### Leitfragen erstellen
 
 <!-- src: R091 -->
+
+--{{0}}--
+Wie entstehen Leitfragen? Die Kette liest man zuerst von links nach rechts: Aus den Tätigkeiten ergeben sich die nötigen Kenntnisse, aus den Kenntnissen die Informationsquellen – Lehrbücher, Tabellenbücher, Schaltpläne –, und daraus formuliert man die Leitfragen. Von rechts nach links gelesen beschreibt sie die Wirkung: Die Leitfragen leiten an, sich aus den Informationsgrundlagen die Kenntnisse zu erarbeiten, die nötig sind, um die Aufgabe fachgerecht zu lösen.
 
 ``` ascii
 +-------------+      +--------------------+      +---------------------+      +--------------------+
@@ -134,6 +151,9 @@ Stimmen Sie zu?
 
 <!-- src: R092 -->
 
+--{{0}}--
+Die Leittextmethode läuft in sechs Schritten im Kreis: informieren mit Leitfragen, planen mit einem Arbeitsplan, entscheiden über Fertigungsweg und Betriebsmittel im Fachgespräch, ausführen, kontrollieren mit einem Kontrollbogen und bewerten – wieder im Fachgespräch mit dem Ausbilder. Vergleichen Sie das mit der vollständigen Handlung aus S02.
+
 ``` ascii
                          1. Informieren
                     Was soll getan werden?  ->  Leitfragen
@@ -159,6 +179,9 @@ Stimmen Sie zu?
 ### [NEU] Offene Aufgabe – strukturierter Unterricht
 
 <!-- neu="Stettler 2025, S. 76, 85–86" -->
+
+--{{0}}--
+Eine Ergänzung aus der neueren Literatur, als NEU markiert. Stettler unterscheidet, wie offen eine Aufgabe ist und wie strukturiert der Unterricht ist. Beides lässt sich kombinieren: offene Aufgaben in einem stark strukturierten Unterricht. Genau das kann ein Leittext leisten – die Aufgabe bleibt offen, die Leitfragen geben Struktur.
 
 > [!NOTE] 🆕 [NEU]
 > Stettler (2025) unterscheidet im Technischen Gestalten den **Offenheitsgrad der Aufgabenstellung** und die **Strukturiertheit des Unterrichts**. Den Offenheitsgrad kann man u. a. im Prozess anpassen: Ein Prozess kann kleinschrittig vorgegeben werden – oder einzelne Schritte werden bewusst nicht vorgegeben (S. 76).
@@ -199,9 +222,17 @@ Leitfragen „leiten dazu an, sich aus dem Informationsgrundlagen die Kenntnisse
 
 <!-- didaktik="Lehrschritt informieren · 37–49 min" -->
 
+--{{0}}--
+In der zweiten Station wechseln wir vom selbstständigen Arbeiten zum experimentellen Erkennen.
+
+**In dieser Station:** Das Experiment wird als Unterrichtskonzeption mit induktivem Erkenntnisweg definiert (R093) und nach vier Gesichtspunkten klassifiziert: Erkenntnisziel, didaktische Funktion, Sozial- und Organisationsform und Wirklichkeitsbezug (R094). Zwei Phasenmodelle – nach Bernard mit vier und nach Bader mit sieben Phasen – werden am Zugversuch und am HOOKE'schen Gesetz aus S01b gezeigt (R095–R096). Zum Schluss gibt es Fragen zur Vorbereitung eines technischen Experiments und Hinweise zu Handreichung und Arbeitsblatt (R097–R099).
+
 ### Definition Experiment
 
 <!-- src: R093 -->
+
+--{{0}}--
+Die Folie definiert das Experiment als Unterrichtskonzeption mit induktivem Erkenntnisweg. Ausgangspunkt ist ein technisches oder naturwissenschaftliches Phänomen, das unter kontrollierten Bedingungen untersucht wird. Induktiv – Sie erinnern sich an S01b: vom einzelnen Fall zur Regel.
 
 > Ein Experiment ist eine Unterrichtskonzeption mit **induktivem Erkenntnisweg**. Ausgangspunkt ist ein technisches oder naturwissenschaftlich Phänomen, welches unter kontrollierten/eingeschränkten Bedingungen nachgestellt/simuliert und analysiert wird.
 
@@ -210,6 +241,9 @@ Leitfragen „leiten dazu an, sich aus dem Informationsgrundlagen die Kenntnisse
 ### Arten von Experimenten klassifiziert …
 
 <!-- src: R094 -->
+
+--{{0}}--
+Experimente lassen sich auf vier Weisen ordnen: nach dem Erkenntnisziel in naturwissenschaftliche und technische Experimente, nach der didaktischen Funktion – Einstieg, Erarbeitung, Übung und Festigung –, nach Sozial- und Organisationsform als Lehrer- oder Schülerexperiment und nach dem Wirklichkeitsbezug: mit Modellen, mit Realgegenständen oder als Gedankenexperiment.
 
 | klassifiziert … | Arten |
 | --- | --- |
@@ -223,6 +257,9 @@ Leitfragen „leiten dazu an, sich aus dem Informationsgrundlagen die Kenntnisse
 ### Methodische Phasen von Experimenten nach Bernard
 
 <!-- src: R095 -->
+
+--{{0}}--
+Bernard beschreibt vier Phasen: Hypothesen aufstellen, experimentelle Fragestellungen herausarbeiten, das Experiment vorbereiten und durchführen und die Ergebnisse auswerten. Am HOOKE'schen Gesetz heißt das zum Beispiel: Erfolgt die Dehnung proportional zur Spannung? Ergibt die grafische Auswertung eine Gerade? Die Auswertung im Spannungs-Dehnungs-Diagramm beantwortet die Fragen und bestätigt die Hypothese.
 
 1. Aufstellen von Hypothesen
 2. Herausarbeiten experimenteller Fragestellungen
@@ -247,6 +284,9 @@ Bernard, F.; Ebert, D.; Schröder, B.: Unterricht Metalltechnik – Fachdidaktis
 ### Methodische Phasen von Experimenten nach Bader
 
 <!-- src: R096 -->
+
+--{{0}}--
+Bader beschreibt sieben Phasen, wieder am Zugversuch. Er beginnt früher, mit dem Beobachten eines Phänomens – Bauteile verformen sich unter Belastung –, und mit der Frage nach dem Zusammenhang zwischen Kraft und Formänderung. Dann folgen Planen, Durchführen und das Formulieren einer Aussage, die die Hypothese stützt oder falsifiziert. Und er geht weiter: Die Teilaussagen werden in eine umfassende Theorie eingeordnet, und am Ende wird über Konsequenzen und Anwendungen nachgedacht.
 
 | Phase | Beispiel Zug-Versuch |
 | --- | --- |
@@ -303,6 +343,9 @@ Beide Modelle enthalten Hypothese, Durchführung und Auswertung. Nur Bader begin
 <!-- src: R097-R098 -->
 
 <!-- didaktik="Lehrschritt informieren · 55–62 min" -->
+
+--{{0}}--
+Wer ein Experiment für den Unterricht vorbereitet, kann sich an diesen sechs Fragenblöcken orientieren: fachliche Grundlagen und Regelwerke, Einordnung in einen Bildungsgang, theoretische und praktische Konzeption, Durchführung sowie Auswertung und Einbettung. Klappen Sie die Blöcke auf – Sie brauchen sie gleich für Ihren eigenen Baustein.
 
 <details>
 <summary><b>Abriss der fachlichen Grundlagen</b></summary>
@@ -366,6 +409,9 @@ Beide Modelle enthalten Hypothese, Durchführung und Auswertung. Nur Bader begin
 ### Handreichungen zur Versuchsdurchführung
 
 <!-- src: R099 -->
+
+--{{0}}--
+Zu einem Experiment gehören zwei Dokumente: eine Handreichung für die Lehrkraft mit Grundlagen, Hinweisen zu Fehlerquellen und Beispielergebnissen und ein Arbeitsblatt für die Lernenden mit den Arbeitsaufgaben. Für die Lehrkraft gibt es zusätzlich ein Arbeitsblatt mit Beispiellösungen.
 
 | Handreichungen für den Lehrer | Arbeitsblatt für den Lernenden |
 | --- | --- |

@@ -67,6 +67,9 @@ Sie sitzen gerade in einer Vorlesung. Ist sie handlungsorientiert?
 
 <!-- didaktik="Lehrschritt Ziele bekannt geben mit Advance Organizer · 10–15 min" -->
 
+--{{0}}--
+Heute begründen wir, warum technischer Unterricht handlungsorientiert sein soll – und zwar auf drei Ebenen. Lernpsychologisch: Warum lernt man durch Handeln? Handlungstheoretisch: Was ist überhaupt eine Handlung? Und gesellschaftlich-didaktisch: Wie sieht handlungsorientierter Unterricht aus, und was verlangt die Arbeitswelt?
+
 ``` ascii
 +-----------------------------+     +-----------------------------+     +-----------------------------+
 | Station 1                   |     | Station 2                   |     | Station 3                   |
@@ -85,6 +88,9 @@ Sie sitzen gerade in einer Vorlesung. Ist sie handlungsorientiert?
 <!-- src: R041-R042 -->
 
 <!-- didaktik="Lehrschritt informieren · 15–25 min" -->
+
+--{{0}}--
+Fünf Autoren, eine gemeinsame Idee. Leontjew und Galperin sehen Kenntnisse als Produkt angeeigneter Handlungen und Operationen. Piaget verknüpft Erkenntnis von den elementarsten sensomotorischen Handlungen bis zu verinnerlichten Operationen mit Handeln. Hering formuliert: Lernen ist stets eine Funktion der Tätigkeit. Aebli warnt vor Stoffsammlungen, die nicht in Tätigkeiten zurückverwandelt werden. Und Roth fasst zusammen: Alle methodische Kunst liegt darin, tote Sachverhalte in lebendige Handlungen rückzuverwandeln. Lesen Sie die Zitate mit Blick auf Ihren eigenen Unterricht.
 
 **Begründung der Handlungsorientierung**
 
@@ -123,6 +129,9 @@ Station 1 hat gezeigt, *dass* Lernen an Handeln gebunden ist. Station 2 klärt, 
 
 <!-- didaktik="Lehrschritt informieren · 30–42 min" -->
 
+--{{0}}--
+Was ist eine Handlung? Nach Leontjew eine Aktivität mit zwei Merkmalen: Zielgerichtetheit und Bewusstheit. Menschliche Tätigkeit vollzieht sich immer in Handlungen – und ebenso die Entwicklung der Persönlichkeit.
+
 **Handlung** = eine Aktivität mit den Merkmalen der **Zielgerichtetheit** und der **Bewusstheit**
 
 - Menschliche Tätigkeit vollzieht sich immer in Handlungen
@@ -135,6 +144,9 @@ Station 1 hat gezeigt, *dass* Lernen an Handeln gebunden ist. Station 2 klärt, 
 ### Hierarchisch-sequentielles Modell der Handlungsregulation
 
 <!-- src: R044 -->
+
+--{{0}}--
+Hacker und Volpert ordnen menschliches Tun in drei Ebenen: Tätigkeit als komplexes Handlungsgefüge, Handeln als bewusstes, zielgerichtetes Verhalten und Operationen als unselbständige Bestandteile von Handlungen. Analyse-Einheit ist die Handlung – nicht einzelne Bewegungselemente wie bei Taylor und Gilbreth, sondern die kleinste abgrenzbare, zielbewusste Verhaltenseinheit. Die zyklischen TOTE- und VVR-Einheiten dahinter lernen Sie in S04 kennen.
 
 (Hacker 1978, 1998; Volpert 1980)
 
@@ -155,6 +167,9 @@ Station 1 hat gezeigt, *dass* Lernen an Handeln gebunden ist. Station 2 klärt, 
 ### Tätigkeit, Handlung und Operation
 
 <!-- src: R046 -->
+
+--{{0}}--
+Das Schema zeigt die Hierarchie als Baum: Eine Tätigkeit besteht aus mehreren Handlungen, jede Handlung aus Operationen. Achten Sie auf die untere Zeile: Der Tätigkeit entspricht ein Motiv, der Handlung ein Ziel, der Operation ein Teilziel.
 
 ``` ascii
                                                    +-----------+
@@ -180,6 +195,9 @@ Station 1 hat gezeigt, *dass* Lernen an Handeln gebunden ist. Station 2 klärt, 
 
 <!-- src: R045 -->
 
+--{{0}}--
+Wie selbstständig handeln Lernende? Die Taxonomie unterscheidet fünf Stufen: Handlungsmuster nachvollziehen, anpassen, auswählen, kombinieren und schließlich eigene Handlungsmuster entwerfen. Von Stufe zu Stufe nimmt die Selbständigkeit der Handlungsausführung zu. Merken Sie sich die Stufen – Sie brauchen sie für Ihren Baustein am Ende.
+
 | Stufe | | ↓ Zunahme der Selbständigkeit der Handlungsausführung |
 | --- | --- | --- |
 | Stufe 1 | Handlungsmuster nachvollziehen | |
@@ -193,6 +211,9 @@ Station 1 hat gezeigt, *dass* Lernen an Handeln gebunden ist. Station 2 klärt, 
 ### Die vollständige Handlung
 
 <!-- src: R047-R048 -->
+
+--{{0}}--
+Eine vollständige Handlung besteht aus Orientieren, Durchführen und Kontrollieren. Hacker differenziert das weiter: Orientieren, Richten – also Handlungsziel und Teilziele bilden –, Entwerfen von Handlungswegen, Entscheiden über Wege und Mittel und Kontrollieren von Ablauf und Ergebnis. Dieses Schema begegnet Ihnen in Projektmethode, Leittextmethode und Experiment wieder.
 
 **Eine vollständige Handlung besteht aus:**
 
@@ -229,6 +250,10 @@ Station 1 hat gezeigt, *dass* Lernen an Handeln gebunden ist. Station 2 klärt, 
 
 @dragdroporder(@uid,Orientieren|Richten|Entwerfen|Entscheiden|Kontrollieren)
 
+### Aktivierung: Selbständigkeit und vollständige Handlung
+
+Weiter mit den Ergebnissen aus Station 2: erst die Stufen der Selbständigkeit, dann ein Blick auf Ihre eigene Tätigkeit.
+
 **3. Stufen:** Ordnen Sie die Taxonomie von Selbständigkeit im Handeln – von wenig zu viel Selbständigkeit.
 
 @dragdroporder(@uid,Handlungsmuster nachvollziehen|Handlungsmuster anpassen|Handlungsmuster auswählen|Handlungsmuster kombinieren|eigene Handlungsmuster entwerfen)
@@ -247,6 +272,11 @@ Bei einer fertigen Anleitung sind Ziel und Teilziele gesetzt (Richten), der Hand
 
 ## Station 3: Wie sieht handlungsorientierter Unterricht aus?
 
+--{{0}}--
+Die dritte Begründung kommt von außen, aus der Arbeitswelt, und führt zu konkreten Merkmalen für den Unterricht.
+
+**In dieser Station:** Frieling beschreibt, was moderne Produktionsstrukturen verlangen – Prozessketten, Teamarbeit, vollständige Tätigkeiten, Selbststeuerung, Beteiligung (R049). Daraus folgen zwölf Thesen nach Hortsch, die handlungstheoretisch begründeten Unterricht kennzeichnen (R050–R052), und fünf Merkmale handlungsorientierter Unterrichtsgestaltung nach Bünning (R053). Eine Ergänzung aus Zinn **[NEU]** zeigt, wo Handlungsorientierung in aktuellen Didaktiken steht. Mit den fünf Merkmalen beurteilen Sie am Ende die Vorlesung selbst.
+
 Station 3 verbindet die Begründungen mit dem Unterricht: Was verlangt die **Arbeitswelt** (Frieling)? Wie beschreiben die **Thesen nach Hortsch** und die **Merkmale nach Bünning** handlungsorientierten Unterricht? Am Ende prüfen Sie Aussagen und beurteilen diese Vorlesung.
 
 ### Was moderne Produktionsstrukturen verlangen
@@ -254,6 +284,9 @@ Station 3 verbindet die Begründungen mit dem Unterricht: Was verlangt die **Arb
 <!-- src: R049 -->
 
 <!-- didaktik="Lehrschritt informieren · 52–62 min" -->
+
+--{{0}}--
+Frieling beschreibt, wie sich Produktion verändert hat: prozesskettenorientierte Organisation statt funktionaler Hierarchien, Team- und Gruppenarbeit statt Einzelarbeit, vollständige Tätigkeiten statt Verrichtungen, Selbststeuerung statt standardisierter Vorgaben, Beteiligung statt Fremdbestimmung. Wenn Betriebe das verlangen, muss die Ausbildung darauf vorbereiten.
 
 **Bildungsrelevante Charakteristika moderner Produktionsstrukturen**
 
@@ -275,6 +308,9 @@ Station 3 verbindet die Begründungen mit dem Unterricht: Was verlangt die **Arb
 ### Thesen zur Kennzeichnung handlungstheoretisch begründeten Unterrichts
 
 <!-- src: R050-R052 -->
+
+--{{0}}--
+Hortsch fasst handlungsorientierten Unterricht in zwölf Thesen. Vier Kernaussagen genügen für den Überblick: Handlungsorientierter Unterricht ist keine Methode, sondern ein Konzept. Im Mittelpunkt steht der Lernende als handelndes Individuum, die Lehrkraft tritt als Partner zurück. Lernprozesse gestalten heißt vor allem, Lernbedingungen zu schaffen. Und die Grundstruktur ist Orientierung, Ausführung, Kontrolle und Bewertung. Den vollen Wortlaut finden Sie zum Aufklappen.
 
 Handlungstheoretisch begründeten Unterricht wollen wir in Anlehnung an den in der einschlägigen Literatur üblichen Sprachgebrauch im folgenden als handlungsorientierten Unterricht (HoU) bezeichnen.
 
@@ -314,6 +350,9 @@ Hortsch, Hanno: Didaktik der Berufsbildung – Merkblätter zur Vorlesung, Dresd
 
 <!-- src: R053 -->
 
+--{{0}}--
+Bünning verdichtet das auf fünf Merkmale: der Lernende als handelnde Person im Mittelpunkt, selbstbestimmtes Lernen, ganzheitliche Persönlichkeitsentwicklung, die Einheit kognitiver, emotionaler und psychomotorischer Lernprozesse und die Orientierung am Ablauf vollständiger Handlungen. Mit genau diesen fünf Merkmalen beurteilen Sie gleich die heutige Vorlesung.
+
 **(verkürzt Bünning)**
 
 1. Der Lernende als handelnde Person steht im Mittelpunkt des Unterrichts.
@@ -327,6 +366,9 @@ Hortsch, Hanno: Didaktik der Berufsbildung – Merkblätter zur Vorlesung, Dresd
 ### [NEU] Handlungsorientierung in aktuellen Didaktiken
 
 <!-- neu="Zinn 2026, S. 32" -->
+
+--{{0}}--
+Zum Schluss der Station eine Ergänzung aus Zinn 2026, als NEU markiert. Handlungsorientierung findet sich sowohl in der kritisch-konstruktiven als auch in der konstruktivistischen Didaktik. Unterschiedlich ist das Bild der Lehrperson: einmal als Moderatorin kritischer Reflexion, einmal als Strukturiererin von Lernprozessen.
 
 > [!NOTE] 🆕 [NEU]
 > Zinn (2026, S. 32) stellt die kritisch-konstruktive und die konstruktivistische Didaktik gegenüber. **Handlungsorientierung** erscheint in **beiden** – zusammen mit Schülerorientierung und Methodenoffenheit; die konstruktivistische Didaktik ergänzt die **kognitive Aktivierung**. Die Rolle der Lehrperson wird unterschiedlich beschrieben: als *Moderator:in kritischer Reflexion* (kritisch-konstruktiv) bzw. als *Strukturierer:in von Lernprozessen* mit unterstützender und kognitiv aktivierender Haltung (konstruktivistisch).

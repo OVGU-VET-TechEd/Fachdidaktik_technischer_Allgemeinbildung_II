@@ -60,6 +60,9 @@ Stimmen Sie zu?
 
 <!-- didaktik="Lehrschritt Ziele bekannt geben mit Advance Organizer · 10–15 min" -->
 
+--{{0}}--
+Heute geht es um die Frage, wie man vereinfacht, ohne falsch zu werden. Wir arbeiten in vier Stationen: Was ist didaktische Reduktion? Wie sieht sie an Beispielen aus Elektro- und Bautechnik aus? Wie entscheide ich, was ich reduziere? Und wie lässt sich nach Hering vereinfachen? Eine Prüffrage begleitet uns durch alle Stationen: Bleibt die Aussage unter Nennung der Einschränkungen korrekt?
+
 ``` ascii
 +-------------------------+    +-------------------------+    +-------------------------+    +-------------------------+
 | Station 1               |    | Station 2               |    | Station 3               |    | Station 4               |
@@ -82,6 +85,11 @@ Stimmen Sie zu?
 
 <!-- didaktik="Lehrschritt informieren · 15–27 min" -->
 
+--{{0}}--
+Wir beginnen mit Grüner, dessen Begriffe die Sitzung strukturieren.
+
+**In dieser Station:** Grüner definiert didaktische Reduktion als widerspruchsfreien Übergang von einer wissenschaftlichen zu einer verständlicheren Aussage, die **unter Nennung der Einschränkungen immer korrekt** bleibt (R129). Das Kernproblem ist die Fasslichkeit; fünf Reduktionsmethoden machen eine Aussage fasslicher (R130). Grüner unterscheidet zwei Arten nach dem Gültigkeitsumfang: **vertikal** wird er eingeschränkt, **horizontal** bleibt er erhalten (R131). Diese Unterscheidung brauchen Sie für alle Beispiele der Sitzung.
+
 **Didaktische Reduktion nach Grüner**
 
 <small>Quelle: Folie R128 „Didaktische Reduktion nach GRÜNER“ (im Original: GRÜNER)</small>
@@ -89,6 +97,9 @@ Stimmen Sie zu?
 ### Definition
 
 <!-- src: R129 -->
+
+--{{0}}--
+Didaktische Reduktion ist der widerspruchsfreie Übergang von einer wissenschaftlichen Aussage zu einer verständlicheren, vereinfachten Aussage. Der entscheidende Satz steht darunter: Die abgeleitete Aussage muss unter Nennung der Einschränkungen immer korrekt bleiben. Vereinfachen heißt also nicht, etwas Falsches zu sagen.
 
 - Widerspruchsfreien Übergang von wissenschaftlicher Aussage zu einer verständlicheren vereinfachten Aussage
 - **Abgeleitete Aussage muss unter Nennung der Einschränkungen immer korrekt bleiben**
@@ -98,6 +109,9 @@ Stimmen Sie zu?
 ### Reduktionsmethoden
 
 <!-- src: R130 -->
+
+--{{0}}--
+Das Kernproblem ist die Fasslichkeit: Eine Ausgangsaussage ist entweder zu abstrakt oder zu komplex. Fasslicher wird sie durch die Einschränkung auf wichtige Sonderfälle, durch Beispiele, durch Veranschaulichung mit Prinzipskizzen, Kennlinien, Experimenten oder Analogien, durch verbale Erläuterungen und Merkregeln statt Gleichungen und durch das Vernachlässigen von Randeffekten.
 
 **Kernproblem ist Fasslichkeit**
 
@@ -117,6 +131,9 @@ Stimmen Sie zu?
 ### Arten didaktischer Reduktion
 
 <!-- src: R131 -->
+
+--{{0}}--
+Grüner unterscheidet zwei Arten, und der Schlüssel ist der Gültigkeitsumfang. Bei der vertikalen Reduktion wird er kleiner: Man betrachtet einen Sonderfall, einen Ausschnitt der Ausgangsaussage. Bei der horizontalen Reduktion bleibt er erhalten: Die konkretere Aussage steht gleichberechtigt neben der Ausgangsaussage. Danach folgen vier Beispiele – je zwei vertikal und horizontal, aus Elektro- und Bautechnik.
 
 | Vertikale Reduktion | Horizontale Reduktion |
 | --- | --- |
@@ -165,9 +182,17 @@ Stimmen Sie zu?
 
 <!-- didaktik="Lehrschritt informieren · 32–44 min · „Treppe der Einschränkungen”" -->
 
+--{{0}}--
+Jetzt wird es konkret. Achten Sie bei jedem Beispiel auf die Frage: Wird der Gültigkeitsumfang eingeschränkt oder nicht?
+
+**In dieser Station:** Vier Beispiele, je zwei vertikal und horizontal (R132). Vertikal: die „Treppe“ von den Maxwell-Gleichungen zum Ohm'schen Gesetz (R133–R134) und der Weg von der Streckenlast zur Punktlast (R135). Horizontal: das Ohm'sche Gesetz in vier gleichwertigen Darstellungen und das elektrostatische Feld als Formel, Feldlinienbild und Experiment (R136–R137) sowie die Lastformeln in Worten (R138). Das letzte Beispiel zeigt, dass beide Reduktionsarten zugleich auftreten können.
+
 ### 6.4 Vertikal, Elektrotechnik: von Maxwell zu Ohm
 
 <!-- src: R133-R134 -->
+
+--{{0}}--
+Das erste Beispiel ist eine Treppe. Oben stehen die Maxwell'schen Gleichungen ohne jede Einschränkung. Im ersten Schritt nehmen wir an, dass zeitliche Änderungen des elektrischen Feldes vernachlässigbar sind, und gelangen zu Strom, Spannung und Stromdichte. Im zweiten Schritt setzen wir homogene und konstante Größen voraus. Am Ende steht das Ohm'sche Gesetz – gültig, aber nur unter genau diesen Einschränkungen. Sie müssen die Gleichungen nicht rechnen; verstehen Sie die Logik der Stufen.
 
 (Wagner, 2006)
 
@@ -195,6 +220,9 @@ Stimmen Sie zu?
 
 <!-- src: R135 -->
 
+--{{0}}--
+Dasselbe Prinzip in der Bautechnik: Aus der unregelmäßigen Streckenlast wird eine gleichmäßige Flächenlast und schließlich eine Punktlast. Die Folie nennt die Einschränkungen: Die Einzellast wirkt in derselben Richtung, ihre Größe entspricht der Fläche der Belastungsfigur, und ihre Wirkungslinie verläuft durch deren Schwerpunkt.
+
 | Lastfall | Formel | Skizze (nachgezeichnet) |
 | --- | --- | --- |
 | **1. Streckenlast z.B. Schüttlast** | $g = \frac{dF}{dl}$ · $F = \int g\,dl = [N]$ | Träger auf zwei Auflagern, unregelmäßige Last |
@@ -212,6 +240,9 @@ Stimmen Sie zu?
 ### 6.6 Horizontal, Elektrotechnik: Ohm in vier Darstellungen
 
 <!-- src: R136-R137 -->
+
+--{{0}}--
+Jetzt horizontal. Das Ohm'sche Gesetz erscheint viermal: als Formel, als Kennlinie, als verbale Erläuterung und als Merkregel. Keine Darstellung schränkt die Gültigkeit ein, jede ist nur konkreter oder anschaulicher. Ebenso beim elektrostatischen Feld: Formel, Feldlinienbild und das Experiment mit den Watteflocken zwischen zwei geladenen Kugeln. Das Schema unten zeigt beide Richtungen zusammen.
 
 (Arnold, 1990)
 
@@ -248,6 +279,9 @@ Elektrostatisches Feld zwischen zwei Kugeln gleicher Ladung unterschiedlicher Vo
 ### 6.7 Horizontal, Bautechnik: Lasten verbal
 
 <!-- src: R138 -->
+
+--{{0}}--
+Das letzte Beispiel übersetzt die Lastformeln in Worte. Diese Verbalformulierungen sind horizontal zu ihrer Formel. Schauen Sie aber genau auf die Spalte Einschränkungen: Die zweite und dritte Zeile sind gegenüber der ersten vertikal reduziert. In der Praxis treten beide Arten oft gemeinsam auf.
 
 | Formel | Skizze | Verbalformulierung | Einschränkungen |
 | --- | --- | --- | --- |
@@ -287,6 +321,9 @@ Elektrostatisches Feld zwischen zwei Kugeln gleicher Ladung unterschiedlicher Vo
 
 <!-- didaktik="Lehrschritt informieren · 50–56 min" -->
 
+--{{0}}--
+Wie entscheide ich, ob und wie ich reduziere? Arnold gibt sechs Schritte vor: Sachanalyse, didaktische Strukturierung, Restriktionsanalyse – also die erwarteten Lernschwierigkeiten –, dann horizontale Reduktion, vertikale Reduktion ohne Verlust an Gültigkeit und erst zuletzt vertikale Reduktion mit Einschränkung des Gültigkeitsumfangs. Die Reihenfolge ist Programm: Zuerst wird anschaulicher gemacht, erst zuletzt wird eingeschränkt.
+
 **Entscheidungsschritte zur didaktische Reduktion nach Arnold**
 
 | Schritt | Leitfrage |
@@ -313,9 +350,17 @@ Elektrostatisches Feld zwischen zwei Kugeln gleicher Ladung unterschiedlicher Vo
 
 <!-- didaktik="Lehrschritt informieren · 58–68 min" -->
 
+--{{0}}--
+In der letzten Station kommt eine zweite Tradition hinzu: Hering und seine Verfahren der didaktischen Vereinfachung.
+
+**In dieser Station:** Herings Hauptsatz von 1959 beschreibt Vereinfachung als Übergang von einer differenzierten zu einer allgemeinen Aussage gleichen Gültigkeitsumfangs (R141); die Bilanzgleichung der Photosynthese ist das Beispiel (R142). Drei Verfahren zeigen, wie das gelingt: Tilgung untergeordneter Aussagen, indizierte Tilgung nebengeordneter Aussagen und indizierte Verallgemeinerung (R143–R145). „Indiziert“ heißt, dass die Vereinfachung auf das Weggelassene hinweist. Eine Ergänzung aus Zinn **[NEU]** nennt weitere Reduktionsarten und die Elementarisierung.
+
 ### Hauptsatz der didaktischen Vereinfachung
 
 <!-- src: R141 -->
+
+--{{0}}--
+Herings Hauptsatz von 1959 beschreibt Vereinfachung als Übergang von einer differenzierten Aussage zu einer allgemeineren, die weniger Merkmale enthält. Achten Sie auf die Richtung: Vereinfachen heißt hier, vom Besonderen zum Allgemeineren zu gehen – also Merkmale wegzulassen, nicht Fehler einzubauen.
 
 > „Didaktische Vereinfachung einer wissenschaftlichen Aussage ist der Übergang von einer (in die besonderen Merkmale des Gegenstandes) *differenzierten* Aussage zu einer *allgemeinen* Aussage (gleichen Gültigkeitsumfangs über den gleichen Gegenstand unter gleichem Aspekt)".
 >
@@ -326,6 +371,9 @@ Elektrostatisches Feld zwischen zwei Kugeln gleicher Ladung unterschiedlicher Vo
 ### Beispiel: Bilanzgleichung der Photosynthese
 
 <!-- src: R142 -->
+
+--{{0}}--
+Ein Beispiel ist die Bilanzgleichung der Photosynthese: Sechs Moleküle Kohlenstoffdioxid und sechs Moleküle Wasser ergeben unter Lichteinwirkung ein Molekül Glucose und sechs Moleküle Sauerstoff. Die Gleichung fasst einen vielstufigen Prozess in einer allgemeinen Aussage zusammen. Fragen Sie sich: Was geht dabei verloren – und was gewinnen Lernende?
 
 $$\ce{6 CO2 + 6 H2O ->[\text{Lichtenergie, Chlorophyll}][\text{2827 kJ}] C6H12O6 + 6 O2}$$
 
@@ -344,6 +392,9 @@ $$\ce{6 CO2 + 6 H2O ->[\text{Lichtenergie, Chlorophyll}][\text{2827 kJ}] C6H12O6
 
 <!-- src: R143-R145 -->
 
+--{{0}}--
+Hering nennt drei Verfahren. Bei der Tilgung untergeordneter Aussagen wird ein Oberbegriff gebildet, der die Teilaussagen einschließt. Bei der indizierten Tilgung nebengeordneter Aussagen werden Teilaussagen weggelassen, die zunächst unwesentlich sind – mit einem Hinweis darauf. Und bei der indizierten Verallgemeinerung wird allgemeiner formuliert, und die Einschränkungen werden genannt. Indiziert heißt immer: Die Vereinfachung verrät, dass etwas weggelassen wurde.
+
 | Verfahren | Vorgehen | Beispiel – Ausgangsaussage | Vereinfacht |
 | --- | --- | --- | --- |
 | **1) Tilgung untergeordneter Aussagen** | Es wird ein Oberbegriff gebildet, der die Teilaussagen mit einschließt. | Die elektrische Leitfähigkeit in Werkstoffen wird durch Elektronen, Defektelektronen und/oder Ionen ermöglicht. | Die elektrische Leitfähigkeit in Werkstoffen wird durch frei bewegliche Ladungsträger ermöglicht. |
@@ -357,6 +408,9 @@ $$\ce{6 CO2 + 6 H2O ->[\text{Lichtenergie, Chlorophyll}][\text{2827 kJ}] C6H12O6
 ### [NEU] Weitere Arten der Reduktion und die Elementarisierung
 
 <!-- neu="Zinn 2026, S. 302–306" -->
+
+--{{0}}--
+Eine Ergänzung aus Zinn 2026, als NEU markiert. Zinn bestätigt die Unterscheidung von horizontal und vertikal und nennt weitere Arten: Reduktion auf das Qualitative, durch Vernachlässigung, mittels Blackbox, durch Generalisierung, durch mangelnde begriffliche Differenzierung und durch Partikularisierung. Für die Elementarisierung empfiehlt er unter anderem das EIS-Prinzip nach Bruner – handelnd, ikonisch, symbolisch – und Analogien, deren Grenzen man mit den Lernenden bespricht.
 
 > [!NOTE] 🆕 [NEU]
 > Zinn (2026) ordnet die didaktische Reduktion (Hering 1959; Grüner 1967) neben die **Elementarisierung** (Kircher 2009) und bestätigt die Unterscheidung der Folien: horizontal bleibt der „wissenschaftliche Gültigkeitsumfang … vollständig erhalten", vertikal wird er „bewusst eingeschränkt" (S. 302–303). Er nennt weitere Arten mit technischen Beispielen (S. 303–305):

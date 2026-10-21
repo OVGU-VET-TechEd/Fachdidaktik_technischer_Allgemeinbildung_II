@@ -83,6 +83,8 @@ Ein Begriff zieht sich heute durch alle drei Stationen: der Soll-Ist-Vergleich. 
 --{{0}}--
 Wir beginnen mit der Bewertung – erst allgemein im Unterricht, dann mit den besonderen Problemen bei Projekten aus der letzten Sitzung.
 
+**In dieser Station:** Zuerst geht es um Bewertung im Unterricht allgemein: die vier Funktionen von Kontrolle und Bewertung (R069), das Schema, nach dem ein Urteil im **pädagogischen Soll-Ist-Vergleich** entsteht (R070), und die Merkmale einer Bewertungssituation nach Heckhausen (R071). Dann folgen die besonderen Probleme bei Projekten: drei Widersprüche nach Kersten (R072) und die Konsequenz, dass Bewertung in Projekten gemeinsam und prozessorientiert erfolgt – Selbstkontrolle, gegenseitige Einschätzung, dann die begründete Einschätzung der Lehrkraft (R073).
+
 ### Funktion von Kontrolle und Bewertung im Unterricht
 
 <!-- src: R069 -->
@@ -205,6 +207,8 @@ Situation 1: Die Lernenden organisieren sich selbst, der Lehrer setzt die Ziele 
 
 --{{0}}--
 In der zweiten Station lernen Sie die Fallstudie kennen – eine Methode, in der der Vergleich mit der Wirklichkeit fest eingebaut ist.
+
+**In dieser Station:** Die Fallstudie ist ein komplexes Unterrichtsverfahren, in dem Lernende ein Problem aus der Praxis analysieren, in Gruppen Lösungen erarbeiten und kritisch vergleichen (R074). Kaiser unterscheidet vier Varianten nach ihrem Schwerpunkt (R075) und beschreibt ein Phasenmodell von der Konfrontation bis zur **Kollation**, dem Vergleich mit der real getroffenen Entscheidung (R076). Zum Schluss zeigen die VVR- und die TOTE-Einheit, dass auch jede einzelne Handlung auf einem Soll-Ist-Vergleich beruht (R077–R078).
 
 ### Fallstudie
 
@@ -335,6 +339,8 @@ Case-Study: verborgene Probleme analysieren · Case-Problem: Lösungsvarianten e
 
 --{{0}}--
 In der dritten Station spielen wir. Das Rollenspiel ist zugleich Inhalt und Methode dieser Sitzung.
+
+**In dieser Station:** Das Rollenspiel wird erst beschrieben und dann gespielt. Die Folien geben einen Ablauf in neun Schritten (R079) und einen Phasenaufbau in fünf Phasen vor: Einführung, Erarbeitung, Diskussion, Reflexion und Evaluation (R080). Das Beispiel „Transgene Kartoffel – Umweltkiller oder Schlankmacher“ (R081–R082) bringt sechs Rollen mit eigenen Rollenkarten an einen Tisch (R083–R088). Sie spielen Pressekonferenz und Runden Tisch und vergleichen Ihr Meinungsbild vorher und nachher.
 
 ### Ablauf des Rollenspiels
 

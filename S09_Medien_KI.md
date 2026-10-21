@@ -137,6 +137,11 @@ Im Unterricht sind Medien **Vermittlungshilfen oder Mittler im Lernprozess** (R1
 
 <!-- didaktik="Lehrschritt informieren · 10–20 min" -->
 
+--{{0}}--
+Die erste Station klärt, was Medien sind und wozu sie dienen – und wie viel Wirklichkeitserfahrung sie ermöglichen.
+
+**In dieser Station:** Medien sind Vermittlungshilfen im Lernprozess (R159). Die Folien unterscheiden drei Funktionen – Demonstrationsmittel, Arbeitsmittel und Motivationsmittel (R160) – und geben einen Merksatz: erst Ziel und Inhalt klären, dann das Medium wählen (R161). Die Pyramide auf R162 ordnet Medien nach dem **Grad der Wirklichkeitserfahrung**: von direkten über ikonische bis zu symbolischen Erfahrungen. Mit dieser Pyramide ordnen Sie anschließend Medien selbst ein.
+
 **9 · Medien**
 
 <small>Quelle: Folie R158 „Medien“ (Kapitel 9)</small>
@@ -144,6 +149,9 @@ Im Unterricht sind Medien **Vermittlungshilfen oder Mittler im Lernprozess** (R1
 ### Was Medien sind – und wozu sie dienen
 
 <!-- src: R159 -->
+
+--{{0}}--
+Medien sind Vermittlungshilfen im Lernprozess; sie sollen das Lernen erleichtern, intensivieren und motivieren. Die Folien unterscheiden drei Funktionen: Demonstrationsmittel führen Anschauung herbei, Arbeitsmittel wie Lehrbuch oder Lernprogramm dienen dem Arbeiten, und als Motivationsmittel kann fast alles wirken, womit Lehrer und Schüler interagieren. Wichtig ist der Merksatz: Erst Ziel und Inhalt klären, dann das Medium wählen. Und die These, über die Sie abgestimmt haben: Je abstrakter ein Medium, desto geringer seine Motivation.
 
 - Sind Vermittlungshilfen oder Mittler im Lernprozess
 - Sollen das Lernen erleichtern, intensivieren und die Motivation erhöhen
@@ -220,6 +228,9 @@ Im Unterricht sind Medien **Vermittlungshilfen oder Mittler im Lernprozess** (R1
 
 <!-- didaktik="Originalfolie ist ein Buchscan („C.5. System Unterricht“) ohne Quellenangabe (Z-03) – nicht einbetten (E-20), nur die Transkription zeigen. Die Darstellung entspricht dem „Erfahrungskegel“ nach Dale; Herkunft des Scans ist offen – mündlich nicht als belegt darstellen." -->
 
+--{{0}}--
+Die Pyramide ordnet Medien nach dem Grad der Wirklichkeitserfahrung. Unten stehen direkte Erfahrungen: die unmittelbare, zielgerichtete Erfahrung, Simulation und Rollenspiel, Experimente und Demonstrationen. In der Mitte stehen bildhafte, ikonische Erfahrungen von der Exkursion bis zur Tonaufnahme. Oben stehen die symbolischen Erfahrungen, visuelle und verbale Symbole. Von unten nach oben nimmt die Wirklichkeitserfahrung ab.
+
 Die Originalfolie zeigt eine Pyramide mit elf Stufen. Von unten nach oben **nimmt die Wirklichkeitserfahrung ab**.
 
 | Stufe | Medium / Erfahrung | Erfahrungsbereich |
@@ -275,9 +286,17 @@ Demonstrationsmittel sollen Anschauung herbeiführen; Arbeitsmittel sind gedruck
 
 <!-- didaktik="Lehrschritt informieren · 25–42 min" -->
 
+--{{0}}--
+In der zweiten Station schauen wir auf zwei klassische Medien – und darauf, was davon heute noch gilt.
+
+**In dieser Station:** Die Folien beschreiben zwei klassische Medien mit ihren Einsatzmöglichkeiten, Vor- und Nachteilen: die **Tafel** (R163) und den **Overhead-Projektor** mit Merkmalen guter Folien (R164–R165). Eine Ergänzung aus Zinn **[NEU]** überträgt das auf heutige Präsentationen: Gestaltungsprinzipien multimedialen Lernens auf Grundlage der Cognitive Load Theory. Mit diesen Prinzipien prüfen Sie zum Schluss eine Originalfolie des Kurses (R162).
+
 ### Tafel
 
 <!-- src: R163 -->
+
+--{{0}}--
+Die Tafel eignet sich, um Sachverhalte schrittweise zu entwickeln, zu erklären und zu sammeln; nicht dagegen für Darstellungen, die lange erhalten bleiben sollen, oder für zeitaufwendige Schreibarbeit. Ihre Vorteile sind einfache Handhabung, große Schreibfläche und jederzeitige Korrektur; ihre Nachteile sind fehlender Blickkontakt beim Anschreiben und fehleranfälliges, zeitaufwendiges Abschreiben.
 
 | Eignet sich für: | Eignet sich nicht für: |
 | --- | --- |
@@ -297,6 +316,9 @@ Demonstrationsmittel sollen Anschauung herbeiführen; Arbeitsmittel sind gedruck
 ### Overhead-Projektor
 
 <!-- src: R164 -->
+
+--{{0}}--
+Der Overhead-Projektor erlaubt Blickkontakt, braucht keinen verdunkelten Raum, und Folien lassen sich vorbereiten, beschriften und kopieren. Die Folie nennt auch Merkmale guter Folien: Sie erzeugen Aufmerksamkeit, regen zum Nachdenken an, visualisieren Sachverhalte und erlauben durch Aufbau-, Abdeck- oder Ergänzungstechnik eine schrittweise Gedankenentwicklung. Fragen Sie sich: Gilt das nicht genauso für heutige Präsentationen?
 
 **Vorteile**
 
@@ -327,6 +349,9 @@ Demonstrationsmittel sollen Anschauung herbeiführen; Arbeitsmittel sind gedruck
 ### [NEU] Gute Folien heute: Gestaltungsprinzipien
 
 <!-- neu="Zinn 2026, S. 238–240" -->
+
+--{{0}}--
+Hier ergänzen wir aus Zinn 2026, deshalb NEU. Zinn unterscheidet Multimedialität, Multicodalität, Multimodalität und Interaktivität und nennt Gestaltungsprinzipien für multimediales Lernen: Überflüssiges weglassen, Relevantes hervorheben, Texte und Bilder nah beieinander zeigen, das Tempo selbst bestimmen lassen. Dahinter steht die Cognitive Load Theory: Das Arbeitsgedächtnis ist begrenzt. Die alte Aufbau- und Abdecktechnik heißt heute Segmentierung und Signalprinzip.
 
 > [!NOTE] 🆕 [NEU] Vier Begriffe (Zinn 2026, S. 238, Tab. 9.3)
 > **Multimedialität** (über welche Medien Informationen aufgenommen werden, z. B. Tafel, Bücher, Computer), **Multicodalität** (wie die Information codiert ist: Text, Bild, Animation, Simulation), **Multimodalität** (mit welchen Sinnen sie wahrgenommen wird), **Interaktivität** (wie stark Lernende eingreifen und steuern können).

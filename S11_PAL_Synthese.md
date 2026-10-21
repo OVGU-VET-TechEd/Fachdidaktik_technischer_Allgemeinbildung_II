@@ -64,6 +64,9 @@ Zu Recht?
 
 <!-- didaktik="Lehrschritt Ziele bekannt geben mit Advance Organizer · 10–15 min" -->
 
+--{{0}}--
+Die letzte Sitzung. Ein letzter Blick auf die Kurskarte: Fast alle Felder sind gefüllt. Heute schauen wir auf die Prüfung von außen – die zentralen Abschlussprüfungen der PAL – und setzen danach alle Bausteine Ihres Entwurfs zusammen.
+
 ``` ascii
                  AUSGANGSLAGE  (S01: Besonderheiten der Technik, Ausbildungsberufe)
                                           |
@@ -89,6 +92,11 @@ Zu Recht?
 
 <!-- didaktik="Lehrschritt informieren · 15–26 min · Zahlen als Stand der Originalfolie kennzeichnen (Z-23)" -->
 
+--{{0}}--
+Die erste Station klärt, was die PAL ist, warum es sie gibt und welche Prüfungen sie entwickelt.
+
+**In dieser Station:** Die Prüfungsaufgaben- und Lehrmittel-Entwicklungsstelle (PAL) entstand aus dem Austausch von Prüfungsaufgaben der Kammern; seit dem Berufsbildungsgesetz von 1969 sollen überregional erstellte Prüfungen Transparenz, Objektivität und Vergleichbarkeit sichern (R185–R186). Die Folien beschreiben die gesetzlich vorgesehenen Zwischen- und Abschlussprüfungen mit ihren praktischen und schriftlichen Teilen (R187) und wer die Aufgaben entwickelt: Fachausschüsse aus Arbeitgebern, Arbeitnehmern und Berufsschullehrkräften (R188). Lesen Sie die Folien mit den Gütekriterien aus S10 im Kopf.
+
 **11 · PAL-Prüfungen**
 
 <small>Quelle: Folie R184 „PAL-Prüfungen“ (Kapitel 11)</small>
@@ -96,6 +104,9 @@ Zu Recht?
 ### Entstehung und Zielsetzung der PAL
 
 <!-- src: R185 -->
+
+--{{0}}--
+Die Industrie- und Handelskammern führen seit über siebzig Jahren Abschlussprüfungen durch. 1948 begann die Prüfungsaufgaben- und Lehrmittel-Entwicklungsstelle, kurz PAL, mit dem Austausch von Prüfungsaufgaben. Mit dem Berufsbildungsgesetz von 1969 vervielfachte sich der Prüfungsaufwand, und es entstand die Forderung nach einer verstärkten Objektivierung. Überregional erstellte Prüfungen sollen Transparenz, Objektivität und Vergleichbarkeit sichern. Heute entwickelt die PAL Aufgaben für 115 gewerblich-technische Ausbildungsberufe.
 
 - IHKs führen über 70 Jahre Abschlussprüfungen durch
 - 1948 nahm Prüfungsaufgaben- und Lehrmittel-Entwicklungsstelle (PAL) ihre Tätigkeit mit dem Austausch von Prüfungsaufgaben
@@ -119,6 +130,9 @@ Zu Recht?
 
 <!-- src: R187 -->
 
+--{{0}}--
+Jeder Auszubildende legt eine Zwischen- und eine Abschlussprüfung ab, jeweils mit praktischem und theoretischem Teil. Praktisch wird ein Prüfungsstück oder eine Arbeitsprobe abgegeben. Die schriftliche Prüfung hat vier Teile: Technologie, technische Mathematik, Arbeitsplanung beziehungsweise Schaltungs- und Funktionsanalyse sowie Wirtschafts- und Sozialkunde. Grundlage sind die Prüfungsanforderungen, der Ausbildungsrahmenplan und der Rahmenlehrplan der KMK.
+
 - Jeder Auszubildende muss eine Zwischen- und Abschlussprüfung machen
   - Diese ist in einen praktischen und theoretischen Teil gegliedert
   - Für beide bietet PAL Prüfungen an
@@ -134,6 +148,9 @@ Zu Recht?
 ### Entwicklung der Aufgaben durch die PAL
 
 <!-- src: R188 -->
+
+--{{0}}--
+Die Aufgaben entwickeln alle an der Ausbildung Beteiligten gemeinsam. Neben dem Hauptausschuss aus Vertretern der IHKs und der Gewerkschaften gibt es Fachausschüsse mit in der Regel neun Mitgliedern – zu gleichen Teilen Arbeitgeber, Arbeitnehmer und Lehrkräfte berufsbildender Schulen. Sie arbeiten ehrenamtlich, werden für fünf Jahre berufen und tagen meist zweimal jährlich in Stuttgart.
 
 - Entwicklung alles an Ausbildung Beteiligter – Zusammenarbeit zwischen PAL und dem DGB
 - **Hauptausschuss** besteht aus Vertretern des IHK‘s und Gewerkschaften
@@ -168,9 +185,17 @@ Gleiche Aufgaben und eine einheitliche Form sichern vor allem die Durchführungs
 
 <!-- didaktik="Lehrschritt informieren · 31–41 min" -->
 
+--{{0}}--
+In der zweiten Station verfolgen wir den Weg einer Prüfungsaufgabe von der Idee bis zur Verabschiedung.
+
+**In dieser Station:** Die Fachausschüsse wählen Aufgaben aus, legen Umfang und Tiefe fest und sichern die Qualität durch Erprobung und statistische Auswertung (R189). Der Weg einer Aufgabe hat sechs Schritte, vom Auftrag an die Mitglieder bis zur endgültigen Verabschiedung (R190). Zwei Folien zeigen Größenordnung und Aufgaben der PAL (R191–R192). Eine Ergänzung aus Zinn **[NEU]** zeigt, was im allgemeinbildenden Unterricht dieselbe Rolle spielt: Bildungsstandards und die Einheitlichen Prüfungsanforderungen im Fach Technik.
+
 ### Hauptaufgaben der PAL-Fachausschüsse
 
 <!-- src: R189 -->
+
+--{{0}}--
+Die Fachausschüsse wählen Aufgaben aus und entwickeln sie, legen Umfang und Tiefe der Prüfungen fest und sehen Entwürfe kritisch durch. Zwei Begriffe sind hervorgehoben: Qualitätssicherung durch Erprobung und Nachbau der Prüfungen und Qualitätsoptimierung durch die Auswertung statistischer Prüfungsergebnisse.
 
 - Auswahl, Entwicklung und Entwurf von Prüfungsaufgaben für die schriftlichen und praktischen Zwischen- und Abschlussprüfungen
 - Festlegung des Umfangs und der Tiefe der Prüfungen in den einzelnen beruflichen Qualifikationen
@@ -184,6 +209,9 @@ Gleiche Aufgaben und eine einheitliche Form sichern vor allem die Durchführungs
 
 <!-- src: R190 -->
 
+--{{0}}--
+Der Ablauf hat sechs Schritte: Auftrag an die Mitglieder, Sichtung und vorläufige Genehmigung im Ausschuss, Aufbereitung durch Projektmanagement und CAD-Team in eine prüfungs- und normgerechte Form, Kontrolle, Vortest und Stellungnahme durch die Mitglieder, Vorbereitung der Vorlage und schließlich die endgültige Verabschiedung.
+
 1. Mitglieder der Fachausschüsse erhalten Auftrag zur Entwicklung von neuen Prüfungsaufgaben
 2. Entwickelte Aufgaben werden im Fachausschuss gesichtet und vorläufig genehmigt
 3. Genehmigte Aufgabenentwürfe werden vom zuständigen PAL-Projektmanager/in und vom CAD-Team der PAL in die prüfungs- und normgerechte Form gebracht
@@ -196,6 +224,9 @@ Gleiche Aufgaben und eine einheitliche Form sichern vor allem die Durchführungs
 ### Geschäftsfelder der PAL
 
 <!-- src: R191 -->
+
+--{{0}}--
+Die Geschäftsfelder zeigen die Größenordnung: Aufgaben für 147 Berufe und Fachrichtungen, rund 144.000 Aufgabensätze für Zwischen- und 266.000 für Abschlussprüfungen pro Jahr. Daneben entwickelt die PAL das Prüfungssystem weiter – mit Aufgabenanalyse, Statistik und neuen Verfahren.
 
 | Aufgabenentwicklung | Weiterentwicklung des Prüfungssystems |
 | --- | --- |
@@ -212,6 +243,9 @@ Gleiche Aufgaben und eine einheitliche Form sichern vor allem die Durchführungs
 
 <!-- src: R192 -->
 
+--{{0}}--
+Zusammengefasst stellt die PAL bundeseinheitliche Aufgabensätze für die 81 IHKs her, entwickelt Lehrmittel und Informationsmaterial und berücksichtigt dabei Erkenntnisse aus Testtheorie und Pädagogik ebenso wie Erfahrungen aus der Praxis.
+
 - Herstellung optimierter, bundeseinheitlicher Aufgabensätze für Zwischen- und Abschlussprüfungen in industriell-technischen Ausbildungsberufen für die 81 IHK‘s Deutschlands
 - Entwicklung von Lehrmitteln und Informationsmaterial zu den industriell-technischen Zwischen- und Abschlussprüfungen
 - Berücksichtigung wissenschaftlicher Erkenntnisse aus den Bereichen der Testtheorie und der Pädagogik sowie der Erfahrungen der Berufs- und Prüfungspraxis
@@ -222,6 +256,9 @@ Gleiche Aufgaben und eine einheitliche Form sichern vor allem die Durchführungs
 ### [NEU] Und im allgemeinbildenden Unterricht?
 
 <!-- neu="Zinn 2026, S. 48, 53, 72" -->
+
+--{{0}}--
+Und am Gymnasium? Dazu eine Ergänzung aus Zinn 2026, als NEU markiert. PISA ist ein internationales Bildungsmonitoring der OECD, Bildungsstandards legen fest, welche Kompetenzen Schülerinnen und Schüler erwerben sollen. Was für die Ausbildung die PAL ist, leisten für das Abitur im Fach Technik die Einheitlichen Prüfungsanforderungen.
 
 > [!NOTE] 🆕 [NEU] PISA
 > ist ein zyklisches Bildungsmonitoring der OECD: Alle drei Jahre werden alltags- und berufsrelevante Kenntnisse und Fähigkeiten 15-Jähriger international verglichen (Zinn 2026, S. 48, nach OECD 2019). Das erklärt den PISA-Bezug auf R186 und R193: Es geht um **Vergleichbarkeit**.
@@ -243,6 +280,9 @@ Bringen Sie die Schritte in die richtige Reihenfolge (R190):
 <!-- didaktik="Lehrschritt üben lassen (Bewerten) · 45–60 min · Einzelarbeit, Plädoyers im Plenum: Vorbereitung allein 5, Plädoyers zweier Freiwilliger 4 (Betrieb, PAL), Urteil allein 2, Auswertung über Classroom 4 · Doppeldecker zu S04 (Rollenspiel)" -->
 
 <!-- src: R193 -->
+
+--{{0}}--
+Zum Abschluss der Inhalte ein Streit: Sollte geprüft werden mit einem betrieblichen Auftrag oder mit der bundeseinheitlichen PAL-Prüfung? Die Folien sammeln Argumente auf beiden Seiten – Motivation und berufliche Relevanz auf der einen, Standardisierung und Vergleichbarkeit auf der anderen. Und sie nennen die Kritik am programmierten Teil der PAL-Prüfungen vor dem Ziel beruflicher Handlungskompetenz. Sie führen den Streit gleich selbst.
 
 | Betrieblicher Auftrag vs. | PAL-Prüfung |
 | --- | --- |
@@ -307,6 +347,7 @@ Begründen Sie Ihr Urteil in zwei Sätzen:
 
 <!-- didaktik="Lehrschritt integrierendes Verbinden · 62–70 min · Zuordnung aus dem Kursüberblick wiederholen („am Semesterende noch einmal prüfen“)" -->
 
+Zum Abschluss schauen Sie auf das ganze Modul zurück. Sie ordnen die Themen der Sitzungen noch einmal der Kurskarte zu – diesmal ohne Raten –, schätzen ein, wie sicher Sie die vier Modulziele erreicht haben, und prüfen mit einer Checkliste, ob Ihr Unterrichtsentwurf alle Bausteine aus S01 bis S10 enthält.
 ### Ihre Kurskarte – jetzt ohne Raten
 
 Zu Semesterbeginn haben Sie diese Zuordnung im Kursüberblick geraten. Jetzt noch einmal:
