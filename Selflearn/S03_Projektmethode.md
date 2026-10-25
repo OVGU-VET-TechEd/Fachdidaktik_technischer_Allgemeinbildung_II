@@ -101,32 +101,31 @@ Der Kern: Lernen wird durch ein **echtes Problem** ausgelöst, nicht durch einen
 
 <!-- didaktik="ca. 15 min" -->
 
-Nicht alles, was „Projekt“ heißt, ist ein Projekt im **didaktischen** Sinn. Hortsch (1999) nennt **elf Merkmale** der Arbeit an Projekten. Man kann sie in drei Gruppen lesen:
+Nicht alles, was „Projekt“ heißt, ist ein Projekt im **didaktischen** Sinn. Hortsch (1999) nennt **zehn Merkmale** der Arbeit an Projekten. Man kann sie in drei Gruppen lesen:
 
 **A · Das Projekt selbst**
 
 - **1 Es ist ein Projekt vorhanden.** Das ist die Existenzbedingung: Es gibt ein konkretes Vorhaben mit einem Ergebnis.
 - **2 Die Arbeit weist Problemlösungsstrukturen auf.** Ein Projekt *hat* Probleme oder erzeugt sie unterwegs. Wo alles vorher feststeht, wird nichts gelöst.
 - **3 Das Problem lässt mindestens zwei Lösungen zu.** Gibt es nur *eine* richtige Lösung, ist es eine Übungs- oder Fertigungsaufgabe – kein Projekt. Erst Alternativen erzwingen Entscheidungen.
-- **11 Das Ergebnis hat einen Gebrauchswert** – objektiv oder subjektiv. Wichtig ist, dass etwas für die Lernenden **Bedeutsames** entsteht, nicht ein Werkstück für die Schublade.
+- **10 Das Ergebnis hat einen Gebrauchswert** – objektiv oder subjektiv. Wichtig ist, dass etwas für die Lernenden **Bedeutsames** entsteht, nicht ein Werkstück für die Schublade.
 
 **B · Wie gelernt wird**
 
 - **4 Orientierung an Erfahrungen und Interessen der Lernenden.** Weil die Lerninhalte aus dem Projekt entstehen und von den Lernenden erarbeitet werden, müssen ihre Bedürfnisse im Mittelpunkt stehen.
 - **5 Vollständige Lernhandlungen** – orientieren, planen, entscheiden, ausführen, kontrollieren (S02).
-- **10 Selbstorganisation und Selbstverantwortung** prägen die Arbeit.
-- **8 Integration von Wissen, Können und Wollen** – angezielt werden Fach-, Sozial- und Methodenkompetenz.
+- **9 Selbstorganisation und Selbstverantwortung** prägen die Arbeit.
 
 **C · Wie gearbeitet wird**
 
 - **6 In größeren oder kleineren Gruppen, aber auch einzeln.**
-- **7 Fach- und berufsfeldübergreifend** – echte Probleme halten sich nicht an Fächergrenzen.
-- **9 Polyinstrumental und methodenpluralistisch** – viele Werkzeuge und Methoden kommen zum Einsatz (Recherche, Befragung, Versuch, Bau, Präsentation …).
+- **7 Fach- und berufsfeldübergreifend** – echte Probleme halten sich nicht an Fächergrenzen. Angestrebt wird dabei eine **Integration von Wissen, Können und Wollen**; angezielt werden Fach-, Sozial- und Methodenkompetenz.
+- **8 Polyinstrumental und methodenpluralistisch** – viele Werkzeuge und Methoden kommen zum Einsatz (Recherche, Befragung, Versuch, Bau, Präsentation …).
 
 <small>Merkmale nach Hortsch (1999), Folien R059–R060; Gruppierung A–C als Lesehilfe für diese Einheit.</small>
 
 > [!WARNING] ⚠️ Die häufigsten Stolpersteine
-> **Merkmal 3** (nur eine Lösung → kein Projekt) und **Merkmal 10** (Lehrkraft plant alles → kein Projekt). Eine Projektwoche, in der alle nach Plan dasselbe bauen, ist ein Werkstattkurs – sinnvoll, aber kein Projekt.
+> **Merkmal 3** (nur eine Lösung → kein Projekt) und **Merkmal 9** (Lehrkraft plant alles → kein Projekt). Eine Projektwoche, in der alle nach Plan dasselbe bauen, ist ein Werkstattkurs – sinnvoll, aber kein Projekt.
 
 **Übung 2a: Drei Vorhaben**
 
@@ -143,7 +142,7 @@ Nicht alles, was „Projekt“ heißt, ist ein Projekt im **didaktischen** Sinn.
 [   (X)        ( )           ( )     ] Vorhaben B
 [   ( )        ( )           (X)     ] Vorhaben C
 ***
-**A** hat eine Lösung (Bauplan) – Merkmal 3 fehlt, ebenso Selbstorganisation (10); es ist eine Fertigungsübung. **B** erfüllt fast alle Merkmale: echtes Problem, Alternativen, vollständige Handlung, Gebrauchswert. **C** ist ein Grenzfall – und berührt die Eingangsthese aus S03: Das Thema ist vorgegeben (Initiative bei der Lehrkraft), aber Lösungswege, Organisation und Gebrauchswert liegen bei den Lernenden. Ob es ein Projekt ist, hängt davon ab, wie viel Mitbestimmung in Skizze und Plan (Grundmuster ② und ③) tatsächlich möglich ist.
+**A** hat eine Lösung (Bauplan) – Merkmal 3 fehlt, ebenso Selbstorganisation (9); es ist eine Fertigungsübung. **B** erfüllt fast alle Merkmale: echtes Problem, Alternativen, vollständige Handlung, Gebrauchswert. **C** ist ein Grenzfall – und berührt die Eingangsthese aus S03: Das Thema ist vorgegeben (Initiative bei der Lehrkraft), aber Lösungswege, Organisation und Gebrauchswert liegen bei den Lernenden. Ob es ein Projekt ist, hängt davon ab, wie viel Mitbestimmung in Skizze und Plan (Grundmuster ② und ③) tatsächlich möglich ist.
 ***
 
 **Ihr Urteil zu C in zwei Sätzen:** Was müsste sich ändern, damit es eindeutig ein Projekt wird?
@@ -197,6 +196,17 @@ Karl Frey (1991) beschreibt den Ablauf eines Projekts als **Grundmuster** aus si
 
 - Nach ② und ③ ist ein **Abschluss möglich**. Wenn sich in der Auseinandersetzung zeigt, dass die Initiative nicht trägt, darf das Projekt dort enden. Auch das ist ein Lernergebnis.
 - ⑥ und ⑦ sind keine Phasen, sondern werden **jederzeit eingeschoben**. Sie sichern, dass die Lernenden ihr Projekt selbst steuern können.
+
+**Kurz geprüft:** Wie kann ein Projekt nach dem Grundmuster von Frey beendet werden? (mehrere Antworten richtig)
+
+- [[X]] durch bewussten Abschluss
+- [[X]] durch Rückkoppeln zur Projektinitiative
+- [[X]] durch Auslaufenlassen
+- [[ ]] erst durch die Bewertung des Produkts durch die Lehrkraft
+- [[ ]] ausschließlich nach der Projektdurchführung ④
+***
+Frey nennt drei Wege der Beendigung ⑤: bewusster Abschluss (1), Rückkopplung zur Projektinitiative (2) oder Auslaufenlassen (3). Ein Abschluss ist außerdem schon nach ② und ③ möglich (R061).
+***
 
 ### Das Beispiel „Abriss eines alten Hauses“
 

@@ -177,14 +177,14 @@ vgl. Frey, Karl: Die Projektmethode. Weinheim, Basel 1991
 --{{0}}--
 Nicht alles, was Projekt heißt, ist eines im didaktischen Sinn. In dieser Station sammeln wir Prüfkriterien und ein Ablaufmodell.
 
-**In dieser Station:** Hortsch nennt elf Merkmale, an denen sich Projektarbeit aus didaktischer Sicht erkennen lässt – etwa Problemlösungsstrukturen, mindestens zwei mögliche Lösungen und die Orientierung an den Interessen der Lernenden (R059–R060). Frey beschreibt das **Grundmuster der Projektmethode** in sieben Komponenten, von der Projektinitiative bis zu Fixpunkten und Metainteraktionen (R061). Der Kreislauf der Innovation (R063) und die Problemarten mit ihren Prüfkriterien (R064) zeigen, wie eine Projektlösung geprüft wird. Mit den Merkmalen prüfen Sie Ihr eigenes Projekt.
+**In dieser Station:** Hortsch nennt zehn Merkmale, an denen sich Projektarbeit aus didaktischer Sicht erkennen lässt – etwa Problemlösungsstrukturen, mindestens zwei mögliche Lösungen und die Orientierung an den Interessen der Lernenden (R059–R060). Frey beschreibt das **Grundmuster der Projektmethode** in sieben Komponenten, von der Projektinitiative bis zu Fixpunkten und Metainteraktionen (R061). Der Kreislauf der Innovation (R063) und die Problemarten mit ihren Prüfkriterien (R064) zeigen, wie eine Projektlösung geprüft wird. Mit den Merkmalen prüfen Sie Ihr eigenes Projekt.
 
 ### Merkmale der Arbeit an Projekten aus didaktischer Sicht
 
 <!-- src: R059-R060 -->
 
 --{{0}}--
-Hortsch nennt elf Merkmale. Drei sind besonders trennscharf: Die Arbeit weist Problemlösungsstrukturen auf, das Problem lässt mindestens zwei Lösungen zu, und die Arbeit orientiert sich an den Erfahrungen und Interessen der Lernenden. Dazu kommen vollständige Lernhandlungen, Selbstorganisation und Selbstverantwortung und ein objektiver oder subjektiver Gebrauchswert des Produkts. Mit dieser Liste prüfen Sie gleich Ihr eigenes Projekt.
+Hortsch nennt zehn Merkmale. Drei sind besonders trennscharf: Die Arbeit weist Problemlösungsstrukturen auf, das Problem lässt mindestens zwei Lösungen zu, und die Arbeit orientiert sich an den Erfahrungen und Interessen der Lernenden. Dazu kommen vollständige Lernhandlungen, Selbstorganisation und Selbstverantwortung und ein objektiver oder subjektiver Gebrauchswert des Produkts. Mit dieser Liste prüfen Sie gleich Ihr eigenes Projekt.
 
 1. **Es ist ein Projekt vorhanden**
    - Existenzbedingung
@@ -197,15 +197,15 @@ Hortsch nennt elf Merkmale. Drei sind besonders trennscharf: Die Arbeit weist Pr
 5. **Die Arbeit an Projekten ist durch vollständige Lernhandlungen gekennzeichnet.**
 6. **Die Arbeit an Projekten erfolgt in größeren oder kleineren Gruppen aber auch einzeln.**
 7. **Die Arbeit an Projekten ist fach- und berufsfeldübergreifend.**
-8. **Eine Integration von Wissen, Können und Wollen wird angestrebt.** Außerdem die Dreiheit von Fach-, Sozial- und Methodenkompetenz angezielt werden kann.
-9. **Die Arbeit an Projekten ist polyinstrumental und methodenpluralistisch.**
-10. **Die Arbeit an Projekten ist vorrangig durch Selbstorganisation und -verantwortung geprägt**
-11. **Das vergegenständlichte Projekt hat einen objektiven oder subjektiven Gebrauchswert.**
+   - Eine Integration von Wissen, Können und Wollen wird angestrebt. Außerdem die Dreiheit von Fach-, Sozial- und Methodenkompetenz angezielt werden kann.
+8. **Die Arbeit an Projekten ist polyinstrumental und methodenpluralistisch.**
+9. **Die Arbeit an Projekten ist vorrangig durch Selbstorganisation und -verantwortung geprägt**
+10. **Das vergegenständlichte Projekt hat einen objektiven oder subjektiven Gebrauchswert.**
     - Wichtig ist, das etwas subjektiv Bedeutsames hergestellt wird.
 
 Vgl. Hortsch, Hanno: Didaktik der Berufsbildung – Merkblätter zur Vorlesung Dresden 1999
 
-<small>Quelle: Folien R059–R060 „Merkmale der Arbeit an Projekten aus didaktischer Sicht“ (Nummerierung von R060 fortgeführt; Wortlaut unverändert)</small>
+<small>Quelle: Folien R059–R060 „Merkmale der Arbeit an Projekten aus didaktischer Sicht“ (Nummerierung von R060 fortgeführt; Gliederungsebenen und Wortlaut wie im Original)</small>
 
 ### „Grundmuster der Projektmethode"
 
@@ -255,6 +255,55 @@ Frey, Karl: Die Projektmethode, 1991
 
 <small>Quelle: Folie R061 „„Grundmuster der Projektmethode““ – Grafik nachgezeichnet und gegen das Original geprüft (Komponenten ① bis ⑦; gestrichelt: möglicher Abschluss nach ② und ③). Schreibweisen wie im Original („direktBeteiligte“).</small>
 
+**Schritt für Schritt** <small>(im Präsentationsmodus baut sich das Grundmuster Klick für Klick auf)</small>
+
+--{{1}}--
+Am Anfang steht die Projektinitiative.
+
+{{1}}
+> **① Projektinitiative**
+
+--{{2}}--
+In einem vorher vereinbarten Rahmen setzen sich die Beteiligten mit der Initiative auseinander. Ergebnis ist die Projektskizze. Hier ist bereits ein Abschluss möglich.
+
+{{2}}
+> **② Auseinandersetzung mit der Projektinitiative** in einem vorher vereinbarten Rahmen → Ergebnis = **Projektskizze** · <small>möglicher Abschluss</small>
+
+--{{3}}--
+Gemeinsam wird das Betätigungsgebiet entwickelt. Ergebnis ist der Projektplan. Auch hier ist ein Abschluss möglich.
+
+{{3}}
+> **③ Gemeinsame Entwicklung des Betätigungsgebietes** → Ergebnis = **Projektplan** · <small>möglicher Abschluss</small>
+
+--{{4}}--
+Es folgen die verstärkten Aktivitäten im Betätigungsgebiet, also die Projektdurchführung – einzeln, in Untergruppen oder in der Gesamtgruppe.
+
+{{4}}
+> **④ (Verstärkte) Aktivitäten im Betätigungsgebiet / Projektdurchführung** (einzeln, in Untergruppen, in Gesamtgruppe)
+
+--{{5}}--
+Bevor die Beendigung aufgedeckt wird: Auf welche Weisen kann ein Projekt nach Frey enden? Prüfen Sie sich im Quiz darunter.
+
+{{5}}
+> **⑤ Beendigung** – auf welchen Wegen? → Quiz unten
+
+--{{6}}--
+Quer zu allen Komponenten liegen die im Verlauf eingeschobenen Fixpunkte und Metainteraktionen.
+
+{{6}}
+> **⑥ Fixpunkte** und **⑦ Metainteraktionen** – im Verlauf des Projektes eingeschoben
+
+**Kurz geprüft:** Wie kann ein Projekt nach dem Grundmuster von Frey beendet werden? (mehrere Antworten richtig)
+
+- [[X]] durch bewussten Abschluss
+- [[X]] durch Rückkoppeln zur Projektinitiative
+- [[X]] durch Auslaufenlassen
+- [[ ]] erst durch die Bewertung des Produkts durch die Lehrkraft
+- [[ ]] ausschließlich nach der Projektdurchführung ④
+***
+Frey nennt drei Wege der Beendigung ⑤: bewusster Abschluss (1), Rückkopplung zur Projektinitiative (2) oder Auslaufenlassen (3). Ein Abschluss ist außerdem schon nach ② und ③ möglich (R061).
+***
+
 ### Kreislauf der Innovation
 
 <!-- src: R063 -->
@@ -280,6 +329,10 @@ Der Kreislauf der Innovation zeigt, dass eine Problemlösung nie ganz abgeschlos
 ```
 
 <small>Quelle: Folie R063 „Kreislauf der Innovation“ – gescannte Abbildung nachgezeichnet; auf der Originalfolie ist keine Quelle der Abbildung angegeben (siehe Zitations-Prüfung).</small>
+
+**Kurz geordnet:** Bringen Sie die Stationen des Kreislaufs in die richtige Reihenfolge – beginnend in Schule, Haushalt, Unternehmen oder Staat.
+
+@dragdroporder(@uid,Bedürfnis|Problem|Idee|bewertete Lösung|Entscheidung|Neuerungen – Innovation)
 
 ### Problemarten und Bezug der Prüfung der Lösung
 
@@ -312,11 +365,10 @@ Projekte enthalten unterschiedliche Probleme, und jede Problemart hat ihr eigene
 - [ ] 4 Orientierung an Erfahrungen und Interessen der Lernenden
 - [ ] 5 Vollständige Lernhandlungen
 - [ ] 6 Gruppen oder einzeln
-- [ ] 7 Fach- und berufsfeldübergreifend
-- [ ] 8 Integration von Wissen, Können und Wollen
-- [ ] 9 Polyinstrumental und methodenpluralistisch
-- [ ] 10 Selbstorganisation und -verantwortung
-- [ ] 11 Gebrauchswert
+- [ ] 7 Fach- und berufsfeldübergreifend (Integration von Wissen, Können und Wollen)
+- [ ] 8 Polyinstrumental und methodenpluralistisch
+- [ ] 9 Selbstorganisation und -verantwortung
+- [ ] 10 Gebrauchswert
 
 Ihr Urteil – ein Projekt im didaktischen Sinn?
 
