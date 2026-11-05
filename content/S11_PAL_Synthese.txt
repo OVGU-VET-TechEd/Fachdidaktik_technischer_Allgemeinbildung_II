@@ -1,0 +1,570 @@
+# Content file S11 – build with:  python3 content/build.py content/S11_PAL_Synthese.txt
+# Original slides R184–R195 = deck 09, slides 1–12 (Original_PPTX_Sliced/; offset 183); [NEU] Zinn (2026).
+# The self-assessment of the four module goals and the Baustein-12 checklist have no matching template and stay as Markdown in content fields.
+
+[course]
+AUTHOR = Hannes Tegelbeckers
+EMAIL = hannes.tegelbeckers@ovgu.de
+VERSION = 0.2.0
+LANGUAGE = de
+NARRATOR = Deutsch Female
+COURSE-TITLE = S11 – PAL-Prüfungen & Modulsynthese
+COURSE-DESCRIPTION = Fachdidaktik technischer Allgemeinbildung II – Sitzung S11. Wer prüft am Ende – und was nehmen Sie mit? PAL-Prüfungen, Pro und Contra betrieblicher Auftrag vs. PAL-Prüfung und die Gesamtkarte des Moduls.
+COURSE-SUBTITLE = """
+Fachdidaktik technischer Allgemeinbildung II · OVGU Magdeburg · Montag, 04.01.2027, 07:00–09:00 Uhr
+
+<!-- didaktik="Planungsraster S11 · E-03, E-04, E-07, E-09, E-12, E-17, E-19, E-23, E-27, E-33, E-36 · 0–5 Einstieg (Vorbereitungsumfrage „zentral oder Schule?“ zeigen, These R194) · 5–10 Ihre Abschlussprüfung · 10–15 Kurskarte · 15–31 Station 1 Die PAL, Aktivierung Gütekriterien · 31–45 Station 2 Wie eine PAL-Aufgabe entsteht, Ablauf ordnen · 45–60 Station 3 Pro und Contra, Mini-Disputation (Doppeldecker zu S04) · 62–70 Kurskarte ohne Raten · 70–82 Selbsteinschätzung und Baustein 12 · 82–90 Abschluss" -->
+> [!IMPORTANT] 🧭 Leitfrage
+> Wer prüft am Ende – und was nehmen Sie mit? – Heute schauen wir auf die Prüfung von außen und setzen die Kurskarte ein letztes Mal zusammen.
+
+> [!TIP] 📚 Vor der Sitzung
+> Haben Sie sich an eine Zwischen- oder Abschlussprüfung erinnert und abgestimmt, ob Abschlussprüfungen zentral erstellt werden sollten? Wir starten mit Ihrem Ergebnis.
+
+📝 **Beuteblatt S11** – ergänzen Sie es während der Sitzung.
+"""
+
+
+# ───────────────────────── Einstieg ─────────────────────────
+
+[Discussion_Template_1.md]
+SLIDE-TITLE = Einstieg: Programmiert prüfen – handlungskompetent?
+NARRATION-0 = Eine Aussage von der letzten Inhaltsfolie dieser Vorlesung, R194. Programmiert meint die schriftliche Prüfungsform mit vorgegebenen Antworten, die Sie in S10 im Baum der konventionellen Prüfung gesehen haben. Ist die Kritik berechtigt?
+DILEMMA = > **„Der programmierte Teil der PAL-Prüfungen wird vor dem Hintergrund der Zielstellung ‚Entwicklung einer beruflichen Handlungskompetenz‘ häufig heftig kritisiert.“** (Folie R194)
+VOTE-QUESTION = Ist die Kritik berechtigt?
+OPTION-A = Ja, die Kritik ist berechtigt
+OPTION-B = Nein, die Kritik ist unberechtigt
+OPTION-C = Teils, teils
+NARRATION-1 = Denken Sie an Ihre eigene Abschlussprüfung.
+PHASE-1-TITLE = 🧠 Ihre Abschlussprüfung · allein, 3 min
+PHASE-1-TASK = Wer hat Ihre Abschlussprüfung erstellt – Ihre Schule, die Kammer, eine zentrale Stelle? Welches Gütekriterium aus S10 war erfüllt, welches verletzt?
+NARRATION-2 = Am Ende der Sitzung stimmen Sie noch einmal ab.
+PHASE-2-TITLE = 📌 Merken
+PHASE-2-TASK = „Programmiert“ = schriftliche Prüfung mit vorgegebenen Antworten (S10, R172). Am Ende der Sitzung stimmen Sie noch einmal über die These ab.
+
+
+[Figure_Template_1.md]
+SLIDE-TITLE = Kurskarte: das ganze Modul
+NARRATION-0 = Die letzte Sitzung. Ein letzter Blick auf die Kurskarte: Fast alle Felder sind gefüllt. Heute schauen wir auf die Prüfung von außen – die zentralen Abschlussprüfungen der PAL – und setzen danach alle Bausteine Ihres Entwurfs zusammen.
+MERMAID-CODE = """
+flowchart TD
+  A["<b>AUSGANGSLAGE</b><br>S01: Besonderheiten der Technik, Ausbildungsberufe"] --> Z["<b>ZIELE</b> – Wozu?<br>S02 Handlungsorientierung<br>S10 Lernerfolgskontrolle<br>heute: S11 Prüfung von außen (PAL)"]
+  A --> I["<b>INHALTE</b> – Was – wie vereinfacht?<br>S07 Didaktische Reduktion"]
+  A --> D["<b>MEDIEN</b> – Womit?<br>S09 Medien & KI"]
+  Z --> M["<b>METHODEN</b><br>S01b, S03–S06 Methoden · S08 Aktions- und Sozialformen"]
+  I --> M
+  D --> M
+  M --> S["<b>SYNTHESE</b> – Was nehme ich mit?<br>heute"]
+  style Z stroke-width:3px
+  style S stroke-width:3px
+"""
+NARRATION-1 = Heute ergänzen wir das Feld Ziele um die Prüfung von außen.
+PART-1 = Ziele und Kontrolle
+PART-TEXT-1 = S02 Handlungsorientierung, S10 Lernerfolgskontrolle – heute S11: die Prüfung von außen (PAL)
+NARRATION-2 = Inhalte, Medien und Methoden haben Sie in den anderen Sitzungen gefüllt.
+PART-2 = Inhalte, Medien, Methoden
+PART-TEXT-2 = S07 Didaktische Reduktion · S09 Medien & KI · S01b, S03–S06 Methoden, S08 Aktions- und Sozialformen
+NARRATION-3 = Und zum Schluss die Synthese.
+PART-3 = Synthese
+PART-TEXT-3 = Was nehme ich mit? – Kurskarte ohne Raten, Selbsteinschätzung, Baustein 12
+NARRATION-4 = Die Kurskarte ist eine Lesehilfe.
+KEY-MESSAGE = Ziele, Inhalte und Medien hängen zusammen und münden in die Methoden – heute prüfen Sie, ob Sie das ganze Modul so lesen können.
+SOURCE = Kurskarte als Lesehilfe (vgl. S01 und den Kursüberblick), keine Originalfolie.
+
+
+[Overview_Course_Template_2.md]
+SLIDE-TITLE = Ihr Weg durch die Sitzung
+NARRATION-0 = Drei Stationen zur PAL, dann der Rückblick auf das ganze Modul.
+MODULE-1 = Die PAL
+MODULE-2 = Aufgabenentwicklung
+MODULE-3 = Pro und Contra
+MODULE-4 = Das ganze Modul
+MODULE-5 = Prüfungsvorbereitung
+MILESTONE = Baustein 12
+NARRATION-1 = Auf diesem Weg erreichen Sie sechs Ziele.
+KNOW-1 = Entstehung, Zielsetzung und Aufgaben der PAL sowie die Teile der gesetzlich vorgesehenen Prüfungen **nennen**
+CAN-1 = die Gütekriterien aus S10 auf die PAL-Prüfung **anwenden**
+VALUE-1 = betrieblichen Auftrag und PAL-Prüfung begründet **gegeneinander abwägen**
+KNOW-2 = den Weg einer PAL-Aufgabe vom Auftrag bis zur Verabschiedung **beschreiben**
+CAN-2 = die Themen aller Sitzungen den Planungsfragen der Kurskarte **zuordnen**
+VALUE-2 = die Prüfungsfragen des Moduls für Ihre mündliche Prüfung **nutzen** *(optional: Ihre Bausteine prüfen)*
+NARRATION-2 = Prüfen Sie kurz, ob Sie den Weg lesen können.
+ORDER-QUESTION = Wo führen Sie den Streit betrieblicher Auftrag gegen PAL-Prüfung?
+ORDER-CORRECT = Pro und Contra
+ORDER-WRONG-1 = Die PAL
+ORDER-WRONG-2 = Das ganze Modul
+ORDER-HINT = Die Folien R193–R194 heißen „Pro und Contra“.
+ORDER-FEEDBACK = Richtig: Station 3 ist eine Mini-Disputation über die beiden Prüfungsformen.
+
+
+# ───────────────────────── Station 1: Die PAL – Entstehung und Prüfungen (R184–R188) ─────────────────────────
+
+[Content_Introduction_Template_2.md]
+SLIDE-TITLE = Station 1: Die PAL – Entstehung und Prüfungen
+NARRATION-0 = Die erste Station, Kapitel 11 der Folien, PAL-Prüfungen, klärt, was die PAL ist, warum es sie gibt und welche Prüfungen sie entwickelt. Lesen Sie die Folien mit den Gütekriterien aus S10 im Kopf.
+GUIDING-QUESTION = Warum werden Abschlussprüfungen zentral erstellt?
+NARRATION-1 = Zuerst die Entstehung.
+ASPECT-1 = Vom Austausch von Prüfungsaufgaben zur Objektivierung (R185)
+NARRATION-2 = Dann das Ziel.
+ASPECT-2 = Transparenz, Objektivität und Vergleichbarkeit (R186)
+NARRATION-3 = Danach die Prüfungen selbst.
+ASPECT-3 = Zwischen- und Abschlussprüfung, praktisch und schriftlich (R187)
+NARRATION-4 = Und wer die Aufgaben entwickelt.
+ASPECT-4 = Fachausschüsse aus Arbeitgebern, Arbeitnehmern und Lehrkräften (R188)
+NARRATION-5 = Warum ist das für Sie wichtig?
+WHY-IT-MATTERS = Ihre Schülerinnen und Schüler legen diese Prüfungen ab – und Lehrkräfte wie Sie entwickeln die Aufgaben mit.
+NARRATION-6 = Markieren Sie, was Sie schon kennen.
+
+
+[Original_Slide_Template_3.md]
+SLIDE-TITLE = 11.1 Entstehung und Zielsetzung der PAL
+NARRATION-0 = Die Industrie- und Handelskammern führen seit über siebzig Jahren Abschlussprüfungen durch. 1948 begann die Prüfungsaufgaben- und Lehrmittel-Entwicklungsstelle, kurz PAL, mit dem Austausch von Prüfungsaufgaben. Mit dem Berufsbildungsgesetz von 1969 vervielfachte sich der Prüfungsaufwand, und es entstand die Forderung nach einer verstärkten Objektivierung.
+SLIDE-CONTENT = """
+- IHKs führen über 70 Jahre Abschlussprüfungen durch
+- 1948 nahm Prüfungsaufgaben- und Lehrmittel-Entwicklungsstelle (PAL) ihre Tätigkeit mit dem Austausch von Prüfungsaufgaben
+- Nachdem das Berufsbildungsgesetz (BBiG) 1969 den zuständigen Stellen fast eine Verdreifachung des Aufwandes für die Durchführung von Prüfungen brachte, ergab sich die Notwendigkeit einer umfassenden Rationalisierung des Prüfungswesens
+- **Forderung nach einer verstärkten Objektivierung der Prüfung**
+"""
+NARRATION-1 = Überregional erstellte Prüfungen sollen Transparenz, Objektivität und Vergleichbarkeit sichern. Heute, so die Folie, entwickelt die PAL Aufgaben für 115 gewerblich-technische Ausbildungsberufe.
+SLIDE-CONTENT-2 = """
+- Auch die PISA-Untersuchung 2002 bestätigte diese Ergebnisse
+- Ergebnisse, Transparenz, Objektivität und Vergleichbarkeit von Prüfungsergebnissen sind durch überregional erstellte Prüfungen bundesweit besser sicher zu stellen
+- Derzeit entwickelt die PAL-Aufgaben für die Zwischen- und Abschlussprüfungen in 115 gewerblich-technischen Ausbildungsberufen
+"""
+NARRATION-2 = Verbinden Sie das mit S10.
+KEY-MESSAGE = 🔗 „Objektivierung“, „Transparenz, Objektivität und Vergleichbarkeit“ – die PAL ist die Antwort einer ganzen Branche auf die Gütekriterien aus S10.
+SOURCE = Quelle: Folien R185–R186 „11.1 Entstehung und Zielsetzung der PAL“ (Kapitel 11 „PAL-Prüfungen“, Folie R184) – „BbiG“ zu „BBiG“ korrigiert; „über 70 Jahre“ und „derzeit“ = Stand der Originalfolie (Jahr nicht angegeben); R191 nennt 147 Berufe/Fachrichtungen (vermutlich anderer Stand oder andere Zählweise, Z-23); Quelle zur PISA-Aussage auf der Folie nicht angegeben.
+
+
+[Original_Slide_Template_2.md]
+SLIDE-TITLE = 11.2 Gesetzlich vorgesehene Prüfungen
+NARRATION-0 = Jeder Auszubildende legt eine Zwischen- und eine Abschlussprüfung ab, jeweils mit praktischem und theoretischem Teil. Praktisch wird ein Prüfungsstück oder eine Arbeitsprobe abgegeben. Die schriftliche Prüfung hat vier Teile. Grundlage sind die Prüfungsanforderungen, der Ausbildungsrahmenplan und der Rahmenplan der KMK.
+SLIDE-CONTENT = """
+- Jeder Auszubildende muss eine Zwischen- und Abschlussprüfung machen
+  - Diese ist in einen praktischen und theoretischen Teil gegliedert
+  - Für beide bietet PAL Prüfungen an
+- In praktischen Prüfung in gewerblich-technischen Ausbildungsberufen muss ein Prüfungsstück oder eine Arbeitsprobe abgegeben werden
+- Schriftliche Prüfung besteht aus 4 Teilen: Technologie, technische Mathematik, Arbeitsplanung bzw. Schaltungs- und Funktionsanalyse und Wirtschafts- und Sozialkunde
+- Grundlage sind Prüfungsanforderungen, der Ausbildungsrahmenplan und der Rahmenplan der KMK
+"""
+NARRATION-1 = Zwei Begriffe zur Erklärung – ergänzt, nicht von der Folie.
+KEY-MESSAGE = 🔎 Lesehilfe (ergänzt): *Ausbildungsrahmenplan* = Plan für den betrieblichen Teil der Ausbildung; *Rahmenplan der KMK* = Rahmenlehrplan für die Berufsschule, gegliedert in Lernfelder. Die Prüfung stützt sich also auf beide Lernorte.
+SOURCE = Quelle: Folie R187 „11.2 Gesetzlich vorgesehene Prüfungen“ – „Jeder Auszubildender“ zu „Jeder Auszubildende“ korrigiert.
+
+
+[Original_Slide_Template_3.md]
+SLIDE-TITLE = 11.3 Entwicklung der Aufgaben durch die PAL
+NARRATION-0 = Die Aufgaben entwickeln alle an der Ausbildung Beteiligten gemeinsam. Neben dem Hauptausschuss aus Vertretern der IHKs und der Gewerkschaften gibt es Fachausschüsse mit in der Regel neun Mitgliedern – zu gleichen Teilen Arbeitgeber, Arbeitnehmer und Lehrkräfte berufsbildender Schulen. Sie arbeiten ehrenamtlich, werden für fünf Jahre berufen und tagen meist zweimal jährlich in Stuttgart.
+SLIDE-CONTENT = """
+- Entwicklung alles an Ausbildung Beteiligter – Zusammenarbeit zwischen PAL und dem DGB
+- **Hauptausschuss** besteht aus Vertretern des IHK‘s und Gewerkschaften
+- **Fachausschuss** umfasst i. d. R. 9 Mitglieder
+  - In gleicher Anzahl gehören diesem Ausschuss Beauftragte der Arbeitgeber, Arbeitnehmer und Lehrer der berufsbildenden Schulen an
+  - Mitarbeiter arbeiten hier ehrenamtlich
+  - Werden von der PAL für fünf Jahre berufen
+  - Tagen i. d. R. zweimal jährlich bei der PAL in Stuttgart
+"""
+NARRATION-1 = Zwei Abkürzungen – ergänzt, nicht von der Folie.
+SLIDE-CONTENT-2 = """
+> [!NOTE] 🔎 Lesehilfe (ergänzt, nicht von der Folie)
+> *IHK* = Industrie- und Handelskammer, die für Prüfungen in Industrieberufen zuständige Stelle; *DGB* = Deutscher Gewerkschaftsbund (Arbeitnehmerseite).
+"""
+NARRATION-2 = Und für Sie als künftige Lehrkraft:
+KEY-MESSAGE = 🎯 Ein Drittel jedes Fachausschusses sind Lehrkräfte berufsbildender Schulen (9 Mitglieder, je gleich viele aus drei Gruppen, R188).
+SOURCE = Quelle: Folie R188 „11.3 Entwicklung der Aufgaben durch die PAL“
+
+
+[Interactive_Exercise_Template_1.md]
+SLIDE-TITLE = Aktivierung: Welches Gütekriterium sichert das?
+NARRATION-0 = Wenden Sie die Gütekriterien aus S10 auf die PAL an.
+Q1-QUESTION = Bundeseinheitliche Aufgabensätze: Alle Prüflinge bekommen die gleichen Anforderungen. Welches Gütekriterium sichert das vor allem?
+Q1-WRONG-1 = Reliabilität
+Q1-CORRECT = Objektivität
+Q1-WRONG-2 = Validität
+Q1-HINT = Gleiche Bedingungen für alle …
+Q1-FEEDBACK = Gleiche Aufgaben sichern vor allem die Durchführungs- und Auswertungsobjektivität (R176–R177).
+NARRATION-1 = Jetzt können mehrere Antworten richtig sein.
+Q2-QUESTION = Welche Merkmale der PAL-Prüfung dienen vor allem der Objektivität?
+Q2-CORRECT-1 = Bundeseinheitliche Aufgabensätze für alle Prüflinge
+Q2-WRONG-1 = Grundlage der Aufgaben sind Prüfungsanforderungen, Ausbildungsrahmenplan und KMK-Rahmenplan.
+Q2-CORRECT-2 = Prüfungs- und normgerechte Form durch PAL-Projektmanagement und CAD-Team
+Q2-WRONG-2 = Statistische Auswertung der Prüfungsergebnisse zur Optimierung künftiger Prüfungen
+Q2-HINT = Objektivität: unabhängig davon, wer durchführt und auswertet.
+Q2-FEEDBACK = Gleiche Aufgaben und eine einheitliche Form sichern vor allem Durchführungs- und Auswertungsobjektivität. Die statistische Auswertung (R189) dient der Qualität der Messung – als Reliabilität zuzuordnen; vertretbar ist auch Validität, wenn Aufgaben verbessert werden, die nicht das Richtige messen.
+NARRATION-2 = Zum Schluss ein Begriff.
+Q3-QUESTION = Grundlage der Aufgaben sind Prüfungsanforderungen, Ausbildungsrahmenplan und KMK-Rahmenplan. Welches Gütekriterium soll das vor allem sichern? (ein Wort)
+Q3-ANSWER = Validität
+Q3-HINT = Wird geprüft, was gelernt werden soll?
+Q3-FEEDBACK = Die Orientierung an Prüfungsanforderungen und Rahmenplänen soll sichern, dass geprüft wird, was gelernt werden soll – Validität (R174).
+
+
+# ───────────────────────── Station 2: Wie eine PAL-Aufgabe entsteht (R189–R192) ─────────────────────────
+
+[Content_Introduction_Template_2.md]
+SLIDE-TITLE = Station 2: Wie eine PAL-Aufgabe entsteht
+NARRATION-0 = In der zweiten Station verfolgen wir den Weg einer Prüfungsaufgabe von der Idee bis zur Verabschiedung. Eine Ergänzung aus Zinn, als NEU markiert, zeigt, was im allgemeinbildenden Unterricht dieselbe Rolle spielt.
+GUIDING-QUESTION = Wie sichert die PAL die Qualität ihrer Aufgaben?
+NARRATION-1 = Zuerst die Hauptaufgaben der Fachausschüsse.
+ASPECT-1 = Qualitätssicherung und Qualitätsoptimierung (R189)
+NARRATION-2 = Dann der Weg einer Aufgabe.
+ASPECT-2 = Sechs Schritte vom Auftrag bis zur Verabschiedung (R190)
+NARRATION-3 = Danach die Größenordnung.
+ASPECT-3 = Geschäftsfelder und Aufgaben der PAL (R191–R192)
+NARRATION-4 = Und der Blick auf das Gymnasium.
+ASPECT-4 = [NEU] PISA, Bildungsstandards, EPA Technik
+NARRATION-5 = Warum ist das für Sie wichtig?
+WHY-IT-MATTERS = Erprobung, Statistik, Stellungnahme – so sichert man Gütekriterien im Großen. Was davon können Sie im Kleinen übernehmen?
+NARRATION-6 = Markieren Sie, was Sie schon kennen.
+
+
+[Original_Slide_Template_2.md]
+SLIDE-TITLE = 11.4 Hauptaufgaben der PAL-Fachausschüsse
+NARRATION-0 = Die Fachausschüsse wählen Aufgaben aus und entwickeln sie, legen Umfang und Tiefe der Prüfungen fest und sehen Entwürfe kritisch durch.
+SLIDE-CONTENT = """
+- Auswahl, Entwicklung und Entwurf von Prüfungsaufgaben für die schriftlichen und praktischen Zwischen- und Abschlussprüfungen
+- Festlegung des Umfangs und der Tiefe der Prüfungen in den einzelnen beruflichen Qualifikationen
+- Kritische Durchsicht von Aufgabenentwürfen
+- Erprobung bzw. Nachbau von Prüfungen mit dem Ziel die Durchführbarkeit der Prüfungen zu gewährleisten (**Qualitätssicherung**) und Verabschiedung von Prüfungsaufgaben
+- Auswertung von statistischen Prüfungsergebnissen und Stellungnahme zu Prüfungen mit dem Ziel der Optimierung zukünftiger Prüfungen (**Qualitätsoptimierung**)
+"""
+NARRATION-1 = Zwei Begriffe sind hervorgehoben.
+KEY-MESSAGE = **Qualitätssicherung** durch Erprobung und Nachbau, **Qualitätsoptimierung** durch die Auswertung statistischer Prüfungsergebnisse.
+SOURCE = Quelle: Folie R189 „11.4 Hauptaufgaben der PAL-Fachausschüsse“
+
+
+[Process_Template_6.md]
+SLIDE-TITLE = 11.5 Organisation der Arbeit der PAL-Fachausschüsse
+NARRATION-0 = Der Weg einer Prüfungsaufgabe hat sechs Schritte – vom Auftrag an die Mitglieder bis zur endgültigen Verabschiedung.
+STEP-1 = Auftrag
+STEP-2 = Sichtung
+STEP-3 = Prüfungsgerechte Form
+STEP-4 = Kontrolle und Vortest
+STEP-5 = Vorlage
+STEP-6 = Verabschiedung
+NARRATION-1 = Zuerst der Auftrag an die Mitglieder.
+STEP-TEXT-1 = Mitglieder der Fachausschüsse erhalten Auftrag zur Entwicklung von neuen Prüfungsaufgaben
+NARRATION-2 = Dann die Sichtung im Ausschuss.
+STEP-TEXT-2 = Entwickelte Aufgaben werden im Fachausschuss gesichtet und vorläufig genehmigt
+NARRATION-3 = Projektmanagement und CAD-Team bringen die Entwürfe in eine prüfungs- und normgerechte Form.
+STEP-TEXT-3 = Genehmigte Aufgabenentwürfe werden vom zuständigen PAL-Projektmanager/in und vom CAD-Team der PAL in die prüfungs- und normgerechte Form gebracht
+NARRATION-4 = Die Mitglieder kontrollieren, testen vor oder bauen nach und nehmen Stellung.
+STEP-TEXT-4 = Mitglieder der Fachausschüsse erhalten diese Unterlagen zur Kontrolle, zum Vortest/ Nachbau und zur Stellungnahme
+NARRATION-5 = Daraus entstehen Vorlagen für die nächste Sitzung.
+STEP-TEXT-5 = Anhand Stellungnahme der Fachausschuss-Mitglieder bereiten PAL Vorlagen für die jeweils nächste Ausschusssitzung vor
+NARRATION-6 = Und dort werden die Aufgaben endgültig verabschiedet.
+STEP-TEXT-6 = Dort erfolgt dann die endgültige Verabschiedung der Aufgaben
+SOURCE = Quelle: Folie R190 „11.5 Organisation der Arbeit der PAL-Fachausschüsse“ – „Stellungsnahme“ zu „Stellungnahme“ korrigiert; Nummerierung und Kurzbezeichnungen der Schritte ergänzt (Reihenfolge wie auf der Folie).
+ORDER-TITLE = Aktivierung: Der Weg einer PAL-Aufgabe
+NARRATION-ORDER-0 = Bringen Sie die sechs Schritte in die richtige Reihenfolge.
+
+
+[Original_Slide_Template_2.md]
+SLIDE-TITLE = 11.6 Geschäftsfelder der PAL
+NARRATION-0 = Die Geschäftsfelder zeigen die Größenordnung: Aufgaben für 147 Berufe und Fachrichtungen, rund 144.000 Aufgabensätze für Zwischen- und 266.000 für Abschlussprüfungen pro Jahr. Daneben entwickelt die PAL das Prüfungssystem weiter – mit Aufgabenanalyse, Statistik und neuen Verfahren.
+SLIDE-CONTENT = """
+<!-- data-type="none" -->
+| Aufgabenentwicklung | Weiterentwicklung des Prüfungssystems |
+| --- | --- |
+| Aufgabenentwicklung für Zwischen- und Abschlussprüfungen in 147 Berufen/Fachrichtungen | Aufgabenanalyse |
+| Darunter: Holz- und Bauberufe, Wirtschafts- und Sozialkunde, Bekleidungsberufe, Schlosserische Berufe … | Statistik der Prüfung |
+| Aufgabensätze pro Jahr: Ca. 144000 für Zwischenprüfungen, Ca. 266000 für Abschlussprüfungen | Entwicklung neuer Prüfungs-, Auswertungs- und Beratungsverfahren |
+| | Einsatz neuer Technologien bei Herstellung und Verwendung von Prüfungsaufgaben |
+| | Rationalisierung der Prüfungsabwicklung |
+| | Problemabwicklung |
+"""
+NARRATION-1 = Vorsicht mit den Zahlen.
+KEY-MESSAGE = ⚠️ Die Zahlen sind Stand der Originalfolie – ohne Jahr und Quelle. Erklären Sie in der Prüfung das **Prinzip** (Rationalisierung, Objektivierung, Vergleichbarkeit), nicht die Zahl.
+SOURCE = Quelle: Folie R191 „11.6 Geschäftsfelder der PAL“ – „der Prüfungssystems“ zu „des Prüfungssystems“ korrigiert; Spaltenüberschrift links ergänzt; Zahlen = Stand der Originalfolie (Z-23).
+
+
+[Original_Slide_Template_2.md]
+SLIDE-TITLE = 11.7 Aufgaben der PAL
+NARRATION-0 = Zusammengefasst stellt die PAL bundeseinheitliche Aufgabensätze für die 81 IHKs her, entwickelt Lehrmittel und Informationsmaterial und berücksichtigt dabei Erkenntnisse aus Testtheorie und Pädagogik ebenso wie Erfahrungen aus der Praxis.
+SLIDE-CONTENT = """
+- Herstellung optimierter, bundeseinheitlicher Aufgabensätze für Zwischen- und Abschlussprüfungen in industriell-technischen Ausbildungsberufen für die 81 IHK‘s Deutschlands
+- Entwicklung von Lehrmitteln und Informationsmaterial zu den industriell-technischen Zwischen- und Abschlussprüfungen
+- Berücksichtigung wissenschaftlicher Erkenntnisse aus den Bereichen der Testtheorie und der Pädagogik sowie der Erfahrungen der Berufs- und Prüfungspraxis
+- Öffentlichkeitsarbeit für industriell-technische Zwischen- und Abschlussprüfungen
+"""
+NARRATION-1 = Testtheorie – das Wort kennen Sie aus S10.
+KEY-MESSAGE = 🔗 „Testtheorie“: Die PAL-Aufgaben sollen Tests im Sinne von R173 sein – abgesichert nach testtheoretischen und teststatistischen Kriterien.
+SOURCE = Quelle: Folie R192 „11.7 Aufgaben der PAL“ – „Berücksichtiger“ zu „Berücksichtigung“ korrigiert; „81 IHK‘s“ = Stand der Originalfolie (Z-23).
+
+
+[Original_Slide_Template_3.md]
+SLIDE-TITLE = [NEU] Und im allgemeinbildenden Unterricht?
+NARRATION-0 = Und am Gymnasium? Dazu eine Ergänzung aus Zinn 2026, als NEU markiert. PISA ist ein internationales Bildungsmonitoring der OECD – daher der PISA-Bezug auf R186 und R193.
+SLIDE-CONTENT = """
+<!-- neu="Zinn 2026, S. 48" -->
+**PISA** ist ein zyklisches Bildungsmonitoring der OECD: Alle drei Jahre werden alltags- und berufsrelevante Kenntnisse und Fähigkeiten 15-Jähriger international verglichen (Zinn 2026, S. 48, nach OECD 2019). Das erklärt den PISA-Bezug auf R186 und R193: Es geht um **Vergleichbarkeit**.
+"""
+NARRATION-1 = Bildungsstandards legen fest, welche Kompetenzen Schülerinnen und Schüler erwerben sollen.
+SLIDE-CONTENT-2 = """
+<!-- neu="Zinn 2026, S. 53" -->
+**Bildungsstandards** legen fest, welche Kompetenzen Schülerinnen und Schüler einer Jahrgangsstufe erwerben sollen – sie beschreiben nicht die Inhalte (Input), sondern die zu erwerbenden Kompetenzen (**Output-Orientierung**); ein Hauptziel ist die Sicherung der Ergebnisse durch Bildungsmonitoring (Zinn 2026, S. 53).
+"""
+NARRATION-2 = Was für die Ausbildung die PAL ist, leisten für das Abitur im Fach Technik die Einheitlichen Prüfungsanforderungen.
+KEY-MESSAGE = **Für das Gymnasium:** Was für die Ausbildung die bundeseinheitliche PAL-Prüfung ist, leisten für das Abitur im Fach Technik die **Einheitlichen Prüfungsanforderungen (EPA Technik, KMK)** mit ihren Anforderungsbereichen – vgl. S10 und Zinn (2026, S. 72).
+SOURCE = [NEU] Ergänzung, keine Originalfolie: Zinn (2026), S. 48, 53, 72.
+
+
+# ───────────────────────── Station 3: Pro und Contra (R193–R194) ─────────────────────────
+
+[Original_Slide_Template_3.md]
+SLIDE-TITLE = Station 3 · 11.8 Pro und Contra
+NARRATION-0 = Zum Abschluss der Inhalte ein Streit: Sollte geprüft werden mit einem betrieblichen Auftrag oder mit der bundeseinheitlichen PAL-Prüfung? Die Folien sammeln Argumente auf beiden Seiten – Motivation und berufliche Relevanz auf der einen, Standardisierung und Vergleichbarkeit auf der anderen.
+SLIDE-CONTENT = """
+<!-- data-type="none" -->
+| Betrieblicher Auftrag vs. | PAL-Prüfung |
+| --- | --- |
+| Höhere Motivation aus Selbstständigkeit | Qualitätssicherung der Prüfung durch Standardisierung |
+| Fachausbilder übernehmen Wahl der Prüfungsaufgabe (berufliche Relevanz wird sichergestellt) | Prüfung orientiert sich vornehmlich an Unternehmen der IHK |
+| Unternehmen profitiert möglicherweise wirtschaftlich | Bundeseinheitliche Prüfung (nicht nur betriebsintern) → Prüfungsergebnisse sind vergleichbar (in der Allgemeinbildung schon lange gefordert → siehe PISA) |
+| „Trainingslager“ vor der Prüfung schwer realisierbar | Es wurden an alle Prüflinge die gleichen Anforderungen gestellt |
+| Möglicherweise subjektive Einflüsse auf die Prüfung | |
+| Kann unter Umständen kostengünstiger realisiert werden | |
+"""
+NARRATION-1 = Die zweite Folie nennt die Kritik am programmierten Teil der PAL-Prüfungen vor dem Ziel beruflicher Handlungskompetenz. Sie führen den Streit gleich selbst.
+SLIDE-CONTENT-2 = """
+<!-- data-type="none" -->
+| Betrieblicher Auftrag vs. | PAL-Prüfung |
+| --- | --- |
+| Ausbilder und Prüfer müssen bei dieser Form der Prüfung in der Lage sein, die gestellten Aufgaben fachlich einwandfrei auszuführen und zu bewerten | Der programmierte Teil der PAL-Prüfungen wird vor dem Hintergrund der Zielstellung „Entwicklung einer beruflichen Handlungskompetenz“ häufig heftig kritisiert |
+"""
+NARRATION-2 = Zwei Begriffe zur Erklärung – ergänzt.
+KEY-MESSAGE = 🔎 Lesehilfe (ergänzt): *Betrieblicher Auftrag* = eine Prüfungsform, bei der eine reale Aufgabe aus dem Ausbildungsbetrieb geprüft wird – im Gegensatz zum bundeseinheitlichen PAL-Prüfungsstück. *„Trainingslager“* meint gezieltes Üben auf eine bekannte Prüfungsform.
+SOURCE = Quelle: Folien R193–R194 „11.8 Pro und Contra“ – beide Spalten enthalten Vor- und Nachteile; „Es wurden an alle Prüflinge …“ wie im Original.
+
+
+[Discussion_Template_1.md]
+SLIDE-TITLE = Mini-Disputation: Betrieblicher Auftrag oder PAL-Prüfung?
+NARRATION-0 = Jetzt führen Sie den Streit selbst. Stimmen Sie zuerst spontan ab.
+DILEMMA = Soll mit einem **betrieblichen Auftrag** geprüft werden – oder mit der bundeseinheitlichen **PAL-Prüfung**? (Folien R193–R194)
+VOTE-QUESTION = Welche Seite überzeugt Sie spontan mehr?
+OPTION-A = Betrieblicher Auftrag
+OPTION-B = PAL-Prüfung
+OPTION-C = Beide gleich
+NARRATION-1 = Bereiten Sie sich allein vor – auf beide Seiten.
+PHASE-1-TITLE = 🧠 Vorbereitung allein · 5 min
+PHASE-1-TASK = Notieren Sie für **jede** Seite das stärkste Argument – und je ein Argument, mit dem Sie es entkräften würden. Betrieb (linke Spalte): Argument … / Entkräftung … · PAL (rechte Spalte): Argument … / Entkräftung …
+NARRATION-2 = Dann die Plädoyers.
+PHASE-2-TITLE = 🎤 Plädoyers · 4 min
+PHASE-2-TASK = Zwei Freiwillige vertreten je eine Seite (je 2 min). Alle anderen sind die **Jury**.
+
+
+[Discussion_Template_2.md]
+SLIDE-TITLE = Urteil der Jury
+NARRATION-0 = Sie sind die Jury. Stimmen Sie noch einmal ab.
+VOTE-QUESTION = Welche Seite überzeugt Sie nach den Plädoyers mehr?
+OPTION-A = Betrieblicher Auftrag
+OPTION-B = PAL-Prüfung
+OPTION-C = Beide gleich
+NARRATION-1 = Begründen Sie Ihr Urteil mit einem Gütekriterium.
+REFLECT-QUESTION = Welches Gütekriterium aus S10 – Objektivität, Reliabilität oder Validität – legen Sie als Maßstab an? Begründen Sie Ihr Urteil in zwei Sätzen.
+NARRATION-2 = Ein Blick auf die Methode, die Sie gerade erlebt haben.
+KEY-MESSAGE = 🪞 Methodenspiegel: Sie haben eine Disputation mit Rollen erlebt – wie das Rollenspiel in **S04**, nur mit Jury und Bewertungsmaßstab. Mit den Gütekriterien ordnet sich der Streit: Die PAL-Prüfung ist stark bei Objektivität und Vergleichbarkeit, der betriebliche Auftrag bei der Validität für berufliche Handlungskompetenz.
+
+
+# ───────────────────────── Wo stehen wir? Das ganze Modul ─────────────────────────
+
+[Interactive_Exercise_Template_1.md]
+SLIDE-TITLE = Wo stehen wir? Ihre Kurskarte – jetzt ohne Raten
+NARRATION-0 = Zum Abschluss schauen Sie auf das ganze Modul zurück. Zu Semesterbeginn haben Sie die Themen im Kursüberblick der Kurskarte zugeordnet – geraten. Jetzt noch einmal.
+Q1-QUESTION = Zu welchem Feld der Kurskarte gehört die Didaktische Reduktion?
+Q1-WRONG-1 = Methoden – Erkenntnisweg
+Q1-CORRECT = Inhalte
+Q1-WRONG-2 = Medien
+Q1-HINT = Was – und wie vereinfacht?
+Q1-FEEDBACK = Inhalte: S07 Didaktische Reduktion.
+NARRATION-1 = Jetzt können mehrere Antworten richtig sein.
+Q2-QUESTION = Welche Themen gehören zum Feld „Methoden – Erkenntnisweg“?
+Q2-CORRECT-1 = Projektmethode
+Q2-WRONG-1 = Sozialformen und Aktionsformen
+Q2-CORRECT-2 = Leittext und Experiment
+Q2-WRONG-2 = Lernerfolgskontrolle
+Q2-HINT = Sozial- und Aktionsformen haben ein eigenes Methodenfeld.
+Q2-FEEDBACK = Methoden – Erkenntnisweg: Logische Methoden, Projektmethode, Fallstudie und Rollenspiel, Leittext und Experiment, Methodische Großformen. Sozial- und Aktionsformen (S08) bilden das zweite Methodenfeld; Lernerfolgskontrolle gehört zu Ziele und Kontrolle.
+NARRATION-2 = Zum Schluss ein Feld.
+Q3-QUESTION = Zu welchem Feld der Kurskarte gehören Simulation und KI? (ein Wort)
+Q3-ANSWER = Medien
+Q3-HINT = Womit?
+Q3-FEEDBACK = Medien: S09 Medien und Wirklichkeitserfahrung, Simulation und KI. Ziele und Kontrolle: Handlungsorientierung, Lernerfolgskontrolle, PAL-Prüfungen.
+
+
+[Original_Slide_Template_1.md]
+SLIDE-TITLE = Selbsteinschätzung: die vier Modulziele
+NARRATION-0 = Wie sicher fühlen Sie sich bei den vier Modulzielen? Die Ergebnisse sind anonym und für uns eine Rückmeldung.
+SLIDE-CONTENT = """
+<!-- didaktik="Teil von 70–82 min (zusammen mit Baustein 12) · Einzelarbeit · Ergebnisse anonym, für Lehrende als Rückmeldung" -->
+Wie sicher fühlen Sie sich? (1 = gar nicht, 4 = sehr sicher)
+
+**Handlungsorientierte Methoden auswählen und begründen**
+
+- [(1)] 1
+- [(2)] 2
+- [(3)] 3
+- [(4)] 4
+
+**Fachinhalte adressatengerecht didaktisch reduzieren**
+
+- [(1)] 1
+- [(2)] 2
+- [(3)] 3
+- [(4)] 4
+
+**Unterricht planen und methodische Entscheidungen begründen**
+
+- [(1)] 1
+- [(2)] 2
+- [(3)] 3
+- [(4)] 4
+
+**Lernerfolgskontrollen nach Gütekriterien beurteilen**
+
+- [(1)] 1
+- [(2)] 2
+- [(3)] 3
+- [(4)] 4
+
+**Und was hat sich geändert?** Wo hätten Sie die Kurskarte zu Beginn anders zugeordnet?
+
+[[___ ___]]
+"""
+SOURCE = Modulziele nach dem Kursüberblick; keine Originalfolie.
+
+
+[Open_Task_Template_1.md]
+SLIDE-TITLE = Baustein 12: Ihr Entwurf – vollständig? (optional)
+NARRATION-0 = Prüfen Sie mit der Checkliste, ob Ihr Unterrichtsentwurf alle Bausteine aus S01 bis S10 enthält. Die häufigsten Lücken besprechen wir anschließend gemeinsam.
+TASK = """
+<!-- didaktik="Lehrschritt üben lassen (Transfer / Entwickeln) · 70–82 min · Einzelarbeit 8 min, Classroom-Auswertung der häufigsten Lücken 4 min" -->
+
+<!-- data-type="none" -->
+| Baustein | Inhalt | aus |
+| --- | --- | --- |
+| 1 | Thema, Lerngruppe, Schulform | S01 |
+| 2 | logische Methode | S01b |
+| 3 | Lernhandlung (vollständige Handlung) | S02 |
+| 4 | Projekt-Grundmuster | S03 |
+| 5 | Kontrolle und Bewertung | S04 |
+| 6 | Experiment | S05 |
+| 7 | Großform | S06 |
+| 8 | reduzierte Fachaussage | S07 |
+| 9 | Sozial- und Aktionsformen | S08 |
+| 10 | Medium (ggf. Simulation oder KI-Einsatz mit Leitplanken) | S09 |
+| 11 | Kontrollaufgabe mit Operator und Erwartungshorizont | S10 |
+
+**Allein (8 min):** Welcher Baustein fehlt Ihnen noch oder ist am schwächsten?
+
+- [(1–3)] Baustein 1–3 (Thema, logische Methode, Lernhandlung)
+- [(4–6)] Baustein 4–6 (Projekt, Kontrolle und Bewertung, Experiment)
+- [(7–9)] Baustein 7–9 (Großform, Reduktion, Sozial- und Aktionsformen)
+- [(10–11)] Baustein 10–11 (Medium, Kontrollaufgabe)
+- [(keiner)] Mein Entwurf ist vollständig.
+
+Notieren Sie den Baustein mit einem nächsten Schritt:
+"""
+HINT = Die Beuteblätter und die Selbstlerneinheiten der Sitzungen enthalten zu jedem Baustein eine Übung.
+MODEL-ANSWER = Beispiel: Baustein 6 (Experiment) fehlt noch. Nächster Schritt: Für die Stunde „Leitungsschutz“ ein Schülerexperiment nach S05 planen – Fragestellung, Vermutung, Durchführung, Auswertung – und in den Entwurf eintragen; danach mit Baustein 11 prüfen, ob die Kontrollaufgabe zum Experiment passt.
+
+
+# ───────────────────────── Abschluss ─────────────────────────
+
+[Discussion_Template_2.md]
+SLIDE-TITLE = Zum Mitnehmen: Ist die Kritik berechtigt?
+NARRATION-0 = Zurück zur These vom Anfang. Stimmen Sie noch einmal ab.
+VOTE-QUESTION = Ist die Kritik am programmierten Teil der PAL-Prüfungen berechtigt?
+OPTION-A = Ja, die Kritik ist berechtigt
+OPTION-B = Nein, die Kritik ist unberechtigt
+OPTION-C = Teils, teils
+NARRATION-1 = Was ist Ihnen im ganzen Modul am unklarsten geblieben? Wir greifen es vor der Prüfung noch einmal auf.
+REFLECT-QUESTION = Muddiest point des Moduls: Was ist Ihnen im ganzen Modul am unklarsten geblieben?
+NARRATION-2 = Eine Einordnung:
+KEY-MESSAGE = Beide Antworten lassen sich mit den Gütekriterien begründen. Programmierte Aufgaben sichern Objektivität und Vergleichbarkeit – das war das Ziel der PAL (R185–R186). Für berufliche Handlungskompetenz sind sie nur begrenzt valide, weil sie vor allem Wissen und Verstehen prüfen (R194; S02, S10). Deshalb gibt es neben dem schriftlichen auch den praktischen Prüfungsteil (R187).
+
+
+[Summary_Recap_Template_1.md]
+SLIDE-TITLE = Das Wichtigste aus S11
+NARRATION-0 = Fassen wir zusammen.
+NARRATION-1 = Erstens: warum es die PAL gibt.
+TAKEAWAY-1 = Die PAL entstand aus Rationalisierung und der Forderung nach Objektivierung: Transparenz, Objektivität, Vergleichbarkeit (R185–R186).
+NARRATION-2 = Zweitens: wie Aufgaben entstehen.
+TAKEAWAY-2 = Fachausschüsse – zu einem Drittel BBS-Lehrkräfte – entwickeln Aufgaben in sechs Schritten mit Vortest und Statistik (R188–R190).
+NARRATION-3 = Drittens: der Streit.
+TAKEAWAY-3 = Betrieblicher Auftrag oder PAL-Prüfung: Validität für Handlungskompetenz gegen Objektivität und Vergleichbarkeit (R193–R194).
+NARRATION-4 = Und viertens: das ganze Modul.
+TAKEAWAY-4 = Ziele, Inhalte und Medien hängen zusammen und münden in die Methoden – die Kurskarte ordnet das Modul.
+REMEMBER = Jede Prüfungsform hat Stärken bei einem Gütekriterium – begründen Sie Ihre Wahl.
+NARRATION-5 = Eine letzte Frage.
+RECAP-QUESTION = Was nennt Folie R185 als Anlass für die Rationalisierung des Prüfungswesens?
+RECAP-WRONG-1 = die PISA-Untersuchung 2002
+RECAP-WRONG-2 = der Wunsch der Betriebe nach eigenen Prüfungsaufgaben
+RECAP-CORRECT = fast eine Verdreifachung des Prüfungsaufwands durch das BBiG 1969
+RECAP-HINT = Ein Gesetz von 1969 …
+RECAP-FEEDBACK = Richtig: Das BBiG 1969 brachte den zuständigen Stellen fast eine Verdreifachung des Aufwands – daraus folgten Rationalisierung und die Forderung nach Objektivierung (R185). PISA nennt R186 als Bestätigung.
+NARRATION-6 = Und jetzt: die Vorbereitung auf die mündliche Prüfung.
+OUTLOOK = 📝 Beuteblatt-Stopp: Ergänzen Sie Ihre Beute aus dem ganzen Modul. · 🧩 Optionale Selbstlernsitzung am 11.01.2027: Führen Sie Ihre Bausteine 1–11 zu einem Entwurf zusammen.
+
+
+[Original_Slide_Template_1.md]
+SLIDE-TITLE = Prüfungsfragen zum Üben
+NARRATION-0 = Mit diesen fünf Fragen können Sie sich auf die mündliche Prüfung vorbereiten. Die Querverweise zeigen, wo die Themen in anderen Sitzungen wieder auftauchen.
+SLIDE-CONTENT = """
+<!-- didaktik="E-12 mündliche Prüfung" -->
+1. Warum wurde die PAL gegründet, und welche Ziele verfolgt sie?
+2. Beschreiben Sie den Weg einer PAL-Aufgabe vom Auftrag bis zur Verabschiedung.
+3. Wägen Sie betrieblichen Auftrag und PAL-Prüfung anhand der Gütekriterien gegeneinander ab.
+4. „Der programmierte Teil der PAL-Prüfung passt nicht zur Handlungskompetenz.“ – Nehmen Sie Stellung (vgl. S02).
+5. Ordnen Sie die Themen des Moduls den Planungsfragen der Kurskarte (Ziele, Inhalte, Methoden, Medien) zu und begründen Sie eine Zuordnung.
+
+> [!NOTE] 🔗 Querverweise
+> Gütekriterien, programmierte Prüfung, Operatoren → **S10** · Rollenspiel, Bewertung in Projekten → **S04** · Handlungskompetenz → **S02** · Medien und KI → **S09** · Kurskarte → **Kursüberblick**
+"""
+SOURCE = Die Prüfungsfragen sind experimentell: Sie dienen der Vorbereitung, es ist nicht garantiert, dass Fragen in dieser Form gestellt werden.
+
+
+[Summary_Recap_Template_3.md]
+SLIDE-TITLE = Rückblick auf S11 und das Modul
+NARRATION-0 = Nehmen Sie sich zwei Minuten für einen Rückblick auf die Sitzung und das ganze Modul.
+NARRATION-1 = Haken Sie ab, was Sie jetzt können.
+CAN-DO-1 = Ich kann Entstehung und Ziele der PAL erläutern.
+CAN-DO-2 = Ich kann betrieblichen Auftrag und PAL-Prüfung mit den Gütekriterien abwägen.
+CAN-DO-3 = Ich kann die Themen des Moduls der Kurskarte zuordnen und Verbindungen zwischen Sitzungen herstellen.
+NARRATION-2 = Und zum Schluss: Wie hat die Sitzung für Sie funktioniert?
+TEASER-TITLE = Vorbereitung auf die Modulprüfung
+NARRATION-TEASER-0 = Die Prüfungsleistung ist ausschließlich eine mündliche Prüfung. Arbeiten Sie die Prüfungsfragen zum Üben aller zwölf Sitzungen durch – am besten laut und zu zweit. Die Fragen sind experimentell: Es ist nicht garantiert, dass Fragen in dieser Form gestellt werden.
+IMAGE-ALT = Eine Auszubildende arbeitet an einer Drehmaschine in einer Lehrwerkstatt, im Hintergrund weitere Auszubildende
+IMAGE-PATH = https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv_Bild_183-14750-0002,_Bautzen,_Auszubildener_beim_Drehen.jpg?width=800
+IMAGE-CAPTION = Auszubildende beim Drehen, Bautzen 1952 · Foto: Klein, Bundesarchiv Bild 183-14750-0002 · CC BY-SA 3.0 DE · Wikimedia Commons
+TEASER-QUESTION = Welche drei Prüfungsfragen des Moduls fallen Ihnen am schwersten? Beantworten Sie sie laut – mit Begriff, Erläuterung, Beispiel aus Ihrer Fachrichtung und einer Verbindung zu einer anderen Sitzung.
+NEXT-DATE = Optionale Selbstlernsitzung · Montag, 11.01.2027 · danach: mündliche Modulprüfung
+
+
+[Original_Slide_Template_1.md]
+SLIDE-TITLE = Vielen Dank!
+NARRATION-0 = Vielen Dank für Ihre Aufmerksamkeit – und für Ihre Rückmeldung.
+SLIDE-CONTENT = """
+**Feedback zur Veranstaltung:** Was sollte bleiben, was sollte sich ändern?
+
+[[___ ___ ___]]
+
+> **Vielen Dank für Ihre Aufmerksamkeit**
+"""
+SOURCE = Quelle: Folie R195 „Vielen Dank für Ihre Aufmerksamkeit“
+
+
+[Original_Slide_Template_1.md]
+SLIDE-TITLE = Literatur
+NARRATION-0 = Hier finden Sie die Quellen dieser Sitzung.
+SLIDE-CONTENT = """
+**Zitiert auf den Originalfolien dieser Sitzung**
+
+- R185: Berufsbildungsgesetz (BBiG) 1969 – auf der Folie ohne weitere Angaben.
+- R186, R193: PISA-Untersuchung 2002 – Quelle auf Originalfolie nicht angegeben.
+- R185–R192: Angaben zur PAL ohne Quellen- und Standangabe (Zitationsprüfung Z-23).
+
+**[NEU] Ergänzende Literatur**
+
+- Zinn, B. (2026). *Didaktik des naturwissenschaftlichen, informatischen und technikwissenschaftlichen Unterrichts. Grundlagen und Denk- und Arbeitsweisen in interdisziplinären Fächern in Schule und Hochschule.* Springer Spektrum, Abschn. 4.1.1 (S. 48), 4.2 (S. 53), 5.1.3–5.1.4 (S. 72). https://doi.org/10.1007/978-3-662-72499-6
+- OECD (2019) – zitiert nach Zinn (2026, S. 48); vollständige Angaben dort.
+"""
+SOURCE = Gesamtverzeichnis: 00_Literatur.md

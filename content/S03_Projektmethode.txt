@@ -1,0 +1,596 @@
+# Content file S03 – build with:  python3 content/build.py content/S03_Projektmethode.txt
+# Original slides R054–R068 = deck 03, slides 1–15 (Original_PPTX_Sliced/; offset 53). Deck 03 was updated on 26.10.2026:
+# corrected sentence on slide 7 (R060, "… angezielt werden.") is used; the new speaker notes on slide 18 (R071, Heckhausen) belong to S04.
+
+[course]
+AUTHOR = Hannes Tegelbeckers
+EMAIL = hannes.tegelbeckers@ovgu.de
+VERSION = 0.2.0
+LANGUAGE = de
+NARRATOR = Deutsch Female
+COURSE-TITLE = S03 – Tradierte methodische Konzepte & Projektmethode
+COURSE-DESCRIPTION = Fachdidaktik technischer Allgemeinbildung II / Fachdidaktik gewerblich-technischer Fachrichtungen – Sitzung S03. Von der Arbeitsschule zur Projektmethode: Merkmale, Grundmuster nach Frey, Rolle der Lehrkraft, Beispielprojekt.
+COURSE-SUBTITLE = """
+**Tradierte Methodische Konzepte** · Fachdidaktik technischer Allgemeinbildung II · OVGU Magdeburg · Montag, 26.10.2026, 07:00–09:00 Uhr
+
+<small>Quelle: Folie R054 „Tradierte Methodische Konzepte“ (Teil-Deck 03: „03_Tradierte Methodische Konzepte“)</small>
+
+<!-- didaktik="Planungsraster S03 · E-03, E-04, E-12, E-17, E-19, E-25 · 0–5 Einstieg These (Vorbereitungsumfrage zeigen) · 5–10 Ihre Projekte · 10–15 Kurskarte · 15–30 Station 1 Woher kommt die Idee?, Aktivierungen · 30–50 Station 2 Merkmale, Grundmuster, Kreislauf, Problemarten, Fixpunkt · 50–67 Station 3 Lehrkraft, Beispiel Abriss, am Grundmuster prüfen · 67–82 Baustein 4 · 82–87 Metainteraktion · 87–90 Abschluss" -->
+> [!IMPORTANT] 🧭 Leitfrage
+> Wie lernen Lernende in **Projekten** – und was tut die **Lehrkraft** dabei? – Auf der Kurskarte: **Methoden → Erkenntnisweg**. Aus S02 kennen Sie die vollständige Handlung – heute sehen Sie, wie Projekte sie umsetzen.
+
+> [!TIP] 📚 Vor der Sitzung
+> Haben Sie sich an ein „Projekt“ aus Schule, Ausbildung oder Studium erinnert (Idee – Planung – Ergebnis)? Sie prüfen es heute.
+
+📝 **Beuteblatt S03** – ergänzen Sie es während der Sitzung.
+"""
+
+
+# ───────────────────────── Einstieg ─────────────────────────
+
+[Discussion_Template_1.md]
+SLIDE-TITLE = Einstieg: Projektwoche = Projekt?
+NARRATION-0 = Eine These zum Start. Stimmen Sie spontan ab – am Ende der Sitzung stimmen wir noch einmal ab.
+DILEMMA = > **„Wenn die Lehrkraft das Thema vorgibt, ist es kein Projekt.“**
+VOTE-QUESTION = Stimmen Sie zu?
+OPTION-A = Ja, ich stimme zu
+OPTION-B = Nein, ich stimme nicht zu
+OPTION-C = Teils, teils
+NARRATION-1 = Sehen Sie sich Ihr Projekt aus der Vorbereitung an.
+PHASE-1-TITLE = 🧠 Ihre Projekte · allein, 3 min
+PHASE-1-TASK = Wer hatte bei Ihrem Projekt aus der Vorbereitung die Idee, wer plante, was kam heraus? Was davon würden Sie ein „echtes“ Projekt nennen?
+NARRATION-2 = Heute erleben Sie selbst ein Grundmuster.
+PHASE-2-TITLE = 📌 Heute erleben Sie selbst ein Grundmuster
+PHASE-2-TASK = Sie entwickeln für Ihr Entwurfsthema eine Projektinitiative, eine Projektskizze und einen Projektplan. Die Beuteblatt-Stopps sind unsere **Fixpunkte**, die Schlussrunde ist eine **Metainteraktion** – beides Komponenten des Grundmusters nach Frey (Station 2).
+
+
+[Overview_Course_Template_2.md]
+SLIDE-TITLE = Kurskarte: drei Fragen an die Projektmethode
+NARRATION-0 = Heute stellen wir drei Fragen an die Projektmethode: Woher kommt die Idee? Was macht ein Projekt aus? Und was tut die Lehrkraft dabei? Gleichzeitig durchlaufen Sie selbst die ersten Schritte eines Projekts für Ihr Entwurfsthema. Die Gliederung in drei Fragen ist eine Lesehilfe, nicht Teil der Originalfolien.
+MODULE-1 = Woher kommt die Idee?
+MODULE-2 = Merkmale von Projekten
+MODULE-3 = Grundmuster nach Frey
+MODULE-4 = Was tut die Lehrkraft?
+MODULE-5 = Ihr eigenes Grundmuster
+MILESTONE = Baustein 4
+NARRATION-1 = Auf diesem Weg erreichen Sie sechs Ziele.
+KNOW-1 = die Kerngedanken der Arbeitsschule, der Reformpädagogen und des Projektunterrichts sowie die Schritte nach Kilpatrick/Dewey **nennen**
+CAN-1 = für ein eigenes Vorhaben Projektinitiative, Projektskizze und Projektplan **formulieren**
+VALUE-1 = **beurteilen**, ob ein Vorhaben ein Projekt im didaktischen Sinn ist
+KNOW-2 = das Grundmuster der Projektmethode nach Frey **erläutern**
+CAN-2 = Projekte anhand der Merkmale der Arbeit an Projekten **prüfen** und Problemarten ihrem Prüfkriterium **zuordnen**
+VALUE-2 = Ihre Handlungsstruktur als Lehrkraft in einem Projekt **skizzieren**
+NARRATION-2 = Prüfen Sie kurz, ob Sie den Weg lesen können.
+ORDER-QUESTION = Was kommt direkt nach den Merkmalen von Projekten?
+ORDER-CORRECT = Grundmuster nach Frey
+ORDER-WRONG-1 = Was tut die Lehrkraft?
+ORDER-WRONG-2 = Woher kommt die Idee?
+ORDER-HINT = Folgen Sie den Pfeilen von links nach rechts.
+ORDER-FEEDBACK = Richtig: Nach den Merkmalen nach Hortsch folgt das Grundmuster nach Frey.
+
+
+# ───────────────────────── Station 1: Woher kommt die Idee? (R055–R058) ─────────────────────────
+
+[Content_Introduction_Template_2.md]
+SLIDE-TITLE = Station 1: Woher kommt die Idee?
+NARRATION-0 = Die Projektmethode ist keine Erfindung der letzten Jahre. Wir gehen vier Stationen ihrer Geschichte durch und achten darauf, welche Gedanken immer wiederkehren.
+GUIDING-QUESTION = Welche Gedanken kehren in der Geschichte der Projektmethode immer wieder?
+NARRATION-1 = Zuerst Russland.
+ASPECT-1 = Arbeitsschulkonzepte in Russland (R055)
+NARRATION-2 = Dann die Reformpädagogen.
+ASPECT-2 = Forderungen der Reformpädagogen zu Beginn des 20. Jh. (R056)
+NARRATION-3 = Dann die 60er und 70er Jahre.
+ASPECT-3 = Kerngedanken zum Projektunterricht (R057)
+NARRATION-4 = Und Kilpatrick und Dewey.
+ASPECT-4 = Projektunterricht in fünf Schritten (R058)
+NARRATION-5 = Warum ist das für Sie wichtig?
+WHY-IT-MATTERS = Drei Gedanken kehren immer wieder: produktive, selbsttätige Arbeit, die Annäherung von Kopf- und Handarbeit und die Mitbestimmung der Lernenden.
+NARRATION-6 = Markieren Sie, was Sie schon kennen.
+
+
+[Original_Slide_Template_3.md]
+SLIDE-TITLE = Arbeitsschule, Reformpädagogen und Projektunterricht
+NARRATION-0 = Die Arbeitsschulkonzepte in Russland betonen drei Dinge: produktive Betätigung als bildendes Element, Bildung an den Realitäten der Gegenwart und Versuche, Kopf- und Handarbeit einander anzunähern. Die Reformpädagogen fordern zu Beginn des zwanzigsten Jahrhunderts Selbsttätigkeit, konstruktive Betätigung, die Teilnahme der Schüler an der Unterrichtsplanung und produktorientierte Arbeit. Achten Sie auf die Teilnahme an der Planung – sie wird für die Frage wichtig, wer ein Projekt initiiert.
+SLIDE-CONTENT = """
+**Charakteristische Merkmale der Arbeitsschulkonzepte in Russland** (R055)
+
+- produktive Betätigung als bildendes Element
+- Bildung an Realitäten der Gegenwart
+- Versuche zur Annäherung von Kopf- und Handarbeit
+
+**Forderungen der Reformpädagogen zu Beginn des 20. Jh.** (R056)
+
+- Selbsttätigkeit des Schülers
+- Konstruktive Betätigung
+- Teilnahme an der Unterrichtsplanung
+- Produktorientierte Arbeit
+- Umsetzung der Ideen einer praxisbezogenen Ausbildung am Beispiel der Arbeitsschule
+"""
+NARRATION-1 = In den sechziger und siebziger Jahren geht es darum, das Alltagsleben stärker in die Bildung zu integrieren, Kopf- und Handarbeit wieder zu vereinigen, die Lernenden mitbestimmen und mitgestalten zu lassen und kollektiv zu lernen.
+SLIDE-CONTENT-2 = """
+**Kerngedanken zum Projektunterricht in den 60er und 70er Jahren** (R057)
+
+- Das Alltagsleben wieder stärker in die Bildung zu integrieren
+- Kopf- und Handarbeit wieder zu vereinigen
+- Mitbestimmung und –gestaltung des Bildungsprozesses durch die Lernenden
+- Kollektives Lernen
+"""
+NARRATION-2 = Ein roter Faden zieht sich durch.
+KEY-MESSAGE = 🧵 „Kopf- und Handarbeit“ taucht in Russland (Annäherung) und in den 60er/70er Jahren (wieder vereinigen) auf – vergleichen Sie mit der *Einheit kognitiver, emotionaler und psychomotorischer Lernprozesse* aus S02 (R053).
+SOURCE = Quelle: Folien R055 „Charakteristische Merkmale der Arbeitsschulkonzepte in Russland“, R056 „Forderungen der Reformpädagogen zu Beginn des 20. Jh.“, R057 „Kerngedanken zum Projektunterricht in den 60er und 70er Jahren“ (drei Folien auf einer Seite; fehlende Leerzeichen in den Folientiteln ergänzt).
+
+
+[Process_Template_5.md]
+SLIDE-TITLE = Projektunterricht nach Kilpatrick / Dewey
+NARRATION-0 = Kilpatrick und Dewey beschreiben den Ablauf in fünf Schritten. Am Anfang steht ein offensichtliches Problem aus dem Lebensraum der Teilnehmer, etwa: Woher kommt Typhus?
+STEP-1 = Problem
+STEP-2 = Lokalisierung und Präzisierung
+STEP-3 = Lösungsansatz
+STEP-4 = Simulation
+STEP-5 = Experimentelle Prüfung
+NARRATION-1 = Am Anfang das Problem.
+STEP-TEXT-1 = Beginn durch gestelltes offensichtliches Problem aus dem Lebensraum der Teilnehmer (z.B. Woher kommt Typhus?)
+NARRATION-2 = Dann Lokalisierung und Präzisierung.
+STEP-TEXT-2 = Lokalisierung, Präzisierung – Allgemeines Bildungsziel durch Problem gegeben · Bildungsrelevanz des Tuns zum Teil durch Problem, Planerstellung und Experiment gegeben
+NARRATION-3 = Dann ein Lösungsansatz als Plan.
+STEP-TEXT-3 = Lösungsansatz – Erstellen eines Plans zur Problemlösung, dadurch Präzisieren der Zielrichtung
+NARRATION-4 = Dann die gedankliche Simulation der Lösungsmöglichkeiten.
+STEP-TEXT-4 = Simulation der Lösungsmöglichkeiten – Gedankliche Ausführung des Planes
+NARRATION-5 = Und schließlich die experimentelle Prüfung – die praktische Ausführung und Nutzung der Ergebnisse.
+STEP-TEXT-5 = Experimentelle Prüfung – Ausführung des Planes als Problemlösung oder Erstellung des Produktes bei Bedarf abgestimmte arbeitsteilige Ausführung · Praktische Umsetzung und Nutzung der Ergebnisse
+SOURCE = Quelle: Folie R058 „Projektunterricht nach Kilpatrick / Dewey“ – vgl. Frey, Karl: Die Projektmethode. Weinheim, Basel 1991 (Autorname im Original in Großbuchstaben); Nummerierung und Kurzbezeichnungen ergänzt.
+ORDER-TITLE = Aktivierung: Die Schritte nach Kilpatrick/Dewey ordnen
+NARRATION-ORDER-0 = Bringen Sie die Schritte des Projektunterrichts nach Kilpatrick und Dewey in die richtige Reihenfolge.
+
+
+[Interactive_Exercise_Template_1.md]
+SLIDE-TITLE = Aktivierung: Wer wollte was?
+NARRATION-0 = Welcher Kerngedanke gehört zu welchem Konzept?
+Q1-QUESTION = „Teilnahme an der Unterrichtsplanung“ – wer forderte das?
+Q1-WRONG-1 = die Arbeitsschulkonzepte in Russland
+Q1-CORRECT = die Reformpädagogen zu Beginn des 20. Jh.
+Q1-WRONG-2 = der Projektunterricht der 60er und 70er Jahre
+Q1-HINT = Selbsttätigkeit, konstruktive Betätigung, Teilnahme an der Planung …
+Q1-FEEDBACK = Reformpädagogen (R056) – wichtig für die Frage, wer ein Projekt initiiert.
+NARRATION-1 = Jetzt können mehrere Antworten richtig sein.
+Q2-QUESTION = Welche Kerngedanken stammen aus den **Arbeitsschulkonzepten in Russland**?
+Q2-CORRECT-1 = produktive Betätigung als bildendes Element
+Q2-WRONG-1 = Kollektives Lernen
+Q2-CORRECT-2 = Bildung an Realitäten der Gegenwart
+Q2-WRONG-2 = Produktorientierte Arbeit
+Q2-HINT = Drei Merkmale auf R055.
+Q2-FEEDBACK = Kollektives Lernen: Projektunterricht der 60er/70er Jahre (R057) · Produktorientierte Arbeit: Reformpädagogen (R056).
+NARRATION-2 = Zum Schluss eine Zahl.
+Q3-QUESTION = In wie vielen Schritten beschreibt R058 den Projektunterricht nach Kilpatrick/Dewey? (Zahl)
+Q3-ANSWER = 5
+Q3-HINT = Vom Problem bis zur experimentellen Prüfung …
+Q3-FEEDBACK = Fünf: Problem – Lokalisierung, Präzisierung – Lösungsansatz – Simulation – experimentelle Prüfung.
+
+
+# ───────────────────────── Station 2: Was macht ein Projekt aus? (R059–R064) ─────────────────────────
+
+[Content_Introduction_Template_2.md]
+SLIDE-TITLE = Station 2: Was macht ein Projekt aus?
+NARRATION-0 = Nicht alles, was Projekt heißt, ist eines im didaktischen Sinn. In dieser Station sammeln wir Prüfkriterien und ein Ablaufmodell.
+GUIDING-QUESTION = Woran erkenne ich ein Projekt im didaktischen Sinn – und wie läuft es ab?
+NARRATION-1 = Zuerst die Merkmale.
+ASPECT-1 = Zehn Merkmale der Arbeit an Projekten nach Hortsch (R059–R060)
+NARRATION-2 = Dann das Ablaufmodell.
+ASPECT-2 = Grundmuster der Projektmethode nach Frey (R061)
+NARRATION-3 = Danach ein Kreislauf.
+ASPECT-3 = Kreislauf der Innovation (R063)
+NARRATION-4 = Und wie Lösungen geprüft werden.
+ASPECT-4 = Problemarten und Prüfkriterien (R064)
+NARRATION-5 = Warum ist das für Sie wichtig?
+WHY-IT-MATTERS = Mit den Merkmalen prüfen Sie Ihr eigenes Projekt – und jede Projektwoche.
+NARRATION-6 = Markieren Sie, was Sie schon kennen.
+
+
+[Original_Slide_Template_3.md]
+SLIDE-TITLE = Merkmale der Arbeit an Projekten aus didaktischer Sicht
+NARRATION-0 = Hortsch nennt zehn Merkmale. Drei sind besonders trennscharf: Die Arbeit weist Problemlösungsstrukturen auf, das Problem lässt mindestens zwei Lösungen zu, und die Arbeit orientiert sich an den Erfahrungen und Interessen der Lernenden.
+SLIDE-CONTENT = """
+1. **Es ist ein Projekt vorhanden**
+   - Existenzbedingung
+2. **Die Arbeit am Projekt weist Problemlösungsstrukturen auf.**
+   - das bedeutet ein Projekt hat oder generiert Probleme
+3. **Das Problem lässt mindestens zwei Lösungen zu.**
+   - eine Lösung wäre Projekt im erziehungswissenschaftlichen Sinne
+4. **Die Arbeit an Projekten orientiert sich an den Erfahrungen und Interessen der Lernenden**
+   - Da aus dem Projekt die Aneignungsgegenstände entstehen, d.h. durch den Lernenden erarbeitet werden, müssen auch seine Bedürfnisse im Mittelpunkt stehen.
+5. **Die Arbeit an Projekten ist durch vollständige Lernhandlungen gekennzeichnet.**
+"""
+NARRATION-1 = Dazu kommen Gruppen- oder Einzelarbeit, Fach- und Berufsfeldübergreifendes, Methodenvielfalt, Selbstorganisation und Selbstverantwortung und ein objektiver oder subjektiver Gebrauchswert des Produkts.
+SLIDE-CONTENT-2 = """
+6. **Die Arbeit an Projekten erfolgt in größeren oder kleineren Gruppen aber auch einzeln.**
+7. **Die Arbeit an Projekten ist fach- und berufsfeldübergreifend.**
+   - Eine Integration von Wissen, Können und Wollen wird angestrebt. Außerdem die Dreiheit von Fach-, Sozial- und Methodenkompetenz angezielt werden.
+8. **Die Arbeit an Projekten ist polyinstrumental und methodenpluralistisch.**
+9. **Die Arbeit an Projekten ist vorrangig durch Selbstorganisation und -verantwortung geprägt**
+10. **Das vergegenständlichte Projekt hat einen objektiven oder subjektiven Gebrauchswert.**
+    - Wichtig ist, dass etwas subjektiv Bedeutsames hergestellt wird.
+
+Vgl. Hortsch, Hanno: Didaktik der Berufsbildung – Merkblätter zur Vorlesung Dresden 1999
+"""
+NARRATION-2 = Mit dieser Liste prüfen Sie gleich Ihr eigenes Projekt.
+KEY-MESSAGE = Besonders trennscharf: **Problemlösungsstrukturen** (2), **mindestens zwei Lösungen** (3), **Erfahrungen und Interessen der Lernenden** (4).
+SOURCE = Quelle: Folien R059–R060 „Merkmale der Arbeit an Projekten aus didaktischer Sicht“ – Nummerierung ergänzt; Wortlaut von Merkmal 7 nach der überarbeiteten Folie (Stand 26.10.2026); „das etwas“ zu „dass etwas“ korrigiert; Autorname im Original in Großbuchstaben.
+
+
+[Figure_Template_1.md]
+SLIDE-TITLE = „Grundmuster der Projektmethode“
+NARRATION-0 = Frey beschreibt das Grundmuster der Projektmethode in sieben Komponenten. Aus einer Projektinitiative entsteht in einem vereinbarten Rahmen eine Projektskizze, daraus gemeinsam der Projektplan, dann folgt die Durchführung.
+MERMAID-CODE = """
+flowchart TD
+  P1["① Projektinitiative"] --> P2["② Auseinandersetzung mit der Projektinitiative in einem vorher<br>vereinbarten Rahmen (direktBeteiligte, evtl. indirekt Beteiligte)<br>(Ergebnis = Projektskizze)"]
+  P2 --> P3["③ Gemeinsame Entwicklung des Betätigungsgebietes<br>(u.U. auch mit indirekt Beteiligten)<br>(Ergebnis = Projektplan)"]
+  P2 -.-> A1(["möglicher Abschluss"])
+  P3 --> P4["④ (Verstärkte) Aktivitäten im Betätigungsgebiet/<br>Projektdurchführung (einzeln, in Untergruppen,<br>in Gesamtgruppe)"]
+  P3 -.-> A2(["möglicher Abschluss"])
+  P4 --> P5["⑤ Beendigung durch bewussten Abschluss (1) oder<br>durch Rückkoppeln zur Projektinitiative (2) oder<br>durch Auslaufenlassen (3) direkt oder indirekt<br>Beteiligte, evtl. neue Adressaten"]
+  P5 --> E1["Entweder (1) Bewusster Abschluss"]
+  P5 --> E2["oder (2) Rückkopplung zur Projektinitiative"]
+  P5 --> E3["oder (3) Auslaufen lassen"]
+  F["Im Verlauf des Projektes eingeschobene<br>⑥ Fixpunkte und ⑦ Metainteraktionen"]:::q
+  classDef q stroke-dasharray: 4 3
+"""
+NARRATION-1 = Von der Initiative über die Skizze zum Plan – nach Skizze und Plan ist bereits ein Abschluss möglich.
+PART-1 = Von der Initiative zum Plan
+PART-TEXT-1 = ① Projektinitiative → ② Auseinandersetzung im vereinbarten Rahmen (Ergebnis = Projektskizze) → ③ gemeinsame Entwicklung des Betätigungsgebietes (Ergebnis = Projektplan); möglicher Abschluss nach ② und ③
+NARRATION-2 = Es folgen die verstärkten Aktivitäten im Betätigungsgebiet, also die Projektdurchführung, und die Beendigung.
+PART-2 = Durchführung und Beendigung
+PART-TEXT-2 = ④ Projektdurchführung einzeln, in Untergruppen oder in der Gesamtgruppe; ⑤ Beendigung durch bewussten Abschluss (1), Rückkopplung zur Projektinitiative (2) oder Auslaufenlassen (3)
+NARRATION-3 = Quer zu allen Komponenten liegen die im Verlauf eingeschobenen Fixpunkte und Metainteraktionen – Haltepunkte, an denen die Gruppe sich abstimmt und über ihr Vorgehen nachdenkt.
+PART-3 = Quer dazu
+PART-TEXT-3 = im Verlauf des Projektes eingeschobene ⑥ Fixpunkte und ⑦ Metainteraktionen
+NARRATION-4 = Und heute?
+KEY-MESSAGE = 🔗 Heute: Ihre Beuteblatt-Stopps sind **Fixpunkte** ⑥, die Schlussrunde ist eine **Metainteraktion** ⑦.
+SOURCE = Quelle: Folie R061 „„Grundmuster der Projektmethode““ – Frey, Karl: Die Projektmethode, 1991 (Autorname im Original in Großbuchstaben); Grafik als Diagramm nachgezeichnet (gestrichelt: möglicher Abschluss nach ② und ③); Schreibweisen wie im Original („direktBeteiligte“).
+
+
+[Interactive_Exercise_Template_1.md]
+SLIDE-TITLE = Kurz geprüft: das Grundmuster
+NARRATION-0 = Drei kurze Fragen zum Grundmuster nach Frey.
+Q1-QUESTION = Was ist das Ergebnis von Komponente ②?
+Q1-WRONG-1 = der Projektplan
+Q1-CORRECT = die Projektskizze
+Q1-WRONG-2 = die Projektinitiative
+Q1-HINT = Auseinandersetzung mit der Projektinitiative in einem vorher vereinbarten Rahmen …
+Q1-FEEDBACK = ② → Projektskizze · ③ → Projektplan (R061).
+NARRATION-1 = Jetzt können mehrere Antworten richtig sein.
+Q2-QUESTION = Auf welchen Wegen kann ein Projekt nach Frey beendet werden?
+Q2-CORRECT-1 = durch Rückkoppeln zur Projektinitiative
+Q2-WRONG-1 = erst durch die Bewertung des Produkts durch die Lehrkraft
+Q2-CORRECT-2 = durch Auslaufenlassen
+Q2-WRONG-2 = ausschließlich nach der Projektdurchführung ④
+Q2-HINT = Frey nennt bei ⑤ drei Wege – und gestrichelte Abschlüsse vorher.
+Q2-FEEDBACK = Frey nennt drei Wege der Beendigung ⑤: bewusster Abschluss (1), Rückkopplung zur Projektinitiative (2) oder Auslaufenlassen (3). Ein Abschluss ist außerdem schon nach ② und ③ möglich (R061).
+NARRATION-2 = Zum Schluss ein Begriff.
+Q3-QUESTION = Wie heißen die im Verlauf eingeschobenen Haltepunkte neben den Metainteraktionen? (ein Wort)
+Q3-ANSWER = Fixpunkte
+Q3-HINT = Komponente ⑥ …
+Q3-FEEDBACK = ⑥ Fixpunkte und ⑦ Metainteraktionen – im Verlauf des Projektes eingeschoben.
+
+
+[Cycle_Template_6.md]
+SLIDE-TITLE = Kreislauf der Innovation
+NARRATION-0 = Der Kreislauf der Innovation zeigt, dass eine Problemlösung nie ganz abgeschlossen ist: Die Innovation ist nur das vorläufige Ende der erfolgreichen Problemlösung. In unserem fortlaufenden Bemühen um die Verbesserung der Gesamtsituation durchlaufen wir immer wieder einen Kreislauf.
+STEP-1 = Bedürfnis
+STEP-2 = Problem
+STEP-3 = Idee
+STEP-4 = bewertete Lösung
+STEP-5 = Entscheidung
+STEP-6 = Neuerungen – Innovation
+NARRATION-1 = Aus einem Bedürfnis …
+STEP-TEXT-1 = Es entsteht in Schule, Haushalt, Arbeitsplatz: Unternehmen, Behörde, Staat.
+NARRATION-2 = … wird ein Problem …
+STEP-TEXT-2 = Aus dem Bedürfnis wird ein Problem.
+NARRATION-3 = … daraus eine Idee …
+STEP-TEXT-3 = Zum Problem entsteht eine Idee.
+NARRATION-4 = … eine bewertete Lösung …
+STEP-TEXT-4 = Aus der Idee wird eine Lösung, die bewertet wird.
+NARRATION-5 = … eine Entscheidung …
+STEP-TEXT-5 = Für eine Lösung wird entschieden.
+NARRATION-6 = … und schließlich eine Neuerung – die wieder in Schule, Haushalt, Unternehmen oder Staat zurückwirkt. Dann beginnt der Kreislauf neu.
+STEP-TEXT-6 = Neuerungen (Innovation) wirken zurück in Schule, Haushalt, Arbeitsplatz: Unternehmen, Behörde, Staat.
+SOURCE = Quelle: Folie R063 „Kreislauf der Innovation“ – Text der Folie im Wortlaut: „Die Innovation ist nur das vorläufige Ende der erfolgreichen Problemlösung. In unserem fortlaufenden Bemühen um die Verbesserung der Gesamtsituation durchlaufen wir immer wieder einen Kreislauf.“ Gescannte Abbildung als Kreislauf nachgezeichnet, Sätze zu den Stationen als Lesehilfe ergänzt; auf der Originalfolie ist keine Quelle der Abbildung angegeben.
+ORDER-TITLE = Kurz geordnet: der Kreislauf der Innovation
+NARRATION-ORDER-0 = Bringen Sie die Stationen des Kreislaufs in die richtige Reihenfolge – beginnend in Schule, Haushalt, Unternehmen oder Staat.
+
+
+[Original_Slide_Template_2.md]
+SLIDE-TITLE = Problemarten und Bezug der Prüfung der Lösung
+NARRATION-0 = Projekte enthalten unterschiedliche Probleme, und jede Problemart hat ihr eigenes Prüfkriterium: Ein Erkenntnisproblem wird auf Wahrheit geprüft, ein Gestaltungsproblem auf Tauglichkeit, ein Wertungsproblem auf Zweckmäßigkeit und ein Ausdrucksproblem auf Verständlichkeit.
+SLIDE-CONTENT = """
+<!-- data-type="none" -->
+| Problemart | Lösung des Problems wird geprüft hinsichtlich: |
+| --- | --- |
+| Erkenntnisproblem | Wahrheit |
+| Gestaltungsproblem | Tauglichkeit |
+| Wertungsproblem | Zweckmäßigkeit |
+| Ausdruckproblem | Verständlichkeit |
+"""
+NARRATION-1 = Erinnern Sie sich an S01.
+KEY-MESSAGE = 🔗 Naturwissenschaften bewerten nach *Wahrheit*, Technikwissenschaften nach *Richtigkeit und Zweckmäßigkeit* (R005). Welche Problemarten stecken typischerweise in einem technischen Projekt?
+SOURCE = Quelle: Folie R064 „Problemarten und Bezug der Prüfung der Lösung“ – „Ausdruckproblem“ wie im Original.
+
+
+[Open_Task_Template_1.md]
+SLIDE-TITLE = Aktivierung: Ist mein Projekt ein Projekt? (Fixpunkt)
+NARRATION-0 = Prüfen Sie Ihr Projekt aus der Vorbereitung mit den zehn Merkmalen. Das ist unser erster Fixpunkt.
+TASK = """
+<!-- didaktik="Lehrschritt unterstützen/üben · 42–50 min · Einzelarbeit · Classroom-Auswertung · Fixpunkt ⑥" -->
+**Allein (6 min):** Prüfen Sie Ihr Projekt aus der Vorbereitung. Welche Merkmale sind erfüllt?
+
+- [ ] 1 Es ist ein Projekt vorhanden
+- [ ] 2 Problemlösungsstrukturen
+- [ ] 3 Mindestens zwei Lösungen möglich
+- [ ] 4 Orientierung an Erfahrungen und Interessen der Lernenden
+- [ ] 5 Vollständige Lernhandlungen
+- [ ] 6 Gruppen oder einzeln
+- [ ] 7 Fach- und berufsfeldübergreifend (Integration von Wissen, Können und Wollen)
+- [ ] 8 Polyinstrumental und methodenpluralistisch
+- [ ] 9 Selbstorganisation und -verantwortung
+- [ ] 10 Gebrauchswert
+
+**Ihr Urteil** – ein Projekt im didaktischen Sinn?
+"""
+HINT = Achten Sie besonders auf die Merkmale 2, 3, 4 und 9: Gab es ein echtes Problem mit mehreren Lösungen – und wer hat geplant?
+MODEL-ANSWER = Beispiel Projektwoche „Wir bauen ein Insektenhotel“: erfüllt sind 1, 6 und 10; kaum erfüllt 2 und 3 (Bauplan vorgegeben, eine Lösung), 4 teilweise, 9 nicht (die Lehrkraft plant alles). Urteil: eher ein Vorhaben nach Anleitung als ein Projekt im didaktischen Sinn – es würde eines, wenn die Lernenden Problem, Lösungsweg und Plan selbst entwickeln. 📝 Danach Beuteblatt-Stopp: Ergänzen Sie Abschnitt 2.
+
+
+[Interactive_Exercise_Template_1.md]
+SLIDE-TITLE = Aktivierung: Problemarten zuordnen
+NARRATION-0 = Ordnen Sie die Problemarten ihrem Prüfkriterium zu.
+Q1-QUESTION = Ein Gestaltungsproblem wird geprüft hinsichtlich …
+Q1-WRONG-1 = Wahrheit
+Q1-CORRECT = Tauglichkeit
+Q1-WRONG-2 = Verständlichkeit
+Q1-HINT = Taugt die gestaltete Lösung?
+Q1-FEEDBACK = Gestaltungsproblem – Tauglichkeit (R064).
+NARRATION-1 = Jetzt können mehrere Antworten richtig sein.
+Q2-QUESTION = Welche Zuordnungen stimmen?
+Q2-CORRECT-1 = Erkenntnisproblem – Wahrheit
+Q2-WRONG-1 = Ausdruckproblem – Tauglichkeit
+Q2-CORRECT-2 = Wertungsproblem – Zweckmäßigkeit
+Q2-WRONG-2 = Gestaltungsproblem – Verständlichkeit
+Q2-HINT = Schauen Sie in die Tabelle R064.
+Q2-FEEDBACK = Erkenntnisproblem – Wahrheit · Gestaltungsproblem – Tauglichkeit · Wertungsproblem – Zweckmäßigkeit · Ausdruckproblem – Verständlichkeit (R064).
+NARRATION-2 = Zum Schluss ein Kriterium.
+Q3-QUESTION = Ein Ausdruckproblem wird geprüft hinsichtlich … (ein Wort)
+Q3-ANSWER = Verständlichkeit
+Q3-HINT = Versteht man die Darstellung?
+Q3-FEEDBACK = Ausdruckproblem – Verständlichkeit (R064).
+
+
+# ───────────────────────── Station 3: Was tut die Lehrkraft? (R062, R065–R068) ─────────────────────────
+
+[Content_Introduction_Template_2.md]
+SLIDE-TITLE = Station 3: Was tut die Lehrkraft?
+NARRATION-0 = Wenn die Lernenden selbst planen, was bleibt dann für die Lehrkraft? Mehr als man denkt – das zeigt diese Station.
+GUIDING-QUESTION = Was tut die Lehrkraft, bevor und während die Lernenden ein Projekt bearbeiten?
+NARRATION-1 = Zuerst die Handlungsstruktur.
+ASPECT-1 = Zwölf Schritte der Lehrkraft nach Hortsch (R062)
+NARRATION-2 = Dann ein Beispiel aus der Bautechnik.
+ASPECT-2 = Ziele des Projektes „Abriss eines alten Hauses“ (R065)
+NARRATION-3 = Mit Projektskizze …
+ASPECT-3 = Projektskizze (R066)
+NARRATION-4 = … und Projektplan.
+ASPECT-4 = Projektplan (R067–R068)
+NARRATION-5 = Warum ist das für Sie wichtig?
+WHY-IT-MATTERS = Vieles geschieht, bevor die Lernenden beginnen: Projekte bestimmen, Realisierbarkeit prüfen, Lösungen selbst durchdenken.
+NARRATION-6 = Markieren Sie, was Sie schon kennen.
+
+
+[Original_Slide_Template_2.md]
+SLIDE-TITLE = Mögliche Handlungsstruktur des Lehrers beim Arbeiten mit Projekten
+NARRATION-0 = Hortsch beschreibt zwölf Schritte für die Lehrkraft. Vieles geschieht vor dem Projekt: geeignete Projekte bestimmen, prüfen, ob sie realisierbar sind, Lösungsmöglichkeiten selbst durchdenken und Varianten vergleichen. Erst dann lässt die Lehrkraft die Lernenden planen, moderiert den Plan und die Realisierung, schafft die Bedingungen dafür und entscheidet am Ende über eine mögliche Fortführung.
+SLIDE-CONTENT = """
+<!-- data-type="none" -->
+| Schritte | Hinweis |
+| --- | --- |
+| 1. Bestimmen von geeigneten Projekten<br>2. Prüfen, ob sich diese Projekte realisieren lassen.<br>3. Erarbeitung verschiedener Lösungsmöglichkeiten. | Voraussetzung ist die Erkundung der Interessensstruktur der Lernenden durch den Lehrer |
+| 4. Variantenvergleich ggf. Optimierung vornehmen.<br>5. Planung durch Lernende erarbeiten lassen. (Projektplan) | Es sollten die vermutlich typischen Vorschläge der Lernenden bereits vorher vom Lehrer diskutiert werden. |
+| 6. Moderieren des Planes.<br>7. Entwickeln der Organisationsformen der AaP.<br>8. Schaffen von Bedingungen für die Realisierung.<br>9. Realisierung moderieren.<br>10. Bericht o.ä. über AaP erstellen lassen.<br>11. Bewertung bzw. Beurteilung vornehmen lassen. | Die Ausführung geht auf den Lernenden über. Der Lehrer initiiert, indem er orientiert, phasenweise reguliert und evtl. kontrolliert. |
+| 12. Entscheidung treffen über evtl. Fortführung des Projektes | |
+
+Vgl. Hortsch, Hanno: Didaktik der Berufsbildung. Dresden 2001
+"""
+NARRATION-1 = Was heißt das für Ihre Rolle?
+KEY-MESSAGE = Die Ausführung geht auf die Lernenden über – die Lehrkraft **orientiert, reguliert phasenweise und kontrolliert evtl.** und hat vorher die Lösungen selbst durchdacht.
+SOURCE = Quelle: Folie R062 „Mögliche Handlungsstruktur des Lehrers beim Arbeiten mit Projekten:“ – Tabelle aus dem Bild übertragen und gegen das Original geprüft; „AaP“ = Arbeit an Projekten (vgl. Titel R059; Lesehilfe); Autorname im Original in Großbuchstaben.
+
+
+[Original_Slide_Template_3.md]
+SLIDE-TITLE = Beispiel: Projekt „Abriss eines alten Hauses“
+NARRATION-0 = Ein Beispiel aus der Bautechnik. Hauptziel: Die Auszubildenden lernen am Abriss eines nicht sanierungswürdigen Hauses, wie alte Baustoffe wiederverwendet werden können.
+SLIDE-CONTENT = """
+**Ziele des Projektes „Abriss eines alten Hauses“**
+
+**– Hauptziel –** Die Auszubildenden lernen am Beispiel des Abrisses eines nicht sanierungswürdigen alten Hauses die Möglichkeiten der Wiederverwendung alter Baustoffe kennen.
+
+**– Teilziele –**
+
+- die Notwendigkeit der Wiederverwendung alter Baustoffe begreifen
+- Möglichkeiten des Abrisses eines Hauses erfahren
+- die Einteilung alter Baustoffe und die Möglichkeit ihrer Wiederverwendung kennen lernen
+- den Aufbau einer Aufbereitungsanlage kennen lernen
+- den Ablauf der Aufbereitung kennen lernen
+- Fähigkeiten kooperativer Zusammenarbeit entwickeln
+- kommunikativer Fähigkeiten zum Präsentieren der Arbeitsergebnisse entwickeln
+"""
+NARRATION-1 = Die Projektskizze nennt als Produkt eine Präsentation, dazu Fragestellungen und Arbeitsmethoden wie Literaturstudium und Befragungen.
+SLIDE-CONTENT-2 = """
+**Projektskizze**
+
+- **Produkt:** Eine Präsentation über den technologischen Ablauf der Baustoffwiederverwertung, vom Abriss über die Aufbereitung bis zur Wiederverwendung.
+- **Fragestellungen:**
+  - Wie entsteht Baumüll?
+  - Welche Baustoffe sind in einem alten Haus enthalten?
+  - Wie erfolgt die Aufbereitung der Baustoffe?
+  - Wo lassen sich die aufbereiteten Baustoffe einsetzen?
+- **Arbeitsmethoden:**
+  - Literaturstudium
+  - Befragungen im Bauamt und in Baufirmen
+  - Darstellung der Ergebnisse in einer Schautafel
+"""
+NARRATION-2 = Prüfen Sie gleich am Grundmuster nach Frey.
+KEY-MESSAGE = Wo finden sich hier die Komponenten nach Frey – und wer hatte die **Initiative**?
+SOURCE = Quelle: Folien R065 „Ziele des Projektes „Abriss eines alten Hauses““ („Notwenigkeit“ zu „Notwendigkeit“ korrigiert) und R066 „Projektskizze“.
+
+
+[Original_Slide_Template_2.md]
+SLIDE-TITLE = Projektplan
+NARRATION-0 = Der Projektplan verteilt die Arbeit auf fünf Gruppen und vier Tage.
+SLIDE-CONTENT = """
+**Arbeitstätigkeiten:** Es werden 5 Arbeitsgruppen gebildet, denen verschiedene Aufgaben zugeteilt werden.
+
+<!-- data-type="none" -->
+| Gruppe | Aufgabe | Vorgehen |
+| --- | --- | --- |
+| Gruppe 1 | Gründe für den Abriss eines Hauses | Befragung im Bauamt |
+| Gruppe 2 | Mögliche Abrissverfahren | Literaturstudium; Befragung in Bauunternehmen |
+| Gruppe 3 | Baustoffe im Abrisshaus | Untersuchung auf der Baustelle |
+| Gruppe 4 | Möglichkeiten der Aufbereitung alter Baustoffe | Untersuchung in einer Aufbereitungsanlage |
+| Gruppe 5 | Einsatz aufbereiteter Baustoffe | Befragung in Bauunternehmen |
+
+**Zeitplan:**
+
+<!-- data-type="none" -->
+| Tag | Inhalte |
+| --- | --- |
+| 1. Tag | Projektskizze und Projektplan · Feinplanung in den Gruppen · organisatorische Absprachen für die Untersuchungen außerhalb der Schule |
+| 2. Tag | Literaturstudium · Vorbereitung der Befragungen bzw. Untersuchungen · Präsentation der Fragebögen bzw. Untersuchungsabläufe vor der Klasse · erste Befragungen / Untersuchungen |
+| 3. Tag | Befragungen / Untersuchungen · erste Auswertung der Ergebnisse |
+| 4. Tag | Auswertung der Ergebnisse · Präsentation der Ergebnisse in einer Schautafel |
+"""
+NARRATION-1 = Achten Sie auf Tag 1.
+KEY-MESSAGE = Skizze und Plan stehen im Zeitplan am **ersten Tag**, danach folgt die Feinplanung in den Gruppen.
+SOURCE = Quelle: Folien R067–R068 „Projektplan“ (als Tabellen zusammengefasst).
+
+
+[Interactive_Exercise_Template_1.md]
+SLIDE-TITLE = Aktivierung: Das Beispiel am Grundmuster prüfen
+NARRATION-0 = Ordnen Sie die Bestandteile des Beispiels den Komponenten des Grundmusters nach Frey zu.
+Q1-QUESTION = „Fünf Arbeitsgruppen, Zeitplan Tag 1 bis 4“ – welche Komponente?
+Q1-WRONG-1 = ② Projektskizze
+Q1-CORRECT = ③ Projektplan
+Q1-WRONG-2 = ④ Projektdurchführung
+Q1-HINT = Gemeinsame Entwicklung des Betätigungsgebietes …
+Q1-FEEDBACK = Projektplan ③: fünf Arbeitsgruppen, Zeitplan Tag 1 bis 4.
+NARRATION-1 = Jetzt können mehrere Antworten richtig sein.
+Q2-QUESTION = Was gehört zur **Projektskizze ②**?
+Q2-CORRECT-1 = Produkt: eine Präsentation
+Q2-WRONG-1 = Befragungen und Untersuchungen
+Q2-CORRECT-2 = Fragestellungen und Arbeitsmethoden
+Q2-WRONG-2 = Auswertung der Ergebnisse
+Q2-HINT = Die Skizze legt fest, *was* entstehen soll und *wie* gearbeitet wird.
+Q2-FEEDBACK = Projektskizze ②: Produkt, Fragestellungen, Arbeitsmethoden · Projektdurchführung ④: Befragungen und Untersuchungen, Auswertung · Beendigung ⑤: Präsentation in einer Schautafel.
+NARRATION-2 = Zum Schluss: Was fehlt?
+Q3-QUESTION = Welche Komponente des Grundmusters fehlt im Beispiel? Projekt… (ein Wort)
+Q3-ANSWER = Projektinitiative
+Q3-HINT = Komponente ① …
+Q3-FEEDBACK = Die **Projektinitiative ①** fehlt: Die Ziele sind von der Lehrkraft gesetzt. Auch Fixpunkte ⑥ und Metainteraktionen ⑦ sind nicht geplant.
+
+
+# ───────────────────────── Baustein 4 und Metainteraktion ─────────────────────────
+
+[Open_Task_Template_1.md]
+SLIDE-TITLE = Baustein 4: Ihr eigenes Grundmuster (optional)
+NARRATION-0 = Durchlaufen Sie für Ihr Entwurfsthema die ersten Komponenten des Grundmusters.
+TASK = """
+<!-- didaktik="Lehrschritt üben lassen (Transfer) · 67–82 min · Einzelarbeit · Classroom-Auswertung · Doppeldecker" -->
+**Allein (10 min):** Durchlaufen Sie für Ihr Entwurfsthema die ersten Komponenten des Grundmusters.
+
+- **① Projektinitiative:** Welches Problem, welcher Anlass – aus dem Lebensraum der Lernenden?
+- **② Projektskizze:** Produkt · Fragestellungen · Arbeitsmethoden
+- **③ Projektplan:** Gruppen und Aufgaben · grober Zeitplan
+"""
+HINT = Prüfen Sie selbst: Welche Merkmale nach Hortsch erfüllt Ihr Vorhaben? Und welche Schritte der Lehrer-Handlungsstruktur (R062) übernehmen *Sie* vorab?
+MODEL-ANSWER = **① Initiative:** Der Hausmeister klagt, dass die Beete im Schulgarten im Sommer vertrocknen. **② Skizze:** Produkt – eine automatische Bewässerung mit Feuchtesensor; Fragestellungen – Wie viel Wasser brauchen die Beete? Wie misst man Bodenfeuchte? Wie wird die Pumpe geschaltet?; Methoden – Messungen, Datenblätter, Erprobung. **③ Plan:** Gruppe Sensor, Gruppe Steuerung, Gruppe Hydraulik; Tag 1 Planung, Tag 2–3 Aufbau und Test, Tag 4 Übergabe an den Hausmeister. Vorab übernehme ich: Realisierbarkeit prüfen (2), Lösungsmöglichkeiten durchdenken (3), Varianten vergleichen (4).
+
+
+[Discussion_Template_2.md]
+SLIDE-TITLE = Wo stehen wir? Metainteraktion
+NARRATION-0 = Sie haben heute die Komponenten eins bis drei selbst durchlaufen, zwischendurch Fixpunkte eingelegt – und jetzt reflektieren Sie. Das ist eine Metainteraktion. Noch einmal die These vom Anfang.
+VOTE-QUESTION = „Wenn die Lehrkraft das Thema vorgibt, ist es kein Projekt.“ – Stimmen Sie jetzt zu?
+OPTION-A = Ja, ich stimme zu
+OPTION-B = Nein, ich stimme nicht zu
+OPTION-C = Teils, teils
+NARRATION-1 = Welche Schritte hat die Lehrkraft heute für Sie übernommen?
+REFLECT-QUESTION = Metainteraktion: Welche der zwölf Schritte der Lehrer-Handlungsstruktur hat die Lehrkraft heute für Sie übernommen – und was ist Ihnen am unklarsten geblieben?
+NARRATION-2 = Eine Einordnung:
+KEY-MESSAGE = Auch wenn die Lehrkraft das Thema vorgibt, kann ein Projekt entstehen – wenn die Lernenden Problem, Lösungsweg und Plan mitbestimmen (Merkmale 2–4 und 9, R059–R060; Teilnahme an der Unterrichtsplanung, R056). Entscheidend ist nicht, wer das Thema nennt, sondern wer plant und entscheidet.
+
+
+[Summary_Recap_Template_1.md]
+SLIDE-TITLE = Das Wichtigste aus S03
+NARRATION-0 = Fassen wir zusammen.
+NARRATION-1 = Erstens: die Wurzeln.
+TAKEAWAY-1 = Arbeitsschule, Reformpädagogik, 60er/70er Jahre: produktive Arbeit, Kopf- und Handarbeit, Mitbestimmung (R055–R057); Kilpatrick/Dewey in fünf Schritten (R058).
+NARRATION-2 = Zweitens: die Merkmale.
+TAKEAWAY-2 = Ein Projekt hat Problemlösungsstrukturen, mindestens zwei Lösungen und orientiert sich an den Lernenden (Hortsch, R059–R060).
+NARRATION-3 = Drittens: das Grundmuster.
+TAKEAWAY-3 = Initiative → Skizze → Plan → Durchführung → Beendigung, mit Fixpunkten und Metainteraktionen (Frey, R061).
+NARRATION-4 = Und viertens: die Lehrkraft.
+TAKEAWAY-4 = Die Lehrkraft bestimmt, prüft und durchdenkt vorab – dann moderiert sie und schafft Bedingungen (R062).
+REMEMBER = Ein Projekt beginnt mit einem echten Problem – und die Lernenden planen mit.
+NARRATION-5 = Eine letzte Frage.
+RECAP-QUESTION = Woran scheitert eine Projektwoche mit fertigem Bauplan am ehesten als Projekt im didaktischen Sinn?
+RECAP-WRONG-1 = am fehlenden Gebrauchswert
+RECAP-WRONG-2 = an der Gruppenarbeit
+RECAP-CORRECT = daran, dass das Problem nur eine Lösung zulässt und die Lernenden nicht selbst planen
+RECAP-HINT = Merkmale 3 und 9 …
+RECAP-FEEDBACK = Richtig: Ein Projekt braucht mindestens zwei Lösungen (Merkmal 3) und Selbstorganisation (Merkmal 9).
+NARRATION-6 = Als Nächstes geht es um Kontrolle und Bewertung in Projekten, die Fallstudie und das Rollenspiel.
+OUTLOOK = S04: Kontrolle & Bewertung · Fallstudie · Rollenspiel · 📝 Beuteblatt-Stopp: Ergänzen Sie Abschnitt 3, Baustein 4 und Ihre wichtigste Beute.
+
+
+[Original_Slide_Template_1.md]
+SLIDE-TITLE = Prüfungsfragen zum Üben
+NARRATION-0 = Mit diesen fünf Fragen können Sie sich auf die mündliche Prüfung vorbereiten. Die Querverweise zeigen, wo die Themen wieder auftauchen.
+SLIDE-CONTENT = """
+<!-- didaktik="E-12 mündliche Prüfung" -->
+1. Welche Kerngedanken verbinden Arbeitsschule, Reformpädagogik und den Projektunterricht der 60er/70er Jahre?
+2. Erläutern Sie das Grundmuster der Projektmethode nach Frey. Welche Rolle spielen Fixpunkte und Metainteraktionen?
+3. Woran erkennen Sie, ob eine Projektwoche ein Projekt im didaktischen Sinn ist?
+4. Beschreiben Sie die Rolle der Lehrkraft bei der Arbeit an Projekten.
+5. Ordnen Sie Problemarten ihrem Prüfkriterium zu und erläutern Sie den Bezug zur Besonderheit der Technikwissenschaften (S01).
+
+> [!NOTE] 🔗 Querverweise
+> vollständige Lernhandlungen (Merkmal 5) → **S02** · Kontrolle und Bewertung in Projekten → **S04** · Problem und Hypothese → reduktive Methode **S01b** · Experimentelle Prüfung → technisches Experiment **S05**
+"""
+SOURCE = Die Prüfungsfragen sind experimentell: Sie dienen der Vorbereitung, es ist nicht garantiert, dass Fragen in dieser Form gestellt werden.
+
+
+[Summary_Recap_Template_3.md]
+SLIDE-TITLE = Rückblick auf S03
+NARRATION-0 = Nehmen Sie sich zwei Minuten für einen Rückblick. Was ist das Wichtigste – und was ist noch unklar?
+NARRATION-1 = Haken Sie ab, was Sie jetzt können.
+CAN-DO-1 = Ich kann das Grundmuster der Projektmethode nach Frey erläutern.
+CAN-DO-2 = Ich kann prüfen, ob ein Vorhaben ein Projekt im didaktischen Sinn ist.
+CAN-DO-3 = Ich kann meine Rolle als Lehrkraft in einem Projekt beschreiben.
+NARRATION-2 = Und zum Schluss: Wie hat die Sitzung für Sie funktioniert?
+TEASER-TITLE = Vorbereitung auf S04
+NARRATION-TEASER-0 = In S04 geht es um Kontrolle und Bewertung in Projekten, die Fallstudie und das Rollenspiel – mit einem Fall zu einer gentechnisch veränderten Kartoffel. Planen Sie etwa 15 Minuten Vorbereitung ein.
+IMAGE-ALT = Kartoffeln verschiedener Sorten in Gelb, Rot und Violett
+IMAGE-PATH = https://commons.wikimedia.org/wiki/Special:FilePath/Patates.jpg?width=800
+IMAGE-CAPTION = Foto: Scott Bauer, USDA ARS · gemeinfrei · Wikimedia Commons
+TEASER-QUESTION = Erinnern Sie sich an eine Note für eine Gruppenarbeit oder ein Projekt: Wie kam sie zustande – und fanden Sie sie gerecht? Sollte bei Projekten jede Person eine eigene Note bekommen, eine Gruppennote oder beides?
+NEXT-DATE = S04 · Montag, 02.11.2026 · 07:00 Uhr
+
+
+[Original_Slide_Template_1.md]
+SLIDE-TITLE = Literatur
+NARRATION-0 = Hier finden Sie die Quellen dieser Sitzung.
+SLIDE-CONTENT = """
+**Zitiert auf den Originalfolien dieser Sitzung**
+
+- Frey, Karl: Die Projektmethode. Weinheim, Basel 1991 – Folien R058 („vgl.“), R061 („Frey, Karl: Die Projektmethode, 1991“).
+- Hortsch, Hanno: Didaktik der Berufsbildung – Merkblätter zur Vorlesung Dresden 1999 – Folie R060 („Vgl.“).
+- Hortsch, Hanno: Didaktik der Berufsbildung. Dresden 2001 – Folie R062 („Vgl.“); eigenständige Quelle, nicht mit Hortsch 1999 gleichgesetzt. ᴼ
+- Kilpatrick / Dewey – Folie R058 (Namen ohne Jahr).
+
+<small>ᴼ Angabe unverändert von der Originalfolie übernommen; jeder Name bzw. jede Angabe gilt als eigenständige Quelle.</small>
+"""
+SOURCE = Gesamtverzeichnis: 00_Literatur.md

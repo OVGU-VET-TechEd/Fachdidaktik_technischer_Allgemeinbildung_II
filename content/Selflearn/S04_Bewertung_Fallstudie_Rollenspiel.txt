@@ -1,0 +1,683 @@
+# Content file Selflearn S04 – build with:  python3 content/build.py content/Selflearn/S04_Bewertung_Fallstudie_Rollenspiel.txt
+# Self-study unit (opened as textbook: narration appears as study text). Original slides R069–R088.
+
+[course]
+AUTHOR = Hannes Tegelbeckers
+EMAIL = hannes.tegelbeckers@ovgu.de
+VERSION = 0.3.0
+LANGUAGE = de
+NARRATOR = Deutsch Female
+COURSE-TITLE = S04 – Bewertung · Fallstudie · Rollenspiel (Selbstlerneinheit)
+COURSE-DESCRIPTION = Fachdidaktik technischer Allgemeinbildung II – Selbstlerneinheit zu Sitzung S04. Bewertung als Soll-Ist-Vergleich, Bewertungskonzept für Projekte, eine technische Fallstudie nach Kaiser und ein Rollenspiel für die eigene Fachrichtung planen.
+COURSE-SUBTITLE = """
+<!-- didaktik="Selbstlerneinheit S04 · ca. 100 min · Studientext + Übungen · Inhalte der Folien R069–R088, in eigenen Worten erläutert" -->
+> [!IMPORTANT] 🧭 Leitfrage
+> Wie bewerte ich Projektarbeit fair – und wie baue ich Fallstudie und Rollenspiel so auf, dass der Vergleich mit der Wirklichkeit gelingt?
+
+> [!NOTE] 📘 So ist diese Einheit aufgebaut
+> Diese Einheit **erklärt die Inhalte der Sitzung S04** in eigenen Worten und mit Beispielen – Sie können sie auch bearbeiten, wenn Sie in der Sitzung nicht dabei waren. Ein roter Faden verbindet alle Teile: der **Soll-Ist-Vergleich**.
+
+> [!TIP] 📖 Originalfolien zum Nachschlagen
+> Die LiaScript-Sitzung [S04 – Kontrolle & Bewertung · Fallstudie · Rollenspiel](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S04_Bewertung_Fallstudie_Rollenspiel.md).
+
+> [!TIP] ✍️ Übung in Moodle
+> Bearbeiten Sie diese Einheit als Übung im Moodle-Kurs – dort wird Ihr Bearbeitungsstand gespeichert: [Übung in Moodle öffnen](https://elearning.ovgu.de/mod/scorm/view.php?id=707265)
+"""
+
+
+# ───────────────────────── Überblick ─────────────────────────
+
+[Overview_Course_Template_1.md]
+SLIDE-TITLE = Ablauf der Einheit
+NARRATION-0 = Die Einheit dauert etwa 100 Minuten und hat vier Abschnitte. Jeder Abschnitt erklärt zuerst die Inhalte der Folien und lässt Sie sie dann in Übungen anwenden.
+MODULE-1 = Kontrolle und Bewertung – und die Probleme bei Projekten
+FORMAT-1 = Studientext, drei Übungen
+DURATION-1 = 30 min
+MODULE-2 = Regelkreise: VVR- und TOTE-Einheit
+FORMAT-2 = Studientext, zwei Übungen
+DURATION-2 = 12 min
+MODULE-3 = Die Fallstudie
+FORMAT-3 = Studientext, Fall Druckluftanlage
+DURATION-3 = 30 min
+MODULE-4 = Das Rollenspiel
+FORMAT-4 = Studientext, eigenes Rollenspiel
+DURATION-4 = 18 min
+ASSESSMENT = Zum Abschluss (ca. 10 min): Rückblick und Prüfungsfragen zum Üben für die mündliche Prüfung.
+OBJ-TITLE = Lernziele der Einheit
+NARRATION-OBJ-0 = Nach dieser Einheit können Sie vier Dinge.
+NARRATION-OBJ-1 = Erstens entwerfen Sie ein Bewertungskonzept für Projektarbeit.
+VERB-1 = Bewertungskonzept entwerfen
+OBJECTIVE-1 = für Projektarbeit, das die Widersprüche nach Kersten berücksichtigt
+NARRATION-OBJ-2 = Zweitens erläutern Sie die TOTE-Einheit an einer Tätigkeit Ihrer Fachrichtung.
+VERB-2 = TOTE-Einheit erläutern
+OBJECTIVE-2 = an einer Tätigkeit Ihrer Fachrichtung
+NARRATION-OBJ-3 = Drittens ordnen Sie einen technischen Fall einer Variante nach Kaiser zu und planen die Phasen.
+VERB-3 = Fallstudie zuordnen und planen
+OBJECTIVE-3 = einen technischen Fall einer Variante nach Kaiser zuordnen und die Phasen planen
+NARRATION-OBJ-4 = Und viertens skizzieren Sie ein Rollenspiel zu einem technischen Konflikt.
+VERB-4 = Rollenspiel skizzieren
+OBJECTIVE-4 = zu einem technischen Konflikt Ihrer Fachrichtung
+NARRATION-OBJ-5 = Welche Abschnitte interessieren Sie am meisten?
+
+
+# ───────────────────────── 1 · Kontrolle und Bewertung (R069–R073) ─────────────────────────
+
+[Content_Introduction_Template_2.md]
+SLIDE-TITLE = 1 · Kontrolle und Bewertung – und die Probleme bei Projekten
+NARRATION-0 = In S03 haben Sie Projekte geplant. Am Ende eines Projekts steht die Frage: Wie kontrolliere und bewerte ich, was die Lernenden geleistet haben? Dieser Abschnitt klärt zuerst, wozu Bewertung überhaupt dient und was sie pädagogisch bedeutet. Danach geht es um die Widersprüche, die bei Projekten entstehen, und um die Konsequenz daraus: gemeinsam und prozessorientiert bewerten.
+GUIDING-QUESTION = Wie entsteht ein faires Urteil – und warum ist das bei Projekten so schwierig?
+NARRATION-1 = Zuerst: wozu wir überhaupt kontrollieren und bewerten.
+ASPECT-1 = 1.1 Wozu kontrollieren und bewerten wir? (R069)
+NARRATION-2 = Dann: wie ein Urteil im pädagogischen Soll-Ist-Vergleich entsteht – und wann eine Situation eine Bewertungssituation ist.
+ASPECT-2 = 1.2 Bewertung als pädagogischer Soll-Ist-Vergleich (R070–R071)
+NARRATION-3 = Danach: die drei Widersprüche bei Projekten nach Kersten.
+ASPECT-3 = 1.3 Drei Widersprüche bei Projekten (R072)
+NARRATION-4 = Und schließlich die Konsequenz: gemeinsam und prozessorientiert bewerten.
+ASPECT-4 = 1.4 Bewertung gemeinsam und prozessorientiert (R073)
+NARRATION-5 = Warum ist das für Sie wichtig?
+WHY-IT-MATTERS = Als Lehrkraft benoten Sie Projektarbeit – auch wenn Sie die Ziele nicht allein gesetzt haben und viele am Ergebnis mitgewirkt haben.
+NARRATION-6 = Markieren Sie, was Sie schon kennen.
+
+
+[Original_Slide_Template_2.md]
+SLIDE-TITLE = 1.1 Wozu kontrollieren und bewerten wir?
+NARRATION-0 = Bewertung ist mehr als Noten geben. Die Folie nennt vier Funktionen: Rückkopplung für die Lehrkraft, Rückkopplung für die Lernenden, die Bewertung von Ausbildungsgängen und -unterlagen sowie Zeugnisse und Beurteilungen als Grundlage für Laufbahnentscheidungen.
+SLIDE-CONTENT = """
+- **Rückkopplung für den Lehrer**
+  - Hat er seine pädagogischen Ziele erreicht?
+  - War die didaktisch-methodische Gestaltung zweckmäßig?
+- **Rückkopplung für den Schüler**
+  - Welche Lernfortschritte wurden erzielt?
+- **Bewertung von Ausbildungsgängen und Ausbildungsunterlagen**
+  - Ist der Lehrplan geeignet um bestimmte Qualifikationen zu entwickeln?
+- **Ermittlung von Zeugnissen und Beurteilungen als Grundlage für weitere Laufbahnentscheidungen**
+"""
+NARRATION-1 = Oft wird nur an die letzte Funktion gedacht. Die ersten beiden sind für das Lernen aber mindestens so wichtig.
+KEY-MESSAGE = Eine Klassenarbeit, die die halbe Klasse nicht besteht, sagt auch etwas über den **Unterricht** – Bewertung ist immer auch Rückmeldung an die Lehrkraft.
+SOURCE = Quelle: Folie R069 „Funktion von Kontrolle und Bewertung im Unterricht“
+
+
+[Figure_Template_1.md]
+SLIDE-TITLE = 1.2 Bewertung als pädagogischer Soll-Ist-Vergleich
+NARRATION-0 = Wie entsteht ein Urteil? Das Schema auf Folie R070 hat zwei Stränge, die sich treffen. Am Anfang steht eine didaktische Aufforderung, also eine Aufgabe oder Frage.
+MERMAID-CODE = """
+flowchart TD
+  L["Lernender mit seinen<br>Inneren Bedingungen"]:::plain --> H["Ausführung der<br>Handlung"]
+  A["<b>Didaktische Aufforderung<br>(Aufgabe, Frage)</b>"] --> H
+  A --> M["Maßstab für die<br>Bewertung"]
+  K["Allgemeine und fachspezifische<br>Bewertungskriterien"]:::plain --- M
+  H --> F["Feststellung der<br>Leistung"]
+  F --> V["Pädagogischer Soll-Ist-Vergleich"]
+  M --> V
+  V --> U["Urteil, Worturteil, Zensur"]
+  classDef plain fill:none,stroke:none
+"""
+NARRATION-1 = Der erste Strang ist das Ist.
+PART-1 = Ist
+PART-TEXT-1 = Die Lernenden – mit ihren inneren Bedingungen (Vorwissen, Motivation …) – führen auf die Aufforderung hin eine Handlung aus, und die Leistung wird festgestellt.
+NARRATION-2 = Der zweite Strang ist das Soll.
+PART-2 = Soll
+PART-TEXT-2 = Aus allgemeinen und fachspezifischen Bewertungskriterien wird ein Maßstab gebildet.
+NARRATION-3 = Im pädagogischen Soll-Ist-Vergleich werden beide gegenübergestellt.
+PART-3 = Pädagogischer Soll-Ist-Vergleich
+PART-TEXT-3 = Leistung und Maßstab werden verglichen; daraus folgt das Urteil – als Worturteil oder Zensur.
+NARRATION-4 = Daraus folgt eine wichtige Regel.
+KEY-MESSAGE = Ohne vorher festgelegten Maßstab gibt es keinen fairen Vergleich.
+SOURCE = Quelle: Folie R070 „Kontrolle und Bewertung von Lernleistungen im Unterricht“ – Grafik (nur Bild) als Diagramm nachgezeichnet; „Ist“ und „Soll“ als Lesehilfe.
+
+
+[Original_Slide_Template_3.md]
+SLIDE-TITLE = Merkmale einer Bewertungssituation
+NARRATION-0 = Wann ist eine Situation überhaupt eine Bewertungssituation? Heckhausen nennt fünf Merkmale: Das Ergebnis ist objektivierbar und hat Aufgabencharakter, es gibt einen Schwierigkeitsmaßstab, die Handlung kann gelingen oder misslingen, es gibt verbindliche Maßstäbe, und die Leistung hängt vom Handelnden ab.
+SLIDE-CONTENT = """
+1. Objektivierbarkeit und Aufgabencharakter des Handlungsergebnisses
+2. Bezug auf einen Schwierigkeitsmaßstab bzw. „Kraftaufwand“
+3. Möglichkeit des Gelingens oder Misslingens einer Handlung
+4. Subjektive verbindliche „Maßstäbe“ für die Bewertung
+5. Abhängigkeit (Urheberschaft) der Leistung vom Handelnden
+
+(vgl. Heckhausen, 1974)
+"""
+NARRATION-1 = Merkmal 4 ist leicht misszuverstehen: Warum heißt es subjektiv verbindlich und nicht objektiv? Heckhausen beschreibt die Bewertungssituation aus Sicht der Leistungsmotivation, also psychologisch.
+SLIDE-CONTENT-2 = """
+**Zu Merkmal 4: Warum „subjektiv verbindlich“ und nicht „objektiv“?**
+
+Gemeint ist ein Gütemaßstab, den der Handelnde als für sich verbindlich ansieht.
+
+- Der Maßstab kann durchaus objektiv sein, zum Beispiel eine Toleranz von ±0,1 mm nach Zeichnung. Akzeptiert der Lernende ihn aber nicht als seinen Anspruch, entsteht kein Leistungshandeln. Die Arbeit wird dann nur von außen beurteilt.
+- Erst wenn jemand sagt „Das will ich schaffen“, gibt es Stolz bei Erfolg und Ärger bei Misserfolg. Erst dann wirkt die Bewertung motivierend.
+"""
+NARRATION-2 = Behalten Sie diese fünf Merkmale im Kopf – im nächsten Schritt sehen Sie, dass genau sie bei Projekten oft fehlen.
+KEY-MESSAGE = Bewertung wirkt erst, wenn der Lernende den Maßstab als eigenen Anspruch übernimmt.
+SOURCE = Quelle: Folie R071 „Merkmale einer Bewertungssituation im Unterricht“ (im Original: HECKHAUSEN); Erläuterung zu Merkmal 4 aus den Sprechernotizen dieser Folie.
+
+
+[Original_Slide_Template_3.md]
+SLIDE-TITLE = 1.3 Drei Widersprüche bei Projekten
+NARRATION-0 = Genau diese Merkmale sind bei Projekten aus S03 oft nicht erfüllt. Kersten beschreibt drei Widersprüche.
+SLIDE-CONTENT = """
+- **Widerspruch zwischen Selbstorganisation / Selbstverantwortung und Fremdkontrolle**
+  - Lehrer setzt die Ziele nicht und kann daher auch über kein Antwortbild verfügen: Wie kann er daher die Leistung bewerten?
+- **Widerspruch zwischen kooperativer Lernorganisation und individueller Leistungsbewertung**
+- **Widerspruch zwischen pädagogischen Zwecken der Arbeit an und mit Projekten und der Kontrolle und Bewertung des Projektprodukts**
+  - gemeint ist das Projektprodukt war letztlich auch nur Mittel zum Zweck: Persönlichkeitseigenschaften sollten am Produkt entwickelt werden …
+
+(vgl. Kersten, 1997)
+"""
+NARRATION-1 = Was bedeuten die drei Widersprüche – und welches Heckhausen-Merkmal fehlt jeweils?
+SLIDE-CONTENT-2 = """
+**In eigenen Worten – mit Bezug zu Heckhausen**
+
+- **Selbstorganisation ↔ Fremdkontrolle.** Wenn die Lernenden ihre Ziele selbst setzen, hat die Lehrkraft **kein Antwortbild** – woran soll sie messen? (Merkmal 4, der verbindliche Maßstab, fehlt.)
+- **Kooperative Lernorganisation ↔ individuelle Bewertung.** Gearbeitet wird in der Gruppe, Noten werden aber einzeln vergeben. Wer hat was geleistet? (Merkmal 5, die Urheberschaft, ist unklar.)
+- **Pädagogischer Zweck ↔ Bewertung des Produkts.** Das Produkt war nur **Mittel zum Zweck**: Am Produkt sollten Fähigkeiten und Persönlichkeitseigenschaften entwickelt werden. Bewertet man nur das Produkt, verfehlt man das eigentliche Ziel.
+"""
+NARRATION-2 = Alle drei Widersprüche führen zur selben Frage.
+KEY-MESSAGE = Woher kommt bei Projekten der Maßstab – und wessen Leistung wird eigentlich gemessen?
+SOURCE = Quelle: Folie R072 „Probleme der Kontrolle und Bewertung in Projekten“ (im Original: KERSTEN); Erläuterungen: eigene Darstellung.
+
+
+[Original_Slide_Template_2.md]
+SLIDE-TITLE = 1.4 Die Konsequenz: Bewertung gemeinsam und prozessorientiert
+NARRATION-0 = Daraus folgt nach Folie R073: Eine ausschließliche Fremdbewertung durch die Lehrkraft ist bei Projekten nicht möglich. Bewertung entsteht in Zusammenarbeit in einer festen Reihenfolge – Selbstkontrolle und -bewertung der Lernenden, gegenseitige Einschätzung, dann legt die Lehrkraft ihre Einschätzung begründet dar. Und trotz der Produktorientierung liegt der Schwerpunkt auf dem Prozess der Problemlösung.
+SLIDE-CONTENT = """
+- Eine ausschließliche Fremdkontrolle und –bewertung der Lernleistungen durch den Lehrenden ist nicht möglich.
+- Kontrolle und Bewertung von Lernleistungen muss in Zusammenarbeit zwischen den Lernenden und dem Lehrenden erfolgen. Ausgangspunkt dafür bildet die Selbstkontrolle und –bewertung der Lernenden, gefolgt von der gegenseitigen Einschätzung der erbrachten Leistungen durch die Lernenden. Auf dieser Grundlage kann dann der Lehrende seine Leistungseinschätzung begründet darlegen.
+- Trotz der Produktorientiertheit beim Lernen durch die Arbeit an und mit Projekten sollte der Schwerpunkt der Kontrolle und Bewertung nicht auf den Qualitätsmerkmalen des Produktes sondern im Prozess der Problemlösung liegen.
+"""
+NARRATION-1 = Warum gerade diese Reihenfolge? Wer sich zuerst selbst einschätzt, muss sich mit den Kriterien auseinandersetzen – das ist selbst ein Lernprozess. Die Lehrkraft spricht zuletzt, damit ihr Urteil die Selbsteinschätzung nicht vorwegnimmt.
+KEY-MESSAGE = Selbstkontrolle und -bewertung → gegenseitige Einschätzung → begründete Einschätzung der Lehrenden. Schwerpunkt: der Prozess der Problemlösung.
+SOURCE = Quelle: Folie R073 „Besonderheiten von Kontrolle und Bewertung bei der Arbeit an und mit Projekten“
+
+
+[Interactive_Exercise_Template_1.md]
+SLIDE-TITLE = Übung 1: Bewerten in Projekten
+NARRATION-0 = Prüfen Sie Ihr Verständnis an einem Fall. Die Bewässerungsanlage einer Projektgruppe aus der Selbstlerneinheit S03 funktioniert nur teilweise. Die Gruppe hat aber sauber dokumentiert, zwei Lösungen verglichen und einen Fehler selbst gefunden.
+Q1-QUESTION = Die Bewässerungsanlage funktioniert nur teilweise; die Gruppe hat aber dokumentiert, zwei Lösungen verglichen und einen Fehler selbst gefunden. Welches Vorgehen entspricht R073 am besten?
+Q1-WRONG-1 = Die Lehrkraft bewertet die Funktion der Anlage und vergibt allen dieselbe Note.
+Q1-CORRECT = Erst Selbst-, dann gegenseitige Einschätzung; danach legt die Lehrkraft ihre Einschätzung begründet dar – mit Kriterien zu Prozess und Produkt.
+Q1-WRONG-2 = Die Lernenden bewerten sich ausschließlich selbst.
+Q1-HINT = R073 nennt eine feste Reihenfolge und einen Schwerpunkt.
+Q1-FEEDBACK = Eine ausschließliche Fremdbewertung ist nicht möglich; der Schwerpunkt liegt im Prozess – hier also Dokumentation, Variantenvergleich und Fehlersuche, nicht nur die Funktion (R073).
+NARRATION-1 = Jetzt können mehrere Antworten richtig sein.
+Q2-QUESTION = Welche Merkmale einer Bewertungssituation nach Heckhausen sind bei Projekten oft nicht erfüllt?
+Q2-CORRECT-1 = Verbindliche Maßstäbe – die Lehrkraft hat kein Antwortbild.
+Q2-WRONG-1 = Möglichkeit des Gelingens oder Misslingens einer Handlung
+Q2-CORRECT-2 = Urheberschaft – wer hat in der Gruppe was geleistet?
+Q2-WRONG-2 = Bezug auf einen Schwierigkeitsmaßstab
+Q2-HINT = Denken Sie an die ersten beiden Widersprüche nach Kersten.
+Q2-FEEDBACK = Selbstorganisation nimmt den verbindlichen Maßstab (Merkmal 4), Gruppenarbeit verwischt die Urheberschaft (Merkmal 5).
+NARRATION-2 = Zum Schluss tippen Sie einen Begriff.
+Q3-QUESTION = Worüber kann die Lehrkraft nicht verfügen, wenn die Lernenden die Ziele selbst setzen? (ein Wort)
+Q3-ANSWER = Antwortbild
+Q3-HINT = Gemeint ist das Bild der erwarteten Antwort, ähnlich einer Musterlösung.
+Q3-FEEDBACK = Ohne Antwortbild fehlt der Maßstab für den Soll-Ist-Vergleich (R072).
+
+
+[Open_Task_Template_1.md]
+SLIDE-TITLE = Übung 1c: Ihr Bewertungsraster
+NARRATION-0 = Übertragen Sie das jetzt auf ein Projekt Ihrer Fachrichtung. Ihr Raster ist zugleich Baustein 5 für Ihren Unterrichtsentwurf.
+TASK = """
+Notieren Sie für ein Projekt Ihrer Fachrichtung je zwei Kriterien für **Prozess** und **Produkt** und legen Sie fest, wer wann einschätzt (selbst – gegenseitig – Lehrkraft).
+
+<!-- data-type="none" -->
+| | Kriterium 1 | Kriterium 2 | Wer schätzt ein? |
+| --- | --- | --- | --- |
+| **Prozess** | … | … | … |
+| **Produkt** | … | … | … |
+
+**Prüfen Sie Ihr Raster mit Heckhausen (R071):** Ist das Ergebnis objektivierbar? Gibt es einen verbindlichen Maßstab? Ist die Leistung den einzelnen Lernenden zurechenbar (Urheberschaft)?
+"""
+HINT = Prozess-Kriterien beschreiben, **wie** gearbeitet wurde (Planung, Abstimmung, Fehlersuche); Produkt-Kriterien beschreiben, **was** herauskam.
+MODEL-ANSWER = Beispiel Bewässerungsanlage: **Prozess** – Planung dokumentiert und begründet angepasst; Lösungsvarianten verglichen. **Produkt** – Anlage hält die Bodenfeuchte im Sollbereich; Bedienungsanleitung ist verständlich. **Wer:** Selbsteinschätzung nach jeder Projektphase, gegenseitige Einschätzung bei der Präsentation, zuletzt die begründete Einschätzung der Lehrkraft. **Heckhausen:** Die Kriterien werden vorab vereinbart (verbindlicher Maßstab); ein Projekttagebuch mit Aufgabenverteilung macht die Urheberschaft sichtbar.
+
+
+# ───────────────────────── 2 · Regelkreise (R077–R078) ─────────────────────────
+
+[Figure_Template_1.md]
+SLIDE-TITLE = 2 · Regelkreise: die TOTE-Einheit
+NARRATION-0 = In S02 hieß es: Jede Handlung basiert auf zyklischen Einheiten, den TOTE- und VVR-Einheiten. Sie beschreiben, wie Menschen eine Handlung im Kopf steuern – wieder mit einem Soll-Ist-Vergleich, diesmal beim Handelnden selbst. Die TOTE-Einheit steht für Test, Operate, Test, Exit.
+MERMAID-CODE = """
+flowchart TD
+  S(["Soll"]) --> B(["Bearbeitung"])
+  B --> T(["Test"])
+  T --> I["identisch?"]
+  I -- nein --> S
+  I -- ja --> E["= Exit/fertig"]
+  classDef plain fill:none,stroke:none
+  class E plain
+"""
+NARRATION-1 = Der Handelnde hat ein Soll im Kopf.
+PART-1 = Soll
+PART-TEXT-1 = Das Ziel, das der Handelnde im Kopf hat.
+NARRATION-2 = Er bearbeitet etwas und testet das Ergebnis.
+PART-2 = Bearbeitung und Test
+PART-TEXT-2 = Etwas wird bearbeitet, dann wird das Ergebnis getestet.
+NARRATION-3 = Dann fragt er: Ist das Ist mit dem Soll identisch? Wenn nein, geht es zurück in die Bearbeitung. Wenn ja, ist die Handlung fertig.
+PART-3 = identisch?
+PART-TEXT-3 = nein → zurück und weiter bearbeiten · ja = Exit, die Handlung ist fertig.
+NARRATION-4 = Für den Unterricht folgt daraus eine Bedingung.
+KEY-MESSAGE = Lernende brauchen ein **klares Soll** und eine **Möglichkeit zum Testen** (Prüfmittel, Kriterien, Rückmeldung). Fehlt eines davon, können sie ihre Handlung nicht selbst regulieren.
+SOURCE = Quelle: Folie R078 „Test-Operation-Test-Exit (TOTE-Einheit)“ – Grafik (nur Bild) als Diagramm nachgezeichnet; Erläuterungen: eigene Darstellung.
+
+
+[Figure_Template_1.md]
+SLIDE-TITLE = Die VVR-Einheit
+NARRATION-0 = Die Vergleichs-Veränderungs-Rückkopplungs-Einheit beschreibt dasselbe Prinzip als Folge.
+MERMAID-CODE = """
+flowchart LR
+  S1(["1. Soll"]) --> B1(["Bearbeitung"]) --> T1(["Test"])
+  T1 --> S2(["2. Soll"]) --> B2(["Bearbeitung"]) --> T2(["Test"])
+  T2 --> S3(["3. Soll"]) --> B3(["Bearbeitung"]) --> W[" "]
+  T1 -.-> D1[" "]
+  T2 -.-> D2[" "]
+  classDef blank fill:none,stroke:none
+  class W,D1,D2 blank
+"""
+NARRATION-1 = Auf ein Soll folgen Bearbeitung und Test.
+PART-1 = Soll
+PART-TEXT-1 = Das Ziel des jeweiligen Handlungsschritts: 1., 2., 3. Soll.
+NARRATION-2 = Der Test vergleicht das Ergebnis mit dem Soll.
+PART-2 = Bearbeitung und Test
+PART-TEXT-2 = Die Handlung wird ausgeführt und ihr Ergebnis geprüft.
+NARRATION-3 = Danach kommt das nächste Soll mit Bearbeitung und Test – und so weiter.
+PART-3 = Neues Soll
+PART-TEXT-3 = Jeder Test führt zum nächsten Soll; so wird eine längere Handlung Schritt für Schritt reguliert.
+NARRATION-4 = Das ist der Kern dieser Einheit.
+KEY-MESSAGE = VVR: vergleichen, verändern, rückkoppeln – eine längere Handlung als Folge von Soll-Ist-Vergleichen.
+SOURCE = Quelle: Folie R077 „Vergleichs-Veränderungs-Rückkoppelungs-Einheit (VVR-Einheit)“ – Grafik (nur Bild) nachgezeichnet: im Original eine Spirale, in der jeder Test zum nächsten Soll führt; gestrichelte Pfeile wie im Original.
+
+
+[Process_Template_5.md]
+SLIDE-TITLE = Übung 2a: TOTE beim Einstellen des Ventilspiels
+NARRATION-0 = Ein Beispiel aus der Kfz-Technik: das Einstellen des Ventilspiels an einem Motor als TOTE-Einheit.
+STEP-1 = Soll
+STEP-2 = Bearbeitung
+STEP-3 = Test
+STEP-4 = Vergleich
+STEP-5 = Exit oder erneut einstellen
+NARRATION-1 = Das Soll ist das vorgeschriebene Ventilspiel.
+STEP-TEXT-1 = vorgeschriebenes Ventilspiel aus den Herstellerangaben
+NARRATION-2 = Bearbeitet wird mit der Einstellschraube.
+STEP-TEXT-2 = Einstellschraube verstellen
+NARRATION-3 = Getestet wird mit der Fühlerlehre.
+STEP-TEXT-3 = Spiel mit der Fühlerlehre messen
+NARRATION-4 = Dann wird verglichen.
+STEP-TEXT-4 = Stimmt der Wert mit dem Soll überein?
+NARRATION-5 = Bei Abweichung wird erneut eingestellt, sonst ist die Handlung fertig.
+STEP-TEXT-5 = Bei Abweichung erneut einstellen, sonst Exit.
+SOURCE = Beispiel: eigene Darstellung zur TOTE-Einheit (Folie R078), keine Originalfolie.
+ORDER-TITLE = Ventilspiel: Schritte ordnen
+NARRATION-ORDER-0 = Ordnen Sie den Ablauf beim Einstellen des Ventilspiels.
+
+
+[Open_Task_Template_1.md]
+SLIDE-TITLE = Übung 2b: Ihre Tätigkeit als TOTE-Einheit
+NARRATION-0 = Übertragen Sie die TOTE-Einheit auf Ihre eigene Fachrichtung.
+TASK = Beschreiben Sie eine Tätigkeit Ihrer Fachrichtung als TOTE-Einheit: Was ist das **Soll**, was wird **bearbeitet**, womit wird **getestet** – und wo genau liegt der Test?
+HINT = Suchen Sie das Prüfmittel: Womit stellen Sie fest, ob das Ergebnis stimmt (Messgerät, Lehre, Sichtprüfung, Funktionsprobe)?
+MODEL-ANSWER = Beispiel Metalltechnik: **Soll** – Wellendurchmesser 20 mm h7 nach Zeichnung · **Bearbeitung** – Welle auf der Drehmaschine abdrehen · **Test** – Durchmesser mit der Bügelmessschraube messen · **identisch?** – liegt das Maß in der Toleranz, ist die Handlung fertig (Exit); sonst wird nachgedreht.
+
+
+# ───────────────────────── 3 · Die Fallstudie (R074–R076) ─────────────────────────
+
+[Content_Introduction_Template_2.md]
+SLIDE-TITLE = 3 · Die Fallstudie
+NARRATION-0 = Projekte enden mit einem Produkt. Die Fallstudie setzt anders an: Im Mittelpunkt steht eine Entscheidung in einer realistischen Problemsituation. Dieser Abschnitt erklärt, was eine Fallstudie ist, welche Varianten Kaiser unterscheidet, in welchen Phasen sie abläuft und wie Sie selbst eine technische Fallstudie aufbauen.
+GUIDING-QUESTION = Wie lernen Lernende an einem echten Fall – und womit vergleichen sie ihre Entscheidung?
+NARRATION-1 = Zuerst: Was ist eine Fallstudie?
+ASPECT-1 = 3.1 Was ist eine Fallstudie? (R074)
+NARRATION-2 = Dann: die vier Varianten nach Kaiser.
+ASPECT-2 = 3.2 Vier Varianten nach Kaiser (R075)
+NARRATION-3 = Danach: das Phasenmodell von der Konfrontation bis zur Kollation.
+ASPECT-3 = 3.3 Das Phasenmodell nach Kaiser (R076)
+NARRATION-4 = Und schließlich bauen Sie selbst eine technische Fallstudie auf.
+ASPECT-4 = 3.4 Eine technische Fallstudie aufbauen: die Druckluftanlage
+NARRATION-5 = Warum ist das für Sie wichtig?
+WHY-IT-MATTERS = Fallstudien holen betriebliche Entscheidungen in den Unterricht – und der Vergleich mit der realen Entscheidung zeigt, ob eine Lösung trägt.
+NARRATION-6 = Markieren Sie, was Sie schon kennen.
+
+
+[Original_Slide_Template_3.md]
+SLIDE-TITLE = 3.1 Was ist eine Fallstudie?
+NARRATION-0 = Die Fallstudie ist ein komplexes Unterrichtsverfahren, in dem das Lösen eines Problems aus der Praxis im Vordergrund steht. Die Lernenden analysieren eine Problemsituation selbstständig, erarbeiten in Gruppen Lösungen und unterziehen die verschiedenen Lösungen einem kritischen Vergleich.
+SLIDE-CONTENT = """
+- Komplexes Unterrichtsverfahren
+- Problemlösungskonzept steht im Vordergrund
+- Problemsituation meist aus der Praxis
+- Die Lernenden müssen die Problemsituation selbstständig analysieren und in Gruppenarbeit Problemlösungen erarbeiten
+- Die unterschiedlichen Problemlösungen sollten einem kritischen Vergleich unterzogen werden
+"""
+NARRATION-1 = Die Fallbearbeitung hat vier Phasen: Problemerkennung – was ist eigentlich das Problem? Informationsgewinnung – was müssen wir wissen? Problemlösung – Lösungsalternativen suchen und sich begründet für eine entscheiden. Und Lösungskritik – Gruppenergebnisse diskutieren und mit der realen Problemlösung vergleichen.
+SLIDE-CONTENT-2 = """
+**Phasen der Fallbearbeitung**
+
+1. Problemerkennung
+2. Informationsgewinnung
+3. Problemlösung
+   - Suche nach unterschiedlichen Lösungsalternativen
+   - Begründete Entscheidung für eine Lösungsvariante
+4. Lösungskritik
+   - Diskussion der Gruppenergebnisse
+   - Vergleich mit der realen Problemlösung
+"""
+NARRATION-2 = Der letzte Schritt ist das Besondere.
+KEY-MESSAGE = Weil der Fall echt ist, gibt es eine **Entscheidung, die in der Wirklichkeit getroffen wurde**. Die Lernenden vergleichen ihre Lösung damit – wieder ein Soll-Ist-Vergleich.
+SOURCE = Quelle: Folie R074 „Fallstudie“
+
+
+[Original_Slide_Template_2.md]
+SLIDE-TITLE = 3.2 Vier Varianten nach Kaiser
+NARRATION-0 = Kaiser unterscheidet vier Varianten. Sie haben dieselben Phasen, aber unterschiedliche Schwerpunkte. Bei der Case-Study-Method ist das Problem verborgen und muss erst analysiert werden. Bei der Case-Problem-Method sind Problem und Informationen gegeben; die Lernenden ermitteln Lösungsvarianten und entscheiden. Bei der Case-Incident-Method ist der Fall lückenhaft, die Informationen müssen selbst beschafft werden. Bei der Stated-Problem-Method sind sogar die fertigen Lösungen gegeben; die Lernenden kritisieren sie und suchen Alternativen.
+SLIDE-CONTENT = """
+<!-- data-type="none" -->
+| Methode | Problemerkennung | Informationsgewinnung | Problemlösung | Lösungskritik |
+| --- | --- | --- | --- | --- |
+| **Case-Study-Method** | **Schwerpunkt:** Verborgene Probleme müssen analysiert werden | Informationen werden gegeben | Lösungsvarianten des Problems werden ermittelt und Entscheidungen gefällt | Vergleich der Lösung mit der Entscheidung in der Wirklichkeit |
+| **Case-Problem-Method** | Probleme sind ausdrücklich genannt | Informationen werden gegeben | **Schwerpunkt:** Lösungsvarianten des Problems werden ermittelt und Entscheidungen gefällt | Vergleich der Lösung mit der Entscheidung in der Wirklichkeit |
+| **Case-Incident-Method** | Der Fall wird lückenhaft dargestellt | **Schwerpunkt:** Informationen müssen selbstständig beschafft werden | Lösungsvarianten werden ermittelt. Der Fall wird gelöst. | |
+| **Stated-Problem-Method** | Probleme sind vorgegeben | Informationen werden gegeben | Die fertigen Lösungen werden gegeben. Es wird nach alternativen Lösungen gesucht. | **Schwerpunkt:** Kritik der vorgegebenen Lösungen |
+"""
+NARRATION-1 = Lesen Sie die Tabelle diagonal: Der Schwerpunkt wandert von Variante zu Variante in eine andere Phase.
+KEY-MESSAGE = Schwerpunkte: Problemerkennung (Case-Study) · Problemlösung (Case-Problem) · Informationsgewinnung (Case-Incident) · Lösungskritik (Stated-Problem).
+SOURCE = Quelle: Folie R075 „Varianten der Arbeit mit Fallstudien nach KAISER“
+
+
+[Process_Template_6.md]
+SLIDE-TITLE = 3.3 Das Phasenmodell nach Kaiser
+NARRATION-0 = Kaiser beschreibt den Ablauf in sechs Phasen mit lateinischen Namen.
+STEP-1 = Konfrontation
+STEP-2 = Information
+STEP-3 = Exploration
+STEP-4 = Resolution
+STEP-5 = Disputation
+STEP-6 = Kollation
+NARRATION-1 = Konfrontation: Die Lernenden werden mit dem Fall konfrontiert.
+STEP-TEXT-1 = Die Lernenden werden mit dem Fall konfrontiert und erfassen die Situation.
+NARRATION-2 = Information: Sie erschließen die nötigen Informationen.
+STEP-TEXT-2 = Sie beschaffen bzw. erschließen die nötigen Informationen.
+NARRATION-3 = Exploration: Sie erkunden Lösungsmöglichkeiten.
+STEP-TEXT-3 = Sie erkunden Lösungsmöglichkeiten.
+NARRATION-4 = Resolution: Sie treffen eine Entscheidung.
+STEP-TEXT-4 = Sie treffen eine Entscheidung.
+NARRATION-5 = Disputation: Sie verteidigen ihre Entscheidung.
+STEP-TEXT-5 = Sie verteidigen ihre Entscheidung gegenüber den anderen Gruppen.
+NARRATION-6 = Kollation: Sie vergleichen ihre Lösung mit der Entscheidung in der Wirklichkeit.
+STEP-TEXT-6 = Sie vergleichen ihre Lösung mit der Entscheidung in der Wirklichkeit.
+SOURCE = Quelle: Folie R076 „Phasenmodell der Fallstudie nach KAISER¹“ – ¹ Kaiser, F.-J.: Entscheidungstraining – Methoden der Entscheidungsfindung (2.Auflage). Bad Heilbrunn 1976 · Erläuterungen der Phasen: eigene Darstellung.
+ORDER-TITLE = Übung 3a: Phasen nach Kaiser ordnen
+NARRATION-ORDER-0 = Ordnen Sie die sechs Phasen nach Kaiser.
+
+
+[Interactive_Exercise_Template_2.md]
+SLIDE-TITLE = Übung 3b: Varianten und Phasen
+NARRATION-0 = Ergänzen Sie den Text. Wählen, tippen oder ziehen Sie die fehlenden Wörter.
+GAP-TEXT-1 = Bei der
+GAP-1-CORRECT = Case-Incident-Method
+GAP-1-WRONG-1 = Case-Study-Method
+GAP-1-WRONG-2 = Stated-Problem-Method
+GAP-TEXT-2 = müssen die Informationen selbstständig beschafft werden. Kaisers Phasenmodell umfasst so viele Phasen:
+GAP-2-ANSWER = 6
+GAP-TEXT-3 = . Die letzte Phase, die Kollation, vergleicht die eigene Lösung mit der Entscheidung in der Wirklichkeit – ein
+GAP-3-CORRECT = Soll-Ist-Vergleich
+GAP-3-DISTRACTOR = Meinungsbild
+GAP-TEXT-4 = .
+GAP-HINT = Schauen Sie in die Tabelle zu R075 und in das Phasenmodell R076.
+NARRATION-1 = Entscheiden Sie jetzt: richtig oder falsch?
+STATEMENT-1 = Bei der Case-Study-Method müssen verborgene Probleme analysiert werden.
+STATEMENT-2 = Bei der Case-Problem-Method liegt der Schwerpunkt auf der Problemerkennung.
+STATEMENT-3 = Bei der Stated-Problem-Method liegt der Schwerpunkt auf der Kritik der vorgegebenen Lösungen.
+STATEMENT-4 = Bei der Case-Incident-Method werden alle Informationen gegeben.
+TF-HINT = Jede Variante hat genau einen Schwerpunkt – suchen Sie ihn in der Tabelle.
+TF-FEEDBACK = Case-Study: verborgene Probleme analysieren · Case-Problem: Lösungsvarianten ermitteln und entscheiden · Case-Incident: Informationen selbstständig beschaffen · Stated-Problem: Kritik der vorgegebenen Lösungen (R075).
+
+
+[Application_Transfer_Template_1.md]
+SLIDE-TITLE = 3.4 Fall: die Druckluftanlage
+NARRATION-0 = Bauen Sie jetzt selbst eine technische Fallstudie auf. Ein mittelständischer Betrieb muss eine veraltete Druckluftanlage ersetzen.
+IMAGE-ALT = Mehrere Schraubenkompressoren für Druckluft stehen nebeneinander
+IMAGE-PATH = https://commons.wikimedia.org/wiki/Special:FilePath/Elang_Compressors_Display.jpg?width=800
+IMAGE-CAPTION = Schraubenkompressoren · Foto: Elanggroup · CC BY-SA 4.0 · Wikimedia Commons
+CASE-TEXT = **Fall (Kurzfassung):** Ein mittelständischer Betrieb muss eine veraltete Druckluftanlage ersetzen. Zur Wahl stehen ein Kompressor mit Wärmerückgewinnung (teurer) und ein günstigerer Standardkompressor. Der Betrieb hat sich in der Wirklichkeit für eine der Varianten entschieden.
+DATA-LABEL-1 = Variante A
+DATA-VALUE-1 = Kompressor mit Wärmerückgewinnung (teurer)
+DATA-LABEL-2 = Variante B
+DATA-VALUE-2 = Standardkompressor (günstiger)
+DATA-LABEL-3 = Reale Entscheidung
+DATA-VALUE-3 = bekannt – für die Kollation
+QUESTIONS-TITLE = Übung 3c–3d: Den Fall gestalten
+NARRATION-Q-0 = Erstens: Ordnen Sie zu.
+QUESTION-1 = Die Lernenden erhalten Betriebsdaten und müssen selbst erkennen, dass die Druckluftanlage das eigentliche Problem ist. Welche Variante nach Kaiser ist das – und wie sähe der Fall als Case-Incident-Method aus?
+MODEL-ANSWER-1 = Das ist die **Case-Study-Method** (Schwerpunkt Problemerkennung). Als **Case-Incident-Method** wäre der Fall lückenhaft: Verbrauchswerte und Preise müssten die Lernenden selbst beschaffen (R075).
+NARRATION-Q-1 = Zweitens: eine andere Variante.
+QUESTION-2 = Die Entscheidung des Betriebs ist vorgegeben. Welche Variante liegt vor, und was tun die Lernenden? Und wie lautet die Aufgabe in der Case-Problem-Method?
+MODEL-ANSWER-2 = **Stated-Problem-Method:** Die Lernenden kritisieren die vorgegebene Lösung und suchen Alternativen. In der **Case-Problem-Method** ist das Problem „Welcher Kompressor?“ genannt, die Daten liegen bei; Schwerpunkt ist die begründete Entscheidung (R075).
+NARRATION-Q-2 = Drittens: Planen Sie die Phasen nach Kaiser für die Case-Problem-Variante.
+QUESTION-3 = Planen Sie die sechs Phasen nach Kaiser für die Case-Problem-Variante: Was tun die Lernenden in jeder Phase?
+MODEL-ANSWER-3 = **Konfrontation:** Brief der Geschäftsführung, die alte Anlage fällt häufig aus. **Information:** Datenblätter, Energiepreise, Verbrauchsprofil. **Exploration:** Lösungsalternativen erkunden, z. B. auch Leckagen beseitigen. **Resolution:** Gruppen entscheiden begründet (Kosten, Energie, Wartung). **Disputation:** Gruppen verteidigen ihre Entscheidung im Plenum. **Kollation:** Vergleich mit der tatsächlichen Entscheidung des Betriebs – ein Soll-Ist-Vergleich. 💭 Die Kollation braucht einen *echten* Fall mit bekannter Entscheidung: Fragen Sie in Praktikumsbetrieben nach – oft erzählen Betriebe gern von einer abgeschlossenen Investitionsentscheidung.
+
+
+# ───────────────────────── 4 · Das Rollenspiel (R079–R088) ─────────────────────────
+
+[Process_Template_9.md]
+SLIDE-TITLE = 4 · Das Rollenspiel: der Ablauf
+NARRATION-0 = Im Rollenspiel übernehmen Lernende die Positionen verschiedener Interessengruppen in einem Konflikt und vertreten sie mit Argumenten. Sie lernen so, Standpunkte zu verstehen, zu argumentieren und zu verhandeln – Fähigkeiten, die nach Papaloizos und Stiefel, siehe S05, vor allem das Kommunizieren fördern. Der Ablauf hat neun Schritte.
+STEP-1 = Gruppe orientieren
+STEP-2 = Teilnehmer am Spiel aussuchen
+STEP-3 = Planen des Szenenablaufes
+STEP-4 = Zuschauer einstellen
+STEP-5 = Rollenspiel
+STEP-6 = Diskussion und Bewertung
+STEP-7 = Weiter Spiele
+STEP-8 = Weitere Diskussionen
+STEP-9 = Zusammenfassung, Verallgemeinerung
+NARRATION-1 = Zuerst wird die Gruppe orientiert und mit dem Problem konfrontiert; dann werden die Spielenden ausgewählt, und der Szenenablauf wird geplant.
+STEP-TEXT-1 = (Konfrontation mit dem Problem)
+STEP-TEXT-2 = Die Spielenden werden ausgewählt.
+STEP-TEXT-3 = Welche Szenen folgen aufeinander?
+NARRATION-2 = Die Zuschauenden werden auf ihre Rolle als teilnehmende Beobachter eingestellt – am besten mit Beobachtungsaufträgen. Dann wird gespielt, diskutiert und bewertet.
+STEP-TEXT-4 = auf ihre Rolle als teilnehmende Beobachter – mit Beobachtungsaufträgen
+STEP-TEXT-5 = Die geplanten Szenen werden gespielt.
+STEP-TEXT-6 = Was ist geschehen, wie hat es gewirkt?
+NARRATION-3 = Danach wird mit getauschten Rollen oder alternativen Szenen weitergespielt, weiter diskutiert und schließlich zusammengefasst und verallgemeinert.
+STEP-TEXT-7 = (getauschte Rollen, alternative Szenen)
+STEP-TEXT-8 = zu den weiteren Spielen
+STEP-TEXT-9 = Was lässt sich über den Fall hinaus festhalten?
+SOURCE = Quelle: Folie R079 „Ablauf des Rollenspiels“ – Wortlaut der Schritte unverändert (Schritt 4 im Original: „Zuschauer auf ihre Rolle als teilnehmende Beobachter einstellen“); Erläuterungen: eigene Darstellung.
+ORDER-TITLE = Ablauf ordnen
+NARRATION-ORDER-0 = Ordnen Sie die neun Schritte des Rollenspiels.
+
+
+[Process_Template_5.md]
+SLIDE-TITLE = Die fünf Phasen des Rollenspiels
+NARRATION-0 = Kürzer gefasst sind es fünf Phasen: Einführung, Erarbeitung, Diskussion, Reflexion und Evaluation.
+STEP-1 = Einführungsphase
+STEP-2 = Erarbeitungsphase
+STEP-3 = Diskussionsphase
+STEP-4 = Reflektionsphase
+STEP-5 = Evaluationsphase
+NARRATION-1 = In der Einführung wird die Gruppe mit dem Problem konfrontiert.
+STEP-TEXT-1 = Die Gruppe wird mit dem Problem konfrontiert (vgl. R079).
+NARRATION-2 = In der Erarbeitung werden die Rollen mit Argumenten gefüllt.
+STEP-TEXT-2 = Rollen werden entsprechend der Standpunkte mit Argumenten gefüllt (R082).
+NARRATION-3 = In der Diskussion werden die Standpunkte vertreten.
+STEP-TEXT-3 = Pressekonferenz und Diskussion am „Runden Tisch“ (R082).
+NARRATION-4 = In der Reflexion wird das Handeln der Rollen erklärt.
+STEP-TEXT-4 = Warum hat X so gehandelt? (R082)
+NARRATION-5 = Und in der Evaluation wird geprüft, wie sich das Meinungsbild verändert hat.
+STEP-TEXT-5 = Wie wurde das Meinungsbild beeinflusst? (R082)
+SOURCE = Quelle: Folie R080 „Phasenaufbau des Rollenspiels“ (Schreibweise „Reflektionsphase“ wie im Original); Erläuterungen aus R079 und R082.
+ORDER-TITLE = Phasen ordnen
+NARRATION-ORDER-0 = Ordnen Sie die fünf Phasen des Rollenspiels.
+
+
+[Content_Introduction_Template_1.md]
+SLIDE-TITLE = Das Beispiel aus der Sitzung: „Transgene Kartoffel – Umweltkiller oder Schlankmacher“
+NARRATION-0 = In der Sitzung wurde ein Fall aus der Biotechnologie gespielt. Eine fiktive Firma hat eine gentechnisch veränderte Kartoffel entwickelt, die beim Frittieren weniger Fett aufnimmt und zum Nachweis ein Antibiotikaresistenz-Markergen trägt.
+IMAGE-ALT = Kartoffeln verschiedener Sorten in Gelb, Rot und Violett
+IMAGE-PATH = https://commons.wikimedia.org/wiki/Special:FilePath/Patates.jpg?width=800
+IMAGE-CAPTION = Foto: Scott Bauer, USDA ARS · gemeinfrei · Wikimedia Commons
+INTRO-TEXT = """
+**Ausgangsszenario (R081):**
+
+- Die fiktive Firma FloraTec GmbH hat eine gentechnisch veränderte Kartoffelsorte entwickelt, die über einen höheren Stärkeanteil verfügt
+- Durch den geringeren Wassergehalt der transgenen Kartoffel wird bei der Weiterverarbeitung durch Frittieren oder Braten weniger Fett aufgenommen. Die so hergestellten Nahrungsmittel enthalten demzufolge auch wenige Kalorien als Produkte aus herkömmlichen Kartoffeln.
+- Zum Nachweis wurde die Kartoffelsorte mit einem Markergen versehen. Markergene werden zusammen mit dem veränderten Gen in die Pflanzen eingebracht und lassen sich im Verlaufe der Züchtung meist leichter nachweisen als die eigentliche genetische Veränderung. In diesem Falle wurde als Markergen ein Antibiotikaresistenzgen (Resistenz gegen das Antibiotikum Amikacin) in die Kartoffelpflanzen implementiert.
+
+**Sechs Rollen (R083–R088)** – ökologischer Landwirt, Züchtungsbetrieb, Bauernverband, Minister, Wissenschaftler, Verbraucherfamilie – haben jeweils **eigene, nachvollziehbare Interessen**: Ökolabel, Investitionen, Absatz, Wahlkampf, Forschungsgelder, Gesundheit. Die Rollenkarten im Wortlaut finden Sie in der [Sitzung S04](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S04_Bewertung_Fallstudie_Rollenspiel.md).
+
+<small>Quelle: Folie R081 (Wortlaut unverändert); Rollen: Zusammenfassung der Folien R083–R088.</small>
+"""
+NARRATION-1 = Behalten Sie den Kern des Konflikts im Blick.
+KEY-MESSAGE = Ein Produkt, viele Interessen – und keine Rolle ist ein „Bösewicht“. Darum eignet sich der Fall für ein Rollenspiel.
+NARRATION-2 = Eine kurze Leseprobe.
+ACTIVATION-QUESTION = Gegen welches Antibiotikum ist das Markergen der transgenen Kartoffel resistent?
+ACTIVATION-ANSWER = Amikacin
+ACTIVATION-HINT = Es steht im letzten Punkt des Ausgangsszenarios.
+ACTIVATION-FEEDBACK = Richtig: Als Markergen wurde ein Antibiotikaresistenzgen gegen Amikacin eingebracht.
+
+
+[Original_Slide_Template_2.md]
+SLIDE-TITLE = Die Phasen im Beispiel
+NARRATION-0 = So sahen die Phasen im Beispiel aus: Rollen mit Argumenten füllen, eine Pressekonferenz und ein runder Tisch mit dem Ziel eines Konsenses, eine Reflexion und eine Abstimmung vorher und nachher.
+SLIDE-CONTENT = """
+- **Erarbeitungsphase**
+- Rollen müssen entsprechend der Standpunkte mit Argumenten gefüllt werden
+  - Materialsammlung wird bereitgestellt
+- **Diskussionsphase**
+- Pressekonferenz – Statements der am Spiel beteiligten Parteien werden verlesen
+  - Diskussion am „Runden Tisch“ – es ist ein Konsens zu finden
+- **Reflektionsphase**
+  - Warum hat X so gehandelt?
+- **Evaluationsphase**
+  - Wie wurde das Meinungsbild beeinflusst?
+"""
+NARRATION-1 = Was macht ein gutes Rollenspiel aus?
+KEY-MESSAGE = Ein echter **Interessenkonflikt** ohne eindeutig richtige Lösung · Rollen, die **alle vertretbar** sind · **Beobachtungsaufträge** für die Zuschauenden · eine **Reflexion**, die zwischen Rolle und eigener Meinung trennt.
+SOURCE = Quelle: Folie R082 „Bsp.: „Transgene Kartoffel – Umweltkiller oder Schlankmacher““ (Gliederungsebenen wie im Original); Merkmale eines guten Rollenspiels: eigene Darstellung.
+
+
+[Application_Transfer_Template_1.md]
+SLIDE-TITLE = Übung 4: Ihr Rollenspiel
+NARRATION-0 = Das Beispiel stammt aus der Biotechnologie – technische Konflikte gibt es in jeder Fachrichtung. Skizzieren Sie jetzt ein eigenes Rollenspiel.
+IMAGE-ALT = Kleine Windkraftanlage neben einem Wohnhaus am Ortsrand
+IMAGE-PATH = https://commons.wikimedia.org/wiki/Special:FilePath/Wind_turbine_and_houses_at_Resipole_-_geograph.org.uk_-_3489551.jpg?width=800
+IMAGE-CAPTION = Windrad am Ortsrand · Foto: M J Richardson · CC BY-SA 2.0 · Wikimedia Commons
+CASE-TEXT = Wählen Sie einen Konflikt aus Ihrer Fachrichtung, zum Beispiel ein Windrad am Ortsrand, die Umstellung einer Werkstatt auf E-Mobilität oder Videoüberwachung im Betrieb. Gute Konflikte haben keine eindeutig richtige Lösung, und alle Rollen sind vertretbar.
+DATA-LABEL-1 = Ausgangsszenario
+DATA-VALUE-1 = zwei Sätze
+DATA-LABEL-2 = Rollen
+DATA-VALUE-2 = vier, je mit einem Interesse
+DATA-LABEL-3 = Beobachtungsaufträge
+DATA-VALUE-3 = zwei (Ablauf, Schritt 4)
+QUESTIONS-TITLE = Übung 4a–4c: Rollenspiel skizzieren
+NARRATION-Q-0 = Erstens: Szenario und Rollen.
+QUESTION-1 = Nennen Sie das Ausgangsszenario in zwei Sätzen und vier Rollen mit je einem Interesse.
+MODEL-ANSWER-1 = Beispiel: Ein Landwirt will am Ortsrand ein Windrad bauen; der Gemeinderat entscheidet nächste Woche. **Rollen:** Landwirt (Einnahmen) · Anwohnerin (Lärm, Schattenwurf) · Energiegenossenschaft (Beteiligung, Klimaschutz) · Naturschutzverband (Vögel, Landschaft).
+NARRATION-Q-1 = Zweitens: Was beobachten die Zuschauenden?
+QUESTION-2 = Formulieren Sie zwei Beobachtungsaufträge für die teilnehmenden Beobachter (Ablauf, Schritt 4).
+MODEL-ANSWER-2 = Beispiele: „Notieren Sie das stärkste Argument jeder Rolle.“ · „Achten Sie darauf, wann jemand auf ein Argument einer anderen Rolle eingeht – und wann nicht.“
+NARRATION-Q-2 = Drittens: ein Blick auf KI als Hilfsmittel.
+QUESTION-3 = Lassen Sie sich von einem KI-Werkzeug Rollenkarten für Ihr Rollenspiel entwerfen. Woran prüfen Sie die Entwürfe?
+MODEL-ANSWER-3 = Prüfen Sie: Sind die Positionen fair verteilt? Sind die Fakten richtig? Hat jede Rolle ein Interesse, das sich vertreten lässt? Die KI liefert Rohmaterial – die didaktische Entscheidung treffen Sie.
+
+
+# ───────────────────────── 5 · Abschluss ─────────────────────────
+
+[Summary_Recap_Template_1.md]
+SLIDE-TITLE = 5 · Das Wichtigste aus S04
+NARRATION-0 = Fassen wir zusammen.
+NARRATION-1 = Erstens: Bewerten ist ein Vergleich.
+TAKEAWAY-1 = Bewerten ist ein pädagogischer Soll-Ist-Vergleich – ohne festgelegten Maßstab kein fairer Vergleich (R070).
+NARRATION-2 = Zweitens: In Projekten wird gemeinsam bewertet.
+TAKEAWAY-2 = In Projekten gilt: Selbst → gegenseitig → Lehrende, Prozess vor Produkt (R072–R073).
+NARRATION-3 = Drittens: Handeln ist ein Regelkreis.
+TAKEAWAY-3 = TOTE und VVR: Lernende brauchen ein klares Soll und eine Möglichkeit zum Testen (R077–R078).
+NARRATION-4 = Und viertens: Fallstudie und Rollenspiel enden mit einem Vergleich.
+TAKEAWAY-4 = Fallstudie: Kollation mit der realen Entscheidung · Rollenspiel: Meinungsbild vorher – nachher (R074–R082).
+REMEMBER = Bewerten heißt vergleichen: Soll ↔ Ist – mit einem offengelegten Maßstab.
+NARRATION-5 = Eine letzte Frage.
+RECAP-QUESTION = In welcher Reihenfolge sollen Kontrolle und Bewertung in Projekten nach R073 erfolgen?
+RECAP-WRONG-1 = Lehrende → gegenseitige Einschätzung → Selbstbewertung
+RECAP-WRONG-2 = Nur die Lehrenden, anhand der Qualität des Produkts
+RECAP-CORRECT = Selbstbewertung → gegenseitige Einschätzung → Lehrende
+RECAP-HINT = Ausgangspunkt ist das, was die Lernenden selbst einschätzen.
+RECAP-FEEDBACK = Richtig: Auf der Grundlage von Selbst- und gegenseitiger Einschätzung legt die Lehrkraft ihre Einschätzung begründet dar.
+NARRATION-6 = Als Nächstes geht es um die Leittextmethode und das technische Experiment.
+OUTLOOK = S05: Leittextmethode & technisches Experiment · 🧩 Optional für die Selbstlernsitzung am 11.01.2027: Ihr Bewertungsraster aus Übung 1c ist Baustein 5.
+
+
+[Exam_Questions_Template_1.md]
+SLIDE-TITLE = Prüfungsfragen zum Üben
+NARRATION-0 = Die Prüfungsleistung des Moduls ist eine mündliche Prüfung. Mit diesen fünf Fragen üben Sie, die Inhalte dieser Einheit frei, strukturiert und mit Beispielen zu erklären.
+METHOD = Lesen Sie eine Frage und antworten Sie **laut** in höchstens drei Minuten – nach dem Muster **Begriff – Erläutern – Beispiel – Verbinden**. Öffnen Sie erst danach die Antwortskizze und vergleichen Sie: Was fehlte, was war ungenau? Noch besser: Lassen Sie sich von einer Kommilitonin oder einem Kommilitonen abfragen.
+Q1-TOPIC = Funktionen und Soll-Ist-Vergleich
+Q1 = Welche Funktionen haben Kontrolle und Bewertung im Unterricht? Erläutern Sie den pädagogischen Soll-Ist-Vergleich.
+A1 = """
+- **1 Begriff:** Vier Funktionen (R069): **Rückkopplung für den Lehrer** (Ziele erreicht? Gestaltung zweckmäßig?), **Rückkopplung für den Schüler** (Lernfortschritte), **Bewertung von Ausbildungsgängen und -unterlagen** (Lehrplan geeignet?), **Zeugnisse und Beurteilungen** als Grundlage für Laufbahnentscheidungen.
+- **2 Erläutern:** Soll-Ist-Vergleich (R070): Auf eine didaktische Aufforderung führt der Lernende mit seinen inneren Bedingungen eine Handlung aus; die Leistung wird festgestellt (**Ist**). Aus allgemeinen und fachspezifischen Bewertungskriterien wird ein **Maßstab** gebildet (**Soll**). Der Vergleich ergibt das Urteil – Worturteil oder Zensur.
+- **3 Beispiel:** Eine Klassenarbeit, die die halbe Klasse nicht besteht, ist auch Rückmeldung an die Lehrkraft über ihren Unterricht.
+- **4 Verbinden:** Heckhausen: Bewertung wirkt erst, wenn der Maßstab **subjektiv verbindlich** ist. Ohne vorher festgelegten Maßstab kein fairer Vergleich – Gütekriterien in S10.
+"""
+Q2-TOPIC = Bewertung in Projekten
+Q2 = Welche Widersprüche treten bei der Bewertung von Projektarbeit auf – und wie sollte man ihnen begegnen?
+A2 = """
+- **1 Begriff:** Drei Widersprüche nach **Kersten** (1997, R072).
+- **2 Erläutern:** **Selbstorganisation ↔ Fremdkontrolle:** Die Lehrkraft setzt die Ziele nicht und hat kein Antwortbild. **Kooperative Lernorganisation ↔ individuelle Leistungsbewertung:** Wer hat was geleistet? **Pädagogischer Zweck ↔ Bewertung des Produkts:** Das Produkt war nur Mittel zum Zweck. Bezug zu Heckhausen: Es fehlen verbindlicher Maßstab (Merkmal 4) und klare Urheberschaft (Merkmal 5).
+- **3 Beispiel:** Konsequenz (R073): Eine ausschließliche Fremdbewertung ist nicht möglich. Reihenfolge: **Selbstkontrolle und -bewertung → gegenseitige Einschätzung → begründete Einschätzung der Lehrenden**; Schwerpunkt auf dem **Prozess** der Problemlösung, nicht auf dem Produkt.
+- **4 Verbinden:** Passt zu Freys Grundmuster (Metainteraktionen) und zur Rolle der Lehrkraft (Bewertung von den Lernenden vornehmen lassen, S03).
+"""
+Q3-TOPIC = Fallstudie nach Kaiser
+Q3 = Vergleichen Sie zwei Varianten der Fallstudie nach Kaiser und beschreiben Sie den Ablauf einer Fallstudie.
+A3 = """
+- **1 Begriff:** Die Fallstudie ist ein **komplexes Unterrichtsverfahren**, bei dem das Lösen eines Praxisproblems im Vordergrund steht; die Lernenden analysieren selbstständig, erarbeiten in Gruppen Lösungen und vergleichen sie kritisch (R074).
+- **2 Erläutern:** Vier Varianten mit unterschiedlichem Schwerpunkt (R075): **Case-Study** – verborgene Probleme erkennen; **Case-Problem** – Lösungsvarianten ermitteln und entscheiden; **Case-Incident** – Informationen selbst beschaffen; **Stated-Problem** – vorgegebene Lösungen kritisieren. Phasen nach Kaiser (R076): Konfrontation – Information – Exploration – Resolution – Disputation – Kollation.
+- **3 Beispiel:** Druckluftanlage: Lernende erkennen aus Betriebsdaten selbst das Problem (Case-Study); die Entscheidung des Betriebs ist vorgegeben und wird kritisiert (Stated-Problem).
+- **4 Verbinden:** In der Kollation wird die eigene Lösung mit der **realen Entscheidung** verglichen – wieder ein Soll-Ist-Vergleich. Die Fallstudie ist auch eine Großform (S06).
+"""
+Q4-TOPIC = TOTE-Einheit
+Q4 = Erklären Sie die TOTE-Einheit an einer Tätigkeit aus Ihrer Fachrichtung und grenzen Sie sie von der VVR-Einheit ab.
+A4 = """
+- **1 Begriff:** **TOTE** = Test – Operate – Test – Exit (Miller, Galanter & Pribram 1960); **VVR** = Vergleichs-Veränderungs-Rückkopplungs-Einheit nach Hacker (R077–R078).
+- **2 Erläutern:** Soll im Kopf – bearbeiten – testen – identisch? Nein: weiter bearbeiten; ja: Exit. Die VVR-Einheit reguliert eine längere Handlung als **Folge** von Soll-Ist-Vergleichen: Jeder Test führt zum nächsten Soll.
+- **3 Beispiel:** Ventilspiel einstellen: Soll aus Herstellerangaben – Einstellschraube verstellen – mit Fühlerlehre messen – stimmt der Wert? – erneut einstellen oder Exit.
+- **4 Verbinden:** Lernende brauchen ein **klares Soll** und eine **Möglichkeit zum Testen** (Prüfmittel, Kriterien) – sonst können sie ihre Handlung nicht selbst regulieren. Grundlage aus S02 (Handlungsregulation).
+"""
+Q5-TOPIC = Rollenspiel
+Q5 = Beschreiben Sie Ablauf und Phasen eines Rollenspiels – und wie Sie es im technischen Unterricht einsetzen würden.
+A5 = """
+- **1 Begriff:** Im Rollenspiel übernehmen Lernende die Positionen von Interessengruppen in einem Konflikt und vertreten sie mit Argumenten.
+- **2 Erläutern:** Ablauf in neun Schritten (R079): Gruppe orientieren – Teilnehmer aussuchen – Szenenablauf planen – Zuschauer als teilnehmende Beobachter einstellen – Rollenspiel – Diskussion und Bewertung – weitere Spiele – weitere Diskussionen – Zusammenfassung, Verallgemeinerung. Kürzer fünf Phasen (R080): Einführung – Erarbeitung – Diskussion – Reflexion – Evaluation.
+- **3 Beispiel:** „Transgene Kartoffel – Umweltkiller oder Schlankmacher“ mit sechs Rollen (ökologischer Landwirt, Züchtungsbetrieb, Bauernverband, Minister, Wissenschaftler, Verbraucherfamilie), Pressekonferenz und „Runder Tisch“ (R081–R088).
+- **4 Verbinden:** Geeignet für technische Konflikte ohne eindeutig richtige Lösung – etwa ein Windpark am Ortsrand. Wichtig: alle Rollen vertretbar, Beobachtungsaufträge, Reflexion trennt Rolle und eigene Meinung. Fördert vor allem das Kommunizieren (S05, Schlüsselqualifikationen).
+"""
+NARRATION-1 = Schätzen Sie zum Schluss ein, wie sicher Sie sind. Wiederholen Sie die unsicheren Fragen in einigen Tagen – und üben Sie fächerübergreifend mit dem Prüfungstrainer.
+SOURCE = Die Prüfungsfragen sind experimentell: Sie dienen der Vorbereitung, es ist nicht garantiert, dass Fragen in dieser Form gestellt werden. Die Antwortskizzen zeigen eine mögliche Antwort – üben Sie das Argumentieren, nicht das Auswendiglernen. Über alle Sitzungen hinweg üben Sie mit dem [Prüfungstrainer](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/Selflearn/Pruefungstrainer.md).
+
+
+[Summary_Recap_Template_3.md]
+SLIDE-TITLE = Rückblick
+NARRATION-0 = Nehmen Sie sich zwei Minuten für einen Rückblick. Was ist das Wichtigste – und was ist noch unklar?
+NARRATION-1 = Haken Sie ab, was Sie jetzt können.
+CAN-DO-1 = Ich kann ein Bewertungskonzept für Projektarbeit entwerfen, das die Widersprüche nach Kersten berücksichtigt.
+CAN-DO-2 = Ich kann die TOTE-Einheit an einer Tätigkeit meiner Fachrichtung erläutern.
+CAN-DO-3 = Ich kann einen technischen Fall einer Variante nach Kaiser zuordnen und die Phasen planen.
+NARRATION-2 = Und zum Schluss: Wie hat die Einheit für Sie funktioniert?
+TEASER-TITLE = Als Nächstes: S05
+NARRATION-TEASER-0 = In S05 geht es um die Leittextmethode und das technische Experiment.
+IMAGE-ALT = Historisches Werkstoffprüflabor: Ein Mann bedient eine Zugprüfmaschine, an der eine Prüfanweisung hängt
+IMAGE-PATH = https://commons.wikimedia.org/wiki/Special:FilePath/Tensile_testing_of_new_aircraft_alloys_-_DPLA_-_0ef2fe6c74c0c63ffa8eb1ab4671b2b8.jpg?width=800
+IMAGE-CAPTION = Zugversuch mit Prüfanweisung · Naval Air Material Center, U.S. Navy · gemeinfrei · Wikimedia Commons
+TEASER-QUESTION = Welche Fragen beantwortet eine Arbeits- oder Bedienungsanleitung aus Ihrer Fachrichtung – und welche müssten Lernende sich selbst stellen, um die Aufgabe selbstständig zu planen?
+NEXT-DATE = S05 · Leittextmethode & technisches Experiment
+
+
+[Original_Slide_Template_1.md]
+SLIDE-TITLE = Literatur
+NARRATION-0 = Die Quellen dieser Einheit.
+SLIDE-CONTENT = """
+- Heckhausen (1974) – zitiert nach S04, Folie R071; vollständige Angabe auf der Originalfolie nicht vorhanden.
+- Kaiser, F.-J.: Entscheidungstraining – Methoden der Entscheidungsfindung (2. Auflage). Bad Heilbrunn 1976 – zitiert nach S04, Folien R075–R076.
+- Kersten (1997) – zitiert nach S04, Folie R072; vollständige Angabe auf der Originalfolie nicht vorhanden.
+"""
+SOURCE = Erläuterungen und Beispiele in dieser Einheit: eigene Darstellung auf Grundlage der Folien. Gesamtverzeichnis: 00_Literatur.md

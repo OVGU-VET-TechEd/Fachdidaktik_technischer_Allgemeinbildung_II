@@ -1,0 +1,615 @@
+# Content file S05 – build with:  python3 content/build.py content/S05_Leittext_Experiment.txt
+# Original slides R089–R100 = deck 04, slides 16–27 (Original_PPTX_Sliced/).
+
+[course]
+AUTHOR = Hannes Tegelbeckers
+EMAIL = hannes.tegelbeckers@ovgu.de
+VERSION = 0.2.0
+LANGUAGE = de
+NARRATOR = Deutsch Female
+COURSE-TITLE = S05 – Leittextmethode & technisches Experiment
+COURSE-DESCRIPTION = Fachdidaktik technischer Allgemeinbildung II – Sitzung S05. Selbstständig lernen mit Leittexten, experimentell lernen mit dem technischen Experiment, Methoden nach Effizienzkriterien vergleichen.
+COURSE-SUBTITLE = """
+Fachdidaktik technischer Allgemeinbildung II · OVGU Magdeburg · Montag, 09.11.2026, 07:00–09:00 Uhr
+
+<!-- didaktik="Planungsraster S05 · E-03, E-04, E-12, E-17, E-19, E-27, E-28 · 0–10 Einstieg (provozieren, Vorwissen) · 10–15 Kurskarte und Ziele · 15–37 Station 1 Leittext (Doppeldecker 1) · 37–62 Station 2 Experiment · 62–75 Baustein 6 (Doppeldecker 2) · 75–85 Station 3 Methoden nach Effizienzkriterien · 85–90 Abschluss" -->
+> [!IMPORTANT] 🧭 Leitfrage
+> Wie lernen Lernende **selbstständig** – und **experimentell**? – Auf der Kurskarte: **Methodik → Erkenntnisweg**.
+
+> [!TIP] 📚 Vor der Sitzung
+> Haben Sie eine Arbeits- oder Bedienungsanleitung aus Ihrer Fachrichtung dabei? Sie wird heute zum Leittext umgebaut.
+
+📝 **Beuteblatt S05** – ergänzen Sie es während der Sitzung.
+"""
+
+
+# ───────────────────────── Einstieg ─────────────────────────
+
+[Discussion_Template_1.md]
+SLIDE-TITLE = Einstieg: Macht eine gute Anleitung selbstständig?
+NARRATION-0 = Eine These zum Start: Eine gute Anleitung macht Lernende selbstständig. Stimmen Sie ab. Am Ende der Sitzung stimmen wir noch einmal ab.
+DILEMMA = > **„Eine gute Anleitung macht Lernende selbstständig.“**
+VOTE-QUESTION = Stimmen Sie dieser These zu?
+OPTION-A = Ja, ich stimme zu
+OPTION-B = Nein, ich stimme nicht zu
+OPTION-C = Teils, teils
+NARRATION-1 = Sehen Sie sich allein Ihre mitgebrachte Anleitung an. Welche Fragen beantwortet sie – und welche müssten Lernende sich selbst stellen?
+PHASE-1-TITLE = 🧠 Allein · 3 min
+PHASE-1-TASK = Welche Fragen **beantwortet** Ihre Anleitung – welche müssten Lernende sich **selbst stellen**? Welche Schritte der vollständigen Handlung (S02: Orientieren – Richten – Entwerfen – Entscheiden – Kontrollieren) nimmt sie vorweg?
+NARRATION-2 = Zwei oder drei von Ihnen stellen ihre Anleitung kurz vor.
+PHASE-2-TITLE = 📣 Plenum · 2 min
+PHASE-2-TASK = Zwei bis drei Freiwillige nennen eine Frage, die ihre Anleitung den Lernenden **abnimmt**. Alle achten darauf: Wer plant hier eigentlich – die Anleitung oder die Lernenden?
+
+
+[Overview_Course_Template_2.md]
+SLIDE-TITLE = Kurskarte: selbstständig und experimentell lernen
+NARRATION-0 = Heute geht es um zwei Methoden, mit denen Lernende selbstständig und experimentell lernen: den Leittext und das technische Experiment. Zum Schluss vergleichen wir die Methoden der letzten Sitzungen miteinander. Und ein roter Faden kehrt zurück: das Hooke'sche Gesetz aus S01b.
+MODULE-1 = Leittext
+MODULE-2 = Leitfragen
+MODULE-3 = Experiment
+MODULE-4 = Phasenmodelle
+MODULE-5 = Methoden vergleichen
+MILESTONE = Baustein 6
+NARRATION-1 = Auf diesem Weg erreichen Sie sechs Ziele.
+KNOW-1 = Funktionen der Leittexte, Schritte der Leittextmethode und Arten von Experimenten **nennen**
+CAN-1 = für eine Arbeitsaufgabe Ihrer Fachrichtung **Leitfragen formulieren**
+VALUE-1 = begründet **auswählen**, welche Methode zu einem Lernziel passt
+KNOW-2 = das Experiment als induktiven Erkenntnisweg **erläutern** und die Phasen nach Bernard und Bader **vergleichen**
+CAN-2 = Experimentbeispiele **klassifizieren** und ein technisches Experiment **planen** *(optional)*
+VALUE-2 = Selbstständigkeit der Lernenden als Ziel der Methodenwahl **vertreten**
+NARRATION-2 = Prüfen Sie kurz, ob Sie die Kurskarte lesen können.
+ORDER-QUESTION = In welcher Station kehrt das Hooke'sche Gesetz aus S01b zurück?
+ORDER-CORRECT = Phasenmodelle
+ORDER-WRONG-1 = Leittext
+ORDER-WRONG-2 = Methoden vergleichen
+ORDER-HINT = Bernard und Bader zeigen ihre Phasen am Zugversuch.
+ORDER-FEEDBACK = Richtig: Bernard und Bader zeigen die Phasen des Experiments am Zugversuch und am Hooke'schen Gesetz.
+
+
+# ───────────────────────── Station 1: Leittext (R089–R092) ─────────────────────────
+
+[Content_Introduction_Template_2.md]
+SLIDE-TITLE = Station 1: Leittext
+NARRATION-0 = Die Leittextmethode stammt aus der betrieblichen Ausbildung. Sie soll Lernende dazu bringen, eine Aufgabe selbstständig zu planen und auszuführen – ohne dass die Ausbilderin jeden Schritt vorgibt.
+GUIDING-QUESTION = Wie bringt ein Text Lernende dazu, selbst zu planen, zu entscheiden und zu kontrollieren?
+NARRATION-1 = Zuerst: sechs Funktionen von Leittexten.
+ASPECT-1 = Funktionen der Leittexte (R089)
+NARRATION-2 = Dann: die Merkmale leittextgestützten Lernens, vor allem die Selbstständigkeit.
+ASPECT-2 = Merkmale leittextgestützten Lernens (R090)
+NARRATION-3 = Wie gute Leitfragen entstehen, zeigt eine Kette von der Tätigkeit bis zur Frage.
+ASPECT-3 = Leitfragen erstellen (R091)
+NARRATION-4 = Und der Ablauf in sechs Schritten entspricht der vollständigen Handlung aus S02.
+ASPECT-4 = Ablauf der Leittextmethode in sechs Schritten (R092)
+NARRATION-5 = Warum ist das für Sie wichtig? Eine Ergänzung nach Stettler, als NEU markiert, gibt die Antwort.
+WHY-IT-MATTERS = [NEU] Ein Leittext kann eine offene Aufgabe strukturieren: Die Aufgabe bleibt offen, die Leitfragen geben Struktur (Stettler 2025).
+NARRATION-6 = Markieren Sie, was Sie schon kennen.
+
+
+[Original_Slide_Template_2.md]
+SLIDE-TITLE = Funktionen der Leittexte
+NARRATION-0 = Leittexte erfüllen sechs Funktionen. Sie führen in den Ausbildungsabschnitt ein, erklären die Spielregeln und stellen die praktische Aufgabe vor. Vor allem aber leiten sie mit Leitfragen und Impulsen den Kenntniserwerb und die Arbeitsplanung an, verweisen auf Medien und geben Anleitung zur Selbst- und Fremdeinschätzung.
+SLIDE-CONTENT = """
+- Sie führen in den Ausbildungsabschnitt ein.
+- Sie erläutern die „Spielregeln“ für den folgenden Lern- und Arbeitsprozess.
+- Sie stellen die anstehende praktische Aufgabe vor.
+- Sie leiten mit Leitfragen und Impulsen den Kenntniserwerb und die Arbeitsplanung an.
+- Sie geben Hinweise, anhand welcher Medien die Kenntnisse erarbeitet werden können und stellen ggf. auch Informationen bereit.
+- Sie geben Anleitung zur Selbst- und Fremdeinschätzung der geleisteten Arbeit.
+"""
+NARRATION-1 = Der Unterschied zur Arbeitsanleitung liegt in der vierten Funktion.
+KEY-MESSAGE = Eine Arbeitsanleitung sagt, **was** zu tun ist. Ein Leittext **leitet an**, sich Kenntnisse und Arbeitsplanung selbst zu erarbeiten.
+SOURCE = Quelle: Folie R089 „Funktionen der Leittexte“
+
+
+[Original_Slide_Template_2.md]
+SLIDE-TITLE = Merkmale leittextgestützten Lernens
+NARRATION-0 = Kennzeichnend ist die Selbstständigkeit: Die Lernenden bearbeiten komplexe Aufgaben selbst, erarbeiten sich die Kenntnisse aus bereitstehenden Medien, planen die Durchführung, üben an Übungshilfen und entscheiden dabei selbst über den Umfang. Nach jeder Teilaufgabe werten sie zuerst selbst aus und besprechen die Auswertung dann mit dem Ausbilder.
+SLIDE-CONTENT = """
+- Die Lernenden bearbeiten komplexe Aufgabenstellungen selbstständig.
+- Die für die Aufgabenbewältigung erforderlichen Kenntnisse erarbeiten sich die Lernenden selbstständig aus bereitstehenden Medien, angeleitet durch Leitfragen.
+- Die Lernenden planen selbst, teilweise gestützt aus Planungsraster oder andere Hilfsmittel, die Durchführung der Arbeiten.
+- Die Lernenden üben neue Fertigkeiten an sogenannten Übungshilfen, wobei sie weitgehend selbst über das Ausmaß der Übungen entscheiden.
+- Nach Abschluss angemessener Teilaufgaben werten die Lernenden den Verlauf und die Ergebnisse ihrer Arbeit zunächst selbst aus und besprechen ihre Auswertung schließlich mit dem Ausbilder.
+"""
+NARRATION-1 = Erkennen Sie die Reihenfolge aus S04 wieder?
+KEY-MESSAGE = Erst selbst auswerten, dann mit dem Ausbilder besprechen – dieselbe Reihenfolge wie beim Bewerten in Projekten (S04, R073).
+SOURCE = Quelle: Folie R090 „Merkmale leittextgestützten Lernens“
+
+
+[Figure_Template_1.md]
+SLIDE-TITLE = Leitfragen erstellen
+NARRATION-0 = Wie entstehen Leitfragen? Die Kette liest man zuerst von links nach rechts: Aus den Tätigkeiten ergeben sich die nötigen Kenntnisse, aus den Kenntnissen die Informationsquellen, und daraus formuliert man die Leitfragen.
+MERMAID-CODE = """
+flowchart TD
+  subgraph A [" "]
+    direction LR
+    T["Tätigkeiten"] --> K["Kenntnisse"] --> I["Informationen"] --> L["Leitfragen"]
+  end
+  subgraph B [" "]
+    direction LR
+    T1["tun<br>denken<br>erkennen<br>entscheiden"]:::plain ~~~ K1["Fachkenntnisse<br>Regeln<br>Gesetzmäßigkeiten<br>Vorschriften<br>Gesetze<br>Bilder im Kopf"]:::plain ~~~ I1["Lehrbücher<br>Handbücher<br>Tabellenbücher<br>Betriebsanleitung<br>techn. Dokumentation<br>Zeichnungen<br>Schaltpläne"]:::plain ~~~ L1["Fragen<br>Erklärungen<br>Unterscheidungen<br>Formularanträge"]:::plain
+  end
+  subgraph C [" "]
+    direction RL
+    L2["Die<br>Leitfragen<br>leiten dazu<br>an"] --> I2["sich<br>aus dem<br>Informations-<br>grundlagen"] --> K2["die Kenntnisse<br>zu erarbeiten,<br>die notwendig<br>sind,"] --> T2["um gestellte<br>Aufgaben<br>fachgerecht<br>zu lösen"]
+  end
+  A ~~~ B ~~~ C
+  classDef plain fill:none,stroke:none
+  style A fill:none,stroke:none
+  style B fill:none,stroke:none
+  style C fill:none,stroke:none
+"""
+NARRATION-1 = Die obere Reihe ist die Kette, mit der die Lehrkraft plant.
+PART-1 = Kette
+PART-TEXT-1 = Tätigkeiten → Kenntnisse → Informationen → Leitfragen.
+NARRATION-2 = Unter jedem Kasten stehen Beispiele: was man tut, welche Kenntnisse man braucht, wo sie stehen und welche Art von Fragen entsteht.
+PART-2 = Beispiele
+PART-TEXT-2 = tun, denken … · Fachkenntnisse, Regeln … · Lehrbücher, Tabellenbücher, Schaltpläne … · Fragen, Erklärungen …
+NARRATION-3 = Von rechts nach links gelesen beschreibt die untere Reihe die Wirkung: Die Leitfragen leiten an, sich aus den Informationsgrundlagen die Kenntnisse zu erarbeiten, die nötig sind, um die Aufgabe fachgerecht zu lösen.
+PART-3 = Rückweg
+PART-TEXT-3 = Die Leitfragen leiten dazu an, sich aus dem Informationsgrundlagen die Kenntnisse zu erarbeiten, die notwendig sind, um gestellte Aufgaben fachgerecht zu lösen.
+NARRATION-4 = Daraus folgt eine einfache Planungsregel.
+KEY-MESSAGE = Leitfragen plant man rückwärts von der Tätigkeit her – und sie führen die Lernenden vorwärts zu den Informationen.
+SOURCE = Quelle: Folie R091 „Leitfragen erstellen“ – Grafik (nur Bild) als Diagramm nachgezeichnet; Satz der unteren Reihe wie im Original („aus dem Informationsgrundlagen“).
+
+
+[Cycle_Template_6.md]
+SLIDE-TITLE = Ablauf der Leittextmethode
+NARRATION-0 = Die Leittextmethode läuft in sechs Schritten im Kreis. Vergleichen Sie das mit der vollständigen Handlung aus S02.
+STEP-1 = Informieren
+STEP-2 = Planen
+STEP-3 = Entscheiden
+STEP-4 = Ausführen
+STEP-5 = Kontrollieren
+STEP-6 = Bewerten
+NARRATION-1 = Informieren: Was soll getan werden? Dafür gibt es die Leitfragen.
+STEP-TEXT-1 = Was soll getan werden? → Leitfragen
+NARRATION-2 = Planen: Wie geht man vor? Ergebnis ist ein Arbeitsplan.
+STEP-TEXT-2 = Wie geht man vor? → Arbeitsplan
+NARRATION-3 = Entscheiden: Fertigungsweg und Betriebsmittel werden festgelegt – im Fachgespräch mit dem Ausbilder.
+STEP-TEXT-3 = Fertigungsweg und Betriebsmittel festlegen → Fachgespräch mit dem Ausbilder
+NARRATION-4 = Ausführen: Das Werkstück wird gefertigt.
+STEP-TEXT-4 = Fertigen des Werkstückes → Auftragsbearbeitung
+NARRATION-5 = Kontrollieren: Ist der Auftrag fachgerecht gefertigt? Dafür gibt es einen Kontrollbogen.
+STEP-TEXT-5 = Ist der Auftrag fachgerecht gefertigt? → Kontrollbogen
+NARRATION-6 = Bewerten: Was muss beim nächsten Mal besser gemacht werden? Wieder im Fachgespräch mit dem Ausbilder – und dann beginnt der Kreis von vorn.
+STEP-TEXT-6 = Was muss beim nächsten Mal besser gemacht werden? → Fachgespräch mit dem Ausbilder
+SOURCE = Quelle: Folie R092 „Ablauf“ – gescannte Abbildung „Leittextmethode“ nachgezeichnet; auf der Originalfolie ist keine Quelle der Abbildung angegeben.
+ORDER-TITLE = Schritte der Leittextmethode ordnen
+NARRATION-ORDER-0 = Bringen Sie die sechs Schritte der Leittextmethode in die richtige Reihenfolge.
+
+
+[Original_Slide_Template_2.md]
+SLIDE-TITLE = [NEU] Offene Aufgabe – strukturierter Unterricht
+NARRATION-0 = Eine Ergänzung aus der neueren Literatur, als NEU markiert. Stettler unterscheidet, wie offen eine Aufgabe ist und wie strukturiert der Unterricht ist. Beides lässt sich kombinieren: offene Aufgaben in einem stark strukturierten Unterricht.
+SLIDE-CONTENT = """
+<!-- neu="Stettler 2025, S. 76, 85–86" -->
+> [!NOTE] 🆕 [NEU]
+> Stettler (2025) unterscheidet im Technischen Gestalten den **Offenheitsgrad der Aufgabenstellung** und die **Strukturiertheit des Unterrichts**. Den Offenheitsgrad kann man u. a. im Prozess anpassen: Ein Prozess kann kleinschrittig vorgegeben werden – oder einzelne Schritte werden bewusst nicht vorgegeben (S. 76).
+>
+> Ein Unterricht mit offenen Aufgabenstellungen muss nicht unstrukturiert sein: Der „Unterrichtstyp 3“ verbindet offene Aufgaben mit hoher Strukturiertheit; die Lehrpersonen sehen sich als Coach bei Prozessen und als Förderer selbständigen Arbeitens (S. 85). Für diesen Typ berichtet Stettler u. a. mehr Motivation im Fach, kognitive Aktivierung, Selbstbestimmungserleben und Selbstwirksamkeitsüberzeugung (S. 86).
+"""
+NARRATION-1 = Genau das kann ein Leittext leisten. Wie offen ist die Anleitung, die Sie mitgebracht haben?
+KEY-MESSAGE = **Denkanstoß:** Ein Leittext kann diese Kombination leisten – die **Aufgabe** bleibt offen, die **Leitfragen** geben Struktur. Wie offen ist die Anleitung, die Sie mitgebracht haben?
+SOURCE = [NEU] Ergänzung, keine Originalfolie: Stettler (2025), S. 76, 85–86 – siehe Literatur.
+
+
+[Open_Task_Template_1.md]
+SLIDE-TITLE = Aktivierung: Aus der Anleitung wird ein Leittext
+NARRATION-0 = Jetzt bauen Sie Ihre Anleitung um. Wählen Sie eine Arbeitsaufgabe, gehen Sie die Kette durch und formulieren Sie drei Leitfragen, die Lernende selbst zum Planen bringen.
+TASK = """
+<!-- didaktik="Lehrschritt unterstützen/üben · 27–37 min · Einzelarbeit · Classroom-Auswertung · Doppeldecker 1" -->
+**Allein (8 min):** Wählen Sie eine Arbeitsaufgabe aus Ihrer Anleitung. Gehen Sie die Kette durch und formulieren Sie **drei Leitfragen**, die Lernende selbst zum Planen bringen.
+
+<!-- data-type="none" -->
+| Tätigkeit | erforderliche Kenntnis | Information (Medium) | Leitfrage |
+| --- | --- | --- | --- |
+| … | … | … | … |
+
+📝 Ergänzen Sie danach Abschnitt 1 Ihres Beuteblatts mit Ihren drei Leitfragen.
+"""
+HINT = Beginnen Sie bei der Tätigkeit: Was müssen die Lernenden tun oder entscheiden? Fragen Sie dann, wo die nötige Kenntnis steht.
+MODEL-ANSWER = Beispiel Elektrotechnik, Aufgabe „Außenleuchte mit Bewegungsmelder installieren“: **Tätigkeit** Leuchte auswählen → **Kenntnis** Schutzarten → **Medium** Tabellenbuch → **Leitfrage** „Welche Schutzart muss eine Leuchte im Außenbereich mindestens haben? Schlagen Sie im Tabellenbuch nach.“ · **Tätigkeit** Montageort festlegen → **Kenntnis** Erfassungsbereich → **Medium** Betriebsanleitung → „Welche Montagehöhe empfiehlt die Betriebsanleitung, und was bedeutet das für den Montageort?“ · **Tätigkeit** Arbeitsschritte planen → „Welche Arbeitsschritte legen Sie fest, und in welcher Reihenfolge? Begründen Sie im Fachgespräch.“
+
+
+[Interactive_Exercise_Template_1.md]
+SLIDE-TITLE = Leitfragen prüfen
+NARRATION-0 = Prüfen Sie Ihre Leitfragen an drei kurzen Fragen.
+Q1-QUESTION = Aufgabe: Ein M8-Gewinde schneiden. Welche Frage ist eine Leitfrage im Sinne von R091?
+Q1-WRONG-1 = Bohren Sie das Kernloch mit 6,8 mm vor.
+Q1-CORRECT = Welchen Kernlochdurchmesser brauchen Sie für M8? Schlagen Sie im Tabellenbuch nach.
+Q1-WRONG-2 = Ist es richtig, dass das Kernloch für M8 6,8 mm groß sein muss?
+Q1-HINT = Eine Leitfrage ist keine Anweisung und verrät die Lösung nicht.
+Q1-FEEDBACK = Richtig: Die Frage verweist auf ein Medium und verlangt eine eigene Erarbeitung. „Bohren Sie …“ ist eine Anweisung, „Ist es richtig, dass …?“ enthält die Antwort schon.
+NARRATION-1 = Jetzt können mehrere Antworten richtig sein.
+Q2-QUESTION = Woran erkennen Sie eine gute Leitfrage?
+Q2-CORRECT-1 = Sie fragt nach etwas, das die Lernenden selbst herausfinden müssen.
+Q2-WRONG-1 = Sie verrät die Lösung, damit niemand Fehler macht.
+Q2-CORRECT-2 = Sie verweist auf ein Medium, in dem die Information zu finden ist.
+Q2-WRONG-2 = Sie gibt jeden Arbeitsschritt genau vor.
+Q2-HINT = Leitfragen leiten den Kenntniserwerb und die Arbeitsplanung an (R089, R091).
+Q2-FEEDBACK = Leitfragen „leiten dazu an, sich aus dem Informationsgrundlagen die Kenntnisse zu erarbeiten“ (R091) – sie verraten aber nicht die Lösung.
+NARRATION-2 = Zum Schluss ein Begriff aus dem Ablauf.
+Q3-QUESTION = Was findet beim Entscheiden und beim Bewerten mit dem Ausbilder statt? (ein Wort)
+Q3-ANSWER = Fachgespräch
+Q3-HINT = Es steht zweimal im Ablauf der Leittextmethode (R092).
+Q3-FEEDBACK = Die beiden Fachgespräche stehen vor der Ausführung und nach der Kontrolle – dort, wo Fehler am teuersten wären oder am meisten zu lernen ist.
+
+
+# ───────────────────────── Station 2: Experiment (R093–R099) ─────────────────────────
+
+[Content_Introduction_Template_2.md]
+SLIDE-TITLE = Station 2: Experiment
+NARRATION-0 = In der zweiten Station wechseln wir vom selbstständigen Arbeiten zum experimentellen Erkennen.
+GUIDING-QUESTION = Wann ist ein Versuch im Unterricht ein Experiment – und wie plant man es?
+NARRATION-1 = Zuerst die Definition: das Experiment als Unterrichtskonzeption mit induktivem Erkenntnisweg.
+ASPECT-1 = Definition des Experiments (R093)
+NARRATION-2 = Dann vier Gesichtspunkte, nach denen man Experimente klassifiziert.
+ASPECT-2 = Arten von Experimenten (R094)
+NARRATION-3 = Zwei Phasenmodelle – nach Bernard mit vier und nach Bader mit sieben Phasen – am Zugversuch.
+ASPECT-3 = Phasen nach Bernard und Bader (R095–R096)
+NARRATION-4 = Und schließlich Fragen zur Vorbereitung und Hinweise zu Handreichung und Arbeitsblatt.
+ASPECT-4 = Vorbereitung und Handreichungen (R097–R099)
+NARRATION-5 = Warum ist das für Sie wichtig?
+WHY-IT-MATTERS = Im technischen Unterricht entsteht Wissen oft im Versuch – wenn die Lernenden das Ergebnis vorher nicht kennen.
+NARRATION-6 = Markieren Sie, was Sie schon kennen.
+
+
+[Original_Slide_Template_2.md]
+SLIDE-TITLE = Definition Experiment
+NARRATION-0 = Die Folie definiert das Experiment als Unterrichtskonzeption mit induktivem Erkenntnisweg. Ausgangspunkt ist ein technisches oder naturwissenschaftliches Phänomen, das unter kontrollierten Bedingungen untersucht wird.
+SLIDE-CONTENT = > Ein Experiment ist eine Unterrichtskonzeption mit **induktivem Erkenntnisweg**. Ausgangspunkt ist ein technisches oder naturwissenschaftlich Phänomen, welches unter kontrollierten/eingeschränkten Bedingungen nachgestellt/simuliert und analysiert wird.
+NARRATION-1 = Induktiv – Sie erinnern sich an S01b: vom einzelnen Fall zur Regel.
+KEY-MESSAGE = *Induktiv* heißt (S01b): vom Einzelfall zur Regel. Kennen die Lernenden das Ergebnis schon, ist es eine Vorführung – kein Experiment in diesem Sinn.
+SOURCE = Quelle: Folie R093 „Definition Experiment“
+
+
+[Original_Slide_Template_2.md]
+SLIDE-TITLE = Arten von Experimenten klassifiziert …
+NARRATION-0 = Experimente lassen sich auf vier Weisen ordnen: nach dem Erkenntnisziel, nach der didaktischen Funktion, nach Sozial- und Organisationsform und nach dem Wirklichkeitsbezug.
+SLIDE-CONTENT = """
+- **…nach dem Erkenntnisziel:**
+  - Naturwissenschaftliches Experiment
+  - Technisches Experiment
+- **…nach ihrer didaktischen Funktion:**
+  - Experimente zum Einstieg in eine bestimmte Thematik
+  - Experimente für die Erarbeitung von Erkenntnissen
+  - Experimente zur Übung, Festigung, Falsifikation und Verifikation
+  - Experimente zur Leistungskontrolle
+- **…nach ihrer Sozial- und Organisationsform:**
+  - Lehrerexperiment (Demonstration)
+  - Schülerexperiment in Einzelarbeit, in Partnerarbeit oder in Gruppenarbeit
+- **…nach ihrem Wirklichkeitsbezug:**
+  - Experimente mit Modellen
+  - Experimente mit Realgegenständen
+  - Gedankenexperiment
+"""
+NARRATION-1 = Vergleichen Sie die didaktischen Funktionen mit S01.
+KEY-MESSAGE = Jedes Experiment hat eine Ausprägung in **allen vier** Gesichtspunkten. Die didaktischen Funktionen entsprechen denen aus S01: orientieren, erarbeiten, festigen, kontrollieren.
+SOURCE = Quelle: Folie R094 „Arten von Experimenten klassifiziert…“
+
+
+[Original_Slide_Template_3.md]
+SLIDE-TITLE = Methodische Phasen von Experimenten nach Bernard
+NARRATION-0 = Bernard beschreibt vier Phasen: Hypothesen aufstellen, experimentelle Fragestellungen herausarbeiten, das Experiment vorbereiten und durchführen und die Ergebnisse auswerten.
+SLIDE-CONTENT = """
+1. Aufstellen von Hypothesen
+2. Herausarbeiten experimenteller Fragestellungen
+3. Vorbereiten und Durchführen des Experiments
+4. Auswerten der Ergebnisse des Experiments
+"""
+NARRATION-1 = Am Hooke'schen Gesetz heißt das zum Beispiel: Erfolgt die Dehnung proportional zur Spannung? Ergibt die grafische Auswertung eine Gerade? Die Auswertung im Spannungs-Dehnungs-Diagramm beantwortet die Fragen und bestätigt die Hypothese.
+SLIDE-CONTENT-2 = """
+**Beispiel: Hooke‘sches Gesetz für das elastische Verhalten von Werkstoffen**
+
+- Analyse der Problemstellung
+  - Verhältnis von Dehnung bei vorliegender Belastung
+- Hypothesenbildung und experimentelle Fragestellung
+  - Erfolgt die Dehnung proportional zur Spannung?
+  - Ergibt die graphische Auswertung eine Gerade?
+  - Wo liegt die Proportionalitätsgrenze?
+- Durchführung des Experiments
+- Auswertung der Ergebnisse des Experiments
+  - Kurven im Spannungs-Dehnungs-Diagramm
+  - Beantwortung der Fragen
+  - Bestätigung der Hypothese
+
+(BERNARD 1995)
+"""
+NARRATION-2 = Bernard beginnt bei den Hypothesen und endet mit ihrer Bestätigung.
+KEY-MESSAGE = Bernard: von der Hypothese zur Auswertung – das Experiment prüft eine Vermutung.
+SOURCE = Quelle: Folie R095 „Methodische Phasen von Experimenten nach BERNARD“ – Bernard, F.; Ebert, D.; Schröder, B.: Unterricht Metalltechnik – Fachdidaktische Handlungsanleitung. Handwerk und Technik. Hamburg 1995.
+
+
+[Process_Template_7.md]
+SLIDE-TITLE = Methodische Phasen von Experimenten nach Bader
+NARRATION-0 = Bader beschreibt sieben Phasen, wieder am Zugversuch. Er beginnt früher als Bernard und hört später auf.
+STEP-1 = Beobachten eines Phänomens
+STEP-2 = Formulieren einer Frage bzw. eines Hypothese
+STEP-3 = Planen eines Experiments
+STEP-4 = Durchführen eines Experiments
+STEP-5 = Formulieren einer Aussage
+STEP-6 = Einordnen der Teilaussagen in eine umfassende Theorie
+STEP-7 = Reflexion über Konsequenzen der Aussagen, über Anwendungsmöglichkeiten
+NARRATION-1 = Bader beginnt mit dem Beobachten eines Phänomens – Bauteile verformen sich unter Belastung – und mit der Frage nach dem Zusammenhang zwischen Kraft und Formänderung. Dann wird das Experiment geplant.
+STEP-TEXT-1 = (z.B. Bauteile verformen sich unter Belastung)
+STEP-TEXT-2 = (z.B. Welcher Zusammenhang besteht zwischen wirkender Kraft und der Formänderung eines Bauteils)
+STEP-TEXT-3 = d.h. Schaffen einer künstlichen, technischen Wirklichkeit unter Beachtung bestimmter Randbedingungen (z.B. Planen eines Zug-Versuchs: Festlegen von Variablen und Konstanten; Einspannvorrichtung; Aufbringen der Last; Abmessungen der Probe; Laststeigerung in der Zeiteinheit; Abschätzen vom Messfehlern)
+NARRATION-2 = Es folgen Durchführen und das Formulieren einer Aussage, die die Hypothese stützt oder falsifiziert. Dann werden die Teilaussagen in eine umfassende Theorie eingeordnet.
+STEP-TEXT-4 = (Beobachten, Messen, Protokollieren, Auswerten …)
+STEP-TEXT-5 = (eines Ergebnisses) bzw. Stützen, Falsifizieren der Ausgangshypothese unter Berücksichtigung der Randbedingungen und der Messgenauigkeit (z.B. Gültigkeit des Hooke‘schen Gesetzes für einen bestimmten Werkstoff, für einen bestimmten Lastbereich)
+STEP-TEXT-6 = (z.B. Annahme eines einachsigen Spannungszustandes; Spannungshypothesen)
+NARRATION-3 = Am Ende wird über Konsequenzen und Anwendungen nachgedacht. In S01b haben Sie aus Messwerten des Zugversuchs selbst eine Regel gefunden; Bader beginnt früher und endet später.
+STEP-TEXT-7 = (z.B. Übereinstimmung der experimentellen Ergebnisse mit dem Verhalten eines Bauteils im Gebrauchszustand; Möglichkeiten der rechnerischen Dimensionierung von Bauteilen)
+SOURCE = Quelle: Folie R096 „Methodische Phasen von Experimenten nach BADER“ (Nummerierung ergänzt, Wortlaut unverändert; Phasenname und Erläuterung im Original in einem Satz) – (BADER 1990) Bader, R.: Entwicklung beruflicher Handlungskompetenz in der Berufsschule / Zum Begriff der „beruflichen Handlungskompetenz“ und zur didaktischen Strukturierung handlungsorientierten Unterrichts. Hochschuldidaktisches Zentrum Universität Dortmund. Dortmund 1990. · 🧵 Roter Faden HOOKE [NEU]: Phase 5 entspricht der *Wissenssicherung*, Phase 6 der *Wissenserklärung* nach Dilling (2024), siehe S01b.
+ORDER-TITLE = Phasen nach Bader ordnen
+NARRATION-ORDER-0 = Ordnen Sie die sieben Phasen nach Bader.
+
+
+[Interactive_Exercise_Template_1.md]
+SLIDE-TITLE = Aktivierung: Experimente einordnen
+NARRATION-0 = Drei kurze Fragen zu den Arten und Phasen von Experimenten.
+Q1-QUESTION = Die Lehrkraft zeigt den Zugversuch an der Prüfmaschine. Welche Sozial- und Organisationsform ist das?
+Q1-WRONG-1 = Schülerexperiment
+Q1-CORRECT = Lehrerexperiment (Demonstration)
+Q1-WRONG-2 = Gedankenexperiment
+Q1-HINT = Wer führt den Versuch durch?
+Q1-FEEDBACK = Lehrerexperiment = Demonstration. Zu zweit Drähte unter Gewichten messen wäre ein Schülerexperiment; „Was passiert, wenn wir die Probe doppelt so lang machen?“ ohne Versuch wäre ein Gedankenexperiment (R094).
+NARRATION-1 = Jetzt können mehrere Antworten richtig sein.
+Q2-QUESTION = Welche Phasen gibt es nur bei Bader, nicht bei Bernard?
+Q2-CORRECT-1 = Beobachten eines Phänomens
+Q2-WRONG-1 = Aufstellen bzw. Formulieren einer Hypothese
+Q2-CORRECT-2 = Einordnen der Teilaussagen in eine umfassende Theorie
+Q2-WRONG-2 = Durchführen des Experiments
+Q2-HINT = Beide Modelle enthalten Hypothese, Durchführung und Auswertung.
+Q2-FEEDBACK = Nur Bader beginnt mit dem Beobachten eines Phänomens und endet mit Einordnen in eine umfassende Theorie und Reflexion über Konsequenzen und Anwendungsmöglichkeiten (R095, R096).
+NARRATION-2 = Zum Schluss tippen Sie einen Begriff.
+Q3-QUESTION = Wie heißt der Erkenntnisweg des Experiments – vom Einzelfall zur Regel? (ein Wort)
+Q3-ANSWER = induktiv
+Q3-HINT = Das Gegenteil heißt deduktiv (S01b).
+Q3-FEEDBACK = Das Experiment ist eine Unterrichtskonzeption mit induktivem Erkenntnisweg (R093).
+
+
+[Original_Slide_Template_1.md]
+SLIDE-TITLE = Hinweise zur Vorbereitung von technischen Experimenten
+NARRATION-0 = Wer ein Experiment für den Unterricht vorbereitet, kann sich an Fragenblöcken orientieren. Die ersten drei: fachliche Grundlagen und Regelwerke, Einordnung in einen Bildungsgang und theoretische Konzeption.
+SLIDE-CONTENT = """
+<!-- didaktik="Lehrschritt informieren · 55–62 min" -->
+- **Abriss der fachlichen Grundlagen**
+  - Zusammenfassung des fachlichen Kontextes
+  - Welche Aussagen werden in technischen Regelwerken zum betreffenden fachlichen Kontext getroffen? (z.B. DIN, Richtl. des DAfStb, VOB)
+  - In welchem Umfang sind die Aussagen der technischen Regelwerke für Arbeitskräfte der mittleren Qualifikationsebene (Facharbeiter, Meister, Techniker) relevant?
+- **Einordnung in einen Bildungsgang**
+  - Für welche Aus- und/oder Fortbildungsberufe ist Experiment X relevant?
+  - In welchem Lernfeld/Unterrichtsfach kann Experiment X sinnvoll eingesetzt werden?
+  - Welcher zeitliche Umfang würde für Experiment X im Bildungsgang Z zur Verfügung stehen?
+- **Theoretische Konzeption des Experiments**
+  - Welche Vorkenntnisse können von den Lernenden erwartet werden?
+  - In welchem Umfang muss der fachwissenschaftliche Kontext vereinfacht werden?
+  - Welche fachwissenschaftlichen Aussagen sollen im Experiment erarbeitet, verdeutlicht oder wiederholt werden?
+  - Welcher didaktischen Funktion soll das Experiment dienen? (Erarbeitung, Wiederholung, Leistungskontrolle)
+  - Welche Organisationsform soll zum Einsatz kommen? (Lehrerexperiment, Schülerexperiment)
+"""
+SOURCE = Quelle: Folie R097 „Hinweise zur Vorbereitung von technischen Experimenten“ – „In welchem Umfang muss der fachwissenschaftliche Kontext vereinfacht werden?“ → Didaktische Reduktion in S07.
+
+
+[Original_Slide_Template_1.md]
+SLIDE-TITLE = Hinweise zur Vorbereitung von (bau-)technischen Experimenten
+NARRATION-0 = Die weiteren drei Fragenblöcke: praktische Konzeption mit Geräten, Verbrauchsmitteln und Arbeitsschutz, die Durchführung und schließlich Auswertung und Einbettung in weitere Lerneinheiten. Sie brauchen sie gleich für Ihren eigenen Baustein.
+SLIDE-CONTENT = """
+- **Praktische Konzeption des Experiments**
+  - Welche technischen Geräte sind erforderlich?
+  - Welche Verbrauchsmittel sind zu planen?
+  - Welche Arbeitsschutzmaßnahmen sind vorzusehen?
+- **Durchführung des Experiments**
+  - Welche Hypothesen (Vermutungen) werden von den Lernenden aufgestellt?
+  - Welche Versuchsanordnung ist zweckmäßig? (Skizze des Versuchsaufbaus)
+  - Wie wird der Versuch ablaufen? (Ablaufbeschreibung)
+  - Welche Form der Protokollführung ist sinnvoll?
+- **Auswertung und Einbettung in weitere Lerneinheiten**
+  - Wie soll die Auswertung des/der Protokolle erfolgen?
+  - Ist eine Bewertung der Protokolle vorgesehen?
+  - Verfügt das Experiment über exemplarischen Charakter für andere Inhalte? Wenn ja, wie kann dieser Bezug hergestellt werden?
+"""
+SOURCE = Quelle: Folie R098 „Hinweise zur Vorbereitung von (bau-)technischen Experimenten“
+
+
+[Original_Slide_Template_1.md]
+SLIDE-TITLE = Handreichungen zur Versuchsdurchführung
+NARRATION-0 = Zu einem Experiment gehören zwei Dokumente: eine Handreichung für die Lehrkraft mit Grundlagen, Hinweisen zu Fehlerquellen und Beispielergebnissen und ein Arbeitsblatt für die Lernenden mit den Arbeitsaufgaben. Für die Lehrkraft gibt es zusätzlich ein Arbeitsblatt mit Beispiellösungen.
+SLIDE-CONTENT = """
+<div style="display:flex;gap:1.5rem;flex-wrap:wrap;align-items:flex-start;">
+<div style="flex:1 1 300px;">
+
+**Handreichungen für den Lehrer**
+
+- **Ingenieurwissenschaftliche Grundlagen**
+  - Zusammenfassung der relevanten Gesetzmäßigkeiten
+  - Zusammenfassung der wichtigsten Aussagen in Normen ( z.B. DIN, Eurocode)
+- **Hinweise für die Versuchsdurchführung**
+  - Hinweise auf mögliche Fehlerquellen
+  - Praktische Hinweise zur Durchführung
+- **Beispielergebnisse der durchgeführten Versuchs**
+  - Orientierungsfunktion für den Lehrer
+- **Arbeitsblatt mit Beispiellösungen**
+
+</div>
+<div style="flex:1 1 300px;">
+
+**Arbeitsblatt für den Lernenden**
+
+- **Ingenieurwissenschaftliche Grundlagen**
+  - Zusammenfassung der für die mittlere Qualifikationsebene relevanten und verständlichen Gesetzmäßigkeiten
+  - Zusammenfassung der für die mittlere Qualifikationsebene relevanten Aussagen in Normen
+- **Hinweise zur Versuchsdurchführung**
+- **Arbeitsaufgaben für den Lernenden**
+
+</div>
+</div>
+"""
+SOURCE = Quelle: Folie R099 „Handreichungen zur Versuchsdurchführung“ (zwei Spalten nach dem Folienaufbau, Gliederungsebenen wie im Original)
+
+
+[Open_Task_Template_1.md]
+SLIDE-TITLE = Baustein 6: Ihr Experiment planen (optional)
+NARRATION-0 = Planen Sie jetzt mit den Vorbereitungsfragen ein technisches Experiment für Ihr Entwurfsthema. Prüfen Sie am Ende: Ist es ein Experiment mit induktivem Erkenntnisweg – oder eher eine Vorführung, deren Ergebnis die Lernenden schon kennen?
+TASK = """
+<!-- didaktik="Lehrschritt üben lassen (Transfer) · 62–75 min · Einzelarbeit · Classroom-Auswertung · Doppeldecker 2" -->
+**Allein (10 min):** Planen Sie mit den Vorbereitungsfragen (R097–R098) ein technisches Experiment für Ihr Entwurfsthema.
+
+- [ ] Didaktische Funktion (Einstieg, Erarbeitung, Übung/Festigung, Leistungskontrolle)?
+- [ ] Organisationsform (Lehrer- oder Schülerexperiment)?
+- [ ] Welche Hypothese stellen die Lernenden auf?
+- [ ] Versuchsanordnung (Skizze) und Ablauf?
+- [ ] Geräte, Verbrauchsmittel, **Arbeitsschutzmaßnahmen**?
+- [ ] Form der Protokollführung und Auswertung?
+- [ ] Wie viel muss fachlich vereinfacht werden?
+"""
+HINT = Prüfen Sie Ihre Planung mit R093: Kennen die Lernenden das Ergebnis schon vorher? Dann ist es eher eine Vorführung als ein Experiment mit induktivem Erkenntnisweg.
+MODEL-ANSWER = Beispiel Metalltechnik: **Funktion** Erarbeitung · **Organisationsform** Schülerexperiment in Partnerarbeit · **Hypothese** „Je größer die Last, desto länger der Draht – im gleichen Verhältnis.“ · **Aufbau** Stativ, Draht, Gewichte, Maßstab (Skizze) · **Arbeitsschutz** Schutzbrille, Gewichte sichern · **Protokoll** Messwerttabelle und Diagramm Last–Verlängerung · **Vereinfachung** nur elastischer Bereich, keine Spannungsberechnung.
+
+
+# ───────────────────────── Station 3: Methoden nach Effizienzkriterien (R100) ─────────────────────────
+
+[Original_Slide_Template_2.md]
+SLIDE-TITLE = Wo stehen wir? Effizienzkriterien verschiedener Methoden
+NARRATION-0 = Die Originalfolie zeigt eine gescannte Abbildung. Senkrecht stehen sieben Kriterien – Beobachten, relevante Daten auswählen, Probleme diagnostizieren, Lösungen formulieren, Entscheiden, Kommunizieren und Motivieren. Jede Methode ist als Kurve eingezeichnet; die Beschriftung steht an ihrem stärksten Ausschlag nach rechts.
+SLIDE-CONTENT = """
+<!-- didaktik="integrierendes Verbinden / Bewerten · 75–85 min · Synthese S03–S05" -->
+> Abb. 4: Effizienzkriterien verschiedener Methoden (entnommen aus: Papaloizos/Stiefel 1971, 180)
+
+<!-- data-type="none" -->
+| Methode (Abbildung) | stärkster Ausschlag bei | Lesehilfe |
+| --- | --- | --- |
+| Field Studies | Observing | Beobachten |
+| Incident Method | Selecting Pertinent Data | relevante Daten auswählen |
+| Case Method | Diagnosing Problems / Formulating Solutions | Probleme diagnostizieren / Lösungen formulieren |
+| Decision Simulations | Deciding | Entscheiden |
+| Role Playing | Communicating | Kommunizieren |
+| Group Projects | Motivating | Motivieren |
+"""
+NARRATION-1 = Verbinden Sie das mit den letzten Sitzungen.
+KEY-MESSAGE = *Incident Method* und *Case Method* kennen Sie als Case-Incident- und Case-Study-Method nach Kaiser (S04), *Role Playing* als Rollenspiel (S04), *Group Projects* als Arbeit an Projekten (S03).
+SOURCE = Quelle: Folie R100 „Effizienzkriterien verschiedener Methoden“ – Tabelle aus der Abbildung abgelesen (Kurvenverlauf qualitativ, keine Messwerte); Silbentrennung „Papa-loizos“ des Originals aufgehoben. Die Abbildung ist ein Buchscan und wird wegen der Bildrechte nicht eingebettet.
+
+
+[Interactive_Exercise_Template_1.md]
+SLIDE-TITLE = Methoden nach Lernzielen wählen
+NARRATION-0 = Welche Methode wählen Sie für welches Lernziel – nach der Abbildung?
+Q1-QUESTION = Auszubildende sollen ein Kundengespräch sicher führen. Welche Methode hat dafür nach der Abbildung den stärksten Ausschlag?
+Q1-WRONG-1 = Case-Incident-Method
+Q1-CORRECT = Rollenspiel (Role Playing – Communicating)
+Q1-WRONG-2 = Gruppenprojekt
+Q1-HINT = Welches Kriterium steckt in „ein Gespräch führen“?
+Q1-FEEDBACK = Role Playing hat seinen stärksten Ausschlag bei Communicating.
+NARRATION-1 = Jetzt können mehrere Antworten richtig sein.
+Q2-QUESTION = Welche Zuordnungen stimmen nach der Abbildung?
+Q2-CORRECT-1 = Group Projects – Motivating
+Q2-WRONG-1 = Field Studies – Deciding
+Q2-CORRECT-2 = Incident Method – Selecting Pertinent Data
+Q2-WRONG-2 = Role Playing – Diagnosing Problems
+Q2-HINT = Jede Methode ist an ihrem stärksten Ausschlag beschriftet.
+Q2-FEEDBACK = Field Studies – Observing · Incident Method – Selecting Pertinent Data (bei Kaiser: der Fall wird lückenhaft dargestellt, Schwerpunkt Informationsgewinnung) · Decision Simulations – Deciding · Role Playing – Communicating · Group Projects – Motivating.
+NARRATION-2 = Und ein Begriff aus der Abbildung.
+Q3-QUESTION = Bei welchem Kriterium hat die Decision Simulation ihren stärksten Ausschlag? (englischer Begriff)
+Q3-ANSWER = Deciding
+Q3-HINT = Decision heißt Entscheidung.
+Q3-FEEDBACK = Decision Simulations – Deciding: Lernende sollen unter Zeitdruck zwischen Varianten entscheiden.
+
+
+[Open_Task_Template_1.md]
+SLIDE-TITLE = Und Experiment und Leittext?
+NARRATION-0 = Das technische Experiment und der Leittext kommen in der Abbildung nicht vor. Wo würden Sie sie einzeichnen?
+TASK = **Allein (4 min):** Bei welchen Kriterien der Abbildung hätten das **technische Experiment** und der **Leittext** Ihrer Meinung nach ihren stärksten Ausschlag? Begründen Sie kurz.
+HINT = Denken Sie an die Phasen nach Bader (Beobachten, Hypothese, Aussage) und an die Funktionen der Leittexte (Informationen aus Medien, Arbeitsplanung, Fachgespräch).
+MODEL-ANSWER = Ein möglicher Vorschlag, keine Angabe der Originalfolie: Das **technische Experiment** wäre stark bei *Observing* (Phänomen beobachten) und *Formulating Solutions* (Aussage formulieren, Hypothese stützen oder falsifizieren). Der **Leittext** wäre stark bei *Selecting Pertinent Data* (Kenntnisse aus Medien erarbeiten) und *Deciding* (Fertigungsweg und Betriebsmittel festlegen).
+
+
+# ───────────────────────── Abschluss ─────────────────────────
+
+[Discussion_Template_2.md]
+SLIDE-TITLE = Zum Mitnehmen: Macht eine gute Anleitung selbstständig?
+NARRATION-0 = Zurück zur These vom Anfang. Stimmen Sie noch einmal ab.
+VOTE-QUESTION = Stimmen Sie der These „Eine gute Anleitung macht Lernende selbstständig.“ zu?
+OPTION-A = Ja, ich stimme zu
+OPTION-B = Nein, ich stimme nicht zu
+OPTION-C = Teils, teils
+NARRATION-1 = Was hat Ihre Einschätzung verändert – oder bestätigt?
+REFLECT-QUESTION = Was hat Ihre Einschätzung seit dem Einstieg verändert – oder bestätigt?
+NARRATION-2 = Vergleichen Sie Ihr Votum mit dem vom Anfang.
+KEY-MESSAGE = Selbstständig macht nicht die Anleitung, die alles vorgibt, sondern ein Leittext, der mit Leitfragen zum eigenen Erarbeiten, Planen und Entscheiden anleitet (R089–R092).
+
+
+[Summary_Recap_Template_1.md]
+SLIDE-TITLE = Das Wichtigste aus S05
+NARRATION-0 = Fassen wir zusammen.
+NARRATION-1 = Erstens: der Leittext.
+TAKEAWAY-1 = Leittexte leiten mit Leitfragen an, Kenntnisse und Arbeitsplanung selbst zu erarbeiten (R089–R091).
+NARRATION-2 = Zweitens: der Ablauf.
+TAKEAWAY-2 = Ablauf: Informieren → Planen → Entscheiden → Ausführen → Kontrollieren → Bewerten, mit zwei Fachgesprächen (R092).
+NARRATION-3 = Drittens: das Experiment.
+TAKEAWAY-3 = Das Experiment ist eine Unterrichtskonzeption mit induktivem Erkenntnisweg; Bader ergänzt Beobachten, Einordnen und Reflexion (R093–R096).
+NARRATION-4 = Und viertens: die Methodenwahl.
+TAKEAWAY-4 = Erst das Lernziel klären, dann die Methode wählen, die dafür am stärksten ist (R100).
+REMEMBER = Selbstständigkeit entsteht, wenn Lernende selbst informieren, planen, entscheiden und kontrollieren – der Leittext gibt Struktur, nicht die Lösung.
+NARRATION-5 = Eine letzte Frage.
+RECAP-QUESTION = Wo stehen in der Leittextmethode die beiden Fachgespräche mit dem Ausbilder?
+RECAP-WRONG-1 = Beim Informieren und beim Ausführen
+RECAP-WRONG-2 = Beim Planen und beim Kontrollieren
+RECAP-CORRECT = Beim Entscheiden und beim Bewerten
+RECAP-HINT = Eines steht vor der Ausführung, eines nach der Kontrolle.
+RECAP-FEEDBACK = Richtig: vor der Ausführung (Entscheiden) und nach der Kontrolle (Bewerten) – R092.
+NARRATION-6 = Nächste Woche geht es um methodische Großformen.
+OUTLOOK = S06 (16.11.2026, Selbstlerntermin): Methodische Großformen · 📝 Ergänzen Sie die Abschnitte 2 und 3, Baustein 6 und Ihre wichtigste Beute im Beuteblatt S05.
+
+
+[Original_Slide_Template_1.md]
+SLIDE-TITLE = Prüfungsfragen zum Üben
+NARRATION-0 = Mit diesen fünf Fragen können Sie sich auf die mündliche Prüfung vorbereiten. Die Querverweise zeigen, wo die Themen in anderen Sitzungen wieder auftauchen.
+SLIDE-CONTENT = """
+<!-- didaktik="E-12 mündliche Prüfung" -->
+1. Welche Funktionen haben Leittexte, und wie unterscheidet sich ein Leittext von einer Arbeitsanleitung?
+2. Wie erstellt man Leitfragen? Erläutern Sie die Kette an einem Beispiel aus Ihrer Fachrichtung.
+3. Definieren Sie das Experiment als Unterrichtskonzeption und klassifizieren Sie Experimente nach vier Gesichtspunkten.
+4. Vergleichen Sie die Phasen des Experiments nach Bernard und nach Bader am Beispiel Zugversuch.
+5. Begründen Sie mit den Effizienzkriterien, welche Methode Sie für ein bestimmtes Lernziel wählen würden.
+
+> [!NOTE] 🔗 Querverweise
+> induktiver Erkenntnisweg, HOOKE → **S01b** · vollständige Handlung, Selbständigkeit → **S02** · Fallstudie, Rollenspiel → **S04** · Projekt → **S03** · fachlichen Kontext vereinfachen → **S07** · Experiment, Exkursion → Wirklichkeitserfahrung **S09**
+"""
+SOURCE = Die Prüfungsfragen sind experimentell: Sie dienen der Vorbereitung, es ist nicht garantiert, dass Fragen in dieser Form gestellt werden.
+
+
+[Summary_Recap_Template_3.md]
+SLIDE-TITLE = Rückblick auf S05
+NARRATION-0 = Nehmen Sie sich zwei Minuten für einen Rückblick. Was ist das Wichtigste – und was ist noch unklar?
+NARRATION-1 = Haken Sie ab, was Sie jetzt können.
+CAN-DO-1 = Ich kann für eine Arbeitsaufgabe meiner Fachrichtung Leitfragen formulieren.
+CAN-DO-2 = Ich kann die Phasen des Experiments nach Bernard und Bader vergleichen.
+CAN-DO-3 = Ich kann mit den Effizienzkriterien begründen, welche Methode zu einem Lernziel passt.
+NARRATION-2 = Und zum Schluss: Wie hat die Sitzung für Sie funktioniert?
+TEASER-TITLE = Vorbereitung auf S06
+NARRATION-TEASER-0 = In S06 geht es um methodische Großformen – Aufgabenarten wie Diagnose-, Fertigungs-, Konstruktions- oder Instandsetzungsaufgabe. Sammeln Sie bis dahin typische Aufgabenarten aus Ihrem Beruf; planen Sie dafür etwa 15 Minuten ein.
+IMAGE-ALT = Ein Mechaniker liest mit einem Laptop die Fehlerdiagnose eines Autos aus
+IMAGE-PATH = https://commons.wikimedia.org/wiki/Special:FilePath/Young_mechanic_with_modern_laptop_doing_car_diagnostic_at_automobile_repair.jpg?width=800
+IMAGE-CAPTION = Diagnoseaufgabe in der Kfz-Werkstatt · Foto: Shixart1985 · CC BY 2.0 · Wikimedia Commons
+TEASER-QUESTION = Welche Aufgabenarten kommen in Ihrem Beruf bzw. Ihrem Technikunterricht vor – Fehler suchen, fertigen, konstruieren, instand setzen, prüfen? Welche kommt am häufigsten vor?
+NEXT-DATE = S06 · Montag, 16.11.2026 · Selbstlerntermin
+
+
+[Original_Slide_Template_1.md]
+SLIDE-TITLE = Literatur
+NARRATION-0 = Hier finden Sie die Quellen dieser Sitzung.
+SLIDE-CONTENT = """
+**Zitiert auf den Originalfolien dieser Sitzung**
+
+- Bader, R.: Entwicklung beruflicher Handlungskompetenz in der Berufsschule / Zum Begriff der „beruflichen Handlungskompetenz“ und zur didaktischen Strukturierung handlungsorientierten Unterrichts. Hochschuldidaktisches Zentrum Universität Dortmund. Dortmund 1990 – Folie R096.
+- Bernard, F.; Ebert, D.; Schröder, B.: Unterricht Metalltechnik – Fachdidaktische Handlungsanleitung. Handwerk und Technik. Hamburg 1995 – Folie R095.
+- Papaloizos/Stiefel 1971, S. 180 – Folie R100 (Bildunterschrift „entnommen aus“; Herkunftswerk der Abb. 4 auf der Folie nicht angegeben).
+
+**[NEU] Ergänzende Literatur**
+
+- Stettler, A. (2025). Offenheit der Aufgabenstellung und Strukturiertheit des Unterrichtes im Technischen Gestalten. In A. Steinmann, M. Seidler-Proffe & K. Lange-Schubert (Hrsg.), *Mitwelt im Wandel wahrnehmen, verstehen und gestalten. Bildungspotentiale des technischen Gestaltens in Lehrer:innenbildung, Forschung und Schulpraxis* (S. 73 ff.). Bad Heilbrunn: Klinkhardt. https://doi.org/10.35468/6199-07
+- Dilling, F. (2024) – siehe S01b (Wissenssicherung, Wissenserklärung).
+"""
+SOURCE = Gesamtverzeichnis: 00_Literatur.md

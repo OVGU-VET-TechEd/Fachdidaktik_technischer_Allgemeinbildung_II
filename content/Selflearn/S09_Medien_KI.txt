@@ -1,0 +1,744 @@
+# Content file Selflearn S09 – build with:  python3 content/build.py content/Selflearn/S09_Medien_KI.txt
+# Self-study unit (opened as textbook: narration appears as study text). Original slides R158–R165; sections 4–7 are [NEU].
+
+[course]
+AUTHOR = Hannes Tegelbeckers
+EMAIL = hannes.tegelbeckers@ovgu.de
+VERSION = 0.3.0
+LANGUAGE = de
+NARRATOR = Deutsch Female
+COURSE-TITLE = S09 – Medien & KI im Unterricht (Selbstlerneinheit)
+COURSE-DESCRIPTION = Fachdidaktik technischer Allgemeinbildung II – Selbstlerneinheit zu Sitzung S09. Medien nach Funktion und Wirklichkeitserfahrung einordnen, Folien nach Gestaltungsprinzipien beurteilen, Simulationen und KI im Unterricht begründet einsetzen und KI als Lehrkraft nutzen.
+COURSE-SUBTITLE = """
+<!-- didaktik="Selbstlerneinheit S09 · ca. 120 min · Studientext + Übungen · Inhalte der Folien R158–R165, in eigenen Worten erläutert; Abschnitte 4–7 sind [NEU]" -->
+> [!IMPORTANT] 🧭 Leitfrage
+> Welches Medium dient meinem Ziel – und wie nutze ich KI, um als Lehrkraft Medien zu finden, anzupassen und auf einzelne Lernende einzugehen, ohne die Verantwortung abzugeben?
+
+> [!NOTE] 📘 So ist diese Einheit aufgebaut
+> Diese Einheit **erklärt die Inhalte der Sitzung S09** in eigenen Worten und mit Beispielen. Abschnitte 1–3 erläutern die Originalfolien, Abschnitt 4 die Station zu Simulationen und KI, Abschnitte 5–7 üben Schritt für Schritt die drei KI-Fertigkeiten aus Station 4. Die Originalfolien finden Sie in der [LiaScript-Sitzung S09](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S09_Medien_KI.md).
+
+> [!TIP] ✍️ Übung in Moodle
+> Bearbeiten Sie diese Einheit als Übung im Moodle-Kurs – dort wird Ihr Bearbeitungsstand gespeichert: [Übung in Moodle öffnen](https://elearning.ovgu.de/mod/scorm/view.php?id=707270)
+
+**Ablauf (ca. 120 min)** – gut in zwei Teilen zu bearbeiten: Abschnitte 0–4 und Abschnitte 5–8.
+
+<!-- data-type="none" -->
+| Schritt | Inhalt | Zeit |
+| --- | --- | --- |
+| 0 | Wo stehen Sie? | 5 min |
+| 1 | Was Medien sind – und wozu sie dienen | 15 min |
+| 2 | Grad der Wirklichkeitserfahrung | 10 min |
+| 3 | Tafel, Projektor – und gute Folien heute | 15 min |
+| 4 | Simulationen und KI im Unterricht | 15 min |
+| 5 | KI für Sie: Medien finden und prüfen | 15 min |
+| 6 | KI für Sie: Aus Vorhandenem Neues machen | 15 min |
+| 7 | KI für Sie: Prompt – Harness – Agent | 25 min |
+| 8 | Abschluss und Prüfungsfragen | 15 min |
+"""
+
+
+# ───────────────────────── Überblick und Einstieg ─────────────────────────
+
+[Overview_Course_Template_2.md]
+SLIDE-TITLE = Ihr Lernweg in dieser Einheit
+NARRATION-0 = Die Einheit führt von den Funktionen der Medien und der Wirklichkeitserfahrung über Tafel und Folien zu Simulationen und KI im Unterricht – und schließlich zu KI als Werkzeug für Sie als Lehrkraft.
+MODULE-1 = Medien
+MODULE-2 = Wirklichkeitserfahrung
+MODULE-3 = Tafel und Folien
+MODULE-4 = Simulation und KI
+MODULE-5 = KI für Sie
+MILESTONE = Baustein 10
+NARRATION-1 = Auf diesem Weg erreichen Sie sechs Ziele.
+KNOW-1 = Medien **definieren**, ihre drei Funktionen **nennen** und nach dem Grad der Wirklichkeitserfahrung **einordnen**
+CAN-1 = offene Bildungsmaterialien **finden** und nach Lizenz, fachlicher Richtigkeit und Passung **prüfen**
+VALUE-1 = Chancen und Grenzen von Simulationen und KI-Chatbots im Unterricht **begründen**
+KNOW-2 = Tafel und Overhead-Projektor **vergleichen** und Folien nach Gestaltungsprinzipien **beurteilen**
+CAN-2 = mit KI aus vorhandenem Material eine differenzierte Fassung **erzeugen** und **kontrollieren**
+VALUE-2 = einen Prompt **formulieren** und ein Harness für einen Tutor-Chatbot **entwerfen**
+NARRATION-2 = Prüfen Sie kurz, ob Sie den Lernweg lesen können.
+ORDER-QUESTION = Was kommt direkt nach Simulation und KI im Unterricht?
+ORDER-CORRECT = KI für Sie
+ORDER-WRONG-1 = Tafel und Folien
+ORDER-WRONG-2 = Wirklichkeitserfahrung
+ORDER-HINT = Folgen Sie den Pfeilen von links nach rechts.
+ORDER-FEEDBACK = Richtig: Abschnitte 5–7 üben die drei KI-Fertigkeiten für Lehrkräfte.
+
+
+[Discussion_Template_1.md]
+SLIDE-TITLE = 0 · Wo stehen Sie?
+NARRATION-0 = Eine These von den Folien zum Start. Am Ende der Einheit stimmen Sie noch einmal ab.
+DILEMMA = > **„Je abstrakter ein Medium ist, desto geringer ist seine Motivation.“**
+VOTE-QUESTION = Stimmen Sie dieser These zu?
+OPTION-A = Ja, ich stimme zu
+OPTION-B = Nein, ich stimme nicht zu
+OPTION-C = Teils, teils
+NARRATION-1 = Notieren Sie ein Medium, mit dem Sie durch die Einheit gehen.
+PHASE-1-TITLE = 🧠 Ihr Medium · 2 min
+PHASE-1-TASK = Notieren Sie ein Medium, das Sie in einer Stunde Ihrer Fachrichtung einsetzen wollen (Tafel, Modell, Video, Simulation, KI-Chatbot, Realgegenstand …) – und wozu.
+NARRATION-2 = Behalten Sie es im Blick.
+PHASE-2-TITLE = 📌 Merken
+PHASE-2-TASK = In Abschnitt 2 ordnen Sie Ihr Medium auf der Pyramide der Wirklichkeitserfahrung ein.
+
+
+# ───────────────────────── 1 · Was Medien sind (R158–R161) ─────────────────────────
+
+[Original_Slide_Template_3.md]
+SLIDE-TITLE = 1 · Was Medien sind – und wozu sie dienen
+NARRATION-0 = Medien sind nach den Folien Vermittlungshilfen oder Mittler im Lernprozess. Sie sollen das Lernen erleichtern, intensivieren und die Motivation erhöhen. Aus Fachdidaktik I kennen Sie eine weitere Definition von Kron.
+SLIDE-CONTENT = """
+- Sind Vermittlungshilfen oder Mittler im Lernprozess
+- Sollen das Lernen erleichtern, intensivieren und die Motivation erhöhen
+
+> „Medien sind Dinge, Instrumente und symbolische Ausdrucksformen, die Mensch und Welt miteinander verbinden und Kultur vermitteln“ (Kron, 1994, S. 324).
+"""
+NARRATION-1 = Die Folien unterscheiden drei Funktionen. Ein und dasselbe Medium kann mehrere haben: Ein Schnittmodell eines Getriebes ist Demonstrationsmittel, wenn die Lehrkraft es zeigt, und Arbeitsmittel, wenn die Lernenden damit Übersetzungen bestimmen.
+SLIDE-CONTENT-2 = """
+<!-- data-type="none" -->
+| Funktion | Was sie leistet | Beispiele |
+| --- | --- | --- |
+| **Demonstrationsmittel** | Anschauung herbeiführen | Arbeitswerkzeuge und Arbeitsgegenstände aus dem beruflichen Alltag, die im Berufsschulunterricht gezeigt werden |
+| **Arbeitsmittel** | etwas, mit dem die Lernenden arbeiten | gedruckte Medien, Lernprogramme; apparative Arbeitsmittel wie das Versuchsgerät; einfache Arbeitsmittel wie Arbeitsblatt und Tafel |
+| **Motivationsmittel** | Kommunikation tragen und Interesse wecken | fast alles, womit Lehrer und Schüler interagieren: Sprache, Lehrbuch, Tafel, OH-Projektor, Präparat, Kreide, Arbeitsblatt, PC, Software, Wandkarte, Modell |
+"""
+NARRATION-2 = Folie R161 enthält einen Merksatz, der für jede Medienentscheidung gilt. Daneben steht die These, über die Sie in Abschnitt 0 abgestimmt haben.
+KEY-MESSAGE = 📌 **Merksatz (R161):** In der Unterrichtsplanung soll immer erst das Ziel und der Inhalt klar sein und anschließend folgt die Wahl der Medien.
+SOURCE = Nach Folien R158–R161 „9. Medien“; Beispiel: eigene Darstellung.
+
+
+[Figure_Template_1.md]
+SLIDE-TITLE = [NEU] Wo stehen Medien in der Planung? Das Berliner Modell
+NARRATION-0 = Der Merksatz hat einen theoretischen Hintergrund. Das Berliner Modell, die lerntheoretische Didaktik nach Heimann und anderen, beschreibt Strukturelemente, die allen Lehr- und Lernarrangements zugrunde liegen. Medien sind darin eines von vier Entscheidungsfeldern (Zinn 2026, S. 26–27).
+MERMAID-CODE = """
+flowchart TD
+  VA["Voraussetzungen: anthropogen<br>(z. B. Alter, Vorwissen)"] --> E
+  VS["Voraussetzungen: soziokulturell<br>(z. B. Bildungsplan, Ausstattung)"] --> E
+  subgraph E ["Entscheidungsfelder – alle hängen wechselseitig zusammen"]
+    direction LR
+    IN["INTENTION"] <--> TH["THEMA"]
+    ME["METHODEN"] <--> MD["MEDIEN"]
+  end
+  E --> FA["Folgen: anthropogen"]
+  E --> FS["Folgen: soziokulturell"]
+"""
+NARRATION-1 = Oben stehen die Voraussetzungen der Lernenden und des Umfelds.
+PART-1 = Voraussetzungen
+PART-TEXT-1 = anthropogen (z. B. Alter, Vorwissen) und soziokulturell (z. B. Bildungsplan, Ausstattung) – vgl. die Ausbildungsberufe in S01
+NARRATION-2 = In der Mitte stehen vier Entscheidungsfelder, die wechselseitig zusammenhängen.
+PART-2 = Entscheidungsfelder
+PART-TEXT-2 = Intention, Thema, Methoden und Medien – Medien sind eines von vier Feldern.
+NARRATION-3 = Unten stehen die Folgen des Unterrichts.
+PART-3 = Folgen
+PART-TEXT-3 = anthropogen und soziokulturell – sie werden zu neuen Voraussetzungen.
+NARRATION-4 = Was folgt daraus für die Medienwahl?
+KEY-MESSAGE = Ein Medium ist nur gut, wenn es zu Intention, Thema und Methode passt. Wer zuerst das Medium wählt, dreht das Modell um. Abschnitt 2 zeigt, warum man mit der These zur Abstraktheit vorsichtig sein sollte.
+SOURCE = [NEU] Ergänzung, keine Originalfolie: vereinfacht nachgezeichnet nach Zinn (2026, S. 26–27, Abb. 2.1, nach Heimann et al. 1970).
+
+
+# ───────────────────────── 2 · Grad der Wirklichkeitserfahrung (R162) ─────────────────────────
+
+[Figure_Template_1.md]
+SLIDE-TITLE = 2 · Grad der Wirklichkeitserfahrung
+NARRATION-0 = Folie R162 ordnet Medien in einer Pyramide mit elf Stufen. Von unten nach oben nimmt die Wirklichkeitserfahrung ab. Je weiter unten ein Medium steht, desto näher ist die Erfahrung an der Wirklichkeit: Wer eine Pumpe selbst zerlegt, erlebt sie direkt; wer ein Foto der Pumpe sieht, erlebt ein Abbild; wer Kreiselpumpe liest, nur ein Symbol.
+MERMAID-CODE = """
+flowchart BT
+  subgraph D ["Direkte Erfahrungen"]
+    direction BT
+    E1["1 · Unmittelbare, direkte zielgerichtete Erfahrung"] --> E2["2 · Simulation, Dramatisierte Erfahrungen: Rollenspiel, Schauspiel"] --> E3["3 · Experimente, Demonstrationen"]
+  end
+  subgraph I ["„ikonische“ (bildhafte) Erfahrungen"]
+    direction BT
+    E4["4 · Exkursionen"] --> E5["5 · Ausstellungen"] --> E6["6 · Unterrichts- und Schulfernsehen"] --> E7["7 · Filme"] --> E8["8 · Standbilder"] --> E9["9 · Tonaufnahmen"]
+  end
+  subgraph S ["Symbolische Erfahrungen"]
+    direction BT
+    E10["10 · Visuelle Symbole"] --> E11["11 · Verbale Symbole"]
+  end
+  D -- "Abnehmende Wirklichkeitserfahrung" --> I --> S
+"""
+NARRATION-1 = Viele Methoden des Kurses gehören zu den unteren Stufen: das Rollenspiel aus S04, das Experiment aus S05.
+PART-1 = Direkte Erfahrungen
+PART-TEXT-1 = Stufen 1–3 – das Rollenspiel (S04), das Experiment (S05), die Demonstration als darbietende Aktionsform (S08)
+NARRATION-2 = In der Mitte stehen bildhafte Erfahrungen.
+PART-2 = „ikonische“ (bildhafte) Erfahrungen
+PART-TEXT-2 = Stufen 4–9 – von der Exkursion bis zur Tonaufnahme
+NARRATION-3 = Oben stehen Symbole.
+PART-3 = Symbolische Erfahrungen
+PART-TEXT-3 = Stufen 10–11 – visuelle und verbale Symbole
+NARRATION-4 = Vorsicht mit der Pyramide – eine Ergänzung, als NEU markiert. Die Darstellung geht auf den Erfahrungskegel von Edgar Dale zurück, der Medien nach ihrem Abstraktionsgrad ordnete; eine Rangfolge des Lernerfolgs hat er damit nicht belegt. Eine Formel kann für Fortgeschrittene genau richtig sein, ein Realgegenstand Einsteiger überfordern.
+KEY-MESSAGE = 🆕 [NEU] Die Behaltensquoten („10 % durch Lesen … 90 % durch Tun“) sind nicht belegt (Masters, 2013). Abstraktheit allein sagt wenig über Motivation und Lernerfolg – entscheidend ist, ob das Medium zu Ziel, Inhalt und Lernenden passt.
+SOURCE = Nach Folie R162 (Buchscan „C.5. System Unterricht“, Quelle auf der Folie nicht angegeben) als Diagramm nachgezeichnet; [NEU] Masters (2013).
+
+
+[Interactive_Exercise_Template_1.md]
+SLIDE-TITLE = Übung 1: Medien einordnen
+NARRATION-0 = Drei kurze Fragen zu Funktionen und Wirklichkeitserfahrung.
+Q1-QUESTION = Zu welchem Erfahrungsbereich gehören Exkursionen?
+Q1-WRONG-1 = Direkte Erfahrungen
+Q1-CORRECT = „ikonische“ (bildhafte) Erfahrungen
+Q1-WRONG-2 = Symbolische Erfahrungen
+Q1-HINT = Exkursionen stehen auf Stufe 4.
+Q1-FEEDBACK = Stufen 4–9 sind ikonische Erfahrungen.
+NARRATION-1 = Jetzt können mehrere Antworten richtig sein.
+Q2-QUESTION = Welche Medien nennt R160 als Arbeitsmittel?
+Q2-CORRECT-1 = Das Versuchsgerät im experimentellen Unterricht
+Q2-WRONG-1 = Ein Arbeitswerkzeug aus dem beruflichen Alltag, das im Unterricht gezeigt wird
+Q2-CORRECT-2 = Ein Aufgabenbuch
+Q2-WRONG-2 = Ein Film über einen Fertigungsablauf
+Q2-HINT = Arbeitsmittel: gedruckte und apparative Mittel, mit denen gearbeitet wird.
+Q2-FEEDBACK = Das gezeigte Arbeitswerkzeug ist ein Demonstrationsmittel. Fast alles, womit Lehrer und Schüler interagieren, kann zugleich Motivationsmittel sein (R161).
+NARRATION-2 = Und eine Zahl.
+Q3-QUESTION = Auf welcher Stufe der Pyramide steht die Simulation? (Zahl)
+Q3-ANSWER = 2
+Q3-HINT = Sie gehört schon auf der Originalfolie zu den direkten Erfahrungen.
+Q3-FEEDBACK = Stufe 2: Simulation, dramatisierte Erfahrungen (Rollenspiel, Schauspiel).
+
+
+[Open_Task_Template_1.md]
+SLIDE-TITLE = Ihr Medium auf der Pyramide
+NARRATION-0 = Nehmen Sie Ihr Medium aus Abschnitt 0.
+TASK = Auf welcher Stufe steht Ihr Medium aus Abschnitt 0? Ginge es **eine Stufe weiter unten** – mit mehr Wirklichkeitserfahrung? Und würde das dem Ziel dienen?
+HINT = Fragen Sie: Was müssten die Lernenden anfassen, ausprobieren oder sehen, um das Ziel zu erreichen?
+MODEL-ANSWER = Beispiel: Ein Foto einer Kreiselpumpe steht auf Stufe 8. Eine Stufe weiter unten (Stufe 3) wäre die Demonstration an einer aufgeschnittenen Pumpe. Das hilft, wenn die Lernenden den Aufbau verstehen sollen – für eine Wiederholung genügt das Foto.
+
+
+# ───────────────────────── 3 · Tafel, Projektor, Gestaltungsprinzipien (R163–R165) ─────────────────────────
+
+[Original_Slide_Template_2.md]
+SLIDE-TITLE = 3 · Tafel
+NARRATION-0 = Die Folien beschreiben zwei klassische Medien mit ihren Einsatzmöglichkeiten, Vor- und Nachteilen. Lesen Sie sie mit der Frage: Was davon gilt auch für heutige Medien wie Beamer, Dokumentenkamera oder interaktives Display?
+SLIDE-CONTENT = """
+<!-- data-type="none" -->
+| Eignet sich für | Eignet sich nicht für |
+| --- | --- |
+| schrittweises Entwickeln von Sachverhalten | Darstellungen, die länger erhalten bleiben sollen |
+| Erklärungen und Erläuterungen | zeitaufwendige Schreib- und Zeichenarbeiten während des Unterrichts |
+| Sammeln | |
+
+<!-- data-type="none" -->
+| Vorteile | Nachteile |
+| --- | --- |
+| einfache Handhabung, große Schreibfläche | kein Augenkontakt zu den Schülern beim Anschreiben |
+| Löschen und Korrigieren jederzeit möglich | Abschreiben bzw. Abzeichnen ist zeitaufwendig |
+| erfüllt wegen ihrer Größe mehrere Aufgaben gleichzeitig | Gefahr hoher Fehlerhaftigkeit beim Abschreiben |
+"""
+NARRATION-1 = Die Stärke der Tafel ist das Entwickeln.
+KEY-MESSAGE = Ein Schaltplan, der Schritt für Schritt vor den Augen der Lernenden entsteht, lässt sich leichter nachvollziehen als ein fertiger. *(Eigenes Beispiel.)*
+SOURCE = Nach Folie R163 „9.1 Tafel (Kreidetafel oder White Board)“.
+
+
+[Original_Slide_Template_2.md]
+SLIDE-TITLE = Overhead-Projektor und gute Folien
+NARRATION-0 = Der Overhead-Projektor hat laut Folie vier Vorteile: Die Lehrkraft hält Blickkontakt, der Raum muss nicht verdunkelt werden, Folien lassen sich vorbereiten, beschriften und wiederverwenden, und es lassen sich beliebig viele Kopien machen.
+SLIDE-CONTENT = """
+**Gute Folien** (R165) erzeugen Aufmerksamkeit, regen zum Nachdenken an, motivieren für die Sache, geben Impulse, verdeutlichen und visualisieren Sachverhalte, lassen durch Aufbau-, Unterleg-, Abdeck-, Ergänzungs- und Figurentechnik eine **schrittweise Gedankenentwicklung** zu, haben einen hohen Behaltenseffekt und dokumentieren Arbeitsergebnisse von Gruppen für die Diskussion im Plenum.
+"""
+NARRATION-1 = Fast alle diese Merkmale gelten auch für heutige Präsentationen.
+KEY-MESSAGE = Das Gerät hat sich geändert, die Anforderungen an eine gute Folie kaum.
+SOURCE = Nach Folien R164–R165 „9.2 Overhead-Projektor“.
+
+
+[Original_Slide_Template_3.md]
+SLIDE-TITLE = [NEU] Gestaltungsprinzipien multimedialen Lernens
+NARRATION-0 = Eine Ergänzung aus Zinn 2026, als NEU markiert. Zinn unterscheidet vier Begriffe. Dahinter steht die Cognitive Load Theory: Das Arbeitsgedächtnis ist begrenzt; überflüssige Darstellung verbraucht Kapazität, die für das Lernen fehlt.
+SLIDE-CONTENT = """
+<!-- neu="Zinn 2026, S. 238–240" -->
+**Multimedialität** (über welche Medien Informationen aufgenommen werden) · **Multicodalität** (wie sie codiert sind: Text, Bild, Animation, Simulation) · **Multimodalität** (mit welchen Sinnen sie wahrgenommen werden) · **Interaktivität** (wie stark Lernende eingreifen können).
+"""
+NARRATION-1 = Daraus folgen Gestaltungsprinzipien.
+SLIDE-CONTENT-2 = """
+<!-- data-type="none" -->
+| Prinzip | Man lernt besser, wenn … |
+| --- | --- |
+| Kohärenzprinzip | überflüssige Informationen (Worte, Bilder, Musik usw.) aus dem Lernmaterial entfernt werden |
+| Signalprinzip | die relevanten Bereiche des Lernmaterials hervorgehoben werden (z. B. farblich) |
+| Redundanzprinzip | Bilder mit gesprochenem Text statt mit gesprochenem *und* geschriebenem Text kombiniert werden |
+| Prinzip der räumlichen Nähe | korrespondierende Texte und Bilder nah beieinander präsentiert werden |
+| Prinzip der Segmentierung | Geschwindigkeit und Pausen der Darstellung selbst bestimmt werden können |
+| Multimediaprinzip | Texte und Bilder kombiniert werden statt Texten allein |
+"""
+NARRATION-2 = Und die alten Techniken?
+KEY-MESSAGE = Die „Aufbau-, Abdeck-, Ergänzungstechnik“ von R165 heißt heute **Segmentierung** und **Signalprinzip** – und „nicht zu viel Text auf eine Folie“ hat mit Kohärenz- und Redundanzprinzip eine Begründung.
+SOURCE = [NEU] Auswahl nach Zinn (2026), S. 238–240, Tab. 9.3 und 9.4.
+
+
+[Interactive_Exercise_Template_1.md]
+SLIDE-TITLE = Übung 2: Eine Originalfolie prüfen
+NARRATION-0 = Die Originalfolie R162 ist ein gelblicher Buchscan: Die Pyramide ist gut lesbar, daneben scheint der Text der Buchrückseite durch, die Überschrift lautet „C.5. System Unterricht“, eine Quelle fehlt.
+Q1-QUESTION = Welches Gestaltungsprinzip verletzt der Scan am deutlichsten?
+Q1-WRONG-1 = Redundanzprinzip
+Q1-CORRECT = Kohärenzprinzip
+Q1-WRONG-2 = Multimediaprinzip
+Q1-HINT = Was auf der Folie gehört nicht zum Lerninhalt?
+Q1-FEEDBACK = Durchscheinender Rückseitentext, Gelbstich und die fremde Kapitelüberschrift sind überflüssige Informationen – sie erhöhen die Belastung, ohne zum Lernen beizutragen (Kohärenzprinzip, Zinn 2026, S. 240).
+NARRATION-1 = Jetzt können mehrere Antworten richtig sein.
+Q2-QUESTION = Welche Merkmale des Scans sind überflüssige Informationen?
+Q2-CORRECT-1 = der durchscheinende Text der Buchrückseite
+Q2-WRONG-1 = die elf Stufen der Pyramide
+Q2-CORRECT-2 = die fremde Kapitelüberschrift „C.5. System Unterricht“
+Q2-WRONG-2 = die Achse „Abnehmende Wirklichkeitserfahrung“
+Q2-HINT = Was trägt zum Verständnis der Pyramide bei?
+Q2-FEEDBACK = Stufen und Achse sind der Lerninhalt; Rückseitentext und fremde Überschrift lenken ab.
+NARRATION-2 = Zum Schluss ein Begriff.
+Q3-QUESTION = Nach welcher Theorie ist das Arbeitsgedächtnis begrenzt? Cognitive … Theory (ein Wort)
+Q3-ANSWER = Load
+Q3-HINT = Sweller …
+Q3-FEEDBACK = Cognitive Load Theory: Überflüssige Darstellung verbraucht Kapazität, die für das Lernen fehlt.
+
+
+[Open_Task_Template_1.md]
+SLIDE-TITLE = R162 verbessern
+NARRATION-0 = Wie würden Sie die Folie verbessern?
+TASK = Wie würden Sie R162 verbessern? Denken Sie auch an R165: Wie ließe sich die Pyramide **schrittweise** aufbauen?
+HINT = Kohärenz: Was streichen Sie? Signal: Was heben Sie hervor? Segmentierung: In welchen Schritten bauen Sie auf?
+MODEL-ANSWER = Pyramide neu zeichnen statt scannen (Kohärenz) · die drei Erfahrungsbereiche farbig absetzen (Signal) · in drei Schritten aufbauen: direkte, ikonische, symbolische Erfahrungen (Segmentierung) · Quelle nennen und keine unbelegten Behaltensquoten ergänzen (Masters 2013).
+
+
+# ───────────────────────── 4 · [NEU] Simulationen und KI im Unterricht ─────────────────────────
+
+[Original_Slide_Template_3.md]
+SLIDE-TITLE = 4 · [NEU] Simulationen im Unterricht
+NARRATION-0 = Die Originalfolien enden beim Overhead-Projektor. Heute gibt es Medien, die nicht nur zeigen, sondern reagieren: Simulationen und KI-Chatbots. Diese Einheit prüft sie mit denselben Fragen wie die Tafel. In technischen Fachrichtungen sind Simulationen längst Arbeitsmittel: Schaltungen simulieren, SPS-Programme an einer virtuellen Anlage testen, CNC-Programme am Bildschirm einfahren. Auf der Pyramide steht die Simulation schon auf Stufe 2.
+SLIDE-CONTENT = """
+<!-- data-type="none" -->
+| Chance | Grenze |
+| --- | --- |
+| Gefährliche, teure oder unsichtbare Vorgänge werden zugänglich (Hochspannung, Kräfte, Strömungen) | Haptik, Geräusch, Fehler realer Bauteile fehlen – die „Wirklichkeit“ ist vereinfacht |
+| beliebig oft wiederholbar, Parameter frei veränderbar | Lernende können „herumprobieren“, ohne Hypothesen zu bilden |
+| Fehler kosten nichts – Lernen am Fehler wird möglich | das Modell hinter der Simulation bleibt oft eine Blackbox |
+"""
+NARRATION-1 = Was die Forschung sagt:
+SLIDE-CONTENT-2 = """
+<!-- neu="Flegr, Kuhn & Scheiter 2023" -->
+**Real und virtuell:** In einer Studie mit 202 Schülerinnen und Schülern der Sekundarstufe I lernten Gruppen, die reale und virtuelle Experimente **kombinierten**, mehr als Gruppen, die nur real experimentierten (Flegr, Kuhn & Scheiter, 2023).
+"""
+NARRATION-2 = Die Konsequenz:
+KEY-MESSAGE = Die Simulation ersetzt nicht das Experiment aus S05 – sie ergänzt es.
+SOURCE = [NEU] Ergänzung, keine Originalfolie: Flegr, Kuhn & Scheiter (2023).
+
+
+[Original_Slide_Template_3.md]
+SLIDE-TITLE = [NEU] KI-Chatbots im Unterricht
+NARRATION-0 = Generative KI, zum Beispiel ChatGPT oder HAWKI an der OVGU, erzeugt Texte, Erklärungen, Aufgaben, Code und Bilder auf Zuruf. Mit den Funktionen von R159 lässt sie sich einordnen.
+SLIDE-CONTENT = """
+<!-- neu="SWK 2024; KMK 2024; Bastani et al. 2025" -->
+- als **Demonstrationsmittel**, das einen Sachverhalt auf verschiedenen Niveaus erklärt,
+- als **Arbeitsmittel** – Tutor, Feedbackgeber, Übungspartner, etwa bei der Fehlersuche in einem SPS-Programm,
+- als **Motivationsmittel** – Gesprächspartner, etwa in einem simulierten Kundengespräch (vgl. Rollenspiel, S04).
+"""
+NARRATION-1 = Was die Forschung sagt – ein Beispiel.
+SLIDE-CONTENT-2 = """
+In einem Feldexperiment mit fast 1.000 Schülerinnen und Schülern (Mathematik, Sekundarstufe) verbesserte der Zugang zu GPT-4 die Leistung **beim Üben** deutlich. In der anschließenden Prüfung **ohne** KI schnitten Lernende mit frei nutzbarer ChatGPT-Oberfläche aber **schlechter** ab als die Kontrollgruppe. Eine Variante mit Schutzvorkehrungen – sie gab Hinweise statt fertiger Lösungen – hob diesen Nachteil weitgehend auf (Bastani et al., 2025).
+
+Die Ständige Wissenschaftliche Kommission der KMK sieht Potenzial, sofern Lehrkräfte qualifiziert sind, die Verantwortung tragen und Lernende die Ausgaben kritisch prüfen lernen (SWK, 2024); die Bildungsministerkonferenz empfiehlt einen **konstruktiv-kritischen** Umgang (KMK, 2024).
+"""
+NARRATION-2 = Die Lesart:
+KEY-MESSAGE = KI ohne didaktischen Rahmen kann zur **Krücke** werden – die Aufgabe wird gelöst, gelernt wird wenig. Mit Rahmen kann sie zum **Tutor** werden.
+SOURCE = [NEU] Ergänzung, keine Originalfolie: Bastani et al. (2025), SWK (2024), KMK (2024).
+
+
+[Concept_Explanation_Template_2.md]
+SLIDE-TITLE = Übung 3: Chance oder Risiko?
+NARRATION-0 = Manche Aussagen sind je nach Einsatz beides – entscheiden Sie, was überwiegt. Zuerst ein Vergleich.
+CONCEPT-A = Chance
+CONCEPT-B = Risiko
+CRITERION-1 = Denkarbeit
+A-1 = wird angeregt (Hinweise, Feedback)
+B-1 = wird abgenommen (fertige Lösungen)
+CRITERION-2 = Erklärungen
+A-2 = auf unterschiedlichem Niveau, rund um die Uhr
+B-2 = fachlich falsch, aber überzeugend formuliert
+CRITERION-3 = Übung
+A-3 = Aufgaben in großer Zahl, gefahrlose Wiederholung
+B-3 = Übungsleistung steigt, Leistung ohne KI nicht
+CRITERION-4 = Rahmen
+A-4 = Leitplanken, Prüfen der Ausgaben
+B-4 = Datenschutz, ungleicher Zugang
+NARRATION-1 = Je ein Beispiel:
+EXAMPLE-A = Ein Tutor-Chatbot gibt Hinweise statt Lösungen.
+EXAMPLE-B = Lernende kopieren die Lösung des Chatbots in ihr Arbeitsblatt.
+NARRATION-2 = Ein typischer Fehlschluss:
+MISCONCEPTION = KI-Zugang verbessert das Lernen nicht in jedem Fall – und schadet auch nicht grundsätzlich. Es kommt auf die didaktische Gestaltung an (Bastani et al., 2025; gemessen wurden nur kurzfristige Effekte in einem Fach).
+NARRATION-3 = Ordnen Sie jetzt zu – was überwiegt?
+STATEMENT-1 = Individuelles Feedback rund um die Uhr
+STATEMENT-2 = Lösungen werden übernommen statt erarbeitet
+STATEMENT-3 = Gefahrlose Wiederholung in der Simulation
+STATEMENT-4 = Daten der Lernenden verlassen die Schule
+CLASSIFY-HINT = Unterstützt es das Lernen – oder gefährdet es das Lernen oder die Lernenden?
+CLASSIFY-FEEDBACK = Weitere Chancen: Erklärungen auf unterschiedlichem Niveau, Übungsaufgaben in großer Zahl. Weitere Risiken: fachlich falsche Antworten klingen überzeugend, ungleicher Zugang zu leistungsfähigen Werkzeugen.
+
+
+[Open_Task_Template_1.md]
+SLIDE-TITLE = Einen Einsatz planen
+NARRATION-0 = Wählen Sie eine Lernsituation aus Ihrer Fachrichtung und planen Sie einen Einsatz von KI oder einer Simulation.
+TASK = Planen Sie **einen** Einsatz: **Ziel** (R161: zuerst!) – **Funktion** – **Leitplanke** gegen das Übernehmen der Denkarbeit – wie die Lernenden die **Ausgabe prüfen** – woran Sie merken, dass auch **ohne Werkzeug** gelernt wurde (vgl. S10).
+HINT = Leitplanken: Hinweise statt Lösungen, eigene Lösung zuerst, Begründung verlangen.
+MODEL-ANSWER = Beispiel: Ziel – Fehler in einem SPS-Programm selbst finden · Funktion – Arbeitsmittel · Leitplanke – Tutor-Chatbot, der nach dem eigenen Lösungsweg fragt und nur Hinweise gibt · Prüfen – jeder Vorschlag wird an der virtuellen Anlage getestet · Ohne KI – Fehlersuche an einem neuen Programm im Fachgespräch.
+
+
+# ───────────────────────── 5 · [NEU] KI für Sie: Medien finden und prüfen ─────────────────────────
+
+[Original_Slide_Template_3.md]
+SLIDE-TITLE = 5 · KI für Sie: Medien finden und prüfen
+NARRATION-0 = Die Abschnitte 5 bis 7 üben die drei Fertigkeiten, die die Sitzung in Station 4 vorgestellt hat. Sie gehören zur fünften Dimension des UNESCO-Kompetenzrahmens, KI für die berufliche Entwicklung, mit den Stufen Aneignen, Vertiefen und Gestalten. Die erste Fertigkeit wird oft übersprungen: erst suchen, was es schon gibt – oft als offene Bildungsmaterialien, OER, die Sie unter einer freien Lizenz nutzen, verändern und weitergeben dürfen.
+SLIDE-CONTENT = """
+<!-- neu="Miao & Cukurova 2024" -->
+
+<!-- data-type="none" -->
+| Portal | Wofür |
+| --- | --- |
+| [WirLernenOnline](https://wirlernenonline.de) | Suche über viele OER-Quellen für die Schule, nach Fächern sortiert |
+| [MUNDO](https://mundo.schule) | Mediathek der Länder für den Unterricht |
+| [OERSI](https://oersi.org) | Suchindex für OER aus Hochschulen – oft auch für die Berufsbildung brauchbar |
+| [twillo](https://www.twillo.de) | OER-Portal der niedersächsischen Hochschulen |
+| [ZUM-Unterrichten](https://unterrichten.zum.de) | Wiki von Lehrkräften für Lehrkräfte |
+"""
+NARRATION-1 = Darf ich das verwenden?
+SLIDE-CONTENT-2 = """
+- **Creative-Commons-Lizenzen** sagen, was erlaubt ist: *BY* = Namensnennung, *SA* = Weitergabe unter gleichen Bedingungen, *NC* = nicht kommerziell, *ND* = keine Bearbeitung. Material mit *ND* dürfen Sie nicht umgestalten.
+- Für die Namensnennung hilft die Merkregel **TULLU**: **T**itel, **U**rheber/in, **L**izenz, **L**ink zur Lizenz, **U**rsprungsort.
+- Nicht frei lizenziertes Material dürfen Sie für den Unterricht nur in den Grenzen des Urheberrechts nutzen (in Deutschland § 60a UrhG „Unterricht und Lehre“) – im Zweifel nachfragen.
+"""
+NARRATION-2 = Und die KI?
+KEY-MESSAGE = 💡 Ein KI-Chatbot kann Suchbegriffe vorschlagen – die Materialien selbst suchen und prüfen Sie in den Portalen. Quellenangaben eines Chatbots sind nicht verlässlich: Prüfen Sie jeden Link.
+SOURCE = [NEU] Ergänzung, keine Originalfolie: UNESCO-Kompetenzrahmen (Miao & Cukurova 2024); Portale und Lizenzhinweise: eigene Zusammenstellung.
+
+
+[Open_Task_Template_1.md]
+SLIDE-TITLE = Übung 4: ein Material finden und prüfen
+NARRATION-0 = Suchen Sie in einem Portal ein Material zu einem Thema Ihrer Fachrichtung und prüfen Sie es mit der Checkliste.
+TASK = """
+Notieren Sie **Titel**, **Lizenz** und das Ergebnis Ihrer Checkliste.
+
+- [ ] Das Ziel meiner Stunde steht fest – das Material dient diesem Ziel (Merksatz R161).
+- [ ] Fachlich richtig und aktuell (Normen, Vorschriften, Bezeichnungen).
+- [ ] Passend reduziert für meine Lerngruppe (vgl. S07: richtig *und* zweckmäßig).
+- [ ] Gestaltung nach den Prinzipien aus Abschnitt 3: kohärent, Signale, räumliche Nähe.
+- [ ] Lizenz geklärt und Namensnennung vorbereitet (TULLU).
+"""
+HINT = Beginnen Sie mit OERSI oder WirLernenOnline und filtern Sie nach Lizenz.
+MODEL-ANSWER = Beispiel: „Druckluftaufbereitung – Wartungseinheit“ (OER, CC BY 4.0, Urheber genannt, Link zur Lizenz vorhanden) · Ziel: Aufbau einer Wartungseinheit erklären können ✓ · fachlich richtig, aber Bezeichnungen nach alter Norm – anpassen · für das 1. Ausbildungsjahr zu ausführlich – kürzen (CC BY erlaubt Bearbeitung) · Gestaltung: Bild und Text getrennt – räumlich zusammenführen · Namensnennung nach TULLU vorbereitet.
+
+
+[Interactive_Exercise_Template_1.md]
+SLIDE-TITLE = Lizenzen prüfen
+NARRATION-0 = Drei kurze Fragen zu Lizenzen und Namensnennung.
+Q1-QUESTION = Welche Lizenz erlaubt es, ein Material umzugestalten und mit Namensnennung weiterzugeben?
+Q1-WRONG-1 = CC BY-ND
+Q1-CORRECT = CC BY
+Q1-WRONG-2 = Alle Rechte vorbehalten
+Q1-HINT = ND heißt „No Derivatives“.
+Q1-FEEDBACK = CC BY erlaubt Bearbeitung und Weitergabe mit Namensnennung. ND verbietet Bearbeitungen; bei „alle Rechte vorbehalten“ gelten nur die gesetzlichen Erlaubnisse wie § 60a UrhG.
+NARRATION-1 = Jetzt können mehrere Antworten richtig sein.
+Q2-QUESTION = Was gehört nach TULLU zur Namensnennung?
+Q2-CORRECT-1 = Titel und Urheber/in
+Q2-WRONG-1 = der Preis des Materials
+Q2-CORRECT-2 = Lizenz mit Link zur Lizenz
+Q2-WRONG-2 = die Anzahl der Downloads
+Q2-HINT = Titel, Urheber/in, Lizenz, Link zur Lizenz, Ursprungsort.
+Q2-FEEDBACK = TULLU: Titel, Urheber/in, Lizenz, Link zur Lizenz, Ursprungsort.
+NARRATION-2 = Zum Schluss ein Kürzel.
+Q3-QUESTION = Welches Kürzel in einer CC-Lizenz verbietet Bearbeitungen? (zwei Buchstaben)
+Q3-ANSWER = ND
+Q3-HINT = No Derivatives.
+Q3-FEEDBACK = ND – Material mit diesem Kürzel dürfen Sie nicht umgestalten (→ Abschnitt 6).
+
+
+# ───────────────────────── 6 · [NEU] KI für Sie: Aus Vorhandenem Neues machen ─────────────────────────
+
+[Process_Template_5.md]
+SLIDE-TITLE = 6 · KI für Sie: Aus Vorhandenem Neues machen
+NARRATION-0 = KI ist stark darin, vorhandenes Material umzuformen: kürzen, vereinfachen, in Aufgaben verwandeln, in andere Formate bringen. Das spart Zeit – aber nur, wenn Sie den Ablauf im Griff behalten. Er hat fünf Schritte; ist das Ergebnis beim Prüfen nicht in Ordnung, passen Sie den Prompt an oder überarbeiten selbst.
+STEP-1 = Quelle wählen
+STEP-2 = Ziel festlegen
+STEP-3 = Prompt
+STEP-4 = Prüfen
+STEP-5 = Kennzeichnen
+NARRATION-1 = Zuerst die Quelle – mit geklärter Lizenz.
+STEP-TEXT-1 = Lizenz ok? (Abschnitt 5)
+NARRATION-2 = Dann das Ziel: wozu und für wen?
+STEP-TEXT-2 = Wozu? Für wen?
+NARRATION-3 = Dann der Prompt, wie in Abschnitt 7.
+STEP-TEXT-3 = Rolle, Zielgruppe, Ziel, Format, Grenzen (Abschnitt 7)
+NARRATION-4 = Dann prüfen Sie fachlich und didaktisch. Ist das Ergebnis nicht in Ordnung, passen Sie den Prompt an oder überarbeiten selbst.
+STEP-TEXT-4 = fachlich und didaktisch – sonst Prompt anpassen oder selbst überarbeiten
+NARRATION-5 = Zum Schluss kennzeichnen Sie Quelle und KI-Werkzeug.
+STEP-TEXT-5 = Quelle und KI-Werkzeug angeben
+SOURCE = [NEU] Ablauf: eigene Darstellung, keine Originalfolie.
+ORDER-TITLE = Ablauf ordnen
+NARRATION-ORDER-0 = Ordnen Sie die fünf Schritte.
+
+
+[Original_Slide_Template_2.md]
+SLIDE-TITLE = Typische Umformungen in der Technik
+NARRATION-0 = Was lässt sich aus vorhandenem Material machen? Einige typische Umformungen.
+SLIDE-CONTENT = """
+<!-- data-type="none" -->
+| Aus … | wird … |
+| --- | --- |
+| Datenblatt, Betriebsanleitung | Arbeitsblatt mit Leitfragen und gestuften Hilfen (vgl. Leittext, S05) |
+| Fachtext | Fassung in einfacher Sprache und Glossar für Deutsch als Zweitsprache |
+| eigener Tafelanschrieb | Lückentext, Zuordnungsaufgabe oder Quiz für die Ergebnissicherung |
+| Fehlerbild einer Anlage | Fallbeschreibung für eine Fallstudie (S04) |
+| Folien einer Vorlesung | interaktive LiaScript-Lerneinheit – so ist auch dieser Kurs entstanden |
+"""
+NARRATION-1 = Was Sie immer selbst prüfen:
+KEY-MESSAGE = ⚠️ **Fakten** (Werte, Formeln, Normen, Sicherheitshinweise – auch Fehler klingen überzeugend) · **Reduktion** (noch richtig? S07) · **Rechte** (nur Material, das Sie bearbeiten dürfen; keine personenbezogenen Daten) · **Transparenz** (KI-Werkzeug angeben).
+SOURCE = [NEU] Eigene Zusammenstellung, keine Originalfolie.
+
+
+[Open_Task_Template_1.md]
+SLIDE-TITLE = Übung 5: eine Umformung erzeugen
+NARRATION-0 = Probieren Sie es aus.
+TASK = Nehmen Sie das Material aus Übung 4 (oder einen eigenen Text) und lassen Sie mit einem KI-Werkzeug Ihrer Hochschule (z. B. HAWKI) **eine** Umformung aus der Tabelle erzeugen. Notieren Sie: Was war gut, was mussten Sie korrigieren?
+HINT = Prüfen Sie zuerst Werte, Normen und Sicherheitshinweise.
+MODEL-ANSWER = Beispiel: Aus einem Datenblatt einer Wartungseinheit wurde ein Arbeitsblatt mit fünf Leitfragen. Gut: die Fragen verwiesen auf das Datenblatt. Korrigiert: ein Druckwert war falsch übernommen, eine Frage verriet die Lösung (vgl. S05), das Bild fehlte – ergänzt mit Lizenzangabe.
+
+
+# ───────────────────────── 7 · [NEU] KI für Sie: Prompt – Harness – Agent ─────────────────────────
+
+[Original_Slide_Template_2.md]
+SLIDE-TITLE = 7 · Ebene 1: der Prompt
+NARRATION-0 = Lernende unterscheiden sich in Vorwissen, Tempo, Sprache und Förderbedarf. KI kann helfen, darauf einzugehen – auf drei Ebenen, die aufeinander aufbauen. Ebene 1 ist der Prompt. Ein guter Prompt hat fünf Bausteine.
+SLIDE-CONTENT = """
+<!-- data-type="none" -->
+| Baustein | Beispiel |
+| --- | --- |
+| **Rolle** | „Du bist Ausbilder für Mechatronik.“ |
+| **Zielgruppe** | „… für Auszubildende im 1. Ausbildungsjahr, Deutsch als Zweitsprache auf Niveau B1.“ |
+| **Ziel** | „Sie sollen erklären können, warum ein Druckbegrenzungsventil nötig ist.“ |
+| **Format** | „Drei kurze Absätze, ein Alltagsbeispiel, am Ende zwei Verständnisfragen.“ |
+| **Grenzen** | „Keine Formeln. Fachbegriffe beim ersten Auftreten erklären.“ |
+"""
+NARRATION-1 = Ein einzelner Prompt hilft einmal.
+KEY-MESSAGE = Rolle · Zielgruppe · Ziel · Format · Grenzen – fehlt ein Baustein, rät das Modell.
+SOURCE = [NEU] Eigene Darstellung, keine Originalfolie.
+
+
+[Interactive_Exercise_Template_1.md]
+SLIDE-TITLE = Prompt-Bausteine erkennen
+NARRATION-0 = Drei kurze Fragen zu den Bausteinen eines Prompts.
+Q1-QUESTION = Welcher Baustein ist „Gib keine fertigen Lösungen“?
+Q1-WRONG-1 = Format
+Q1-CORRECT = Grenzen
+Q1-WRONG-2 = Ziel
+Q1-HINT = Was darf das Modell nicht tun?
+Q1-FEEDBACK = Grenzen legen fest, was das Modell nicht tun soll.
+NARRATION-1 = Jetzt können mehrere Antworten richtig sein.
+Q2-QUESTION = Welche Bausteine beschreiben, für wen und wozu der Text sein soll?
+Q2-CORRECT-1 = Zielgruppe – „Lernende in der Berufsfachschule ohne Vorwissen“
+Q2-WRONG-1 = Rolle – „Du bist Tutor für Elektrotechnik“
+Q2-CORRECT-2 = Ziel – „Sie sollen das ohmsche Gesetz anwenden können“
+Q2-WRONG-2 = Format – „Eine Tabelle mit drei Beispielen“
+Q2-HINT = Für wen? Wozu?
+Q2-FEEDBACK = Zielgruppe und Ziel – die Rolle beschreibt das Modell, das Format die Ausgabe.
+NARRATION-2 = Zum Schluss ein Begriff.
+Q3-QUESTION = Welcher Baustein ist „Du bist Tutor für Elektrotechnik“? (ein Wort)
+Q3-ANSWER = Rolle
+Q3-HINT = Wer spricht?
+Q3-FEEDBACK = Die Rolle legt fest, aus welcher Perspektive das Modell antwortet.
+
+
+[Figure_Template_1.md]
+SLIDE-TITLE = Ebene 2: das Harness
+NARRATION-0 = Ein Harness legt fest, wie sich ein KI-Tutor dauerhaft verhält – für alle Lernenden, in jedem Gespräch.
+MERMAID-CODE = """
+flowchart LR
+  L["Lernende"] --> H
+  subgraph H ["HARNESS"]
+    direction TB
+    SP["Systemprompt: Rolle, Ziel, Regeln"]
+    WB["Wissensbasis: Ihre geprüften Materialien"]
+    LP["Leitplanken: Hinweise statt Lösungen,<br>eigene Lösung zuerst, Begründung verlangen"]
+    GR["Grenzen: keine personenbezogenen Daten,<br>bei Unsicherheit an die Lehrkraft verweisen"]
+    SM(["Sprachmodell"])
+    SP ~~~ WB ~~~ LP ~~~ GR ~~~ SM
+  end
+  H --> A["Antwort"]
+"""
+NARRATION-1 = Der Systemprompt und die Wissensbasis bestimmen, was der Tutor weiß und will.
+PART-1 = Systemprompt und Wissensbasis
+PART-TEXT-1 = Rolle, Ziel, Regeln – und nur Ihr geprüftes Material als Grundlage
+NARRATION-2 = Die Leitplanken verhindern, dass der Tutor die Denkarbeit übernimmt.
+PART-2 = Leitplanken
+PART-TEXT-2 = Hinweise statt Lösungen, eigene Lösung zuerst, Begründung verlangen
+NARRATION-3 = Die Grenzen schützen Lernende und verweisen an Sie.
+PART-3 = Grenzen
+PART-TEXT-3 = keine personenbezogenen Daten; bei Unsicherheit oder Sicherheitsfragen an die Lehrkraft verweisen
+NARRATION-4 = Verbinden Sie das mit Abschnitt 4.
+KEY-MESSAGE = 🔗 Die Regel „Hinweise statt Lösungen“ entspricht der Tutor-Variante aus der Studie von Bastani et al. (2025), die den Lernnachteil frei nutzbarer KI weitgehend aufhob.
+SOURCE = [NEU] Eigene Darstellung, keine Originalfolie.
+
+
+[Original_Slide_Template_1.md]
+SLIDE-TITLE = Bauplan für einen Systemprompt
+NARRATION-0 = Ein Bauplan zum Anpassen. Ersetzen Sie die Angaben in spitzen Klammern durch Ihr Fach, Ihre Lerngruppe und Ihr Lernziel.
+SLIDE-CONTENT = """
+```text
+Rolle: Du bist Tutor für <Fach/Lernfeld> an einer <Schulform>.
+Zielgruppe: <Ausbildungsjahr/Klasse>, <Vorwissen>, <Sprachniveau>.
+Ziel: Die Lernenden sollen <Lernziel mit Operator>.
+Wissensbasis: Stütze dich nur auf das beigefügte Material. Wenn etwas dort nicht steht, sage das.
+Regeln:
+- Frage zuerst nach dem eigenen Lösungsweg.
+- Gib Hinweise zum nächsten Schritt, keine fertigen Lösungen.
+- Passe Sprache und Schwierigkeit an die Antworten an.
+- Verlange eine kurze Begründung, bevor du weitergehst.
+Grenzen: Frage nicht nach Namen oder persönlichen Daten. Bei Sicherheitsfragen verweise auf die Lehrkraft.
+```
+"""
+SOURCE = [NEU] Eigene Darstellung, keine Originalfolie.
+
+
+[Cycle_Template_6.md]
+SLIDE-TITLE = Ebene 3: der Agent
+NARRATION-0 = Ein Agent führt mehrere Schritte selbstständig aus und nutzt dabei Werkzeuge. Für individuelles Lernen könnte ein Ablauf als Kreislauf aussehen. Je selbstständiger der Agent, desto wichtiger das Harness.
+STEP-1 = Lernstand erfragen
+STEP-2 = Aufgabe wählen
+STEP-3 = Lösung prüfen
+STEP-4 = Rückmeldung geben
+STEP-5 = Nächste Aufgabe oder Wiederholung
+STEP-6 = Zusammenfassung für die Lehrkraft
+NARRATION-1 = Der Agent fragt zuerst den Lernstand ab.
+STEP-TEXT-1 = Was kann die oder der Lernende schon?
+NARRATION-2 = Dann wählt er eine Aufgabe passender Schwierigkeit – am besten aus Ihrem geprüften Pool.
+STEP-TEXT-2 = Aufgabe passender Schwierigkeit – aus *Ihrem* geprüften Pool
+NARRATION-3 = Er prüft die Lösung – Sie kontrollieren solche Bewertungen stichprobenartig.
+STEP-TEXT-3 = Bewertungen stichprobenartig kontrollieren (Gütekriterien, S10)
+NARRATION-4 = Er gibt eine Rückmeldung.
+STEP-TEXT-4 = Hinweise statt Lösungen (Harness)
+NARRATION-5 = Dann folgt die nächste Aufgabe oder eine Wiederholung.
+STEP-TEXT-5 = je nach Ergebnis
+NARRATION-6 = Und Sie sehen eine Zusammenfassung – dafür müssen Datenschutz und Einwilligung geklärt sein.
+STEP-TEXT-6 = Lernstände speichern nur mit geklärtem Datenschutz und Einwilligung
+SOURCE = [NEU] Eigene Darstellung, keine Originalfolie. ⚠️ Klären Sie vor dem Einsatz, welche KI-Werkzeuge Ihre Schule bzw. Ihr Land freigegeben hat; die Bildungsministerkonferenz nennt Datenschutz und Prüfungskultur als zentrale Themen (KMK, 2024).
+ORDER-TITLE = Agenten-Ablauf ordnen
+NARRATION-ORDER-0 = Ordnen Sie die Schritte des Agenten.
+
+
+[Open_Task_Template_1.md]
+SLIDE-TITLE = Übung 6: einen Tutor einrichten und testen
+NARRATION-0 = Ihr geprüftes Material und Ihr Tutor sind zugleich Baustein 10 Ihres Unterrichtsentwurfs.
+TASK = Schreiben Sie mit dem Bauplan einen **Systemprompt** für einen Tutor zu einem Thema Ihrer Fachrichtung. Testen Sie ihn selbst: Spielen Sie zuerst eine Lernende mit wenig Vorwissen, dann einen Lernenden, der nur die Lösung haben will. **Hält der Tutor die Regeln ein?**
+HINT = Was gehört nicht ins Harness? Namen und Noten der Lernenden – sie würden an den Anbieter des Sprachmodells übertragen.
+MODEL-ANSWER = Beispiel: Tutor für Lernfeld 3 Elektronik, 2. Ausbildungsjahr, Ziel „Die Lernenden sollen eine Transistorschaltung als Schalter dimensionieren“. Test 1 (wenig Vorwissen): Der Tutor fragt nach dem bisherigen Lösungsweg und erklärt den Basisstrom mit einer Analogie ✓. Test 2 („Sag mir einfach die Lösung“): Der Tutor bleibt bei einem Hinweis zum nächsten Schritt ✓ – nach dreimaligem Nachfragen gab er doch einen Wert aus ✗ → Regel ergänzen: „Auch bei wiederholter Nachfrage keine Lösungswerte nennen.“ Nicht ins Harness gehören Namen und Noten der Lernenden.
+
+
+# ───────────────────────── 8 · Abschluss ─────────────────────────
+
+[Discussion_Template_2.md]
+SLIDE-TITLE = 8 · Noch einmal: Macht Abstraktion lustlos?
+NARRATION-0 = Zum Schluss noch einmal die These vom Anfang.
+VOTE-QUESTION = Stimmen Sie der These „Je abstrakter ein Medium ist, desto geringer ist seine Motivation.“ zu?
+OPTION-A = Ja, ich stimme zu
+OPTION-B = Nein, ich stimme nicht zu
+OPTION-C = Teils, teils
+NARRATION-1 = Ihr nächster Schritt auf der UNESCO-Stufenleiter?
+REFLECT-QUESTION = Was probieren Sie als Nächstes aus – allein (*Aneignen*), mit Kolleginnen und Kollegen (*Vertiefen*) oder als eigenes Werkzeug (*Gestalten*)?
+NARRATION-2 = Eine Einordnung:
+KEY-MESSAGE = Die These steht so auf R161, ist aber nicht belegt. Die Pyramide ordnet nach Abstraktionsgrad, nicht nach Lernerfolg (Masters, 2013). Ob ein Medium wirkt, hängt davon ab, ob es zu Ziel, Inhalt und Lernenden passt – genau das sagt der Merksatz auf derselben Folie.
+
+
+[Summary_Recap_Template_1.md]
+SLIDE-TITLE = Das Wichtigste aus S09
+NARRATION-0 = Fassen wir zusammen.
+NARRATION-1 = Erstens: die Funktionen.
+TAKEAWAY-1 = Medien sind Demonstrations-, Arbeits- und Motivationsmittel – erst Ziel und Inhalt, dann das Medium (R159–R161).
+NARRATION-2 = Zweitens: die Gestaltung.
+TAKEAWAY-2 = Gute Folien folgen Kohärenz, Signal und Segmentierung – das Arbeitsgedächtnis ist begrenzt.
+NARRATION-3 = Drittens: Simulation und KI im Unterricht.
+TAKEAWAY-3 = Simulation ergänzt das Experiment; KI braucht Leitplanken, sonst wird sie zur Krücke.
+NARRATION-4 = Und viertens: KI für Sie.
+TAKEAWAY-4 = Finden und prüfen (Lizenz!), umformen und kontrollieren, Prompt – Harness – Agent: Die Verantwortung bleibt bei Ihnen.
+REMEMBER = Das Medium dient dem Ziel – und die Lehrkraft bleibt verantwortlich.
+NARRATION-5 = Eine letzte Frage.
+RECAP-QUESTION = Was gehört **nicht** in das Harness eines Tutor-Chatbots für Lernende?
+RECAP-WRONG-1 = Die Regel, keine fertigen Lösungen zu geben
+RECAP-WRONG-2 = Geprüftes Material als Wissensbasis
+RECAP-CORRECT = Namen und Noten der Lernenden der Klasse
+RECAP-HINT = Was würde an den Anbieter des Sprachmodells übertragen?
+RECAP-FEEDBACK = Richtig: Personenbezogene Daten haben im Harness nichts zu suchen. Regeln, geprüftes Material und klare Grenzen machen ein gutes Harness aus.
+NARRATION-6 = Als Nächstes geht es um Lernerfolgskontrolle.
+OUTLOOK = S10: Lernerfolgskontrolle · 🧩 Optional für die Selbstlernsitzung am 11.01.2027: Ihr geplantes Medium aus Abschnitt 4 – oder Ihr geprüftes Material aus Übung 4–5 und Ihr Tutor aus Übung 6 – ist Baustein 10.
+
+
+[Exam_Questions_Template_1.md]
+SLIDE-TITLE = Prüfungsfragen zum Üben
+NARRATION-0 = Die Prüfungsleistung des Moduls ist eine mündliche Prüfung. Mit diesen fünf Fragen üben Sie, die Inhalte dieser Einheit frei, strukturiert und mit Beispielen zu erklären.
+METHOD = Lesen Sie eine Frage und antworten Sie **laut** in höchstens drei Minuten – nach dem Muster **Begriff – Erläutern – Beispiel – Verbinden**. Öffnen Sie erst danach die Antwortskizze und vergleichen Sie: Was fehlte, was war ungenau? Noch besser: Lassen Sie sich von einer Kommilitonin oder einem Kommilitonen abfragen.
+Q1-TOPIC = Medien und ihre Funktionen
+Q1 = Was sind Medien? Nennen Sie ihre drei Funktionen mit je einem Beispiel aus Ihrer Fachrichtung.
+A1 = """
+- **1 Begriff:** Medien sind **Vermittlungshilfen oder Mittler im Lernprozess**; sie sollen das Lernen erleichtern, intensivieren und die Motivation erhöhen (R158–R159). Kron (1994, S. 324): „Dinge, Instrumente und symbolische Ausdrucksformen, die Mensch und Welt miteinander verbinden und Kultur vermitteln“.
+- **2 Erläutern:** Drei Funktionen: **Demonstrationsmittel** (Anschauung herbeiführen), **Arbeitsmittel** (womit Lernende arbeiten: gedruckte Medien, Lernprogramme, Versuchsgerät, Arbeitsblatt) und **Motivationsmittel** (Kommunikation tragen, Interesse wecken).
+- **3 Beispiel:** Ein Schnittmodell eines Getriebes ist Demonstrationsmittel, wenn die Lehrkraft es zeigt, und Arbeitsmittel, wenn die Lernenden damit Übersetzungen bestimmen.
+- **4 Verbinden:** Merksatz (R161): **erst Ziel und Inhalt, dann die Medien**. [NEU] Im Berliner Modell sind Medien eines von vier wechselseitig verbundenen Entscheidungsfeldern (Zinn 2026).
+"""
+Q2-TOPIC = Wirklichkeitserfahrung
+Q2 = Erläutern Sie den Grad der Wirklichkeitserfahrung. Wo stehen Experiment, Simulation und Film?
+A2 = """
+- **1 Begriff:** Folie R162 ordnet Medien in einer Pyramide mit elf Stufen; von unten nach oben **nimmt die Wirklichkeitserfahrung ab**.
+- **2 Erläutern:** **Direkte Erfahrungen** (1–3): unmittelbare zielgerichtete Erfahrung, Simulation und dramatisierte Erfahrung (Rollenspiel), Experimente und Demonstrationen. **Ikonische** (bildhafte) Erfahrungen (4–9): Exkursion, Ausstellung, Schulfernsehen, Film, Standbild, Tonaufnahme. **Symbolische** Erfahrungen (10–11): visuelle und verbale Symbole.
+- **3 Beispiel:** Experiment: Stufe 3; Simulation: Stufe 2; Film: Stufe 7. Eine Pumpe selbst zerlegen ist direkte Erfahrung, ein Foto der Pumpe ein Abbild, das Wort „Kreiselpumpe“ ein Symbol.
+- **4 Verbinden:** [NEU] Die verbreiteten Behaltensquoten („10 % durch Lesen … 90 % durch Tun“) sind nicht belegt (Masters 2013). Abstraktheit allein sagt wenig über den Lernerfolg; Rollenspiel (S04) und Experiment (S05) stehen weit unten.
+"""
+Q3-TOPIC = Tafel und Projektor
+Q3 = Vergleichen Sie Tafel und Overhead-Projektor: Wofür eignet sich welches Medium – und was gilt davon für heutige Präsentationen?
+A3 = """
+- **1 Begriff:** Zwei klassische Präsentationsmedien mit typischen Einsatzmöglichkeiten, Vor- und Nachteilen (R163–R165).
+- **2 Erläutern:** **Tafel:** eignet sich für schrittweises Entwickeln, Erklären und Sammeln; nicht für Darstellungen, die erhalten bleiben sollen. Vorteile: einfache Handhabung, große Fläche, Löschen jederzeit. Nachteile: kein Augenkontakt beim Anschreiben, Abschreiben zeitaufwendig und fehleranfällig. **Overhead-Projektor:** Blickkontakt bleibt, keine Verdunkelung, Folien vorbereitbar und wiederverwendbar, beliebig viele Kopien.
+- **3 Beispiel:** Ein Schaltplan, der Schritt für Schritt an der Tafel entsteht, ist leichter nachzuvollziehen als ein fertiger.
+- **4 Verbinden:** Gute Folien erlauben eine **schrittweise Gedankenentwicklung** (Aufbau-, Abdecktechnik …). [NEU] Gestaltungsprinzipien multimedialen Lernens gelten auch für heutige Präsentationen.
+"""
+Q4-TOPIC = OER und KI-Material
+Q4 = Worauf achten Sie, wenn Sie offene Bildungsmaterialien oder KI-generiertes Material im Unterricht einsetzen oder umgestalten?
+A4 = """
+- **1 Begriff:** [NEU] **OER** sind offene Bildungsmaterialien, die unter einer freien Lizenz genutzt, verändert und weitergegeben werden dürfen; die Fertigkeit gehört zur Dimension „KI für die berufliche Entwicklung“ des UNESCO-Kompetenzrahmens (Miao & Cukurova 2024).
+- **2 Erläutern:** Erst suchen, was es gibt (WirLernenOnline, MUNDO, OERSI, twillo, ZUM). **Creative-Commons-Lizenzen** prüfen: BY, SA, NC, **ND = keine Bearbeitung**. Namensnennung nach **TULLU** (Titel, Urheber/in, Lizenz, Link zur Lizenz, Ursprungsort). Nicht frei lizenziertes Material nur in den Grenzen von § 60a UrhG.
+- **3 Beispiel:** Ein Arbeitsblatt unter CC BY-SA zur Riemenspannung darf ich in einfache Sprache umformen – das Ergebnis muss wieder unter CC BY-SA stehen.
+- **4 Verbinden:** Quellenangaben von Chatbots sind nicht verlässlich – jeden Link prüfen. Fachlich prüfen mit den Kriterien aus S07: Bleibt die vereinfachte Aussage korrekt?
+"""
+Q5-TOPIC = Harness und KI-Tutor
+Q5 = Was ist ein Harness, und wie kann es verhindern, dass ein KI-Tutor das Lernen ersetzt?
+A5 = """
+- **1 Begriff:** [NEU] Ein **Harness** legt fest, wie sich ein KI-Tutor **dauerhaft** verhält – für alle Lernenden, in jedem Gespräch; es ist Ebene 2 zwischen Prompt (Ebene 1) und Agent (Ebene 3).
+- **2 Erläutern:** Bestandteile: **Systemprompt** (Rolle, Ziel, Regeln), **Wissensbasis** (geprüfte Materialien), **Leitplanken** (Hinweise statt Lösungen, eigene Lösung zuerst, Begründung verlangen), **Grenzen** (keine personenbezogenen Daten, bei Unsicherheit an die Lehrkraft verweisen).
+- **3 Beispiel:** Bastani et al. (2025): Frei nutzbares GPT-4 verbesserte das Üben, verschlechterte aber die Prüfungsleistung ohne KI; eine Tutor-Variante mit Hinweisen statt Lösungen hob den Nachteil weitgehend auf.
+- **4 Verbinden:** KI ohne Rahmen wird zur **Krücke**, mit Rahmen zum **Tutor**. Das Harness setzt um, was S02 verlangt: Die Lernenden behalten Planen, Entscheiden und Kontrollieren. SWK und KMK (2024): konstruktiv-kritischer Umgang.
+"""
+NARRATION-1 = Schätzen Sie zum Schluss ein, wie sicher Sie sind. Wiederholen Sie die unsicheren Fragen in einigen Tagen – und üben Sie fächerübergreifend mit dem Prüfungstrainer.
+SOURCE = Die Prüfungsfragen sind experimentell: Sie dienen der Vorbereitung, es ist nicht garantiert, dass Fragen in dieser Form gestellt werden. Die Antwortskizzen zeigen eine mögliche Antwort – üben Sie das Argumentieren, nicht das Auswendiglernen. Über alle Sitzungen hinweg üben Sie mit dem [Prüfungstrainer](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/Selflearn/Pruefungstrainer.md).
+
+
+[Summary_Recap_Template_3.md]
+SLIDE-TITLE = Rückblick
+NARRATION-0 = Nehmen Sie sich zwei Minuten für einen Rückblick. Was ist das Wichtigste – und was ist noch unklar?
+NARRATION-1 = Haken Sie ab, was Sie jetzt können.
+CAN-DO-1 = Ich kann begründen, warum ich für ein Lernziel ein bestimmtes Medium wähle.
+CAN-DO-2 = Ich kann mit KI Unterrichtsmaterial erstellen und es zuverlässig prüfen.
+CAN-DO-3 = Ich kann einen KI-Tutor so einrichten, dass er Lernen unterstützt statt ersetzt.
+NARRATION-2 = Und zum Schluss: Wie hat die Einheit für Sie funktioniert?
+TEASER-TITLE = Als Nächstes: S10
+NARRATION-TEASER-0 = In S10 geht es um Lernerfolgskontrolle – wie man prüft, ob Lernziele erreicht wurden.
+IMAGE-ALT = Eine Hand füllt mit Bleistift einen Prüfungsbogen auf einem Tisch aus
+IMAGE-PATH = https://commons.wikimedia.org/wiki/Special:FilePath/Hand-writing-exam-classroom.jpg?width=800
+IMAGE-CAPTION = Prüfungssituation · Foto: Alison wood · CC BY 3.0 · Wikimedia Commons
+TEASER-QUESTION = Erinnern Sie sich an eine Prüfungs- oder Testaufgabe: Was sollte sie prüfen? Könnte ein KI-Chatbot sie lösen?
+NEXT-DATE = S10 · Lernerfolgskontrolle
+
+
+[Original_Slide_Template_1.md]
+SLIDE-TITLE = Literatur
+NARRATION-0 = Die Quellen dieser Einheit.
+SLIDE-CONTENT = """
+- R162: Abbildung „C.5. System Unterricht“ (Pyramide „Grad der Wirklichkeitserfahrung“, Buchscan) – Quelle auf der Originalfolie nicht angegeben.
+- Bastani, H., Bastani, O., Sungu, A., Ge, H., Kabakcı, Ö. & Mariman, R. (2025). Generative AI without guardrails can harm learning: Evidence from high school mathematics. *Proceedings of the National Academy of Sciences, 122*(26), e2422633122. https://doi.org/10.1073/pnas.2422633122
+- Flegr, S., Kuhn, J. & Scheiter, K. (2023). When the whole is greater than the sum of its parts: Combining real and virtual experiments in science education. *Computers & Education, 197*, 104745. https://doi.org/10.1016/j.compedu.2023.104745
+- Heimann, P. et al. (1970) – zitiert nach Zinn (2026, S. 26–27).
+- KMK – Bildungsministerkonferenz (2024). *Handlungsempfehlung für die Bildungsverwaltung zum Umgang mit Künstlicher Intelligenz in schulischen Bildungsprozessen* (Beschluss vom 10.10.2024). Berlin: KMK.
+- Kron, F. (1994). *Grundwissen Didaktik*, S. 324 – Angabe aus dem Material Fachdidaktik I.
+- Masters, K. (2013). Edgar Dale's Pyramid of Learning in medical education: A literature review. *Medical Teacher, 35*(11), e1584–e1593. https://doi.org/10.3109/0142159X.2013.800636
+- Miao, F. & Cukurova, M. (2024). *AI competency framework for teachers.* Paris: UNESCO. https://doi.org/10.54675/ZJTE2084
+- SWK – Ständige Wissenschaftliche Kommission der Kultusministerkonferenz (2024). *Large Language Models und ihre Potenziale im Bildungssystem. Impulspapier.* Bonn: SWK.
+- Zinn, B. (2026). *Didaktik des naturwissenschaftlichen, informatischen und technikwissenschaftlichen Unterrichts.* Springer Spektrum, Abschn. 2.3.2 (S. 26–27), 9.5 (S. 238–240). https://doi.org/10.1007/978-3-662-72499-6
+"""
+SOURCE = Erläuterungen und Beispiele in dieser Einheit: eigene Darstellung auf Grundlage der Folien. Gesamtverzeichnis: 00_Literatur.md

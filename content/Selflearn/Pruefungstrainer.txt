@@ -1,0 +1,531 @@
+# Content file Selflearn Prüfungstrainer – build with:  python3 content/build.py content/Selflearn/Pruefungstrainer.txt
+# Cross-session exam trainer for the oral module exam. POOL = @auto-exam-pool is filled by build.py with the
+# questions of all Exam_Questions_Template_1 blocks in content/Selflearn/*.txt (units S01–S11 and this file).
+
+[course]
+AUTHOR = Hannes Tegelbeckers
+EMAIL = hannes.tegelbeckers@ovgu.de
+VERSION = 0.1.0
+LANGUAGE = de
+NARRATOR = Deutsch Female
+COURSE-TITLE = Prüfungstrainer – mündliche Modulprüfung (Selbstlerneinheit)
+COURSE-DESCRIPTION = Fachdidaktik technischer Allgemeinbildung II – Prüfungstrainer über alle Sitzungen S01–S11: Antwortmuster, Kurskarte, Begriffs-Check, Vergleiche und Querschnittsfragen mit Antwortskizzen, Fallanalyse und Prüfungssimulation mit zufällig gezogenen Fragen.
+COURSE-SUBTITLE = """
+<!-- didaktik="Prüfungstrainer · ca. 90 min, mehrfach nutzbar · über alle Selbstlerneinheiten S01–S11 · Querschnittsfragen mit Antwortskizzen nach dem Muster aus S11" -->
+> [!IMPORTANT] 🧭 Leitfrage
+> Kann ich jedes Thema des Moduls frei, strukturiert und mit einem Beispiel erklären – und Verbindungen zwischen den Sitzungen herstellen?
+
+> [!NOTE] 📘 So nutzen Sie den Trainer
+> Der Trainer setzt die Selbstlerneinheiten S01–S11 voraus und fragt **über alle Sitzungen hinweg** ab. Arbeiten Sie ihn einmal vollständig durch und nutzen Sie danach die **Prüfungssimulation** (Abschnitt 6) so oft Sie möchten. Jede Einheit endet außerdem mit fünf Prüfungsfragen und Antwortskizzen. Die Prüfungsfragen sind experimentell: Es ist nicht garantiert, dass Fragen in dieser Form gestellt werden.
+
+> [!TIP] ✍️ Übung in Moodle
+> Bearbeiten Sie den Prüfungstrainer als Übung im Moodle-Kurs – dort wird Ihr Bearbeitungsstand gespeichert: [Übung in Moodle öffnen](https://elearning.ovgu.de/mod/scorm/view.php?id=707260)
+
+**Ablauf (ca. 90 min, danach beliebig oft Abschnitt 6)**
+
+<!-- data-type="none" -->
+| Schritt | Inhalt | Zeit |
+| --- | --- | --- |
+| 0 | Wo stehen Sie? | 5 min |
+| 1 | Das Prüfungsformat und ein Antwortmuster | 10 min |
+| 2 | Die Kurskarte: alle Sitzungen im Überblick | 15 min |
+| 3 | Begriffs-Check über alle Sitzungen | 15 min |
+| 4 | Querverbindungen: Vergleiche und Querschnittsfragen | 30 min |
+| 5 | Ein Fall: eine Unterrichtseinheit begründen | 10 min |
+| 6 | Prüfungssimulation | beliebig |
+| 7 | Abschluss | 5 min |
+"""
+
+
+# ───────────────────────── Überblick und Einstieg ─────────────────────────
+
+[Overview_Course_Template_2.md]
+SLIDE-TITLE = Ihr Weg durch den Trainer
+NARRATION-0 = Der Trainer führt vom Antwortmuster über die Kurskarte und einen Begriffs-Check zu Querverbindungen zwischen den Sitzungen – und endet mit einer Prüfungssimulation.
+MODULE-1 = Antwortmuster
+MODULE-2 = Kurskarte
+MODULE-3 = Begriffs-Check
+MODULE-4 = Querverbindungen
+MODULE-5 = Simulation
+MILESTONE = Prüfung
+NARRATION-1 = Auf diesem Weg erreichen Sie sechs Ziele.
+KNOW-1 = die Themen aller Sitzungen der Kurskarte **zuordnen**
+CAN-1 = Prüfungsfragen nach dem Muster Begriff – Erläutern – Beispiel – Verbinden **beantworten**
+VALUE-1 = eigene Antworten mit einer Antwortskizze **vergleichen** und **beurteilen**
+KNOW-2 = zentrale Begriffe, Modelle und Autoren des Moduls **nennen** und **erläutern**
+CAN-2 = Verbindungen zwischen Sitzungen **herstellen** und an einem Beispiel **erläutern**
+VALUE-2 = eine Unterrichtsentscheidung mit Begriffen aus mehreren Sitzungen **begründen**
+NARRATION-2 = Prüfen Sie kurz, ob Sie den Weg lesen können.
+ORDER-QUESTION = Was kommt direkt nach dem Begriffs-Check?
+ORDER-CORRECT = Querverbindungen
+ORDER-WRONG-1 = Kurskarte
+ORDER-WRONG-2 = Antwortmuster
+ORDER-HINT = Folgen Sie den Pfeilen von links nach rechts.
+ORDER-FEEDBACK = Richtig: Abschnitt 4 verbindet die Sitzungen durch Vergleiche und Querschnittsfragen.
+
+
+[Discussion_Template_1.md]
+SLIDE-TITLE = 0 · Wo stehen Sie?
+NARRATION-0 = Eine These zum Start. Am Ende stimmen Sie noch einmal ab.
+DILEMMA = > **„Für die mündliche Prüfung reicht es, die Definitionen auswendig zu können.“**
+VOTE-QUESTION = Stimmen Sie dieser These zu?
+OPTION-A = Ja, ich stimme zu
+OPTION-B = Nein, ich stimme nicht zu
+OPTION-C = Teils, teils
+NARRATION-1 = Prüfen Sie Ihren Stand ehrlich.
+PHASE-1-TITLE = 🧠 Ihr stärkstes und Ihr schwächstes Thema · 2 min
+PHASE-1-TASK = Welches Thema des Moduls könnten Sie jetzt sofort zwei Minuten lang erklären – und bei welchem würden Sie ins Stocken geraten? Notieren Sie je eines; im Abschnitt 6 ziehen Sie gezielt Fragen dazu.
+NARRATION-2 = Und schätzen Sie sich selbst ein.
+PHASE-2-TITLE = 📌 Wie sicher fühlen Sie sich? (1–4)
+PHASE-2-TASK = Notieren Sie je eine Zahl von 1 (gar nicht) bis 4 (sehr sicher): „Ich kann zu jeder Sitzung einen zentralen Begriff mit Beispiel erklären.“ – „Ich kann Verbindungen zwischen zwei Sitzungen begründen.“ Im Rückblick vergleichen Sie.
+
+
+# ───────────────────────── 1 · Prüfungsformat und Antwortmuster ─────────────────────────
+
+[Original_Slide_Template_2.md]
+SLIDE-TITLE = 1 · Das Prüfungsformat und ein Antwortmuster
+NARRATION-0 = Die Prüfungsleistung des Moduls ist ausschließlich eine mündliche Prüfung; weitere Formate wie die Präsentation eines Unterrichtsentwurfs gehören zum Ingenieurpädagogischen Labor. Eine mündliche Prüfung belohnt eine erkennbare Struktur. Das Muster aus S11 hat vier Schritte.
+SLIDE-CONTENT = """
+<!-- data-type="none" -->
+| Schritt | Was Sie sagen | Beispiel: „Was ist didaktische Reduktion?“ |
+| --- | --- | --- |
+| 1 Begriff | Definition, möglichst mit Autor | widerspruchsfreier Übergang zu einer vereinfachten Aussage, die unter Nennung der Einschränkungen korrekt bleibt (Grüner) |
+| 2 Erläutern | Unterscheidungen, Struktur, Modell | vertikal (Gültigkeitsumfang reduziert) – horizontal (bleibt erhalten) |
+| 3 Beispiel | aus der Vorlesung oder Ihrer Fachrichtung | Hebelgesetz für den gewichtslosen Hebel; Ohm'sches Gesetz als Kennlinie |
+| 4 Bewerten oder verbinden | Grenze, Bezug zu einer anderen Sitzung | Bezug zu S01: Richtigkeit als Kriterium technischer Aussagen |
+"""
+NARRATION-1 = Drei Hinweise für die Prüfung selbst.
+KEY-MESSAGE = **Struktur ansagen** („Ich erkläre zuerst den Begriff, dann …“) · **Beispiele aus Ihrer Fachrichtung** vorbereiten · **Verbindungen anbieten** – und bei einer Lücke sagen, was Sie wissen, statt zu raten.
+SOURCE = Prüfungsformat nach dem Kursüberblick; Antwortmuster wie in S11, Abschnitt 5; Hinweise: eigene Darstellung.
+
+
+# ───────────────────────── 2 · Kurskarte ─────────────────────────
+
+[Figure_Template_1.md]
+SLIDE-TITLE = 2 · Die Kurskarte: Ihr Gerüst für die Prüfung
+NARRATION-0 = Die Kurskarte aus S01 ordnet das ganze Modul nach Planungsfragen. Ausgangslage, Ziele, Inhalte und Medien bestimmen, welche Methode passt; die Methoden beantworten vier Leitfragen „Wie organisiere ich …?“. Wenn Sie in der Prüfung eine Frage hören, ordnen Sie sie zuerst in diese Karte ein – dann wissen Sie, welche Begriffe und welche Nachbarsitzungen dazugehören.
+MERMAID-CODE = """
+flowchart TD
+  A["<b>AUSGANGSLAGE</b><br>S01: Besonderheiten der Technik, Ausbildungsberufe"] --> Z["<b>ZIELE</b> – Wozu?<br>S02 Handlungsorientierung<br>S10 Lernerfolgskontrolle<br>S11 PAL-Prüfungen"]
+  A --> I["<b>INHALTE</b> – Was – wie vereinfacht?<br>S07 Didaktische Reduktion"]
+  A --> D["<b>MEDIEN</b> – Womit?<br>S09 Medien & KI"]
+  Z --> M["<b>METHODEN</b> – Wie organisiere ich …?"]
+  I --> M
+  D --> M
+  M --> M1["… den Erkenntnisweg?<br><b>Unterrichtsmethoden</b><br>S01b logische Methoden<br>S03 Projekt · S04 Fallstudie, Rollenspiel<br>S05 Leittext, Experiment · S06 Großformen"]
+  M --> M2["… Lehrende ↔ Lernende?<br><b>Aktionsformen</b> · S08"]
+  M --> M3["… Lernende ↔ Gegenstand?<br><b>Sozialformen</b> · S08"]
+  M --> M4["… den Bildungsprozess?<br><b>Organisationsformen</b> · S01"]
+"""
+NARRATION-1 = Die oberen Felder sind die Planungsfragen.
+PART-1 = Planungsfragen
+PART-TEXT-1 = Ausgangslage (S01), Ziele und Kontrolle (S02, S10, S11), Inhalte (S07), Medien (S09)
+NARRATION-2 = Die unteren Felder sind die Methoden.
+PART-2 = Vier Leitfragen
+PART-TEXT-2 = Erkenntnisweg (S01b, S03–S06), Aktions- und Sozialformen (S08), Organisationsformen (S01)
+NARRATION-3 = Und so nutzen Sie die Karte in der Prüfung.
+PART-3 = Einordnen
+PART-TEXT-3 = Frage hören – Feld suchen – Begriffe und eine Nachbarsitzung nennen
+NARRATION-4 = Merken Sie sich die Reihenfolge.
+KEY-MESSAGE = Erst die Planungsfragen, dann die Methode: Eine Methode ist ein Weg zu einem Ziel, nie Selbstzweck (Meyer & Hilbert, S01).
+SOURCE = Kurskarte als Lesehilfe (wie in S01, S11 und im Kursüberblick), keine Originalfolie.
+
+
+[Original_Slide_Template_1.md]
+SLIDE-TITLE = Alle Einheiten auf einen Blick
+NARRATION-0 = Die Tabelle fasst zusammen, welche Begriffe, Modelle und Autoren zu jeder Sitzung gehören. Nutzen Sie sie als Lernlandkarte: Können Sie zu jeder Zeile zwei Minuten frei sprechen? Wo nicht, öffnen Sie die Einheit über den Link und arbeiten Sie die Prüfungsfragen am Ende durch.
+SLIDE-CONTENT = """
+<!-- data-type="none" -->
+| Einheit | Kernbegriffe und Modelle | Autoren und Quellen |
+| --- | --- | --- |
+| [S01 Orientierung](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/Selflearn/S01_Orientierung.md) | Natur-, Technik-, Wirtschaftswissenschaften (Wahrheit – Richtigkeit und Zweckmäßigkeit – Wirtschaftlichkeit) · Unterrichtsmethode · Methode im weiteren/engeren Sinne · vier Leitfragen · didaktische Funktionen | Bernhard, Ebert & Schröder · Meyer & Hilbert |
+| [S01b Logische Methoden](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/Selflearn/S01b_Logische_Methoden.md) | analytisch/synthetisch · induktiv/deduktiv · genetisch/historisch · reduktiv (regressiv/progressiv) · Methodenwahl | Diesterweg · [NEU] Dilling |
+| [S02 Handlungsorientierung](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/Selflearn/S02_Handlungsorientierung.md) | lernpsychologische Begründung · Tätigkeit – Handlung – Operation · TOTE/VVR · vollständige Handlung · Stufen der Selbständigkeit · HoU als Konzept | Leontjew, Galperin, Piaget, Hering, Aebli, Roth · Hacker, Volpert · Frieling · Hortsch · Bünning |
+| [S03 Projektmethode](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/Selflearn/S03_Projektmethode.md) | Wurzeln der Projektidee · Merkmale der Arbeit an Projekten · Problemarten · Innovationskreislauf · Grundmuster mit Fixpunkten und Metainteraktionen · Rolle der Lehrkraft | Kilpatrick/Dewey · Frey · Hortsch |
+| [S04 Bewertung · Fallstudie · Rollenspiel](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/Selflearn/S04_Bewertung_Fallstudie_Rollenspiel.md) | Funktionen der Bewertung · Soll-Ist-Vergleich · Bewertungssituation · Widersprüche in Projekten · Fallstudie (vier Varianten, sechs Phasen) · Rollenspiel | Heckhausen · Kersten · Kaiser |
+| [S05 Leittext · Experiment](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/Selflearn/S05_Leittext_Experiment.md) | Funktionen der Leittexte · Leitfragen-Kette · sechs Schritte · Experiment (Definition, vier Gesichtspunkte) · Phasenmodelle · Effizienzkriterien | Bernard · Bader · Papaloizos & Stiefel |
+| [S06 Großformen](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/Selflearn/S06_Grossformen.md) | Großform = Akzent + Gerüst · analytisch und synthetisch akzentuierte Großformen · induktiv, deduktiv, historisch, reduktiv · intuitive Phase | Pahl |
+| [S07 Didaktische Reduktion](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/Selflearn/S07_Didaktische_Reduktion.md) | Korrektheit unter Nennung der Einschränkungen · vertikal/horizontal · Maxwell → Ohm · Reduktionsfeld · Verfahren nach Hering · [NEU] Reduktionsarten, Elementarisierung | Grüner · Wagner · Arnold · Hering · [NEU] Zinn |
+| [S08 Sozial- und Aktionsformen](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/Selflearn/S08_Sozialformen_Aktionsformen.md) | Frontal-, Einzel-, Gruppenarbeit (vier Varianten) · darbietend, selbstständig, erarbeitend · selbstständige Schülerarbeit · [NEU] Oberflächen- und Tiefenstruktur · Cognitive Apprenticeship | Meyer · Jessipow · [NEU] Zinn |
+| [S09 Medien & KI](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/Selflearn/S09_Medien_KI.md) | Funktionen der Medien · Grad der Wirklichkeitserfahrung · Tafel, Projektor · [NEU] Berliner Modell, Simulation, KI-Chatbots, OER, Prompt – Harness – Agent | Kron · [NEU] Heimann, Masters, Bastani et al. |
+| [S10 Lernerfolgskontrolle](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/Selflearn/S10_Lernerfolgskontrolle.md) | Lernziel = Inhalt + Verhalten · Prüfung oder Test · Validität, Reliabilität, Objektivität · Kontrollfehler · Operatoren, Anforderungsbereiche · [NEU] Bezugsnormen, Prüfen mit KI | [NEU] Zinn |
+| [S11 PAL & Synthese](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/Selflearn/S11_PAL_Synthese.md) | PAL: Gründung, Ziele, Fachausschüsse, Weg einer Aufgabe · betrieblicher Auftrag oder PAL · Kurskarte · Antwortmuster | – |
+"""
+SOURCE = Zusammenstellung aus den Selbstlerneinheiten S01–S11; [NEU] = Ergänzung aus der Literatur, keine Originalfolie.
+
+
+# ───────────────────────── 3 · Begriffs-Check ─────────────────────────
+
+[Interactive_Exercise_Template_1.md]
+SLIDE-TITLE = 3a · Begriffs-Check: Methoden und Erkenntnisweg
+NARRATION-0 = Drei Runden mit je drei Fragen – gemischt über die Sitzungen. Zuerst die Methoden.
+Q1-QUESTION = „Das Problem lässt mindestens zwei Lösungen zu.“ – Zu welchem Konzept gehört dieses Kriterium?
+Q1-WRONG-1 = Phasen der Fallstudie nach Kaiser
+Q1-CORRECT = Merkmale der Arbeit an Projekten
+Q1-WRONG-2 = Funktionen der Leittexte
+Q1-HINT = Woran erkennt man ein Projekt im didaktischen Sinn?
+Q1-FEEDBACK = Merkmal 3 der Arbeit an Projekten nach Hortsch (S03, R059–R060). Gibt es nur eine richtige Lösung, ist es eine Übungs- oder Fertigungsaufgabe.
+NARRATION-1 = Jetzt können mehrere Antworten richtig sein.
+Q2-QUESTION = Welche Großformen sind nach Pahl **analytisch** akzentuiert?
+Q2-CORRECT-1 = Diagnoseaufgabe
+Q2-WRONG-1 = Fertigungsaufgabe
+Q2-CORRECT-2 = Konstruktionsanalyse
+Q2-WRONG-2 = Szenariomethode
+Q2-HINT = Wird etwas Vorhandenes untersucht – oder etwas Neues geschaffen?
+Q2-FEEDBACK = Analytisch: Diagnoseaufgabe, Fallstudie, Instandsetzungsanalyse, Konstruktionsanalyse. Fertigungsaufgabe und Szenariomethode sind synthetisch akzentuiert (S06).
+NARRATION-2 = Zum Schluss ein Wort.
+Q3-QUESTION = Bei welcher logischen Methode schließt man von einem bekannten Sachverhalt auf Ursachen zurück – wie beim Radio, das aufhört zu spielen? (ein Wort)
+Q3-ANSWER = reduktiv
+Q3-HINT = regressive und progressive Reaktion …
+Q3-FEEDBACK = Die reduktive Methode (S01b, R032–R033): regressiv Ursachen sammeln, progressiv Vermutungen prüfen – die Grundlage der Diagnoseaufgabe (S06).
+
+
+[Interactive_Exercise_Template_1.md]
+SLIDE-TITLE = 3b · Begriffs-Check: Handlung, Ziele und Kontrolle
+NARRATION-0 = Die zweite Runde: Handlung, Ziele und Kontrolle.
+Q1-QUESTION = Was reguliert nach Hacker und Leontjew die **Operation**?
+Q1-WRONG-1 = ein Motiv
+Q1-CORRECT = ein Teilziel
+Q1-WRONG-2 = ein Ziel
+Q1-HINT = Tätigkeit – Handlung – Operation …
+Q1-FEEDBACK = Motiv → Tätigkeit, Ziel → Handlung, Teilziel → Operation (S02, R046).
+NARRATION-1 = Jetzt können mehrere Antworten richtig sein.
+Q2-QUESTION = Welche Aussagen zu den Gütekriterien stimmen?
+Q2-CORRECT-1 = Ein reliabler Test ist nicht automatisch valide.
+Q2-WRONG-1 = Objektivität bezieht sich nur auf die Auswertung.
+Q2-CORRECT-2 = Ein eindeutiger Lösungsschlüssel sichert die Auswertungsobjektivität.
+Q2-WRONG-2 = Validität heißt, dass ein Test bei Wiederholung dieselben Ergebnisse liefert.
+Q2-HINT = Valide – misst, was er messen soll. Reliabel – misst genau.
+Q2-FEEDBACK = Wiederholung mit denselben Ergebnissen ist Reliabilität; Objektivität betrifft Durchführung, Auswertung und Interpretation (S10, R174–R178).
+NARRATION-2 = Zum Schluss eine Zahl.
+Q3-QUESTION = Wie viele Stufen hat die Taxonomie von Selbständigkeit im Handeln? (Zahl)
+Q3-ANSWER = 5
+Q3-HINT = Von nachvollziehen bis entwerfen …
+Q3-FEEDBACK = Fünf: nachvollziehen, anpassen, auswählen, kombinieren, eigene entwerfen (S02, R045).
+
+
+[Interactive_Exercise_Template_1.md]
+SLIDE-TITLE = 3c · Begriffs-Check: Inhalte, Medien, Sozialformen
+NARRATION-0 = Die dritte Runde: Inhalte, Medien und Sozialformen.
+Q1-QUESTION = „Die neue Aussage gilt für dieselben Fälle, ist aber anschaulicher.“ – Welche Art der didaktischen Reduktion ist das?
+Q1-WRONG-1 = vertikale Reduktion
+Q1-CORRECT = horizontale Reduktion
+Q1-WRONG-2 = Tilgung untergeordneter Aussagen
+Q1-HINT = Bleibt der Gültigkeitsumfang erhalten?
+Q1-FEEDBACK = Horizontal: Der Gültigkeitsumfang bleibt erhalten – Veranschaulichung von abstrakt nach konkret (Grüner, S07, R131).
+NARRATION-1 = Jetzt können mehrere Antworten richtig sein.
+Q2-QUESTION = Welche Merkmale nennt Jessipow für **selbstständige** Schülerarbeit?
+Q2-CORRECT-1 = eine Aufgabenstellung durch die Lehrkraft mit angemessener Zeit
+Q2-WRONG-1 = Arbeit ganz ohne Hilfe der Lehrkraft
+Q2-CORRECT-2 = die Notwendigkeit, die besten Lösungswege selbst zu suchen
+Q2-WRONG-2 = Arbeit in Gruppen
+Q2-HINT = Zwei Merkmale – beide müssen erfüllt sein.
+Q2-FEEDBACK = Beide Merkmale nach Jessipow (S08, R155). Selbstständige Aktionsformen sind nicht ganz ohne Hilfe der Lehrkraft möglich, und auch Einzelarbeit kann selbstständig sein.
+NARRATION-2 = Zum Schluss eine Zahl.
+Q3-QUESTION = Auf welcher Stufe der Pyramide der Wirklichkeitserfahrung (R162) stehen Experimente und Demonstrationen? (Zahl)
+Q3-ANSWER = 3
+Q3-HINT = Direkte Erfahrungen sind die Stufen 1 bis 3.
+Q3-FEEDBACK = Stufe 3 – die letzte der direkten Erfahrungen; Simulation und Rollenspiel stehen auf Stufe 2 (S09).
+
+
+[Interactive_Exercise_Template_2.md]
+SLIDE-TITLE = 3d · Wer gehört wozu? Autoren und Modelle
+NARRATION-0 = In der Prüfung hilft es, Modelle mit ihrem Autor zu nennen. Ergänzen Sie den Text.
+GAP-TEXT-1 = Das Grundmuster der Projektmethode mit Fixpunkten und Metainteraktionen stammt von
+GAP-1-CORRECT = Frey
+GAP-1-WRONG-1 = Kaiser
+GAP-1-WRONG-2 = Pahl
+GAP-TEXT-2 = (S03). Die vier Varianten und sechs Phasen der Fallstudie beschreibt (Nachname)
+GAP-2-ANSWER = Kaiser
+GAP-TEXT-3 = (S04), das didaktische Reduktionsfeld mit sechs Entscheidungsschritten
+GAP-3-CORRECT = Arnold
+GAP-3-DISTRACTOR = Grüner
+GAP-TEXT-4 = (S07).
+GAP-HINT = Frey: Projekt · Kaiser: Fallstudie · Arnold: Reduktionsfeld · Grüner: Arten der Reduktion.
+NARRATION-1 = Entscheiden Sie jetzt: richtig oder falsch?
+STATEMENT-1 = Die zwölf Thesen zum handlungsorientierten Unterricht stammen von Hortsch.
+STATEMENT-2 = Das Phasenmodell des Experiments, das mit dem Beobachten eines Phänomens beginnt, stammt von Bernard.
+STATEMENT-3 = Die Merkmale einer Bewertungssituation gehen auf Heckhausen zurück.
+STATEMENT-4 = Die methodischen Großformen stammen aus dem Kompendium von Jessipow.
+TF-HINT = Bader beginnt mit dem Phänomen; die Großformen stammen von Pahl.
+TF-FEEDBACK = Richtig: Hortsch (S02), Heckhausen (S04). Falsch: Mit dem Phänomen beginnt Bader, nicht Bernard (S05); die Großformen stammen von Pahl, Jessipow nennt die Merkmale selbstständiger Schülerarbeit (S06, S08).
+
+
+# ───────────────────────── 4 · Querverbindungen ─────────────────────────
+
+[Concept_Explanation_Template_2.md]
+SLIDE-TITLE = 4a · Projekt oder Leittext?
+NARRATION-0 = Projektmethode (S03) und Leittextmethode (S05) lassen die Lernenden selbstständig arbeiten – und werden in Prüfungen gern verwechselt. Vergleichen Sie an vier Kriterien.
+CONCEPT-A = Projektmethode
+CONCEPT-B = Leittextmethode
+CRITERION-1 = Ausgangspunkt
+A-1 = Projektinitiative: ein Anlass, eine Idee, ein Problem – idealerweise von den Lernenden
+B-1 = eine vorgegebene praktische Aufgabe, z. B. ein Werkstück fertigen
+CRITERION-2 = Lösungsoffenheit
+A-2 = mindestens zwei Lösungen (Merkmal 3); Ergebnis mit Gebrauchswert
+B-2 = der Weg wird selbst erarbeitet, das Ergebnis ist meist festgelegt (fachgerecht gefertigt)
+CRITERION-3 = Steuerung
+A-3 = Selbstorganisation; Fixpunkte und Metainteraktionen; die Lehrkraft moderiert
+B-3 = Leitfragen; Fachgespräche mit dem Ausbilder beim Entscheiden und Bewerten
+CRITERION-4 = Gerüst
+A-4 = Initiative – Skizze – Plan – Durchführung – Beendigung, getragen von der vollständigen Handlung (S02)
+B-4 = Informieren – Planen – Entscheiden – Ausführen – Kontrollieren – Bewerten = vollständige Handlung (S02)
+NARRATION-1 = Je ein Beispiel aus dem Modul.
+EXAMPLE-A = Bewässerung für den Schulgarten: Bedarf erkunden, zwei Lösungsideen vergleichen, Anlage übergeben.
+EXAMPLE-B = Gewinde M8 nach Leittext: Leitfragen führen zum Kernlochdurchmesser im Tabellenbuch, ein Kontrollbogen prüft das Ergebnis.
+NARRATION-2 = Ein typisches Missverständnis:
+MISCONCEPTION = „Jede selbstständige Gruppenarbeit an einem Werkstück ist ein Projekt.“ – Ohne Lösungsalternativen und Selbstorganisation (Merkmale 3 und 9) ist es eher eine Leittext- oder Fertigungsarbeit.
+NARRATION-3 = Ordnen Sie zu.
+STATEMENT-1 = Die Lernenden bringen eine Initiative ein und entwickeln daraus eine Skizze.
+STATEMENT-2 = Ein Kontrollbogen hilft zu prüfen, ob der Auftrag fachgerecht gefertigt ist.
+STATEMENT-3 = Fixpunkte und Metainteraktionen werden jederzeit eingeschoben.
+STATEMENT-4 = Beim Entscheiden und Bewerten steht ein Fachgespräch mit dem Ausbilder.
+CLASSIFY-HINT = Skizze, Fixpunkte: Frey · Kontrollbogen, Fachgespräch: Leittext.
+CLASSIFY-FEEDBACK = Projekt: Initiative und Skizze, Fixpunkte und Metainteraktionen (Frey, S03). Leittext: Kontrollbogen und Fachgespräche (R092, S05).
+
+
+[Concept_Explanation_Template_2.md]
+SLIDE-TITLE = 4b · Fallstudie oder Experiment?
+NARRATION-0 = Fallstudie (S04) und technisches Experiment (S05) enden beide mit einem Vergleich – aber mit ganz verschiedenen Erkenntniswegen.
+CONCEPT-A = Fallstudie
+CONCEPT-B = Technisches Experiment
+CRITERION-1 = Ausgangspunkt
+A-1 = eine Problemsituation aus der Praxis, als Fall dargestellt
+B-1 = ein technisches oder naturwissenschaftliches Phänomen
+CRITERION-2 = Erkenntnisweg
+A-2 = Problem erkennen, Informationen gewinnen, Lösungen ermitteln und entscheiden
+B-2 = induktiv: vom Versuch unter kontrollierten Bedingungen zur Regel
+CRITERION-3 = Vergleich am Ende
+A-3 = Kollation: eigene Lösung mit der Entscheidung in der Wirklichkeit vergleichen
+B-3 = Aussage formulieren: Hypothese stützen oder falsifizieren
+CRITERION-4 = Großform (S06)
+A-4 = analytisch akzentuiert
+B-4 = induktiv akzentuiert
+NARRATION-1 = Je ein Beispiel aus dem Modul.
+EXAMPLE-A = Druckluftanlage: Kompressor mit Wärmerückgewinnung oder Standardkompressor – und wie hat der Betrieb entschieden?
+EXAMPLE-B = Zugversuch: Erfolgt die Dehnung proportional zur Spannung, und wo liegt die Proportionalitätsgrenze?
+NARRATION-2 = Ein typisches Missverständnis:
+MISCONCEPTION = „Wenn die Lehrkraft vorn einen Versuch vorführt, ist das ein Experiment.“ – Ohne induktiven Erkenntnisweg der Lernenden ist es eine Vorführung zur Veranschaulichung (S05).
+NARRATION-3 = Ordnen Sie zu.
+STATEMENT-1 = Am Ende wird die eigene Lösung mit der Entscheidung in der Wirklichkeit verglichen.
+STATEMENT-2 = Eine Hypothese wird gebildet und an Messwerten geprüft.
+STATEMENT-3 = Es gibt vier Varianten mit unterschiedlichen Schwerpunkten.
+STATEMENT-4 = Variablen, Konstanten und Randbedingungen werden geplant.
+CLASSIFY-HINT = Kollation und Varianten: Kaiser · Hypothese und Randbedingungen: Bader.
+CLASSIFY-FEEDBACK = Fallstudie: Kollation, vier Varianten nach Kaiser (S04). Experiment: Hypothese, Planung mit Variablen und Randbedingungen (Bader, S05).
+
+[Exam_Questions_Template_1.md]
+SLIDE-TITLE = 4c · Querschnittsfragen I: Handlung und Methode
+NARRATION-0 = Querschnittsfragen verbinden mehrere Sitzungen – genau das belohnt eine mündliche Prüfung. Die erste Serie dreht sich um Handlung und Methode.
+METHOD = Lesen Sie eine Frage und antworten Sie **laut** in höchstens drei Minuten – nach dem Muster **Begriff – Erläutern – Beispiel – Verbinden**. Öffnen Sie erst danach die Antwortskizze und vergleichen Sie: Was fehlte, was war ungenau? Noch besser: Lassen Sie sich von einer Kommilitonin oder einem Kommilitonen abfragen.
+Q1-TOPIC = Vollständige Handlung
+Q1 = Zeigen Sie an drei Methoden des Moduls, welche Rolle die vollständige Handlung spielt.
+A1 = """
+- **1 Begriff:** Vollständige Handlung nach Hacker: Orientieren – Richten – Entwerfen – Entscheiden – Durchführen – Kontrollieren (S02, R047–R048); Grundstruktur handlungsorientierten Unterrichts (Hortsch, These 9; Bünning, Merkmal 5).
+- **2 Erläutern:** Sie ist das **Gerüst** vieler Methoden: Projekt – Skizze, Plan und Bewertung durch die Lernenden (S03, S04); Leittext – Informieren, Planen, Entscheiden, Ausführen, Kontrollieren, Bewerten (S05); Experiment nach Bader – von der Frage über Planung und Durchführung zur Reflexion (S05); Großformen – gemeinsames Gerüst plus intuitive Phase und Transfer (S06).
+- **3 Beispiel:** Leittext „Gewinde M8“: Leitfragen, Arbeitsplan, Fachgespräch, Fertigen, Kontrollbogen, Fachgespräch.
+- **4 Verbinden:** Entscheidend ist, **wer** die Schritte ausführt – je mehr die Lernenden übernehmen, desto höher die Stufe der Selbständigkeit (S02) und desto eher ist die Arbeit selbstständig nach Jessipow (S08).
+"""
+Q2-TOPIC = Selbstständigkeit gestalten
+Q2 = Wie hängen Handlungsorientierung (S02), selbstständige Schülerarbeit (S08) und die Rolle der Lehrkraft im Projekt (S03) zusammen?
+A2 = """
+- **1 Begriff:** HoU stellt den Lernenden als handelndes Individuum in den Mittelpunkt; die Lehrkraft schafft **Lernbedingungen** (Hortsch). Selbstständige Schülerarbeit verlangt nach Jessipow eine Aufgabe mit angemessener Zeit und die Notwendigkeit, Lösungswege selbst zu suchen.
+- **2 Erläutern:** Selbstständigkeit entsteht nicht durch Abwesenheit der Lehrkraft, sondern durch **Gestaltung**: Stufen der Selbständigkeit (S02), mittelbare Führung über Aufgabe und Material (S08), im Projekt viel Arbeit **vorher** und Moderation statt Steuerung (zwölf Schritte nach Hortsch, S03).
+- **3 Beispiel:** Schulgarten-Bewässerung: Die Lehrkraft prüft vorher die Realisierbarkeit und stellt Kontakte her; die Klasse plant, entscheidet und bewertet selbst.
+- **4 Verbinden:** [NEU] Cognitive Apprenticeship (Zinn 2026) beschreibt den Weg dorthin: Modeling, Coaching, Scaffolding, Fading – bis zur Exploration (S08).
+"""
+Q3-TOPIC = Projekt und Fallstudie
+Q3 = Vergleichen Sie Projektmethode und Fallstudie: Woher kommt das Problem, was entsteht, und wie wird bewertet?
+A3 = """
+- **1 Begriff:** Projekt: Vorhaben mit Problemlösungsstrukturen, mindestens zwei Lösungen und Gebrauchswert (Hortsch, S03). Fallstudie: komplexes Unterrichtsverfahren zu einer Problemsituation aus der Praxis (Kaiser, S04).
+- **2 Erläutern:** Im Projekt kommt die Initiative idealerweise von den Lernenden; es entsteht ein **Produkt** mit Gebrauchswert; bewertet wird gemeinsam und prozessorientiert (Selbst → gegenseitig → Lehrkraft, nach Kersten). In der Fallstudie ist der Fall **gegeben**; es entsteht eine **Entscheidung**; am Ende steht die Kollation mit der realen Entscheidung.
+- **3 Beispiel:** Projekt: eine Bewässerung für den Schulgarten bauen. Fallstudie: Kompressor mit Wärmerückgewinnung oder Standardkompressor?
+- **4 Verbinden:** Beide sind problemorientiert und folgen der vollständigen Handlung. Effizienzkriterien (S05): Group Projects motivieren, die Case Method diagnostiziert und formuliert Lösungen. In S06 ist die Fallstudie eine analytisch akzentuierte Großform.
+"""
+Q4-TOPIC = Induktion als roter Faden
+Q4 = Wo begegnet Ihnen der induktive Erkenntnisweg im Modul – und wo liegen seine Grenzen?
+A4 = """
+- **1 Begriff:** Induktiv = vom Besonderen zum Allgemeinen, Schrittfolge Fall → Lösung → Regel (S01b, R024).
+- **2 Erläutern:** S01b: HOOKE'sches Gesetz aus Zugversuchen. S05: Das Experiment ist eine Unterrichtskonzeption mit induktivem Erkenntnisweg; Bader beginnt mit einem Phänomen. S06: das technische Experiment als induktiv akzentuierte Großform. S07 [NEU]: Die Reduktion durch Generalisierung ist ein induktiver Schluss.
+- **3 Beispiel:** „Flüssigkeiten und Festkörper dehnen sich bei Erwärmung aus“ gilt nicht für Wasser zwischen 0 °C und 4 °C – die Verallgemeinerung war nicht sicher.
+- **4 Verbinden:** Grenze: Ein Fall reicht nicht zum Erkennen des Allgemeinen (R027); [NEU] der induktive Schluss überträgt die Gültigkeit nicht mit Sicherheit (Dilling 2024). Deshalb: induktiv finden, deduktiv anwenden, an neuen Fällen prüfen.
+"""
+Q5-TOPIC = Methodenwahl begründen
+Q5 = Wie wählen Sie eine Unterrichtsmethode begründet aus? Nutzen Sie Kriterien aus mindestens drei Sitzungen.
+A5 = """
+- **1 Begriff:** Eine Unterrichtsmethode ist der prinzipielle Weg, den Lehrer und Schüler beschreiten, um die Ziele des Unterrichts zu erreichen (Meyer & Hilbert, S01) – nie Selbstzweck.
+- **2 Erläutern:** **Ziel zuerst** (Kurskarte S01; [NEU] Berliner Modell, S09). **Effizienzkriterien:** Welche Methode ist für dieses Ziel am stärksten? (Papaloizos & Stiefel, S05). **Lernende:** Vorwissen und Abstraktionsfähigkeit (S01b), Stufe der Selbständigkeit (S02). **Gegenstand:** Struktur und Problemlage (S01b), berufliche Aufgabenart (Großformen, S06). [NEU] Sozialformen nicht aus Gewohnheit oder Abwechslung wählen (Zinn, S08).
+- **3 Beispiel:** Ziel „ein Kundengespräch über eine Reparatur führen“ → Kommunizieren → Rollenspiel (S04). Ziel „einen Fehler systematisch eingrenzen“ → Diagnoseaufgabe (S06).
+- **4 Verbinden:** Constructive Alignment (S10): Die Methode muss das Verhalten üben, das später geprüft wird.
+"""
+NARRATION-1 = Schätzen Sie zum Schluss ein, wie sicher Sie sind. Wiederholen Sie die unsicheren Fragen in einigen Tagen – und üben Sie fächerübergreifend mit dem Prüfungstrainer.
+SOURCE = Die Prüfungsfragen sind experimentell: Sie dienen der Vorbereitung, es ist nicht garantiert, dass Fragen in dieser Form gestellt werden. Die Antwortskizzen zeigen eine mögliche Antwort – üben Sie das Argumentieren, nicht das Auswendiglernen.
+
+[Exam_Questions_Template_1.md]
+SLIDE-TITLE = 4d · Querschnittsfragen II: Ziele, Inhalte, Medien und Kontrolle
+NARRATION-0 = Die zweite Serie verbindet Ziele, Inhalte, Medien und Kontrolle – und die Besonderheit der Technik aus S01.
+METHOD = Lesen Sie eine Frage und antworten Sie **laut** in höchstens drei Minuten – nach dem Muster **Begriff – Erläutern – Beispiel – Verbinden**. Öffnen Sie erst danach die Antwortskizze und vergleichen Sie: Was fehlte, was war ungenau? Noch besser: Lassen Sie sich von einer Kommilitonin oder einem Kommilitonen abfragen.
+Q1-TOPIC = Soll-Ist-Vergleich
+Q1 = Der Soll-Ist-Vergleich taucht im Modul mehrfach auf. Erläutern Sie ihn an drei Stellen.
+A1 = """
+- **1 Begriff:** Ein Ist-Zustand wird mit einem vorher festgelegten **Soll** verglichen; daraus folgt eine Entscheidung oder ein Urteil.
+- **2 Erläutern:** **Handlungsregulation** (S02, S04): TOTE – testen, handeln, erneut testen, Exit bei Übereinstimmung; VVR nach Hacker. **Bewertung** (S04): Leistung (Ist) und Maßstab aus Bewertungskriterien (Soll) ergeben das Urteil (R070). **Fallstudie** (S04): Kollation mit der realen Entscheidung. **Lernkontrolle** (S10): Hat der Lernende das Ziel erreicht?
+- **3 Beispiel:** Ventilspiel mit der Fühlerlehre einstellen (TOTE); ein Werkstück mit einer Toleranz von ±0,1 mm bewerten (pädagogischer Soll-Ist-Vergleich).
+- **4 Verbinden:** Ohne klares **Soll** kein fairer Vergleich: Lernende brauchen Soll und Prüfmittel (S04), Lehrkräfte einen Erwartungshorizont (S10); nach Heckhausen muss der Maßstab subjektiv verbindlich sein.
+"""
+Q2-TOPIC = Constructive Alignment
+Q2 = Erläutern Sie Constructive Alignment und zeigen Sie, wo es im Modul eine Rolle spielt.
+A2 = """
+- **1 Begriff:** Ziele, Unterricht und Prüfung passen zusammen; auf der Folie: „Es darf nur geprüft werden, was auch gelehrt worden ist“ (R170).
+- **2 Erläutern:** Ein Lernziel besteht aus Inhalt und Verhalten auf einer Stufe (Wissen, Verstehen, Anwenden, Problemlösen); Operatoren und Anforderungsbereiche machen das Verhalten prüfbar (S10). Die Methode muss dieses Verhalten üben (Effizienzkriterien, S05). Die Prüfung ist dann **valide** für das, was gelernt werden sollte.
+- **3 Beispiel:** Wer in der Klassenarbeit eine Fehlersuche verlangt, muss Fehlersuche vorher üben – etwa in einer Diagnoseaufgabe (S06).
+- **4 Verbinden:** Kritik am programmierten Teil der PAL-Prüfung (S11) und an Projektbewertungen, die nur das Produkt bewerten (Kersten, S04): Beide verfehlen das eigentliche Ziel.
+"""
+Q3-TOPIC = Reduktion und Medien
+Q3 = Wie hängen didaktische Reduktion (S07) und Medienwahl (S09) zusammen?
+A3 = """
+- **1 Begriff:** Horizontale Reduktion = Veranschaulichung bei gleichem Gültigkeitsumfang (Grüner, S07); Medien = Vermittlungshilfen oder Mittler im Lernprozess (S09).
+- **2 Erläutern:** Viele Medien sind Mittel der horizontalen Reduktion: Prinzipskizze, Kennlinie, Experiment, Animation, Analogie (Reduktionsmethoden nach Grüner, R130). Die Pyramide der Wirklichkeitserfahrung (R162) zeigt, wie konkret oder symbolisch eine Darstellung ist. [NEU] EIS-Prinzip: enaktiv – ikonisch – symbolisch (Zinn, S07).
+- **3 Beispiel:** Das Ohm'sche Gesetz als Formel, Kennlinie, Satz oder Merkregel (Arnold, R136) – vier Darstellungen, ein Gültigkeitsumfang. Eine Simulation macht Unsichtbares zugänglich, ist aber selbst ein vereinfachtes Modell (S09).
+- **4 Verbinden:** Nach Arnold zuerst horizontal reduzieren, dann vertikal. Merksatz R161: erst Ziel und Inhalt, dann das Medium.
+"""
+Q4-TOPIC = KI beim Lernen und Prüfen
+Q4 = Welche Chancen und Risiken hat KI für Lernen und Prüfen? Beziehen Sie mindestens zwei Sitzungen ein.
+A4 = """
+- **1 Begriff:** [NEU] Generative KI lässt sich mit den Funktionen der Medien (R159) einordnen: als Demonstrations-, Arbeits- und Motivationsmittel (S09).
+- **2 Erläutern:** Chancen: Tutor, Feedback, Umformung von Material, individuelle Erklärungen. Risiko: Krücke statt Tutor – bei Bastani et al. (2025) verbesserte frei nutzbare KI die Übungs-, verschlechterte aber die Prüfungsleistung ohne KI; eine Tutor-Variante mit Hinweisen statt Lösungen hob den Nachteil weitgehend auf. Prüfen (S10): Die Validität einer Hausarbeit ist fraglich, wenn unklar ist, wer sie gelöst hat.
+- **3 Beispiel:** Ein Harness mit Systemprompt, Wissensbasis, Leitplanken („Hinweise statt Lösungen“) und Grenzen (S09).
+- **4 Verbinden:** KI darf das Planen, Entscheiden und Kontrollieren nicht übernehmen – sonst sinkt die Selbständigkeit (S02, S08). KMK (2024): Prüfungskultur weiterentwickeln.
+"""
+Q5-TOPIC = Technik ist nicht angewandte Physik
+Q5 = „Technikunterricht ist im Grunde angewandte Physik.“ – Nehmen Sie Stellung und zeigen Sie Folgen für Methoden und Inhalte.
+A5 = """
+- **1 Begriff:** Technikwissenschaften untersuchen technische Systeme, bewerten nach **Richtigkeit und Zweckmäßigkeit** und arbeiten integrierend mit der **Zweck-Mittel-Relation** (S01, R003–R006).
+- **2 Erläutern:** Folgen für Methoden: Probleme mit mehreren Lösungen (Projektmerkmal 3, S03); Gestaltungs- und Wertungsprobleme mit den Prüfkriterien Tauglichkeit und Zweckmäßigkeit (R064); das technische Experiment fragt, ob ein Gebilde seinen Zweck erfüllt (S05); Großformen orientieren sich an beruflichen Aufgabenarten (S06). Folge für Inhalte: Eine Reduktion muss **richtig** bleiben (Grüner, S07).
+- **3 Beispiel:** Steckdose im Bad: Die Physik erklärt die Gefahr; die technische Frage ist die vorgeschriebene und zweckmäßige Schutzmaßnahme.
+- **4 Verbinden:** Fazit: Technikunterricht nutzt Physik, ist aber nicht darauf reduzierbar – er lehrt das **Entscheiden zwischen Mitteln**.
+"""
+NARRATION-1 = Schätzen Sie zum Schluss ein, wie sicher Sie sind. Wiederholen Sie die unsicheren Fragen in einigen Tagen – und üben Sie fächerübergreifend mit dem Prüfungstrainer.
+SOURCE = Die Prüfungsfragen sind experimentell: Sie dienen der Vorbereitung, es ist nicht garantiert, dass Fragen in dieser Form gestellt werden. Die Antwortskizzen zeigen eine mögliche Antwort – üben Sie das Argumentieren, nicht das Auswendiglernen.
+
+# ───────────────────────── 5 · Ein Fall ─────────────────────────
+
+[Application_Transfer_Template_1.md]
+SLIDE-TITLE = 5 · Ein Fall: eine Unterrichtseinheit begründen
+NARRATION-0 = Eine typische Prüfungssituation: Sie bekommen einen Fall und sollen eine Unterrichtsentscheidung mit Begriffen aus mehreren Sitzungen begründen.
+IMAGE-ALT = Eine Auszubildende arbeitet an einer Drehmaschine in einer Lehrwerkstatt, im Hintergrund weitere Auszubildende
+IMAGE-PATH = https://commons.wikimedia.org/wiki/Special:FilePath/Bundesarchiv_Bild_183-14750-0002,_Bautzen,_Auszubildener_beim_Drehen.jpg?width=800
+IMAGE-CAPTION = Auszubildende beim Drehen, Bautzen 1952 · Foto: Klein, Bundesarchiv Bild 183-14750-0002 · CC BY-SA 3.0 DE · Wikimedia Commons
+CASE-TEXT = **Fall:** Sie unterrichten eine Berufsschulklasse Industriemechanik im 2. Ausbildungsjahr, Lernfeld „Technische Systeme instand halten“. In der Lehrwerkstatt steht ein Getriebemotor, der beim Anlauf laute Geräusche macht. Die Prüferin fragt: „Wie würden Sie dazu eine Unterrichtseinheit von etwa sechs Stunden planen – und warum so?“ *(Übungsfall, eigene Darstellung.)*
+DATA-LABEL-1 = Lerngruppe
+DATA-VALUE-1 = 2. Ausbildungsjahr, 18 Auszubildende, unterschiedliche Schulabschlüsse
+DATA-LABEL-2 = Gegenstand
+DATA-VALUE-2 = Getriebemotor mit Anlaufgeräusch; ein Schnittmodell eines Getriebes ist vorhanden
+DATA-LABEL-3 = Zeit und Ort
+DATA-VALUE-3 = sechs Unterrichtsstunden, Lehrwerkstatt und Klassenraum
+QUESTIONS-TITLE = Übung 5: Die Einheit begründen
+NARRATION-Q-0 = Beantworten Sie drei Fragen in Stichpunkten – dann laut in höchstens drei Minuten.
+QUESTION-1 = Welche methodische Großform oder Methode wählen Sie – und wie begründen Sie die Wahl mit Begriffen aus mindestens zwei Sitzungen?
+MODEL-ANSWER-1 = Eine **Diagnoseaufgabe** (analytisch akzentuierte Großform, S06): Ein vorhandenes Fehlverhalten wird untersucht – Zustand identifizieren, Signale verfolgen, Fehlerquellen eingrenzen, Fehler bestimmen. Begründung: Sie folgt der **vollständigen Handlung** (S02) und lässt die Lernenden planen und entscheiden; eine **intuitive Phase** aktiviert Vorwissen (Vermutungen zum Geräusch); die Fehlersuche ist **reduktiv** – regressiv Ursachen sammeln, progressiv prüfen (S01b). Alternative: zuerst eine Instandsetzungsanalyse eines dokumentierten Schadensfalls, dann die eigene Instandsetzungsaufgabe (Analyse vor Synthese, S06).
+NARRATION-Q-1 = Die zweite Frage: Inhalt, Medien, Sozialformen.
+QUESTION-2 = Wie reduzieren Sie den Inhalt, und welche Medien, Sozial- und Aktionsformen setzen Sie ein?
+MODEL-ANSWER-2 = **Reduktion (S07):** zuerst horizontal – Schnittmodell, Geräuschprobe, Prinzipskizze statt Berechnung; vertikal I – auf die Herleitung von Lagerlebensdauern verzichten; vertikal II – zunächst nur Lager- und Verzahnungsschäden betrachten und das ausdrücklich sagen. **Medien (S09):** Realgegenstand und Schnittmodell (direkte Erfahrung, Demonstrations- und Arbeitsmittel), Herstellerunterlagen. **Sozial- und Aktionsformen (S08):** Vormachen der Geräuschprüfung frontal (darbietend), Diagnose in aufgabengleichen, arbeitsgleichen Gruppen (selbstständig), Ergebnisvergleich im Unterrichtsgespräch (erarbeitend).
+NARRATION-Q-2 = Und die dritte Frage: Kontrolle und Bewertung.
+QUESTION-3 = Wie kontrollieren und bewerten Sie den Lernerfolg?
+MODEL-ANSWER-3 = **Ziel und Kontrolle passen zusammen (S10):** Ziel auf der Stufe Problemlösen („die Ursache eines Getriebegeräuschs systematisch eingrenzen“) → Kontrolle als Diagnose an einem neuen Fall, nicht als Abfrage von Begriffen. **Objektivität:** Erwartungshorizont mit Kriterien für Vorgehen, Begründung und Ergebnis; Hof-Effekt bewusst vermeiden. **Prozess vor Produkt (S04):** Selbsteinschätzung der Gruppen, gegenseitige Einschätzung, dann begründetes Urteil der Lehrkraft. Bezug S11: Eine Situationsaufgabe dieser Art ähnelt einer handlungsorientierten Prüfungsaufgabe.
+
+
+# ───────────────────────── 6 · Prüfungssimulation ─────────────────────────
+
+[Random_Question_Template_1.md]
+SLIDE-TITLE = 6 · Prüfungssimulation: eine Frage ziehen
+NARRATION-0 = Jetzt wird es ernst. Ziehen Sie eine zufällige Frage aus dem ganzen Modul – aus den Prüfungsfragen aller Selbstlerneinheiten und den Querschnittsfragen dieses Trainers.
+INSTRUCTION = **So geht's:** Lesen Sie die Frage, antworten Sie **laut** in höchstens drei Minuten nach dem Muster *Begriff – Erläutern – Beispiel – Verbinden* und stellen Sie sich danach selbst eine Nachfrage: „Können Sie das an einem Beispiel aus Ihrer Fachrichtung zeigen?“ Zu zweit geht es noch besser: Eine Person zieht und fragt, die andere antwortet.
+POOL = @auto-exam-pool
+NARRATION-1 = Vergleichen Sie danach mit der Antwortskizze.
+TIP = Die Antwortskizze steht in der genannten Einheit auf der Seite mit den Prüfungsfragen. Notieren Sie die Fragen, bei denen Sie gestockt haben, und ziehen Sie in einigen Tagen erneut – verteiltes Üben hält länger als eine lange Sitzung am Vortag.
+
+
+[Open_Task_Template_1.md]
+SLIDE-TITLE = Üben mit KI: Lassen Sie sich prüfen
+NARRATION-0 = Ein KI-Werkzeug kann die Rolle der Prüferin übernehmen – mit einem Prompt nach dem Bauplan aus S09: Rolle, Zielgruppe, Ziel, Format, Grenzen.
+TASK = """
+Kopieren Sie den Prompt in ein KI-Werkzeug Ihrer Hochschule und ergänzen Sie die Themen:
+
+```text
+Du bist Prüferin in einer mündlichen Prüfung zur Fachdidaktik technischer Fachrichtungen (berufliche Bildung).
+Stelle mir nacheinander drei Fragen zu diesen Themen: <z. B. Projektmethode, didaktische Reduktion, Gütekriterien>.
+Warte nach jeder Frage auf meine Antwort.
+Gib danach kurz Rückmeldung: Ist die Antwort nach Begriff – Erläutern – Beispiel – Verbinden aufgebaut? Was fehlt? Welche Nachfrage würdest du stellen?
+Erfinde keine Literatur. Wenn du unsicher bist, sage es.
+```
+
+Beantworten Sie die Fragen schriftlich in Stichpunkten oder – besser – per Spracheingabe. Notieren Sie hier, was die Rückmeldung ergeben hat.
+"""
+HINT = Geben Sie keine personenbezogenen Daten ein. Maßstab sind die Selbstlerneinheiten und die Folien, nicht die KI – prüfen Sie jede Rückmeldung mit den Antwortskizzen.
+MODEL-ANSWER = Ein gelungener Durchgang: Die KI fragt „Was ist didaktische Reduktion?“. Sie antworten mit Grüners Definition und der Bedingung der Korrektheit, unterscheiden vertikal und horizontal, nennen das Ohm'sche Gesetz als Kennlinie und verbinden mit S01 (Richtigkeit). Achten Sie darauf, ob die KI **nachfragt** – genau das passiert auch in der Prüfung. Widerspricht die Rückmeldung einer Einheit, gilt die Einheit.
+
+
+# ───────────────────────── 7 · Abschluss ─────────────────────────
+
+[Discussion_Template_2.md]
+SLIDE-TITLE = 7 · Noch einmal: Reicht Auswendiglernen?
+NARRATION-0 = Zum Schluss noch einmal die These vom Anfang.
+VOTE-QUESTION = Stimmen Sie der These „Für die mündliche Prüfung reicht es, die Definitionen auswendig zu können.“ zu?
+OPTION-A = Ja, ich stimme zu
+OPTION-B = Nein, ich stimme nicht zu
+OPTION-C = Teils, teils
+NARRATION-1 = Was ist Ihnen noch unklar?
+REFLECT-QUESTION = Welche Fragen nehmen Sie mit in die Prüfungsvorbereitung am 18.01.2027?
+NARRATION-2 = Eine Einordnung:
+KEY-MESSAGE = Definitionen sind der **Anfang** einer Antwort, nicht die Antwort. Eine mündliche Prüfung fragt nach Erläuterungen, Beispielen und Verbindungen – das lässt sich üben, aber nicht auswendig lernen.
+
+
+[Summary_Recap_Template_1.md]
+SLIDE-TITLE = Das Wichtigste für die Prüfung
+NARRATION-0 = Fassen wir zusammen.
+NARRATION-1 = Erstens: die Struktur.
+TAKEAWAY-1 = Antworten Sie nach dem Muster Begriff – Erläutern – Beispiel – Verbinden und sagen Sie die Struktur an.
+NARRATION-2 = Zweitens: die Karte.
+TAKEAWAY-2 = Die Kurskarte ordnet jede Frage: Ausgangslage, Ziele, Inhalte, Medien, Methoden mit vier Leitfragen.
+NARRATION-3 = Drittens: die roten Fäden.
+TAKEAWAY-3 = Vollständige Handlung (S02–S06) · Soll-Ist-Vergleich (S02, S04, S10) · Induktion (S01b, S05, S07) · Richtigkeit technischer Aussagen (S01, S03, S07).
+NARRATION-4 = Und viertens: Ihre Beispiele.
+TAKEAWAY-4 = Bereiten Sie zu jeder Sitzung ein Beispiel aus Ihrer Fachrichtung vor.
+REMEMBER = Argumentieren statt Auswendiglernen – Begriffe öffnen eine Antwort, Beispiele und Verbindungen tragen sie.
+NARRATION-5 = Eine letzte Frage.
+RECAP-QUESTION = Welcher rote Faden verbindet Projektmethode, Leittextmethode, Experiment und methodische Großformen?
+RECAP-WRONG-1 = der Grad der Wirklichkeitserfahrung
+RECAP-WRONG-2 = die vertikale didaktische Reduktion
+RECAP-CORRECT = die vollständige Handlung
+RECAP-HINT = Orientieren, richten, entwerfen, entscheiden …
+RECAP-FEEDBACK = Richtig: Die vollständige Handlung nach Hacker (S02) ist das Gerüst dieser Methoden (S03, S05, S06).
+NARRATION-6 = Und was kommt danach?
+OUTLOOK = Prüfungsvorbereitung am 18.01.2027 – bringen Sie Ihre offenen Fragen mit. Bis dahin: Abschnitt 6 dieses Trainers so oft wie möglich.
+
+
+[Summary_Recap_Template_3.md]
+SLIDE-TITLE = Rückblick
+NARRATION-0 = Nehmen Sie sich zwei Minuten für einen Rückblick und vergleichen Sie mit Ihrer Einschätzung aus Abschnitt 0.
+NARRATION-1 = Haken Sie ab, was Sie jetzt können.
+CAN-DO-1 = Ich kann jede Sitzung der Kurskarte zuordnen und ihre zentralen Begriffe nennen.
+CAN-DO-2 = Ich kann eine Prüfungsfrage nach dem Muster Begriff – Erläutern – Beispiel – Verbinden beantworten.
+CAN-DO-3 = Ich kann mindestens drei Verbindungen zwischen Sitzungen begründen.
+NARRATION-2 = Und zum Schluss: Wie hat der Trainer für Sie funktioniert?
+TEASER-TITLE = Viel Erfolg in der Prüfung
+NARRATION-TEASER-0 = Am 18.01.2027 bereiten wir die Prüfung gemeinsam vor. Bis dahin hilft vor allem eines: regelmäßig laut üben.
+IMAGE-ALT = Schulklasse mit Laptops sitzt in Reihen und schaut nach vorn zur Projektion
+IMAGE-PATH = https://commons.wikimedia.org/wiki/Special:FilePath/Schulklasse_Unterricht.jpg?width=800
+IMAGE-CAPTION = Foto: Weblibas · CC BY-SA 4.0 · Wikimedia Commons
+TEASER-QUESTION = Welche zwei Sitzungen würden Sie in der Prüfung gern verbinden – und mit welchem Beispiel aus Ihrer Fachrichtung?
+NEXT-DATE = Prüfungsvorbereitung · Montag, 18.01.2027 · danach: mündliche Modulprüfung
+
+
+[Original_Slide_Template_1.md]
+SLIDE-TITLE = Literatur
+NARRATION-0 = Die Quellen stehen in den einzelnen Einheiten und im Gesamtverzeichnis.
+SLIDE-CONTENT = """
+- Quellen zu den Inhalten: siehe den Abschnitt *Literatur* der jeweiligen Selbstlerneinheit S01–S11.
+- Gesamtverzeichnis des Kurses: [Literatur](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/00_Literatur.md)
+"""
+SOURCE = Prüfungstrainer: eigene Zusammenstellung auf Grundlage der Selbstlerneinheiten S01–S11.

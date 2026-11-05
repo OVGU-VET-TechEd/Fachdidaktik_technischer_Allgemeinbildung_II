@@ -1,0 +1,559 @@
+# Content file S08 – build with:  python3 content/build.py content/S08_Sozialformen_Aktionsformen.txt
+# Original slides R146–R157 = deck 07, slides 1–12 (Original_PPTX_Sliced/); [NEU] Zinn (2026).
+
+[course]
+AUTHOR = Hannes Tegelbeckers
+EMAIL = hannes.tegelbeckers@ovgu.de
+VERSION = 0.2.0
+LANGUAGE = de
+NARRATOR = Deutsch Female
+COURSE-TITLE = S08 – Sozialformen & Aktionsformen
+COURSE-DESCRIPTION = Fachdidaktik technischer Allgemeinbildung II – Sitzung S08. Wer arbeitet mit wem – und wer tut was? Sozialformen, Aktionsformen und die Frage, was Unterricht wirksam macht.
+COURSE-SUBTITLE = """
+Fachdidaktik technischer Allgemeinbildung II · OVGU Magdeburg · Montag, 30.11.2026, 07:00–09:00 Uhr
+
+<!-- didaktik="Planungsraster S08 · E-03, E-04, E-12, E-17, E-19, E-27, E-32, E-33 · 0–10 Einstieg (Schätzungen, These, Beobachtungen) · 10–15 Kurskarte · 15–35 Station 1 Sozialformen · 35–55 Station 2 Aktionsformen · 55–65 Station 3 [NEU] Wirksamkeit (mit Werkstattbeispiel einleiten) · 65–78 Analyse der Sitzung (Doppeldecker) · 78–85 Baustein 9 · 85–90 Abschluss" -->
+> [!IMPORTANT] 🧭 Leitfrage
+> Wer arbeitet mit wem – und wer tut was? – Auf der Kurskarte schließen wir heute die zwei noch offenen Leitfragen aus S01.
+
+> [!TIP] 📚 Vor der Sitzung
+> Haben Sie geschätzt, wie viel Unterrichtszeit Frontalunterricht ist, und eine Lehrveranstaltung beobachtet? Wir starten mit Ihren Zahlen.
+
+📝 **Beuteblatt S08** – ergänzen Sie es während der Sitzung.
+"""
+
+
+# ───────────────────────── Einstieg ─────────────────────────
+
+[Discussion_Template_1.md]
+SLIDE-TITLE = Einstieg: Wie viel ist frontal?
+NARRATION-0 = Ihre Schätzungen aus der Vorbereitung liegen vor. Die Zahl von den Folien sehen Sie gleich in Station 1. Vorher eine These. Stimmen Sie ab – am Ende stimmen wir noch einmal ab.
+DILEMMA = > **„Wer zu 77 % frontal unterrichtet, unterrichtet schlecht.“**
+VOTE-QUESTION = Stimmen Sie dieser These zu?
+OPTION-A = Ja, ich stimme zu
+OPTION-B = Nein, ich stimme nicht zu
+OPTION-C = Teils, teils
+NARRATION-1 = Notieren Sie allein, was Sie in dieser Woche beobachtet haben.
+PHASE-1-TITLE = 🧠 Allein · 3 min
+PHASE-1-TASK = Welche Sozialformen haben Sie diese Woche in einer Lehrveranstaltung beobachtet – und wie lange? Warum hat die Lehrperson wohl so entschieden?
+NARRATION-2 = Zwei oder drei von Ihnen nennen ihre Beobachtung.
+PHASE-2-TITLE = 📣 Plenum · 2 min
+PHASE-2-TASK = Zwei bis drei Freiwillige nennen ihre Beobachtung und die vermutete Begründung der Lehrperson.
+
+
+[Overview_Course_Template_2.md]
+SLIDE-TITLE = Ihr Weg durch die Sitzung
+NARRATION-0 = Wir gehen von den Sozialformen und den Varianten der Gruppenarbeit zu den Aktionsformen. Dann fragen wir mit Zinn, was Unterricht wirksam macht, und analysieren zum Schluss die heutige Sitzung selbst.
+MODULE-1 = Sozialformen
+MODULE-2 = Gruppenarbeit
+MODULE-3 = Aktionsformen
+MODULE-4 = Wirksamkeit
+MODULE-5 = Analyse
+MILESTONE = Baustein 9
+NARRATION-1 = Auf diesem Weg erreichen Sie sechs Ziele.
+KNOW-1 = Sozialformen und Aktionsformen mit ihren Merkmalen **nennen**
+CAN-1 = für eine Situation die passende Gruppenarbeitsvariante und Gesprächsform **bestimmen**
+VALUE-1 = die These zum Frontalunterricht begründet **beurteilen**
+KNOW-2 = die Varianten der Gruppenarbeit und die Merkmale selbstständiger Schülerarbeit **erläutern**
+CAN-2 = eine Unterrichtsstunde nach Sozial- und Aktionsform **analysieren** und Oberflächen- von Tiefenstrukturen **unterscheiden**
+VALUE-2 = eine Abfolge von Sozial- und Aktionsformen für Ihren Entwurf **planen** *(optional)*
+NARRATION-2 = Prüfen Sie kurz, ob Sie den Weg lesen können.
+ORDER-QUESTION = Welche Station folgt direkt auf die Aktionsformen?
+ORDER-CORRECT = Wirksamkeit
+ORDER-WRONG-1 = Gruppenarbeit
+ORDER-WRONG-2 = Analyse
+ORDER-HINT = Folgen Sie den Pfeilen von links nach rechts.
+ORDER-FEEDBACK = Richtig: Nach den Aktionsformen fragen wir mit Zinn (2026), was Unterricht wirksam macht.
+
+
+[Figure_Template_1.md]
+SLIDE-TITLE = Kurskarte: die zwei offenen Leitfragen aus S01
+NARRATION-0 = Erinnern Sie sich an die vier Leitfragen aus S01. Den Erkenntnisweg haben wir mit den Unterrichtsmethoden in S01b und S03 bis S06 bearbeitet, die Organisationsformen in S01. Heute schließen wir die beiden offenen.
+MERMAID-CODE = """
+flowchart TD
+  W["<b>METHODIK</b><br>Wie organisiere ich …?"] --> E["… den Erkenntnisweg?<br><b>Unterrichtsmethoden</b><br>S01b, S03–S06 ✓"]
+  W --> A["… die Beziehung<br>Lehrende ↔ Lernende?<br><b>AKTIONSFORMEN</b><br>heute: Station 2"]
+  W --> S["… die Beziehung<br>Lernende ↔ Gegenstand?<br><b>SOZIALFORMEN</b><br>heute: Station 1"]
+  W --> B["… den Bildungsprozess?<br><b>Organisationsformen</b><br>S01 ✓"]
+  A -.-> Q["Station 3 [NEU, Zinn 2026]:<br>Was macht Unterricht wirksam?"]
+  S -.-> Q
+"""
+NARRATION-1 = Wie organisiere ich die Beziehung zwischen Lernenden und Gegenstand? Das sind die Sozialformen – Station 1.
+PART-1 = Sozialformen
+PART-TEXT-1 = Beziehung Lernende ↔ Gegenstand: Frontalunterricht, Einzelarbeit, Gruppenarbeit …
+NARRATION-2 = Und wie die Beziehung zwischen Lehrenden und Lernenden? Das sind die Aktionsformen – Station 2.
+PART-2 = Aktionsformen
+PART-TEXT-2 = Beziehung Lehrende ↔ Lernende: darbietend, selbstständig, erarbeitend
+NARRATION-3 = Zum Schluss fragen wir mit Zinn, was Unterricht eigentlich wirksam macht.
+PART-3 = Wirksamkeit [NEU]
+PART-TEXT-3 = Oberflächen- und Tiefenstrukturen von Unterricht (Zinn 2026)
+NARRATION-4 = Erinnern Sie sich an die Beispiele aus S01.
+KEY-MESSAGE = 🔗 S01: Lehrervortrag, Schülervortrag, Unterrichtsgespräch, Diskussion, Demonstration waren *Aktionsformen*; Frontalunterricht, Einzel-, Partner-, Gruppenarbeit, Lernen in Abteilungen waren *Sozialformen*. Heute lernen Sie, was dahintersteckt.
+SOURCE = Kurskarte als Lesehilfe (vgl. S01, Folien R036–R039), keine Originalfolie dieser Sitzung.
+
+
+# ───────────────────────── Station 1: Sozialformen (R146–R151) ─────────────────────────
+
+[Content_Introduction_Template_2.md]
+SLIDE-TITLE = Station 1: Sozialformen
+NARRATION-0 = Wir beginnen mit den Sozialformen, Folie R146 – und mit Ihrer Schätzung aus der Vorbereitung.
+GUIDING-QUESTION = Wer arbeitet mit wem – und was folgt daraus?
+NARRATION-1 = Zuerst: was Sozialformen sind und wie oft sie vorkommen.
+ASPECT-1 = Was Sozialformen sind – und wie oft sie vorkommen (R147)
+NARRATION-2 = Dann der Frontalunterricht.
+ASPECT-2 = Frontalunterricht (R148)
+NARRATION-3 = Dann die Einzelarbeit.
+ASPECT-3 = Einzelarbeit (R149)
+NARRATION-4 = Und die Gruppenarbeit mit vier Varianten.
+ASPECT-4 = Gruppenarbeit und ihre vier Varianten (R150–R151)
+NARRATION-5 = Warum ist das für Sie wichtig?
+WHY-IT-MATTERS = Jede Phase Ihres Unterrichts braucht eine Sozialform – die Wahl sollte vom Lernziel abhängen, nicht von der Gewohnheit.
+NARRATION-6 = Markieren Sie, was Sie schon kennen.
+
+
+[Original_Slide_Template_2.md]
+SLIDE-TITLE = 7. Sozialformen: was sie sind und wie oft sie vorkommen
+NARRATION-0 = Sozialformen sind Organisationsformen, die durch die Möglichkeiten der Lehrer-Schüler-Interaktion definiert sind. Wie häufig kommen sie vor? Nach Meyer entfallen knapp 77 Prozent der Unterrichtszeit auf Frontalunterricht, etwa 10 Prozent auf Einzelarbeit, rund 7 Prozent auf Gruppenunterricht und jeweils unter 3 Prozent auf Partnerarbeit und Klassenkooperation.
+SLIDE-CONTENT = """
+- Sind Organisationsformen, durch unterschiedliche Möglichkeiten der Lehrer-Schüler-Interaktion definiert
+- Bestimmen die organisatorische Seite der Interaktionsmöglichkeiten im Unterricht
+
+<!-- data-type="BarChart" data-title="Sozialformen – Häufigkeit (nach Meyer)" data-ylabel="Anteil in %" data-show -->
+| Sozialformen | Häufigkeit (nach MEYER) |
+| ------------ | ----------------------: |
+| Gruppenunterricht | 7.4 |
+| Klassenkooperation | 2.6 |
+| Frontalunterricht | 76.86 |
+| Partnerarbeit | 2.88 |
+| Einzelarbeit | 10.24 |
+"""
+NARRATION-1 = Vergleichen Sie mit Ihrer Schätzung.
+KEY-MESSAGE = 💬 Lagen Sie mit Ihrer Schätzung darüber oder darunter? Gut drei Viertel der Unterrichtszeit ist Frontalunterricht.
+SOURCE = Quelle: Folie R147 „7. Sozialformen“ (Abschnitt „Sozialformen“, Folie R146) – Werte wie im Original (dort mit Komma: 7,4 %, 2,6 %, 76,86 %, 2,88 %, 10,24 %); Jahr der Erhebung auf der Folie nicht angegeben; „Klassenkooperation“ ist auf der Folie nicht definiert.
+
+
+[Original_Slide_Template_2.md]
+SLIDE-TITLE = 7.1 Frontalunterricht
+NARRATION-0 = Im Frontalunterricht geht die Klasse gemeinsam unter unmittelbarer Führung des Lehrers vor: Er richtet seine Impulse an alle und vereinigt alle Reaktionen wieder auf sich. Typisch sind Lehrervortrag, Demonstration und Unterrichtsgespräch.
+SLIDE-CONTENT = """
+- Gemeinsames Vorgehen unter unmittelbarer Führung des Lehrers
+- Lehrer richtet seine Impulse an die gesamte Klasse und vereinigt alle Reaktionen der Schüler wieder auf sich
+- Typisch dafür sind: Lehrervortrag, Demonstration, Unterrichtsgespräch
+- Eine rationelle Organisationsform
+  - Nicht immer rationellste, da die Selbstständigkeit der Schüler missachtet wird
+- Schnell auf den direkten Weg der Erkenntnis geführt
+- Individualität wird für die Klasse aufgegeben
+- Überprüfung der Lernergebnisse ist unbedingt erforderlich, besonders bei den schwächeren Schülern
+"""
+NARRATION-1 = Die Folie nennt ihn rationell, aber nicht immer am rationellsten.
+KEY-MESSAGE = Frontalunterricht führt schnell zur Erkenntnis – aber die Lernergebnisse müssen überprüft werden, besonders bei den schwächeren Schülern.
+SOURCE = Quelle: Folie R148 „7.1 Frontalunterricht“
+
+
+[Original_Slide_Template_2.md]
+SLIDE-TITLE = 7.2 Einzelarbeit
+NARRATION-0 = In der Einzelarbeit löst jede Schülerin, jeder Schüler die gestellte Aufgabe selbstständig, ohne Austausch mit anderen; der Lehrer führt nur mittelbar.
+SLIDE-CONTENT = """
+- Selbstständiges individuelles Lösen von Aufgaben ohne Informationsaustausch zwischen Schülern
+- Während des Arbeitsaktes mittelbare Führung durch den Lehrer
+- Jeder Schüler muss die vom Lehrer gestellte Aufgabe lösen
+- Kann während einer Durchführung einer Übung oder zur Erarbeitung, Erweiterung und Vertiefung des Wissens eingesetzt werden
+- Vom Schüler wird Selbstständigkeit, Energie, Beharrlichkeit verlangt und Selbstvertrauen gestärkt
+- Tatsächliche Leistung des Schülers kann besser eingeschätzt werden
+- Gibt Anleitung, Hilfe und Unterstützung durch den Lehrer und die Mitschüler
+- Um Schüler zum selbstständigen Lösen zu befähigen
+"""
+NARRATION-1 = Einzelarbeit verlangt Selbstständigkeit und Beharrlichkeit und stärkt das Selbstvertrauen.
+KEY-MESSAGE = In der Einzelarbeit lässt sich die tatsächliche Leistung besser einschätzen – deshalb nutzt diese Vorlesung sie für die Classroom-Auswertung.
+SOURCE = Quelle: Folie R149 „7.2 Einzelarbeit“ („wir“ zu „wird“ korrigiert)
+
+
+[Original_Slide_Template_3.md]
+SLIDE-TITLE = 7.3 Gruppenarbeit
+NARRATION-0 = In der Gruppenarbeit wechseln kooperatives und individuelles Lernen, und die Schüler tauschen Informationen aus. Die unmittelbare Führung des Lehrers tritt nach der Aufgabenstellung zurück, bis das Ergebnis kontrolliert wird.
+SLIDE-CONTENT = """
+- Selbstständiges Arbeiten in der Gruppe
+- Arbeitsphasen durch Zusammenspiel von kooperativem und individuellen Lernen gekennzeichnet
+- Zwischen den Schülern erfolgt ein Informationsaustausch
+- Unmittelbare Führung des Lehrers tritt nach der Aufgabenstellung bis zur Kontrolle des Ergebnisses zurück
+- Sozialfähigkeit wird geübt
+- Spaltung von Klassen in aktive und passive Schüler kann vermindert werden
+- Es gibt mehrere Varianten der Gruppenarbeit
+"""
+NARRATION-1 = Die Tabelle zeigt vier Varianten aus zwei Unterscheidungen: Bekommen die Gruppen dieselbe Aufgabe oder verschiedene? Und arbeiten die Mitglieder einer Gruppe alle am Gleichen oder arbeitsteilig?
+SLIDE-CONTENT-2 = """
+<!-- data-type="none" -->
+| | **aufgabengleich** (Gruppen gleiche Aufgaben) | **aufgabenverschieden** (Gruppen unterschiedliche Aufgaben) |
+| --- | --- | --- |
+| **arbeitsgleich** | Gruppe A1: a1, b1 · Gruppe B1: c1, d1 | Gruppe A1: a1, b1 · Gruppe B2: c2, d2 |
+| **arbeitsteilig** | Gruppe A1: a1,1, b1,2 · Gruppe B1: c1,1, d1,2 | Gruppe A1: a1,1, b1,2 · Gruppe B2: c2,1, d2,2 |
+
+**Lesehilfe:** Großbuchstabe = Gruppe, Ziffer = Gruppenaufgabe (A1 und B1: gleiche Aufgabe 1; A1 und B2: verschiedene Aufgaben); Kleinbuchstabe = Gruppenmitglied, zweite Ziffer = Teilaufgabe (a1,1 und b1,2: Aufgabe 1 in zwei Teilaufgaben aufgeteilt).
+"""
+NARRATION-2 = Zwei Fragen genügen, um jede Gruppenarbeit einzuordnen.
+KEY-MESSAGE = aufgabengleich/-verschieden fragt nach den **Gruppen**, arbeitsgleich/-teilig nach den **Mitgliedern** einer Gruppe.
+SOURCE = Quelle: Folien R150 und R151 „7.3 Gruppenarbeit“ – Grafik (Kreise) als Tabelle übertragen und gegen das Original geprüft; die Deutung der Kennzeichnung ist aus der Abbildung abgeleitet.
+
+
+[Interactive_Exercise_Template_1.md]
+SLIDE-TITLE = Aktivierung: Welche Variante der Gruppenarbeit?
+NARRATION-0 = Ordnen Sie Situationen den Varianten der Gruppenarbeit zu. Die Beispiele sind Übungsbeispiele, nicht von den Originalfolien. Danach ergänzen Sie Abschnitt 1 Ihres Beuteblatts.
+Q1-QUESTION = Alle Gruppen dimensionieren dieselbe Leitung; in jeder Gruppe rechnen alle alles. Welche Variante ist das?
+Q1-WRONG-1 = aufgabengleich + arbeitsteilig
+Q1-CORRECT = aufgabengleich + arbeitsgleich
+Q1-WRONG-2 = aufgabenverschieden + arbeitsgleich
+Q1-HINT = Gleiche Aufgabe für alle Gruppen – und innerhalb der Gruppe?
+Q1-FEEDBACK = Gruppen mit derselben Aufgabe (A1, B1), Mitglieder an derselben Aufgabe (a1, b1).
+NARRATION-1 = Jetzt können mehrere Antworten richtig sein.
+Q2-QUESTION = Welche Situationen sind arbeitsteilig?
+Q2-CORRECT-1 = Alle Gruppen planen dieselbe Küche; in jeder Gruppe übernimmt eine Person die Beleuchtung, eine die Steckdosen.
+Q2-WRONG-1 = Gruppe A testet ein Brückenmodell aus Holz, Gruppe B eines aus Pappe; in der Gruppe arbeiten alle gemeinsam an allem.
+Q2-CORRECT-2 = Gruppe A plant den Rohbau, Gruppe B die Haustechnik; jede Gruppe teilt ihre Aufgabe in Teilaufgaben auf.
+Q2-WRONG-2 = Alle Gruppen dimensionieren dieselbe Leitung; in jeder Gruppe rechnen alle alles.
+Q2-HINT = Arbeitsteilig = die Mitglieder einer Gruppe bearbeiten Teilaufgaben.
+Q2-FEEDBACK = Arbeiten die Mitglieder einer Gruppe an derselben Aufgabe (a1, b1) oder an Teilaufgaben (a1,1, b1,2)? (R151)
+NARRATION-2 = Zum Schluss tippen Sie einen Begriff.
+Q3-QUESTION = Wie heißt die Variante, bei der die Gruppen unterschiedliche Aufgaben bekommen? (ein Wort)
+Q3-ANSWER = aufgabenverschieden
+Q3-HINT = aufgaben…
+Q3-FEEDBACK = aufgabenverschieden: Gruppen unterschiedliche Aufgaben (A1, B2). 📝 Beuteblatt-Stopp: Ergänzen Sie Abschnitt 1.
+
+
+# ───────────────────────── Station 2: Aktionsformen (R152–R157) ─────────────────────────
+
+[Content_Introduction_Template_2.md]
+SLIDE-TITLE = Station 2: Aktionsformen
+NARRATION-0 = In der zweiten Station wechseln wir von der Frage, wer mit wem arbeitet, zur Frage, wer was tut – Lehrkraft oder Lernende. Folie R152: Aktionsformen.
+GUIDING-QUESTION = Bei wem liegt die Aktivität – und wie führt die Lehrkraft?
+NARRATION-1 = Zuerst drei Aktionsformen im Überblick.
+ASPECT-1 = Darbietend, selbstständig, erarbeitend (R153)
+NARRATION-2 = Dann die vier Verfahren der darbietenden Form.
+ASPECT-2 = Darbietend: Vormachen, Vorzeigen, Vorführen, Vortragen (R154)
+NARRATION-3 = Dann zwei Merkmale selbstständiger Schülerarbeit nach Jessipow.
+ASPECT-3 = Selbstständig: zwei Merkmale nach Jessipow (R155–R156)
+NARRATION-4 = Und das Unterrichtsgespräch als Grundform der erarbeitenden Aktionsform.
+ASPECT-4 = Erarbeitend: Unterrichtsgespräch (R157)
+NARRATION-5 = Warum ist das für Sie wichtig?
+WHY-IT-MATTERS = Dieselbe Sozialform kann mit ganz verschiedenen Aktionsformen gefüllt werden – ein Vortrag vor der Klasse ist etwas anderes als ein Unterrichtsgespräch.
+NARRATION-6 = Markieren Sie, was Sie schon kennen.
+
+
+[Original_Slide_Template_2.md]
+SLIDE-TITLE = 8. Aktionsformen im Überblick
+NARRATION-0 = Die Folie unterscheidet drei Aktionsformen. Darbietend: Der Akzent liegt beim Lehrer, es überwiegt rezeptives Lernen, und er führt unmittelbar. Selbstständig: Der Lehrer tritt in den Hintergrund, die Schüler lösen eine gestellte Aufgabe, es überwiegt produktives Lernen, und er führt nur mittelbar. Erarbeitend: meist als Unterrichtsgespräch, mit rezeptiven, reproduktiven und produktiven Anteilen.
+SLIDE-CONTENT = """
+<!-- data-type="none" -->
+| Darbietend | Selbstständig | Erarbeitend |
+| --- | --- | --- |
+| Aktivitätsakzent liegt bei Lehrer | Lehrer tritt in den Hintergrund | Meist in Form des Unterrichts-gesprächs |
+| Er zeigt, demonstriert, berichtet, erzählt, … | Schüler treten stärker in Erscheinung | Die Lernsituation ist durch rezeptive, reproduktive und produktive Leistungen charakterisiert |
+| Es überwiegt das rezeptive Lernen | Schüler lösen relativ selbstständig eine vom Lehrer gestellte Aufgabe | |
+| Der Lehrer führt unmittelbar | Es überwiegt das produktive Lernen | |
+| | Lehrer führt nur mittelbar | |
+"""
+NARRATION-1 = Was heißt unmittelbar und mittelbar führen?
+KEY-MESSAGE = 🔎 *Unmittelbar* führt die Lehrkraft, wenn sie jeden Schritt selbst steuert (z. B. im Lehrervortrag). *Mittelbar* führt sie über die gestellte Aufgabe und das Material, während die Lernenden arbeiten (vgl. Einzelarbeit, R149). *Lesehilfe, abgeleitet aus R148–R153.*
+SOURCE = Quelle: Folie R153 „8. Aktionsformen“ (Abschnitt „Aktionsformen“, Folie R152)
+
+
+[Original_Slide_Template_2.md]
+SLIDE-TITLE = 8.1 Darbietend
+NARRATION-0 = Die darbietende Aktionsform ermöglicht eine rationelle Stoffvermittlung. Sie kennt vier Verfahren: Vormachen, Vorzeigen an statischen Lernmitteln, Vorführen von Prozessen – etwa bei Exkursion oder Experiment – und Vortragen, bei dem die Sprache das vorherrschende Mittel ist.
+SLIDE-CONTENT = """
+Bietet rationelle Stoffvermittlung, hat erziehende Wirkung durch den Lehrervortrag, bietet Möglichkeit zur Ausbildung der Fähigkeit zur rationellen Aneignung von Wissen
+
+**Verfahren:**
+
+- **Vormachen** (Vorlesen, Vormachen, Vormachen, Werkunterricht, Sport)
+- **Vorzeigen** (an statischen Lernmitteln wird etwas repräsentativ gezeigt)
+- **Vorführen** (Veranschaulichung von Prozessen, Exkursion, Experiment)
+- **Vortragen** (die Sprache ist hier das vorherrschende Mittel)
+"""
+NARRATION-1 = Vorführen kennen Sie aus S05: das Lehrerexperiment als Demonstration.
+KEY-MESSAGE = Vorführen = Lehrerexperiment als Demonstration (S05, R094) – darbietend, auch wenn ein Experiment im Spiel ist.
+SOURCE = Quelle: Folie R154 „8.1 Darbietend“ (Wortlaut unverändert, auch die Doppelung „Vormachen, Vormachen“)
+
+
+[Original_Slide_Template_3.md]
+SLIDE-TITLE = 8.2 Selbstständig
+NARRATION-0 = Selbstständige Schülerarbeit ist nicht ganz ohne Hilfe des Lehrers möglich – und nicht jede Arbeit allein ist schon selbstständige Schülerarbeit. Jessipow nennt zwei Merkmale.
+SLIDE-CONTENT = """
+- Nicht ganz ohne Hilfe des Lehrers durchführbar
+- Andererseits kann nicht jede selbstständige Arbeit des Schülers als selbstständige Schülerarbeit angesehen werden
+
+**Zwei Merkmale nach Jessipow**
+
+1. Eine Aufgabenstellung durch den Lehrer und angemessene Zeit für die Lösung dieser Aufgabe durch die Schüler
+2. Die sich aus der Aufgabe ergebene Notwendigkeit für die Schüler, unter Anspannung ihrer Kräfte die besten Lösungswege zu suchen und zu beschreiten
+
+> Selbstständige Schülerarbeit, wenn der Schüler Aufgabenstellung und Lösungsansätze richtig zuordnet, sein vorhandenes Wissen und Können anzuwenden und die gestellte Aufgabe ohne unmittelbare, jedoch Einzelheit regulierende Anleitung durch den Lehrer zu lösen vermag
+"""
+NARRATION-1 = Richtig gesteuert führt sie zu tieferer Aneignung, einer positiven Lerneinstellung und mehr Fähigkeit zum selbstständigen Denken und Arbeiten.
+SLIDE-CONTENT-2 = """
+**Positive Auswirkungen**
+
+- Die methodisch richtig gesteuerte selbstständige Schülerarbeit erhöht die Effektivität des Aneignungsprozesses – es führt zu einer tieferen und bewussteren Aneignung
+- Lerneinstellung wird positiv beeinflusst
+- Während hauptsächlich rezeptiver Aktionsformen kommt es in der Klasse zu Leistungsdifferenzen – durch produktive Aktionsformen werden diese deutlich verdichtet, er kommt zu einer Leistungskonglobation
+- Es erfolgt eine Fähigkeitssteigerung im selbstständigen Denken, Arbeiten und Organisieren
+
+🔎 *Lesehilfe zu „Leistungskonglobation“:* Gemeint ist laut dem Satz selbst, dass die Leistungsunterschiede in der Klasse „deutlich verdichtet“ werden – die Leistungen rücken enger zusammen (lat. *conglobare* = zusammenballen).
+"""
+NARRATION-2 = Verbinden Sie das mit S02.
+KEY-MESSAGE = 🔗 S02: Die Selbständigkeitsstufen (R045: nachvollziehen → anpassen → auswählen → kombinieren → entwerfen) beschreiben, *wie* selbstständig – Jessipows Merkmale, *wann* eine Arbeit überhaupt als selbstständige Schülerarbeit gilt.
+SOURCE = Quelle: Folien R155–R156 „8.2 Selbstständig“ (im Original: JESSIPOW; Wortlaut unverändert; Lesehilfe ergänzt)
+
+
+[Original_Slide_Template_2.md]
+SLIDE-TITLE = 8.3 Erarbeitend
+NARRATION-0 = Die Grundform der erarbeitenden Aktionsform ist das Unterrichtsgespräch. Die Folie ordnet Gespräche auf zwei Weisen: nach der didaktischen Aufgabe – Erarbeitung, Wiederholung, Prüfung – und nach dem Charakter der Führung, vom stark gelenkten Lehrergespräch über das locker gehaltene Gespräch bis zu Diskussion und Debatte als Vorformen des wissenschaftlichen Gesprächs.
+SLIDE-CONTENT = """
+- Grundform ist das Unterrichtsgespräch
+- Ist erfolgreich, wenn eine neue Erkenntnis erworben werden soll
+
+<!-- data-type="none" -->
+| Charakter zunächst von der didaktischen Aufgabe bestimmt | Charakter der didaktischen Führung |
+| --- | --- |
+| Das Unterrichtsgespräch zur Erarbeitung von neuem Wissen, zur Herausbildung von Überzeugungen und zur Entwicklung von Fähigkeiten | Das Lehrergespräch mit starker Betonung des Belehrens und der direkten Führung durch den Lehrer |
+| Das Wiederholungsgespräch | Das locker gehaltene Gespräch, bei dem der Lehrer zwar führt, jedoch stärker in den Hintergrund tritt |
+| Das Prüfungsgespräch | Diskussion und Debatte als Vorformen des wissenschaftlichen Gesprächs |
+"""
+NARRATION-1 = Zwei Fragen helfen bei der Wahl der Gesprächsform.
+KEY-MESSAGE = Wozu dient das Gespräch (erarbeiten, wiederholen, prüfen)? Und wie stark führt die Lehrkraft (Lehrergespräch → lockeres Gespräch → Diskussion und Debatte)?
+SOURCE = Quelle: Folie R157 „8.3 Erarbeitend“
+
+
+[Interactive_Exercise_Template_1.md]
+SLIDE-TITLE = Aktivierung: Verfahren und Gespräche zuordnen
+NARRATION-0 = Drei kurze Fragen zu den Aktionsformen.
+Q1-QUESTION = Lernende bearbeiten ein Arbeitsblatt, dessen Lösungsweg Schritt für Schritt vorgegeben ist. Ist das selbstständige Schülerarbeit im Sinne der Folien?
+Q1-WRONG-1 = Ja – sie arbeiten ja allein.
+Q1-CORRECT = Nein – es fehlt die Notwendigkeit, unter Anspannung der Kräfte die besten Lösungswege selbst zu suchen.
+Q1-WRONG-2 = Ja – solange genug Zeit gegeben wird.
+Q1-HINT = Jessipow nennt zwei Merkmale – beide müssen erfüllt sein.
+Q1-FEEDBACK = „Nicht jede selbstständige Arbeit des Schülers [kann] als selbstständige Schülerarbeit angesehen werden“ (R155). Vgl. S05: Eine Anleitung nimmt Planen und Entscheiden vorweg.
+NARRATION-1 = Jetzt können mehrere Antworten richtig sein.
+Q2-QUESTION = Welche Verfahren gehören zur darbietenden Aktionsform?
+Q2-CORRECT-1 = Vorführen
+Q2-WRONG-1 = Prüfungsgespräch
+Q2-CORRECT-2 = Vortragen
+Q2-WRONG-2 = Diskussion und Debatte
+Q2-HINT = Darbietend: Vormachen, Vorzeigen, Vorführen, Vortragen.
+Q2-FEEDBACK = Prüfungsgespräch sowie Diskussion und Debatte sind Gesprächsformen der erarbeitenden Aktionsform (R157).
+NARRATION-2 = Zum Schluss tippen Sie einen Begriff.
+Q3-QUESTION = Wie heißt die Grundform der erarbeitenden Aktionsform? (ein Wort)
+Q3-ANSWER = Unterrichtsgespräch
+Q3-HINT = Es steht auf Folie R157 ganz oben.
+Q3-FEEDBACK = Grundform ist das Unterrichtsgespräch (R157).
+
+
+# ───────────────────────── Station 3: [NEU] Was macht Unterricht wirksam? ─────────────────────────
+
+[Original_Slide_Template_3.md]
+SLIDE-TITLE = Station 3: [NEU] Was macht Unterricht wirksam?
+NARRATION-0 = Die letzte Station ist eine Ergänzung aus Zinn 2026, deshalb als NEU markiert. Denken Sie an eine Werkstattstunde: Zwei Lehrkräfte lassen in Gruppen arbeiten – und trotzdem kann der Unterricht sehr verschieden wirken.
+SLIDE-CONTENT = """
+<!-- neu="Zinn 2026, S. 270–271" -->
+**Sozialformen und Handlungsformen:** Zinn (2026, S. 270) nennt als typische Sozialformen Plenumsunterricht, Gruppenunterricht, Tandemarbeit, Einzelarbeit und den hybriden Sozialformenmix (vgl. Meyer & Junghans 2021). Die Wahl soll „insbesondere in Abhängigkeit der intendierten Lernziele, dem Vorwissen, dem Lerninhalt, den personalen und sozialen Kompetenzen“ erfolgen. Als **Handlungsformen** bezeichnet er die kleinsten Interaktionseinheiten – z. B. eine Frage stellen, Loben und Tadeln, Hinweisen, Vorführen (S. 270–271).
+"""
+NARRATION-1 = Zinn unterscheidet Oberflächenstrukturen – leicht beobachtbare Merkmale wie Sozialform und Organisationsform – von Tiefenstrukturen, also der Qualität der Lehr-Lern-Prozesse.
+SLIDE-CONTENT-2 = """
+<!-- neu="Zinn 2026, S. 272–273" -->
+**Oberflächen- und Tiefenstrukturen:** Zinn (2026, S. 272) unterscheidet die **Oberflächenstrukturen** (Sichtstrukturen) – leicht beobachtbare Merkmale wie Unterrichtsformen, Sozialformen und Organisationsformen – von den **Tiefenstrukturen**, der Qualität der Interaktion mit dem Lernstoff und zwischen Lehrenden und Lernenden.
+
+<!-- data-type="none" -->
+| Dimension der Tiefenstruktur | Leitfrage (gekürzt nach Zinn 2026, S. 273) |
+| --- | --- |
+| **Klassenführung** | Verstehen die Lernenden die Ziele, gibt es wenige Störungen, sind alle beteiligt, wird die Zeit effektiv genutzt? |
+| **Potenzial zur kognitiven Aktivierung** | Setzen sich die Lernenden aktiv und vertieft mit dem Lernstoff auseinander? |
+| **Konstruktive Unterstützung** | Wie hilft die Lehrkraft bei Verständnisproblemen – wertschätzend und respektvoll? |
+"""
+NARRATION-2 = Die Pointe:
+KEY-MESSAGE = „Innerhalb einer gleichen Oberflächenstruktur (z. B. Projektarbeit mit Gruppenarbeit) können unterschiedliche Lehr-Lern-Prozesse erfolgen.“ (Zinn 2026, S. 272)
+SOURCE = [NEU] Ergänzung, keine Originalfolie: Zinn (2026), S. 270–273 – siehe Literatur.
+
+
+[Process_Template_7.md]
+SLIDE-TITLE = [NEU] Cognitive Apprenticeship
+NARRATION-0 = Ein strukturierter Übergang von angeleitetem zu selbstständigem Lernen ist das Modell der Cognitive Apprenticeship – sieben Schritte nach Zinn.
+STEP-1 = Modellhaftes Vorführen
+STEP-2 = Begleitetes Nachmachen
+STEP-3 = Unterstützen
+STEP-4 = Zurückziehen
+STEP-5 = Verbalisieren
+STEP-6 = Reflektieren
+STEP-7 = Erkunden
+NARRATION-1 = Zuerst führt die Lehrkraft modellhaft vor, dann machen die Lernenden begleitet nach, und die Lehrkraft unterstützt gezielt.
+STEP-TEXT-1 = Modeling
+STEP-TEXT-2 = Coaching
+STEP-TEXT-3 = Scaffolding
+NARRATION-2 = Dann zieht sie sich zurück; die Lernenden verbalisieren und reflektieren ihr Vorgehen.
+STEP-TEXT-4 = Fading
+STEP-TEXT-5 = Articulation
+STEP-TEXT-6 = Reflection
+NARRATION-3 = Am Ende erkunden die Lernenden selbstständig.
+STEP-TEXT-7 = Exploration
+SOURCE = [NEU] Zinn (2026), S. 271, Tab. 11.3 – keine Originalfolie. 🔗 Modeling ist *darbietend* (Vorführen, R154); Fading und Exploration führen zur *selbstständigen* Schülerarbeit (R155).
+ORDER-TITLE = Cognitive Apprenticeship ordnen
+NARRATION-ORDER-0 = Ordnen Sie die sieben Schritte vom Vorführen bis zum Erkunden.
+
+
+[Concept_Explanation_Template_2.md]
+SLIDE-TITLE = Kurzcheck: Oberflächen- oder Tiefenstruktur?
+NARRATION-0 = Was ist Oberflächenstruktur, was Tiefenstruktur? Zuerst der Vergleich.
+CONCEPT-A = Oberflächenstruktur
+CONCEPT-B = Tiefenstruktur
+CRITERION-1 = beobachtbar
+A-1 = leicht, auf einen Blick
+B-1 = nur über die Qualität der Prozesse
+CRITERION-2 = Beispiele
+A-2 = Sozialform, Organisationsform, Unterrichtsform
+B-2 = Klassenführung, kognitive Aktivierung, konstruktive Unterstützung
+CRITERION-3 = Leitfrage
+A-3 = Wie ist der Unterricht organisiert?
+B-3 = Wie intensiv und gut wird gelernt?
+CRITERION-4 = Gleiche Oberfläche …
+A-4 = sieht gleich aus
+B-4 = kann ganz unterschiedlich sein
+NARRATION-1 = Je ein Beispiel:
+EXAMPLE-A = Die Klasse arbeitet in Dreiergruppen.
+EXAMPLE-B = Die Lehrkraft gibt formatives Feedback und geht konstruktiv mit Fehlern um.
+NARRATION-2 = Ein typischer Fehlschluss:
+MISCONCEPTION = Abwechslungsreiche Sozialformen sind noch kein guter Unterricht – entscheidend ist, was in der Tiefenstruktur passiert.
+NARRATION-3 = Ordnen Sie jetzt zu.
+STATEMENT-1 = Die Klasse arbeitet in Dreiergruppen.
+STATEMENT-2 = Die Aufgabe knüpft an Vorwissen an und löst einen kognitiven Konflikt aus.
+STATEMENT-3 = Es ist eine Projektwoche.
+STATEMENT-4 = Die Lehrkraft gibt formatives Feedback und geht konstruktiv mit Fehlern um.
+CLASSIFY-HINT = Sieht man es auf einen Blick – oder nur, wenn man auf die Qualität achtet?
+CLASSIFY-FEEDBACK = Oberflächenstrukturen sind leicht beobachtbar (Sozialform, Organisationsform). Tiefenstrukturen betreffen die Qualität der Lehr-Lern-Prozesse: Klassenführung, kognitive Aktivierung, konstruktive Unterstützung (Zinn 2026, S. 272–273).
+
+
+# ───────────────────────── Wo stehen wir? ─────────────────────────
+
+[Interactive_Exercise_Template_1.md]
+SLIDE-TITLE = Wo stehen wir? Die heutige Sitzung analysieren
+NARRATION-0 = Bestimmen Sie für Phasen der heutigen Sitzung die Sozialform – und für eine Phase, welche Sozialform sie gehabt hätte, wenn wir sie anders organisiert hätten.
+Q1-QUESTION = Welche Sozialform hatte der Vortrag in Station 1 und 2?
+Q1-WRONG-1 = Einzelarbeit
+Q1-CORRECT = Frontalunterricht
+Q1-WRONG-2 = Gruppenarbeit
+Q1-HINT = Wer richtet die Impulse an alle?
+Q1-FEEDBACK = Frontalunterricht – Aktionsform: darbietend, Vortragen (R148, R154).
+NARRATION-1 = Jetzt können mehrere Antworten richtig sein.
+Q2-QUESTION = Welche Phasen der heutigen Sitzung waren Einzelarbeit?
+Q2-CORRECT-1 = Blitzumfrage zur These
+Q2-WRONG-1 = Vortrag in Station 1 und 2
+Q2-CORRECT-2 = Zuordnungsaufgaben
+Q2-WRONG-2 = diese Analyse, wenn Sie sie zu dritt gemacht hätten
+Q2-HINT = Jede und jeder hat für sich gearbeitet.
+Q2-FEEDBACK = Diese Vorlesung wechselt bewusst nur zwischen Frontalunterricht und Einzelarbeit, damit jede Antwort über die Classroom-Funktion ausgewertet werden kann. An der Oberfläche ist das wenig abwechslungsreich – entscheidend ist die Tiefenstruktur.
+NARRATION-2 = Und eine Phase, wie sie hätte sein können.
+Q3-QUESTION = Welche Sozialform wäre der Einstieg gewesen, wenn Sie Ihre Beobachtungen mit der Nachbarin besprochen hätten? (ein Wort)
+Q3-ANSWER = Partnerarbeit
+Q3-HINT = Zu zweit …
+Q3-FEEDBACK = Zu zweit = Partnerarbeit; zu dritt wäre es Gruppenarbeit (aufgabengleich, arbeitsgleich).
+
+
+[Discussion_Template_2.md]
+SLIDE-TITLE = Und die Tiefenstruktur? Noch einmal zur These
+NARRATION-0 = Stimmen Sie noch einmal über die These vom Anfang ab.
+VOTE-QUESTION = Stimmen Sie der These „Wer zu 77 % frontal unterrichtet, unterrichtet schlecht.“ zu?
+OPTION-A = Ja, ich stimme zu
+OPTION-B = Nein, ich stimme nicht zu
+OPTION-C = Teils, teils
+NARRATION-1 = Wo war die kognitive Aktivierung heute hoch, wo niedrig – unabhängig von der Sozialform?
+REFLECT-QUESTION = Wo war die kognitive Aktivierung heute hoch, wo niedrig – unabhängig von der Sozialform? War der Vortrag kognitiv aktivierend? Begründen Sie in zwei Sätzen.
+NARRATION-2 = Vergleichen Sie Ihr Votum mit dem vom Anfang.
+KEY-MESSAGE = Ob Unterricht gut ist, entscheidet nicht der Anteil des Frontalunterrichts (Oberflächenstruktur), sondern die Qualität der Lehr-Lern-Prozesse (Tiefenstruktur) – und die Überprüfung der Lernergebnisse (R148).
+
+
+[Open_Task_Template_1.md]
+SLIDE-TITLE = Baustein 9 für Ihren Unterrichtsentwurf (optional)
+NARRATION-0 = Planen Sie für Ihr Entwurfsthema die Abfolge der Sozial- und Aktionsformen, zum Beispiel für Ihre Großform aus Baustein 7. Begründen Sie jede Entscheidung mit dem Lernziel – nicht mit Abwechslung.
+TASK = """
+<!-- didaktik="Lehrschritt üben lassen (Transfer) · 78–85 min · Einzelarbeit · Classroom-Auswertung" -->
+**Allein (7 min):** Planen Sie die Abfolge der Sozial- und Aktionsformen für Ihren Entwurf.
+
+<!-- data-type="none" -->
+| Phase | Sozialform | Aktionsform | Begründung (Lernziel) |
+| --- | --- | --- | --- |
+| … | … | … | … |
+"""
+HINT = Fragen Sie für jede Phase: Was sollen die Lernenden danach können – und wer muss dafür aktiv sein?
+MODEL-ANSWER = Beispiel Instandsetzungsaufgabe: Einstieg mit Problemstellung – Frontalunterricht, darbietend (Vorführen des Schadens), damit alle dasselbe Phänomen sehen · intuitive Phase – Einzelarbeit, selbstständig, damit jede Vermutung festgehalten wird · Planung – Gruppenarbeit aufgabengleich, arbeitsteilig, weil der Plan mehrere Teilaufgaben hat · Durchführung – Partnerarbeit, selbstständig · Auswertung – Frontalunterricht, erarbeitend (Unterrichtsgespräch), um die Lösungen zu vergleichen.
+
+
+# ───────────────────────── Abschluss ─────────────────────────
+
+[Summary_Recap_Template_1.md]
+SLIDE-TITLE = Das Wichtigste aus S08
+NARRATION-0 = Fassen wir zusammen.
+NARRATION-1 = Erstens: die Sozialformen.
+TAKEAWAY-1 = Sozialformen organisieren die Interaktion; knapp 77 % der Unterrichtszeit sind Frontalunterricht (Meyer, R147).
+NARRATION-2 = Zweitens: die Gruppenarbeit.
+TAKEAWAY-2 = Gruppenarbeit: aufgabengleich oder -verschieden (Gruppen), arbeitsgleich oder -teilig (Mitglieder) – R151.
+NARRATION-3 = Drittens: die Aktionsformen.
+TAKEAWAY-3 = Aktionsformen: darbietend, selbstständig (Jessipows zwei Merkmale), erarbeitend (Unterrichtsgespräch) – R153–R157.
+NARRATION-4 = Und viertens: die Wirksamkeit.
+TAKEAWAY-4 = [NEU] Wirksam macht Unterricht die Tiefenstruktur: Klassenführung, kognitive Aktivierung, konstruktive Unterstützung (Zinn 2026).
+REMEMBER = Wählen Sie Sozial- und Aktionsform nach dem Lernziel – und achten Sie auf die Tiefenstruktur.
+NARRATION-5 = Eine letzte Frage.
+RECAP-QUESTION = Wann ist Schülerarbeit nach Jessipow selbstständig?
+RECAP-WRONG-1 = Sobald die Lernenden allein arbeiten
+RECAP-WRONG-2 = Wenn die Lehrkraft jeden Schritt vorgibt
+RECAP-CORRECT = Bei Aufgabenstellung mit angemessener Zeit und der Notwendigkeit, die besten Lösungswege selbst zu suchen
+RECAP-HINT = Zwei Merkmale müssen zusammenkommen.
+RECAP-FEEDBACK = Richtig: beide Merkmale nach Jessipow (R155).
+NARRATION-6 = Nächstes Mal geht es um Medien und KI im Unterricht.
+OUTLOOK = S09 (07.12.2026): Medien & KI im Unterricht · 📝 Ergänzen Sie die Abschnitte 2 und 3, die Analyse und Ihre wichtigste Beute im Beuteblatt S08.
+
+
+[Original_Slide_Template_1.md]
+SLIDE-TITLE = Prüfungsfragen zum Üben
+NARRATION-0 = Mit diesen fünf Fragen können Sie sich auf die mündliche Prüfung vorbereiten. Die Querverweise zeigen, wo die Themen in anderen Sitzungen wieder auftauchen.
+SLIDE-CONTENT = """
+<!-- didaktik="E-12 mündliche Prüfung" -->
+1. Was sind Sozialformen? Nennen Sie Vor- und Nachteile des Frontalunterrichts.
+2. Erläutern Sie die vier Varianten der Gruppenarbeit an einem Beispiel aus Ihrer Fachrichtung.
+3. Unterscheiden Sie darbietende, selbstständige und erarbeitende Aktionsformen.
+4. Wann ist Schülerarbeit nach Jessipow „selbstständig“?
+5. „Frontalunterricht ist schlechter Unterricht.“ – Nehmen Sie Stellung.
+
+> [!NOTE] 🔗 Querverweise
+> vier Leitfragen und Strukturlegetechnik → **S01** · Selbständigkeitsstufen → **S02** · Lehrer- und Schülerexperiment → **S05** · Gruppenbewertung → **S04** · Vorführen, Exkursion, Experiment als Medien der Wirklichkeitserfahrung → **S09**
+"""
+SOURCE = Die Prüfungsfragen sind experimentell: Sie dienen der Vorbereitung, es ist nicht garantiert, dass Fragen in dieser Form gestellt werden.
+
+
+[Summary_Recap_Template_3.md]
+SLIDE-TITLE = Rückblick auf S08
+NARRATION-0 = Nehmen Sie sich zwei Minuten für einen Rückblick. Was ist das Wichtigste – und was ist noch unklar?
+NARRATION-1 = Haken Sie ab, was Sie jetzt können.
+CAN-DO-1 = Ich kann die vier Varianten der Gruppenarbeit an einem Beispiel erläutern.
+CAN-DO-2 = Ich kann darbietende, selbstständige und erarbeitende Aktionsformen unterscheiden.
+CAN-DO-3 = Ich kann eine Stunde nach Sozialform, Aktionsform und Tiefenstruktur analysieren.
+NARRATION-2 = Und zum Schluss: Wie hat die Sitzung für Sie funktioniert?
+TEASER-TITLE = Vorbereitung auf S09
+NARRATION-TEASER-0 = In S09 geht es um Medien – von der Tafel bis zu Simulationen und KI-Chatbots. Planen Sie für die Vorbereitung etwa 15 Minuten ein.
+IMAGE-ALT = Ein eingeschalteter Overheadprojektor wirft eine Folie an die Leinwand eines Klassenraums
+IMAGE-PATH = https://commons.wikimedia.org/wiki/Special:FilePath/OHP-sch.JPG?width=800
+IMAGE-CAPTION = Overheadprojektor im Klassenraum · Foto: mailer_diablo · CC BY-SA 3.0 · Wikimedia Commons
+TEASER-QUESTION = Notieren Sie ein Medium, das Sie in einer Stunde Ihrer Fachrichtung einsetzen wollen (Tafel, Modell, Video, Simulation, KI-Chatbot, Realgegenstand …), und wozu. Und: Ist der Overheadprojektor im Technikunterricht tot?
+NEXT-DATE = S09 · Montag, 07.12.2026 · 07:00 Uhr
+
+
+[Original_Slide_Template_1.md]
+SLIDE-TITLE = Literatur
+NARRATION-0 = Hier finden Sie die Quellen dieser Sitzung.
+SLIDE-CONTENT = """
+**Zitiert auf den Originalfolien dieser Sitzung**
+
+- Meyer – Folie R147 („Häufigkeit (nach MEYER)“); Jahr und vollständige Angabe auf der Originalfolie nicht vorhanden.
+- Jessipow – Folie R155 („Zwei Merkmale nach JESSIPOW“); Jahr und vollständige Angabe auf der Originalfolie nicht vorhanden.
+
+**[NEU] Ergänzende Literatur**
+
+- Zinn, B. (2026). *Didaktik des naturwissenschaftlichen, informatischen und technikwissenschaftlichen Unterrichts. Grundlagen und Denk- und Arbeitsweisen in interdisziplinären Fächern in Schule und Hochschule.* Springer Spektrum, Abschn. 11.5–11.7, S. 270–273. https://doi.org/10.1007/978-3-662-72499-6
+"""
+SOURCE = Gesamtverzeichnis: 00_Literatur.md

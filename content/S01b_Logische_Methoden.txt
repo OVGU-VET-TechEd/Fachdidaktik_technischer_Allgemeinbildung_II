@@ -1,0 +1,690 @@
+# Content file S01b – build with:  python3 content/build.py content/S01b_Logische_Methoden.txt
+# Original slides R013–R033 = deck 01, slides 13–33 (Original_PPTX_Sliced/; offset 0); [NEU] Dilling (2024).
+
+[course]
+AUTHOR = Hannes Tegelbeckers
+EMAIL = hannes.tegelbeckers@ovgu.de
+VERSION = 0.2.0
+LANGUAGE = de
+NARRATOR = Deutsch Female
+COURSE-TITLE = S01b – Unterrichtsmethoden unter dem logischen Aspekt
+COURSE-DESCRIPTION = Fachdidaktik technischer Allgemeinbildung II / Fachdidaktik gewerblich-technischer Fachrichtungen – Sitzung S01b. Analytisch, synthetisch, deduktiv, induktiv, genetisch, historisch, reduktiv – an Beispielen aus Bau- und Werkstofftechnik.
+COURSE-SUBTITLE = """
+Fachdidaktik technischer Allgemeinbildung II · OVGU Magdeburg · Montag, 12.10.2026 (gemeinsam mit S01)
+
+<!-- didaktik="Planungsraster S01b · E-03, E-04, E-12, E-17, E-19, E-22 · 0–5 Einstieg These (Vorbereitungsumfrage zeigen) · 5–10 Ihre Lernerfahrung · 10–15 Kurskarte · 15–30 Station 1 Teil und Ganzes, Dächer zusammensetzen · 30–55 Station 2 Allgemeines und Besonderes (Zugversuch zuerst – Regel NICHT vorher nennen), Beuteblatt-Stopp · 55–65 Station 3 Entwicklung · 65–75 Station 4 Rückschluss · 75–85 Beispiel und Methode, Baustein 2 · 85–90 Abschluss" -->
+> [!IMPORTANT] 🧭 Leitfrage
+> Wie organisiere ich den **Erkenntnisweg**? – In S01 haben Sie gesehen: Unterrichtsmethoden im engeren Sinn lassen sich unter dem *logischen Aspekt* ordnen (Folie R012). Heute lernen Sie diese Methoden kennen – und erleben einige davon selbst.
+
+> [!TIP] 📚 Vor der Sitzung
+> Haben Sie die Vorbereitungsaufgabe aus S01 bearbeitet („HOOKE'sches Gesetz: mit der Regel oder mit Messwerten beginnen?“)? Wir starten mit Ihren Antworten.
+
+📝 **Beuteblatt S01b:** Füllen Sie die Überblickstabelle im Lauf der Sitzung.
+"""
+
+
+# ───────────────────────── Einstieg ─────────────────────────
+
+[Discussion_Template_1.md]
+SLIDE-TITLE = Einstieg: Regel zuerst?
+NARRATION-0 = Wir beginnen mit einer These. Stimmen Sie spontan ab – am Ende der Sitzung stimmen wir noch einmal ab.
+DILEMMA = > **„Regel zuerst ist effizienter – Selbst-Entdecken kostet im Unterricht nur Zeit.“**
+VOTE-QUESTION = Stimmen Sie zu?
+OPTION-A = Ja, ich stimme zu
+OPTION-B = Nein, ich stimme nicht zu
+OPTION-C = Teils, teils
+NARRATION-1 = Erinnern Sie sich an Ihre eigene Lernerfahrung.
+PHASE-1-TITLE = 🧠 Ihre eigene Lernerfahrung · allein, 3 min
+PHASE-1-TASK = Erinnern Sie sich an eine Stunde aus Schule oder Ausbildung: Wurde Ihnen eine Regel **vorgegeben** – oder haben Sie sie **selbst gefunden**? Was ist davon hängen geblieben?
+NARRATION-2 = Heute erleben Sie beides.
+PHASE-2-TITLE = 📌 Merken
+PHASE-2-TASK = In Station 2 finden Sie eine Regel zuerst selbst – danach bekommen Sie eine Regel vorgegeben. Achten Sie darauf, wie sich beides anfühlt.
+
+
+[Original_Slide_Template_2.md]
+SLIDE-TITLE = 4.2 Klassifikation von Methoden unter dem logischen Aspekt
+NARRATION-0 = In der letzten Sitzung haben wir Methoden unter zwei Aspekten geordnet. Heute nehmen wir den logischen Aspekt genau unter die Lupe: sieben Methoden, in Anlehnung an Diesterweg.
+SLIDE-CONTENT = """
+- Analytisch
+- Synthetisch
+- Deduktiv
+- Induktiv
+- Genetisch
+- Historisch
+- Reduktiv
+
+(vgl. Diesterweg)
+"""
+NARRATION-1 = Damit Sie den Überblick behalten, fassen wir sie in vier Denkrichtungen zusammen. Zu jeder Richtung gibt es ein technisches Beispiel von den Folien.
+KEY-MESSAGE = 🔎 Lesehilfe für heute – vier Denkrichtungen: **Teil ↔ Ganzes** (analytisch, synthetisch – Dachkonstruktionen) · **Allgemeines ↔ Besonderes** (induktiv, deduktiv – HOOKE, Beton) · **Entwicklung** (genetisch, historisch – Spannbeton) · **Rückschluss** (reduktiv – Radio).
+SOURCE = Quelle: Folie R013 „4.2 Klassifikation von Methoden unter dem logischen Aspekt“ – die Gruppierung in vier Denkrichtungen ist eine Lesehilfe für diese Sitzung, nicht Teil der Originalfolien.
+
+
+[Overview_Course_Template_2.md]
+SLIDE-TITLE = Kurskarte: sieben Wege zur Erkenntnis
+NARRATION-0 = Ihr Weg durch die Sitzung: vier Stationen, eine je Denkrichtung, dann ordnen Sie die Beispiele den Methoden zu. Auf der Kurskarte sind wir bei den Methoden, Leitfrage: Wie organisiere ich den Erkenntnisweg?
+MODULE-1 = Teil und Ganzes
+MODULE-2 = Allgemeines und Besonderes
+MODULE-3 = Entwicklung
+MODULE-4 = Rückschluss
+MODULE-5 = Beispiel und Methode
+MILESTONE = Baustein 2
+NARRATION-1 = Auf diesem Weg erreichen Sie sechs Ziele.
+KNOW-1 = die sieben Methoden unter dem logischen Aspekt **nennen**
+CAN-1 = aus Messwerten selbst induktiv eine Regel **aufstellen** und eine deduktive Schlusskette **ordnen**
+VALUE-1 = Vor- und Nachteile deduktiven und induktiven Vorgehens **abwägen**
+KNOW-2 = jede Methode an einem technischen Beispiel **erläutern**
+CAN-2 = Unterrichtsbeispiele einer Methode **zuordnen** und genetische von historischer Methode **unterscheiden**
+VALUE-2 = für Ihr Entwurfsthema eine logische Methode **auswählen** und einen Unterrichtsgang **skizzieren** *(optional)*
+NARRATION-2 = Prüfen Sie kurz, ob Sie den Weg lesen können.
+ORDER-QUESTION = In welcher Station geht es um induktiv und deduktiv?
+ORDER-CORRECT = Allgemeines und Besonderes
+ORDER-WRONG-1 = Teil und Ganzes
+ORDER-WRONG-2 = Rückschluss
+ORDER-HINT = Vom Allgemeinen zum Besonderen – oder umgekehrt.
+ORDER-FEEDBACK = Richtig: Station 2 – Allgemeines und Besonderes.
+
+
+# ───────────────────────── Station 1: Teil und Ganzes (R014–R019) ─────────────────────────
+
+[Content_Introduction_Template_2.md]
+SLIDE-TITLE = Station 1: Teil und Ganzes
+NARRATION-0 = Die erste Denkrichtung fragt nach dem Verhältnis von Teil und Ganzem. Die analytische Methode zerlegt, die synthetische fügt zusammen. Unser durchgehendes Beispiel sind zwei Dachkonstruktionen.
+GUIDING-QUESTION = Wie erkenne ich das Wesen eines Ganzen – und wie setze ich es aus Teilen zusammen?
+NARRATION-1 = Zuerst die Analyse.
+ASPECT-1 = Analytische Methode (R014)
+NARRATION-2 = Am Beispiel zweier Dächer.
+ASPECT-2 = Sparren- und Kehlbalkendach und Pfettendach (R015–R016)
+NARRATION-3 = Dann die Synthese.
+ASPECT-3 = Synthetische Methode (R017)
+NARRATION-4 = Wieder an den Dächern.
+ASPECT-4 = Merkmale und Lastabtragung (R018–R019)
+NARRATION-5 = Warum ist das für Sie wichtig?
+WHY-IT-MATTERS = Aufbau und Wirkungsweise von Maschinen, Anlagen und Konstruktionen erschließen Sie im Technikunterricht ständig über Analyse und Synthese.
+NARRATION-6 = Markieren Sie, was Sie schon kennen.
+
+
+[Original_Slide_Template_3.md]
+SLIDE-TITLE = 4.3 Analytische Methode
+NARRATION-0 = Analytisch vorgehen heißt: Ich nehme eine Gesamterscheinung und zerlege sie nach einem Ordnungsprinzip, um aus den herausgelösten Teilen das Wesen des Ganzen zu erkennen. Typische Anwendung ist der Aufbau und die Wirkungsweise von Maschinen.
+SLIDE-CONTENT = """
+- Analysieren (anhand eines Ordnungsprinzips) der Gesamterscheinung
+- Erkennen des Wesens aus dem Ganzen durch heraus gelöste Teile
+- Anwendung: Erkennen von Aufbau, Wirkungsweisen von Maschinen
+- Beispiel:
+  - Merkmale von Dachkonstruktionen
+  - Ordnung nach Elementen, Verbindungen
+"""
+NARRATION-1 = Die Tabelle zeigt das am Sparren- und Kehlbalkendach und am Pfettendach: geordnet nach tragenden Gliedern, Dachneigung, Fußpunkt, First und Verbänden.
+SLIDE-CONTENT-2 = """
+<!-- data-type="none" -->
+| | Sparren- und Kehlbalkendach | Pfettendach |
+| --- | --- | --- |
+| **Tragende Glieder** | Sparren | „Stuhl“ |
+| **Dachneigung** | Steiler (>45°) | Flacher (<45°) |
+| **Fußpunkt** | Stahlbetonwiderlager; Schrägzapfen, Versatz | Lagerung des Sparrens auf der Fußpfette (Schwelle) |
+| **First** | Verbindungen der Sparren durch Laschen, verkämmte Firstbohle; Scherzapfen | Lagerung des Sparrens auf der Firstpfette, Sicherung durch Lasche |
+| **Konstruktionselemente/ Verbindungen** | Sparren- und Kehlbalkendach | Pfettendach |
+| **Längsverband; Längsstreifigkeit** | Windrispen | Pfettenstränge; Anordnung von Pfosten, Bügen, Sparren |
+| **Querverband** | Unverschiebliches Dreieck aus dem Sparrenpaar und der Decke | Dreieck aus Pfosten, Sparren und Decke |
+"""
+NARRATION-2 = Das Ordnungsprinzip ist entscheidend.
+KEY-MESSAGE = Analyse = Zerlegen **nach einem Ordnungsprinzip** – hier nach Elementen und Verbindungen der Dachkonstruktion.
+SOURCE = Quelle: Folien R014–R016 „4.3 Analytische Methode“ – R015 und R016 zu einer Tabelle zusammengeführt; „Dreieick“ auf R016 zu „Dreieck“ korrigiert.
+
+
+[Original_Slide_Template_3.md]
+SLIDE-TITLE = 4.4 Synthetische Methode
+NARRATION-0 = Die Synthese ist die Gegenbewegung: Teile werden zu einem Ganzen zusammengefügt. Die Folie betont, dass die Analyse dafür Voraussetzung ist – ohne Zerlegung keine Zusammensetzung.
+SLIDE-CONTENT = """
+<!-- data-type="none" -->
+| Grundoperation 1: Analyse (ist Voraussetzung) | Grundoperation: Synthese |
+| --- | --- |
+| Zergliederung eines Ganzen in einzelne Bestandteile nach einem bestimmten Ordnungsprinzip | Zusammenfügen einer Anzahl von Teilen zu einem Ganzen |
+
+- Gesamterscheinung wird thematisch beschrieben
+- Arbeitsablauf wird in Einzelteile zerlegt
+- Einzelteile wiederum einzeln erörtert
+- Einzelteile werden wieder zu einem Ganzen zusammengefügt
+"""
+NARRATION-1 = Im Beispiel entnehmen die Schüler der Zusammenstellung Merkmale und untersuchen dann, wie Wind-, Schnee- und Eigenlast durch die Konstruktion abgeleitet werden.
+SLIDE-CONTENT-2 = """
+**Beispiel:** Schüler werden angeregt, aus Zusammenstellung Merkmale entnehmen, die Unterschiede der Konstruktionen erkennbarer machen
+
+<!-- data-type="none" -->
+| Tragende Glieder | Sparren- und Kehlbalkendach: **Sparren** | Pfettendach: **Stuhl** |
+| --- | --- | --- |
+| Querverband | Unverschiebbares Dreieck von **Sparrenpaar** und **Decke** | Dreieck aus **Pfosten**, **Sparren** und **Decke** |
+
+Untersuchen, wie Wind-, Schnee- und Eigenlast durch Dachkonstruktion aufgenommen und abgeleitet wird:
+
+<!-- data-type="none" -->
+| Sparren- und Kehlbalkendächer | Pfettendächer |
+| --- | --- |
+| Belastungen nur über Sparren abgeleitet | Auf Sparren wirkende Belastungen auf die Pfetten übertragen und über Pfosten und Streben in das Gebäude abgeleitet |
+"""
+NARRATION-2 = Deshalb werden beide Methoden oft zusammen diskutiert.
+KEY-MESSAGE = Hinweis: z. T. analytische und synthetische Methode zusammenhängend diskutiert, da sie einander bedingen
+SOURCE = Quelle: Folien R017–R019 „4.4 Synthetische Methode“
+
+
+[Concept_Explanation_Template_2.md]
+SLIDE-TITLE = Aktivierung: Dächer zusammensetzen
+NARRATION-0 = Setzen Sie aus den Merkmalen die beiden Dachkonstruktionen zusammen. Vergleichen Sie zuerst.
+CONCEPT-A = Sparren- und Kehlbalkendach
+CONCEPT-B = Pfettendach
+CRITERION-1 = Tragende Glieder
+A-1 = Sparren
+B-1 = „Stuhl“
+CRITERION-2 = Dachneigung
+A-2 = steiler (>45°)
+B-2 = flacher (<45°)
+CRITERION-3 = Längsverband
+A-3 = Windrispen
+B-3 = Pfettenstränge
+CRITERION-4 = Lastabtragung
+A-4 = Belastungen nur über Sparren abgeleitet
+B-4 = über Pfetten, Pfosten und Streben in das Gebäude abgeleitet
+NARRATION-1 = Je ein Merkmal aus dem Querverband:
+EXAMPLE-A = Unverschiebliches Dreieck aus dem Sparrenpaar und der Decke
+EXAMPLE-B = Dreieck aus Pfosten, Sparren und Decke
+NARRATION-2 = Ein typischer Fehlschluss:
+MISCONCEPTION = „Beide Dächer haben Sparren – also tragen beide über die Sparren.“ Beim Pfettendach tragen die Pfetten mit Pfosten und Streben („Stuhl“); die Sparren geben die Lasten nur an die Pfetten weiter.
+NARRATION-3 = Ordnen Sie jetzt zu – und überlegen Sie, welche Methode Sie dabei anwenden.
+STATEMENT-1 = Querverband aus Sparrenpaar und Decke
+STATEMENT-2 = Lasten über Pfetten, Pfosten und Streben abgeleitet
+STATEMENT-3 = Windrispen im Längsverband
+STATEMENT-4 = „Stuhl“ als tragende Glieder
+CLASSIFY-HINT = Wo tragen die Sparren selbst – und wo der Stuhl?
+CLASSIFY-FEEDBACK = Sie haben Teile zu einem Ganzen zusammengefügt – **synthetisch** (R017). Die Zerlegung in Merkmale hatten die Folien R015–R016 schon geleistet: Sie ist Voraussetzung der Synthese; beide Methoden bedingen einander (R019).
+
+
+# ───────────────────────── Station 2: Allgemeines und Besonderes (R020–R027) ─────────────────────────
+
+[Content_Introduction_Template_2.md]
+SLIDE-TITLE = Station 2: Allgemeines und Besonderes
+NARRATION-0 = Die zweite Denkrichtung ist die bekannteste: Gehe ich vom Allgemeinen zum Besonderen oder umgekehrt? Sie erleben zuerst selbst das induktive Vorgehen, danach sehen Sie das deduktive.
+GUIDING-QUESTION = Finde ich die Regel – oder bekomme ich sie?
+NARRATION-1 = Zuerst arbeiten Sie selbst mit Messwerten.
+ASPECT-1 = Selbst entdecken: der Zugversuch (R025)
+NARRATION-2 = Dann benennen wir, was Sie getan haben.
+ASPECT-2 = Induktive Methode: Fall → Lösung → Regel (R024, R026)
+NARRATION-3 = Danach der umgekehrte Weg.
+ASPECT-3 = Deduktive Methode: Beispiel Beton (R020–R022)
+NARRATION-4 = Und ein Vergleich – mit einer Ergänzung, als NEU markiert.
+ASPECT-4 = Vor- und Nachteile (R023, R027), [NEU] Wie sicher ist ein Schluss?
+NARRATION-5 = Warum ist das für Sie wichtig?
+WHY-IT-MATTERS = Bei jedem neuen Gesetz entscheiden Sie: Regel zuerst oder Messwerte zuerst?
+NARRATION-6 = Markieren Sie, was Sie schon kennen.
+
+
+[Original_Slide_Template_3.md]
+SLIDE-TITLE = Selbst entdecken: der Zugversuch
+NARRATION-0 = Hier sehen Sie Messwerte aus dem Zugversuch zweier Stähle, C 45W und C 60W: die Kraft und die zugehörige Längenänderung. Bevor ich etwas erkläre, sind Sie dran.
+SLIDE-CONTENT = """
+<!-- didaktik="Lehrschritt unterstützen/üben · 30–40 min · Einzelarbeit · Classroom-Auswertung · Doppeldecker: induktiv – Regel NICHT vorher nennen" -->
+**Beispiel:** HOOKE'sches Gesetz für das elastische Verhalten von Stahl
+
+1. Analyse von Ergebnissen des Zugversuches der Stähle
+
+<!-- data-type="none" -->
+| C 45W: F in N | C 45W: / in mm | C 60W: F in N | C 60W: / in mm |
+| ---: | ---: | ---: | ---: |
+| 7,2 | 0,25 | 7,3 | 0,045 |
+| 15,1 | 0,52 | 15,3 | 0,09 |
+| 24,0 | 0,75 | 19,3 | 0,11 |
+| 30,1 | 0,98 | 21,5 | 0,13 |
+"""
+NARRATION-1 = Dieselben Werte als Diagramm. Schauen Sie auf Tabelle und Diagramm: Was bleibt in jeder Messreihe ungefähr gleich?
+SLIDE-CONTENT-2 = """
+<!--
+data-type="ScatterPlot"
+data-title="Zugversuch: Kraft und Längenänderung"
+data-xlabel="F in N"
+data-ylabel="Längenänderung in mm (Spalte „/ in mm“)"
+data-show
+-->
+| F | C 45W | C 60W |
+| ---: | ---: | ---: |
+| 7.2 | 0.25 | |
+| 15.1 | 0.52 | |
+| 24.0 | 0.75 | |
+| 30.1 | 0.98 | |
+| 7.3 | | 0.045 |
+| 15.3 | | 0.09 |
+| 19.3 | | 0.11 |
+| 21.5 | | 0.13 |
+"""
+NARRATION-2 = Formulieren Sie gleich auf der nächsten Seite eine Regel.
+KEY-MESSAGE = Was bleibt in jeder Messreihe ungefähr gleich? Formulieren Sie daraus eine Regel in **einem** Satz.
+SOURCE = Quelle: Folie R025 „4.6 Induktive Methode“ (Titel hier zurückgehalten: Die Methode wird erst nach der Übung benannt). Die Spaltenüberschrift „/ in mm“ steht so auf der Originalfolie (gemeint ist vermutlich die Längenänderung; das Zeichen ist im Original nicht darstellbar). Diagramm aus den Tabellenwerten ergänzt.
+
+
+[Open_Task_Template_1.md]
+SLIDE-TITLE = Ihre Regel
+NARRATION-0 = Formulieren Sie Ihre Regel – erst danach sehen Sie, was dahintersteckt.
+TASK = **Allein (5 min):** Was bleibt in jeder Messreihe ungefähr gleich? Formulieren Sie eine **Regel in einem Satz**.
+HINT = Teilen Sie in jeder Zeile die Längenänderung durch die Kraft.
+MODEL-ANSWER = Das Verhältnis von Längenänderung zu Kraft ist innerhalb einer Messreihe annähernd konstant – Längenänderung und Kraft sind **proportional**. Rechnen Sie nach: 0,25 : 7,2 ≈ 0,035 · 0,52 : 15,1 ≈ 0,034 · 0,75 : 24,0 ≈ 0,031 · 0,98 : 30,1 ≈ 0,033 (C 45W, rund 0,03 mm/N) und 0,045 : 7,3 ≈ 0,006 · 0,09 : 15,3 ≈ 0,006 · 0,11 : 19,3 ≈ 0,006 · 0,13 : 21,5 ≈ 0,006 (C 60W). Beide Stähle verlängern sich bei gleicher Kraft also **nicht** gleich stark. 💭 Denkanstoß: Was müssten Sie über die Proben wissen, um im nächsten Schritt *Spannung und Dehnung* zu berechnen (R026, Schritt 2)? Die Folie nennt dazu keine Angaben.
+
+
+[Original_Slide_Template_2.md]
+SLIDE-TITLE = 4.6 Induktive Methode
+NARRATION-0 = Was Sie eben gemacht haben, ist induktives Vorgehen: vom Besonderen zum Allgemeinen, vom einzelnen Fall über die Lösung zur Regel. Im Beispiel folgen auf die Analyse der Messwerte die Berechnung von Spannung und Dehnung, die Hypothese der Proportionalität, das HOOKE'sche Gesetz durch Induktionsschluss und die Überprüfung an weiteren Stahlarten.
+SLIDE-CONTENT = """
+<!-- didaktik="Lehrschritt informieren · 40–50 min · Rückbezug auf die eben gefundene Regel" -->
+- Vom Besonderen zum Allgemeinen
+- Vom Konkreten zum Abstrakten
+- Von einzelnen Tatsächlichen zum übergreifenden Gültigen
+- Schrittfolge: **Fall → Lösung → Regel**
+
+So geht das Beispiel weiter (Schritt 1 haben Sie eben selbst gemacht):
+
+2. Synthese der Ergebnisse durch Berechnung der Spannung und Dehnung sowie der grafischen Darstellung (Kurven im Spannungs-Dehnungs-Diagramm für den elastischen Bereich)
+3. Aufstellen Hypothese zur Proportionalität zwischen Spannung und Dehnung im elastischen Bereich. Aufstellen des HOOKE'schen Gesetzes durch Induktionsschluss.
+4. Überprüfung dieser Erkenntnis durch Versuchsergebnisse weiterer Stahlarten
+"""
+NARRATION-1 = Genau so arbeitet die induktive Methode.
+KEY-MESSAGE = Vom einzelnen **Fall** (Messwerte) über die **Lösung** (Proportionalität) zur **Regel** (HOOKE'sches Gesetz).
+SOURCE = Quelle: Folien R024 und R026 „4.6 Induktive Methode“ – Nummerierung der Schritte ergänzt.
+
+
+[Original_Slide_Template_2.md]
+SLIDE-TITLE = 4.5 Deduktive Methode
+NARRATION-0 = Die deduktive Methode stellt die Regel an den Anfang: allgemeine Aussage, Interpretation, Anwendung. Achten Sie darauf: Dieser Abschnitt ist selbst deduktiv aufgebaut – erst die Regel, dann das Beispiel.
+SLIDE-CONTENT = """
+<!-- didaktik="Doppeldecker – dieser Abschnitt ist selbst deduktiv aufgebaut: erst Regel, dann Interpretation, dann Anwendung" -->
+- Vom Allgemeinen zum Besonderen des Lerngegenstandes
+- Vom Abstrakten zum Konkreten
+- Von der Regel zu deren Anwendung
+- Schrittfolge: **Allgemeine Aussage → Interpretation → Anwendung**
+- Lernziel: Befähigung in der konkreten Anwendung
+- Setzt größere Fähigkeit im abstrakten Denken beim Lernenden voraus
+"""
+NARRATION-1 = Die Folie nennt eine wichtige Voraussetzung.
+KEY-MESSAGE = Deduktion **setzt größere Fähigkeit im abstrakten Denken** beim Lernenden voraus.
+SOURCE = Quelle: Folie R020 „4.5 Deduktive Methode“
+
+
+[Process_Template_8.md]
+SLIDE-TITLE = 4.5 Deduktive Methode – Beispiel Beton
+NARRATION-0 = Das Beispiel Beton zeigt eine Schlusskette: Frischer Beton ist durch Kalziumhydroxid stark basisch, Kohlensäure aus der Luft wandelt es in Kalziumcarbonat um, der pH-Wert sinkt, und unterhalb von 9 ist der Korrosionsschutz nicht mehr gewährleistet – die Bewehrung kann rosten.
+STEP-1 = Zementhydratation
+STEP-2 = Frischer Beton
+STEP-3 = Kohlensäure
+STEP-4 = Kalziumcarbonat
+STEP-5 = pH-Wert 8,3
+STEP-6 = Alter Beton
+STEP-7 = Grenze pH-Wert 9
+STEP-8 = Bewehrung rostet
+NARRATION-1 = Die allgemeine Aussage: Kalziumhydroxid macht frischen Beton stark basisch, und Kohlensäure entsteht aus dem Kohlendioxid der Luft.
+STEP-TEXT-1 = Zementhydratation im Beton bildet Ca(OH)2 – Kalziumhydroxid hat einen pH-Wert von 12,6
+STEP-TEXT-2 = Frischer Beton hat einen pH-Wert von 12,6
+STEP-TEXT-3 = CO2 in der Luft bildet mit Wasser Kohlensäure. $\ce{CO2 + H2O -> H2CO3}$
+NARRATION-2 = Die Interpretation: Kalziumhydroxid reagiert zu Kalziumcarbonat, und der pH-Wert sinkt an der Oberfläche.
+STEP-TEXT-4 = Kalziumhydroxid reagiert mit Kohlensäure zu Kalziumcarbonat. $\ce{Ca(OH)2 + H2CO3 -> CaCO3 + 2 H2O}$
+STEP-TEXT-5 = Kalziumcarbonat hat einen pH-Wert von 8,3
+STEP-TEXT-6 = Alter Beton hat an der Oberfläche einen pH-Wert von 8,3
+NARRATION-3 = Und die Anwendung: Unterhalb von pH 9 ist der Korrosionsschutz nicht mehr gewährleistet.
+STEP-TEXT-7 = Korrosionsschutz ist nur bei einem pH-Wert über 9 gewährleistet.
+STEP-TEXT-8 = Bewehrung in Oberflächennähe kann rosten
+SOURCE = Quelle: Folien R021–R022 „4.5 Deduktive Methode“ (Kette über zwei Folien; Kurzbezeichnungen der Schritte und Formeln in chemischer Schreibweise ergänzt).
+ORDER-TITLE = Aktivierung: die Schlusskette ordnen
+NARRATION-ORDER-0 = Bringen Sie die Schritte der deduktiven Kette in die richtige Reihenfolge. Danach Beuteblatt-Stopp: Ergänzen Sie Abschnitt 2 – Ihre Regel, Vor- und Nachteile beider Methoden.
+
+
+[Concept_Explanation_Template_2.md]
+SLIDE-TITLE = Induktiv oder deduktiv? Vor- und Nachteile
+NARRATION-0 = Beide Wege haben Vor- und Nachteile. Die Folien stellen sie zusammen.
+CONCEPT-A = Induktive Methode
+CONCEPT-B = Deduktive Methode
+CRITERION-1 = Richtung
+A-1 = Vom Besonderen zum Allgemeinen; vom Konkreten zum Abstrakten
+B-1 = Vom Allgemeinen zum Besonderen; vom Abstrakten zum Konkreten
+CRITERION-2 = Schrittfolge
+A-2 = Fall → Lösung → Regel
+B-2 = Allgemeine Aussage → Interpretation → Anwendung
+CRITERION-3 = Vorteile
+A-3 = Natürlichen Lernprozess angepasst; Schüler mit Geschehen konfrontiert
+B-3 = Schulung des klaren, logischen Denkens; Schulung des Abstraktionsvermögens
+CRITERION-4 = Nachteile
+A-4 = Unterstellung, Bearbeitung eines Falles ausreichend zum Erkennen des Allgemeinen; Fallkonstruktionen oft realitäts- bzw. praxisfern
+B-4 = Hoher Abstraktionsgrad; Geringe Anschaulichkeit; Geringes Motivationspotential
+NARRATION-1 = Je ein Beispiel von den Folien:
+EXAMPLE-A = HOOKE'sches Gesetz aus Messwerten des Zugversuchs
+EXAMPLE-B = Vom pH-Wert des Betons auf das Rosten der Bewehrung schließen
+NARRATION-2 = Ein typischer Fehlschluss:
+MISCONCEPTION = „Induktiv ist immer besser, weil die Lernenden selbst entdecken.“ – Die Folie nennt auch Nachteile: Ein bearbeiteter Fall reicht nicht, um das Allgemeine sicher zu erkennen (R027).
+NARRATION-3 = Ordnen Sie jetzt Unterrichtsbeispiele zu.
+STATEMENT-1 = Die Lernenden messen den Strom bei verschiedenen Spannungen und formulieren daraus das Ohm'sche Gesetz.
+STATEMENT-2 = Die Lehrkraft nennt das Ohm'sche Gesetz und lässt es an drei Schaltungen anwenden.
+STATEMENT-3 = Die Lernenden vergleichen mehrere defekte Lager und formulieren eine gemeinsame Ursache als Regel.
+STATEMENT-4 = Aus der Regel „Korrosionsschutz nur über pH 9“ folgern die Lernenden, dass oberflächennahe Bewehrung in altem Beton rosten kann.
+CLASSIFY-HINT = Steht die Regel am Anfang oder am Ende?
+CLASSIFY-FEEDBACK = Induktiv: Die Regel steht am Ende (Fall → Lösung → Regel, R024). Deduktiv: Die Regel steht am Anfang (Allgemeine Aussage → Interpretation → Anwendung, R020). Vergleichstabelle nach Folien R020, R023, R024, R027 – „logisches Denkens“ (R023) zu „logischen Denkens“ und „Fallkontruktionen“ (R027) zu „Fallkonstruktionen“ korrigiert; Unterrichtsbeispiele: eigene Darstellung.
+
+
+[Original_Slide_Template_2.md]
+SLIDE-TITLE = [NEU] Wie sicher ist ein Schluss?
+NARRATION-0 = Eine Ergänzung aus der Forschungsliteratur, deshalb als NEU markiert. Dilling unterscheidet die beiden Schlussweisen nach ihrer Sicherheit: Der deduktive Schluss führt sicher zum Resultat, der induktive nicht.
+SLIDE-CONTENT = """
+<!-- neu="Dilling 2024, S. 38–39, 43–44" -->
+- **Deduktiver Schluss:** Regel + Fall → Resultat. „Mit einem deduktiven Schluss kann sicher auf das Resultat geschlossen werden“ (Dilling 2024, S. 38).
+- **Induktiver Schluss:** Fall + Resultat → Regel. „Der induktive Schluss überträgt die Gültigkeit der Prämissen anders als die Deduktion nicht mit Sicherheit auf die Konklusion“ (Dilling 2024, S. 39).
+
+Für das Entdecken und Begründen beschreibt Dilling drei Phasen: **Exploration** (Hypothesen entwickeln), **Wissenserklärung** (die Hypothese deduktiv auf bekanntes Wissen zurückführen) und **Wissenssicherung** (die Hypothese experimentell prüfen und induktiv absichern) (Dilling 2024, S. 43–44).
+"""
+NARRATION-1 = Verbinden Sie das mit dem HOOKE-Beispiel.
+KEY-MESSAGE = 🔗 Welcher Schritt des HOOKE-Beispiels (R026) entspricht der *Wissenssicherung*? Prüfen Sie es auf der nächsten Seite.
+SOURCE = [NEU] Ergänzung, keine Originalfolie: Dilling (2024), S. 38–39, 43–44.
+
+
+[Interactive_Exercise_Template_1.md]
+SLIDE-TITLE = Aktivierung: Schlüsse prüfen
+NARRATION-0 = Drei kurze Fragen zu induktiv, deduktiv und Dilling.
+Q1-QUESTION = Welcher Schritt des HOOKE-Beispiels (R026) entspricht der **Wissenssicherung**?
+Q1-WRONG-1 = Schritt 2: Berechnung von Spannung und Dehnung
+Q1-CORRECT = Schritt 4: Überprüfung durch Versuchsergebnisse weiterer Stahlarten
+Q1-WRONG-2 = Schritt 3: Aufstellen der Hypothese
+Q1-HINT = Wissenssicherung = die Hypothese experimentell prüfen.
+Q1-FEEDBACK = Schritt 4 prüft die induktiv gewonnene Regel an weiteren Fällen. Genau hier setzt auch der Nachteil der induktiven Methode an (R027): Ein bearbeiteter Fall reicht nicht, um das Allgemeine sicher zu erkennen.
+NARRATION-1 = Jetzt können mehrere Antworten richtig sein.
+Q2-QUESTION = Welche Aussagen stimmen nach Dilling (2024)?
+Q2-CORRECT-1 = Mit einem deduktiven Schluss kann sicher auf das Resultat geschlossen werden.
+Q2-WRONG-1 = Der induktive Schluss ist sicherer als der deduktive.
+Q2-CORRECT-2 = Der induktive Schluss überträgt die Gültigkeit der Prämissen nicht mit Sicherheit auf die Konklusion.
+Q2-WRONG-2 = Exploration bedeutet, die Hypothese experimentell abzusichern.
+Q2-HINT = Regel + Fall → Resultat ist sicher; Fall + Resultat → Regel nicht.
+Q2-FEEDBACK = Exploration = Hypothesen entwickeln; experimentell abgesichert wird in der Wissenssicherung (Dilling 2024, S. 43–44).
+NARRATION-2 = Zum Schluss ein Begriff.
+Q3-QUESTION = Induktive Schrittfolge: Fall → Lösung → … (ein Wort)
+Q3-ANSWER = Regel
+Q3-HINT = Am Ende steht das Allgemeine.
+Q3-FEEDBACK = Fall → Lösung → Regel (R024).
+
+
+# ───────────────────────── Station 3: Entwicklung (R028–R031) ─────────────────────────
+
+[Content_Introduction_Template_2.md]
+SLIDE-TITLE = Station 3: Entwicklung
+NARRATION-0 = Die dritte Denkrichtung erklärt einen Gegenstand aus seiner Entwicklung. Wir unterscheiden zwei Methoden, beide am Beispiel Spannbeton.
+GUIDING-QUESTION = Erkläre ich einen Gegenstand aus seinem Werden – oder aus seiner Geschichte?
+NARRATION-1 = Zuerst die genetische Methode.
+ASPECT-1 = Genetische Methode (R028)
+NARRATION-2 = Am Spannbeton.
+ASPECT-2 = Spannbeton über seine Fertigung (R029)
+NARRATION-3 = Dann die historische Methode.
+ASPECT-3 = Historische Methode (R030)
+NARRATION-4 = Wieder am Spannbeton.
+ASPECT-4 = Spannbeton aus dem Bedarf des 19. Jahrhunderts (R031)
+NARRATION-5 = Warum ist das für Sie wichtig?
+WHY-IT-MATTERS = Achten Sie auf den Unterschied – Sie brauchen ihn in S06 bei den Großformen wieder.
+NARRATION-6 = Markieren Sie, was Sie schon kennen.
+
+
+[Original_Slide_Template_3.md]
+SLIDE-TITLE = 4.7 Genetische Methode
+NARRATION-0 = Die genetische Methode erklärt das Wesen eines Gegenstandes aus seinem Werden – vom Einfachen zum Komplizierten, entlang eines Leitgedankens.
+SLIDE-CONTENT = """
+<!-- didaktik="Lehrschritt informieren · 55–62 min" -->
+- Wesen in Entwicklung von Lernobjekten zu bestimmten Themen
+- Vom Einfachen zum Komplizierten auf Basis eines Leitgedanken
+- Anwendung u. a. Themen, die aus ihrer Entwicklung dargestellt werden
+"""
+NARRATION-1 = Statt den fertigen Spannbeton zu zeigen, bei dem der Betonkörper erhärtet und die Vorspannung schon aufgebracht ist, erklärt sie ihn über die Fertigung.
+SLIDE-CONTENT-2 = """
+**Beispiel:**
+
+- Wesen Spannbetons mittels „fertigen“ Konstruktion erklärt
+  - Betonkörper war abgebunden und erhärtet
+  - Vorspannung war aufgebracht
+- Genetische Methode – erklärt über die Fertigung
+  - Erfasst das „Sein vor dem Hintergrund des Werdens“
+- Fertigung des Spannbetons:
+  - Verbund Spannstahl und Beton und nachträglichen Verbund über Verankerung in der Hülse bildet Zugang, der die Art des Aufbringens der Vorspannung für den Unterricht nutzt
+"""
+NARRATION-2 = Die Folie fasst das in einem Satz.
+KEY-MESSAGE = Genetisch = das **„Sein vor dem Hintergrund des Werdens“** erfassen.
+SOURCE = Quelle: Folien R028–R029 „4.7 Genetische Methode“
+
+
+[Original_Slide_Template_3.md]
+SLIDE-TITLE = 4.8 Historische Methode
+NARRATION-0 = Bei der historischen Methode bestimmt die gesellschaftliche Entwicklung den Gang. Die Folie gibt vier Schritte vor.
+SLIDE-CONTENT = """
+- Entwicklungsgedanke wird durch gesellschaftliche Entwicklung bestimmt
+- Methodische Folge:
+  1. Analysieren des Lernobjektes in konkreten historischen Erscheinungsformen
+  2. Aufdecken von Einflussgrößen in der jeweiligen historischen Situation
+  3. Vergleich und Bewerten des jeweiligen Entwicklungsstandes
+  4. Zusammenfassen der gewonnenen Erkenntnisse
+"""
+NARRATION-1 = Beim Spannbeton heißt das: Die Erfindung ist fast so alt wie der Stahlbeton, realisiert wurde sie aber erst, als Stahl- und Betonqualität ausreichten und große Spannweiten für Industrie- und Verkehrsbauten gefragt waren.
+SLIDE-CONTENT-2 = """
+**Beispiel:**
+
+- Erfindung Spannbeton fast so alt wie Stahlbeton
+- Ungenügende Stahl- und Betonqualität erst spätere technische Realisierung
+- Entwicklung Stahl- und Spannbetons durch enormen Bedarf an Industrie- und Verkehrsbauten im 19. Jahrhundert gefördert
+- Verlangten großen Spannweiten waren Stahlbetonkonstruktionen nicht gewachsen
+- Gleiche Belastung, Betonquerschnitt minimiert, Weite → Spannbeton
+- Wirkungsprinzip historisch schwer erklärbar
+"""
+NARRATION-2 = Die Folie nennt auch eine Grenze.
+KEY-MESSAGE = Grenze der historischen Methode: Das **Wirkungsprinzip** ist historisch schwer erklärbar (R031).
+SOURCE = Quelle: Folien R030–R031 „4.8 Historische Methode“ – Nummerierung der methodischen Folge ergänzt.
+
+
+[Concept_Explanation_Template_2.md]
+SLIDE-TITLE = Aktivierung: gleicher Gegenstand, zwei Methoden
+NARRATION-0 = Beide Methoden folgen einer Entwicklung – aber einer anderen. Vergleichen Sie zuerst.
+CONCEPT-A = genetisch
+CONCEPT-B = historisch
+CRITERION-1 = Entwicklungsgedanke
+A-1 = Werden des Gegenstandes selbst
+B-1 = durch gesellschaftliche Entwicklung bestimmt
+CRITERION-2 = Gang
+A-2 = vom Einfachen zum Komplizierten auf Basis eines Leitgedankens
+B-2 = Erscheinungsformen analysieren, Einflussgrößen aufdecken, Entwicklungsstände vergleichen und bewerten, zusammenfassen
+CRITERION-3 = Spannbeton
+A-3 = über die Fertigung erklärt
+B-3 = aus dem Bedarf an Industrie- und Verkehrsbauten erklärt
+CRITERION-4 = Wirkungsprinzip
+A-4 = über die Art des Aufbringens der Vorspannung zugänglich
+B-4 = historisch schwer erklärbar
+NARRATION-1 = Je ein Beispiel:
+EXAMPLE-A = Spannbeton wird über das Aufbringen der Vorspannung bei der Fertigung erklärt.
+EXAMPLE-B = Spannbeton wird aus den großen Spannweiten erklärt, denen Stahlbeton nicht gewachsen war.
+NARRATION-2 = Ein typischer Fehlschluss:
+MISCONCEPTION = „Genetisch heißt geschichtlich.“ – Genetisch folgt dem Werden des Gegenstandes (z. B. der Fertigung), historisch der gesellschaftlichen Entwicklung.
+NARRATION-3 = Ordnen Sie jetzt zu.
+STATEMENT-1 = Spannbeton wird über seine Fertigung erklärt – vom Aufbringen der Vorspannung her.
+STATEMENT-2 = Spannbeton wird aus dem Bedarf an Industrie- und Verkehrsbauten im 19. Jahrhundert erklärt.
+STATEMENT-3 = Erfasst das „Sein vor dem Hintergrund des Werdens“.
+STATEMENT-4 = Der Entwicklungsgedanke wird durch die gesellschaftliche Entwicklung bestimmt.
+CLASSIFY-HINT = Folgt die Erklärung dem Gegenstand oder der Gesellschaft?
+CLASSIFY-FEEDBACK = Die **genetische** Methode folgt dem Werden des Gegenstandes selbst (Fertigung, vom Einfachen zum Komplizierten). Die **historische** Methode folgt der gesellschaftlichen Entwicklung (Bedarf, Einflussgrößen, Entwicklungsstand) – und hat eine Grenze: Das Wirkungsprinzip ist historisch schwer erklärbar (R031).
+
+
+# ───────────────────────── Station 4: Rückschluss (R032–R033) ─────────────────────────
+
+[Open_Task_Template_1.md]
+SLIDE-TITLE = Station 4: Rückschluss – ein Fall zum Einstieg
+NARRATION-0 = Die vierte Denkrichtung ist der Rückschluss. Sie kennen ihn aus jeder Fehlersuche: Etwas funktioniert nicht – und Sie schließen auf die Ursache zurück.
+TASK = """
+<!-- didaktik="Lehrschritt provozieren (Mikro-Zyklus) · 65–68 min · Einzelarbeit · Classroom-Auswertung" -->
+> **Das Radio hört auf zu spielen.**
+
+**Allein (3 min):** Was könnte die Ursache sein – und wie würden Sie Ihre Vermutung prüfen?
+"""
+HINT = Sammeln Sie zuerst mögliche Ursachen. Überlegen Sie dann: Was müsste außerdem zutreffen, wenn Ihre Vermutung stimmt?
+MODEL-ANSWER = Mögliche Ursachen: Radio defekt, Wohnungssicherung durchgebrannt, Stecker gezogen … Prüfen: Wenn die Wohnungssicherung durchgebrannt ist, brennt auch die Stehlampe im selben Stromkreis nicht – also die Stehlampe einschalten. Wie das methodisch heißt, zeigt die nächste Seite.
+
+
+[Original_Slide_Template_3.md]
+SLIDE-TITLE = 4.9 Reduktive Methode
+NARRATION-0 = Die reduktive Methode ist nicht wahrheitserblich: Wir schließen auf eine vorhandene oder zu schaffende Struktur zurück. Die Folie unterscheidet zwei Reaktionen.
+SLIDE-CONTENT = """
+<!-- didaktik="Lehrschritt informieren · 68–73 min" -->
+- Nicht wahrheitserblich
+- Es soll auf vorhandene oder zu schaffende Struktur geschlossen werden
+- Zurückgreifen auf bereits bekannte Vorgänge (beispielsweise aus der Natur)
+- Unterteilung der reduktiven Schlüsse
+  - **Regressive Reaktion:** geht von bekannten Sachverhalten aus, die in Form von Aussagen widergespiegelt werden und führt zu einer Erklärung dieser Sachverhalte
+  - **Progressive Reaktion:** Hier sind keine von vornherein wahrheitsgemäßen Antworten und es müssen Hypothesen aufgestellt werden
+"""
+NARRATION-1 = Die regressive Reaktion geht von bekannten Sachverhalten aus und erklärt sie, etwa: Das Radio spielt nicht, weil es defekt ist oder die Wohnungssicherung durchgebrannt ist. Die progressive stellt eine Hypothese auf und leitet daraus prüfbare Aussagen ab: Wenn die Sicherung durchgebrannt ist, brennt auch die Stehlampe nicht.
+SLIDE-CONTENT-2 = """
+**Beispiel: Das Radio hört auf zu spielen**
+
+<!-- data-type="none" -->
+| Regressive Reaktion | Progressive Reaktion |
+| --- | --- |
+| Auf Erklärung des Sachverhalts geschlossen, d.h. Aussage über Voraussetzungen, Bedingungen und Ursachen | Aus Hypothese abgeleitete Aussagen wahr → gilt Hypothese bestätigt |
+| Vorrangig gesetzmäßige Zusammenhänge untersucht → daher oft keine einfache Aussage, sondern ein Gefüge von Aussagen bzw. eine ganze Theorie | Daher möglichst viele Aussagen ableiten |
+| Gründe Bsp.: Radio defekt, Wohnungssicherung durchgebrannt, … | Bsp.: Wohnungssicherung durchgebrannt → Stehlampe brennt auch nicht |
+"""
+NARRATION-2 = Je mehr solcher Aussagen sich bestätigen, desto besser ist die Hypothese gestützt.
+KEY-MESSAGE = Das ist die Logik jeder **Fehlersuche**: Hypothese aufstellen, prüfbare Aussagen ableiten, prüfen.
+SOURCE = Quelle: Folien R032–R033 „4.9 Reduktive Methode“ – „führt u einer Erklärung“ zu „führt zu einer Erklärung“ korrigiert.
+
+
+# ───────────────────────── Wo stehen wir? ─────────────────────────
+
+[Interactive_Exercise_Template_1.md]
+SLIDE-TITLE = Wo stehen wir? Beispiel und Methode
+NARRATION-0 = Welche Methode steckt in welchem Beispiel der Folien?
+Q1-QUESTION = „Spannbeton aus dem Bedarf des 19. Jahrhunderts“ – welche Methode?
+Q1-WRONG-1 = genetisch
+Q1-CORRECT = historisch
+Q1-WRONG-2 = reduktiv
+Q1-HINT = Gesellschaftliche Entwicklung …
+Q1-FEEDBACK = Historisch: Der Entwicklungsgedanke wird durch die gesellschaftliche Entwicklung bestimmt (R030–R031).
+NARRATION-1 = Jetzt können mehrere Antworten richtig sein.
+Q2-QUESTION = Welche Zuordnungen stimmen?
+Q2-CORRECT-1 = Merkmale von Dachkonstruktionen ordnen – analytisch
+Q2-WRONG-1 = pH-Wert von Beton und Rosten der Bewehrung – induktiv
+Q2-CORRECT-2 = Das Radio hört auf zu spielen – reduktiv
+Q2-WRONG-2 = HOOKE'sches Gesetz aus dem Zugversuch – deduktiv
+Q2-HINT = Beton: Regel zuerst. HOOKE: Messwerte zuerst.
+Q2-FEEDBACK = Dach – analytisch (R014) · Beton – deduktiv (R021–R022) · HOOKE – induktiv (R025–R026) · Spannbeton über Fertigung – genetisch (R029) · Spannbeton aus gesellschaftlichem Bedarf – historisch (R031) · Radio – reduktiv (R033).
+NARRATION-2 = Zum Schluss ein Begriff.
+Q3-QUESTION = „Spannbeton über seine Fertigung“ – welche Methode? (ein Wort)
+Q3-ANSWER = genetisch
+Q3-HINT = Das Sein vor dem Hintergrund des Werdens …
+Q3-FEEDBACK = Genetisch: Spannbeton wird über die Fertigung erklärt (R029).
+
+
+[Interactive_Exercise_Template_1.md]
+SLIDE-TITLE = Kurzcheck: Rückschluss und die heutige Sitzung
+NARRATION-0 = Und welche Methoden hatte die heutige Sitzung selbst?
+Q1-QUESTION = „Wenn die Wohnungssicherung durchgebrannt ist, brennt auch die Stehlampe nicht – also prüfe ich die Stehlampe.“ Welche Reaktion ist das?
+Q1-WRONG-1 = regressive Reaktion
+Q1-CORRECT = progressive Reaktion
+Q1-WRONG-2 = deduktive Anwendung einer Regel
+Q1-HINT = Wird eine Hypothese aufgestellt und daraus eine prüfbare Aussage abgeleitet?
+Q1-FEEDBACK = Aus der Hypothese („Wohnungssicherung durchgebrannt“) wird eine prüfbare Aussage abgeleitet („Stehlampe brennt auch nicht“). Ist sie wahr, gilt die Hypothese als bestätigt – deshalb möglichst viele Aussagen ableiten (R033).
+NARRATION-1 = Jetzt können mehrere Antworten richtig sein.
+Q2-QUESTION = Welche Teile von S01 und S01b waren **induktiv** aufgebaut?
+Q2-CORRECT-1 = Zugversuch – erst Daten, dann Regel
+Q2-WRONG-1 = Deduktive Methode – erst Regel, dann Beton-Beispiel
+Q2-CORRECT-2 = Strukturlegetechnik in S01 – erst sortieren, dann auflösen
+Q2-WRONG-2 = Dächer aus Merkmalen zusammensetzen
+Q2-HINT = Steht die Regel am Ende?
+Q2-FEEDBACK = Zugversuch und Strukturlegetechnik: erst die Einzelfälle, dann die Regel – induktiv. Der Abschnitt zur deduktiven Methode begann mit der Regel – deduktiv. Dächer zusammensetzen: synthetisch.
+NARRATION-2 = Zum Schluss ein Begriff.
+Q3-QUESTION = „Dächer aus Merkmalen zusammensetzen“ – welche Methode? (ein Wort)
+Q3-ANSWER = synthetisch
+Q3-HINT = Teile → Ganzes …
+Q3-FEEDBACK = Synthese = Zusammenfügen einer Anzahl von Teilen zu einem Ganzen (R017).
+
+
+[Open_Task_Template_1.md]
+SLIDE-TITLE = Baustein 2 für Ihren Unterrichtsentwurf (optional)
+NARRATION-0 = Wählen Sie für Ihr Entwurfsthema aus S01 eine logische Methode.
+TASK = **Allein (6 min):** Wählen Sie für Ihr Entwurfsthema aus S01 eine logische Methode. Skizzieren Sie den Unterrichtsgang in **drei Schritten** (z. B. *Fall → Lösung → Regel* oder *allgemeine Aussage → Interpretation → Anwendung*) und begründen Sie Ihre Wahl in einem Satz.
+HINT = Fragen Sie: Können die Lernenden die Regel aus wenigen, eindeutigen Fällen selbst finden – oder ist sie zu abstrakt dafür?
+MODEL-ANSWER = Thema Leitungsschutzschalter, **induktiv**: ① Fall – Die Lernenden belasten eine Leitung im Versuchsaufbau mit steigendem Strom und beobachten Erwärmung und Auslösezeit. ② Lösung – Je größer der Überstrom, desto schneller löst der Schalter aus. ③ Regel – Auslösekennlinie formulieren und an der Herstellerkennlinie prüfen. Begründung: Der Zusammenhang ist messbar und anschaulich; die Prüfung an der Kennlinie sichert die Regel ab (Wissenssicherung, Dilling).
+
+
+# ───────────────────────── Abschluss ─────────────────────────
+
+[Discussion_Template_2.md]
+SLIDE-TITLE = Zum Mitnehmen: Regel zuerst?
+NARRATION-0 = Noch einmal die These vom Anfang. Stimmen Sie jetzt ab.
+VOTE-QUESTION = „Regel zuerst ist effizienter – Selbst-Entdecken kostet im Unterricht nur Zeit.“ – Stimmen Sie jetzt zu?
+OPTION-A = Ja, ich stimme zu
+OPTION-B = Nein, ich stimme nicht zu
+OPTION-C = Teils, teils
+NARRATION-1 = Was ist Ihnen heute am unklarsten geblieben?
+REFLECT-QUESTION = Muddiest point: Was ist Ihnen heute am unklarsten geblieben?
+NARRATION-2 = Eine Einordnung:
+KEY-MESSAGE = Beide Wege haben Vor- und Nachteile (R023, R027): Deduktiv schult das logische Denken, ist aber abstrakt und wenig motivierend; induktiv ist dem natürlichen Lernprozess angepasst, braucht aber mehr als einen Fall. Wählen Sie nach Lernziel und Lernenden – und sichern Sie induktiv gefundene Regeln ab.
+
+
+[Summary_Recap_Template_1.md]
+SLIDE-TITLE = Das Wichtigste aus S01b
+NARRATION-0 = Fassen wir zusammen.
+NARRATION-1 = Erstens: Teil und Ganzes.
+TAKEAWAY-1 = Analytisch zerlegen, synthetisch zusammenfügen – beide bedingen einander (R014–R019).
+NARRATION-2 = Zweitens: Allgemeines und Besonderes.
+TAKEAWAY-2 = Induktiv: Fall → Lösung → Regel · Deduktiv: Allgemeine Aussage → Interpretation → Anwendung (R020, R024).
+NARRATION-3 = Drittens: Entwicklung.
+TAKEAWAY-3 = Genetisch folgt dem Werden des Gegenstandes, historisch der gesellschaftlichen Entwicklung (R028–R031).
+NARRATION-4 = Und viertens: Rückschluss.
+TAKEAWAY-4 = Reduktiv: nicht wahrheitserblich – regressiv erklären, progressiv Hypothesen prüfen (R032–R033).
+REMEMBER = Der logische Aspekt fragt: Auf welchem Denkweg entsteht die Erkenntnis?
+NARRATION-5 = Eine letzte Frage.
+RECAP-QUESTION = Welcher Nachteil der induktiven Methode steht auf Folie R027?
+RECAP-WRONG-1 = Hoher Abstraktionsgrad
+RECAP-WRONG-2 = Geringes Motivationspotential
+RECAP-CORRECT = Unterstellung, Bearbeitung eines Falles ausreichend zum Erkennen des Allgemeinen
+RECAP-HINT = Die beiden falschen Antworten stehen bei der deduktiven Methode.
+RECAP-FEEDBACK = Richtig (R027). Hoher Abstraktionsgrad und geringes Motivationspotential sind Nachteile der deduktiven Methode (R023).
+NARRATION-6 = Als Nächstes geht es um Handlungsorientierung.
+OUTLOOK = S02: Handlungsorientierung · 📝 Beuteblatt-Stopp: Ergänzen Sie die Abschnitte 3 und 4 und Ihre wichtigste Beute.
+
+
+[Original_Slide_Template_1.md]
+SLIDE-TITLE = Prüfungsfragen zum Üben
+NARRATION-0 = Mit diesen vier Fragen können Sie sich auf die mündliche Prüfung vorbereiten.
+SLIDE-CONTENT = """
+<!-- didaktik="E-12 mündliche Prüfung" -->
+1. Nennen Sie die Methoden unter dem logischen Aspekt und erläutern Sie zwei davon an einem technischen Beispiel.
+2. Vergleichen Sie deduktives und induktives Vorgehen: Schrittfolge, Vor- und Nachteile – und wann würden Sie welches wählen?
+3. Worin unterscheiden sich genetische und historische Methode? Erläutern Sie am Beispiel Spannbeton.
+4. Erklären Sie regressive und progressive Reaktion der reduktiven Methode an einem Fehlerfall aus Ihrer Fachrichtung.
+"""
+SOURCE = Die Prüfungsfragen sind experimentell: Sie dienen der Vorbereitung, es ist nicht garantiert, dass Fragen in dieser Form gestellt werden.
+
+
+[Summary_Recap_Template_3.md]
+SLIDE-TITLE = Rückblick auf S01b
+NARRATION-0 = Nehmen Sie sich zwei Minuten für einen Rückblick. Was ist das Wichtigste – und was ist noch unklar?
+NARRATION-1 = Haken Sie ab, was Sie jetzt können.
+CAN-DO-1 = Ich kann die sieben Methoden unter dem logischen Aspekt nennen und an Beispielen erläutern.
+CAN-DO-2 = Ich kann induktives und deduktives Vorgehen mit Vor- und Nachteilen vergleichen.
+CAN-DO-3 = Ich kann genetische und historische Methode am Beispiel Spannbeton unterscheiden.
+NARRATION-2 = Und zum Schluss: Wie hat die Sitzung für Sie funktioniert?
+TEASER-TITLE = Vorbereitung auf S02
+NARRATION-TEASER-0 = In S02 geht es um Handlungsorientierung – warum Lernende im technischen Unterricht handeln sollen. Planen Sie etwa 15 Minuten Vorbereitung ein.
+IMAGE-ALT = Ein Elektro-Vorlehrling verlegt lachend eine Leitung an einer Holzdecke, Werkzeug am Gürtel
+IMAGE-PATH = https://commons.wikimedia.org/wiki/Special:FilePath/A_Maori_Electrical_Pre-apprentice_at_the_Auckland_Technical_Institute,_1966.jpg?width=800
+IMAGE-CAPTION = Elektro-Vorlehrling am Auckland Technical Institute, 1966 · Foto: Riethmaier · CC BY 2.0 · Wikimedia Commons
+TEASER-QUESTION = Beschreiben Sie eine typische berufliche Tätigkeit Ihrer Fachrichtung (z. B. eine Steckdose installieren, eine Welle drehen, einen Dachstuhl abbinden) in Schritten: Was passiert vor, während und nach der Ausführung? Und wer entscheidet in Ihrer Erfahrung meist, wie eine Aufgabe ausgeführt wird – die Lehrkraft, die Lernenden, beide gemeinsam oder eine Vorschrift?
+NEXT-DATE = S02 · Montag, 19.10.2026 · Selbstlernsitzung
+
+
+[Original_Slide_Template_1.md]
+SLIDE-TITLE = Literatur
+NARRATION-0 = Hier finden Sie die Quellen dieser Sitzung.
+SLIDE-CONTENT = """
+**Zitiert auf den Originalfolien dieser Sitzung**
+
+- Diesterweg – Folie R013 („vgl. Diesterweg“); vollständige Angabe auf der Originalfolie nicht vorhanden.
+
+**[NEU] Ergänzende Literatur**
+
+- Dilling, F. (2024). Naturwissenschaftliche Erkenntniswege – Was können wir aus diesen über Begründungen im Mathematikunterricht lernen? In F. Dilling et al. (Hrsg.), *Interdisziplinäres Forschen und Lehren in den MINT-Didaktiken* (MINTUS – Beiträge zur mathematisch-naturwissenschaftlichen Bildung, S. 35–54). Wiesbaden: Springer Fachmedien. https://doi.org/10.1007/978-3-658-43873-9_3
+"""
+SOURCE = Gesamtverzeichnis: 00_Literatur.md

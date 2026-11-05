@@ -35,6 +35,9 @@ Otto-von-Guericke-Universität Magdeburg · Professur für Ingenieurpädagogik u
 | S10 – Lernerfolgskontrolle (Selbstlerneinheit) | [LiaScript](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/Selflearn/S10_Lernerfolgskontrolle.md) |
 | S11 (04.01.2027) – PAL-Prüfungen & Synthese | [LiaScript](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S11_PAL_Synthese.md) |
 | S11 – PAL-Prüfungen & Synthese (Selbstlerneinheit) | [LiaScript](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/Selflearn/S11_PAL_Synthese.md) |
+| Prüfungstrainer – mündliche Modulprüfung, alle Sitzungen (Selbstlerneinheit) | [LiaScript](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/Selflearn/Pruefungstrainer.md) |
 | Literatur | [LiaScript](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/00_Literatur.md) |
 
 Inhalte mit **[NEU]** ergänzen die ursprünglichen Vorlesungsfolien um aktuelle Literatur. Unter jedem Abschnitt steht, aus welcher Originalfolie (R001–R195) der Inhalt stammt. Die Originalfolien liegen in `Original_PPTX_Sliced/`.
+
+SCORM-Pakete der Selbstlerneinheiten für Moodle (SCORM 1.2) entstehen lokal in `Selflearn/SCORM/` und werden nicht ins Repository übernommen (siehe `content/README.md`).

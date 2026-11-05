@@ -1,0 +1,658 @@
+# Content file Selflearn S06 – build with:  python3 content/build.py content/Selflearn/S06_Grossformen.txt
+# Self-study unit for the Selbstlerntermin 16.11.2026 (opened as textbook: narration appears as study text). Original slides R101–R127.
+
+[course]
+AUTHOR = Hannes Tegelbeckers
+EMAIL = hannes.tegelbeckers@ovgu.de
+VERSION = 0.3.0
+LANGUAGE = de
+NARRATOR = Deutsch Female
+COURSE-TITLE = S06 – Methodische Großformen (Selbstlerneinheit)
+COURSE-DESCRIPTION = Fachdidaktik technischer Allgemeinbildung II – Selbstlerneinheit zu Sitzung S06 (Selbstlerntermin 16.11.2026). Großformen nach Pahl mit ihrer Akzentuierung verstehen, an neuen Situationen erkennen, Analyse- und Aufgabenform unterscheiden und eine Großform für die eigene Fachrichtung ausgestalten.
+COURSE-SUBTITLE = """
+<!-- didaktik="Selbstlerneinheit S06 · Selbstlerntermin 16.11.2026 (Dozent nicht vor Ort) · ca. 90 min · Studientext + Übungen · Inhalte der Folien R101–R127, in eigenen Worten erläutert" -->
+> [!IMPORTANT] 🧭 Leitfrage
+> Welche Großform passt zu welcher beruflichen Situation – und wie gestalte ich sie aus?
+
+> [!WARNING] 📅 Selbstlerntermin am 16.11.2026
+> An diesem Termin gibt es keine Präsenzveranstaltung. Diese Einheit **erklärt alle Inhalte der Sitzung S06** und enthält die Übungen dazu – Sie können sie ohne weitere Unterlagen bearbeiten. Die [LiaScript-Sitzung S06](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/S06_Grossformen.md) enthält die Originalfolien im Wortlaut; nutzen Sie sie zum Nachschlagen. Fragen notieren Sie auf dem Beuteblatt – wir greifen sie in S07 auf.
+
+> [!TIP] ✍️ Übung in Moodle
+> Bearbeiten Sie diese Einheit als Übung im Moodle-Kurs – dort wird Ihr Bearbeitungsstand gespeichert: [Übung in Moodle öffnen](https://elearning.ovgu.de/mod/scorm/view.php?id=707267)
+
+**Ablauf (ca. 90 min)**
+
+<!-- data-type="none" -->
+| Schritt | Inhalt | Zeit |
+| --- | --- | --- |
+| 0 | Wo stehen Sie? | 3 min |
+| 1 | Was ist eine methodische Großform? | 12 min |
+| 2 | Analytisch akzentuierte Großformen | 15 min |
+| 3 | Synthetisch akzentuierte Großformen | 18 min |
+| 4 | Induktiv, deduktiv, historisch, reduktiv | 12 min |
+| 5 | Das gemeinsame Gerüst – und warum Zuordnungen vorsichtig sein müssen | 10 min |
+| 6 | Eine Großform ausgestalten | 15 min |
+| 7 | Abschluss und Prüfungsfragen | 15 min |
+"""
+
+
+# ───────────────────────── Überblick und Einstieg ─────────────────────────
+
+[Overview_Course_Template_2.md]
+SLIDE-TITLE = Ihr Lernweg in dieser Einheit
+NARRATION-0 = Die Einheit führt von der Frage, was eine Großform ist, über die analytisch und synthetisch akzentuierten Formen und die übrigen Akzente zum gemeinsamen Gerüst. Am Ende gestalten Sie eine Großform für Ihre Fachrichtung aus.
+MODULE-1 = Großform
+MODULE-2 = analytisch
+MODULE-3 = synthetisch
+MODULE-4 = weitere Akzente
+MODULE-5 = Gerüst
+MILESTONE = Baustein 7
+NARRATION-1 = Auf diesem Weg erreichen Sie sechs Ziele.
+KNOW-1 = **erklären**, was eine methodische Großform ist und wie sie mit logischen Methoden (S01b) und vollständiger Handlung (S02) zusammenhängt
+CAN-1 = berufliche Situationen einer Großform **zuordnen** und Analyse- und Aufgabenform **unterscheiden**
+VALUE-1 = **begründen**, warum eine eindeutige Zuordnung „mit Vorsicht zu genießen“ ist
+KNOW-2 = die Großformen nach Pahl mit ihrer Akzentuierung **nennen** und ihre Merkmale **erläutern**
+CAN-2 = eine Großform für Ihre Fachrichtung mit ihren typischen Schritten **ausgestalten**
+VALUE-2 = Ihre Wahl einer Großform mit Ihrem Lernziel **begründen**
+NARRATION-2 = Prüfen Sie kurz, ob Sie den Lernweg lesen können.
+ORDER-QUESTION = Was kommt direkt nach den synthetisch akzentuierten Großformen?
+ORDER-CORRECT = weitere Akzente
+ORDER-WRONG-1 = Großform
+ORDER-WRONG-2 = Gerüst
+ORDER-HINT = Folgen Sie den Pfeilen von links nach rechts.
+ORDER-FEEDBACK = Richtig: induktiv, deduktiv, historisch und reduktiv akzentuierte Großformen folgen in Abschnitt 4.
+
+
+[Discussion_Template_1.md]
+SLIDE-TITLE = 0 · Wo stehen Sie?
+NARRATION-0 = Bevor Sie beginnen: Wie stehen Sie zu dieser These? Am Ende der Einheit stimmen Sie noch einmal ab.
+DILEMMA = > **„Jede Großform lässt sich eindeutig einer logischen Methode zuordnen.“**
+VOTE-QUESTION = Stimmen Sie dieser These zu?
+OPTION-A = Ja, ich stimme zu
+OPTION-B = Nein, ich stimme nicht zu
+OPTION-C = Teils, teils
+NARRATION-1 = Notieren Sie zwei typische Aufgabenarten aus Ihrem Beruf.
+PHASE-1-TITLE = 🧠 Ausgangsfrage · 3 min
+PHASE-1-TASK = Notieren Sie zwei typische Aufgabenarten aus Ihrem Beruf (z. B. „Fehler suchen“, „Bauteil herstellen“, „Anlage prüfen“).
+NARRATION-2 = Behalten Sie Ihre Aufgabenarten im Blick.
+PHASE-2-TITLE = 📌 Merken
+PHASE-2-TASK = Ihre Aufgabenarten begegnen Ihnen in dieser Einheit als Großformen wieder. Notieren Sie, wo Sie sie wiederfinden.
+
+
+# ───────────────────────── 1 · Was ist eine Großform? (R101–R102) ─────────────────────────
+
+[Original_Slide_Template_3.md]
+SLIDE-TITLE = 1 · Was ist eine methodische Großform?
+NARRATION-0 = In S01b haben Sie logische Methoden kennengelernt – Denkwege wie Analyse, Synthese, Induktion oder Deduktion. Sie beschreiben, wie Erkenntnis gewonnen wird, aber noch nicht, wie eine ganze Unterrichtseinheit abläuft.
+SLIDE-CONTENT = """
+**Methodische Großform**
+
+- Vorrangig unter dem Aspekt der analytischen und synthetischen Akzentuierung betrachtet
+- **Hinweis:**
+  - Zuordnung einer Methode im engeren Sinne nur zu einer methodischen Großform „mit Vorsicht zu genießen“
+"""
+NARRATION-1 = Eine methodische Großform ist ein vollständiges Ausbildungs- und Unterrichtsverfahren: eine Abfolge typischer Schritte, die über mehrere Stunden trägt und sich an einer beruflichen Aufgabenart orientiert.
+SLIDE-CONTENT-2 = """
+**In eigenen Worten:** Eine **methodische Großform** ist ein vollständiges Ausbildungs- und Unterrichtsverfahren – eine Abfolge typischer Schritte, die über mehrere Stunden trägt und sich an einer **beruflichen Aufgabenart** orientiert: Diagnose, Fertigung, Inspektion, Konstruktion, Instandsetzung usw.
+
+Die Großformen stammen aus dem Kompendium von **Jörg-Peter Pahl**: *Ausbildungs- und Unterrichtsverfahren. Ein Kompendium für den Lernbereich Arbeit und Technik* (wbv).
+"""
+NARRATION-2 = Schon die erste Folie warnt.
+KEY-MESSAGE = ⚠️ Eine Methode im engeren Sinne **nur einer** Großform zuzuordnen, ist „mit Vorsicht zu genießen“. Der Akzent beschreibt einen **Schwerpunkt**, keine Ausschließlichkeit – warum, sehen Sie in Abschnitt 5.
+SOURCE = Quelle: Folien R101 „Methodische Großform“ und R102 (Buchcover); Erläuterung: eigene Darstellung.
+
+
+[Figure_Template_1.md]
+SLIDE-TITLE = Lesehilfe: Großform = Akzent + Gerüst
+NARRATION-0 = Eine Lesehilfe für diese Einheit: Jede Großform hat einen Akzent und ein Gerüst.
+MERMAID-CODE = """
+flowchart LR
+  A["<b>Akzent</b><br>logische Methode (S01b)<br>analytisch, synthetisch,<br>induktiv, deduktiv,<br>historisch, reduktiv"] --> G(["<b>Methodische Großform</b><br>z. B. analytisch akzentuiert –<br>Diagnoseaufgabe"])
+  B["<b>Gerüst</b><br>vollständige Handlung (S02)<br>typische Schritte von der Aufgabe<br>bis zu Bewertung und Transfer"] --> G
+"""
+NARRATION-1 = Akzent: Jede Großform hat einen Schwerpunkt in einer logischen Methode. Die Folien ordnen sie vor allem nach analytischer oder synthetischer Akzentuierung, dazu kommen induktiv, deduktiv, historisch und reduktiv akzentuierte Formen.
+PART-1 = Akzent
+PART-TEXT-1 = der Schwerpunkt in einer logischen Methode aus S01b
+NARRATION-2 = Gerüst: Die typischen Schritte folgen fast immer der vollständigen Handlung aus S02.
+PART-2 = Gerüst
+PART-TEXT-2 = Aufgabe erfassen → (intuitive Lösungsideen) → planen und informieren → durchführen → kontrollieren und bewerten → übertragen
+NARRATION-3 = Zusammen ergeben sie die Großform.
+PART-3 = Großform
+PART-TEXT-3 = ein vollständiges Verfahren, benannt nach einer beruflichen Aufgabenart
+NARRATION-4 = Und der Akzent ist kein Etikett, sondern ein Schwerpunkt.
+KEY-MESSAGE = Großform = Akzent (logische Methode) + Gerüst (vollständige Handlung).
+SOURCE = Lesehilfe, nicht Teil der Originalfolien.
+
+
+[Original_Slide_Template_1.md]
+SLIDE-TITLE = Zur Erinnerung aus S01b: die Akzente in einem Satz
+NARRATION-0 = Mit jeder logischen Methode verbindet sich eine Frage, die Sie an eine Großform stellen können.
+SLIDE-CONTENT = """
+<!-- data-type="none" -->
+| Akzent | Denkweg | Frage an die Großform |
+| --- | --- | --- |
+| **analytisch** | ein Ganzes in Teile zerlegen, um sein Wesen zu erkennen | Wird etwas **Vorhandenes** untersucht? |
+| **synthetisch** | Teile zu einem neuen Ganzen zusammenfügen | Entsteht etwas **Neues** oder wird etwas (wieder)hergestellt? |
+| **induktiv** | vom Einzelfall (Beobachtung, Versuch) zur Regel | Wird eine Regel aus Versuchen gewonnen? |
+| **deduktiv** | von der Regel zum Einzelfall | Wird eine bekannte Gesetzmäßigkeit angewendet? |
+| **historisch** | Entwicklung der Technik nachvollziehen | Hilft der Blick auf frühere Technik? |
+| **reduktiv** | auf bekannte Vorgänge zurückgreifen, z. B. aus der Natur | Wird eine Lösung aus einem bekannten System übertragen? |
+"""
+SOURCE = Zusammenfassung der logischen Methoden aus S01b; eigene Darstellung.
+
+
+# ───────────────────────── 2 · Analytisch akzentuiert (R103–R110) ─────────────────────────
+
+[Content_Introduction_Template_2.md]
+SLIDE-TITLE = 2 · Analytisch akzentuierte Großformen
+NARRATION-0 = Die vier analytisch akzentuierten Großformen haben gemeinsam: Etwas Vorhandenes wird zerlegt und untersucht – ein Fehlverhalten, ein Fall, eine bereits durchgeführte Instandsetzung, eine fertige Konstruktion.
+GUIDING-QUESTION = Was haben Großformen gemeinsam, die etwas Vorhandenes untersuchen?
+NARRATION-1 = Die Diagnoseaufgabe untersucht ein Fehlverhalten.
+ASPECT-1 = 2.1 Diagnoseaufgabe (R103–R104)
+NARRATION-2 = Die Fallstudie kennen Sie aus S04.
+ASPECT-2 = 2.2 Fallstudie (R105–R106)
+NARRATION-3 = Die Instandsetzungsanalyse untersucht eine bereits durchgeführte Instandsetzung.
+ASPECT-3 = 2.3 Instandsetzungsanalyse (R107–R108)
+NARRATION-4 = Und die Konstruktionsanalyse vollzieht eine fertige Konstruktion nach.
+ASPECT-4 = 2.4 Konstruktionsanalyse (R109–R110)
+NARRATION-5 = Warum ist das für Sie wichtig?
+WHY-IT-MATTERS = Fehler finden, Fälle beurteilen, Arbeiten anderer prüfen – analytische Aufgaben prägen viele technische Berufe.
+NARRATION-6 = Markieren Sie, was Sie schon kennen.
+
+
+[Original_Slide_Template_2.md]
+SLIDE-TITLE = 2.1 Diagnoseaufgabe
+NARRATION-0 = Die Diagnoseaufgabe befähigt Lernende, Geräte, Maschinen und Anlagen zu diagnostizieren. Sie lernen typische Abläufe kennen und erwerben ein Vorgehen, das sie auf künftige Systemdiagnosen übertragen können.
+SLIDE-CONTENT = """
+```mermaid @mermaid
+flowchart LR
+  A["Aufgaben- und<br>Problemstellung"] --> P["Planung der<br>Diagnose"] --> D
+  subgraph D ["Durchführung der Diagnose"]
+    direction TB
+    D1["Zustand identifizieren"] --> D2["Verfolgen von Signalen<br>bzw. Werten"] --> D3["Fehlerquellen eingrenzen"] --> D4["Fehlerbestimmung"]
+  end
+  D --> K["Kontrolle der<br>Durchführung"] --> R["Auswertung, Bewertung,<br>Reflexion und Transfer"]
+```
+
+Kern ist die **Durchführung der Diagnose**: Was funktioniert, was nicht? Wo kommt das Signal noch an? So wird die Fehlerquelle Schritt für Schritt eingegrenzt.
+
+**Folienbeispiel:** Untersuchung des Fehlverhaltens einer Titrations- und Neutralisationsanlage.
+"""
+NARRATION-1 = Der Akzent:
+KEY-MESSAGE = analytisch: Ein vorhandenes Fehlverhalten wird zerlegt und untersucht.
+SOURCE = Typische Schritte nach Folien R103–R104 „5.1 analytische akzentuiert – Diagnoseaufgabe“ als Ablauf dargestellt; Erläuterung: eigene Darstellung.
+
+
+[Original_Slide_Template_2.md]
+SLIDE-TITLE = 2.2 Fallstudie
+NARRATION-0 = Die Fallstudie kennen Sie aus S04. Als Großform ist sie ein Entscheidungstraining: Die Lernenden treffen in einer Fallsituation Entscheidungen und bewerten sie.
+SLIDE-CONTENT = """
+Die Schritte entsprechen den Phasen nach Kaiser:
+
+```mermaid @mermaid
+flowchart LR
+  K1["Konfrontation<br>Fall erfassen"] --> K2["Information"] --> K3["Exploration<br>Lösungsvarianten"] --> K4["Resolution<br>Entscheidung"] --> K5["Disputation<br>Entscheidung verteidigen"] --> K6["Kollation<br>mit der realen Lösung vergleichen"]
+```
+
+**Folienbeispiel:** „Wasser in den Wänden“ (Bautechnik; die Folie nennt nur den Titel).
+"""
+NARRATION-1 = Der Akzent:
+KEY-MESSAGE = analytisch: Ein vorhandener Fall wird untersucht und entschieden.
+SOURCE = Erläuterung zu den Folien R105–R106 „5.1 analytische akzentuiert – Fallstudie“; Phasen nach Kaiser siehe S04.
+
+
+[Original_Slide_Template_2.md]
+SLIDE-TITLE = 2.3 Instandsetzungsanalyse
+NARRATION-0 = Hier wird eine bereits durchgeführte Instandsetzung aus der betrieblichen Praxis analysiert. Die Lernenden setzen also nicht selbst instand: Motorische Aktivitäten treten zurück, analytisches und schlussfolgerndes Denken dominieren. Sie lernen dabei fachliche Inhalte und prozessbezogene Methoden kennen.
+SLIDE-CONTENT = """
+```mermaid @mermaid
+flowchart TD
+  S1["Einstieg mit Schadenbeschreibung und Problemstellung"] --> S2["Problemerklärung und intuitive Problemlösungsversuche"]
+  S2 --> S3["Sachgerechte Planung des Problemlösungs- und Analyseweges"]
+  S3 --> S4["Information über das technische Objekt und die durchgeführte Arbeit"]
+  S4 --> S5["Analyse der durchgeführten Instandsetzung"]
+  S5 --> S6["Auswertung des Analyseergebnisses"]
+  S6 --> S7["Schadensbericht mit Lösungsvorschlägen"]
+  S7 --> S8["Auswertung"]
+```
+
+**Folienbeispiel:** Instandsetzung von Stahlbeton (Bautechnik).
+"""
+NARRATION-1 = Der Akzent:
+KEY-MESSAGE = analytisch: Eine Instandsetzung, die andere durchgeführt haben, wird untersucht.
+SOURCE = Typische Schritte nach Folien R107–R108 „5.1 analytische akzentuiert – Instandsetzungsanalyse“ als Ablauf dargestellt; Erläuterung: eigene Darstellung.
+
+
+[Original_Slide_Template_2.md]
+SLIDE-TITLE = 2.4 Konstruktionsanalyse
+NARRATION-0 = Die Konstruktionsanalyse vollzieht eine fertige Konstruktion nach: Warum wurde sie so gebaut? Welche Konstruktionsschritte stecken dahinter? Sie macht den Konstruktionsprozess verständlich, gibt Einblick in Voraussetzungen und Zusammenhänge und fördert Systemdenken und Kritikfähigkeit.
+SLIDE-CONTENT = """
+```mermaid @mermaid
+flowchart LR
+  C1["Erfassen und<br>Analysieren der Aufgabe"] --> C2["Prioritäten setzen,<br>Untersuchungsbereiche<br>und Analyseweg festlegen"] --> C3["Konstruktionsanalyse<br>im engeren Sinne:<br>Untersuchung"] --> C4["Bewerten der<br>Konstruktion,<br>Analyseergebnis"] --> C5["Anwendung der<br>Erkenntnisse<br>und Transfer"]
+```
+
+**Folienbeispiel:** einen Leitungskanal analysieren.
+"""
+NARRATION-1 = Der Akzent:
+KEY-MESSAGE = analytisch: Eine fertige Konstruktion wird nachvollzogen und untersucht.
+SOURCE = Typische Schritte nach Folien R109–R110 „5.1 analytische akzentuiert – Konstruktionsanalyse“ als Ablauf dargestellt (Schritt 2 gekürzt); Erläuterung: eigene Darstellung.
+
+
+[Interactive_Exercise_Template_1.md]
+SLIDE-TITLE = Übung 2: Welches Folienbeispiel – welche Großform?
+NARRATION-0 = Drei kurze Fragen zu den analytisch akzentuierten Großformen.
+Q1-QUESTION = Zu welcher Großform gehört das Folienbeispiel „Untersuchung des Fehlverhaltens einer Titrations- und Neutralisationsanlage“?
+Q1-WRONG-1 = Konstruktionsanalyse
+Q1-CORRECT = Diagnoseaufgabe
+Q1-WRONG-2 = Fallstudie
+Q1-HINT = Ein Fehlverhalten wird untersucht.
+Q1-FEEDBACK = Richtig: Diagnoseaufgabe (R104).
+NARRATION-1 = Jetzt können mehrere Antworten richtig sein.
+Q2-QUESTION = Welche Folienbeispiele gehören zu analytisch akzentuierten Großformen?
+Q2-CORRECT-1 = Wasser in den Wänden
+Q2-WRONG-1 = Herstellung von Betonprobekörpern
+Q2-CORRECT-2 = Leitungskanal analysieren
+Q2-WRONG-2 = TÜV-Kontrolle eines Autos
+Q2-HINT = Wird etwas Vorhandenes untersucht – oder etwas hergestellt bzw. geprüft?
+Q2-FEEDBACK = Analytisch: Etwas Vorhandenes wird zerlegt und untersucht. Betonprobekörper (Fertigungsaufgabe) und TÜV-Kontrolle (Inspektionsaufgabe) sind synthetisch akzentuiert.
+NARRATION-2 = Zum Schluss tippen Sie einen Begriff.
+Q3-QUESTION = Zu welcher Großform gehört das Beispiel „Instandsetzung von Stahlbeton“? (ein Wort)
+Q3-ANSWER = Instandsetzungsanalyse
+Q3-HINT = Eine bereits durchgeführte Instandsetzung wird analysiert.
+Q3-FEEDBACK = Instandsetzungsanalyse (R108): Die Lernenden untersuchen eine Instandsetzung, die andere durchgeführt haben.
+
+
+# ───────────────────────── 3 · Synthetisch akzentuiert (R111–R120) ─────────────────────────
+
+[Original_Slide_Template_2.md]
+SLIDE-TITLE = 3 · Synthetisch akzentuierte Großformen
+NARRATION-0 = Bei den fünf synthetisch akzentuierten Großformen entsteht etwas Neues oder wird wiederhergestellt – ein Produkt, eine Prüfdokumentation, ein Zukunftsbild, eine Konstruktion, ein instand gesetztes Objekt.
+SLIDE-CONTENT = """
+<!-- data-type="none" -->
+| Großform | Worum geht es? | Was ist besonders? | Folienbeispiel |
+| --- | --- | --- | --- |
+| **Fertigungsaufgabe** | Herstellung von Bauteilen, Baugruppen, Geräten, Anlagen | Die Lernenden analysieren den Auftrag selbst; Durchführung **und Bewertung des Produkts** gehören zum Auftrag, am Ende steht die Optimierung des Fertigungsablaufs. | Betonprobekörper herstellen |
+| **Inspektionsaufgabe** | Planung und Durchführung einer Inspektion | Sie endet mit einer **Dokumentation** und **Maßnahmeempfehlungen**; Wirkprinzipien der geprüften Technik können besprochen werden. | TÜV-Kontrolle eines Autos |
+| **Szenariomethode** | hypothetische Abfolge aufeinander aufbauender Ereignisse | Planungsinstrument für Entwicklungen; verlangt Kreativität und Fantasie, fördert Analyse-, Problemlöse- und Entscheidungsfähigkeit. Mehrere Szenarien werden verglichen, dann bezieht man Stellung. | Wasserknappheit in einer Truppe im Einsatz |
+| **Konstruktionsaufgabe** | ein technisches Gebilde selbst konstruieren | regt schöpferisches Denken an und motiviert stark; Ideen werden in der Praxis geprüft. Die Schritte reichen vom Klären der Aufgabe über Lösungsvarianten bis zur Gestaltung und Optimierung. | Blumenbänke erstellen |
+| **Instandsetzungsaufgabe** | ein Objekt selbst instand setzen | Handlungsabläufe sind gut überschaubar, sodass Lernende **den nächsten Schritt selbst festlegen** können; endet mit Kontrolle, Funktionsprüfung und Abnahme. | eine Wand instand setzen und den ursprünglichen Zustand herrichten |
+"""
+NARRATION-1 = Instandsetzung und Konstruktion kommen doppelt vor.
+KEY-MESSAGE = 🔍 Ein Gegenstand, zwei Großformen: Die *Instandsetzungsanalyse* untersucht eine Instandsetzung, die **andere durchgeführt** haben; bei der *Instandsetzungsaufgabe* setzen die Lernenden **selbst** instand. Nach S01b ist die Analyse Voraussetzung der Synthese – oft lohnt es sich, die Analyseform **vor** die Aufgabenform zu setzen.
+SOURCE = Nach Folien R111–R120 (5.2 synthetisch akzentuiert); Wortlaut in der Sitzung S06.
+
+
+[Interactive_Exercise_Template_1.md]
+SLIDE-TITLE = Übung 3a: Welche Großform liegt am nächsten?
+NARRATION-0 = Ordnen Sie berufliche Situationen einer Großform zu. Einige Großformen lernen Sie erst in Abschnitt 4 genauer kennen.
+Q1-QUESTION = Eine Förderbandsteuerung stoppt sporadisch; die Lernenden sollen den Fehler eingrenzen. Welche Großform liegt am nächsten?
+Q1-WRONG-1 = Fertigungsaufgabe
+Q1-CORRECT = Diagnoseaufgabe
+Q1-WRONG-2 = Szenariomethode
+Q1-HINT = Zustand identifizieren, Signale verfolgen, Fehler eingrenzen …
+Q1-FEEDBACK = Diagnoseaufgabe: Zustand identifizieren, Signale verfolgen, Fehlerquellen eingrenzen, Fehler bestimmen.
+NARRATION-1 = Jetzt können mehrere Antworten richtig sein.
+Q2-QUESTION = Welche Situationen gehören zu synthetisch akzentuierten Großformen?
+Q2-CORRECT-1 = Die Lernenden stellen nach Kundenauftrag einen Schaltschrank her und bewerten das Ergebnis.
+Q2-WRONG-1 = Eine selbstreinigende Oberfläche wird nach dem Vorbild eines Pflanzenblatts entwickelt.
+Q2-CORRECT-2 = Eine Heizungsanlage wird geprüft; am Ende steht ein Protokoll mit Maßnahmeempfehlungen.
+Q2-WRONG-2 = Ein früher Elektromotor wird untersucht, um heutige Motoren zu verstehen.
+Q2-HINT = Fertigung und Inspektion sind synthetisch akzentuiert.
+Q2-FEEDBACK = Fertigung: Herstellung mit Bewertung des Produkts · Inspektion: Dokumentation und Maßnahmeempfehlungen. Das Pflanzenblatt gehört zur Naturstudie (reduktiv), der frühe Elektromotor zum historisch-genetischen Verfahren (historisch).
+NARRATION-2 = Zum Schluss tippen Sie einen Begriff.
+Q3-QUESTION = Wie könnte sich die Kfz-Werkstatt bis 2040 entwickeln? Mehrere Zukunftsbilder werden verglichen. Welche Großform ist das? (ein Wort)
+Q3-ANSWER = Szenariomethode
+Q3-HINT = Eine hypothetische Abfolge von Ereignissen …
+Q3-FEEDBACK = Szenariomethode: hypothetische Abfolge von Ereignissen, Vergleich der Szenarien, persönliche Stellungnahme.
+
+
+[Concept_Explanation_Template_2.md]
+SLIDE-TITLE = Übung 3b: Analyse oder Aufgabe?
+NARRATION-0 = Gegenstand ist ein Treppengeländer aus Stahl. Je nachdem, ob die Lernenden etwas Vorhandenes untersuchen oder selbst etwas herstellen, ist es eine Analyse- oder eine Aufgabenform.
+CONCEPT-A = Analyseform
+CONCEPT-B = Aufgabenform
+CRITERION-1 = Ausgangspunkt
+A-1 = eine bereits durchgeführte Arbeit
+B-1 = ein Auftrag an die Lernenden
+CRITERION-2 = Tätigkeit
+A-2 = nachvollziehen, untersuchen
+B-2 = selbst konstruieren oder instand setzen
+CRITERION-3 = Motorik
+A-3 = tritt zurück, kognitive Aktivitäten dominieren
+B-3 = gehört dazu, bis zur Funktionsprüfung
+CRITERION-4 = Akzent
+A-4 = analytisch
+B-4 = synthetisch
+NARRATION-1 = Je ein Beispiel:
+EXAMPLE-A = Konstruktions- bzw. Instandsetzungsanalyse
+EXAMPLE-B = Konstruktions- bzw. Instandsetzungsaufgabe
+NARRATION-2 = Ein typischer Fehlschluss:
+MISCONCEPTION = Gleicher Gegenstand heißt nicht gleiche Großform – entscheidend ist, ob die Lernenden untersuchen oder selbst herstellen.
+NARRATION-3 = Ordnen Sie die vier Situationen zum Treppengeländer zu.
+STATEMENT-1 = Ein vorhandenes Geländer wird untersucht: Wie wurde es konstruiert, warum so?
+STATEMENT-2 = Die Lernenden entwerfen ein Geländer für eine neue Außentreppe.
+STATEMENT-3 = Ein Betrieb hat ein korrodiertes Geländer saniert; die Lernenden analysieren Schadensbericht und Vorgehen.
+STATEMENT-4 = Die Lernenden setzen ein beschädigtes Geländer selbst instand und prüfen die Funktion.
+CLASSIFY-HINT = Wird eine durchgeführte Arbeit untersucht – oder arbeiten die Lernenden selbst?
+CLASSIFY-FEEDBACK = Analyseformen: „nachvollziehendes Analysieren einer durchgeführten Konstruktion“ bzw. „bereits durchgeführte Instandsetzungen analysiert“. Aufgabenformen: Die Lernenden konstruieren bzw. setzen selbst instand, bis zur Kontrolle, Funktionsprüfung und Abnahme.
+
+
+[Open_Task_Template_1.md]
+SLIDE-TITLE = Zum Nachdenken: Analyse vor Aufgabe?
+NARRATION-0 = Nach S01b ist die Analyse Voraussetzung der Synthese. Was heißt das für Ihre Planung?
+TASK = Wann würden Sie in Ihrer Fachrichtung die **Analyse** vor die **Aufgabe** setzen – und wann nicht?
+HINT = Denken Sie an Sicherheit, Kosten von Fehlern und an das Vorwissen Ihrer Lernenden.
+MODEL-ANSWER = Analyse zuerst, wenn die Lernenden wenig Vorwissen haben oder Fehler teuer bzw. gefährlich wären: Erst eine fachgerecht durchgeführte Instandsetzung untersuchen, dann selbst instand setzen. Aufgabe direkt, wenn die Lernenden den Ablauf schon kennen oder das Ausprobieren selbst das Lernziel ist.
+
+
+# ───────────────────────── 4 · Weitere Akzente (R121–R127) ─────────────────────────
+
+[Original_Slide_Template_2.md]
+SLIDE-TITLE = 4.1 Technisches Experiment (induktiv)
+NARRATION-0 = Vier weitere Großformen haben andere Akzente. Mehrere davon kennen Sie bereits unter anderem Namen. Das technische Experiment kennen Sie aus S05: Aus Versuchen wird eine Erkenntnis gewonnen.
+SLIDE-CONTENT = """
+Das technische Experiment verbindet die **Erarbeitung technologischer Sachverhalte** mit den **Verfahren der Erkenntnisgewinnung** und kann Theorie und Praxis zu einem Gesamtbild zusammenführen.
+
+```mermaid @mermaid
+flowchart LR
+  E1["Problem<br>erfassen"] --> E2["Problem präzisieren<br>Hypothesenbildung"] --> E3["Experiment<br>planen"] --> E4["Experiment<br>durchführen"] --> E5["Versuch<br>auswerten"] --> E6["Zusammenfassung,<br>Transfer, Ausblick"]
+```
+
+**Folienbeispiel:** Entwurf und Bau einer stabilen Brücke im Modell.
+"""
+NARRATION-1 = Der Akzent:
+KEY-MESSAGE = induktiv: vom Versuch zur Regel – wie in S05.
+SOURCE = Erläuterung zu den Folien R121–R122 „5.3 induktiv akzentuiert – Technisches Experiment“; Wortlaut in der Sitzung S06.
+
+
+[Original_Slide_Template_2.md]
+SLIDE-TITLE = 4.2 Konstruktionsaufgabe (deduktiv)
+NARRATION-0 = Dieselbe Großform wie in Abschnitt 3 – aber mit anderem Akzent: Es werden Gesetzmäßigkeiten vorgegeben, auf deren Grundlage konstruiert wird. Die Lernenden gehen also von der Regel zum konkreten Gebilde.
+SLIDE-CONTENT = """
+**Folienbeispiel:** ein Auto mit möglichst geringem cw-Wert konstruieren – die strömungstechnischen Zusammenhänge sind vorgegeben, die Konstruktion wendet sie an.
+"""
+NARRATION-1 = Der Akzent:
+KEY-MESSAGE = deduktiv: von der vorgegebenen Gesetzmäßigkeit zum Gebilde. Dieselbe Großform war in Abschnitt 3 synthetisch akzentuiert.
+SOURCE = Erläuterung zur Folie R123 „5.4 deduktiv akzentuiert – Konstruktionsaufgabe“.
+
+
+[Original_Slide_Template_2.md]
+SLIDE-TITLE = 4.3 Historisch-genetisches Verfahren (historisch)
+NARRATION-0 = Technik vergangener Zeiten war einfacher und liegt deshalb eher im Verständnishorizont der Lernenden. Wer sie verstanden hat, kann darauf aufbauen und heutige Prozesse besser verstehen. Zugleich entstehen schnell Bezüge zu Gegenwart und Zukunft, und Technik wird als etwas Gewordenes reflektiert.
+SLIDE-CONTENT = """
+```mermaid @mermaid
+flowchart LR
+  H1["Aufgaben-<br>stellung"] --> H2["Intuitive<br>Phase"] --> H3["Planungs- und<br>Informationsphase"] --> H4["Durchführungs-<br>phase"] --> H5["Bewertungs- und<br>Transferphase"]
+```
+
+**Folienbeispiel:** die Funktionsweise einer Dampflok überprüfen.
+"""
+NARRATION-1 = Der Akzent:
+KEY-MESSAGE = historisch: Die Entwicklung der Technik wird nachvollzogen – vgl. genetische und historische Methode in S01b.
+SOURCE = Erläuterung zu den Folien R124–R125 „5.5 historisch akzentuiert – historisch-genetisches Ausbildungs- und Unterrichtsverfahren“.
+
+
+[Original_Slide_Template_2.md]
+SLIDE-TITLE = 4.4 Naturstudie (reduktiv)
+NARRATION-0 = Ein technisches Problem wird mit Hilfe einer Lösung aus der Natur bearbeitet: Ein passendes biologisches System wird gesucht, analysiert und auf das technische Problem übertragen. Gefördert werden Kreativität, Ideenreichtum und Transfervermögen.
+SLIDE-CONTENT = """
+Die Folie betont, dass solche Lösungen sehr verlässlich sind, weil sie in der Evolution meist perfektioniert wurden.
+
+**Folienbeispiel:** Verschmutzungs- und Abnutzungsgrad von Lacken und Farben (Vorbild: selbstreinigende Oberflächen in der Natur).
+"""
+NARRATION-1 = Der Akzent:
+KEY-MESSAGE = reduktiv: Eine bekannte Lösung aus der Natur wird übertragen – vgl. reduktive Methode in S01b (R032).
+SOURCE = Erläuterung zu den Folien R126–R127 „5.6 reduktiv akzentuiert – Naturstudie“.
+
+
+[Interactive_Exercise_Template_2.md]
+SLIDE-TITLE = Übung 4: Großform und Akzent
+NARRATION-0 = Ergänzen Sie den Text. Wählen, tippen oder ziehen Sie die fehlenden Wörter.
+GAP-TEXT-1 = Die Diagnoseaufgabe ist
+GAP-1-CORRECT = analytisch
+GAP-1-WRONG-1 = synthetisch
+GAP-1-WRONG-2 = induktiv
+GAP-TEXT-2 = akzentuiert. Insgesamt nennen die Folien so viele Einträge für Großformen:
+GAP-2-ANSWER = 13
+GAP-TEXT-3 = . Reduktiv akzentuiert ist die
+GAP-3-CORRECT = Naturstudie
+GAP-3-DISTRACTOR = Fertigungsaufgabe
+GAP-TEXT-4 = .
+GAP-HINT = Zählen Sie: vier analytische, fünf synthetische und vier weitere Einträge.
+NARRATION-1 = Entscheiden Sie jetzt: richtig oder falsch?
+STATEMENT-1 = Das technische Experiment ist induktiv akzentuiert.
+STATEMENT-2 = Die Szenariomethode ist analytisch akzentuiert.
+STATEMENT-3 = Die Konstruktionsaufgabe erscheint synthetisch und deduktiv akzentuiert.
+STATEMENT-4 = Das historisch-genetische Verfahren ist reduktiv akzentuiert.
+TF-HINT = Kapitelnummern der Folien: 5.1 analytisch, 5.2 synthetisch, 5.3 induktiv, 5.4 deduktiv, 5.5 historisch, 5.6 reduktiv.
+TF-FEEDBACK = Die Szenariomethode ist synthetisch akzentuiert (5.2), das historisch-genetische Verfahren historisch (5.5). Die Konstruktionsaufgabe steht unter 5.2 und 5.4.
+
+
+# ───────────────────────── 5 · Gerüst und Vorsicht ─────────────────────────
+
+[Original_Slide_Template_3.md]
+SLIDE-TITLE = 5 · Das gemeinsame Gerüst – und warum Zuordnungen vorsichtig sein müssen
+NARRATION-0 = Legen Sie die Schrittfolgen der Großformen nebeneinander, erkennen Sie die vollständige Handlung aus S02 wieder. Die Großformen ergänzen das Gerüst fast immer um Auswertung und Transfer am Ende. Ein Schritt taucht in sieben der dreizehn Großformen auf, aber nicht bei Hacker: die intuitive Phase.
+SLIDE-CONTENT = """
+**Das gemeinsame Gerüst:** Aufgabe klären (orientieren) → planen und Informationen beschaffen (richten, entwerfen, entscheiden) → durchführen → kontrollieren und bewerten – ergänzt um **Auswertung und Transfer**.
+
+**Die intuitive Phase** („intuitive Lösungsansätze“, „intuitive Problemlösungsvorschläge“): Die Lernenden äußern Vermutungen und erste Lösungsideen, **bevor** systematisch geplant wird. Das hat drei Vorteile:
+
+1. Vorwissen wird aktiviert, und Fehlvorstellungen werden sichtbar, bevor sie sich festsetzen.
+2. Alle können sich beteiligen, denn zunächst zählt jede Idee.
+3. Am Ende gibt es einen Vergleichspunkt für die Reflexion: Lag meine erste Vermutung richtig – und warum (nicht)?
+"""
+NARRATION-1 = Und warum sind Zuordnungen mit Vorsicht zu genießen? Die Folien selbst liefern die Belege.
+SLIDE-CONTENT-2 = """
+**Belege von den Folien:**
+
+- Die **Konstruktionsaufgabe** erscheint synthetisch **und** deduktiv akzentuiert.
+- Die **Fallstudie** ist eine analytisch akzentuierte Großform und zugleich eine eigene Methode mit mehreren Varianten (S04).
+- **Instandsetzung** gibt es analytisch (Analyse) und synthetisch (Aufgabe).
+
+Jede Großform enthält außerdem mehrere logische Methoden: Auch bei einer Fertigungsaufgabe wird zuerst der Auftrag **analysiert**.
+"""
+NARRATION-2 = Der Akzent sagt also nur, welcher Denkweg überwiegt.
+KEY-MESSAGE = Der Akzent sagt nur, welcher Denkweg **überwiegt**. Die intuitive Phase ähnelt der Hypothesenbildung beim Experiment (S05).
+SOURCE = Vergleich der Folien R101, R103–R127; Erläuterungen: eigene Darstellung.
+
+
+[Figure_Template_1.md]
+SLIDE-TITLE = Das Gerüst als Ablauf
+NARRATION-0 = So sieht das gemeinsame Gerüst als Ablauf aus. Unter den Schritten stehen kursiv die Phasen der vollständigen Handlung nach Hacker aus S02.
+MERMAID-CODE = """
+flowchart LR
+  A["Aufgabe klären<br><i>orientieren</i>"] --> I["intuitive Phase<br>Vermutungen,<br>erste Ideen"]:::opt
+  I --> P["planen und<br>informieren<br><i>richten, entwerfen,<br>entscheiden</i>"]
+  A -.->|ohne intuitive Phase| P
+  P --> D["durchführen"]
+  D --> K["kontrollieren<br>und bewerten<br><i>kontrollieren</i>"]
+  K --> T["Auswertung<br>und Transfer"]:::plus
+  classDef opt stroke-dasharray:5 3
+  classDef plus stroke-width:3px
+"""
+NARRATION-1 = Der Kern ist die vollständige Handlung.
+PART-1 = Vollständige Handlung
+PART-TEXT-1 = Orientieren, richten, entwerfen, entscheiden, durchführen, kontrollieren – wie in S02.
+NARRATION-2 = In sieben der dreizehn Großformen kommt die intuitive Phase hinzu – gestrichelt, weil sie fehlen kann.
+PART-2 = Intuitive Phase
+PART-TEXT-2 = erste Vermutungen vor der Planung – aktiviert Vorwissen und liefert einen Vergleichspunkt
+NARRATION-3 = Am Ende ergänzen fast alle Großformen Auswertung und Transfer.
+PART-3 = Auswertung und Transfer
+PART-TEXT-3 = Das Ergebnis wird verallgemeinert und auf neue Aufgaben übertragen.
+NARRATION-4 = Merken Sie sich das Gerüst.
+KEY-MESSAGE = Wer das Gerüst kennt, kann **jede** Großform planen – der Akzent bestimmt nur, welcher Denkweg überwiegt.
+SOURCE = Vergleich der typischen Schritte auf den Folien R103–R127 mit der vollständigen Handlung (R047–R048); eigene Darstellung.
+
+
+[Interactive_Exercise_Template_1.md]
+SLIDE-TITLE = Übung 5a: Gerüst
+NARRATION-0 = Welchem Schritt der vollständigen Handlung entspricht der Schritt aus der Großform? Die Zuordnung ist eine Deutungsübung, kein Fakt der Folien.
+Q1-QUESTION = Welchem Schritt der vollständigen Handlung entspricht „Kontrolle, Funktionsprüfung und Abnahme“ (Instandsetzungsaufgabe)?
+Q1-WRONG-1 = Orientieren
+Q1-CORRECT = Kontrollieren
+Q1-WRONG-2 = Richten/Entwerfen
+Q1-HINT = Am Ende der Handlung wird geprüft.
+Q1-FEEDBACK = Die typischen Schritte folgen dem Gerüst der vollständigen Handlung.
+NARRATION-1 = Jetzt können mehrere Antworten richtig sein.
+Q2-QUESTION = Welche Schritte entsprechen am ehesten dem Richten/Entwerfen?
+Q2-CORRECT-1 = Fachgerechte Planung der Fertigung
+Q2-WRONG-1 = Durchführung der Instandsetzung
+Q2-CORRECT-2 = Übertragung auf ein technisches Problem – technische Problemlösung (Naturstudie)
+Q2-WRONG-2 = Analyse des Fertigungsauftrages/Klärung der Aufgabenstellung
+Q2-HINT = Richten/Entwerfen = planen, Lösungen entwerfen.
+Q2-FEEDBACK = Analyse des Fertigungsauftrages entspricht dem Orientieren, Durchführung dem Ausführen. „Entscheiden“ steckt oft implizit in der Planung.
+NARRATION-2 = Und ein Schritt, der bei Hacker fehlt.
+Q3-QUESTION = Welche Phase steht in sieben der dreizehn Großformen, aber nicht bei Hacker? Die … Phase (ein Wort)
+Q3-ANSWER = intuitive
+Q3-HINT = „… Lösungsansätze“, „… Problemlösungsvorschläge“.
+Q3-FEEDBACK = Die intuitive Phase steht bei Instandsetzungsanalyse, Fertigungs-, Inspektions-, Konstruktions- und Instandsetzungsaufgabe, historisch-genetischem Verfahren und Naturstudie.
+
+
+[Discussion_Template_2.md]
+SLIDE-TITLE = Übung 5b: Noch einmal zur These
+NARRATION-0 = Stimmen Sie jetzt noch einmal über die These vom Anfang ab.
+VOTE-QUESTION = Stimmen Sie der These „Jede Großform lässt sich eindeutig einer logischen Methode zuordnen.“ zu?
+OPTION-A = Ja, ich stimme zu
+OPTION-B = Nein, ich stimme nicht zu
+OPTION-C = Teils, teils
+NARRATION-1 = Welche Belege sprechen gegen eine eindeutige Zuordnung?
+REFLECT-QUESTION = Nennen Sie zwei Belege von den Folien, die gegen eine eindeutige Zuordnung sprechen.
+NARRATION-2 = Die Folie R101 hat es von Anfang an gesagt.
+KEY-MESSAGE = R101: Die Zuordnung einer Methode im engeren Sinne zu nur einer Großform ist „mit Vorsicht zu genießen“. Die Akzentuierung beschreibt einen *Schwerpunkt*, keine Ausschließlichkeit.
+
+
+# ───────────────────────── 6 · Eine Großform ausgestalten ─────────────────────────
+
+[Original_Slide_Template_2.md]
+SLIDE-TITLE = 6 · Eine Großform ausgestalten
+NARRATION-0 = Eine Großform ausgestalten heißt: Sie übernehmen ihre typischen Schritte und füllen jeden mit einer konkreten Situation, Tätigkeit und Fragestellung aus Ihrer Fachrichtung. Ein Beispiel: die Diagnoseaufgabe „Licht im Flur geht nicht“ für das erste Ausbildungsjahr Elektrotechnik.
+SLIDE-CONTENT = """
+**Beispiel: Diagnoseaufgabe „Licht im Flur geht nicht“** (Elektrotechnik, 1. Ausbildungsjahr)
+
+<!-- data-type="none" -->
+| Typischer Schritt | Ausgestaltung |
+| --- | --- |
+| 1 Aufgaben- und Problemstellung | Kundenanruf: Licht im Flur bleibt dunkel, alle anderen Räume funktionieren. |
+| *intuitive Phase (ergänzt – bei der Diagnoseaufgabe nicht auf der Folie)* | Erste Vermutungen sammeln – ohne Bewertung. |
+| 2 Planung der Diagnose | Reihenfolge festlegen: Leuchtmittel, Schalter, Sicherung, Verbindungen; Messgeräte und Sicherheitsregeln klären. |
+| 3 Durchführung: Zustand identifizieren · Signale verfolgen · Fehlerquellen eingrenzen · Fehler bestimmen | Am Übungsboard messen, Fehler eingrenzen und bestimmen. |
+| 4 Kontrolle der Durchführung | Funktion nach der Fehlerbehebung prüfen. |
+| 5 Auswertung, Bewertung, Reflexion, Transfer | War die Reihenfolge sinnvoll? Was gilt für andere Stromkreise? |
+"""
+NARRATION-1 = Achten Sie auf die ergänzte intuitive Phase.
+KEY-MESSAGE = Ausgestalten = jeden typischen Schritt mit einer konkreten Situation, Tätigkeit und Fragestellung füllen. Eine intuitive Phase kann man ergänzen, auch wenn sie auf der Folie fehlt.
+SOURCE = Beispiel: eigene Darstellung; Schritte nach den Folien R103–R104 (Diagnoseaufgabe).
+
+
+[Open_Task_Template_1.md]
+SLIDE-TITLE = Ihre Großform (Baustein 7)
+NARRATION-0 = Jetzt sind Sie dran. Ihre ausgestaltete Großform ist zugleich Baustein 7 für Ihren Unterrichtsentwurf.
+TASK = """
+Wählen Sie eine Großform aus dieser Einheit und gestalten Sie sie für Ihre Fachrichtung aus – mit **allen** typischen Schritten. Markieren Sie die **intuitive Phase** (falls vorhanden) und den Schritt, in dem **kontrolliert** wird.
+
+**Begründen Sie Ihre Wahl:** Welcher Akzent passt zu Ihrem Lernziel – und warum nicht eine andere Großform?
+"""
+HINT = Nehmen Sie eine der Aufgabenarten, die Sie in Abschnitt 0 notiert haben, und suchen Sie die Großform mit den passenden typischen Schritten.
+MODEL-ANSWER = Beispiel Instandsetzungsaufgabe „Fahrradbremse instand setzen“ (Metalltechnik): Einstieg mit Problemstellung (Bremse greift nicht) → **intuitive Phase** (Vermutungen: Belag, Zug, Einstellung?) → Probleme und Ziele klären, Lösungsweg planen → Informationen sammeln (Herstellerangaben) → Arbeits- und Instandsetzungsplan → Durchführung → **Kontrolle**, Funktionsprüfung und Abnahme → Auswertung. Begründung: synthetischer Akzent, weil die Lernenden selbst instand setzen sollen; eine Instandsetzungsanalyse wäre sinnvoll, wenn sie zuerst eine fachgerechte Reparatur untersuchen sollen.
+
+
+# ───────────────────────── 7 · Abschluss ─────────────────────────
+
+[Summary_Recap_Template_1.md]
+SLIDE-TITLE = 7 · Das Wichtigste aus S06
+NARRATION-0 = Fassen wir zusammen.
+NARRATION-1 = Erstens: was eine Großform ist.
+TAKEAWAY-1 = Eine methodische Großform ist ein vollständiges Unterrichtsverfahren, benannt nach einer beruflichen Aufgabenart (Pahl).
+NARRATION-2 = Zweitens: die beiden großen Gruppen.
+TAKEAWAY-2 = analytisch akzentuiert: Vorhandenes untersuchen · synthetisch akzentuiert: Neues herstellen.
+NARRATION-3 = Drittens: die übrigen Akzente.
+TAKEAWAY-3 = induktiv, deduktiv, historisch, reduktiv: Experiment, Konstruktionsaufgabe, historisch-genetisches Verfahren, Naturstudie.
+NARRATION-4 = Und viertens: das gemeinsame Gerüst.
+TAKEAWAY-4 = Die Schritte folgen der vollständigen Handlung – oft mit intuitiver Phase und Transfer.
+REMEMBER = Großform = Akzent + Gerüst – und der Akzent ist ein Schwerpunkt, keine Ausschließlichkeit (R101).
+NARRATION-5 = Eine letzte Frage.
+RECAP-QUESTION = Welcher Beleg von den Folien spricht gegen eine eindeutige Zuordnung von Großformen zu logischen Methoden?
+RECAP-WRONG-1 = Jede Großform besteht aus genau einem Schritt.
+RECAP-WRONG-2 = Die Diagnoseaufgabe ist analytisch akzentuiert.
+RECAP-CORRECT = Die Konstruktionsaufgabe erscheint synthetisch und deduktiv akzentuiert.
+RECAP-HINT = Welche Großform taucht unter zwei verschiedenen Kapitelnummern auf?
+RECAP-FEEDBACK = Richtig: R117–R118 (5.2 synthetisch) und R123 (5.4 deduktiv).
+NARRATION-6 = Als Nächstes geht es um didaktische Reduktion.
+OUTLOOK = S07: Didaktische Reduktion · 🧩 Optional für die Selbstlernsitzung am 11.01.2027: Ihre ausgestaltete Großform aus Abschnitt 6 ist Baustein 7.
+
+
+[Exam_Questions_Template_1.md]
+SLIDE-TITLE = Prüfungsfragen zum Üben
+NARRATION-0 = Die Prüfungsleistung des Moduls ist eine mündliche Prüfung. Mit diesen fünf Fragen üben Sie, die Inhalte dieser Einheit frei, strukturiert und mit Beispielen zu erklären.
+METHOD = Lesen Sie eine Frage und antworten Sie **laut** in höchstens drei Minuten – nach dem Muster **Begriff – Erläutern – Beispiel – Verbinden**. Öffnen Sie erst danach die Antwortskizze und vergleichen Sie: Was fehlte, was war ungenau? Noch besser: Lassen Sie sich von einer Kommilitonin oder einem Kommilitonen abfragen.
+Q1-TOPIC = Großform und Akzent
+Q1 = Was ist eine methodische Großform? Erläutern Sie den Zusammenhang mit den logischen Methoden.
+A1 = """
+- **1 Begriff:** Eine methodische Großform ist ein **vollständiges Ausbildungs- und Unterrichtsverfahren**, das über mehrere Stunden trägt und sich an einer **beruflichen Aufgabenart** orientiert (Diagnose, Fertigung, Inspektion, Konstruktion, Instandsetzung …); nach Pahl (R101–R102).
+- **2 Erläutern:** Großform = **Akzent** + **Gerüst**. Der Akzent ist die logische Methode, die überwiegt (S01b): vorrangig analytisch oder synthetisch, außerdem induktiv, deduktiv, historisch, reduktiv. Das Gerüst ist die vollständige Handlung (S02), ergänzt um Auswertung und Transfer.
+- **3 Beispiel:** Diagnoseaufgabe (analytisch): ein vorhandenes Fehlverhalten wird zerlegt – Folienbeispiel Titrations- und Neutralisationsanlage. Technisches Experiment (induktiv): vom Versuch zur Regel – Brücke im Modell.
+- **4 Verbinden:** Die logischen Methoden beschreiben Denkwege; erst die Großform beschreibt den **Ablauf einer ganzen Unterrichtseinheit**.
+"""
+Q2-TOPIC = Analyse und Aufgabe
+Q2 = Vergleichen Sie Instandsetzungsanalyse und Instandsetzungsaufgabe.
+A2 = """
+- **1 Begriff:** Beide Großformen haben die Instandsetzung zum Gegenstand: die **Instandsetzungsanalyse** ist analytisch, die **Instandsetzungsaufgabe** synthetisch akzentuiert (R107–R108, R111–R120).
+- **2 Erläutern:** Analyse: Eine **bereits durchgeführte** Instandsetzung aus der Praxis wird untersucht; motorische Aktivitäten treten zurück, analytisches und schlussfolgerndes Denken dominieren; Ergebnis ist ein **Schadensbericht mit Lösungsvorschlägen**. Aufgabe: Die Lernenden setzen **selbst** instand; die Abläufe sind überschaubar, sodass sie den nächsten Schritt selbst festlegen können; Ende mit Kontrolle, Funktionsprüfung und Abnahme.
+- **3 Beispiel:** Analyse: Instandsetzung von Stahlbeton. Aufgabe: eine Wand instand setzen und den ursprünglichen Zustand herrichten.
+- **4 Verbinden:** Nach S01b ist die Analyse Voraussetzung der Synthese – oft lohnt es sich, die Analyseform **vor** die Aufgabenform zu setzen.
+"""
+Q3-TOPIC = Synthetische Großform
+Q3 = Beschreiben Sie Merkmale und typische Schritte einer synthetisch akzentuierten Großform an einem Beispiel aus Ihrer Fachrichtung.
+A3 = """
+- **1 Begriff:** Bei synthetisch akzentuierten Großformen entsteht etwas **Neues** oder wird **wiederhergestellt**: Fertigungs-, Inspektions-, Konstruktions-, Instandsetzungsaufgabe, Szenariomethode (R111–R120).
+- **2 Erläutern:** Beispiel Konstruktionsaufgabe: regt schöpferisches Denken an und motiviert stark; Ideen werden in der Praxis geprüft; Schritte vom Klären der Aufgabe über Lösungsvarianten bis zur Gestaltung und Optimierung. Fertigungsaufgabe: Die Lernenden analysieren den Auftrag selbst, Durchführung und **Bewertung des Produkts** gehören dazu, am Ende steht die Optimierung des Fertigungsablaufs.
+- **3 Beispiel:** Folien: Blumenbänke erstellen (Konstruktion), Betonprobekörper herstellen (Fertigung), TÜV-Kontrolle eines Autos (Inspektion). Eigenes Beispiel z. B.: eine Halterung für einen Sensor konstruieren.
+- **4 Verbinden:** Gerüst ist die vollständige Handlung (S02); die intuitive Phase kann ergänzt werden.
+"""
+Q4-TOPIC = Vorsicht bei Zuordnungen
+Q4 = Warum ist die Zuordnung einer Methode zu nur einer Großform „mit Vorsicht zu genießen“?
+A4 = """
+- **1 Begriff:** Der **Akzent** einer Großform beschreibt einen **Schwerpunkt**, keine Ausschließlichkeit (Hinweis auf Folie R101).
+- **2 Erläutern:** Jede Großform enthält mehrere logische Methoden – auch bei einer Fertigungsaufgabe wird zuerst der Auftrag analysiert.
+- **3 Beispiel:** Belege von den Folien: Die **Konstruktionsaufgabe** erscheint synthetisch **und** deduktiv akzentuiert (cw-Wert-Auto); **Instandsetzung** gibt es analytisch und synthetisch; die **Fallstudie** ist Großform und zugleich eigene Methode mit Varianten (S04).
+- **4 Verbinden:** Für die Planung heißt das: nicht „die richtige Schublade“ suchen, sondern begründen, welcher Denkweg für das Lernziel überwiegen soll (S01b, Methodenwahl).
+"""
+Q5-TOPIC = Intuitive Phase
+Q5 = Welche Rolle spielt die intuitive Phase in den Großformen?
+A5 = """
+- **1 Begriff:** Die intuitive Phase („intuitive Lösungsansätze“, „intuitive Problemlösungsvorschläge“) kommt in **sieben der dreizehn** Großformen vor, aber nicht bei Hacker: Die Lernenden äußern Vermutungen und erste Ideen, **bevor** systematisch geplant wird.
+- **2 Erläutern:** Drei Vorteile: Vorwissen wird aktiviert und Fehlvorstellungen werden sichtbar; alle können sich beteiligen, weil zunächst jede Idee zählt; am Ende gibt es einen Vergleichspunkt für die Reflexion (Lag meine Vermutung richtig – und warum?).
+- **3 Beispiel:** Historisch-genetisches Verfahren (Dampflok): Aufgabenstellung – intuitive Phase – Planung und Information – Durchführung – Bewertung und Transfer. In der Diagnoseaufgabe „Licht im Flur geht nicht“ kann man sie ergänzen: erst Vermutungen sammeln, dann messen.
+- **4 Verbinden:** Die intuitive Phase ähnelt der **Hypothesenbildung** beim Experiment (S05) und der regressiven Reaktion der reduktiven Methode (S01b).
+"""
+NARRATION-1 = Schätzen Sie zum Schluss ein, wie sicher Sie sind. Wiederholen Sie die unsicheren Fragen in einigen Tagen – und üben Sie fächerübergreifend mit dem Prüfungstrainer.
+SOURCE = Die Prüfungsfragen sind experimentell: Sie dienen der Vorbereitung, es ist nicht garantiert, dass Fragen in dieser Form gestellt werden. Die Antwortskizzen zeigen eine mögliche Antwort – üben Sie das Argumentieren, nicht das Auswendiglernen. Über alle Sitzungen hinweg üben Sie mit dem [Prüfungstrainer](https://liascript.github.io/course/?https://raw.githubusercontent.com/OVGU-VET-TechEd/Fachdidaktik_technischer_Allgemeinbildung_II/main/Selflearn/Pruefungstrainer.md).
+
+
+[Summary_Recap_Template_3.md]
+SLIDE-TITLE = Rückblick
+NARRATION-0 = Nehmen Sie sich zwei Minuten für einen Rückblick. Was ist Ihnen am unklarsten geblieben? Wir greifen es in S07 auf. 🤖 Tipp zum Üben mit KI: Lassen Sie sich sechs berufliche Situationen aus Bau-, Elektro- oder Metalltechnik nennen, ordnen Sie jeder eine Großform nach Pahl zu und prüfen Sie strittige Fälle mit den Merkmalen aus dieser Einheit.
+NARRATION-1 = Haken Sie ab, was Sie jetzt können.
+CAN-DO-1 = Ich kann die Großformen mit ihrer Akzentuierung nennen.
+CAN-DO-2 = Ich kann Analyse- und Aufgabenform am selben Gegenstand unterscheiden.
+CAN-DO-3 = Ich kann für eine Aufgabe aus meinem Beruf eine passende Großform ausgestalten.
+NARRATION-2 = Und zum Schluss: Wie hat die Einheit für Sie funktioniert?
+TEASER-TITLE = Vorbereitung auf S07
+NARRATION-TEASER-0 = In S07 geht es um didaktische Reduktion – wie man fachliche Aussagen vereinfacht, ohne sie falsch zu machen. Planen Sie für die Vorbereitung etwa 15 Minuten ein.
+IMAGE-ALT = Schnittmodell eines Gleichstrommotors mit freigelegtem Läufer und Kommutator
+IMAGE-PATH = https://commons.wikimedia.org/wiki/Special:FilePath/TMW_50904_Schnittmodell_eines_Gleichstrommotors.jpg?width=800
+IMAGE-CAPTION = Schnittmodell eines Gleichstrommotors · Technisches Museum Wien · gemeinfrei · Wikimedia Commons
+TEASER-QUESTION = Bringen Sie eine Fachaussage aus Ihrer Fachrichtung mit, die für Lernende „zu schwer“ ist (Formel, Norm, Gesetz), und notieren Sie, wie Sie sie bisher erklären würden.
+NEXT-DATE = S07 · Montag, 23.11.2026 · 07:00 Uhr
+
+
+[Original_Slide_Template_1.md]
+SLIDE-TITLE = Literatur
+NARRATION-0 = Die Quellen dieser Einheit.
+SLIDE-CONTENT = """
+- Pahl, Jörg-Peter: Ausbildungs- und Unterrichtsverfahren. Ein Kompendium für den Lernbereich Arbeit und Technik. Berufsbildung, Arbeit und Innovation – Studientexte, Bd. 6. wbv – zitiert nach S06, Folie R102; Erscheinungsjahr auf der Folie nicht angegeben.
+- Phasen der Fallstudie nach Kaiser – siehe S04.
+"""
+SOURCE = Erläuterungen und Beispiele in dieser Einheit: eigene Darstellung auf Grundlage der Folien. Gesamtverzeichnis: 00_Literatur.md
