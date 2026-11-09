@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prüfungskarten Großformen</title>
+<meta name="description" content="Prüfungssimulation für die mündliche Prüfung: Fragen zu den methodischen Großformen mit Rollen (Prüfling, Prüfer/in, Beisitz), Timer, Antwortmuster und Antwortskizzen.">
+<meta name="author" content="Hannes Tegelbeckers">
+<link rel="icon" href="../../assets/ovgu_logo.svg" type="image/svg+xml">
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;0,600;1,400&family=Barlow+Semi+Condensed:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="sim.css">
+<style>
+.qbox { font-family: var(--head); font-size: 1.45rem; font-weight: 600; line-height: 1.25; padding: 1rem 1.1rem; border-radius: 8px; background: var(--third); border-left: 6px solid var(--main); min-height: 5rem; }
+.qmeta { margin-top: .4rem; }
+.sketch li { margin: .35rem 0; }
+.sketch b { color: var(--main); }
+.rate { display: grid; grid-template-columns: 1fr auto; gap: .35rem .8rem; align-items: center; }
+.rate .opts { display: flex; gap: .25rem; }
+.rate .opts button { width: 2.2rem; }
+.hidden { display: none !important; }
+.roles .btn { min-width: 7.5rem; justify-content: center; }
+.score { font-family: var(--head); font-size: 1.2rem; font-weight: 700; color: var(--main); }
+.pattern { display: grid; grid-template-columns: repeat(4, minmax(0,1fr)); gap: .5rem; }
+.pattern div { border: 1px solid var(--line); border-radius: 6px; padding: .4rem .55rem; font-size: .88rem; background: var(--card); }
+.pattern b { display: block; color: var(--main); font-family: var(--head); }
+@media (max-width: 640px) { .pattern { grid-template-columns: 1fr 1fr; } }
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <div><div class="kicker"><span class="tag warn">🧪 Testversion</span> <span class="tag warn">🧪 Testversion</span> Fachdidaktik technischer Allgemeinbildung II · Prüfungstraining</div><h1>Prüfungskarten: Methodische Großformen</h1></div>
+  <button class="themebtn" id="theme">☾ Dunkel</button>
+</div></header>
+
+<main class="wrap">
+  <div class="card tint">
+    <div class="pattern">
+      <div><b>1 Begriff</b>Definition, möglichst mit Autor</div>
+      <div><b>2 Erläutern</b>Merkmale, Schritte, Unterscheidungen</div>
+      <div><b>3 Beispiel</b>Folienbeispiel + eigenes aus Ihrer Fachrichtung</div>
+      <div><b>4 Verbinden</b>Grenze, Bezug zu anderer Sitzung</div>
+    </div>
+    <p class="small muted" style="margin-top:.5rem">Antwortmuster wie im Prüfungstrainer (S11). Die Fragen sind Übungsfragen – es ist nicht garantiert, dass sie in dieser Form in der Prüfung gestellt werden.</p>
+  </div>
+
+  <div class="card">
+    <div class="row" style="justify-content:space-between">
+      <div class="row">
+        <label class="small" for="topic">Fragenpool:</label>
+        <select id="topic" style="width:auto"></select>
+      </div>
+      <div class="row roles" role="group" aria-label="Rolle">
+        <span class="small muted">Ansicht:</span>
+        <button class="btn on" data-role="pruefling">🎓 Prüfling</button>
+        <button class="btn" data-role="pruefer">🧑‍🏫 Prüfer/in</button>
+        <button class="btn" data-role="beisitz">📝 Beisitz</button>
+      </div>
+    </div>
+    <p class="small muted" id="roleinfo" style="margin:.5rem 0 0"></p>
+  </div>
+
+  <div class="split">
+    <div>
+      <div class="card">
+        <div class="row" style="justify-content:space-between;margin-bottom:.6rem">
+          <div class="row">
+            <button class="btn primary" id="draw">🎲 Frage ziehen</button>
+            <select id="pick" style="width:auto" aria-label="Karte direkt wählen"><option value="">Karte Nr. …</option></select>
+          </div>
+          <span class="small muted" id="counter"></span>
+        </div>
+        <div class="qbox" id="q">Ziehen Sie eine Frage.</div>
+        <div class="qmeta small muted" id="qmeta"></div>
+      </div>
+
+      <div class="card hidden" id="sketchcard">
+        <h3>Antwortskizze</h3>
+        <ul class="sketch" id="sketch"></ul>
+        <div class="key" id="follow"></div>
+      </div>
+    </div>
+
+    <div>
+      <div class="card">
+        <h3>Antwortzeit</h3>
+        <div class="row" style="justify-content:space-between">
+          <div class="timer" id="timer">2:00</div>
+          <div class="row">
+            <button class="btn" id="tstart">▶ Start</button>
+            <button class="btn" id="treset">↺</button>
+            <select id="tlen" style="width:auto"><option value="90">1:30</option><option value="120" selected>2:00</option><option value="180">3:00</option></select>
+          </div>
+        </div>
+        <p class="small muted" style="margin:.4rem 0 0">Nach Ablauf läuft die Zeit rot weiter – nicht abbrechen, aber bemerken.</p>
+      </div>
+
+      <div class="card hidden" id="ratecard">
+        <h3>Rückmeldung nach dem Antwortmuster</h3>
+        <div class="rate" id="rate"></div>
+        <p style="margin:.6rem 0 0">Summe: <span class="score" id="score">0</span> / 8</p>
+        <label class="f" for="note">Ein Satz Feedback (👍 + 💡):</label>
+        <textarea id="note" placeholder="👍 … 💡 …"></textarea>
+      </div>
+    </div>
+  </div>
+
+  <footer class="foot">Testversion – wird erprobt, Änderungen vorbehalten · Testversion – wird erprobt, Änderungen vorbehalten · Inhalte nach S06 (Pahl, Folien R101–R127) sowie S01b, S02, S04, S05, S08 · Antwortmuster nach dem Prüfungstrainer · Fragen ziehen ohne Wiederholung, bis der Pool leer ist.</footer>
+</main>
+
+<script src="sim.js"></script>
+<script>
+Sim.initTheme(document.getElementById("theme"));
+
+/* ---------- Fragenpool ----------
+   topic: rot | blau | gruen | gelb | lila | st1..st5 | quer
+   sets: A (Gruppenpuzzle), B (Werkstatt) */
+const Q = [
+ { id:"diag", topic:["rot","st2"], q:"Erläutern Sie die Diagnoseaufgabe als methodische Großform an einem Beispiel.",
+   s:["<b>Begriff:</b> analytisch akzentuierte Großform nach Pahl; befähigt zur Diagnose von Geräten, Maschinen und Anlagen und zu künftigen Systemdiagnosen (R103).",
+      "<b>Erläutern:</b> Aufgaben-/Problemstellung → Planung der Diagnose → Durchführung (Zustand identifizieren, Signale/Werte verfolgen, Fehlerquellen eingrenzen, Fehler bestimmen) → Kontrolle → Auswertung, Bewertung, Reflexion, Transfer (R104).",
+      "<b>Beispiel:</b> Folie: Fehlverhalten einer Titrations- und Neutralisationsanlage. Heute: Fahrradrücklicht bzw. Taschenlampe bleibt dunkel.",
+      "<b>Verbinden:</b> Grundlage ist die reduktive Methode (S01b): regressiv Ursachen sammeln, progressiv Vermutungen prüfen. Hypothesen ähneln dem induktiven Experiment (S05)."],
+   f:"Nachfrage: Woran erkennen Sie in der Diagnoseaufgabe den analytischen Akzent – und wo steckt ein anderer?" },
+ { id:"kana", topic:["rot","st1"], q:"Vergleichen Sie Konstruktionsanalyse und Konstruktionsaufgabe.",
+   s:["<b>Begriff:</b> Konstruktionsanalyse: analytisch – nachvollziehendes Analysieren einer durchgeführten Konstruktion (R109). Konstruktionsaufgabe: synthetisch – Lernende konstruieren selbst (R117).",
+      "<b>Erläutern:</b> Analyse: Aufgabe erfassen → Prioritäten, Analyseweg → Untersuchung der Konstruktion → Bewerten → Transfer; fördert Systemdenken und Kritikfähigkeit. Aufgabe: zehn Schritte vom Stellen der Aufgabe über intuitive Vorschläge, Bewertungsmaßstäbe, Lösungsvarianten bis zu Gestaltung, Optimierung und Auswertung; hohe Motivation.",
+      "<b>Beispiel:</b> Leitungskanal analysieren vs. Blumenbänke erstellen; heute: Druckkugelschreiber zerlegen vs. Smartphone-Ständer konstruieren.",
+      "<b>Verbinden:</b> Gleicher Gegenstand, anderer Akzent – Beleg für „mit Vorsicht zu genießen“ (R101). Nach S01b ist Analyse oft Voraussetzung der Synthese: Analyse vor Aufgabe."],
+   f:"Nachfrage: In welcher Reihenfolge würden Sie beide in einer Unterrichtsreihe einsetzen – und warum?" },
+ { id:"fall", topic:["rot"], q:"Warum ist die Fallstudie in S06 eine analytisch akzentuierte Großform?",
+   s:["<b>Begriff:</b> Fallstudie als Entscheidungstraining: Entscheidungen sollen getroffen und bewertet werden (R105).",
+      "<b>Erläutern:</b> Phasen nach Kaiser: Konfrontation, Information, Exploration, Resolution, Disputation, Kollation (R106). Analytisch, weil ein vorhandener Fall untersucht wird.",
+      "<b>Beispiel:</b> Folie: Wasser in den Wänden. Eigenes Beispiel aus der Fachrichtung.",
+      "<b>Verbinden:</b> S04: Fallstudie als eigene Methode mit Fallstudienarten – sie ist Großform und Methode zugleich, ein Beleg für vorsichtige Zuordnung."],
+   f:"Nachfrage: Welche Phase enthält synthetische Anteile?" },
+ { id:"insp", topic:["blau"], q:"Beschreiben Sie die Inspektionsaufgabe und grenzen Sie sie von der Diagnoseaufgabe ab.",
+   s:["<b>Begriff:</b> synthetisch akzentuierte Großform: Planung und Durchführung einer Inspektion; endet mit einer Dokumentation, aus der Maßnahmeempfehlungen entstehen (R113).",
+      "<b>Erläutern:</b> Schritte: Aufgaben-/Problemstellung → intuitive Phase und Vorbereitung → Planung der Inspektion → Auswertung, Bewertung, Reflexion (R114). Wirkprinzipien können besprochen werden.",
+      "<b>Beispiel:</b> TÜV-Kontrolle eines Autos; heute: Verkehrssicherheit eines Fahrrads.",
+      "<b>Verbinden:</b> Deutung: Die Diagnose geht von einem Fehlverhalten aus und sucht die Ursache (analytisch); die Inspektion prüft planmäßig einen Zustand und erzeugt eine Dokumentation (synthetisch)."],
+   f:"Nachfrage: Was genau ist an der Inspektion „synthetisch“?" },
+ { id:"synth", topic:["blau","st3"], q:"Beschreiben Sie Merkmale und typische Schritte einer synthetisch akzentuierten Großform an einem Beispiel aus Ihrer Fachrichtung.",
+   s:["<b>Begriff:</b> synthetisch akzentuiert: etwas Neues entsteht oder wird wiederhergestellt – Fertigungs-, Inspektions-, Konstruktions-, Instandsetzungsaufgabe, Szenariomethode (R111–R120).",
+      "<b>Erläutern:</b> z. B. Fertigungsaufgabe: Auftrag analysieren → intuitive Lösungsansätze → fachgerechte Planung → Durchführung bei gleichzeitiger Kontrolle → Bewertung des Produktes → Optimierung → Transfer.",
+      "<b>Beispiel:</b> Betonprobekörper (Fertigung), Blumenbänke (Konstruktion); eigenes Beispiel z. B. Sensorhalterung.",
+      "<b>Verbinden:</b> Gerüst ist die vollständige Handlung (S02); auch hier steckt Analyse (Auftrag klären)."],
+   f:"Nachfrage: Wo liegt der Unterschied zwischen Fertigungs- und Konstruktionsaufgabe?" },
+ { id:"inst", topic:["blau"], q:"Vergleichen Sie Instandsetzungsanalyse und Instandsetzungsaufgabe.",
+   s:["<b>Begriff:</b> Instandsetzungsanalyse analytisch (R107–R108), Instandsetzungsaufgabe synthetisch (R119–R120).",
+      "<b>Erläutern:</b> Analyse: eine bereits durchgeführte Instandsetzung wird untersucht, kognitive vor motorischen Aktivitäten, Ergebnis Schadensbericht mit Lösungsvorschlägen. Aufgabe: Lernende setzen selbst instand, legen den nächsten Schritt selbst fest, Ende mit Kontrolle, Funktionsprüfung, Abnahme.",
+      "<b>Beispiel:</b> Stahlbeton im Iran vs. Instandsetzung einer Wand.",
+      "<b>Verbinden:</b> Gleicher Gegenstand – verschiedene Großform; Analyse kann der Aufgabe vorausgehen (S01b)."],
+   f:"Nachfrage: Für welche Lerngruppe würden Sie welche der beiden wählen?" },
+ { id:"exp", topic:["gruen"], q:"Erläutern Sie das technische Experiment als induktiv akzentuierte Großform.",
+   s:["<b>Begriff:</b> induktiv: aus Versuchen wird eine Erkenntnis gewonnen; technologische Sachverhalte erarbeiten und zugleich Verfahren der Erkenntnisgewinnung vermitteln (R121).",
+      "<b>Erläutern:</b> Problem erfassen → präzisieren (Hypothesenbildung) → Experiment planen → durchführen → auswerten → Zusammenfassung/Transfer/Ausblick (R122). Verbindet Theorie und Praxis.",
+      "<b>Beispiel:</b> Brücke im Modell; heute: Übersetzung am Fahrrad aus Messungen finden.",
+      "<b>Verbinden:</b> S05: Phasenmodelle nach Bernard (vier Phasen) und Bader (sieben Phasen); induktive Methode aus S01b."],
+   f:"Nachfrage: Wie würde dieselbe Regel deduktiv unterrichtet?" },
+ { id:"kded", topic:["gruen","st3"], q:"Die Konstruktionsaufgabe erscheint in S06 zweimal. Erläutern Sie warum.",
+   s:["<b>Begriff:</b> Konstruktionsaufgabe synthetisch akzentuiert (R117–R118) und deduktiv akzentuiert (R123).",
+      "<b>Erläutern:</b> Deduktiv wird sie, wenn Gesetzmäßigkeiten vorgegeben sind, auf deren Grundlage konstruiert wird – von der Regel zum konkreten Gebilde. Synthetisch: Fokus auf das Zusammenfügen zu einem neuen Ganzen.",
+      "<b>Beispiel:</b> Auto mit möglichst geringem cw-Wert; heute: Ständer mit vorgegebener Kippbedingung bzw. Übersetzung für ein Lastenrad wählen.",
+      "<b>Verbinden:</b> Beleg für R101: Zuordnung „mit Vorsicht zu genießen“. Akzent = Schwerpunkt, keine Ausschließlichkeit."],
+   f:"Nachfrage: Was ändert sich für die Lernenden konkret, wenn die Gesetzmäßigkeit vorgegeben wird?" },
+ { id:"hist", topic:["gelb","st4"], q:"Erläutern Sie das historisch-genetische Ausbildungs- und Unterrichtsverfahren.",
+   s:["<b>Begriff:</b> historisch akzentuierte Großform (R124–R125).",
+      "<b>Erläutern:</b> Technik vergangener Zeiten war einfacher und liegt eher im Horizont der Lernenden; darauf lässt sich das Verständnis heutiger Prozesse aufbauen; Bezüge zu Gegenwart und Zukunft. Schritte: Aufgabenstellung → intuitive Phase → Planung/Information → Durchführung → Bewertung/Transfer.",
+      "<b>Beispiel:</b> Funktionsweise einer Dampflok; heute: Fahrrad von der Laufmaschine bis zum Kettenantrieb bzw. Bohrwerkzeuge.",
+      "<b>Verbinden:</b> S01b: genetische und historische Methode (Spannbeton). Grenze: Nicht jede alte Technik ist didaktisch einfacher."],
+   f:"Nachfrage: Wie unterscheiden sich genetische und historische Methode (S01b)?" },
+ { id:"natur", topic:["gelb","st5"], q:"Erläutern Sie die Naturstudie und ihren reduktiven Akzent.",
+   s:["<b>Begriff:</b> reduktiv akzentuierte Großform: technisches Problem selbstständig mit Hilfe von Lösungen aus der Natur bearbeiten (R126).",
+      "<b>Erläutern:</b> Problemsituation → intuitive Phase → Problemanalyse und Zuordnung biologischer Systeme → Analyse eines biologischen Systems → Übertragung, technische Lösung → Präsentation → Anwendung, Transfer, Auswertung (R127). Fördert Kreativität und Transfervermögen.",
+      "<b>Beispiel:</b> Verschmutzungs- und Abnutzungsgrad von Lacken und Farben (Lotuseffekt); Specht → Helm.",
+      "<b>Verbinden:</b> S01b: reduktive Methode – „Zurückgreifen auf bereits bekannte Vorgänge (beispielsweise aus der Natur)“ (R032). Enthält einen analytischen Schritt."],
+   f:"Nachfrage: Welcher Schritt der Naturstudie ist eigentlich analytisch?" },
+ { id:"gross", topic:["lila","quer"], q:"Was ist eine methodische Großform? Erläutern Sie den Zusammenhang mit den logischen Methoden.",
+   s:["<b>Begriff:</b> vollständiges Ausbildungs- und Unterrichtsverfahren, das sich an einer beruflichen Aufgabenart orientiert; nach Pahl (R101–R102).",
+      "<b>Erläutern:</b> Großform = Akzent + Gerüst. Akzent: überwiegende logische Methode (S01b), vorrangig analytisch oder synthetisch, außerdem induktiv, deduktiv, historisch, reduktiv. Gerüst: vollständige Handlung (S02) mit Auswertung und Transfer.",
+      "<b>Beispiel:</b> Diagnoseaufgabe (analytisch), technisches Experiment (induktiv).",
+      "<b>Verbinden:</b> Logische Methoden beschreiben Denkwege, die Großform den Ablauf einer ganzen Unterrichtseinheit."],
+   f:"Nachfrage: Nennen Sie für jeden Akzent eine Großform." },
+ { id:"vors", topic:["lila","quer","st3"], q:"Warum ist die Zuordnung einer Methode zu nur einer Großform „mit Vorsicht zu genießen“?",
+   s:["<b>Begriff:</b> Der Akzent beschreibt einen Schwerpunkt, keine Ausschließlichkeit (Hinweis R101).",
+      "<b>Erläutern:</b> Jede Großform enthält mehrere logische Methoden – auch die Fertigungsaufgabe beginnt mit der Analyse des Auftrags.",
+      "<b>Beispiel:</b> Konstruktionsaufgabe synthetisch und deduktiv; Instandsetzung analytisch und synthetisch; Fallstudie Großform und eigene Methode (S04). Heute: Nebenakzente an jeder Station.",
+      "<b>Verbinden:</b> Für die Planung: nicht die „richtige Schublade“ suchen, sondern begründen, welcher Denkweg für das Lernziel überwiegen soll."],
+   f:"Nachfrage: Welcher Beleg aus der heutigen Übung hat Sie am meisten überzeugt?" },
+ { id:"intu", topic:["lila","quer"], q:"Welche Rolle spielt die intuitive Phase in den Großformen?",
+   s:["<b>Begriff:</b> intuitive Lösungsansätze bzw. Problemlösungsvorschläge – in sieben der dreizehn Großformen, nicht bei Hacker.",
+      "<b>Erläutern:</b> Vorwissen aktivieren, Fehlvorstellungen sichtbar machen; alle können sich beteiligen; Vergleichspunkt für die Reflexion am Ende.",
+      "<b>Beispiel:</b> Historisch-genetisches Verfahren (Dampflok); Fertigungsaufgabe; Naturstudie.",
+      "<b>Verbinden:</b> ähnelt der Hypothesenbildung beim Experiment (S05) und der regressiven Reaktion der reduktiven Methode (S01b)."],
+   f:"Nachfrage: Wo war in Ihrer heutigen Sequenz/Station die intuitive Phase?" },
+ { id:"gerust", topic:["lila","quer"], q:"Zeigen Sie an zwei Großformen, dass sie dem Gerüst der vollständigen Handlung folgen.",
+   s:["<b>Begriff:</b> vollständige Handlung nach Hacker (S02): Orientieren, Richten, Entwerfen, Entscheiden, Kontrollieren.",
+      "<b>Erläutern:</b> Gemeinsames Gerüst der Großformen: Aufgabe → (intuitive Phase) → Planung/Information → Durchführung → Kontrolle/Bewertung → Transfer. Ergänzt um Auswertung und Transfer; die intuitive Phase fehlt bei Hacker.",
+      "<b>Beispiel:</b> Instandsetzungsaufgabe: „Kontrolle, Funktionsprüfung und Abnahme“ = Kontrollieren. Fertigungsaufgabe: „Fachgerechte Planung“ = Richten/Entwerfen.",
+      "<b>Verbinden:</b> Die Zuordnung der Schritte ist eine Deutung, kein Fakt der Folien; „Entscheiden“ steckt oft implizit in der Planung."],
+   f:"Nachfrage: Was ergänzen die Großformen gegenüber Hacker?" },
+ { id:"szen", topic:["blau"], q:"Erläutern Sie die Szenariomethode und ihren Einsatz im Technikunterricht.",
+   s:["<b>Begriff:</b> synthetisch akzentuiert: hypothetische Abfolge mehrerer aufeinander aufbauender Ereignisse; Planungsinstrument (R115).",
+      "<b>Erläutern:</b> Problemstellung → Szenarien ermitteln und entwerfen → Vergleich, Diskussion → Meinungsbildung, persönliche Stellungnahme → Bewertung, Transfer (R116). Verlangt Kreativität, fördert Strukturierungs-, Analyse-, Problemlöse- und Entscheidungsfähigkeit.",
+      "<b>Beispiel:</b> Folie: Wasserknappheit in der Truppe; eigenes Beispiel z. B. Energieversorgung einer Werkstatt bei Stromausfall.",
+      "<b>Verbinden:</b> Mehrdimensional; Bezug zur Fallstudie (S04): beide trainieren Entscheidungen, aber die Szenariomethode entwirft Zukünfte."],
+   f:"Nachfrage: Warum ist die Szenariomethode synthetisch und nicht analytisch?" },
+ { id:"sozial", topic:["quer"], q:"Ist das Gruppenpuzzle bzw. die Methodenwerkstatt eine methodische Großform? Begründen Sie.",
+   s:["<b>Begriff:</b> Großform = Erkenntnisweg einer Unterrichtseinheit (Akzent + Gerüst, S06). Sozialformen regeln die Beziehung Lernende ↔ Gegenstand, Aktionsformen die Beziehung Lehrende ↔ Lernende (S08).",
+      "<b>Erläutern:</b> Gruppenpuzzle und Werkstatt organisieren, <i>wer mit wem</i> und <i>wer was</i> tut – sie beantworten eine andere Leitfrage der Kurskarte. Gruppenpuzzle lässt sich mit den Varianten der Gruppenarbeit beschreiben: Expertengruppen aufgabenverschieden, Stammgruppe arbeitsteilig (S08, R150–R151; Deutung).",
+      "<b>Beispiel:</b> Heute: In den Stationen/Sequenzen steckten Großformen; Gruppenpuzzle bzw. Werkstatt waren die Organisation darum herum.",
+      "<b>Verbinden:</b> Kurskarte S01: Erkenntnisweg (S01b, S03–S06) vs. Aktions- und Sozialformen (S08). Gute Planung entscheidet beides getrennt und begründet."],
+   f:"Nachfrage: Welche Aktionsform überwog heute?" }
+];
+
+const POOLS = {
+  "alle": { label: "Alle Fragen", f: () => true },
+  "A": { label: "Szenario A – Gruppenpuzzle (alle)", f: q => q.topic.some(t => ["rot","blau","gruen","gelb","lila","quer"].includes(t)) },
+  "rot": { label: "A · 🟥 analytisch", f: q => q.topic.includes("rot") },
+  "blau": { label: "A · 🟦 synthetisch", f: q => q.topic.includes("blau") },
+  "gruen": { label: "A · 🟩 induktiv/deduktiv", f: q => q.topic.includes("gruen") },
+  "gelb": { label: "A · 🟨 historisch/reduktiv", f: q => q.topic.includes("gelb") },
+  "lila": { label: "A · 🟪 Gerüst & Zuordnung", f: q => q.topic.includes("lila") },
+  "B": { label: "Szenario B – Werkstatt (alle Stationen)", f: q => q.topic.some(t => /^st|quer/.test(t)) },
+  "st1": { label: "B · Station 1 Kugelschreiber", f: q => q.topic.includes("st1") },
+  "st2": { label: "B · Station 2 Taschenlampe", f: q => q.topic.includes("st2") },
+  "st3": { label: "B · Station 3 Smartphone-Ständer", f: q => q.topic.includes("st3") },
+  "st4": { label: "B · Station 4 Bohren", f: q => q.topic.includes("st4") },
+  "st5": { label: "B · Station 5 Lotuseffekt", f: q => q.topic.includes("st5") },
+  "quer": { label: "Querschnittsfragen", f: q => q.topic.includes("quer") }
+};
+const TOPICNAME = { rot:"🟥 analytisch", blau:"🟦 synthetisch", gruen:"🟩 induktiv/deduktiv", gelb:"🟨 historisch/reduktiv", lila:"🟪 Gerüst & Zuordnung", quer:"Querschnitt", st1:"Station 1", st2:"Station 2", st3:"Station 3", st4:"Station 4", st5:"Station 5" };
+
+const sel = document.getElementById("topic");
+Object.entries(POOLS).forEach(([k, v]) => { const o = document.createElement("option"); o.value = k; o.textContent = v.label; sel.appendChild(o); });
+const params = new URLSearchParams(location.search);
+if (POOLS[params.get("pool")]) sel.value = params.get("pool");
+
+let role = params.get("role") || "pruefling", bag = [], cur = null, drawn = 0;
+const $ = id => document.getElementById(id);
+const ROLEINFO = {
+  pruefling: "Prüfling: Sie sehen nur die Frage. Sagen Sie zuerst Ihre Struktur an („Ich erkläre zuerst den Begriff, dann …“).",
+  pruefer: "Prüfer/in: Sie sehen die Antwortskizze und eine Nachfrage. Stellen Sie die Nachfrage, wenn die Antwort vor Ablauf der Zeit endet oder ein Schritt fehlt.",
+  beisitz: "Beisitz: Sie bewerten die vier Schritte des Antwortmusters (0 = fehlt, 1 = angerissen, 2 = klar) und notieren ein Feedback."
+};
+function refill() { bag = Q.filter(POOLS[sel.value].f).map(q => q.id).sort(() => Math.random() - .5); drawn = 0; updateCounter(); }
+function updateCounter() { const total = Q.filter(POOLS[sel.value].f).length; $("counter").textContent = `${drawn} von ${total} gezogen`; }
+function render() {
+  document.querySelectorAll("[data-role]").forEach(b => b.classList.toggle("on", b.dataset.role === role));
+  $("roleinfo").textContent = ROLEINFO[role];
+  $("sketchcard").classList.toggle("hidden", !(cur && role === "pruefer"));
+  $("ratecard").classList.toggle("hidden", !(cur && role === "beisitz"));
+  if (!cur) return;
+  $("q").textContent = cur.q;
+  $("qmeta").textContent = `Karte Nr. ${Q.indexOf(cur) + 1} · Bereich: ` + cur.topic.map(t => TOPICNAME[t]).join(" · ") + " — Prüfer/in und Beisitz wählen dieselbe Karte Nr. auf ihrem Gerät.";
+  $("pick").value = cur.id;
+  $("sketch").innerHTML = cur.s.map(x => `<li>${x}</li>`).join("");
+  $("follow").textContent = cur.f;
+}
+function buildRate() {
+  const steps = ["1 Begriff", "2 Erläutern", "3 Beispiel", "4 Verbinden"];
+  $("rate").innerHTML = steps.map((s, i) => `<span>${s}</span><span class="opts">${[0,1,2].map(v => `<button class="btn" data-step="${i}" data-v="${v}">${v}</button>`).join("")}</span>`).join("");
+  $("rate").querySelectorAll("button").forEach(b => b.addEventListener("click", () => {
+    $("rate").querySelectorAll(`button[data-step="${b.dataset.step}"]`).forEach(x => x.classList.toggle("on", x === b));
+    let sum = 0; $("rate").querySelectorAll("button.on").forEach(x => sum += +x.dataset.v); $("score").textContent = sum;
+  }));
+  $("score").textContent = 0; $("note").value = "";
+}
+const t = Sim.timer($("timer"), 120);
+$("tstart").addEventListener("click", () => { if (t.running) { t.stop(); $("tstart").textContent = "▶ Weiter"; } else { t.start(); $("tstart").textContent = "⏸ Pause"; } });
+$("treset").addEventListener("click", () => { t.reset(+$("tlen").value); $("tstart").textContent = "▶ Start"; });
+$("tlen").addEventListener("change", () => { t.reset(+$("tlen").value); $("tstart").textContent = "▶ Start"; });
+function show(id) { cur = Q.find(q => q.id === id); buildRate(); t.reset(+$("tlen").value); $("tstart").textContent = "▶ Start"; render(); }
+function fillPick() {
+  $("pick").innerHTML = '<option value="">Karte Nr. …</option>' + Q.filter(POOLS[sel.value].f).map(q => `<option value="${q.id}">Nr. ${Q.indexOf(q) + 1} – ${q.q.slice(0, 48)}…</option>`).join("");
+}
+$("draw").addEventListener("click", () => {
+  if (!bag.length) refill();
+  const id = bag.pop(); drawn++; updateCounter(); show(id);
+});
+$("pick").addEventListener("change", () => { if ($("pick").value) show($("pick").value); });
+sel.addEventListener("change", () => { refill(); fillPick(); cur = null; $("q").textContent = "Ziehen Sie eine Frage."; $("qmeta").textContent = ""; render(); });
+fillPick();
+document.querySelectorAll("[data-role]").forEach(b => b.addEventListener("click", () => { role = b.dataset.role; render(); }));
+refill(); render();
+</script>
+</body>
+</html>

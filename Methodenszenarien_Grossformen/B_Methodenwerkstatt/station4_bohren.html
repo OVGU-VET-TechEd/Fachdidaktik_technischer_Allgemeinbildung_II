@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bohren historisch-genetisch</title>
+<meta name="description" content="Station 4 der Methodenwerkstatt: historisch-genetisches Verfahren als Simulation – vom Fiedelbohrer zum Akkubohrschrauber; Bewegungserzeugung auf einem virtuellen Prüfstand vergleichen.">
+<meta name="author" content="Hannes Tegelbeckers">
+<link rel="icon" href="../../assets/ovgu_logo.svg" type="image/svg+xml">
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;0,600;1,400&family=Barlow+Semi+Condensed:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../shared/sim.css">
+<style>
+.tools { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: .6rem; }
+.tool { border: 1px solid var(--line); border-radius: 8px; padding: .5rem; background: var(--card); cursor: pointer; text-align: center; font-size: .88rem; position: relative; }
+.tool:hover { border-color: var(--main); }
+.tool.on { border-color: var(--main); background: var(--third); }
+.tool .ord { position: absolute; top: .3rem; left: .4rem; width: 1.5rem; height: 1.5rem; border-radius: 50%; background: var(--main); color: var(--bg); font-weight: 700; display: grid; place-items: center; font-size: .8rem; }
+.tool svg { height: 82px; margin: 0 auto .3rem; }
+@media (max-width: 760px) { .tools { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+#bit { transform-origin: 0 0; }
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <div><div class="kicker"><span class="tag warn">🧪 Testversion</span> Methodenwerkstatt · Station 4 · historisch akzentuiert</div><h1>Wie kommt das Loch ins Holz? 🪵</h1></div>
+  <button class="themebtn" id="theme">☾ Dunkel</button>
+</div></header>
+
+<main class="wrap">
+  <div class="card tint">
+    <p><b>Ihre Rolle:</b> Schülerin/Schüler der Klasse 8. Heute bohrt man mit dem Akkubohrschrauber in Sekunden ein Loch. Aber wie hat das angefangen – und was hat sich von Werkzeug zu Werkzeug <b>eigentlich</b> verbessert?</p>
+    <ol class="pahl" id="pahl"><li>Aufgabenstellung</li><li>Intuitive Phase</li><li>Planungs- und Informationsphase</li><li>Durchführungsphase</li><li>Bewertungs- und Transferphase</li></ol>
+    <p class="small muted" style="margin:.4rem 0 0">Typische Schritte des historisch-genetischen Ausbildungs- und Unterrichtsverfahrens nach Pahl (R124–R125).</p>
+  </div>
+
+  <div class="card">
+    <h3>① Aufgabenstellung: Bringen Sie die Werkzeuge in eine zeitliche Reihenfolge</h3>
+    <p class="small">Klicken Sie die Werkzeuge in der Reihenfolge an, in der sie Ihrer Meinung nach entstanden sind. Erneut klicken nimmt die Auswahl zurück.</p>
+    <div class="tools" id="tools"></div>
+    <div class="row" style="margin-top:.6rem"><button class="btn primary" id="checkord">Reihenfolge prüfen</button><button class="btn" id="resetord">↺ Neu</button></div>
+    <div id="ordmsg"></div>
+  </div>
+
+  <div class="card">
+    <h3>② Intuitive Phase</h3>
+    <p class="small">Vermuten Sie <b>vor</b> dem Prüfstand: Welches Problem des Vorgängers hat jedes Werkzeug gelöst?</p>
+    <div class="tablewrap"><table class="t" id="intu"><thead><tr><th>Werkzeug</th><th>Problem des Vorgängers, das es löst (Vermutung)</th></tr></thead><tbody></tbody></table></div>
+  </div>
+
+  <div class="split">
+    <div class="card">
+      <h3>③–④ Virtueller Prüfstand</h3>
+      <p class="small">③ Legen Sie fest, was Sie beobachten: <b>Drehrichtung</b>, <b>Drehzahl</b>, <b>Energiequelle</b>, <b>Hände frei?</b> Wählen Sie dann ein Werkzeug und starten Sie.</p>
+      <div class="row" id="bench"></div>
+      <svg viewBox="0 0 520 240" aria-label="Drehwinkel des Bohrers über der Zeit">
+        <rect x="0" y="0" width="520" height="240" fill="var(--bg-2)"/>
+        <line x1="40" y1="120" x2="510" y2="120" stroke="var(--line)"/>
+        <line x1="40" y1="10" x2="40" y2="230" stroke="var(--ink-3)"/>
+        <text x="46" y="20" style="font-size:11px;fill:var(--ink-3)">Drehzahl (Vorzeichen = Drehrichtung)</text>
+        <text x="440" y="236" style="font-size:11px;fill:var(--ink-3)">Zeit →</text>
+        <path id="curve" fill="none" stroke="var(--main)" stroke-width="2.5"/>
+        <g transform="translate(470 60)"><circle r="28" fill="var(--card)" stroke="var(--ink-3)"/><g id="bit"><line x1="0" y1="0" x2="0" y2="-26" stroke="var(--main)" stroke-width="5" stroke-linecap="round"/></g></g>
+      </svg>
+      <div class="row small" id="readout"></div>
+    </div>
+
+    <div class="card">
+      <h3>④ Beobachtungstabelle</h3>
+      <div class="tablewrap"><table class="t" id="obs"><thead><tr><th>Werkzeug</th><th>Drehung</th><th>Drehzahl (Größenordnung)</th><th>Energie</th><th>Was ist besser?</th></tr></thead><tbody></tbody></table></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>⑤ Bewertung und Transfer</h3>
+    <div class="grid3">
+      <div><label class="f" for="same">Welches <b>Prinzip</b> blieb gleich?</label><textarea id="same"></textarea></div>
+      <div><label class="f" for="diff">Was hat sich <b>verändert</b>?</label><textarea id="diff"></textarea></div>
+      <div><label class="f" for="next">Was kommt wohl als <b>Nächstes</b>?</label><textarea id="next"></textarea></div>
+    </div>
+    <button class="btn" id="showexp">Erwartungshorizont zeigen</button>
+    <div class="key" id="exp" style="display:none"><b>Gleich</b> blieb das Wirkprinzip: eine rotierende Schneide trägt Material ab, Vorschub durch Druck. <b>Verändert</b> hat sich die Erzeugung der Drehbewegung: hin und her (Bogen) → fortlaufend (Kurbel) → schneller durch Zahnradübersetzung → Elektromotor statt Muskelkraft → Akku statt Kabel. Jede Stufe löst ein Problem der vorigen – genau das macht das Verfahren „genetisch“.</div>
+  </div>
+
+  <div class="meta">
+    <h3>🪞 Doppeldecker – jetzt sind Sie wieder Lehrkraft</h3>
+    <ul>
+      <li>Pahl (R124): „Da Technologie vergangener Zeiten einfacher war, liegt das Verständnis eher im Horizont des Lerners.“ Stimmt das für den Fiedelbohrer im Vergleich zum Akkuschrauber? Wo stößt die Aussage an Grenzen?</li>
+      <li>Wo haben Sie <b>analysiert</b> (Werkzeuge vergleichend untersucht) oder aus dem Prüfstand <b>gefolgert</b> (induktiv)? Welcher Akzent überwog?</li>
+      <li>Was wäre im Unterricht mit echten Werkzeugen anders – Sicherheit, Zeit, Erleben der Muskelkraft?</li>
+    </ul>
+    <p class="small"><a href="../shared/pruefungskarten.html?pool=st4" target="_blank" rel="noopener">→ Prüfungskarte zu dieser Station öffnen</a></p>
+  </div>
+
+  <footer class="foot">Testversion – wird erprobt, Änderungen vorbehalten · Historisch-genetisches Verfahren nach Pahl (Folien R124–R125; Folienbeispiel: Dampflok) · Drehzahlen als grobe Größenordnungen für den Vergleich, keine Messwerte · Zeitangaben gerundet · Simulation für die Methodenwerkstatt S06.</footer>
+</main>
+
+<script src="../shared/sim.js"></script>
+<script>
+Sim.initTheme(document.getElementById("theme"));
+const $ = id => document.getElementById(id);
+const T = [
+  { id:"fiedel", n:"Fiedelbohrer (Bogenbohrer)", era:"Vorgeschichte", rot:"hin und her", rpm:"einige hundert U/min, ständig wechselnd", en:"Muskelkraft (Bogen)", solves:"Drehen mit bloßen Händen ist langsam und mühsam", mode:"osc", amp:.7, freq:1.6,
+    svg:`<line x1="50" y1="10" x2="50" y2="80" stroke="var(--wood-2)" stroke-width="5"/><path d="M10 40 Q50 20 90 40" fill="none" stroke="var(--wood-2)" stroke-width="3"/><line x1="10" y1="40" x2="90" y2="40" stroke="var(--ink-3)"/>` },
+  { id:"winde", n:"Bohrwinde (Brustleier)", era:"ab dem Spätmittelalter", rot:"fortlaufend in eine Richtung", rpm:"ca. 60–120 U/min", en:"Muskelkraft (Kurbel)", solves:"Drehrichtung wechselt ständig, eine Hand hält den Bogen", mode:"cont", amp:.25,
+    svg:`<path d="M50 10 L50 25 L25 25 L25 55 L50 55 L50 80" fill="none" stroke="var(--metal-2)" stroke-width="5"/><circle cx="50" cy="10" r="7" fill="var(--wood)"/><rect x="18" y="35" width="14" height="12" rx="3" fill="var(--wood)"/>` },
+  { id:"hand", n:"Handbohrmaschine mit Kegelradgetriebe", era:"19. Jahrhundert", rot:"fortlaufend in eine Richtung", rpm:"ca. 200–400 U/min (Übersetzung ins Schnelle)", en:"Muskelkraft (Kurbel + Zahnräder)", solves:"Drehzahl durch das Kurbeltempo begrenzt", mode:"cont", amp:.45,
+    svg:`<line x1="50" y1="8" x2="50" y2="80" stroke="var(--metal-2)" stroke-width="5"/><circle cx="62" cy="38" r="16" fill="none" stroke="var(--metal-2)" stroke-width="4"/><line x1="62" y1="38" x2="88" y2="38" stroke="var(--metal-2)" stroke-width="3"/><rect x="84" y="32" width="8" height="14" fill="var(--wood)"/>` },
+  { id:"elek", n:"Elektrische Handbohrmaschine", era:"1895 (erste Bauform, Fa. Fein)", rot:"fortlaufend", rpm:"ca. 1000–3000 U/min", en:"Strom aus dem Netz", solves:"Muskelkraft als Energiequelle, ermüdend", mode:"cont", amp:.9,
+    svg:`<rect x="20" y="20" width="50" height="26" rx="6" fill="var(--metal)"/><rect x="34" y="46" width="14" height="28" rx="4" fill="var(--metal-2)"/><line x1="70" y1="33" x2="94" y2="33" stroke="var(--metal-2)" stroke-width="4"/><path d="M40 74 Q20 86 8 76" fill="none" stroke="var(--ink-3)" stroke-width="2"/>` },
+  { id:"akku", n:"Akkubohrschrauber", era:"2. Hälfte des 20. Jahrhunderts", rot:"fortlaufend, umschaltbar", rpm:"ca. 0–1500 U/min, regelbar", en:"Akku", solves:"Kabel bindet an die Steckdose", mode:"cont", amp:.6,
+    svg:`<rect x="20" y="20" width="50" height="24" rx="6" fill="var(--main)"/><rect x="34" y="44" width="14" height="22" rx="4" fill="var(--main-dark)"/><rect x="26" y="64" width="30" height="12" rx="3" fill="var(--ink-2)"/><line x1="70" y1="32" x2="94" y2="32" stroke="var(--metal-2)" stroke-width="4"/>` }
+];
+let reached = 1; function reach(k) { reached = Math.max(reached, k); Sim.markStep($("pahl"), reached); }
+reach(1);
+
+// Werkzeugkarten in zufälliger Reihenfolge
+const shuffled = [...T].sort(() => Math.random() - .5);
+let order = [];
+function drawTools() {
+  $("tools").innerHTML = shuffled.map(t => {
+    const i = order.indexOf(t.id);
+    return `<div class="tool ${i >= 0 ? "on" : ""}" data-t="${t.id}" tabindex="0" role="button">${i >= 0 ? `<span class="ord">${i + 1}</span>` : ""}<svg viewBox="0 0 100 90">${t.svg}</svg>${t.n}</div>`;
+  }).join("");
+  $("tools").querySelectorAll(".tool").forEach(el => el.addEventListener("click", () => {
+    const id = el.dataset.t, i = order.indexOf(id);
+    if (i >= 0) order.splice(i, 1); else order.push(id);
+    drawTools();
+  }));
+}
+drawTools();
+$("resetord").addEventListener("click", () => { order = []; $("ordmsg").innerHTML = ""; drawTools(); });
+$("checkord").addEventListener("click", () => {
+  if (order.length < T.length) { $("ordmsg").innerHTML = `<div class="msg warn">Bitte alle fünf Werkzeuge ordnen.</div>`; return; }
+  const ok = order.every((id, i) => id === T[i].id);
+  $("ordmsg").innerHTML = ok
+    ? `<div class="msg good">Richtig. ${T.map(t => `<b>${t.n}</b> (${t.era})`).join(" → ")}</div>`
+    : `<div class="msg bad">Noch nicht ganz. ${order.filter((id, i) => id === T[i].id).length} von 5 stehen richtig. Tipp: Achten Sie auf die Energiequelle und darauf, ob die Drehung hin und her geht.</div>`;
+  if (ok) { reach(2); fillIntu(); }
+});
+function fillIntu() {
+  $("intu").querySelector("tbody").innerHTML = T.slice(1).map(t => `<tr><td>${t.n}</td><td><select data-s="${t.id}"><option value="">…</option>${T.slice(1).map(x => `<option value="${x.id}">${x.solves}</option>`).join("")}</select></td></tr>`).join("");
+  $("intu").querySelectorAll("select").forEach(s => s.addEventListener("change", () => {
+    s.style.borderColor = s.value === s.dataset.s ? "var(--good)" : "var(--bad)"; reach(3);
+  }));
+}
+
+// Prüfstand
+let cur = null, raf = null, t0 = 0, ang = 0, last = 0, pts = [];
+T.forEach(t => { const b = document.createElement("button"); b.className = "btn"; b.textContent = t.n.split(" (")[0]; b.addEventListener("click", () => run(t, b)); $("bench").appendChild(b); });
+function speed(t, s) { return t.mode === "osc" ? t.amp * Math.sin(2 * Math.PI * t.freq * s) : t.amp * Math.min(1, s / .4); }
+function run(t, btn) {
+  document.querySelectorAll("#bench .btn").forEach(b => b.classList.toggle("on", b === btn));
+  cur = t; t0 = performance.now(); last = t0; pts = []; ang = 0; cancelAnimationFrame(raf); reach(4);
+  $("readout").innerHTML = `<span class="tag info">${t.rot}</span><span class="tag">${t.rpm}</span><span class="tag">${t.en}</span>`;
+  if (!$("obs").querySelector(`[data-o="${t.id}"]`)) $("obs").querySelector("tbody").insertAdjacentHTML("beforeend", `<tr data-o="${t.id}"><td>${t.n.split(" (")[0]}</td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td><td><input type="text"></td></tr>`);
+  const step = now => {
+    const s = (now - t0) / 1000, dt = (now - last) / 1000; last = now;
+    const v = speed(t, s); ang += v * 360 * dt * 3;
+    pts.push([40 + s * 60, 120 - v * 100]);
+    $("curve").setAttribute("d", "M" + pts.map(p => p.map(n => n.toFixed(1)).join(",")).join(" L"));
+    $("bit").setAttribute("transform", `rotate(${ang.toFixed(1)})`);
+    if (s < 7.5) raf = requestAnimationFrame(step);
+  };
+  raf = requestAnimationFrame(step);
+}
+$("showexp").addEventListener("click", () => { $("exp").style.display = "block"; reach(5); });
+["same","diff","next"].forEach(id => $(id).addEventListener("input", () => reach(5)));
+</script>
+</body>
+</html>

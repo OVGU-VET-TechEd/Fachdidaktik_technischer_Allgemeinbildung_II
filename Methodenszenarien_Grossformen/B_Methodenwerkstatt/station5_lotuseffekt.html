@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Naturstudie Lotuseffekt</title>
+<meta name="description" content="Station 5 der Methodenwerkstatt: Naturstudie als Simulation – Wassertropfen und Schmutz auf Blatt, Lack, Holz und Papier; vom biologischen System zur selbstreinigenden Fassadenfarbe.">
+<meta name="author" content="Hannes Tegelbeckers">
+<link rel="icon" href="../../assets/ovgu_logo.svg" type="image/svg+xml">
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;0,600;1,400&family=Barlow+Semi+Condensed:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../shared/sim.css">
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <div><div class="kicker"><span class="tag warn">🧪 Testversion</span> Methodenwerkstatt · Station 5 · reduktiv akzentuiert</div><h1>Warum bleibt das Blatt sauber? 🌿</h1></div>
+  <button class="themebtn" id="theme">☾ Dunkel</button>
+</div></header>
+
+<main class="wrap">
+  <div class="card tint">
+    <p><b>Ihre Rolle:</b> Schülerin/Schüler der Klasse 8. Ein Hersteller von Fassadenfarbe fragt: <i>„Wie bekommen wir eine Wand, die sich bei Regen selbst reinigt?“</i></p>
+    <ol class="pahl" id="pahl"><li>Problemsituation im technischen Bereich</li><li>Intuitive Phase</li><li>Problemanalyse, Zuordnung biologischer Systeme</li><li>Analyse eines biologischen Systems</li><li>Übertragung – technische Problemlösung</li><li>Präsentation der Ergebnisse</li><li>Anwendung, Transfer, Auswertung</li></ol>
+    <p class="small muted" style="margin:.4rem 0 0">Typische Schritte der Naturstudie nach Pahl (R126–R127). Folienbeispiel: Verschmutzungs- und Abnutzungsgrad von Lacken und Farben.</p>
+  </div>
+
+  <div class="grid2">
+    <div class="card">
+      <h3>① Problemsituation · ② Intuitive Phase</h3>
+      <label class="f" for="p1">Was passiert mit Schmutz an einer normalen Fassade, wenn es regnet?</label>
+      <textarea id="p1"></textarea>
+      <label class="f" for="p2">Kennen Sie etwas in der Natur, das immer sauber aussieht?</label>
+      <input type="text" id="p2" placeholder="Spontane Idee …">
+    </div>
+    <div class="card">
+      <h3>③ Biologisches System zuordnen</h3>
+      <p class="small">Welches biologische System passt am besten zum Problem?</p>
+      <div class="row" id="bio"></div>
+      <div id="biomsg"></div>
+    </div>
+  </div>
+
+  <div class="split">
+    <div class="card">
+      <h3>④ Analyse: Regen auf verschiedenen Oberflächen</h3>
+      <div class="row" id="surf"></div>
+      <svg viewBox="0 0 600 300" aria-label="Geneigte Oberfläche mit Schmutz und Wassertropfen">
+        <rect width="600" height="300" fill="var(--bg-2)"/>
+        <g id="plate"></g>
+      </svg>
+      <div class="slider"><label for="tilt">Neigung</label><input type="range" id="tilt" min="0" max="45" value="10"><output id="otilt"></output></div>
+      <div class="row"><button class="btn primary" id="rain">🌧️ Regnen lassen</button><button class="btn" id="dirt">🟤 Neu verschmutzen</button><button class="btn" id="zoom">🔬 Lupe: Oberfläche vergrößern</button></div>
+    </div>
+    <div class="card">
+      <h3>Messprotokoll</h3>
+      <div class="tablewrap"><table class="t" id="prot"><thead><tr><th>Oberfläche</th><th>Kontaktwinkel</th><th>Neigung</th><th>Schmutz entfernt</th></tr></thead><tbody></tbody></table></div>
+      <div class="card tint" id="zoombox" style="display:none;margin-top:.8rem"></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>⑤ Übertragung – technische Problemlösung</h3>
+    <p class="small">Welche Eigenschaften müsste die Fassadenfarbe haben? (Mehrfachwahl)</p>
+    <div class="row" id="props"></div>
+    <div id="propmsg"></div>
+    <label class="f" for="pres">⑥ Präsentation in einem Satz für den Hersteller:</label>
+    <textarea id="pres"></textarea>
+    <label class="f" for="trans">⑦ Transfer: Wo steckt das Prinzip noch – oder wo wäre es <b>unerwünscht</b>?</label>
+    <textarea id="trans"></textarea>
+  </div>
+
+  <div class="meta">
+    <h3>🪞 Doppeldecker – jetzt sind Sie wieder Lehrkraft</h3>
+    <ul>
+      <li>Reduktiv: „Zurückgreifen auf bereits bekannte Vorgänge (beispielsweise aus der Natur)“ (S01b, R032). Wo genau haben Sie zurückgegriffen?</li>
+      <li>Schritt ④ heißt bei Pahl wörtlich „Analyse eines biologischen Systems“ – welcher <b>Nebenakzent</b> steckt also in jeder Naturstudie?</li>
+      <li>Die Folie sagt, die Verlässlichkeit naturbasierter Lösungen sei „sehr hoch“. Wie würden Sie diese Aussage im Unterricht kritisch einordnen?</li>
+    </ul>
+    <p class="small"><a href="../shared/pruefungskarten.html?pool=st5" target="_blank" rel="noopener">→ Prüfungskarte zu dieser Station öffnen</a></p>
+  </div>
+
+  <footer class="foot">Testversion – wird erprobt, Änderungen vorbehalten · Naturstudie nach Pahl (Folien R126–R127) · Kontakt- und Abrollwinkel als typische Größenordnungen, vereinfachtes Modell · Simulation für die Methodenwerkstatt S06.</footer>
+</main>
+
+<script src="../shared/sim.js"></script>
+<script>
+Sim.initTheme(document.getElementById("theme"));
+const $ = id => document.getElementById(id);
+let reached = 1; function reach(k) { reached = Math.max(reached, k); Sim.markStep($("pahl"), reached); }
+reach(1);
+const SURF = {
+  blatt: { n:"Kapuzinerkresse-Blatt", ca:160, roll:5, absorb:false, pick:.95, col:"var(--leaf)", zoom:"Noppen (Papillen) im Mikrometerbereich, überzogen mit Wachskristallen. Wasser liegt nur auf den Spitzen auf – darunter ist Luft. Schmutzpartikel haften an den Spitzen schlecht und bleiben am Tropfen hängen." },
+  lack:  { n:"glatter Lack", ca:80, roll:35, absorb:false, pick:.25, col:"#8a6bbf", zoom:"Glatte, geschlossene Oberfläche. Der Tropfen breitet sich etwas aus und haftet; er rutscht erst bei großer Neigung und schiebt Schmutz eher zur Seite, als ihn aufzunehmen." },
+  holz:  { n:"unbehandeltes Holz", ca:55, roll:90, absorb:true, pick:.05, col:"var(--wood)", zoom:"Offene Poren und Fasern. Wasser zieht ein, Schmutz wird mit in die Poren gespült." },
+  papier:{ n:"Kopierpapier", ca:30, roll:90, absorb:true, pick:0, col:"var(--paper)", zoom:"Zellulosefasern saugen das Wasser auf. Der Schmutz bleibt als Fleck." }
+};
+let surf = "blatt", dirt = [], drops = [], anim = null, prevRemoved = 0;
+function newDirt() { dirt = Array.from({ length: 40 }, () => ({ x: 70 + Math.random() * 460, on: true })); prevRemoved = 0; }
+newDirt();
+Object.entries(SURF).forEach(([k, s]) => { const b = document.createElement("button"); b.className = "chip" + (k === surf ? " on" : ""); b.textContent = s.n; b.dataset.s = k;
+  b.addEventListener("click", () => { surf = k; document.querySelectorAll("#surf .chip").forEach(x => x.classList.toggle("on", x === b)); newDirt(); drops = []; $("zoombox").style.display = "none"; draw(); reach(4); });
+  $("surf").appendChild(b); });
+
+function draw() {
+  const s = SURF[surf], tilt = +$("tilt").value; $("otilt").textContent = tilt + "°";
+  let h = `<g transform="rotate(${tilt} 300 200)"><rect x="50" y="200" width="500" height="22" fill="${s.col}" stroke="var(--ink-3)"/>`;
+  dirt.forEach(d => { if (d.on) h += `<circle cx="${d.x}" cy="196" r="3.2" fill="#6b4a2b"/>`; });
+  drops.forEach(d => {
+    if (d.gone) return;
+    const r = 13, ca = s.ca * Math.PI / 180;
+    if (d.absorbed) { h += `<ellipse cx="${d.x}" cy="201" rx="${r * 1.6}" ry="3" fill="var(--water)" opacity=".5"/>`; return; }
+    // Kugelkappe mit Kontaktwinkel: Höhe aus Kontaktwinkel
+    const R = r / Math.sin(Math.min(ca, Math.PI - .01)) * (ca > Math.PI / 2 ? 1 : 1);
+    const base = ca > Math.PI / 2 ? r * Math.sin(Math.PI - ca) * 1.2 + 3 : r * 1.4;
+    const height = ca > Math.PI / 2 ? r * (1 - Math.cos(ca)) / 1.1 : r * (1 - Math.cos(ca)) * 1.2;
+    h += `<path d="M${d.x - base} 200 Q${d.x - base - (ca > 1.6 ? 10 : 0)} ${200 - height} ${d.x} ${200 - height} Q${d.x + base + (ca > 1.6 ? 10 : 0)} ${200 - height} ${d.x + base} 200 Z" fill="var(--water)" opacity=".8"/>`;
+    if (d.load) h += `<circle cx="${d.x}" cy="${200 - height / 2}" r="${Math.min(7, 2 + d.load * .5)}" fill="#6b4a2b" opacity=".7"/>`;
+  });
+  h += `</g><text x="20" y="30" style="font-size:14px;font-weight:600">${s.n} · Kontaktwinkel ≈ ${s.ca}° · Tropfen rollt ab ca. ${s.roll >= 90 ? "– (saugt ein)" : s.roll + "°"}</text>`;
+  $("plate").innerHTML = h;
+}
+$("tilt").addEventListener("input", draw);
+$("dirt").addEventListener("click", () => { newDirt(); drops = []; draw(); });
+$("zoom").addEventListener("click", () => { $("zoombox").style.display = "block"; $("zoombox").innerHTML = `<b>🔬 ${SURF[surf].n}</b><br><span class="small">${SURF[surf].zoom}</span>`; reach(4); });
+$("rain").addEventListener("click", () => {
+  const s = SURF[surf], tilt = +$("tilt").value;
+  drops = Array.from({ length: 6 }, (_, i) => ({ x: 80 + i * 16 + Math.random() * 30, load: 0 }));
+  cancelAnimationFrame(anim);
+  const rolls = !s.absorb && tilt >= s.roll;
+  let frames = 0;
+  const step = () => {
+    frames++;
+    drops.forEach(d => {
+      if (d.gone || d.absorbed) return;
+      if (s.absorb) { if (frames > 25) d.absorbed = true; return; }
+      if (!rolls) return;
+      d.x += 2 + tilt / 8;
+      dirt.forEach(p => { if (p.on && Math.abs(p.x - d.x) < 5 && Math.random() < s.pick) { p.on = false; d.load++; } });
+      if (d.x > 545) d.gone = true;
+    });
+    draw();
+    if (frames < 260 && drops.some(d => !d.gone && !d.absorbed && (rolls || s.absorb))) anim = requestAnimationFrame(step);
+    else finish(rolls);
+  };
+  anim = requestAnimationFrame(step); reach(4);
+});
+function finish(rolls) {
+  const removed = Math.round(100 * dirt.filter(p => !p.on).length / dirt.length);
+  const s = SURF[surf];
+  $("prot").querySelector("tbody").insertAdjacentHTML("beforeend", `<tr><td>${s.n}</td><td>${s.ca}°</td><td>${$("tilt").value}°</td><td>${s.absorb ? "0 % (Wasser zieht ein)" : rolls ? removed + " %" : "0 % (Tropfen haftet)"}</td></tr>`);
+}
+
+[["Lotusblume / Kapuzinerkresse (Blattoberfläche)", true, "Ja: Die Blätter bleiben sauber, weil Regentropfen abrollen und Schmutz mitnehmen."], ["Specht (Kopf beim Hämmern)", false, "Passt zu Stoßbelastung, nicht zu Verschmutzung."], ["Klette (Haken)", false, "Passt zu Haftung/Verbinden, nicht zu Selbstreinigung."], ["Haifischhaut (Rillen)", false, "Wird für Strömungswiderstand untersucht – das Problem hier ist Schmutz und Wasser."]].forEach(([l, ok, why]) => {
+  const b = document.createElement("button"); b.className = "btn"; b.textContent = l;
+  b.addEventListener("click", () => { $("biomsg").innerHTML = `<div class="msg ${ok ? "good" : "warn"}">${why}</div>`; if (ok) reach(3); });
+  $("bio").appendChild(b);
+});
+const PROPS = [["wasserabweisend (großer Kontaktwinkel)", true], ["mikrostrukturierte, raue Oberfläche", true], ["möglichst glatt poliert", false], ["saugfähig, damit Wasser schnell verschwindet", false], ["geringe Haftung für Schmutzpartikel", true]];
+PROPS.forEach(([l, ok]) => { const b = document.createElement("button"); b.className = "chip"; b.textContent = l; b.dataset.ok = ok;
+  b.addEventListener("click", () => {
+    b.classList.toggle("on");
+    const sel = [...document.querySelectorAll("#props .chip.on")];
+    const good = sel.filter(x => x.dataset.ok === "true").length, bad = sel.length - good;
+    $("propmsg").innerHTML = good === 3 && !bad ? `<div class="msg good">Genau diese Kombination nutzen selbstreinigende Fassadenfarben: Mikrostruktur + wasserabweisend → Tropfen rollen ab und nehmen Schmutz mit.</div>` : bad ? `<div class="msg warn">Prüfen Sie Ihr Messprotokoll: Welche Oberfläche wurde am saubersten – glatt oder strukturiert, saugend oder abweisend?</div>` : "";
+    reach(5);
+  });
+  $("props").appendChild(b); });
+$("pres").addEventListener("input", () => reach(6));
+$("trans").addEventListener("input", () => reach(7));
+draw();
+</script>
+</body>
+</html>

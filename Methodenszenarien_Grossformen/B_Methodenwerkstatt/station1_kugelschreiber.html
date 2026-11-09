@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Konstruktionsanalyse Kugelschreiber</title>
+<meta name="description" content="Station 1 der Methodenwerkstatt: Konstruktionsanalyse eines Druckkugelschreibers als Simulation – drücken, zerlegen, Mechanismus nachvollziehen, Konstruktionen vergleichen.">
+<meta name="author" content="Hannes Tegelbeckers">
+<link rel="icon" href="../../assets/ovgu_logo.svg" type="image/svg+xml">
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;0,600;1,400&family=Barlow+Semi+Condensed:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../shared/sim.css">
+<style>
+#mov, #tooth, #mine, #spr { transition: transform .45s ease; }
+.part { cursor: pointer; }
+.part:hover { filter: brightness(.92); }
+.part.sel rect, .part.sel path, .part.sel polygon { stroke: var(--main) !important; stroke-width: 3 !important; }
+.partinfo { min-height: 5.5rem; }
+.explode #p-btn { transform: translate(0, -46px); }
+.explode #p-rot { transform: translate(0, -18px); }
+.explode #p-spr { transform: translate(0, 24px); }
+.explode #p-mine { transform: translate(0, 56px); }
+.explode #p-tip { transform: translate(0, 90px); }
+#exp g { transition: transform .5s ease; }
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <div><div class="kicker"><span class="tag warn">🧪 Testversion</span> Methodenwerkstatt · Station 1 · analytisch akzentuiert</div><h1>Warum bleibt die Mine drin? 🖊️</h1></div>
+  <button class="themebtn" id="theme">☾ Dunkel</button>
+</div></header>
+
+<main class="wrap">
+  <div class="card tint">
+    <p><b>Ihre Rolle:</b> Schülerin/Schüler der Klasse 8. Einmal drücken – Mine raus. Nochmal drücken – Mine rein. <b>Wie „merkt“ sich die Konstruktion ihren Zustand?</b></p>
+    <ol class="pahl" id="pahl">
+      <li>Erfassen und Analysieren der Aufgabe</li><li>Prioritäten, Untersuchungsbereiche, Analyseweg</li><li>Untersuchung der Konstruktion</li><li>Bewerten der Konstruktion, Analyseergebnis</li><li>Anwendung und Transfer</li>
+    </ol>
+    <p class="small muted" style="margin:.4rem 0 0">Typische Schritte der Konstruktionsanalyse nach Pahl (R109–R110).</p>
+  </div>
+
+  <div class="card">
+    <h3>① Aufgabe erfassen</h3>
+    <p class="small">Drücken Sie mehrmals. Formulieren Sie in einem Satz, <b>was</b> die Konstruktion leisten muss (Funktion, nicht Bauteile).</p>
+    <input type="text" id="func" placeholder="Die Konstruktion muss …">
+  </div>
+
+  <div class="grid2">
+    <div class="card">
+      <h3>Außenansicht</h3>
+      <div class="row"><button class="btn primary" id="press">👇 Drücken</button><span class="small muted">Zähler: <b id="cnt">0</b> · Mine: <b id="state">eingefahren</b></span></div>
+      <svg viewBox="0 0 220 420" style="max-height:340px;margin:0 auto" aria-label="Kugelschreiber, Seitenansicht">
+        <g id="mov">
+          <rect x="96" y="16" width="28" height="44" rx="6" fill="var(--main)"/>
+        </g>
+        <rect x="86" y="56" width="48" height="280" rx="10" fill="var(--line-2)" stroke="var(--metal-2)" stroke-width="2"/>
+        <path d="M86 336 L110 392 L134 336 Z" fill="var(--line-2)" stroke="var(--metal-2)" stroke-width="2"/>
+        <rect x="134" y="70" width="10" height="140" rx="4" fill="var(--metal)"/>
+        <g id="mine"><rect x="106" y="120" width="8" height="268" fill="#3a6fb0" opacity=".55"/><circle cx="110" cy="390" r="4" fill="var(--ink)"/></g>
+      </svg>
+      <p class="small muted">Halbtransparent: die Mine im Inneren.</p>
+    </div>
+
+    <div class="card">
+      <h3>③ Blick ins Innere: abgewickelte Führung</h3>
+      <p class="small">Die Innenwand des Gehäuses „aufgeschnitten und flach ausgerollt“. Der <b>Nocken</b> des Drehteils (Rotor) läuft in den <b>Führungsrippen</b>. Beobachten Sie ihn beim Drücken.</p>
+      <svg viewBox="0 0 400 230" aria-label="Abgewickelte Führungsbahn mit Rippen und Nocken">
+        <rect x="0" y="0" width="400" height="230" fill="var(--bg-2)"/>
+                <text x="6" y="224" style="font-size:11px;fill:var(--ink-3)">↑ oben: Richtung Druckknopf · ↓ unten: Richtung Spitze · Umfang 0° … 360° →</text>
+        <!-- Rippen: abwechselnd tiefe Nut (eingefahren) und flache Rast (ausgefahren) -->
+        <g id="ribs" fill="var(--metal)" stroke="var(--metal-2)"></g>
+        <g id="riblabels" style="font-size:10px"></g>
+        <g id="tooth"><polygon points="-9,0 9,0 9,14 0,24 -9,14" fill="var(--main)" stroke="var(--main-dark)"/></g>
+        <line x1="0" y1="185" x2="400" y2="185" stroke="var(--ink-3)" stroke-dasharray="4 4"/>
+        <text x="300" y="180" style="font-size:10px;fill:var(--ink-3)">Druckknopf-Zähne</text>
+      </svg>
+      <p class="small muted">Vereinfachte Darstellung; reale Mechanismen haben mehrere Nocken rundum.</p>
+    </div>
+  </div>
+
+  <div class="grid2">
+    <div class="card">
+      <h3>② Analyseweg festlegen · ③ Zerlegen</h3>
+      <p class="small">Welche Teile untersuchen Sie zuerst? Zerlegen Sie den Kuli und klicken Sie die Teile an.</p>
+      <div class="row"><button class="btn" id="explode">🔧 Zerlegen</button></div>
+      <svg viewBox="0 0 260 300" id="exp" style="max-height:300px;margin:0 auto" aria-label="Explosionsdarstellung">
+        <g id="p-btn" class="part" data-p="btn"><rect x="112" y="30" width="36" height="40" rx="6" fill="var(--main)" stroke="var(--main-dark)"/><path d="M114 70 l6 8 l6 -8 l6 8 l6 -8 l6 8 l4 -8" fill="none" stroke="var(--main-dark)" stroke-width="2"/></g>
+        <g id="p-rot" class="part" data-p="rot"><rect x="114" y="82" width="32" height="26" rx="4" fill="var(--second)" stroke="var(--main-dark)"/><polygon points="114,108 120,116 126,108 132,116 138,108 146,116 146,108" fill="var(--second)" stroke="var(--main-dark)"/></g>
+        <g id="p-hous" class="part" data-p="hous"><rect x="104" y="60" width="52" height="170" rx="8" fill="none" stroke="var(--metal-2)" stroke-width="2" stroke-dasharray="6 3"/><rect x="104" y="60" width="6" height="60" fill="var(--metal)"/><rect x="150" y="60" width="6" height="60" fill="var(--metal)"/></g>
+        <g id="p-mine" class="part" data-p="mine"><rect x="126" y="118" width="8" height="120" fill="#3a6fb0" stroke="#24507f"/></g>
+        <g id="p-spr" class="part" data-p="spr"><path d="M122 200 l16 6 l-16 6 l16 6 l-16 6 l16 6 l-16 6" fill="none" stroke="var(--metal-2)" stroke-width="3"/><rect x="118" y="196" width="24" height="44" fill="transparent"/></g>
+        <g id="p-tip" class="part" data-p="tip"><path d="M110 230 L130 270 L150 230 Z" fill="var(--line-2)" stroke="var(--metal-2)" stroke-width="2"/></g>
+      </svg>
+      <div class="card tint partinfo" id="pinfo"><span class="muted small">Klicken Sie ein Bauteil an.</span></div>
+    </div>
+
+    <div class="card">
+      <h3>Explosionsliste: Funktion jedes Teils</h3>
+      <div class="tablewrap"><table class="t" id="ptab"><thead><tr><th>Teil</th><th>Ihre Funktionsbeschreibung</th></tr></thead><tbody></tbody></table></div>
+      <h3 style="margin-top:1rem">Analyseergebnis</h3>
+      <p class="small">Welches Teil „speichert“ den Zustand (Mine drin/draußen)?</p>
+      <div class="row" id="mem"></div>
+      <div id="memmsg"></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>④ Bewerten: drei Konstruktionen im Vergleich</h3>
+    <p class="small">Bewerten Sie von 1 (schwach) bis 3 (stark). Nutzen Sie Ihr Analyseergebnis zur Begründung.</p>
+    <div class="tablewrap"><table class="t" id="cmp">
+      <thead><tr><th>Konstruktion</th><th>Prinzip</th><th>Robustheit</th><th>Herstellkosten (3 = günstig)</th><th>Bedienung einhändig</th><th>Begründung</th></tr></thead>
+      <tbody>
+        <tr><td><b>Druckmechanik</b> (dieser Kuli)</td><td>Rotor mit Nocken in Führungsrippen, Feder</td><td><select><option>–</option><option>1</option><option>2</option><option>3</option></select></td><td><select><option>–</option><option>1</option><option>2</option><option>3</option></select></td><td><select><option>–</option><option>1</option><option>2</option><option>3</option></select></td><td><input type="text"></td></tr>
+        <tr><td><b>Drehmechanik</b></td><td>Schraubgang: Drehen der Hülse schiebt die Mine</td><td><select><option>–</option><option>1</option><option>2</option><option>3</option></select></td><td><select><option>–</option><option>1</option><option>2</option><option>3</option></select></td><td><select><option>–</option><option>1</option><option>2</option><option>3</option></select></td><td><input type="text"></td></tr>
+        <tr><td><b>Kappe</b> (Einweg-Kuli)</td><td>keine Mechanik, Mine fest</td><td><select><option>–</option><option>1</option><option>2</option><option>3</option></select></td><td><select><option>–</option><option>1</option><option>2</option><option>3</option></select></td><td><select><option>–</option><option>1</option><option>2</option><option>3</option></select></td><td><input type="text"></td></tr>
+      </tbody>
+    </table></div>
+  </div>
+
+  <div class="card">
+    <h3>⑤ Anwendung und Transfer</h3>
+    <p class="small">Wo finden Sie dasselbe Prinzip – <i>ein Druck, zwei Zustände</i> – in anderer Technik?</p>
+    <div class="row" id="trans"></div>
+    <div id="transmsg"></div>
+  </div>
+
+  <div class="meta">
+    <h3>🪞 Doppeldecker – jetzt sind Sie wieder Lehrkraft</h3>
+    <ul>
+      <li>Welche der fünf Schritte nach Pahl haben Sie durchlaufen – welcher kam zu kurz?</li>
+      <li>Hauptakzent analytisch. Wo haben Sie <b>ausprobiert und daraus geschlossen</b> (induktiv)? Wo hätten Sie beim realen Kuli <b>zusammengefügt</b> (synthetisch)?</li>
+      <li>Was verliert die Konstruktionsanalyse als Simulation gegenüber dem echten Zerlegen – was gewinnt sie (Blick ins Innere, Zeitlupe)?</li>
+    </ul>
+    <p class="small"><a href="../shared/pruefungskarten.html?pool=st1" target="_blank" rel="noopener">→ Prüfungskarte zu dieser Station öffnen</a></p>
+  </div>
+
+  <footer class="foot">Testversion – wird erprobt, Änderungen vorbehalten · Konstruktionsanalyse nach Pahl (Folien R109–R110; Folienbeispiel: Leitungskanal analysieren) · Mechanismus vereinfacht dargestellt · Simulation für die Methodenwerkstatt S06.</footer>
+</main>
+
+<script src="../shared/sim.js"></script>
+<script>
+Sim.initTheme(document.getElementById("theme"));
+const $ = id => document.getElementById(id);
+let n = 0, out = false, busy = false;
+// Nocken-Positionen in der abgewickelten Führung: x (Umfang), y (Höhe)
+const SLOT_X = [50, 100, 150, 200, 250, 300, 350]; // abwechselnd tiefe Nut (gerade Indizes) und flache Rast
+const Y_DEEP = 22, Y_LEDGE = 100, Y_PRESS = 160;
+let idx = 0;
+// Rippen erzeugen: zwischen zwei tiefen Nuten liegt je eine Rippe mit schrägen Unterkanten und einer Rast in der Mitte
+(function ribs() {
+  let p = `<path d="M0 10 L38 10 L38 40 L6 140 L0 140 Z"/>`;
+  [50, 150, 250].forEach(d => { p += `<path d="M${d + 12} 10 L${d + 88} 10 L${d + 88} 40 L${d + 56} 140 L${d + 50} ${Y_LEDGE} L${d + 12} 140 Z"/>`; });
+  p += `<path d="M362 10 L400 10 L400 40 L362 40 Z"/>`;
+  $("ribs").innerHTML = p;
+  $("riblabels").innerHTML = [50, 150, 250].map(d => `<text x="${d}" y="${Y_DEEP + 40}" text-anchor="middle" style="fill:var(--ink-3)">Nut</text><text x="${d + 50}" y="${Y_LEDGE + 44}" text-anchor="middle" style="fill:var(--ink-3)">Rast</text>`).join("");
+})();
+function place(x, y) { $("tooth").setAttribute("transform", `translate(${x} ${y})`); }
+function setOuter() {
+  $("mine").style.transform = out ? "translate(0,22px)" : "none";
+  $("state").textContent = out ? "ausgefahren" : "eingefahren";
+}
+place(SLOT_X[0], Y_DEEP);
+let reached = 1; function reach(k) { reached = Math.max(reached, k); Sim.markStep($("pahl"), reached); }
+reach(1);
+
+$("press").addEventListener("click", () => {
+  if (busy) return; busy = true; n++; $("cnt").textContent = n;
+  const x0 = SLOT_X[idx % SLOT_X.length];
+  // 1) Druckknopf schiebt Nocken nach unten, schräge Zähne drehen ihn ein Stück weiter
+  $("mov").style.transform = "translate(0,14px)";
+  $("mine").style.transform = "translate(0,30px)";
+  place(x0 + 25, Y_PRESS);
+  setTimeout(() => {
+    // 2) Loslassen: Feder drückt Nocken hoch an die schräge Rippenunterkante → gleitet in nächste Position
+    idx = (idx + 1) % (SLOT_X.length - 1);
+    const xn = SLOT_X[idx];
+    out = idx % 2 === 1;
+    place(xn, out ? Y_LEDGE : Y_DEEP);
+    $("mov").style.transform = "none";
+    setOuter(); busy = false;
+    if (n >= 4) reach(3);
+  }, 600);
+});
+
+const PARTS = {
+  btn: { n: "Druckknopf mit Sägezähnen", d: "Überträgt den Druck des Daumens. Seine schrägen Zähne verdrehen den Rotor beim Drücken um einen Teilschritt." },
+  rot: { n: "Rotor (Drehteil mit Nocken)", d: "Wird verdreht und rastet abwechselnd in einer tiefen Nut oder auf einer flachen Rast ein – er trägt damit die Information „drin“ oder „draußen“." },
+  hous: { n: "Gehäuse mit Führungsrippen", d: "Die Rippen haben schräge Unterkanten und abwechselnd unterschiedlich hohe Anschläge. Sie geben dem Rotor die Positionen vor." },
+  mine: { n: "Mine", d: "Liegt am Rotor an und folgt seiner Höhe: hohe Position = eingefahren, tiefe = ausgefahren." },
+  spr: { n: "Druckfeder", d: "Drückt Mine und Rotor zurück Richtung Druckknopf – liefert die Rückstellkraft für das Einrasten." },
+  tip: { n: "Spitze (Gehäuseunterteil)", d: "Führt die Mine und stützt die Feder ab." }
+};
+const seen = new Set();
+document.querySelectorAll(".part").forEach(g => g.addEventListener("click", () => {
+  document.querySelectorAll(".part").forEach(x => x.classList.toggle("sel", x === g));
+  const p = PARTS[g.dataset.p]; $("pinfo").innerHTML = `<b>${p.n}</b><br><span class="small">Hinweis: ${p.d}</span>`;
+  if (!seen.has(g.dataset.p)) { seen.add(g.dataset.p); $("ptab").querySelector("tbody").insertAdjacentHTML("beforeend", `<tr><td>${p.n}</td><td><input type="text" placeholder="in eigenen Worten …"></td></tr>`); }
+  reach(2); if (seen.size >= 4) reach(3);
+}));
+$("explode").addEventListener("click", () => { $("exp").classList.toggle("explode"); $("explode").textContent = $("exp").classList.contains("explode") ? "🔩 Zusammenbauen" : "🔧 Zerlegen"; reach(2); });
+
+[["rot","Rotor"],["spr","Feder"],["btn","Druckknopf"],["mine","Mine"]].forEach(([k, l]) => {
+  const b = document.createElement("button"); b.className = "btn"; b.textContent = l;
+  b.addEventListener("click", () => {
+    const ok = k === "rot";
+    $("memmsg").innerHTML = ok ? `<div class="msg good">Ja – genauer: das Zusammenspiel von <b>Rotor</b> und den unterschiedlich hohen <b>Anschlägen im Gehäuse</b>. Die Lage des Rotors ist der „Speicher“.</div>` : `<div class="msg bad">${PARTS[k].n} ist beteiligt, speichert aber nichts. Beobachten Sie den Nocken in der abgewickelten Führung.</div>`;
+    if (ok) reach(4);
+  });
+  $("mem").appendChild(b);
+});
+[["Kugelschreiber-Mechanik in Tür-Schnäppern (Push-to-open)", true], ["Lichtschalter mit Wippe", false], ["Push-Push-Kartenslot (SD-Karte)", true], ["Schraubdeckel", false]].forEach(([l, ok]) => {
+  const b = document.createElement("button"); b.className = "btn"; b.textContent = l;
+  b.addEventListener("click", () => { $("transmsg").innerHTML = ok ? `<div class="msg good">Ja – gleiches Prinzip: ein Druck schaltet zwischen zwei gerasteten Zuständen um.</div>` : `<div class="msg warn">Zwei Zustände ja – aber umgeschaltet wird nicht durch wiederholtes Drücken derselben Bewegung.</div>`; if (ok) reach(5); });
+  $("trans").appendChild(b);
+});
+</script>
+</body>
+</html>

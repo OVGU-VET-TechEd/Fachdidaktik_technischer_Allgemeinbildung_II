@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fahrrad-Werkzeugkasten</title>
+<meta name="description" content="Simulationen für das Gruppenpuzzle mit Micro-Teaching: je Expertenpaar eine Großform am Leitgegenstand Fahrrad – Diagnose der Beleuchtung, Inspektion, Übersetzung, Fahrradgeschichte und Naturstudie, Zuordnungs-Challenge.">
+<meta name="author" content="Hannes Tegelbeckers">
+<link rel="icon" href="../../assets/ovgu_logo.svg" type="image/svg+xml">
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;0,600;1,400&family=Barlow+Semi+Condensed:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../shared/sim.css">
+<style>
+.tabs button[data-tab="rot"].on { color: var(--a-rot); border-color: var(--a-rot); }
+.tabs button[data-tab="blau"].on { color: var(--a-blau); border-color: var(--a-blau); }
+.tabs button[data-tab="gruen"].on { color: var(--a-gruen); border-color: var(--a-gruen); }
+.tabs button[data-tab="gelb"].on { color: var(--a-gelb); border-color: var(--a-gelb); }
+.tabs button[data-tab="lila"].on { color: var(--a-lila); border-color: var(--a-lila); }
+.pt circle { fill: var(--card); stroke: var(--ink-2); stroke-width: 2; }
+.pt text { font-size: 13px; font-weight: 700; }
+.pt.red circle { fill: #d33; stroke: #d33; } .pt.black circle { fill: var(--ink); stroke: var(--ink); }
+.pt.red text, .pt.black text { fill: #fff; }
+.meter { font-family: var(--head); font-size: 1.8rem; font-weight: 700; font-variant-numeric: tabular-nums; background: #1d2b1d; color: #8f8; border-radius: 6px; padding: .15rem .6rem; display: inline-block; min-width: 8rem; text-align: right; }
+.ip circle { fill: var(--card); stroke: var(--a-blau); stroke-width: 2.5; }
+.ip.done circle { fill: var(--a-blau); }
+.ip.fail circle { fill: var(--bad); stroke: var(--bad); }
+.ip.na circle { stroke: var(--line); stroke-dasharray: 3 3; }
+.ip text { font-size: 12px; font-weight: 700; }
+.ip.done text, .ip.fail text { fill: #fff; }
+#crank, #wheel { transition: none; }
+.zu td { vertical-align: middle; }
+.zu select { min-width: 9rem; }
+.zu .neb { display: flex; flex-wrap: wrap; gap: .2rem; }
+.zu .neb label { font-size: .8rem; border: 1px solid var(--line); border-radius: 99px; padding: .05rem .45rem; cursor: pointer; }
+.zu .neb input { margin: 0 .2rem 0 0; }
+.sol { font-size: .85rem; color: var(--ink-2); display: none; }
+.showsol .sol { display: block; }
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <div><div class="kicker"><span class="tag warn">🧪 Testversion</span> Gruppenpuzzle mit Micro-Teaching · Leitgegenstand Fahrrad</div><h1>Fahrrad-Werkzeugkasten 🚲</h1></div>
+  <button class="themebtn" id="theme">☾ Dunkel</button>
+</div></header>
+
+<main class="wrap" id="app">
+  <p class="small muted">Jedes Expertenpaar nutzt seinen Reiter für die 5-Minuten-Sequenz. Die Mitlernenden in der Stammgruppe bedienen die Simulation – Sie unterrichten <b>mit</b> der Großform, nicht <b>über</b> sie.</p>
+  <div class="tabs" role="tablist">
+    <button data-tab="rot">🟥 analytisch</button>
+    <button data-tab="blau">🟦 synthetisch</button>
+    <button data-tab="gruen">🟩 induktiv / deduktiv</button>
+    <button data-tab="gelb">🟨 historisch / reduktiv</button>
+    <button data-tab="lila">🟪 Gerüst & Zuordnung</button>
+  </div>
+
+  <!-- ================= ROT: Diagnoseaufgabe ================= -->
+  <section class="panel" id="rot">
+    <div class="card tint">
+      <h2>Diagnoseaufgabe: „Das Rücklicht leuchtet nicht.“</h2>
+      <ol class="pahl"><li>Aufgaben- und Problemstellung</li><li>Planung der Diagnose</li><li>Durchführung (Zustand · Signale · eingrenzen · bestimmen)</li><li>Kontrolle</li><li>Auswertung, Bewertung, Reflexion, Transfer</li></ol>
+      <p class="small muted" style="margin:.4rem 0 0">Pahl, R103–R104. Alternative für Ihre Sequenz: Konstruktionsanalyse der Kettenschaltung (R109–R110) – dann nutzen Sie ein Foto.</p>
+    </div>
+    <div class="split">
+      <div class="card">
+        <div class="row"><b>Fall:</b><button class="chip on" data-rf="kabel">1</button><button class="chip" data-rf="masse">2</button><button class="chip" data-rf="led">3</button><button class="chip" data-rf="dyn">4</button><span class="small muted">(Fehler verdeckt)</span></div>
+        <div class="row" style="margin-top:.4rem"><button class="btn primary" id="rspin">Rad drehen: AUS</button><span class="small muted">Nabendynamo liefert nur, wenn sich das Rad dreht.</span></div>
+        <svg viewBox="0 0 640 260" aria-label="Schaltbild Fahrradbeleuchtung: Nabendynamo, Kabel, Rücklicht, Rückleitung über den Rahmen">
+          <rect width="640" height="260" fill="var(--bg-2)"/>
+          <path d="M120 200 L120 70 L520 70 L520 200" fill="none" stroke="var(--metal-2)" stroke-width="10" stroke-linejoin="round" opacity=".5"/>
+          <text x="300" y="62" text-anchor="middle" style="font-size:12px;fill:var(--ink-3)">Rahmen (Rückleitung, „Masse“)</text>
+          <circle cx="90" cy="200" r="42" fill="none" stroke="var(--ink-3)" stroke-width="3"/>
+          <circle cx="90" cy="200" r="16" fill="var(--metal)"/><text x="90" y="254" text-anchor="middle" style="font-size:12px">Nabendynamo</text>
+          <path id="rcable" d="M106 196 C200 230, 420 240, 540 200" fill="none" stroke="#c08a2c" stroke-width="4"/>
+          <text x="320" y="246" text-anchor="middle" style="font-size:12px;fill:var(--ink-3)">Kabel</text>
+          <rect x="540" y="176" width="56" height="48" rx="8" fill="var(--card)" stroke="var(--ink-3)" stroke-width="2"/>
+          <circle id="rled" cx="568" cy="200" r="13" fill="#5a1010"/><text x="568" y="244" text-anchor="middle" style="font-size:12px">Rücklicht</text>
+          <line x1="520" y1="200" x2="540" y2="200" stroke="var(--metal-2)" stroke-width="4"/>
+          <line x1="106" y1="206" x2="120" y2="200" stroke="var(--metal-2)" stroke-width="4"/>
+          <g id="rpts"></g>
+        </svg>
+        <div class="row"><span class="meter" id="rmeter">— V~</span><button class="btn" id="rclear">Messleitungen lösen</button></div>
+        <p class="small muted">Klicken: zuerst rote, dann schwarze Messleitung. Messpunkte: 1 Dynamo-Anschluss · 2 Kabelende am Rücklicht · 3 Rücklicht-Masse · 4 Rahmen am Rücklicht · 5 Rahmen am Dynamo.</p>
+      </div>
+      <div class="card">
+        <h3>Prüfprotokoll</h3>
+        <div id="rlog" class="small" style="max-height:12rem;overflow-y:auto"></div>
+        <label class="f" for="rdiag">Fehler bestimmen:</label>
+        <select id="rdiag"><option value="">…</option><option value="kabel">Kabelbruch zwischen Dynamo und Rücklicht</option><option value="masse">Massekontakt Rücklicht–Rahmen korrodiert</option><option value="led">Rücklicht (LED-Einheit) defekt</option><option value="dyn">Dynamo liefert keine Spannung</option></select>
+        <button class="btn primary" id="rok" style="margin-top:.4rem">Diagnose abgeben</button>
+        <div id="rmsg"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= BLAU: Inspektionsaufgabe ================= -->
+  <section class="panel" id="blau">
+    <div class="card tint">
+      <h2>Inspektionsaufgabe: „Ist dieses Fahrrad verkehrssicher?“</h2>
+      <ol class="pahl"><li>Aufgaben- und Problemstellung</li><li>Intuitive Problemlösungsphase und Vorbereitung</li><li>Planung der Inspektionsaufgabe</li><li>Auswertung, Bewertung und Reflexion</li></ol>
+      <p class="small muted" style="margin:.4rem 0 0">Pahl, R113–R114: endet mit einer Dokumentation, aus der Maßnahmeempfehlungen entstehen. Prüfpunkte in Anlehnung an die StVZO (§§ 64a, 65, 67) und übliche Sicherheitschecks.</p>
+    </div>
+    <div class="grid2">
+      <div class="card">
+        <h3>③ Prüfliste planen</h3>
+        <p class="small">Wählen Sie, <b>was</b> geprüft wird. Nur geplante Punkte lassen sich am Rad inspizieren.</p>
+        <div id="bplan" class="row"></div>
+        <div class="row" style="margin-top:.5rem"><button class="btn" data-bike="1">Rad 1</button><button class="btn" data-bike="2">Rad 2</button><button class="btn" data-bike="3">🎲 Rad 3</button></div>
+      </div>
+      <div class="card">
+        <h3>Inspektion</h3>
+        <svg viewBox="0 0 560 300" aria-label="Fahrrad mit Prüfpunkten">
+          <rect width="560" height="300" fill="var(--bg-2)"/>
+          <g fill="none" stroke="var(--ink-2)" stroke-width="5" stroke-linejoin="round">
+            <circle cx="130" cy="210" r="70"/><circle cx="430" cy="210" r="70"/>
+            <path d="M130 210 L250 210 L340 110 L210 110 Z M250 210 L210 90 M340 110 L430 210 M330 80 L345 120"/>
+            <path d="M190 90 L235 90" stroke-width="7"/><path d="M315 80 L350 70"/>
+          </g>
+          <circle cx="250" cy="210" r="18" fill="none" stroke="var(--ink-3)" stroke-width="3"/>
+          <g id="bpts"></g>
+        </svg>
+        <p class="small muted">Klicken Sie einen Prüfpunkt an.</p>
+      </div>
+    </div>
+    <div class="card">
+      <h3>④ Dokumentation mit Maßnahmeempfehlungen</h3>
+      <div class="tablewrap"><table class="t" id="bdoc"><thead><tr><th>Prüfpunkt</th><th>Befund</th><th>Bewertung</th><th>Maßnahmeempfehlung</th></tr></thead><tbody></tbody></table></div>
+      <p class="small" id="bsum"></p>
+    </div>
+  </section>
+
+  <!-- ================= GRÜN: Experiment (induktiv) / Konstruktionsaufgabe (deduktiv) ================= -->
+  <section class="panel" id="gruen">
+    <div class="card tint">
+      <h2>Übersetzung am Fahrrad – einmal induktiv, einmal deduktiv</h2>
+      <div class="row"><b>Modus:</b><button class="chip on" data-gm="ind">induktiv: Technisches Experiment</button><button class="chip" data-gm="ded">deduktiv: Konstruktionsaufgabe</button></div>
+      <ol class="pahl" id="gpahl" style="margin-top:.5rem"></ol>
+      <p class="small muted" style="margin:.4rem 0 0" id="gsrc"></p>
+    </div>
+    <div class="split">
+      <div class="card">
+        <svg viewBox="0 0 560 260" aria-label="Kettentrieb mit Kettenblatt, Ritzel und Hinterrad">
+          <rect width="560" height="260" fill="var(--bg-2)"/>
+          <g id="wheel" transform="translate(400 130)"><circle r="110" fill="none" stroke="var(--ink-3)" stroke-width="4"/><line x1="0" y1="0" x2="0" y2="-110" stroke="var(--a-gruen)" stroke-width="4"/><circle cx="0" cy="-104" r="6" fill="var(--a-gruen)"/></g>
+          <g id="cog2" transform="translate(400 130)"></g>
+          <g id="cog1" transform="translate(150 150)"></g>
+          <path id="chain" fill="none" stroke="var(--ink-2)" stroke-width="3" stroke-dasharray="6 3"/>
+          <g id="crank" transform="translate(150 150)"><line x1="0" y1="0" x2="0" y2="70" stroke="var(--main)" stroke-width="8" stroke-linecap="round"/><rect x="-14" y="64" width="28" height="10" rx="3" fill="var(--main)"/></g>
+          <text x="10" y="20" id="gcount" style="font-size:14px;font-weight:600"></text>
+        </svg>
+        <div class="slider"><label for="z1">Kettenblatt</label><input type="range" id="z1" min="22" max="52" value="42"><output id="oz1"></output></div>
+        <div class="slider"><label for="z2">Ritzel</label><input type="range" id="z2" min="11" max="36" value="14"><output id="oz2"></output></div>
+        <div class="row"><button class="btn primary" id="turn">↻ Kurbel 1 Umdrehung</button><span class="small muted">Zählen Sie die Umdrehungen des Hinterrads (grüne Markierung).</span></div>
+      </div>
+      <div class="card">
+        <div id="gind">
+          <h3>Messreihe</h3>
+          <div class="tablewrap"><table class="t" id="gtab"><thead><tr><th>Kettenblatt</th><th>Ritzel</th><th>Hinterrad-Umdrehungen</th></tr></thead><tbody></tbody></table></div>
+          <label class="f" for="ghyp">Hypothese / Regel:</label>
+          <select id="ghyp"><option value="">Welche Regel beschreibt die Messreihe?</option><option value="a">Umdrehungen = Kettenblatt − Ritzel</option><option value="b">Umdrehungen = Kettenblatt ÷ Ritzel</option><option value="c">Umdrehungen = Ritzel ÷ Kettenblatt</option></select>
+          <div id="ghmsg"></div>
+        </div>
+        <div id="gded" style="display:none">
+          <h3>Vorgegebene Gesetzmäßigkeit</h3>
+          <div class="key">Übersetzung i = z<sub>Kettenblatt</sub> ÷ z<sub>Ritzel</sub> · Entfaltung = i × Radumfang (hier 2,10 m)</div>
+          <p class="small"><b>Konstruktionsauftrag:</b> Ein Lastenrad soll am Schulberg anfahren können. Die Entfaltung im kleinsten Gang darf höchstens <b>2,5 m</b> betragen, im größten Gang soll sie mindestens <b>6,5 m</b> erreichen. Wählen Sie Kettenblatt und zwei Ritzel – erst rechnen, dann einstellen.</p>
+          <div class="row"><label class="small">Kettenblatt <input type="number" id="dz1" style="width:5rem"></label><label class="small">kleinstes Ritzel <input type="number" id="dzs" style="width:5rem"></label><label class="small">größtes Ritzel <input type="number" id="dzl" style="width:5rem"></label><button class="btn" id="dok">Prüfen</button></div>
+          <div id="dmsg"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= GELB: historisch-genetisch / Naturstudie ================= -->
+  <section class="panel" id="gelb">
+    <div class="card tint">
+      <h2>Historisch: Warum hatte das Hochrad ein so großes Vorderrad?</h2>
+      <ol class="pahl"><li>Aufgabenstellung</li><li>Intuitive Phase</li><li>Planungs- und Informationsphase</li><li>Durchführungsphase</li><li>Bewertungs- und Transferphase</li></ol>
+      <p class="small muted" style="margin:.4rem 0 0">Historisch-genetisches Verfahren nach Pahl, R124–R125.</p>
+    </div>
+    <div class="split">
+      <div class="card">
+        <div class="row"><button class="chip on" data-h="lauf">Laufmaschine (Drais, 1817)</button><button class="chip" data-h="hoch">Hochrad (1870er)</button><button class="chip" data-h="nieder">Niederrad mit Kette (1885)</button></div>
+        <svg viewBox="0 0 560 280" id="hsvg" aria-label="Seitenansicht des gewählten Fahrrads"></svg>
+        <div class="slider" id="hs1"><label for="hd">Vorderrad-Ø</label><input type="range" id="hd" min="70" max="160" value="130"><output id="ohd"></output></div>
+        <div class="slider" id="hs2" style="display:none"><label for="hi">Übersetzung i</label><input type="range" id="hi" min="10" max="35" value="20"><output id="ohi"></output></div>
+      </div>
+      <div class="card">
+        <h3>Vergleich</h3>
+        <table class="t" id="htab"></table>
+        <div class="key small" id="hkey"></div>
+        <label class="f" for="hq">Ihre Erklärung: Was hat die Kette gelöst?</label>
+        <textarea id="hq"></textarea>
+      </div>
+    </div>
+
+    <div class="card tint">
+      <h2>Reduktiv (Naturstudie): Leicht und steif wie ein Grashalm</h2>
+      <ol class="pahl"><li>Problemsituation</li><li>Intuitive Phase</li><li>Problemanalyse, Zuordnung biologischer Systeme</li><li>Analyse eines biologischen Systems</li><li>Übertragung – technische Lösung</li><li>Präsentation</li><li>Anwendung, Transfer, Auswertung</li></ol>
+      <p class="small muted" style="margin:.4rem 0 0">Naturstudie nach Pahl, R126–R127. Problem: Der Rahmen soll steif, aber leicht sein. Grashalm und Röhrenknochen sind hohl – warum?</p>
+    </div>
+    <div class="grid2">
+      <div class="card">
+        <svg viewBox="0 0 520 200" aria-label="Querschnitt Vollstab und Rohr bei gleicher Masse">
+          <rect width="520" height="200" fill="var(--bg-2)"/>
+          <g transform="translate(110 100)"><circle id="solid" r="20" fill="var(--metal-2)"/><text y="88" text-anchor="middle" style="font-size:12px">Vollstab</text></g>
+          <g transform="translate(360 100)"><circle id="outer" r="40" fill="var(--metal-2)"/><circle id="inner" r="34" fill="var(--bg-2)"/><text y="88" text-anchor="middle" style="font-size:12px">Rohr, gleiche Masse</text></g>
+        </svg>
+        <div class="slider"><label for="nd">Außen-Ø Rohr</label><input type="range" id="nd" min="10" max="40" value="20"><output id="ond"></output></div>
+      </div>
+      <div class="card">
+        <table class="t" id="ntab"></table>
+        <p class="small muted">Modell: gleiche Querschnittsfläche (= gleiche Masse je Meter) wie ein Vollstab mit 10 mm Ø; Biegesteifigkeit ∝ Flächenträgheitsmoment I.</p>
+        <div class="key small">Biologisches Vorbild: Grashalm, Röhrenknochen, Bambus (mit Knoten gegen Einbeulen). Technische Übertragung: Rahmenrohre – Grenze: zu dünne Wände beulen ein.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= LILA: Zuordnungs-Challenge ================= -->
+  <section class="panel" id="lila">
+    <div class="card tint">
+      <h2>Zuordnungs-Challenge: Zehn Fahrrad-Stunden – welcher Akzent?</h2>
+      <p class="small">Wählen Sie für jede Unterrichtsidee den <b>Hauptakzent</b> und alle <b>Nebenakzente</b>, die Sie erkennen. Danach: Lösungsvorschlag einblenden und diskutieren – <i>Akzent = Schwerpunkt, keine Ausschließlichkeit</i> (R101).</p>
+      <p class="small muted" style="margin:0">Gerüst aller Großformen: Aufgabe → (intuitive Phase) → Planung/Information → Durchführung → Kontrolle/Bewertung → Transfer.</p>
+    </div>
+    <div class="card">
+      <div class="tablewrap"><table class="t zu" id="zu"><thead><tr><th>Unterrichtsidee</th><th>Hauptakzent</th><th>Nebenakzente</th></tr></thead><tbody></tbody></table></div>
+      <div class="row" style="margin-top:.6rem"><button class="btn primary" id="zsol">Lösungsvorschlag zeigen</button><span id="zres" class="small"></span></div>
+    </div>
+  </section>
+
+  <div class="meta">
+    <h3>🎙️ Nach Ihrer Sequenz: Prüfungsrunde</h3>
+    <p class="small">Ein Mitglied der Stammgruppe übernimmt die Rolle Prüfer/in, eines Beisitz. Sie als Expertin/Experte beantworten eine Frage zu Ihrer Großform in 2 Minuten nach dem Muster Begriff – Erläutern – Beispiel – Verbinden.</p>
+    <p class="small"><a href="../shared/pruefungskarten.html?pool=A" target="_blank" rel="noopener">→ Prüfungskarten öffnen</a> (Pool je Farbe wählbar)</p>
+  </div>
+  <footer class="foot">Testversion – wird erprobt, Änderungen vorbehalten · Großformen nach Pahl (S06, Folien R101–R127) · physikalische Modelle vereinfacht · Jahresangaben gerundet · Simulationen für das Gruppenpuzzle S06.</footer>
+</main>
+
+<script src="../shared/sim.js"></script>
+<script>
+Sim.initTheme(document.getElementById("theme"));
+const $ = id => document.getElementById(id);
+Sim.initTabs($("app"));
+
+/* ======================= ROT ======================= */
+(() => {
+  const P = { 1:[106,170], 2:[540,160], 3:[600,150], 4:[520,230], 5:[120,236] };
+  // Kreis: 1 →Kabel→ 2 →LED→ 3 →Massekontakt→ 4 →Rahmen→ 5 →Dynamo→ 1
+  let fault = "kabel", spin = false, red = null, black = null, n = 0;
+  function els() {
+    return [
+      { R: .1, open: fault === "kabel" },          // 1→2 Kabel
+      { R: 20, open: fault === "led" },            // 2→3 LED
+      { R: .1, open: fault === "masse" },          // 3→4 Massekontakt
+      { R: .1 },                                   // 4→5 Rahmen
+      { R: 2, emf: spin && fault !== "dyn" ? -6 : 0 } // 5→1 Dynamo (hebt Potenzial von 5 auf 1)
+    ];
+  }
+  function solve() {
+    const e = els(), emf = e.reduce((s, x) => s + (x.emf || 0), 0), opens = e.filter(x => x.open).length;
+    const R = e.reduce((s, x) => s + x.R, 0), I = opens ? 0 : -emf / R;
+    // Potenzial von Punkt 1 = 0; im Umlauf 1→2→3→4→5
+    const V = { 1: 0 }; let v = 0;
+    e.slice(0, 4).forEach((x, i) => { let d = -I * x.R; if (x.open) d = emf / opens; v += d; V[i + 2] = v; });
+    return { V, I };
+  }
+  function draw() {
+    const s = solve();
+    $("rled").setAttribute("fill", s.I > .1 ? "#ff3030" : "#5a1010");
+    $("rspin").textContent = "Rad drehen: " + (spin ? "EIN" : "AUS");
+    $("rpts").innerHTML = Object.entries(P).map(([k, [x, y]]) => `<g class="pt svg-click ${k == red ? "red" : k == black ? "black" : ""}" data-p="${k}"><circle cx="${x}" cy="${y}" r="13"/><text x="${x}" y="${y + 5}" text-anchor="middle">${k}</text></g>`).join("");
+    $("rpts").querySelectorAll(".pt").forEach(g => g.addEventListener("click", () => {
+      const p = g.dataset.p; if (!red) red = p; else if (!black && p !== red) black = p;
+      if (red && black) { const u = Math.abs(solve().V[red] - solve().V[black]); const t = (u < .01 ? "0,0" : u.toFixed(1).replace(".", ",")) + " V~"; $("rmeter").textContent = t; n++; $("rlog").insertAdjacentHTML("afterbegin", `<div>${n}. ${red} ↔ ${black}, Rad ${spin ? "dreht" : "steht"}: <b>${t}</b></div>`); }
+      draw();
+    }));
+  }
+  $("rspin").addEventListener("click", () => { spin = !spin; draw(); });
+  $("rclear").addEventListener("click", () => { red = black = null; $("rmeter").textContent = "— V~"; draw(); });
+  document.querySelectorAll("[data-rf]").forEach(b => b.addEventListener("click", () => {
+    fault = b.dataset.rf; spin = false; red = black = null; n = 0; $("rlog").innerHTML = ""; $("rmsg").innerHTML = ""; $("rmeter").textContent = "— V~";
+    document.querySelectorAll("[data-rf]").forEach(x => x.classList.toggle("on", x === b)); draw();
+  }));
+  $("rok").addEventListener("click", () => {
+    const ok = $("rdiag").value === fault;
+    $("rmsg").innerHTML = ok ? `<div class="msg good">Richtig – nach ${n} Messungen. Welche Messung war entscheidend? Wie würden Sie die Prüfreihenfolge für alle vier Fälle optimieren?</div>` : `<div class="msg bad">Noch nicht. Wo im Kreis fällt die Spannung ab, wenn das Rad dreht?</div>`;
+  });
+  draw();
+})();
+
+/* ======================= BLAU ======================= */
+(() => {
+  const PTS = [
+    { k:"bv", n:"Bremse vorn", x:430, y:140, ok:"greift kräftig", bad:"Bremsbeläge abgefahren, Hebel bis zum Lenker durchziehbar", m:"Beläge erneuern, Seilzug nachstellen" },
+    { k:"bh", n:"Bremse hinten", x:200, y:150, ok:"greift kräftig", bad:"Bremse ohne Wirkung", m:"Seilzug prüfen/erneuern – Rad bis dahin nicht benutzen" },
+    { k:"kl", n:"Klingel", x:205, y:70, ok:"hell tönend", bad:"fehlt", m:"Klingel montieren" },
+    { k:"sv", n:"Scheinwerfer", x:350, y:60, ok:"leuchtet", bad:"leuchtet nicht", m:"Diagnose der Beleuchtung (→ Rot)" },
+    { k:"rl", n:"Rücklicht", x:110, y:120, ok:"leuchtet", bad:"Glas gebrochen, leuchtet schwach", m:"Rücklicht ersetzen" },
+    { k:"rw", n:"Rückstrahler vorn/hinten", x:80, y:150, ok:"vorhanden", bad:"roter Rückstrahler hinten fehlt", m:"Rückstrahler montieren" },
+    { k:"pe", n:"Pedalrückstrahler", x:250, y:240, ok:"vorhanden", bad:"an einem Pedal abgebrochen", m:"Pedal/Rückstrahler ersetzen" },
+    { k:"sp", n:"Seitliche Rückstrahler", x:480, y:250, ok:"Reflexstreifen am Reifen", bad:"keine seitlichen Rückstrahler", m:"Speichenreflektoren nachrüsten" },
+    { k:"re", n:"Reifen", x:60, y:240, ok:"Profil ausreichend, Druck in Ordnung", bad:"Profil abgefahren, Karkasse sichtbar", m:"Reifen erneuern" },
+    { k:"ke", n:"Kette", x:300, y:215, ok:"gespannt, geschmiert", bad:"trocken und rostig", m:"reinigen und schmieren" }
+  ];
+  const BIKES = { 1: ["bh","kl","rw"], 2: ["sv","pe","re","ke"], 3: null };
+  let planSel = new Set(), faults = [], insp = {};
+  $("bplan").innerHTML = PTS.map(p => `<button class="chip" data-bp="${p.k}">${p.n}</button>`).join("");
+  $("bplan").querySelectorAll(".chip").forEach(c => c.addEventListener("click", () => { c.classList.toggle("on"); c.classList.contains("on") ? planSel.add(c.dataset.bp) : planSel.delete(c.dataset.bp); draw(); }));
+  function load(n) {
+    faults = BIKES[n] || PTS.filter(() => Math.random() < .35).map(p => p.k);
+    insp = {}; $("bdoc").querySelector("tbody").innerHTML = ""; $("bsum").textContent = "";
+    document.querySelectorAll("[data-bike]").forEach(b => b.classList.toggle("on", b.dataset.bike == n)); draw();
+  }
+  function draw() {
+    $("bpts").innerHTML = PTS.map((p, i) => {
+      const st = insp[p.k] ? (faults.includes(p.k) ? "fail" : "done") : planSel.has(p.k) ? "" : "na";
+      return `<g class="ip svg-click ${st}" data-ip="${p.k}"><circle cx="${p.x}" cy="${p.y}" r="12"/><text x="${p.x}" y="${p.y + 4}" text-anchor="middle">${i + 1}</text><title>${p.n}</title></g>`;
+    }).join("");
+    $("bpts").querySelectorAll(".ip").forEach(g => g.addEventListener("click", () => inspect(g.dataset.ip)));
+  }
+  function inspect(k) {
+    const p = PTS.find(x => x.k === k);
+    if (!planSel.has(k)) { $("bsum").innerHTML = `<span class="tag warn">„${p.n}“ steht nicht auf Ihrer Prüfliste – erst planen.</span>`; return; }
+    if (insp[k]) return; insp[k] = true;
+    const bad = faults.includes(k);
+    $("bdoc").querySelector("tbody").insertAdjacentHTML("beforeend", `<tr><td>${p.n}</td><td>${bad ? p.bad : p.ok}</td><td>${bad ? '<span class="tag bad">Mangel</span>' : '<span class="tag good">i. O.</span>'}</td><td>${bad ? `<input type="text" placeholder="Ihr Vorschlag …"><details class="small"><summary>Vorschlag</summary>${p.m}</details>` : "–"}</td></tr>`);
+    const missed = faults.filter(f => !planSel.has(f)).length;
+    $("bsum").innerHTML = `Geprüft: ${Object.keys(insp).length} · gefundene Mängel: ${faults.filter(f => insp[f]).length}` + (missed ? ` · <span class="tag warn">Achtung: Ihre Prüfliste deckt nicht alle Mängel ab</span>` : "");
+    draw();
+  }
+  document.querySelectorAll("[data-bike]").forEach(b => b.addEventListener("click", () => load(b.dataset.bike)));
+  load(1);
+})();
+
+/* ======================= GRÜN ======================= */
+(() => {
+  let mode = "ind", busy = false, crankA = 0, wheelA = 0;
+  const STEPS = {
+    ind: { s: ["Problem erfassen", "Problem präzisieren (Hypothesenbildung)", "Experiment planen", "Experiment durchführen", "Versuch auswerten", "Zusammenfassung/Transfer/Ausblick"], src: "Technisches Experiment, induktiv akzentuiert (R121–R122) – vom Versuch zur Regel." },
+    ded: { s: ["Stellen der Aufgabe", "Klären und Analyse", "Intuitive Vorschläge", "Bewertungsmaßstäbe", "Informationen sammeln", "Lösungsvarianten", "Grundprinzip", "Konstruktive Gestaltung", "Beurteilung, Optimierung", "Auswertung"], src: "Konstruktionsaufgabe, deduktiv akzentuiert: „unter Vorgabe von Gesetzmäßigkeiten“ (R123) – von der Regel zum konkreten Gebilde." }
+  };
+  function setMode(m) {
+    mode = m; document.querySelectorAll("[data-gm]").forEach(b => b.classList.toggle("on", b.dataset.gm === m));
+    $("gpahl").innerHTML = STEPS[m].s.map(s => `<li>${s}</li>`).join(""); $("gsrc").textContent = STEPS[m].src;
+    $("gind").style.display = m === "ind" ? "block" : "none"; $("gded").style.display = m === "ded" ? "block" : "none";
+  }
+  document.querySelectorAll("[data-gm]").forEach(b => b.addEventListener("click", () => setMode(b.dataset.gm)));
+  function gear(n, r) { let p = ""; for (let i = 0; i < n; i++) { const a = i / n * 2 * Math.PI; p += `<line x1="${(r - 3) * Math.cos(a)}" y1="${(r - 3) * Math.sin(a)}" x2="${(r + 4) * Math.cos(a)}" y2="${(r + 4) * Math.sin(a)}" stroke="var(--ink-2)" stroke-width="2.5"/>`; } return `<circle r="${r}" fill="var(--card)" stroke="var(--ink-2)" stroke-width="2"/>` + p; }
+  function draw() {
+    const z1 = +$("z1").value, z2 = +$("z2").value; $("oz1").textContent = z1 + " Zähne"; $("oz2").textContent = z2 + " Zähne";
+    const r1 = z1 * 1.25, r2 = z2 * 1.25;
+    $("cog1").innerHTML = gear(z1, r1); $("cog2").innerHTML = gear(z2, r2);
+    $("chain").setAttribute("d", `M150 ${150 - r1} L400 ${130 - r2} M150 ${150 + r1} L400 ${130 + r2}`);
+    $("crank").setAttribute("transform", `translate(150 150) rotate(${crankA})`);
+    $("wheel").setAttribute("transform", `translate(400 130) rotate(${wheelA})`);
+    $("cog2").setAttribute("transform", `translate(400 130) rotate(${wheelA})`);
+  }
+  ["z1","z2"].forEach(id => $(id).addEventListener("input", () => { if (!busy) { crankA = wheelA = 0; $("gcount").textContent = ""; draw(); } }));
+  $("turn").addEventListener("click", () => {
+    if (busy) return; busy = true;
+    const z1 = +$("z1").value, z2 = +$("z2").value, i = z1 / z2, t0 = performance.now(), D = 2600;
+    const step = now => {
+      const f = Math.min(1, (now - t0) / D);
+      crankA = 360 * f; wheelA = 360 * i * f;
+      $("gcount").textContent = `Hinterrad: ${(i * f).toFixed(2).replace(".", ",")} Umdrehungen`;
+      draw();
+      if (f < 1) requestAnimationFrame(step);
+      else { busy = false; $("gtab").querySelector("tbody").insertAdjacentHTML("beforeend", `<tr><td>${z1}</td><td>${z2}</td><td>${i.toFixed(2).replace(".", ",")}</td></tr>`); }
+    };
+    requestAnimationFrame(step);
+  });
+  $("ghyp").addEventListener("change", () => {
+    const rows = $("gtab").querySelectorAll("tbody tr").length;
+    $("ghmsg").innerHTML = rows < 3 ? `<div class="msg warn">Erst mindestens drei Messungen mit verschiedenen Zahnrädern – sonst ist die Regel nicht abgesichert.</div>` : $("ghyp").value === "b" ? `<div class="msg good">Bestätigt: Umdrehungen des Hinterrads = Zähne Kettenblatt ÷ Zähne Ritzel (Übersetzung i). Induktiv: aus Einzelfällen zur Regel.</div>` : `<div class="msg bad">Prüfen Sie die Regel an Ihren Messwerten.</div>`;
+  });
+  $("dok").addEventListener("click", () => {
+    const z1 = +$("dz1").value, zs = +$("dzs").value, zl = +$("dzl").value, U = 2.1;
+    if (!z1 || !zs || !zl) return;
+    const eMin = z1 / zl * U, eMax = z1 / zs * U, ok = eMin <= 2.5 && eMax >= 6.5;
+    $("dmsg").innerHTML = `<div class="msg ${ok ? "good" : "bad"}">kleinster Gang: ${eMin.toFixed(2).replace(".", ",")} m · größter Gang: ${eMax.toFixed(2).replace(".", ",")} m – ${ok ? "Anforderungen erfüllt." : "Anforderungen noch nicht erfüllt."}</div>`;
+    $("z1").value = z1; $("z2").value = Math.min(36, Math.max(11, zl)); draw();
+  });
+  setMode("ind"); draw();
+})();
+
+/* ======================= GELB ======================= */
+(() => {
+  let kind = "lauf";
+  const pi = Math.PI;
+  function draw() {
+    const d = +$("hd").value, i = +$("hi").value / 10; $("ohd").textContent = (d / 100).toFixed(2).replace(".", ",") + " m"; $("ohi").textContent = i.toFixed(1).replace(".", ",");
+    $("hs1").style.display = kind === "hoch" ? "grid" : "none"; $("hs2").style.display = kind === "nieder" ? "grid" : "none";
+    const S = 1.3, g = 260; let svg = `<rect width="560" height="280" fill="var(--bg-2)"/><line x1="0" y1="${g}" x2="560" y2="${g}" stroke="var(--ink-3)"/>`;
+    let ent = "–", seat = 0, rows;
+    if (kind === "lauf") {
+      const r = 35 * S; svg += `<circle cx="140" cy="${g - r}" r="${r}" fill="none" stroke="var(--wood-2)" stroke-width="5"/><circle cx="400" cy="${g - r}" r="${r}" fill="none" stroke="var(--wood-2)" stroke-width="5"/><path d="M140 ${g - r} L270 ${g - r - 40} L400 ${g - r} M270 ${g - r - 40} L270 ${g - r - 55}" stroke="var(--wood-2)" stroke-width="7" fill="none"/>`;
+      seat = .8; rows = [["Antrieb", "Abstoßen mit den Füßen"], ["Weg je „Schritt“", "abhängig vom Fahrer"], ["Sattelhöhe", "ca. 0,8 m"]];
+    } else if (kind === "hoch") {
+      const r = d / 2 * S; seat = d / 100 + .15; ent = (pi * d / 100);
+      svg += `<circle cx="330" cy="${g - r}" r="${r}" fill="none" stroke="var(--ink-2)" stroke-width="4"/><circle cx="${330 - r - 60}" cy="${g - 20}" r="20" fill="none" stroke="var(--ink-2)" stroke-width="4"/><path d="M${330 - r - 60} ${g - 20} Q${330 - r} ${g - 2 * r} 330 ${g - 2 * r - 10}" fill="none" stroke="var(--ink-2)" stroke-width="5"/><line x1="330" y1="${g - r}" x2="330" y2="${g - r + 22}" stroke="var(--main)" stroke-width="6"/>`;
+      rows = [["Antrieb", "Kurbel direkt an der Vorderradachse"], ["Weg je Kurbelumdrehung", ent.toFixed(2).replace(".", ",") + " m = Radumfang"], ["Sattelhöhe ≈", seat.toFixed(2).replace(".", ",") + " m"]];
+    } else {
+      const r = 35 * S; ent = i * pi * .7; seat = .85;
+      svg += `<circle cx="150" cy="${g - r}" r="${r}" fill="none" stroke="var(--ink-2)" stroke-width="4"/><circle cx="400" cy="${g - r}" r="${r}" fill="none" stroke="var(--ink-2)" stroke-width="4"/><path d="M150 ${g - r} L260 ${g - r} L350 ${g - r - 70} L240 ${g - r - 70} Z M260 ${g - r} L230 ${g - r - 90} M350 ${g - r - 70} L400 ${g - r}" fill="none" stroke="var(--ink-2)" stroke-width="5"/><circle cx="260" cy="${g - r}" r="16" fill="none" stroke="var(--main)" stroke-width="3"/><line x1="150" y1="${g - r - 8}" x2="260" y2="${g - r - 16}" stroke="var(--main)" stroke-dasharray="5 3" stroke-width="2"/><line x1="150" y1="${g - r + 8}" x2="260" y2="${g - r + 16}" stroke="var(--main)" stroke-dasharray="5 3" stroke-width="2"/>`;
+      rows = [["Antrieb", "Kette mit Übersetzung aufs Hinterrad"], ["Weg je Kurbelumdrehung", ent.toFixed(2).replace(".", ",") + " m (Rad 0,70 m)"], ["Sattelhöhe ≈", "0,85 m"]];
+    }
+    svg += `<line x1="520" y1="${g}" x2="520" y2="${g - seat * 100 * S}" stroke="var(--main)" stroke-width="3"/><text x="514" y="${g - seat * 100 * S - 6}" text-anchor="end" style="font-size:12px;fill:var(--main)">Sattel ${seat.toFixed(2).replace(".", ",")} m</text>`;
+    $("hsvg").innerHTML = svg;
+    $("htab").innerHTML = `<tbody>${rows.map(r => `<tr><th>${r[0]}</th><td>${r[1]}</td></tr>`).join("")}</tbody>`;
+    $("hkey").innerHTML = kind === "hoch" ? "Je größer das Rad, desto weiter kommt man pro Kurbelumdrehung – aber desto höher sitzt man (Sturzgefahr nach vorn)." : kind === "nieder" ? "Mit der Übersetzung erreicht ein kleines Rad dieselbe Strecke je Kurbelumdrehung wie ein Hochrad – bei sicherer Sitzhöhe." : "Ohne Kurbel: kein Übersetzungsproblem – aber auch kein Antrieb mit den Beinen im Sitzen.";
+  }
+  document.querySelectorAll("[data-h]").forEach(b => b.addEventListener("click", () => { kind = b.dataset.h; document.querySelectorAll("[data-h]").forEach(x => x.classList.toggle("on", x === b)); draw(); }));
+  ["hd","hi"].forEach(id => $(id).addEventListener("input", draw));
+  draw();
+
+  function nat() {
+    const Ds = 10, D = +$("nd").value, d = Math.sqrt(Math.max(0, D * D - Ds * Ds)), t = (D - d) / 2, ratio = (D * D + d * d) / (Ds * Ds);
+    $("ond").textContent = D + " mm";
+    const k = 2;
+    $("outer").setAttribute("r", D * k); $("inner").setAttribute("r", d * k); $("solid").setAttribute("r", Ds * k);
+    $("ntab").innerHTML = `<tbody><tr><th>Wanddicke</th><td>${t.toFixed(2).replace(".", ",")} mm ${t < .8 ? '<span class="tag warn">Beulgefahr</span>' : ""}</td></tr><tr><th>Masse je Meter</th><td>gleich wie Vollstab</td></tr><tr><th>Biegesteifigkeit gegenüber Vollstab</th><td><b>${ratio.toFixed(1).replace(".", ",")}-fach</b></td></tr></tbody>`;
+  }
+  $("nd").addEventListener("input", nat); nat();
+})();
+
+/* ======================= LILA ======================= */
+(() => {
+  const AK = ["analytisch","synthetisch","induktiv","deduktiv","historisch","reduktiv"];
+  const ITEMS = [
+    ["Warum quietscht die Bremse? Die Ursache finden.", "analytisch", ["induktiv"], "Diagnoseaufgabe; Vermutungen bilden und prüfen."],
+    ["Eine Klasse dokumentiert den Zustand von zehn Schulrädern und empfiehlt Maßnahmen.", "synthetisch", ["analytisch"], "Inspektionsaufgabe; es entsteht eine Dokumentation."],
+    ["Aus Messungen herausfinden, wie die Übersetzung wirkt.", "induktiv", ["analytisch"], "Technisches Experiment."],
+    ["Mit der Übersetzungsformel die Schaltung für ein Lastenrad auslegen.", "deduktiv", ["synthetisch"], "Konstruktionsaufgabe unter Vorgabe einer Gesetzmäßigkeit."],
+    ["Vom Hochrad zum Niederrad: Warum setzte sich die Kette durch?", "historisch", ["analytisch"], "Historisch-genetisches Verfahren; Vergleich der Bauformen."],
+    ["Wie ein Grashalm: Rahmenrohre leicht und steif gestalten.", "reduktiv", ["analytisch","deduktiv"], "Naturstudie; das biologische System wird analysiert."],
+    ["Eine Handyhalterung für den Lenker bauen.", "synthetisch", ["analytisch"], "Fertigungs- bzw. Konstruktionsaufgabe; Auftrag zuerst analysieren."],
+    ["Einen platten Reifen flicken.", "synthetisch", ["analytisch"], "Instandsetzungsaufgabe; Schaden finden gehört dazu."],
+    ["Ein reparierter Rahmen: War die Reparatur fachgerecht?", "analytisch", [], "Instandsetzungsanalyse – eine durchgeführte Arbeit wird untersucht."],
+    ["Schulweg 2040: drei Zukunftsbilder für Rad und Mobilität entwerfen.", "synthetisch", [], "Szenariomethode."]
+  ];
+  $("zu").querySelector("tbody").innerHTML = ITEMS.map((it, r) => `<tr><td>${it[0]}<div class="sol">💡 <b>${it[1]}</b>${it[2].length ? " · Neben: " + it[2].join(", ") : ""} – ${it[3]}</div></td><td><select data-r="${r}"><option value="">…</option>${AK.map(a => `<option>${a}</option>`).join("")}</select></td><td><div class="neb">${AK.map(a => `<label><input type="checkbox" data-r="${r}" value="${a}">${a}</label>`).join("")}</div></td></tr>`).join("");
+  $("zsol").addEventListener("click", () => {
+    $("zu").classList.add("showsol");
+    let hit = 0, neb = 0;
+    ITEMS.forEach((it, r) => {
+      const s = $("zu").querySelector(`select[data-r="${r}"]`); if (s.value === it[1]) hit++;
+      s.style.borderColor = s.value ? (s.value === it[1] ? "var(--good)" : "var(--warn)") : "";
+      if ($("zu").querySelectorAll(`input[data-r="${r}"]:checked`).length) neb++;
+    });
+    $("zres").innerHTML = `Hauptakzent übereinstimmend: <b>${hit}/10</b> · Sie haben bei <b>${neb}</b> Ideen Nebenakzente gesehen. Abweichungen sind Diskussionsstoff, keine Fehler: Begründen Sie Ihre Wahl.`;
+  });
+})();
+</script>
+</body>
+</html>

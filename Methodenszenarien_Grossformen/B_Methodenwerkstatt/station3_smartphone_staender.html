@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Konstruktion Smartphone-Ständer</title>
+<meta name="description" content="Station 3 der Methodenwerkstatt: Konstruktionsaufgabe als Simulation – einen Smartphone-Ständer aus einem Stück Pappe entwerfen, auf Kippsicherheit prüfen und Varianten bewerten; wahlweise synthetisch oder deduktiv akzentuiert.">
+<meta name="author" content="Hannes Tegelbeckers">
+<link rel="icon" href="../../assets/ovgu_logo.svg" type="image/svg+xml">
+<link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;0,600;1,400&family=Barlow+Semi+Condensed:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../shared/sim.css">
+<style>
+#scene { transition: transform .6s ease; transform-origin: 380px 300px; }
+.req td:last-child { white-space: nowrap; }
+.formula { font-family: ui-monospace, Menlo, Consolas, monospace; background: var(--bg-2); border: 1px solid var(--line); border-radius: 6px; padding: .5rem .7rem; margin: .4rem 0; }
+.ideas { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .5rem; }
+.ideas button { text-align: left; }
+@media (max-width: 640px) { .ideas { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <div><div class="kicker"><span class="tag warn">🧪 Testversion</span> Methodenwerkstatt · Station 3 · synthetisch (oder deduktiv) akzentuiert</div><h1>Ein Ständer aus einem Stück Pappe 📱</h1></div>
+  <button class="themebtn" id="theme">☾ Dunkel</button>
+</div></header>
+
+<main class="wrap">
+  <div class="card tint">
+    <p><b>Ihre Rolle:</b> Schülerin/Schüler der Klasse 8. Für den Technikraum werden Smartphone-Ständer gebraucht, damit Videoanleitungen an der Werkbank sichtbar sind.</p>
+    <div class="row" style="margin:.3rem 0 .5rem">
+      <b>Modus:</b>
+      <button class="chip on" data-mode="syn">synthetisch: entwerfen und erproben</button>
+      <button class="chip" data-mode="ded">deduktiv: Gesetzmäßigkeit vorgegeben</button>
+    </div>
+    <ol class="pahl" id="pahl">
+      <li>Konstruktionsaufgabe stellen</li><li>Problemstellung klären</li><li>Intuitive Vorschläge</li><li>Bewertungsmaßstäbe wählen</li><li>Informationen sammeln</li><li>Lösungsvarianten</li><li>Grundprinzip entwerfen</li><li>Konstruktive Gestaltung</li><li>Beurteilen, optimieren, vergleichen</li><li>Auswertung der Vorgehensweise</li>
+    </ol>
+    <p class="small muted" style="margin:.4rem 0 0">Typische Schritte der Konstruktionsaufgabe nach Pahl (R117–R118). Deduktiv akzentuiert: „unter Vorgabe von Gesetzmäßigkeiten“ (R123).</p>
+  </div>
+
+  <div class="grid2">
+    <div class="card">
+      <h3>② Anforderungsliste klären</h3>
+      <table class="t req">
+        <thead><tr><th>Anforderung</th><th>Muss / Wunsch</th></tr></thead>
+        <tbody>
+          <tr><td>aus einem Stück Wellpappe, Abwicklung höchstens 297 mm lang (A4)</td><td><select class="mw"><option>?</option><option>Muss</option><option>Wunsch</option></select></td></tr>
+          <tr><td>Neigung des Smartphones 60–70° (im Stehen ablesbar)</td><td><select class="mw"><option>?</option><option>Muss</option><option>Wunsch</option></select></td></tr>
+          <tr><td>kippt erst, wenn der Tisch um mehr als 15° geneigt wird (Antippen, Stoß an der Werkbank)</td><td><select class="mw"><option>?</option><option>Muss</option><option>Wunsch</option></select></td></tr>
+          <tr><td>möglichst wenig Material</td><td><select class="mw"><option>?</option><option>Muss</option><option>Wunsch</option></select></td></tr>
+          <tr><td>flach zusammenlegbar</td><td><select class="mw"><option>?</option><option>Muss</option><option>Wunsch</option></select></td></tr>
+        </tbody>
+      </table>
+      <p class="small muted">Prüflast: Smartphone 150 × 75 × 8 mm, 180 g. Pappe: ca. 0,2 g je mm Abwicklung.</p>
+    </div>
+
+    <div class="card">
+      <h3>③ Intuitive Vorschläge · ⑥ Lösungsvarianten</h3>
+      <p class="small">Welches Grundprinzip würden Sie spontan wählen? (Mehrfachwahl, später vergleichen)</p>
+      <div class="ideas" id="ideas">
+        <button class="btn" data-i="dreieck">🔺 Dreieck (Stütze nach hinten)</button>
+        <button class="btn" data-i="stecken">✂️ Zwei gesteckte Scheiben</button>
+        <button class="btn" data-i="falt">🪭 Gefaltete Welle</button>
+      </div>
+      <p class="small" style="margin-top:.6rem">Simuliert wird das <b>Dreieck</b>: vorne eine Lippe, hinten ein Fuß, dazwischen eine schräge Stütze. Die anderen Prinzipien diskutieren Sie im Vergleich.</p>
+      <h3 style="margin-top:.6rem">④ Bewertungsmaßstäbe</h3>
+      <p class="small">Gewichten Sie (Summe 100 %):</p>
+      <div class="slider"><label for="wK">Kippsicherheit</label><input type="range" id="wK" min="0" max="100" value="50"><output id="owK">50 %</output></div>
+      <div class="slider"><label for="wM">Materialbedarf</label><input type="range" id="wM" min="0" max="100" value="30"><output id="owM">30 %</output></div>
+      <div class="slider"><label for="wN">Ablesbarkeit</label><input type="range" id="wN" min="0" max="100" value="20"><output id="owN">20 %</output></div>
+      <p class="small" id="wsum"></p>
+    </div>
+  </div>
+
+  <div class="card" id="dedbox" style="display:none">
+    <h3>⑤ Vorgegebene Gesetzmäßigkeit (deduktiv)</h3>
+    <p>Ein Körper kippt nicht, solange das Lot durch seinen <b>Schwerpunkt S</b> innerhalb der <b>Standfläche</b> bleibt. Wird die Unterlage um den Winkel θ geneigt, kippt er über die Kante, sobald</p>
+    <div class="formula">tan θ  >  a / h &nbsp;&nbsp;&nbsp; a = waagerechter Abstand von S zur Kippkante · h = Höhe von S über der Unterlage</div>
+    <p class="small"><b>Auftrag:</b> Berechnen Sie <i>vor</i> dem Erproben: Wie groß muss a mindestens sein, damit der Ständer bei h = 55 mm erst ab 15° kippt? Tragen Sie Ihr Ergebnis ein und konstruieren Sie danach gezielt.</p>
+    <div class="row"><input type="number" id="amin" placeholder="a in mm" style="width:9rem"><button class="btn" id="aok">Prüfen</button><span id="amsg" class="small"></span></div>
+  </div>
+
+  <div class="split">
+    <div class="card">
+      <h3>⑦–⑧ Gestalten und erproben</h3>
+      <svg viewBox="0 0 760 340" aria-label="Seitenansicht des Ständers mit Smartphone">
+        <rect x="0" y="0" width="760" height="340" fill="var(--bg-2)"/>
+        <g id="scene">
+          <rect x="40" y="300" width="680" height="14" fill="var(--wood)"/>
+          <g id="stand"></g>
+          <g id="phone"></g>
+          <g id="cog"></g>
+        </g>
+        <text x="16" y="24" id="tiltlbl" style="font-size:14px;font-weight:600"></text>
+      </svg>
+      <div class="slider"><label for="alpha">Neigung α</label><input type="range" id="alpha" min="45" max="85" value="55"><output id="oalpha"></output></div>
+      <div class="slider"><label for="lip">Lippe vorne f</label><input type="range" id="lip" min="5" max="60" value="10"><output id="olip"></output></div>
+      <div class="slider"><label for="foot">Fuß hinten b</label><input type="range" id="foot" min="20" max="160" value="40"><output id="ofoot"></output></div>
+      <div class="slider"><label for="sup">Stützpunkt am Handy</label><input type="range" id="sup" min="30" max="90" value="60"><output id="osup"></output></div>
+      <div class="row" style="margin-top:.5rem">
+        <button class="btn" id="tiltF">↙ Tisch nach vorn neigen</button>
+        <button class="btn" id="tiltB">↘ Tisch nach hinten neigen</button>
+        <button class="btn" id="tilt0">↺ gerade</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>⑨ Beurteilen</h3>
+      <table class="t" id="checks"></table>
+      <p class="small muted" style="margin-top:.4rem">Modell: Schwerpunkt aus Smartphone (180 g) und Pappe; Kippwinkel nach tan θ = a/h. Vereinfachung: Pappe biegesteif, keine Rutschgefahr.</p>
+      <div class="row"><button class="btn primary" id="save">💾 Variante speichern</button></div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h3>⑨ Vergleich der Varianten</h3>
+    <div class="tablewrap"><table class="t" id="vars"><thead><tr><th>#</th><th>α</th><th>f</th><th>b</th><th>Kippen vorn</th><th>Kippen hinten</th><th>Material</th><th>Alle Muss erfüllt?</th><th>Nutzwert</th></tr></thead><tbody></tbody></table></div>
+    <label class="f" for="choice">Welche Variante wählen Sie – und was würden Sie in Version 2 ändern?</label>
+    <textarea id="choice"></textarea>
+  </div>
+
+  <div class="meta">
+    <h3>🪞 Doppeldecker – ⑩ Auswertung der Vorgehensweise</h3>
+    <ul>
+      <li>Haben Sie eher <b>probiert</b> (Regler schieben, Ergebnis ansehen) oder <b>gerechnet</b>? Probieren und daraus lernen ist induktiv, Rechnen aus der Regel deduktiv – welcher Akzent überwog bei Ihnen?</li>
+      <li>Wechseln Sie den Modus. Was ändert sich für die Lernenden, wenn die Gesetzmäßigkeit vorgegeben ist? → Konstruktionsaufgabe synthetisch (R117) <b>und</b> deduktiv (R123).</li>
+      <li>Welche der zehn Schritte hat die Simulation übersprungen oder nur angedeutet?</li>
+    </ul>
+    <p class="small"><a href="../shared/pruefungskarten.html?pool=st3" target="_blank" rel="noopener">→ Prüfungskarte zu dieser Station öffnen</a></p>
+  </div>
+
+  <footer class="foot">Testversion – wird erprobt, Änderungen vorbehalten · Konstruktionsaufgabe nach Pahl (Folien R117–R118, R123; Folienbeispiele: Blumenbänke, Auto mit geringem cw-Wert) · Simulation für die Methodenwerkstatt S06.</footer>
+</main>
+
+<script src="../shared/sim.js"></script>
+<script>
+Sim.initTheme(document.getElementById("theme"));
+const $ = id => document.getElementById(id);
+const de = x => x.toFixed(1).replace(".", ",");
+const S = 1.6, X0 = 300, Y0 = 300; // Maßstab px/mm, Ursprung = Vorderkante des Fußpunkts des Handys
+const PH = 150, PT = 8, MP = 180, LIPH = 10, GPMM = .2;
+let tilt = 0, mode = "syn", reached = 2;
+function reach(k) { reached = Math.max(reached, k); Sim.markStep($("pahl"), reached); }
+reach(1);
+
+function model() {
+  const a = +$("alpha").value * Math.PI / 180, f = +$("lip").value, b = +$("foot").value, sp = +$("sup").value / 100;
+  // Handy: Unterkante bei x=0, y=LIPH; lehnt nach hinten (x positiv)
+  const top = [PH * Math.cos(a), LIPH + PH * Math.sin(a)];
+  const cP = [PH / 2 * Math.cos(a) + PT / 2 * Math.sin(a), LIPH + PH / 2 * Math.sin(a)];
+  // Stütze: vom hinteren Fußende (b,0) zum Stützpunkt am Handyrücken
+  const s = [sp * PH * Math.cos(a) + PT * Math.sin(a), LIPH + sp * PH * Math.sin(a)];
+  const strut = Math.hypot(b - s[0], s[1]);
+  // Abwicklung: Lippe hoch (10) + Lippe vorn f + Boden bis Fuß b + Stütze + Lasche 20
+  const mat = LIPH + f + b + strut + 20;
+  const mS = mat * GPMM;
+  // Schwerpunkt Pappe (grob): Mittel der Segmente gewichtet nach Länge
+  const segs = [[-f / 2, 0, f], [b / 2, 0, b], [(b + s[0]) / 2, s[1] / 2, strut], [0, LIPH / 2, LIPH]];
+  const L = segs.reduce((q, g) => q + g[2], 0);
+  const cS = [segs.reduce((q, g) => q + g[0] * g[2], 0) / L, segs.reduce((q, g) => q + g[1] * g[2], 0) / L];
+  const M = MP + mS, cx = (cP[0] * MP + cS[0] * mS) / M, cy = (cP[1] * MP + cS[1] * mS) / M;
+  // Standfläche: von −f (vorn) bis max(b, ...) (hinten)
+  const front = -f, back = Math.max(b, 0);
+  const aF = cx - front, aB = back - cx;
+  const thF = aF > 0 ? Math.atan(aF / cy) * 180 / Math.PI : 0;
+  const thB = aB > 0 ? Math.atan(aB / cy) * 180 / Math.PI : 0;
+  return { a, f, b, top, s, strut, mat, cx, cy, thF, thB, aF, aB, stable: aF > 0 && aB > 0 };
+}
+const P = (x, y) => `${X0 + x * S},${Y0 - y * S}`;
+function draw() {
+  const m = model();
+  $("oalpha").textContent = $("alpha").value + "°"; $("olip").textContent = $("lip").value + " mm"; $("ofoot").textContent = $("foot").value + " mm"; $("osup").textContent = $("sup").value + " %";
+  $("stand").innerHTML = `<polyline points="${P(0, LIPH)} ${P(0, 0)} ${P(-m.f, 0)}" fill="none" stroke="#a0763f" stroke-width="5"/>
+    <polyline points="${P(0, 0)} ${P(m.b, 0)} ${P(m.s[0], m.s[1])}" fill="none" stroke="#a0763f" stroke-width="5" stroke-linejoin="round"/>`;
+  const a = m.a, n = [Math.sin(a), -Math.cos(a)];
+  const p0 = [0, LIPH], p1 = m.top, p2 = [m.top[0] + PT * n[0] * -1, m.top[1] - PT * n[1] * -1];
+  $("phone").innerHTML = `<polygon points="${P(p0[0], p0[1])} ${P(p1[0], p1[1])} ${P(p1[0] + PT * Math.sin(a), p1[1] - PT * Math.cos(a))} ${P(PT * Math.sin(a), LIPH - PT * Math.cos(a))}" fill="var(--ink-2)"/>`;
+  const tc = m.stable && (tilt === 0 || (tilt > 0 ? m.thB > tilt : m.thF > -tilt));
+  $("cog").innerHTML = `<circle cx="${X0 + m.cx * S}" cy="${Y0 - m.cy * S}" r="7" fill="${tc ? "var(--good)" : "var(--bad)"}"/><text x="${X0 + m.cx * S + 10}" y="${Y0 - m.cy * S - 8}" style="font-size:13px;font-weight:700">S</text>
+    <line x1="${X0 + m.cx * S}" y1="${Y0 - m.cy * S}" x2="${X0 + m.cx * S}" y2="${Y0}" stroke="${tc ? "var(--good)" : "var(--bad)"}" stroke-dasharray="4 4" stroke-width="2"/>
+    <line x1="${X0 - m.f * S}" y1="${Y0 + 6}" x2="${X0 + m.b * S}" y2="${Y0 + 6}" stroke="var(--main)" stroke-width="4"/>
+    <text x="${X0 + (m.b - m.f) / 2 * S}" y="${Y0 + 30}" text-anchor="middle" style="font-size:12px;fill:var(--main)">Standfläche</text>`;
+  $("scene").style.transform = `rotate(${tilt}deg)`;
+  $("tiltlbl").textContent = tilt ? `Tisch ${Math.abs(tilt)}° ${tilt > 0 ? "nach hinten" : "nach vorn"} geneigt → ${tc ? "steht" : "KIPPT"}` : "";
+  const ang = +$("alpha").value;
+  const rows = [
+    ["Neigung 60–70°", `${ang}°`, ang >= 60 && ang <= 70],
+    ["Kippen nach vorn erst ab 15°", m.stable ? de(m.thF) + "°" : "instabil", m.stable && m.thF >= 15],
+    ["Kippen nach hinten erst ab 15°", m.stable ? de(m.thB) + "°" : "instabil", m.stable && m.thB >= 15],
+    ["Abwicklung ≤ 297 mm", Math.round(m.mat) + " mm", m.mat <= 297]
+  ];
+  $("checks").innerHTML = `<thead><tr><th>Anforderung</th><th>Wert</th><th></th></tr></thead><tbody>` + rows.map(r => `<tr><td>${r[0]}</td><td>${r[1]}</td><td>${r[2] ? '<span class="tag good">erfüllt</span>' : '<span class="tag bad">nicht erfüllt</span>'}</td></tr>`).join("") + `</tbody>`;
+  return { m, ok: rows.every(r => r[2]) };
+}
+["alpha","lip","foot","sup"].forEach(id => $(id).addEventListener("input", () => { draw(); reach(8); }));
+$("tiltF").addEventListener("click", () => { tilt = -15; draw(); reach(9); });
+$("tiltB").addEventListener("click", () => { tilt = 15; draw(); reach(9); });
+$("tilt0").addEventListener("click", () => { tilt = 0; draw(); });
+
+function weights() {
+  const k = +$("wK").value, mm = +$("wM").value, nn = +$("wN").value, s = k + mm + nn || 1;
+  $("owK").textContent = k + " %"; $("owM").textContent = mm + " %"; $("owN").textContent = nn + " %";
+  $("wsum").innerHTML = s === 100 ? '<span class="tag good">Summe 100 %</span>' : `<span class="tag warn">Summe ${s} % – wird anteilig umgerechnet</span>`;
+  return [k / s, mm / s, nn / s];
+}
+["wK","wM","wN"].forEach(id => $(id).addEventListener("input", () => { weights(); reach(4); }));
+
+let nVar = 0;
+$("save").addEventListener("click", () => {
+  const { m, ok } = draw(), w = weights();
+  const sk = m.stable ? Math.min(1, Math.min(m.thF, m.thB) / 30) : 0, sm = Math.max(0, Math.min(1, (330 - m.mat) / 150)), ang = +$("alpha").value, sn = Math.max(0, 1 - Math.abs(ang - 65) / 20);
+  const nw = Math.round(100 * (w[0] * sk + w[1] * sm + w[2] * sn));
+  nVar++;
+  $("vars").querySelector("tbody").insertAdjacentHTML("beforeend", `<tr><td>${nVar}</td><td>${ang}°</td><td>${m.f}</td><td>${m.b}</td><td>${m.stable ? de(m.thF) + "°" : "–"}</td><td>${m.stable ? de(m.thB) + "°" : "–"}</td><td>${Math.round(m.mat)} mm</td><td>${ok ? '<span class="tag good">ja</span>' : '<span class="tag bad">nein</span>'}</td><td><b>${nw}</b></td></tr>`);
+  reach(nVar >= 2 ? 9 : 8);
+});
+document.querySelectorAll("#ideas button").forEach(b => b.addEventListener("click", () => { b.classList.toggle("on"); reach(3); }));
+document.querySelectorAll(".mw").forEach(s => s.addEventListener("change", () => reach(2)));
+document.querySelectorAll("[data-mode]").forEach(b => b.addEventListener("click", () => {
+  mode = b.dataset.mode; document.querySelectorAll("[data-mode]").forEach(x => x.classList.toggle("on", x === b));
+  $("dedbox").style.display = mode === "ded" ? "block" : "none";
+}));
+$("aok").addEventListener("click", () => {
+  const v = +$("amin").value, target = 55 * Math.tan(15 * Math.PI / 180);
+  $("amsg").innerHTML = Math.abs(v - target) < 1.5 ? `<span class="tag good">richtig: a ≥ 55 mm · tan 15° ≈ ${de(target)} mm</span>` : `<span class="tag warn">noch nicht – a = h · tan θ</span>`;
+  reach(5);
+});
+$("choice").addEventListener("input", () => reach(10));
+weights(); draw();
+</script>
+</body>
+</html>
